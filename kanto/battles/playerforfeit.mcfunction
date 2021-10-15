@@ -18,6 +18,6 @@ stopsound @s record
 scoreboard players set @s MusicCooldown 0
 
 
-
+scoreboard players tag @s remove ActiveBattle
 scoreboard players tag @s remove BattleForefit
 scoreboard players set @s TrainerClass 0

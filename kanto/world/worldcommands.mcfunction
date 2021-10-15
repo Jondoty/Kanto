@@ -73,10 +73,14 @@ execute @a[tag=TrackSeek] ~ ~ ~ function kanto:world/music if @s[tag=!RadioOff]
 
 
 
+
+#Largely doesn't work since battle music was added
+
 #Switches between music for riding Pokemon and Bikes
-#execute @a[score_MusicCooldown_min=1,tag=BikeCheck] ~ ~-3 ~ execute @e[type=pixelmon:bike,dy=3] ~ ~ ~ scoreboard players tag @a[tag=BikeCheck,dy=5] add Skip
+#scoreboard players tag @a[tag=ActiveBattle] add Skip
+#execute @a[score_MusicCooldown_min=1,tag=BikeCheck] ~ ~-4 ~ execute @e[type=pixelmon:bike,dy=2] ~ ~ ~ scoreboard players tag @a[tag=BikeCheck,dy=3] add Skip
 #Pokemon Variant
-#execute @a[score_MusicCooldown_min=1,tag=RideCheck] ~ ~-3 ~ execute @e[type=pixelmon:pixelmon,dy=5] ~ ~ ~ scoreboard players tag @a[tag=RideCheck,dy=5] add Skip
+#execute @a[score_MusicCooldown_min=1,tag=RideCheck] ~ ~-4 ~ execute @e[type=pixelmon:pixelmon,dy=2] ~ ~ ~ scoreboard players tag @a[tag=RideCheck,dy=4] add Skip
 
 #Stops sounds and resets Music if player leaves entity
 #execute @a[score_MusicCooldown_min=1,tag=BikeCheck] ~ ~ ~ stopsound @a[tag=!Skip] record
@@ -93,9 +97,9 @@ execute @a[tag=TrackSeek] ~ ~ ~ function kanto:world/music if @s[tag=!RadioOff]
 
 
 #Bike
-#execute @a[score_MusicCooldown_min=1,tag=!BikeCheck] ~ ~-3 ~ execute @e[type=pixelmon:bike,dy=3] ~ ~ ~ scoreboard players tag @a[tag=!BikeCheck,dy=5] add Skip
+#execute @a[score_MusicCooldown_min=1,tag=!BikeCheck] ~ ~-4 ~ execute @e[type=pixelmon:bike,dy=2] ~ ~ ~ scoreboard players tag @a[tag=!BikeCheck,dy=5] add Skip
 #Pokemon Variant
-#execute @a[score_MusicCooldown_min=1,tag=!RideCheck] ~ ~-3 ~ execute @e[type=pixelmon:pixelmon,dy=5] ~ ~ ~ scoreboard players tag @a[tag=!RideCheck,dy=5] add Skip
+#execute @a[score_MusicCooldown_min=1,tag=!RideCheck] ~ ~-4 ~ execute @e[type=pixelmon:pixelmon,dy=2] ~ ~ ~ scoreboard players tag @a[tag=!RideCheck,dy=5] add Skip
 
 #Stops sounds and resets Music if player leaves entity
 #execute @a[score_MusicCooldown_min=1,tag=!BikeCheck] ~ ~ ~ stopsound @a[tag=Skip] record
@@ -105,6 +109,7 @@ execute @a[tag=TrackSeek] ~ ~ ~ function kanto:world/music if @s[tag=!RadioOff]
 #execute @a[score_MusicCooldown_min=1,tag=!RideCheck] ~ ~ ~ scoreboard players set @a[tag=Skip] MusicCooldown 0
 
 #scoreboard players tag @a[tag=Skip] remove Skip
+
 
 
 #Runs trainer music
@@ -125,6 +130,7 @@ execute @a[tag=BattleLose] ~ ~ ~ function kanto:battles/playerlose
 #Battle Forefit (player)
 #/tedit add FORFEIT scoreboard players tag @pl add BattleForefit
 execute @a[tag=BattleForefit] ~ ~ ~ function kanto:battles/playerforfeit
+
 
 
 

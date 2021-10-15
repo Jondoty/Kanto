@@ -17,7 +17,7 @@ scoreboard players set @s MusicCooldown 0
 
 execute @s ~ ~ ~ function kanto:world/music
 
-
+scoreboard players tag @s add ActiveBattle
 
 
 scoreboard players tag @s remove BattleStart

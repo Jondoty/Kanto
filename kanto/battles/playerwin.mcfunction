@@ -37,6 +37,7 @@ scoreboard players tag @s remove RivalBattleMusic
 #--------------------------------------------------------------------------------------------------------
 
 #Resets score and tags
+scoreboard players tag @s remove ActiveBattle
 scoreboard players tag @s remove BattleWin
 scoreboard players set @s TrainerClass 0
 
