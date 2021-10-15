@@ -24,6 +24,28 @@ scoreboard players set @s[tag=RivalBattleMusic,score_MusicCooldown=0] MusicCoold
 
 
 
+#Deoxys battle
+execute @s[type=player] ~ ~ ~ scoreboard players tag @e[r=25,type=pixelmon:pixelmon,tag=!DeoxysMusic] add DeoxysMusic {ndex:386s,OwnerUUID:""}
+
+execute @e[tag=DeoxysMusic,type=pixelmon:pixelmon,c=1] ~ ~ ~ playsound battledeoxys record @a[r=25,score_MusicCooldown=0,score_TalkTime=0] ~ ~ ~ 1000 1 1
+execute @e[tag=DeoxysMusic,type=pixelmon:pixelmon] ~ ~ ~ scoreboard players set @a[r=25,score_MusicCooldown=0,score_TalkTime=0] MusicCooldown 226
+
+
+#Legendary battles
+execute @s[type=player] ~ ~ ~ scoreboard players tag @e[r=25,type=pixelmon:pixelmon,tag=!LegendaryMusic] add LegendaryMusic {ndex:144s,OwnerUUID:""}
+execute @s[type=player] ~ ~ ~ scoreboard players tag @e[r=25,type=pixelmon:pixelmon,tag=!LegendaryMusic] add LegendaryMusic {ndex:145s,OwnerUUID:""}
+execute @s[type=player] ~ ~ ~ scoreboard players tag @e[r=25,type=pixelmon:pixelmon,tag=!LegendaryMusic] add LegendaryMusic {ndex:146s,OwnerUUID:""}
+execute @s[type=player] ~ ~ ~ scoreboard players tag @e[r=25,type=pixelmon:pixelmon,tag=!LegendaryMusic] add LegendaryMusic {ndex:150s,OwnerUUID:""}
+execute @s[type=player] ~ ~ ~ scoreboard players tag @e[r=25,type=pixelmon:pixelmon,tag=!LegendaryMusic] add LegendaryMusic {ndex:151s,OwnerUUID:""}
+execute @s[type=player] ~ ~ ~ scoreboard players tag @e[r=25,type=pixelmon:pixelmon,tag=!LegendaryMusic] add LegendaryMusic {ndex:249s,OwnerUUID:""}
+execute @s[type=player] ~ ~ ~ scoreboard players tag @e[r=25,type=pixelmon:pixelmon,tag=!LegendaryMusic] add LegendaryMusic {ndex:243s,OwnerUUID:""}
+execute @s[type=player] ~ ~ ~ scoreboard players tag @e[r=25,type=pixelmon:pixelmon,tag=!LegendaryMusic] add LegendaryMusic {ndex:244s,OwnerUUID:""}
+execute @s[type=player] ~ ~ ~ scoreboard players tag @e[r=25,type=pixelmon:pixelmon,tag=!LegendaryMusic] add LegendaryMusic {ndex:245s,OwnerUUID:""}
+
+execute @e[tag=LegendaryMusic,type=pixelmon:pixelmon,c=1] ~ ~ ~ playsound battlelegend record @a[r=25,score_MusicCooldown=0,score_TalkTime=0] ~ ~ ~ 1000 1 1
+execute @e[tag=LegendaryMusic,type=pixelmon:pixelmon] ~ ~ ~ scoreboard players set @a[r=25,score_MusicCooldown=0,score_TalkTime=0] MusicCooldown 80
+
+
 
 #---------------------------------------------------------------------------------------------
 #Secondary Priority (Riding Entities)
