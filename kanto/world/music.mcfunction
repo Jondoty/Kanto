@@ -86,6 +86,11 @@ playsound viridianforest record @s[x=4147,y=0,z=437,dx=144,dy=256,dz=163,score_M
 scoreboard players set @s[x=4147,y=0,z=437,dx=144,dy=256,dz=163,score_MusicCooldown=0] MusicCooldown 227
 
 
+#Pokemon Centers
+#/summon armor_stand ~ ~3 ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:"PokemonCenter",DisabledSlots:2039583}
+execute @e[type=armor_stand,name=PokemonCenter] ~ ~-3 ~ playsound pokemoncenter record @a[r=11,tag=!RadioOff,score_MusicCooldown=0] ~ ~ ~ 1000 1 1
+execute @e[type=armor_stand,name=PokemonCenter] ~ ~-3 ~ scoreboard players set @a[r=11,tag=!RadioOff,score_MusicCooldown=0] MusicCooldown 102
+
 
 
 #---------------------------------------------------------------------------------------------
