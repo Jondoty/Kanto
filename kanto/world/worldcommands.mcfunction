@@ -7,6 +7,8 @@ execute @a[x=3870,y=40,z=1195,dx=2,dy=2,dz=2] ~ ~ ~ function kanto:triggers/star
 #------------------------------------------------------------------------------
 #World important triggers
 
+#Relog trigger
+execute @a[score_Relog_min=1] ~ ~ ~ function kanto:triggers/relog
 
 
 #Runs when player is near/within a Pokemon Center
