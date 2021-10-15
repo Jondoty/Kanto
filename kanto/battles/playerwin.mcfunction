@@ -11,12 +11,12 @@ stopsound @s record
 
 
 #Plays specific win sounds depending on TrainerClass
-playsound battlevictory record @s[score_TrainerClass_min=1,score_TrainerClass=1] ~ ~ ~ 1000 1 1
-scoreboard players set @s[score_TrainerClass_min=1,score_TrainerClass=1] MusicCooldown 24
+playsound battlevictory record @s[score_TrainerClass_min=1,score_TrainerClass=1,tag=!RadioOff] ~ ~ ~ 1000 1 1
+scoreboard players set @s[score_TrainerClass_min=1,score_TrainerClass=1,tag=!RadioOff] MusicCooldown 24
 
 #Gym Leaders & Elite Four
-playsound victorygymleader record @s[score_TrainerClass_min=2,score_TrainerClass=3] ~ ~ ~ 1000 1 1
-scoreboard players set @s[score_TrainerClass_min=2,score_TrainerClass=3] MusicCooldown 80
+playsound victorygymleader record @s[score_TrainerClass_min=2,score_TrainerClass=3,tag=!RadioOff] ~ ~ ~ 1000 1 1
+scoreboard players set @s[score_TrainerClass_min=2,score_TrainerClass=3,tag=!RadioOff] MusicCooldown 80
 
 
 

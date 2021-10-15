@@ -15,7 +15,7 @@ scoreboard players tag @s[score_TrainerClass_min=3,score_TrainerClass=3] add Riv
 stopsound @s record
 scoreboard players set @s MusicCooldown 0
 
-execute @s ~ ~ ~ function kanto:world/music
+execute @s[tag=!RadioOff] ~ ~ ~ function kanto:world/music
 
 scoreboard players tag @s add ActiveBattle
 
