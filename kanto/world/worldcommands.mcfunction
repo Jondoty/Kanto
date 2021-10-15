@@ -3,6 +3,17 @@
 execute @a[x=3870,y=40,z=1195,dx=2,dy=2,dz=2] ~ ~ ~ function kanto:world/startingcommands
 
 
+
+#------------------------------------------------------------------------------
+#World important triggers
+
+
+
+#Runs when player is near/within a Pokemon Center
+execute @e[type=armor_stand,name=PokemonCenter] ~ ~-3 ~ function kanto:triggers/pokemoncenters if @a[r=15]
+
+
+
 #------------------------------------------------------------------------------
 
 #Runs if player can fly
@@ -12,25 +23,7 @@ execute @a[score_Fly_min=1] ~ ~ ~ function kanto:hms/fly
 execute @p[x=4181,y=243,z=1134,r=40] ~ ~ ~ function kanto:hms/flymap
 
 
-#Gives players Fly tags in Pokemon Centers around world
-scoreboard players tag @a[x=4123,y=35,z=-747,r=10,tag=!FlyCinnabar] add FlyCinnabar
-scoreboard players tag @a[x=4152,y=35,z=163,r=10,tag=!FlyViridian] add FlyViridian
-scoreboard players tag @a[x=4196,y=35,z=757,r=10,tag=!FlyPewter] add FlyPewter
-scoreboard players tag @a[x=4497,y=35,z=207,r=10,tag=!FlyVictory] add FlyVictory
-scoreboard players tag @a[x=4562,y=54,z=466,r=10,tag=!FlyIndigo] add FlyIndigo
-scoreboard players tag @a[x=3393,y=35,z=531,r=10,tag=!FlyCeladon] add FlyCeladon
-scoreboard players tag @a[x=3451,y=35,z=-452,r=10,tag=!FlyFuchsia] add FlyFuchsia
-scoreboard players tag @a[x=3142,y=35,z=160,r=10,tag=!FlyVermilion] add FlyVermilion
-scoreboard players tag @a[x=3151,y=35,z=432,r=10,tag=!FlySaffron] add FlySaffron
-scoreboard players tag @a[x=3112,y=35,z=881,r=10,tag=!FlyCerulean] add FlyCerulean
-scoreboard players tag @a[x=2603,y=35,z=511,r=10,tag=!FlyLavender] add FlyLavender
-#scoreboard players tag @a[x=4123,y=35,z=-747,r=10,tag=!FlyOne] add FlyOne
-#scoreboard players tag @a[x=4123,y=35,z=-747,r=10,tag=!FlyTwo] add FlyTwo
-#scoreboard players tag @a[x=4123,y=35,z=-747,r=10,tag=!FlyThree] add FlyThree
-#scoreboard players tag @a[x=4123,y=35,z=-747,r=10,tag=!FlyFour] add FlyFour
-#scoreboard players tag @a[x=4123,y=35,z=-747,r=10,tag=!FlyFive] add FlyFive
-#scoreboard players tag @a[x=4123,y=35,z=-747,r=10,tag=!FlySix] add FlySix
-#scoreboard players tag @a[x=4123,y=35,z=-747,r=10,tag=!FlySeven] add FlySeven
+
 
 
 
