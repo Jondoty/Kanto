@@ -2,15 +2,17 @@
 
 #Vanilla Armor Stand
 #execute @e[x=3833,y=41,z=1158,dy=3,type=armor_stand] ~ ~ ~
-entitydata @e[x=3833,y=41,z=1158,dy=3,type=armor_stand] {CustomName:"Pixelmon Kantos"}
+entitydata @e[x=3833,y=41,z=1158,dy=3,type=armor_stand] {CustomName:"Pixelmon Kanto"}
 execute @e[x=3833,y=41,z=1158,dy=3,type=armor_stand] ~ ~ ~ givemoney @a[x=3870,y=40,z=1195,dx=2,dy=2,dz=2,tag=!InitialTags] 2000
+
+spawnpoint @s 4190 34 -137
 
 
 #Adds initial scoreboard scores needed for quests
 scoreboard players set @s DialogueTrigger 0
 scoreboard players set @s TalkTime 0
 scoreboard players set @s MusicCooldown 0
-
+scoreboard players set @s StarterPick 0
 
 
 #Removes existing Quest tags

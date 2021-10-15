@@ -1,6 +1,6 @@
 #Detects players in starting pit
 
-execute @a[x=3870,y=40,z=1195,dx=2,dy=2,dz=2] ~ ~ ~ function kanto:world/startingcommands
+execute @a[x=3870,y=40,z=1195,dx=2,dy=2,dz=2] ~ ~ ~ function kanto:triggers/startingcommands
 
 
 
