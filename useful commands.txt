@@ -1,0 +1,6 @@
+#Trainer Commands interact condition (chatting npcs, statues)
+/tedit add INTERACT tellraw @pl {"text":"Twtweet!","italic":true,"color":"gray"}
+
+
+#Statues that can't be animated (switches to flying)
+/entitydata @e[r=3,type=pixelmon:statue] {Animate:1b}
