@@ -34,9 +34,9 @@ execute as @a[x=4181,y=243,z=1134,distance=..40] run function kanto:hms/flymap
 
 #Activates Flash
 
-effect @a[scores={Flash=1..}] minecraft:night_vision 900 1 true
+effect give @a[scores={Flash=1..}] minecraft:night_vision 900 1 true
 tellraw @a[scores={Flash=1..}] ["",{"selector":"@s"},{"text":" used Flash!"}]
-execute @a[scores={Flash=1..}] run function kanto:spawn/flashhm
+execute as @a[scores={Flash=1..}] run function kanto:spawn/flashhm
 scoreboard players remove @a[scores={Flash=1..}] Flash 1
 
 
@@ -49,7 +49,7 @@ scoreboard players remove @a[scores={Flash=1..}] Flash 1
 #Music rate: 86 ticks per 60 seconds
 
 #Runs the click trigger if player uses Carrot on a Stick
-execute @a[scores={Click=1..},tag=TempDelay] run function kanto:triggers/click
+execute as @a[scores={Click=1..},tag=TempDelay] run function kanto:triggers/click
 scoreboard players tag @a[scores={Click=1..},tag=!TempDelay] add TempDelay
 
 
@@ -112,19 +112,19 @@ execute as @a[tag=TrackSeek,tag=!RadioOff] run function kanto:world/music
 #Battle Start
 #/tedit add BATTLE_START scoreboard players set @pl TrainerClass 1
 #/tedit add BATTLE_START scoreboard players tag @pl add BattleStart
-execute @a[tag=BattleStart] run function kanto:battles/battlestart
+execute as @a[tag=BattleStart] run function kanto:battles/battlestart
 
 #Battle Win (player)
 #/tedit add LOSS scoreboard players tag @pl add BattleWin
-execute @a[tag=BattleWin] run function kanto:battles/playerwin
+execute as @a[tag=BattleWin] run function kanto:battles/playerwin
 
 #Battle Lose (player)
 #/tedit add WIN scoreboard players tag @pl add BattleLose
-execute @a[tag=BattleLose] run function kanto:battles/playerlose
+execute as @a[tag=BattleLose] run function kanto:battles/playerlose
 
 #Battle Forefit (player)
 #/tedit add FORFEIT scoreboard players tag @pl add BattleForefit
-execute @a[tag=BattleForefit] run function kanto:battles/playerforfeit
+execute as @a[tag=BattleForefit] run function kanto:battles/playerforfeit
 
 
 
@@ -219,7 +219,7 @@ tp @e[x=2606,y=55,z=1554,dx=2,dy=2,dz=2] 2542 36 1787 0 12
 
 
 
-execute @a[scores={DialogueTrigger=1..}] run function kanto:dialogue/dialogue
+execute as @a[scores={DialogueTrigger=1..}] run function kanto:dialogue/dialogue
 
 
 
