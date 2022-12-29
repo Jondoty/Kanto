@@ -8,7 +8,7 @@
 
 #Adds additional timing score
 
-scoreboard players add @s[score_DialogueTrigger_min=1] TalkTime 1
+scoreboard players add @s[scores={DialogueTrigger=1..}] TalkTime 1
 
 
 

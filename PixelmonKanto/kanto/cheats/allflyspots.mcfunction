@@ -1,18 +1,18 @@
-scoreboard players tag @s add FlyCinnabar
-scoreboard players tag @s add FlyViridian
-scoreboard players tag @s add FlyPewter
-scoreboard players tag @s add FlyVictory
-scoreboard players tag @s add FlyIndigo
-scoreboard players tag @s add FlyCeladon
-scoreboard players tag @s add FlyFuchsia
-scoreboard players tag @s add FlyVermilion
-scoreboard players tag @s add FlySaffron
-scoreboard players tag @s add FlyCerulean
-scoreboard players tag @s add FlyLavender
-scoreboard players tag @s add FlyOne
-scoreboard players tag @s add FlyTwo
-scoreboard players tag @s add FlyThree
-scoreboard players tag @s add FlyFour
-scoreboard players tag @s add FlyFive
-scoreboard players tag @s add FlySix
-scoreboard players tag @s add FlySeven
+tag @s add FlyCinnabar
+tag @s add FlyViridian
+tag @s add FlyPewter
+tag @s add FlyVictory
+tag @s add FlyIndigo
+tag @s add FlyCeladon
+tag @s add FlyFuchsia
+tag @s add FlyVermilion
+tag @s add FlySaffron
+tag @s add FlyCerulean
+tag @s add FlyLavender
+tag @s add FlyOne
+tag @s add FlyTwo
+tag @s add FlyThree
+tag @s add FlyFour
+tag @s add FlyFive
+tag @s add FlySix
+tag @s add FlySeven

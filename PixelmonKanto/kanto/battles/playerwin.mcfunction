@@ -11,20 +11,20 @@ stopsound @s record
 
 
 #Plays specific win sounds depending on TrainerClass
-playsound battlevictory record @s[score_TrainerClass_min=1,score_TrainerClass=1,tag=!RadioOff] ~ ~ ~ 1000 1 1
-scoreboard players set @s[score_TrainerClass_min=1,score_TrainerClass=1,tag=!RadioOff] MusicCooldown 24
+playsound battlevictory record @s[scores={TrainerClass=1},tag=!RadioOff] ~ ~ ~ 1000 1 1
+scoreboard players set @s[scores={TrainerClass=1},tag=!RadioOff] MusicCooldown 24
 
 #Gym Leaders & Elite Four
-playsound victorygymleader record @s[score_TrainerClass_min=2,score_TrainerClass=3,tag=!RadioOff] ~ ~ ~ 1000 1 1
-scoreboard players set @s[score_TrainerClass_min=2,score_TrainerClass=3,tag=!RadioOff] MusicCooldown 80
+playsound victorygymleader record @s[scores={TrainerClass=2..3},tag=!RadioOff] ~ ~ ~ 1000 1 1
+scoreboard players set @s[scores={TrainerClass=2..3},tag=!RadioOff] MusicCooldown 80
 
 
 
 
 #Removes any existing battle music tags
-scoreboard players tag @s remove TrainerBattleMusic
-scoreboard players tag @s remove GymLeaderBattleMusic
-scoreboard players tag @s remove RivalBattleMusic
+tag @s remove TrainerBattleMusic
+tag @s remove GymLeaderBattleMusic
+tag @s remove RivalBattleMusic
 
 
 
@@ -37,8 +37,8 @@ scoreboard players tag @s remove RivalBattleMusic
 #--------------------------------------------------------------------------------------------------------
 
 #Resets score and tags
-scoreboard players tag @s remove ActiveBattle
-scoreboard players tag @s remove BattleWin
+tag @s remove ActiveBattle
+tag @s remove BattleWin
 scoreboard players set @s TrainerClass 0
 
 

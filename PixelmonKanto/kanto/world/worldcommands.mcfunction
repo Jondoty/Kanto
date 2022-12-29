@@ -1,6 +1,6 @@
 #Detects players in starting pit
 
-execute @a[x=3870,y=40,z=1195,dx=2,dy=2,dz=2] ~ ~ ~ function kanto:triggers/startingcommands
+execute as @a[x=3870,y=40,z=1195,dx=2,dy=2,dz=2] run function kanto:triggers/startingcommands
 
 
 
@@ -8,21 +8,21 @@ execute @a[x=3870,y=40,z=1195,dx=2,dy=2,dz=2] ~ ~ ~ function kanto:triggers/star
 #World important triggers
 
 #Relog trigger
-execute @a[score_Relog_min=1] ~ ~ ~ function kanto:triggers/relog
+execute as @a[scores={Relog=1..}] run function kanto:triggers/relog
 
 
 #Runs when player is near/within a Pokemon Center
-execute @e[type=armor_stand,name=PokemonCenter] ~ ~-3 ~ function kanto:triggers/pokemoncenters if @a[r=15]
+execute at @e[type=armor_stand,name=PokemonCenter] as @a[distance=..15] run function kanto:triggers/pokemoncenters
 
 
 
 #------------------------------------------------------------------------------
 
 #Runs if player can fly
-execute @a[score_Fly_min=1] ~ ~ ~ function kanto:hms/fly
+execute as @a[scores={Fly=1..}] run function kanto:hms/fly
 
 #Fly Map updating
-execute @p[x=4181,y=243,z=1134,r=40] ~ ~ ~ function kanto:hms/flymap
+execute as @a[x=4181,y=243,z=1134,distance=..40] run function kanto:hms/flymap
 
 
 
@@ -34,10 +34,10 @@ execute @p[x=4181,y=243,z=1134,r=40] ~ ~ ~ function kanto:hms/flymap
 
 #Activates Flash
 
-effect @a[score_Flash_min=1] minecraft:night_vision 900 1 true
-tellraw @a[score_Flash_min=1] ["",{"selector":"@a[score_Flash_min=1]"},{"text":" used Flash!"}]
-execute @a[score_Flash_min=1] ~ ~ ~ function kanto:spawn/flashhm
-scoreboard players remove @a[score_Flash_min=1] Flash 1
+effect @a[scores={Flash=1..}] minecraft:night_vision 900 1 true
+tellraw @a[scores={Flash=1..}] ["",{"selector":"@s"},{"text":" used Flash!"}]
+execute @a[scores={Flash=1..}] run function kanto:spawn/flashhm
+scoreboard players remove @a[scores={Flash=1..}] Flash 1
 
 
 
@@ -49,22 +49,22 @@ scoreboard players remove @a[score_Flash_min=1] Flash 1
 #Music rate: 86 ticks per 60 seconds
 
 #Runs the click trigger if player uses Carrot on a Stick
-execute @a[score_Click_min=1,tag=TempDelay] ~ ~ ~ function kanto:triggers/click
-scoreboard players tag @a[score_Click_min=1,tag=!TempDelay] add TempDelay
+execute @a[scores={Click=1..},tag=TempDelay] run function kanto:triggers/click
+scoreboard players tag @a[scores={Click=1..},tag=!TempDelay] add TempDelay
 
 
 #Runs music for players holding radio
-scoreboard players tag @a[score_MusicCooldown=0,tag=!RadioOff] add TrackSeek {Inventory:[{Slot:-106b,tag:{display:{Name:"Radio"}}}]}
-scoreboard players tag @a[score_MusicCooldown=0,tag=!RadioOff] add TrackSeek {Inventory:[{Slot:0b,tag:{display:{Name:"Radio"}}}]}
-scoreboard players tag @a[score_MusicCooldown=0,tag=!RadioOff] add TrackSeek {Inventory:[{Slot:1b,tag:{display:{Name:"Radio"}}}]}
-scoreboard players tag @a[score_MusicCooldown=0,tag=!RadioOff] add TrackSeek {Inventory:[{Slot:2b,tag:{display:{Name:"Radio"}}}]}
-scoreboard players tag @a[score_MusicCooldown=0,tag=!RadioOff] add TrackSeek {Inventory:[{Slot:3b,tag:{display:{Name:"Radio"}}}]}
-scoreboard players tag @a[score_MusicCooldown=0,tag=!RadioOff] add TrackSeek {Inventory:[{Slot:4b,tag:{display:{Name:"Radio"}}}]}
-scoreboard players tag @a[score_MusicCooldown=0,tag=!RadioOff] add TrackSeek {Inventory:[{Slot:5b,tag:{display:{Name:"Radio"}}}]}
-scoreboard players tag @a[score_MusicCooldown=0,tag=!RadioOff] add TrackSeek {Inventory:[{Slot:6b,tag:{display:{Name:"Radio"}}}]}
-scoreboard players tag @a[score_MusicCooldown=0,tag=!RadioOff] add TrackSeek {Inventory:[{Slot:7b,tag:{display:{Name:"Radio"}}}]}
-scoreboard players tag @a[score_MusicCooldown=0,tag=!RadioOff] add TrackSeek {Inventory:[{Slot:8b,tag:{display:{Name:"Radio"}}}]}
-execute @a[tag=TrackSeek] ~ ~ ~ function kanto:world/music if @s[tag=!RadioOff]
+scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:-106b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:0b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:1b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:2b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:3b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:4b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:5b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:6b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:7b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:8b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+execute as @a[tag=TrackSeek,tag=!RadioOff] run function kanto:world/music
 
 
 
@@ -112,25 +112,25 @@ execute @a[tag=TrackSeek] ~ ~ ~ function kanto:world/music if @s[tag=!RadioOff]
 #Battle Start
 #/tedit add BATTLE_START scoreboard players set @pl TrainerClass 1
 #/tedit add BATTLE_START scoreboard players tag @pl add BattleStart
-execute @a[tag=BattleStart] ~ ~ ~ function kanto:battles/battlestart
+execute @a[tag=BattleStart] run function kanto:battles/battlestart
 
 #Battle Win (player)
 #/tedit add LOSS scoreboard players tag @pl add BattleWin
-execute @a[tag=BattleWin] ~ ~ ~ function kanto:battles/playerwin
+execute @a[tag=BattleWin] run function kanto:battles/playerwin
 
 #Battle Lose (player)
 #/tedit add WIN scoreboard players tag @pl add BattleLose
-execute @a[tag=BattleLose] ~ ~ ~ function kanto:battles/playerlose
+execute @a[tag=BattleLose] run function kanto:battles/playerlose
 
 #Battle Forefit (player)
 #/tedit add FORFEIT scoreboard players tag @pl add BattleForefit
-execute @a[tag=BattleForefit] ~ ~ ~ function kanto:battles/playerforfeit
+execute @a[tag=BattleForefit] run function kanto:battles/playerforfeit
 
 
 
 
 #removes MusicCooldown score for music timings
-scoreboard players remove @a[score_MusicCooldown_min=1] MusicCooldown 1
+scoreboard players remove @a[scores={MusicCooldown=1..}] MusicCooldown 1
 
 
 #------------------------------------------------------------------------------
@@ -219,7 +219,7 @@ tp @e[x=2606,y=55,z=1554,dx=2,dy=2,dz=2] 2542 36 1787 0 12
 
 
 
-execute @a[score_DialogueTrigger_min=1] ~ ~ ~ function kanto:dialogue/dialogue
+execute @a[scores={DialogueTrigger=1..}] run function kanto:dialogue/dialogue
 
 
 

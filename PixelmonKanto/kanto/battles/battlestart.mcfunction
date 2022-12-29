@@ -8,19 +8,19 @@
 #--------------------------------------------------------------------------------------------------------
 
 #Adds tags based on TrainerClass score # applied by NPC with tag
-scoreboard players tag @s[score_TrainerClass_min=1,score_TrainerClass=1] add TrainerBattleMusic
-scoreboard players tag @s[score_TrainerClass_min=2,score_TrainerClass=2] add GymLeaderBattleMusic
-scoreboard players tag @s[score_TrainerClass_min=3,score_TrainerClass=3] add RivalBattleMusic
+tag @s[scores={TrainerClass=1}] add TrainerBattleMusic
+tag @s[scores={TrainerClass=2}] add GymLeaderBattleMusic
+tag @s[scores={TrainerClass=3}] add RivalBattleMusic
 
 stopsound @s record
 scoreboard players set @s MusicCooldown 0
 
-execute @s[tag=!RadioOff] ~ ~ ~ function kanto:world/music
+execute as @s[tag=!RadioOff] run function kanto:world/music
 
-scoreboard players tag @s add ActiveBattle
+tag @s add ActiveBattle
 
 
-scoreboard players tag @s remove BattleStart
+tag @s remove BattleStart
 
 
 

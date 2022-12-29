@@ -26,25 +26,25 @@ playsound entity.arrow.shoot ambient @a[x=4185,y=243,z=1119,dy=4,tag=FlySeven] ~
 
 
 #Shows particles if player can fly
-execute @p[x=4181,y=243,z=1134,r=30] ~ ~ ~ particle fireworksSpark 4184 243 1139 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,r=30]
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyCinnabar] ~ ~ ~ particle fireworksSpark 4184 243 1136 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,r=30,tag=FlyCinnabar]
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyViridian] ~ ~ ~ particle fireworksSpark 4184 243 1143 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,r=30,tag=FlyViridian]
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyPewter] ~ ~ ~ particle fireworksSpark 4184 243 1146 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,r=30,tag=FlyPewter]
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyVictory] ~ ~ ~ particle fireworksSpark 4187 243 1146 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,r=30,tag=FlyVictory]
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyIndigo] ~ ~ ~ particle fireworksSpark 4187 243 1148 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,r=30,tag=FlyIndigo]
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyCeladon] ~ ~ ~ particle fireworksSpark 4181 243 1144 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,r=30,tag=FlyCeladon]
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyFuchsia] ~ ~ ~ particle fireworksSpark 4179 243 1138 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,r=30,tag=FlyFuchsia]
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyVermilion] ~ ~ ~ particle fireworksSpark 4178 243 1142 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,r=30,tag=FlyVermilion]
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlySaffron] ~ ~ ~ particle fireworksSpark 4178 243 1144 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,r=30,tag=FlySaffron]
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyCerulean] ~ ~ ~ particle fireworksSpark 4178 243 1146 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,r=30,tag=FlyCerulean]
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyLavender] ~ ~ ~ particle fireworksSpark 4174 243 1144 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,r=30,tag=FlyLavender]
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyOne] ~ ~ ~ particle fireworksSpark 4185 243 1130 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,r=30,tag=FlyOne]
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyTwo] ~ ~ ~ particle fireworksSpark 4180 243 1130 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,r=30,tag=FlyTwo]
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyThree] ~ ~ ~ particle fireworksSpark 4174 243 1129 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,r=30,tag=FlyThree]
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyFour] ~ ~ ~ particle fireworksSpark 4184 243 1126 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,r=30,tag=FlyFour]
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyFive] ~ ~ ~ particle fireworksSpark 4175 243 1122 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,r=30,tag=FlyFive]
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlySix] ~ ~ ~ particle fireworksSpark 4177 243 1118 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,r=30,tag=FlySix]
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlySeven] ~ ~ ~ particle fireworksSpark 4185 243 1119 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,r=30,tag=FlySeven]
+execute if entity @p[x=4181,y=243,z=1134,distance=..30] run particle fireworksSpark 4184 243 1139 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,distance=..30]
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyCinnabar] run particle fireworksSpark 4184 243 1136 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,distance=..30,tag=FlyCinnabar]
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyViridian] run particle fireworksSpark 4184 243 1143 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,distance=..30,tag=FlyViridian]
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyPewter] run particle fireworksSpark 4184 243 1146 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,distance=..30,tag=FlyPewter]
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyVictory] run particle fireworksSpark 4187 243 1146 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,distance=..30,tag=FlyVictory]
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyIndigo] run particle fireworksSpark 4187 243 1148 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,distance=..30,tag=FlyIndigo]
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyCeladon] run particle fireworksSpark 4181 243 1144 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,distance=..30,tag=FlyCeladon]
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyFuchsia] run particle fireworksSpark 4179 243 1138 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,distance=..30,tag=FlyFuchsia]
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyVermilion] run particle fireworksSpark 4178 243 1142 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,distance=..30,tag=FlyVermilion]
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlySaffron] run particle fireworksSpark 4178 243 1144 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,distance=..30,tag=FlySaffron]
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyCerulean] run particle fireworksSpark 4178 243 1146 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,distance=..30,tag=FlyCerulean]
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyLavender] run particle fireworksSpark 4174 243 1144 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,distance=..30,tag=FlyLavender]
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyOne] run particle fireworksSpark 4185 243 1130 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,distance=..30,tag=FlyOne]
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyTwo] run particle fireworksSpark 4180 243 1130 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,distance=..30,tag=FlyTwo]
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyThree] run particle fireworksSpark 4174 243 1129 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,distance=..30,tag=FlyThree]
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyFour] run particle fireworksSpark 4184 243 1126 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,distance=..30,tag=FlyFour]
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyFive] run particle fireworksSpark 4175 243 1122 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,distance=..30,tag=FlyFive]
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlySix] run particle fireworksSpark 4177 243 1118 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,distance=..30,tag=FlySix]
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlySeven] run particle fireworksSpark 4185 243 1119 0 2 0 0.1 0 normal @a[x=4181,y=243,z=1134,distance=..30,tag=FlySeven]
 
 
 #Tps player if can fly
@@ -70,44 +70,44 @@ tp @a[x=4185,y=243,z=1119,dy=4,tag=FlySeven]
 
 
 #Sets carpets to what player can fly to
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyCinnabar] ~ ~ ~ setblock 4184 243 1136 minecraft:carpet 5
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyViridian] ~ ~ ~ setblock 4184 243 1143 minecraft:carpet 5
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyPewter] ~ ~ ~ setblock 4184 243 1146 minecraft:carpet 5
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyVictory] ~ ~ ~ setblock 4187 243 1146 minecraft:carpet 5
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyIndigo] ~ ~ ~ setblock 4187 243 1148 minecraft:carpet 5
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyCeladon] ~ ~ ~ setblock 4181 243 1144 minecraft:carpet 5
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyFuchsia] ~ ~ ~ setblock 4179 243 1138 minecraft:carpet 5
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyVermilion] ~ ~ ~ setblock 4178 243 1142 minecraft:carpet 5
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlySaffron] ~ ~ ~ setblock 4178 243 1144 minecraft:carpet 5
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyCerulean] ~ ~ ~ setblock 4178 243 1146 minecraft:carpet 5
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyLavender] ~ ~ ~ setblock 4174 243 1144 minecraft:carpet 5
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyOne] ~ ~ ~ setblock 4185 243 1130 minecraft:carpet 5
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyTwo] ~ ~ ~ setblock 4180 243 1130 minecraft:carpet 5
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyThree] ~ ~ ~ setblock 4174 243 1129 minecraft:carpet 5
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyFour] ~ ~ ~ setblock 4184 243 1126 minecraft:carpet 5
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlyFive] ~ ~ ~ setblock 4175 243 1122 minecraft:carpet 5
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlySix] ~ ~ ~ setblock 4177 243 1118 minecraft:carpet 5
-execute @p[x=4181,y=243,z=1134,r=30,tag=FlySeven] ~ ~ ~ setblock 4185 243 1119 minecraft:carpet 5
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyCinnabar] run setblock 4184 243 1136 minecraft:carpet 5
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyViridian] run setblock 4184 243 1143 minecraft:carpet 5
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyPewter] run setblock 4184 243 1146 minecraft:carpet 5
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyVictory] run setblock 4187 243 1146 minecraft:carpet 5
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyIndigo] run setblock 4187 243 1148 minecraft:carpet 5
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyCeladon] run setblock 4181 243 1144 minecraft:carpet 5
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyFuchsia] run setblock 4179 243 1138 minecraft:carpet 5
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyVermilion] run setblock 4178 243 1142 minecraft:carpet 5
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlySaffron] run setblock 4178 243 1144 minecraft:carpet 5
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyCerulean] run setblock 4178 243 1146 minecraft:carpet 5
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyLavender] run setblock 4174 243 1144 minecraft:carpet 5
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyOne] run setblock 4185 243 1130 minecraft:carpet 5
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyTwo] run setblock 4180 243 1130 minecraft:carpet 5
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyThree] run setblock 4174 243 1129 minecraft:carpet 5
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyFour] run setblock 4184 243 1126 minecraft:carpet 5
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlyFive] run setblock 4175 243 1122 minecraft:carpet 5
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlySix] run setblock 4177 243 1118 minecraft:carpet 5
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=FlySeven] run setblock 4185 243 1119 minecraft:carpet 5
 
 #What player can't fly to
-execute @p[x=4181,y=243,z=1134,r=30,tag=!FlyCinnabar] ~ ~ ~ setblock 4184 243 1136 minecraft:carpet 14
-execute @p[x=4181,y=243,z=1134,r=30,tag=!FlyViridian] ~ ~ ~ setblock 4184 243 1143 minecraft:carpet 14
-execute @p[x=4181,y=243,z=1134,r=30,tag=!FlyPewter] ~ ~ ~ setblock 4184 243 1146 minecraft:carpet 14
-execute @p[x=4181,y=243,z=1134,r=30,tag=!FlyVictory] ~ ~ ~ setblock 4187 243 1146 minecraft:carpet 14
-execute @p[x=4181,y=243,z=1134,r=30,tag=!FlyIndigo] ~ ~ ~ setblock 4187 243 1148 minecraft:carpet 14
-execute @p[x=4181,y=243,z=1134,r=30,tag=!FlyCeladon] ~ ~ ~ setblock 4181 243 1144 minecraft:carpet 14
-execute @p[x=4181,y=243,z=1134,r=30,tag=!FlyFuchsia] ~ ~ ~ setblock 4179 243 1138 minecraft:carpet 14
-execute @p[x=4181,y=243,z=1134,r=30,tag=!FlyVermilion] ~ ~ ~ setblock 4178 243 1142 minecraft:carpet 14
-execute @p[x=4181,y=243,z=1134,r=30,tag=!FlySaffron] ~ ~ ~ setblock 4178 243 1144 minecraft:carpet 14
-execute @p[x=4181,y=243,z=1134,r=30,tag=!FlyCerulean] ~ ~ ~ setblock 4178 243 1146 minecraft:carpet 14
-execute @p[x=4181,y=243,z=1134,r=30,tag=!FlyLavender] ~ ~ ~ setblock 4174 243 1144 minecraft:carpet 14
-execute @p[x=4181,y=243,z=1134,r=30,tag=!FlyOne] ~ ~ ~ setblock 4185 243 1130 minecraft:carpet 14
-execute @p[x=4181,y=243,z=1134,r=30,tag=!FlyTwo] ~ ~ ~ setblock 4180 243 1130 minecraft:carpet 14
-execute @p[x=4181,y=243,z=1134,r=30,tag=!FlyThree] ~ ~ ~ setblock 4174 243 1129 minecraft:carpet 14
-execute @p[x=4181,y=243,z=1134,r=30,tag=!FlyFour] ~ ~ ~ setblock 4184 243 1126 minecraft:carpet 14
-execute @p[x=4181,y=243,z=1134,r=30,tag=!FlyFive] ~ ~ ~ setblock 4175 243 1122 minecraft:carpet 14
-execute @p[x=4181,y=243,z=1134,r=30,tag=!FlySix] ~ ~ ~ setblock 4177 243 1118 minecraft:carpet 14
-execute @p[x=4181,y=243,z=1134,r=30,tag=!FlySeven] ~ ~ ~ setblock 4185 243 1119 minecraft:carpet 14
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=!FlyCinnabar] run setblock 4184 243 1136 minecraft:carpet 14
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=!FlyViridian] run setblock 4184 243 1143 minecraft:carpet 14
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=!FlyPewter] run setblock 4184 243 1146 minecraft:carpet 14
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=!FlyVictory] run setblock 4187 243 1146 minecraft:carpet 14
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=!FlyIndigo] run setblock 4187 243 1148 minecraft:carpet 14
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=!FlyCeladon] run setblock 4181 243 1144 minecraft:carpet 14
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=!FlyFuchsia] run setblock 4179 243 1138 minecraft:carpet 14
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=!FlyVermilion] run setblock 4178 243 1142 minecraft:carpet 14
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=!FlySaffron] run setblock 4178 243 1144 minecraft:carpet 14
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=!FlyCerulean] run setblock 4178 243 1146 minecraft:carpet 14
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=!FlyLavender] run setblock 4174 243 1144 minecraft:carpet 14
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=!FlyOne] run setblock 4185 243 1130 minecraft:carpet 14
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=!FlyTwo] run setblock 4180 243 1130 minecraft:carpet 14
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=!FlyThree] run setblock 4174 243 1129 minecraft:carpet 14
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=!FlyFour] run setblock 4184 243 1126 minecraft:carpet 14
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=!FlyFive] run setblock 4175 243 1122 minecraft:carpet 14
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=!FlySix] run setblock 4177 243 1118 minecraft:carpet 14
+execute if entity @p[x=4181,y=243,z=1134,distance=..30,tag=!FlySeven] run setblock 4185 243 1119 minecraft:carpet 14
 
 
 
