@@ -50,20 +50,20 @@ scoreboard players remove @a[scores={Flash=1..}] Flash 1
 
 #Runs the click trigger if player uses Carrot on a Stick
 execute as @a[scores={Click=1..},tag=TempDelay] run function kanto:triggers/click
-scoreboard players tag @a[scores={Click=1..},tag=!TempDelay] add TempDelay
+tag @a[scores={Click=1..},tag=!TempDelay] add TempDelay
 
 
 #Runs music for players holding radio
-scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:-106b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
-scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:0b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
-scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:1b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
-scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:2b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
-scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:3b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
-scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:4b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
-scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:5b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
-scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:6b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
-scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:7b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
-scoreboard players tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:8b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:-106b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:0b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:1b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:2b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:3b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:4b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:5b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:6b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:7b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
+tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:8b,tag:{display:{Name:"Radio"}}}]}] add TrackSeek
 execute as @a[tag=TrackSeek,tag=!RadioOff] run function kanto:world/music
 
 
@@ -72,10 +72,10 @@ execute as @a[tag=TrackSeek,tag=!RadioOff] run function kanto:world/music
 #Largely doesn't work since battle music was added
 
 #Switches between music for riding Pokemon and Bikes
-#scoreboard players tag @a[tag=ActiveBattle] add Skip
-#execute @a[score_MusicCooldown_min=1,tag=BikeCheck] ~ ~-4 ~ execute @e[type=pixelmon:bike,dy=2] ~ ~ ~ scoreboard players tag @a[tag=BikeCheck,dy=3] add Skip
+#tag @a[tag=ActiveBattle] add Skip
+#execute @a[score_MusicCooldown_min=1,tag=BikeCheck] ~ ~-4 ~ execute @e[type=pixelmon:bike,dy=2] ~ ~ ~ tag @a[tag=BikeCheck,dy=3] add Skip
 #Pokemon Variant
-#execute @a[score_MusicCooldown_min=1,tag=RideCheck] ~ ~-4 ~ execute @e[type=pixelmon:pixelmon,dy=2] ~ ~ ~ scoreboard players tag @a[tag=RideCheck,dy=4] add Skip
+#execute @a[score_MusicCooldown_min=1,tag=RideCheck] ~ ~-4 ~ execute @e[type=pixelmon:pixelmon,dy=2] ~ ~ ~ tag @a[tag=RideCheck,dy=4] add Skip
 
 #Stops sounds and resets Music if player leaves entity
 #execute @a[score_MusicCooldown_min=1,tag=BikeCheck] ~ ~ ~ stopsound @a[tag=!Skip] record
@@ -84,7 +84,7 @@ execute as @a[tag=TrackSeek,tag=!RadioOff] run function kanto:world/music
 #execute @a[score_MusicCooldown_min=1,tag=RideCheck] ~ ~ ~ stopsound @a[tag=!Skip] record
 #execute @a[score_MusicCooldown_min=1,tag=RideCheck] ~ ~ ~ scoreboard players set @a[tag=!Skip] MusicCooldown 0
 
-#scoreboard players tag @a[tag=Skip] remove Skip
+#tag @a[tag=Skip] remove Skip
 
 
 
@@ -92,9 +92,9 @@ execute as @a[tag=TrackSeek,tag=!RadioOff] run function kanto:world/music
 
 
 #Bike
-#execute @a[score_MusicCooldown_min=1,tag=!BikeCheck] ~ ~-4 ~ execute @e[type=pixelmon:bike,dy=2] ~ ~ ~ scoreboard players tag @a[tag=!BikeCheck,dy=5] add Skip
+#execute @a[score_MusicCooldown_min=1,tag=!BikeCheck] ~ ~-4 ~ execute @e[type=pixelmon:bike,dy=2] ~ ~ ~ tag @a[tag=!BikeCheck,dy=5] add Skip
 #Pokemon Variant
-#execute @a[score_MusicCooldown_min=1,tag=!RideCheck] ~ ~-4 ~ execute @e[type=pixelmon:pixelmon,dy=2] ~ ~ ~ scoreboard players tag @a[tag=!RideCheck,dy=5] add Skip
+#execute @a[score_MusicCooldown_min=1,tag=!RideCheck] ~ ~-4 ~ execute @e[type=pixelmon:pixelmon,dy=2] ~ ~ ~ tag @a[tag=!RideCheck,dy=5] add Skip
 
 #Stops sounds and resets Music if player leaves entity
 #execute @a[score_MusicCooldown_min=1,tag=!BikeCheck] ~ ~ ~ stopsound @a[tag=Skip] record
@@ -103,7 +103,7 @@ execute as @a[tag=TrackSeek,tag=!RadioOff] run function kanto:world/music
 #execute @a[score_MusicCooldown_min=1,tag=!RideCheck] ~ ~ ~ stopsound @a[tag=Skip] record
 #execute @a[score_MusicCooldown_min=1,tag=!RideCheck] ~ ~ ~ scoreboard players set @a[tag=Skip] MusicCooldown 0
 
-#scoreboard players tag @a[tag=Skip] remove Skip
+#tag @a[tag=Skip] remove Skip
 
 
 
@@ -111,19 +111,19 @@ execute as @a[tag=TrackSeek,tag=!RadioOff] run function kanto:world/music
 
 #Battle Start
 #/tedit add BATTLE_START scoreboard players set @pl TrainerClass 1
-#/tedit add BATTLE_START scoreboard players tag @pl add BattleStart
+#/tedit add BATTLE_START tag @pl add BattleStart
 execute as @a[tag=BattleStart] run function kanto:battles/battlestart
 
 #Battle Win (player)
-#/tedit add LOSS scoreboard players tag @pl add BattleWin
+#/tedit add LOSS tag @pl add BattleWin
 execute as @a[tag=BattleWin] run function kanto:battles/playerwin
 
 #Battle Lose (player)
-#/tedit add WIN scoreboard players tag @pl add BattleLose
+#/tedit add WIN tag @pl add BattleLose
 execute as @a[tag=BattleLose] run function kanto:battles/playerlose
 
 #Battle Forefit (player)
-#/tedit add FORFEIT scoreboard players tag @pl add BattleForefit
+#/tedit add FORFEIT tag @pl add BattleForefit
 execute as @a[tag=BattleForefit] run function kanto:battles/playerforfeit
 
 

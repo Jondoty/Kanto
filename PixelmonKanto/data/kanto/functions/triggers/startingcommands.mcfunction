@@ -2,7 +2,7 @@
 
 #Vanilla Armor Stand
 #execute @e[x=3833,y=41,z=1158,dy=3,type=armor_stand] ~ ~ ~
-data merge entity @e[x=3833,y=41,z=1158,dy=3,type=armor_stand] {CustomName:"Pixelmon Kanto"}
+data merge entity @e[x=3833,y=41,z=1158,dy=3,type=armor_stand,limit=1] {CustomName:"Pixelmon Kanto"}
 execute as @e[x=3833,y=41,z=1158,dy=3,type=armor_stand] run givemoney @a[x=3870,y=40,z=1195,dx=2,dy=2,dz=2,tag=!InitialTags] 2000
 
 spawnpoint @s 4190 34 -137

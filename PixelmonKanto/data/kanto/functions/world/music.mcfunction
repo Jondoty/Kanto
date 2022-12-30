@@ -1,6 +1,6 @@
 #First play information
-tellraw @s[tag=!FirstSong] ["",{"text":"Tip","bold":true},{"text":": Your radio is active in your hotbar! Move it to your inventory or double click the radio to turn off the music! Single-clicking resets the song for if glitched."},scores={MusicCooldown=0}]
-scoreboard players tag @s[tag=!FirstSong] add FirstSong
+tellraw @s[tag=!FirstSong] ["",{"text":"Tip","bold":true},{"text":": Your radio is active in your hotbar! Move it to your inventory or double click the radio to turn off the music! Single-clicking resets the song for if glitched."}]
+tag @s[tag=!FirstSong] add FirstSong
 
 
 
@@ -25,10 +25,10 @@ scoreboard players set @s[tag=RivalBattleMusic,scores={MusicCooldown=0}] MusicCo
 
 
 #Deoxys battle
-execute at @s run tag @e[r=25,type=pixelmon:pixelmon,tag=!DeoxysMusic,nbt={ndex:386,OwnerUUID:""}] add DeoxysMusic
+execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!DeoxysMusic,nbt={ndex:386,OwnerUUID:""}] add DeoxysMusic
 
-execute at @e[tag=DeoxysMusic,type=pixelmon:pixelmon,limit=1] run playsound battledeoxys record @a[r=25,scores={MusicCooldown=0,TalkTime=0}] ~ ~ ~ 1 1 1
-execute at @e[tag=DeoxysMusic,type=pixelmon:pixelmon] run scoreboard players set @a[r=25,scores={MusicCooldown=0,TalkTime=0}] MusicCooldown 226
+execute at @e[tag=DeoxysMusic,type=pixelmon:pixelmon,limit=1] run playsound battledeoxys record @a[distance=..25,scores={MusicCooldown=0,TalkTime=0}] ~ ~ ~ 1 1 1
+execute at @e[tag=DeoxysMusic,type=pixelmon:pixelmon] run scoreboard players set @a[distance=..25,scores={MusicCooldown=0,TalkTime=0}] MusicCooldown 226
 
 
 #Legendary battles
@@ -88,8 +88,8 @@ scoreboard players set @s[x=4147,y=0,z=437,dx=144,dy=256,dz=163,scores={MusicCoo
 
 #Pokemon Centers
 #/summon armor_stand ~ ~3 ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:"PokemonCenter",DisabledSlots:2039583}
-execute @e[type=armor_stand,name=PokemonCenter] ~ ~-3 ~ playsound pokemoncenter record @a[r=11,tag=!RadioOff,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-execute @e[type=armor_stand,name=PokemonCenter] ~ ~-3 ~ scoreboard players set @a[r=11,tag=!RadioOff,scores={MusicCooldown=0}] MusicCooldown 100
+execute at @e[type=armor_stand,name=PokemonCenter] run playsound pokemoncenter record @a[distance=..11,tag=!RadioOff,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute at @e[type=armor_stand,name=PokemonCenter] run scoreboard players set @a[distance=..11,tag=!RadioOff,scores={MusicCooldown=0}] MusicCooldown 100
 
 
 

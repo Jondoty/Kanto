@@ -71,7 +71,7 @@ tag @s[nbt={SelectedItemSlot:8,Inventory:[{Slot:8b,tag:{display:{Name:"HM05: Fla
 
 
 #Detects if player clicked twice, adds tag to not continue playing music, stops music
-execute @s[tag=!RadioOff,scores={Click=2..}] run tag @s[tag=RadioHold] add Temp
+execute as @s[tag=!RadioOff,scores={Click=2..}] run tag @s[tag=RadioHold] add Temp
 tellraw @s[tag=Temp] {"text":"Radio toggled off... Double click again to turn on!"}
 tag @s[tag=Temp] add RadioOff
 stopsound @s[tag=Temp] record
@@ -85,7 +85,7 @@ tag @s remove Temp
 
 
 #Turns radio on
-execute @s[tag=RadioOff,scores={Click=2..}] run tag @s[tag=RadioHold] add Temp
+execute as @s[tag=RadioOff,scores={Click=2..}] run tag @s[tag=RadioHold] add Temp
 tellraw @s[tag=Temp] {"text":"Radio toggled on... Double click again to turn off!"}
 tag @s[tag=Temp] remove RadioOff
 tag @s[tag=Temp] remove RadioHold
@@ -167,8 +167,8 @@ tellraw @s[tag=VSHold] {"text":"VS Seeker function placeholder"}
 #Clean-up commands
 
 
-scoreboard players set @s[score_Click_min=1,tag=VSHold] Click 0
-scoreboard players set @s[score_Click_min=1,tag=FluteHold] Click 0
+scoreboard players set @s[scores={Click=1..},tag=VSHold] Click 0
+scoreboard players set @s[scores={Click=1..},tag=FluteHold] Click 0
 
 
 tag @s remove RadioHold
