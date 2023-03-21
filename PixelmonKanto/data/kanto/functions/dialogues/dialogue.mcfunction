@@ -728,6 +728,576 @@ A switch behind the poster!? Let's push it!
 #Opens the staircase
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 43 - Rocket HQ
+#Giovanni pre-battle
+#https://youtu.be/_6uv4msYJiM?t=24114
+
+<...> So! I must say, I am impressed you got here.
+<...> Team Rocket captures Pokémon from around the world.
+<...> They're important tools for keeping our criminal enterprise going.
+<...> I am the leader, Giovanni!
+<Giovanni> For your insolence, you will feel a world of pain!
+
+#-------------------
+#Dialogue 44 - Rocket HQ
+#Giovanni post-battle
+#https://youtu.be/_6uv4msYJiM?t=24266
+
+<Giovanni> WHAT! This can't be!
+<Giovanni> I see that you raise Pokémon with utmost care.
+<Giovanni> A child like you would never understand what I hope to achieve.
+<Giovanni> I shall step aside this time!
+<Giovanni> I hope we meet again…
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 45 - Pokemon Tower
+#Blue Pre-Battle
+#https://youtu.be/_6uv4msYJiM?t=24531
+
+#tps Blue in
+
+<Blue> Hey, @s! What brings you here?
+<Blue> Is your Pokémon dead?
+<Blue> Hey! It's alive!
+<Blue> I can at least make them faint! Let's go!
+
+#-------------------
+#Dialogue 46 - Pokemon Tower
+#Blue Post-Battle
+#https://youtu.be/_6uv4msYJiM?t=24691
+
+<Blue> How's your Pokédex coming? I just caught a Cubone!
+<Blue> I can't find the bigger Marowak. Where could they be?
+<Blue> I bet there aren't any left!
+<Blue> Well, I better get going. I've got a lot to accomplish, unlike you.
+<Blue> Smell ya later!
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 47 - Pokemon Tower
+#Marowak with the Silph Scope
+#https://youtu.be/_6uv4msYJiM?t=25573
+
+#tps in statue separately
+
+Be gone…
+Intruders…
+
+Silph Scope unveiled the Ghost's identity!
+
+#Particles
+#Sets statue from ghost to Marowak statue
+
+The Ghost was a Marowak!
+
+#pokebattle
+#Set statue to air
+
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 48 - Pokemon Tower
+#Mr. Fuji when talked to
+#https://youtu.be/_6uv4msYJiM?t=25930
+
+<Mr. Fuji> Heh? You came to save me?
+<Mr. Fuji> Thank you. But, I came here of my own free will.
+<Mr. Fuji> I came to calm the spirit of Cubone's mother.
+<Mr. Fuji> I think Marowak's spirit has finally left us.
+<Mr. Fuji> I must thank you for your kind concern.
+<Mr. Fuji> Follow me to my home, Pokémon House, at the foot of this tower.
+
+#tps player to Mr. Fuji's house
+
+#tps out Mr. Fuji tower
+#tps in Mr. Fuji in home
+
+<Mr. Fuji> @s…
+<Mr. Fuji> Your Pokédex quest is one that requires strong dedication.
+<Mr. Fuji> Without deep love for Pokémon, your quest may fail.
+<Mr. Fuji> I'm not sure if this will help you, but I'd like you to have it.
+
+#Give pokeflute
+@s received a Poké Flute from Mr. Fuji.
+
+<Mr. Fuji> Upon hearing the Poké Flute, sleeping Pokémon will spring awake.
+<Mr. Fuji> Try using it on Pokémon that are sleeping obstacles.
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#Road Block
+I'm on guard duty.
+Gee, I'm thirsty, though!
+
+Oh, wait there, the road's closed.
+
+
+#-------------------
+#Dialogue 49 - Saffron Gates
+#Saffron Guards getting tea, letting into City
+#https://youtu.be/_6uv4msYJiM?t=26015
+
+<Saffron Guard> Oh, that Tea… It looks awfully tasty…
+<Saffron Guard> Huh? I can have this drink?
+
+#Adds tea to npc's hand
+#Clears from inventory
+
+<Saffron Guard> Gee, thanks!
+<Saffron Guard> … …
+<Saffron Guard> Glug, glug…
+<Saffron Guard> … …
+<Saffron Guard> Gulp…
+<Saffron Guard> If you want to go to Saffron City…
+<Saffron Guard> … …
+<Saffron Guard> You can go on through.
+<Saffron Guard> I'll share this Tea with the other guards!
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 50 - Saffron Dojo
+#Karate Master pre-battle
+
+<...> Grunt!
+<...> I am the Karate Master! I am the Leader here!
+<Karate Master> You wish to challenge us? Expect no mercy!
+<Karate Master> Fwaaa!
+
+#-------------------
+#Dialogue 51 - Saffron Dojo
+#Karate Master pre-battle
+#https://youtu.be/_6uv4msYJiM?t=26656
+
+<Karate Master> Indeed, I have lost!
+<Karate Master> But, I beseech you, do not take our emblem as your trophy!
+<Karate Master> In return, I will give you a prized Fighting Pokémon!
+<Karate Master> Choose whichever one you like!
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 52 - Silph Co
+#Blue Pre-Battle
+#https://youtu.be/_6uv4msYJiM?t=29564
+
+#tp in using the portal function
+
+<Blue> What kept you, @s?
+<Blue> Hahaha! I thought you'd turn up if I waited here!
+<Blue> I guess Team Rocket slowed you down! Not that I care!
+<Blue> I saw you in Saffron, so I decided to see if you got better!
+
+#-------------------
+#Dialogue 53 - Silph Co
+#Blue Post-Battle
+#https://youtu.be/_6uv4msYJiM?t=29782
+
+<Blue> Well, @s! I'm moving on up and ahead!
+<Blue> By checking my Pokédex, I'm starting to see what's strong and how they evolve!
+<Blue> Am I a genius or what?
+<Blue> I'm going to the Pokémon League to boot out the Elite Four.
+<Blue> I'll become the world's most powerful Trainer!
+<Blue> @s, well, good luck to you! Don't sweat it!
+<Blue> Smell ya!
+
+#tp out
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 54 - Silph Co
+#Giovanni pre-battle
+#https://youtu.be/_6uv4msYJiM?t=30000
+
+<Giovanni> Ah, @s! So we meet again!
+<Giovanni> The President and I are discussing a vital business proposition.
+<Giovanni> Keep your nose out of grown-up matters…
+<Giovanni> Or, experience a world of pain!
+
+#-------------------
+#Dialogue 55 - Silph Co
+#Giovanni post-battle
+#https://youtu.be/_6uv4msYJiM?t=30203
+
+<Giovanni> Blast it all! You ruined our plans for Silph!
+<Giovanni> But, Team Rocket will never fall!
+<Giovanni> @s! Never forget that all Pokémon exist for Team Rocket!
+<Giovanni> I must go, but I shall return!
+
+#Blinds player
+#tps player to non-infected Silph Co
+
+<President> Oh, dear! Thank you for saving Silph.
+<President> I will never forget you saved us in our moment of peril.
+<President> I have to thank you in some way.
+<President> Because I am rich, I can give you anything.
+<President> Here, maybe this will do.
+
+@s obtained a Master Ball from the President!
+
+<President> You can't buy that anywhere.
+<President> It's our secret prototype Master Ball.
+<President> It will catch any Pokémon without fail!
+<President> You should be quiet about using it, though.
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 56 - Saffron Gym
+#Sabrina pre-battle
+
+<Sabrina> I had a vision of your arrival.
+<Sabrina> I have had psychic powers since I was a child.
+<Sabrina> It started when a spoon I carelessly tossed, bent.
+<Sabrina> I dislike battling, but if you wish, I will show you my powers!
+
+#-------------------
+#Dialogue 57 - Saffron Gym
+#Sabrina post-battle
+#https://youtu.be/_6uv4msYJiM?t=31227
+
+<Sabrina> I admit, I didn't work hard enough to win.
+<Sabrina> Your victory has earned you the MarshBadge.
+<Sabrina> Psychic power isn't something that only a few people have.
+<Sabrina> Everyone has psychic power. People just don't realize it.
+<Sabrina> Wait, please take this TM with you.
+
+@s received TM04 from Sabrina.
+
+<Sabrina> TM04 is Calm Mind.
+<Sabrina> It makes the Pokémon concentrate to raise both SP. Atk and SP. Def.
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 58 - Celadon City
+#Waking Snorlax
+#https://youtu.be/_6uv4msYJiM?t=31488
+
+#-------------------
+#Dialogue 59 - Route 11
+#Waking Snorlax
+#https://youtu.be/_6uv4msYJiM?t=35580
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 60 - Route 16 Gate
+#Oak's Aide 40 species
+#https://youtu.be/_6uv4msYJiM?t=31614
+
+<Oak's Aide> Hi! Remember me? I'm one of Prof. Oak's Aides.
+<Oak's Aide> If your Pokédex has complete data on 40 species, I'm supposed to give you a reward.
+<Oak's Aide> Prof. Oak entrusted me with an Amulet Coin for you.
+<Oak's Aide> So, @s, let me ask you.
+<Oak's Aide> Have you gathered data on at least 40 kinds of Pokémon?
+
+#If 40 or more
+<Oak's Aide> Great! You have caught or owned 40 kinds of Pokémon!
+<Oak's Aide> Congratulations! Here you go!
+
+@s received the Amulet Coin from the Aide.
+
+<Oak's Aide> An Amulet Coin is an item to be held by a Pokémon.
+<Oak's Aide> If the Pokémon appears in a winning battle, you will earn more money.
+
+#If 40 or less
+
+<Oak's Aide> …Oh. I see.
+<Oak's Aide> When you get 40 kinds of Pokémon, come back for the Amulet Coin.
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 61 - Fuchsia City
+#Warden without teeth
+#https://youtu.be/_6uv4msYJiM?t=33247
+
+<Warden> Hif fuff hefifoo!
+<Warden> Ha lof ha feef ee hafahi ho. Heff hee fwee!
+<Warden> Ah howhee ho hoo! Eef ee hafahi ho!
+
+#-------------------
+#Dialogue 62 - Fuchsia City
+#Warden delivered teeth
+
+<Warden> Ha? He ohay heh ha hoo ee haheh!
+
+@s gave the Gold Teeth to the Warden.
+
+#Puts teeth in his hand
+#Clears teeth from hand
+
+The Warden popped in his teeth!
+
+<Warden> Thank you! You're a real lifesaver!
+<Warden> No one could understand a word that I said, not a one!
+<Warden> I was too ashamed to show my face around the Office, even.
+<Warden> Let me give you something for your trouble.
+
+@s received HM04 from the Warden.
+
+<Warden> It lets Pokémon move boulders.
+<Warden> Oh yes, did you find the Secret House in the Safari Zone?
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 63 - Safari Zone
+#Secret House (Surf)
+#https://youtu.be/_6uv4msYJiM?t=34058
+#Dialogue 63 - Safari Zone
+#Secret House Surf Prize
+#https://youtu.be/_6uv4msYJiM?t=34058
+
+<Safari Ranger> Ah! Finally!
+<Safari Ranger> You're the first person to reach the Secret House!
+<Safari Ranger> Although I made a campaign for our grand opening,
+<Safari Ranger> I was getting worried that no one would win our campaign prize.
+<Safari Ranger> Congratulations! You have won!
+
+@s received HM03 from the attendant!
+
+<Safari Ranger> HM03 is Surf.
+<Safari Ranger> Pokémon will be able to ferry you across water using it.
+<Safari Ranger> And, this HM isn't disposable, so you can use it over and over.
+<Safari Ranger> You're super lucky for winning this fabulous prize!
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 64 - Fuchsia Gym
+#Koga Pre-Battle
+#https://youtu.be/_6uv4msYJiM?t=34889
+
+<Koga> Fwahahaha!
+<Koga> A mere child like you dares to challenge me?
+<Koga> The very idea makes me shiver with mirth!
+<Koga> Very well, I shall show you true terror as a ninja master.
+<Koga> Poison brings steady doom. Sleep renders foes helpless.
+<Koga> Despair to the creeping horror of Poison-type Pokémon!
+
+#-------------------
+#Dialogue 65 - Fuchsia Gym
+#Koga Pre-Battle
+#https://youtu.be/_6uv4msYJiM?t=35032
+
+<Koga> Here! Take the SoulBadge!
+<Koga> Now that you have the SoulBadge, the Defense of your Pokémon rises.
+<Koga> It also lets you Surf outside of battle.
+<Koga> Ah! Take this, too!
+
+@s received TM06 from Koga.
+
+<Koga> Sealed within that TM06 lies Toxic!
+<Koga> It is a secret technique dating back some four hundred years.
+<Koga> When afflicted by Toxic, a Pokémon suffers more and more.
+<Koga> It suffers worsening damage as the battle wears on!
+<Koga> It will surely terrorize foes!
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 66 - R15 & Fuchsia Gate
+#Oak's Aide 50 species
+#https://youtu.be/_6uv4msYJiM?t=38794
+
+<Oak's Aide> Hi! Remember me? I'm one of Prof. Oak's Aides.
+<Oak's Aide> If your Pokédex has complete data on 50 species, I'm supposed to give you a reward.
+<Oak's Aide> Prof. Oak entrusted me with an Exp. Share for you.
+<Oak's Aide> So, @s, let me ask you.
+<Oak's Aide> Have you gathered data on at least 50 kinds of Pokémon?
+
+#If 40 or more
+<Oak's Aide> Great! You have caught or owned 50 kinds of Pokémon!
+<Oak's Aide> Congratulations! Here you go!
+
+@s received the Exp. Share from the Aide.
+
+<Oak's Aide> Exp. Share is an item to be held by a Pokémon.
+<Oak's Aide> The Pokémon will receive a share of the Exp. Points without having to battle.
+
+#If 50 or less
+
+<Oak's Aide> …Oh. I see.
+<Oak's Aide> When you get 50 kinds of Pokémon, come back for the Exp. Share.
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 67 - Seafoam Islands
+#Articuno Encounter
+#https://youtu.be/_6uv4msYJiM?t=40598
+
+playsound
+Gyaoo!
+
+#-------------------
+#Dialogue 68 -
+#Zapdos Encounter
+
+#-------------------
+#Dialogue 69 -
+#Moltres Encounter
+
+
+#-------------------
+#Dialogue 70 -
+#Mewtwo Encounter
+
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 71 - Cinnabar Gym
+#Question 1
+#https://youtu.be/_6uv4msYJiM?t=42683
+
+Pokémon Quiz!
+Get it right, and the door opens to the next room.
+Get it wrong, and face a Trainer!
+If you want to conserve your Pokémon for the Gym Leader…
+Then get it right! Here we go!
+
+Caterpie evolves into Metapod?
+[>Yes]   [No]
+
+#-------------------
+#Dialogue 72 - Cinnabar Gym
+
+Pokémon Quiz!
+There are nine certified Pokémon League Badges?
+[Yes]   [>No]
+
+#-------------------
+#Dialogue 73 - Cinnabar Gym
+Pokémon Quiz!
+Poliwag evolves three times?
+[>Yes]   [No]
+
+#-------------------
+#Dialogue 74 - Cinnabar Gym
+Pokémon Quiz!
+Are electric moves effective against Ground-type Pokémon?
+[Yes]   [>No]
+
+#-------------------
+#Dialogue 74 - Cinnabar Gym
+Pokémon Quiz!
+Pokémon of the same kind and level are not identical?
+[>Yes]   [No]
+
+#-------------------
+#Dialogue 75 - Cinnabar Gym
+Pokémon Quiz!
+TM28 contains Tombstony?
+[Yes]   [>No]
+
+TriggerCommand Responses
+
+You're absolutely correct! Go on through!
+
+Sorry! Bad call!
+pokebattle
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 76 - Cinnabar Gym
+#Blaine Pre-Battle
+#https://youtu.be/_6uv4msYJiM?t=43319
+
+<Blaine> Hah!
+<Blaine> I am Blaine, the red-hot Leader of Cinnabar Gym!
+<Blaine> My fiery Pokémon are all rough and ready with intense heat!
+<Blaine> They incinerate all challengers!
+<Blaine> Hah! You better have Burn Heal!
+
+#-------------------
+#Dialogue 77 - Cinnabar Gym
+#Blaine Post-Battle
+#https://youtu.be/_6uv4msYJiM?t=43460
+
+<Blaine> You have earned the VolcanoBadge.
+<Blaine> Fire Blast is the ultimate fire technique.
+<Blaine> Don't waste it on Water Pokémon. Hah!
+<Blaine> Here, you can have this, too!
+
+@s received TM38 from Blaine.
+
+<Blaine> TM38 contains Fire Blast. Teach it to Fire-type Pokémon.
+<Blaine> Vulpix or Charmeleon would be ideal for that move.
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 78 - Cinnabar Island
+#Bill outside Cinnabar Gym
+#https://youtu.be/_6uv4msYJiM?t=43513
+
+<Bill> Huh? Hey, if it isn't @s!
+<Bill> Look, it's me, Bill. Long time no see!
+<Bill> I hope you're still using my PC system.
+<Bill> Well, listen, since we met up here, how about spending time with me?
+<Bill> There's this little island in the far south called One Island.
+<Bill> A friend invited me, so I'm on my way out there.
+<Bill> How about it? Do you feel like coming with me?
+[Yes]   [No]
+
+#-------------------
+#Dialogue 79 - Cinnabar Island
+#Bill if answered Yes
+#https://youtu.be/_6uv4msYJiM?t=43555
+
+<Bill> All right, then. Let's go!
+
+#Spawn boat
+
+<Bill> Looks like my pal's boat arrived, too.
+<Bill> He sent it specially here to Cinnabar to pick me up.
+
+#Boat cutscene
+
+<Bill> Here we are! This is One Island.
+<Bill> There are several islands around here, and this is one of them.
+<Bill> My friend Celio sent the boat to fetch me here.
+<Bill> He's in charge of the island's PC network by his lonesome.
+<Bill> …Why am I telling you this now? Let's just go see Celio!
+
+#teleports into Pokemon Center
+
+<Bill> Hey, there! Celio!
+
+<Celio> Bill! I can't believe you came out here.
+
+<Bill> Well, absolutely! How's your research coming along?
+<Bill> …Oh, wait a sec.
+<Bill> @s, this is my buddy Celio. He's one dedicated PC Maniac!
+<Bill> Celio, this is @s, a rising contender as the Pokémon Champ!
+<Bill> Celio, this is @s, the reigning Pokémon Champ!
+
+<Celio> That's really impressive.
+<Celio>I hate to say it, but I have zero aptitude for battling.
+<Celio>Anyways, I'm glad to meet you.
+
+<Bill> So, bring me up to speed. How's your machine running?
+
+<Celio> It's running fine, but we're too remote out here.
+<Celio>The PCs on this island just can't link with your PC, Bill.
+
+<Bill> Oh, yeah? Okay, let me take a look-see.
+<Bill> …Hang on here… I think we can make it work.
+<Bill> Let me help you, okay?
+<Bill> @s, can I get you to wait for me just a bit?
+<Bill> …Actually, can I get you to do me a favor?
+<Bill> The island next to this one's called Two Island.
+<Bill> There's a guy there that runs a Game Corner.
+<Bill> He has this thing for rare rocks and gems.
+<Bill> We keep in touch, being fellow maniacs.
+<Bill> So, can I get you to deliver this Meteorite to him?
+
+@s accepted the Meteorite from Bill.
+
+<Celio> @s, if you are going to Two Island, please take this.
+<Celio> It's a Pass for the ferry service serving the local islands.
+<Celio> It will let you travel between the Islands One, Two, and Three.
+<Celio> Oh, you should have this, too.
+
+
+@s received an extra page for the Town Map!
+
+@s received a Town Map!
+
+
+<Bill> I'll catch you later! Say hi to the guy for me!
+
+
+
+
+#-------------------
+#Dialogue 80 - Cinnabar Island
+#Bill if answered No
+
+<Bill> What, are you too busy?
+<Bill> Well, all right. The boat hasn't arrived yet anyway.
+<Bill> I'll be waiting at the Pokémon Center over there.
+<Bill> Come see me when you're done with your business here.
+
+#tps out
+
+#-------------------
+
 
 
 
@@ -765,7 +1335,7 @@ A switch behind the poster!? Let's push it!
 
 
 #Left off at
-https://youtu.be/_6uv4msYJiM?t=23828
+https://youtu.be/_6uv4msYJiM?t=43815
 
 
 

@@ -2368,7 +2368,7 @@ I still can't believe my dragons
 lost to you, @s.
 
 You are now the Pokémon League
-CHAMPION!
+ChampION!
 
 …Or, you would have been, but
 you have one more challenge left.
@@ -2382,7 +2382,7 @@ He beat the Elite Four before
 you.
 
 He is the real Pokémon League
-CHAMPION.
+ChampION.
 
 
 Blue: Hey, @s!
@@ -2401,7 +2401,7 @@ that would beat any Pokémon type.
 
 And now…
 
-I'm the Pokémon League CHAMPION!
+I'm the Pokémon League ChampION!
 
 @s!
 Do you know what that means?
@@ -2428,7 +2428,7 @@ that would beat any Pokémon type.
 
 And now…
 
-I'm the Pokémon League CHAMPION!
+I'm the Pokémon League ChampION!
 
 @s!
 Do you know what that means?
@@ -2444,7 +2444,7 @@ That can't be!
 You beat me at my best!
 
 After all that work to become
-the League CHAMP?
+the League Champ?
 
 My reign is over already?
 It's not fair!
@@ -2457,7 +2457,7 @@ I never made any mistakes raising
 my Pokémon…
 
 Darn it! You're the new Pokémon
-League CHAMPION!
+League ChampION!
 
 Although I don't like to admit it…
 
@@ -2469,7 +2469,7 @@ Oak: So, you've won!
 Sincerely, congratulations!
 
 You're the new Pokémon League
-CHAMPION!
+ChampION!
 
 You've grown up so much since you
 first left with {FD02} to work
@@ -2494,7 +2494,7 @@ You have forgotten to treat your
 Pokémon with love and trust.
 
 Without them, you will never
-become a CHAMP again!
+become a Champ again!
 
 
 Oak: @s.
@@ -2515,7 +2515,7 @@ Congratulations, @s!
 This floor is the Pokémon HALL OF
 FAME.
 
-Pokémon League CHAMPIONS are
+Pokémon League ChampIONS are
 honored for their exploits here.
 
 Their Pokémon are also recorded in
@@ -2524,7 +2524,7 @@ the HALL OF FAME.
 @s!
 
 You have worked hard to become
-the new League CHAMPION.
+the new League ChampION.
 
 Congratulations, @s, you and
 your Pokémon are HALL OF FAMERS!
@@ -2794,9 +2794,9 @@ I took it easy on you, too!
 
 
 How's your Pokédex coming?
-I just caught a CUBONE!
+I just caught a Cubone!
 
-I can't find the bigger MAROWAK.
+I can't find the bigger Marowak.
 Where could they be?
 
 I bet there aren't any left!
@@ -3026,7 +3026,7 @@ Thank you. But, I came here of my
 own free will.
 
 I came to calm the spirit of
-CUBONE's mother.
+Cubone's mother.
 
 I think MAROWAK's spirit has
 finally left us.
@@ -3035,7 +3035,7 @@ I must thank you for your kind
 concern.
 
 Follow me to my home, Pokémon
-HOUSE, at the foot of this tower.
+House, at the foot of this tower.
 
 
 Can you imagine?
@@ -4526,7 +4526,7 @@ be allowed inside there.
 
 You'd have to be strong enough to
 become the Pokémon League
-CHAMPION for starters.
+ChampION for starters.
 
 And, you would have to have
 made a great achievement.
@@ -5082,15 +5082,15 @@ Cinnabar to pick me up.
 
 Hey, wasn't that a long cruise?
 
-My buddy CELIO seemed to enjoy
+My buddy Celio seemed to enjoy
 your company.
 
 I'm sure he'd welcome you if you
 were to visit him again.
 
-If you have a TRI-PASS, you can
+If you have a Tri-Pass, you can
 always take a ferry there from
-Vermilion PORT.
+Vermilion Port.
 
 All right, thanks for your company!
 
@@ -5223,19 +5223,19 @@ He's the greatest, LANCE!
 
 
 Bill: Here we are!
-This is ONE ISLAND.
+This is One Island.
 
 There are several islands around
 here, and this is one of them.
 
-My friend CELIO sent the boat to
+My friend Celio sent the boat to
 fetch me here.
 
 He's in charge of the island's PC
 network by his lonesome.
 
 …Why am I telling you this now?
-Let's just go see CELIO!
+Let's just go see Celio!
 
 
 Ahoy, there!
@@ -5246,16 +5246,16 @@ Here we are on an island smack in
 the middle of nowhere.
 
 We're lucky to have an upstanding
-young man like CELIO here.
+young man like Celio here.
 
 My granddaughter was in a tizzy
-over CELIO's friend.
+over Celio's friend.
 
 Something about a famous
 Pokémaniac?
 
 I'm not sure what that means, but
-CELIO is quite the man!
+Celio is quite the man!
 
 
 My granddaughter was in a tizzy
@@ -5265,7 +5265,7 @@ She said we now have PC linkage
 with people in KANTO.
 
 I'm not sure what that means, but
-CELIO is quite the man!
+Celio is quite the man!
 
 
 My granddaughter was in a tizzy
@@ -5275,7 +5275,7 @@ She said we finally have PC linkage
 with people in HOENN.
 
 I'm not sure what that means, but
-CELIO is quite the man.
+Celio is quite the man.
 
 He would make a fine husband for
 my granddaughter!
@@ -8166,7 +8166,7 @@ I like that cap you have.
 Maybe I should wear one, too…
 
 
-Seen from here, MT. EMBER towers
+Seen from here, Mt. Ember towers
 into the sky.
 
 
@@ -8304,7 +8304,7 @@ you, then.
 
 This is KINDLE Road.
 
-Go straight for MT. EMBER.
+Go straight for Mt. Ember.
 
 
 Light the Fire in Your Heart!
@@ -13338,10 +13338,10 @@ You better have BURN HEAL!{MUSIC:DRAMATIC}
 I have burned down to nothing!
 Not even ashes remain!
 
-You have earned the VOLCANOBadge.
+You have earned the VolcanoBadge.
 
 
-Fire BLAST is the ultimate fire
+Fire Blast is the ultimate fire
 technique.
 
 Don't waste it on Water Pokémon.
@@ -13349,8 +13349,8 @@ Don't waste it on Water Pokémon.
 
 Hah!
 
-The VOLCANOBadge heightens the
-SPECIAL stats of your Pokémon.
+The VolcanoBadge heightens the
+Special stats of your Pokémon.
 
 Here, you can have this, too!
 
@@ -13504,14 +13504,14 @@ Then get it right!
 Here we go!
 
 
-Caterpie evolves into METAPOD?
+Caterpie evolves into Metapod?
 
 
 There are nine certified Pokémon
 League Badges?
 
 
-POLIWAG evolves three times?
+Poliwag evolves three times?
 
 
 Are electric moves effective
@@ -13522,7 +13522,7 @@ Pokémon of the same kind and level
 are not identical?
 
 
-TM28 contains TOMBSTONY?
+TM28 contains Tombstony?
 
 
 You're absolutely correct!
@@ -14010,7 +14010,7 @@ I admit, I didn't work hard enough
 to win.
 
 Your victory has earned you the
-MARSHBadge.
+MarshBadge.
 
 
 Psychic power isn't something that
@@ -14020,7 +14020,7 @@ Everyone has psychic power.
 People just don't realize it.
 
 
-The MARSHBadge makes Pokémon up
+The MarshBadge makes Pokémon up
 to Lv. 70 obey you.
 
 Stronger Pokémon will become wild,
@@ -14036,7 +14036,7 @@ Wait, please take this TM with you.
 Sabrina.
 
 
-TM04 is CALM MIND.
+TM04 is Calm Mind.
 
 It makes the Pokémon concentrate
 to raise both SP. ATK and SP. DEF.
@@ -15693,10 +15693,10 @@ check out Trainer Tower.
 
 
 Bill: Hey, there!
-CELIO!
+Celio!
 
 
-CELIO: Bill!
+Celio: Bill!
 I can't believe you came out here.
 
 
@@ -15706,19 +15706,19 @@ How's your research coming along?
 …Oh, wait a sec.
 
 
-@s, this is my buddy CELIO.
-He's one dedicated PC MANIAC!
+@s, this is my buddy Celio.
+He's one dedicated PC Maniac!
 
 
-CELIO, this is @s, a rising
-contender as the Pokémon CHAMP!
+Celio, this is @s, a rising
+contender as the Pokémon Champ!
 
 
-CELIO, this is @s, the
-reigning Pokémon CHAMP!
+Celio, this is @s, the
+reigning Pokémon Champ!
 
 
-CELIO: That's really impressive.
+Celio: That's really impressive.
 
 I hate to say it, but I have zero
 aptitude for battling.
@@ -15730,7 +15730,7 @@ Bill: So, bring me up to speed.
 How's your machine running?
 
 
-CELIO: It's running fine, but we're
+Celio: It's running fine, but we're
 too remote out here.
 
 The PCs on this island just can't
@@ -15764,14 +15764,14 @@ We keep in touch, being fellow
 maniacs.
 
 So, can I get you to deliver this
-METEORITE to him?
+Meteorite to him?
 
 
-@s accepted the METEORITE
+@s accepted the Meteorite
 from Bill.
 
 
-CELIO: @s, if you are going
+Celio: @s, if you are going
 to TWO ISLAND, please take this.
 
 
@@ -15807,7 +15807,7 @@ Did you see?
 We got the PC working!
 
 I've got a few things to show
-CELIO here.
+Celio here.
 
 Can you go out on a stroll or
 something for a while more?
@@ -15835,7 +15835,7 @@ We got it done.
 The PCs are up and running!
 
 
-CELIO: The job went incredibly
+Celio: The job went incredibly
 quick.
 
 Bill is one amazing guy…
@@ -15844,11 +15844,11 @@ Bill is one amazing guy…
 Bill: No, no! There was almost
 nothing left for me to do.
 
-CELIO, I have to hand it to you.
+Celio, I have to hand it to you.
 You've learned a lot.
 
 
-CELIO: Oh, really?
+Celio: Oh, really?
 Ehehe…
 
 
@@ -15856,17 +15856,17 @@ Bill: Well, there you have it.
 I'm finished with the job.
 We should head back to KANTO.
 
-CELIO, I'll be seeing you again.
+Celio, I'll be seeing you again.
 
 
-CELIO: @s, I'm really sorry
+Celio: @s, I'm really sorry
 that we sent you off alone today.
 
 I promise, I will show you around
 these islands sometime.
 
 
-CELIO: Hello!
+Celio: Hello!
 You look awfully busy as always.
 
 How am I doing?
@@ -15879,7 +15879,7 @@ I hope you'll be first to use it,
 @s.
 
 
-CELIO: @s, how have things
+Celio: @s, how have things
 been for you?
 
 Oh, is that right?
@@ -15929,7 +15929,7 @@ Th-that's…
 
 
 @s handed the RUBY
-to CELIO.
+to Celio.
 
 
 Thank you!
@@ -15979,10 +15979,10 @@ it without your help.
 
 
 @s handed the SAPPHIRE
-to CELIO.
+to Celio.
 
 
-CELIO: So this is the gem that
+Celio: So this is the gem that
 forms a pair with the RUBY…
 
 @s, you've gone through a lot
@@ -16030,7 +16030,7 @@ looking for exotic Pokémon, right?
 I wish you the best of luck!
 
 
-CELIO: Hello!
+Celio: Hello!
 
 @s, I've been hearing rumors
 about you.
@@ -16090,7 +16090,7 @@ I traded Pokémon with my boyfriend
 far away!
 
 Everyone's saying that we can
-thank you and CELIO.
+thank you and Celio.
 
 So, thank you!
 
@@ -16126,7 +16126,7 @@ That's my daily routine.
 
 
 Let me think… When was the last
-time MT. EMBER erupted?
+time Mt. Ember erupted?
 
 
 Young people all want to go off to
@@ -16238,7 +16238,7 @@ You sure know how to make a guy
 happy.
 
 
-@s handed the METEORITE
+@s handed the Meteorite
 to LOSTELLE's daddy.
 
 
@@ -16270,7 +16270,7 @@ Please show me you being cool
 again!
 
 
-I'm the Pokémon MOVE MANIAC.
+I'm the Pokémon MOVE Maniac.
 
 I know every single move that
 Pokémon learn growing up.
@@ -18466,7 +18466,7 @@ Bill
 From: Bill
 To: @s
 
-Hey, there! CELIO had nothing but
+Hey, there! Celio had nothing but
 praise for you.
 
 Hearing that makes me happy.
@@ -19032,13 +19032,13 @@ LITTLE BOY
 OLD MAN
 
 
-CELIO
+Celio
 
 
-CELIO
+Celio
 
 
-CELIO
+Celio
 
 
 LITTLE GIRL
@@ -23746,12 +23746,12 @@ of Ball that would work best.
 AQUA Leader
 Team AQUA
 AROMA LADY
-RUIN MANIAC
+RUIN Maniac
 INTERVIEWER
 TUBER
 TUBER
 COOLTrainer
-HEX MANIAC
+HEX Maniac
 LADY
 BEAUTY
 RICH BOY
@@ -23761,7 +23761,7 @@ BLACK BELT
 GUITARIST
 KINDLER
 CAMPER
-Bug MANIAC
+Bug Maniac
 Psychic
 GENTLEMAN
 Elite Four
@@ -23771,7 +23771,7 @@ SR. AND JR.
 PokéFAN
 EXPERT
 YOUNGSTER
-CHAMPION
+ChampION
 FISHERMAN
 TRIATHLETE
 DRAGON TAMER
@@ -23831,7 +23831,7 @@ COOLTrainer
 Elite Four
 GENTLEMAN
 RIVAL
-CHAMPION
+ChampION
 Channeler
 TWINS
 COOL COUPLE
@@ -23845,7 +23845,7 @@ TUBER
 {PKMN} BREEDER
 {PKMN} RANGER
 AROMA LADY
-RUIN MANIAC
+RUIN Maniac
 LADY
 PAINTER
 
@@ -24562,7 +24562,7 @@ KADABRA
 ALAKAZAM
 Machop
 MACHOKE
-MACHAMP
+MAChamp
 BELLSPROUT
 WEEPINBELL
 VICTREEBEL
@@ -27236,7 +27236,7 @@ RED ORB
 BLUE ORB
 SCANNER
 GO-GOGGLES
-METEORITE
+Meteorite
 RM. 1 KEY
 RM. 2 KEY
 RM. 4 KEY
@@ -28510,7 +28510,7 @@ Sevii ISLE 22
 Sevii ISLE 23
 Sevii ISLE 24
 NAVEL Rock
-MT. EMBER
+Mt. Ember
 Berry Forest
 Icefall Cave
 Rocket WAREHOUSE
@@ -30739,7 +30739,7 @@ corrupted.
 HALL OF FAME No. {FD02}
 
 
-League CHAMPION!
+League ChampION!
 CONGRATULATIONS!
 
 
@@ -31822,7 +31822,7 @@ SoulBadge
 MARSHBadge
 
 
-VOLCANOBadge
+VolcanoBadge
 
 
 EARTHBadge
@@ -32071,7 +32071,7 @@ SoulBadge
 MARSHBadge
 
 
-VOLCANOBadge
+VolcanoBadge
 
 
 EARTHBadge
@@ -33067,7 +33067,7 @@ at a Pokémon Center.
 
 
 {F700} had a marvelous battle
-with the CHAMPION, {F701}.
+with the ChampION, {F701}.
 
 
 In the end, {F700} sent out {F701}
@@ -39097,8 +39097,8 @@ COTTON BIRD
 HUMMING
 CAT FERRET
 FANG SNAKE
-METEORITE
-METEORITE
+Meteorite
+Meteorite
 WHISKERS
 WHISKERS
 RUFFIAN
@@ -40766,7 +40766,7 @@ MR. MIME
 JO & HALEY
 HYPNO
 HITMONCHAN
-MACHAMP
+MAChamp
 HOUNDOOM
 PRIMEAPE
 HERACROSS
@@ -40821,7 +40821,7 @@ NICOLAS
 Hitmonlee
 SCYTHER
 MAGMAR
-MACHAMP
+MAChamp
 PRIMEAPE
 Poliwrath
 
@@ -40863,7 +40863,7 @@ Poliwrath
 
 
 RIC & RENE
-MACHAMP
+MAChamp
 PINSIR
 MAROWAK
 HITMONCHAN
@@ -41072,7 +41072,7 @@ GYARADOS
 BRENNAN
 Lapras
 KINGDRA
-MACHAMP
+MAChamp
 Chansey
 TAUROS
 Snorlax
