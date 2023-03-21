@@ -1114,8 +1114,9 @@ Gyaoo!
 #Zapdos Encounter
 
 #-------------------
-#Dialogue 69 -
+#Dialogue 69 - Mt. Ember
 #Moltres Encounter
+#https://youtu.be/_6uv4msYJiM?t=45896
 
 
 #-------------------
@@ -1335,7 +1336,7 @@ pokebattle
 
 
 #Left off at
-https://youtu.be/_6uv4msYJiM?t=43815
+https://youtu.be/_6uv4msYJiM?t=46085
 
 
 
