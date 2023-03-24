@@ -3,6 +3,8 @@
 execute as @a[x=3870,y=40,z=1195,dx=2,dy=2,dz=2] run function kanto:triggers/startingcommands
 
 
+#Kills entities that may be corrput and crashing
+#tp @e[x=2798,y=34,z=-188,distance=..3,type=pixelmon:npc_trainer] ~ ~-1000 ~
 
 #------------------------------------------------------------------------------
 #World important triggers
