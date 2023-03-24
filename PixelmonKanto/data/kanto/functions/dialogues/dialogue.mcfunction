@@ -1112,6 +1112,7 @@ Gyaoo!
 #-------------------
 #Dialogue 68 -
 #Zapdos Encounter
+#https://youtu.be/_6uv4msYJiM?t=49186
 
 #-------------------
 #Dialogue 69 - Mt. Ember
@@ -1283,9 +1284,6 @@ pokebattle
 
 <Bill> I'll catch you later! Say hi to the guy for me!
 
-
-
-
 #-------------------
 #Dialogue 80 - Cinnabar Island
 #Bill if answered No
@@ -1297,7 +1295,717 @@ pokebattle
 
 #tps out
 
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 81 - Two Island
+#Game Corner guy asking for help
+#https://youtu.be/_6uv4msYJiM?t=46436
+
+<...> Now, where's Lostelle gotten to today?
+<...> She always brings me lunch every day right about now…
+<...> Hm? You, there! Are you a friend of Lostelle's?
+<...> Have you seen Lostelle around?
+<...> I don't know where she might be. She should've been here long ago.
+<...> Lostelle's a cutie - she got my looks - so what if someone…
+<...> What if something's happened to my Lostelle?!
+<...> Please, help me find her! Please go search Three Island!
+
+#Biker enters the door
+<Biker Guy> Hah? What is this Game Corner? How much sadder can this get?
+<Biker Guy> Those clowns…
+<Biker Guy> They said they'd be waiting on the island, so where are they?
+
+<...> Hey, you! Is this the only Three Island around here?
+<...> Try waking up before you crawl out of bed, you punk.
+<...> This is Two Island!
+<...> Move it! Get your filthy motorbike out of my place!
+
+<Biker Guy> Huh… Oh, oh, gotcha.
+<Biker Guy> Tch… These islands are confusing…
+
+#tps biker out
+
+<...> Would you look at that? That punk scuffed up my floor.
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 82 - Three Island
+#Bikers Ganged Up
+#https://youtu.be/_6uv4msYJiM?t=46591
+
+<...> Are you the boss? Go back to Kanto right now!
+
+<Cue Ball> Hah?
+<Cue Ball> I just got here, pal.
+<Cue Ball> What's with the hostile attitude? It's mighty cold of you!
+
+<...> Your gang of followers have been raising havoc on their bikes.
+<...> Do you have any idea how much trouble they've caused us on the island?
+
+<Cue Ball> No, man, I don't get it at all.
+<Cue Ball> Look at this place. What do you do for entertainment?
+<Cue Ball> You ought to be thanking us for livening up this sleepy village.
+<Cue Ball> But hey, if you insist, you can try making us leave.
+
+<...> Grr… You cowards… So tough in a pack…
+
+#Biker npc turns into a trainer
+
+<Biker Goon> You, what are you staring at? Don't you know it's not polite?
+<Biker Goon> You wanna make something of it or what?
+
 #-------------------
+#Dialogue 83 - Three Island
+#After Biker Goon #1
+#https://youtu.be/_6uv4msYJiM?t=46687
+
+<Biker Goon> Aww, man… Don't you dare laugh!
+
+<Biker Goon> Aren't you from Kanto? You should be on our side!
+
+#swaps NPC for Trainer no 2
+
+#pokebattle BikerGoon2
+
+#-------------------
+#Dialogue 84 - Three Island
+#After Biker Goon #2
+#https://youtu.be/_6uv4msYJiM?t=46726
+
+<Biker Goon> What's the matter with you, getting all hot like that?
+<Biker Goon> Totally uncool, man!
+
+#swaps NPC for Trainer no 3
+
+<Biker Goon> We invited the boss out here, but you had to mess it up!
+<Biker Goon> You embarrassed us, man!
+
+#pokebattle BikerGoon3
+
+#-------------------
+#Dialogue 85 - Three Island
+#After Biker Goon #3
+#https://youtu.be/_6uv4msYJiM?t=46769
+
+<Biker Goon> Boss, I'm telling you, you've gotta do something about this kid!
+
+<Cue Ball> I've been watching you, and I'd say you've done enough.
+<Cue Ball> What are you, their friend or something?
+<Cue Ball> Then I guess you'll be battling me in their place.
+
+#swaps NPC for Trainer no 4
+
+#pokebattle CueBall
+
+#-------------------
+#Dialogue 86 - Three Island
+#After Biker Cue Ball
+#https://youtu.be/_6uv4msYJiM?t=46843
+
+<Cue Ball> Humph! Yeah, go right on hanging around with these hayseeds!
+
+#teleports out bikers
+
+<...> Thank you! Those goons were nothing but bad trouble.
+<...> Oh, look, your Pokémon got hurt on my account.
+
+give @s pixelmon:full_restore
+
+<...> It'd be fantastic if someone as strong as you lived here.
+<...> I hope you'll at least stay here a while.
+<...> …I beg your pardon? You're looking for Lostelle?
+<...> Lostelle went off towards Bond Bridge a while ago.
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 87 - Three Island
+#Finding Lostelle in Berry Forest
+#https://youtu.be/_6uv4msYJiM?t=47691
+
+<Lostelle> Whimper… Sniff… Oh! Please, help!
+<Lostelle> A scary Pokémon appeared there a little while ago.
+<Lostelle> It kept scaring. It made Lostelle scared.
+<Lostelle> I'm too scared to move! But I want to go home…
+<Lostelle> Oh! Here it comes again! No! Go away! It's scaring me!
+<Lostelle> Waaaaaaah! I want my daddy!
+
+pokebattle Hypno,lvl:30
+
+#-------------------
+#Dialogue 88 - Three Island
+#Lostelle after Hypno encounter
+#https://youtu.be/_6uv4msYJiM?t=47742
+
+<Lostelle> Ohh! That was so scary! Thank you!
+<Lostelle> Lostelle came to pick some Berries.
+<Lostelle> You can have this!
+
+give @s pixelmon:iapapa_berry
+
+<Lostelle> What's your name?
+<Lostelle> Lostelle's scared, so can I go with you to my daddy's house?
+<Lostelle> Okay! Let's go home!
+
+#teleports to Two Island Game Corner
+
+<Lostelle's Father> So you rescued Lostelle? How can I thank you?
+<Lostelle's Father> Lostelle, darling, forgive me!
+<Lostelle's Father> Daddy didn't know you were scared and in trouble!
+
+<Lostelle> It's okay, Daddy. I got to be friends with @s!
+
+#-------------------
+#Dialogue 89 - Two Island
+#Lostelle's dad getting Meteorite
+
+<Lostelle's Father> Oh, what's that? You're saying that this is for me?
+<Lostelle's Father> How did you know that I love rare rocks and gems?
+<Lostelle's Father> You sure know how to make a guy happy.
+
+@s handed the Meteorite to Lostelle's daddy.
+
+<Lostelle's Father> Oh, I see, this is from Bill! You have to thank him for me!
+<Lostelle's Father> You know, you've been fantastic. I want you to have this.
+
+@s received a Moon Stone from Lostelle's daddy.
+
+<Lostelle's Father> All right, I'll get the Game Corner running right away.
+<Lostelle's Father> You have to come visit with a friend.
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 90 - One Island
+#Bill and Celio after delieving the meteorite
+#https://youtu.be/_6uv4msYJiM?t=47832
+
+<Bill> Oh, hey! @s!
+<Bill> What kept you so long? Been out having a good time?
+<Bill> We got it done. The PCs are up and running!
+
+<Celio> The job went incredibly quick.
+<Celio> Bill is one amazing guy…
+
+<Bill> No, no! There was almost nothing left for me to do.
+<Bill> Celio, I have to hand it to you. You've learned a lot.
+
+<Celio> Oh, really? Ehehe…
+
+<Bill> Well, there you have it. I'm finished with the job.
+<Bill> We should head back to Kanto.
+<Bill> Celio, I'll be seeing you again.
+
+
+<Celio> @s, I'm really sorry that we sent you off alone today.
+<Celio> I promise, I will show you around these islands sometime.
+
+#takes the player back to Cinnabar Island
+
+<Bill> Hey, wasn't that a long cruise?
+<Bill> My buddy Celio seemed to enjoy your company.
+<Bill> I'm sure he'd welcome you if you were to visit him again.
+<Bill> If you have a Tri-Pass, you can always take a ferry there from Vermilion Port.
+<Bill> All right, thanks for your company!
+
+#tps Bill out
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 91 - Pallet Town
+#Oak evaluating the player's Pokedex
+
+
+<Prof. Oak> Good to see you! How is your Pokédex coming along?
+<Prof. Oak> Here, let me take a look.
+
+#Renames reference armor stands based on player's Pokedex amounts
+
+<Prof. Oak> The amount of progress you've made on your Pokédex is:
+@e Pokémon seen and
+@e Pokémon owned.
+
+Prof. Oak's rating:
+
+<Prof. Oak> You still have lots to do.
+<Prof. Oak> Go into every patch of grass you see and look for Pokémon!
+
+<Prof. Oak> It looks as if you're getting on the right track!
+<Prof. Oak> I've given one of my Aides a Flash HM. Make sure you go get it!
+
+<Prof. Oak> Your Pokédex could use a bit more volume still!
+<Prof. Oak> Try to catch other species of Pokémon!
+
+<Prof. Oak> Good, it's apparent that you're trying hard!
+<Prof. Oak> I've given one of my Aides an ItemFinder. Be sure to collect it!
+
+<Prof. Oak> Your Pokédex is coming along quite well!
+<Prof. Oak> I've given one of my Aides an Amulet Coin. Be sure to get it!
+
+<Prof. Oak> Ah, you've finally topped 50 species!
+<Prof. Oak> I've given one of my Aides an Exp. Share. Be sure to go get it!
+
+<Prof. Oak> Hoho! This is turning into quite the respectable Pokédex!
+<Prof. Oak> Very good! I think you'll collect even more Pokémon by going fishing!
+
+<Prof. Oak> Wonderful! Let me guess… You like to collect things, don't you?
+<Prof. Oak> I'm impressed! It must have been difficult to do!
+
+<Prof. Oak> You've finally hit 100 species! I can't believe how good you are!
+<Prof. Oak> You even have the evolved forms of Pokémon! Super!
+
+<Prof. Oak> Excellent! Trade with friends to get some more!
+<Prof. Oak> Outstanding! You've become a real pro at this!
+
+
+<Prof. Oak> I have nothing left to say! You're the Pokémon Professor now!
+<Prof. Oak> Your Pokédex is entirely complete! Congratulations!!
+
+
+And your National Pokédex is:
+
+{FD02} Pokémon seen and
+{FD03} Pokémon owned.
+
+
+I'll be looking forward to seeing you fill the National Pokédex!
+
+
+<Prof. Oak> Finally… You've finally completed the Pokédex!
+<Prof. Oak> It's magnificent! Truly, this is a fantastic feat!
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 92 - Viridian Gym
+#Giovanni Pre-Battle
+#https://youtu.be/_6uv4msYJiM?t=50336
+
+<Giovanni> Fwahahaha! Welcome to my hideout!
+<Giovanni> It shall be so until I can restore Team Rocket to its former glory.
+<Giovanni> But, you have found me again. So be it. This time, I'm not holding back!
+<Giovanni> Once more, you shall face Giovanni, the greatest Trainer!
+
+#-------------------
+#Dialogue 93 - Viridian Gym
+#Giovanni Post-Battle
+#https://youtu.be/_6uv4msYJiM?t=50536
+
+<Giovanni> Ha! That was a truly intense fight.
+<Giovanni> You have won! As proof, here is the EarthBadge!
+<Giovanni> It is evidence of your mastery as a Pokémon Trainer.
+<Giovanni> With it, you can challenge the Pokémon League.
+<Giovanni> Also, take this TM.
+<Giovanni> Consider it a gift for your Pokémon League challenge.
+
+@s received TM26 from Giovanni.
+
+<Giovanni> TM26 contains Earthquake.
+<Giovanni> It is a powerful attack that causes a massive tremor.
+<Giovanni> I made it when I ran the Gym here, far too long ago…
+
+<Giovanni> Having lost in this fashion, I can't face my followers. I have betrayed their trust.
+<Giovanni> As of today, Team Rocket is finished forever!
+<Giovanni> As for myself, I shall dedicate my life to training again.
+<Giovanni> Let us meet again someday! Farewell!
+
+#Turns Giovanni invisible if nearby player has this tag
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 94 - Route 22
+#Blue Mandatory Battle Pre-Battle
+#https://youtu.be/_6uv4msYJiM?t=50697
+
+#tps Blue in
+
+<Blue> What? @s! What a surprise to see you here!
+<Blue> So you're going to the Pokémon League?
+<Blue> You collected all the Badges, too? That's cool!
+<Blue> Then I'll whip you, @s, as a warm-up for the Pokémon League!
+<Blue> Come on!
+
+#Battle
+
+
+#-------------------
+#Dialogue 95 - Route 22
+#Blue Mandatory Battle Post-Battle
+
+<Blue> That loosened me up. I'm ready for the Pokémon League!
+<Blue> @s, you need more practice.
+<Blue> But hey, you know that! I'm out of here. Smell ya!
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 96 - Pokemon League
+#Lorelei Pre-Battle
+#https://youtu.be/_6uv4msYJiM?t=53335
+
+#If first time/non-rematch track
+<Lorelei> Welcome to the Pokémon League. I am Lorelei of the Elite Four.
+<Lorelei> No one can best me when it comes to icy Pokémon.
+
+#If in rematch track
+<Lorelei> Welcome to the Pokémon League. I, Lorelei of the Elite Four, have returned!
+<Lorelei> You know how it goes. No one can best me when it comes to icy Pokémon.
+
+<Lorelei> Freezing moves are powerful.
+<Lorelei> Your Pokémon will be at my mercy when they are frozen solid.
+<Lorelei> Hahaha! Are you ready?
+
+#-------------------
+#Dialogue 97 - Pokemon League
+#Lorelei Post-Battle
+#https://youtu.be/_6uv4msYJiM?t=53545
+
+<Lorelei> You're better than I thought. Go on ahead.
+<Lorelei> You only got a taste of the Pokémon League's power.
+
+#-------------------
+#Dialogue 98 - Pokemon League
+#Bruno Pre-Battle
+#https://youtu.be/_6uv4msYJiM?t=53582
+
+<Bruno> I am Bruno of the Elite Four!
+<Bruno> Through rigorous training, people and Pokémon can become stronger without limit.
+<Bruno> I've lived and trained with my fighting Pokémon! And that will never change!
+<Bruno> @s!
+<Bruno> We will grind you down with our superior power!
+<Bruno> Hoo hah!
+
+#-------------------
+#Dialogue 99 - Pokemon League
+#Bruno Post-Battle
+#https://youtu.be/_6uv4msYJiM?t=53844
+
+<Bruno> My job is done. Go face your next challenge.
+
+#-------------------
+#Dialogue 100 - Pokemon League
+#Agatha Pre-Battle
+#https://youtu.be/_6uv4msYJiM?t=53895
+
+<Agatha> I am Agatha of the Elite Four.
+
+#Non-Rematch Line
+<Agatha> I hear Oak's taken a lot of interest in you, child.
+
+#Rematch Line
+<Agatha> You're the child that Oak's taken under his wing, aren't you?
+
+
+<Agatha> That old duff was once tough and handsome.
+<Agatha> But that was decades ago. He's a shadow of his former self.
+<Agatha> Now he just wants to fiddle with his Pokédex.
+<Agatha> He's wrong. Pokémon are for battling!
+<Agatha> @s! I'll show you how a real Trainer battles!
+
+#-------------------
+#Dialogue 101 - Pokemon League
+#Agatha Post-Battle
+#https://youtu.be/_6uv4msYJiM?t=54157
+
+<Agatha> You win!
+<Agatha> I see what the old duff sees in you now.
+<Agatha> I have nothing else to say. Run along now, child!
+
+#-------------------
+#Dialogue 102 - Pokemon League
+#Lance Pre-Battle
+#https://youtu.be/_6uv4msYJiM?t=54222
+
+#Non-Rematch Line
+<...> Ah! I've heard about you, @s!
+
+#Rematch Line
+<Lance> Ah! So, you've returned, @s!
+
+<Lance> I lead the Elite Four. You can call me Lance the dragon Trainer.
+<Lance> You know that dragons are mythical Pokémon.
+<Lance> They're hard to catch and raise, but their powers are superior.
+<Lance> They're virtually indestructible. There's no being clever with them.
+<Lance> Well, are you ready to lose?
+<Lance> Your League challenge ends with me, @s!
+
+#-------------------
+#Dialogue 103 - Pokemon League
+#Lance Post-Battle
+#https://youtu.be/_6uv4msYJiM?t=54501
+
+<Lance> I still can't believe my dragons lost to you, @s.
+<Lance> You are now the Pokémon League Champion!
+<Lance> …Or, you would have been, but you have one more challenge left.
+<Lance> There is one more Trainer to face! His name is…
+<Lance> Blue!
+<Lance> He beat the Elite Four before you.
+<Lance> He is the real Pokémon League Champion.
+
+#-------------------
+#Dialogue 104 - Pokemon League
+#Blue Pre-Battle
+#https://youtu.be/_6uv4msYJiM?t=54536
+
+<Blue> Hey, @s!
+
+#Non-Rematch Line
+<Blue> I was looking forward to seeing you, @s.
+
+#Rematch Line
+<Blue> You came back, @s! Hahah, that is so great!
+
+<Blue> My rival should be strong to keep me sharp.
+<Blue> While working on my Pokédex, I looked all over for Pokémon.
+<Blue> Not only that, I assembled teams that would beat any Pokémon type.
+<Blue> And now…
+<Blue> I'm the Pokémon League Champion!
+<Blue> @s! Do you know what that means?
+<Blue> I'll tell you.
+<Blue> I am the most powerful Trainer in the world!
+
+#-------------------
+#Dialogue 105 - Pokemon League
+#Blue Post-Battle
+#https://youtu.be/_6uv4msYJiM?t=54810
+
+<Blue> After all that work to become the League Champ?
+<Blue> My reign is over already? It's not fair!
+<Blue> Why? Why did I lose?
+<Blue> I never made any mistakes raising my Pokémon…
+<Blue> Darn it! You're the new Pokémon League Champion!
+<Blue> Although I don't like to admit it…
+
+<Prof. Oak> @s!
+
+#tp Oak in
+
+<Prof. Oak> So, you've won! Sincerely, congratulations!
+<Prof. Oak> You're the new Pokémon League Champion!
+
+<Prof. Oak> You've grown up so much since you first left with Charmander to work on the Pokédex.
+<Prof. Oak> You've grown up so much since you first left with Squirtle to work on the Pokédex.
+<Prof. Oak> You've grown up so much since you first left with Bulbasaur to work on the Pokédex.
+
+<Prof. Oak> @s, you have come of age!
+
+<Prof. Oak> Blue…
+<Prof. Oak> I'm disappointed in you.
+<Prof. Oak> I came when I heard you'd beaten the Elite Four.
+<Prof. Oak> But, when I got here, you had already lost!
+<Prof. Oak> Blue, do you understand why you lost?
+<Prof. Oak> You have forgotten to treat your Pokémon with love and trust.
+<Prof. Oak> Without them, you will never become a Champ again!
+<Prof. Oak> @s.
+<Prof. Oak> You understand that your victory was not just your own doing.
+<Prof. Oak> The bond you share with your Pokémon is marvelous.
+<Prof. Oak> @s! Come with me!
+
+#https://youtu.be/_6uv4msYJiM?t=54885
+
+#tp into Hall of Fame Room
+
+<Prof. Oak> Er-hem! Congratulations, @s!
+<Prof. Oak> This floor is the Pokémon Hall of Fame.
+<Prof. Oak> Pokémon League Champions are honored for their exploits here.
+<Prof. Oak> Their Pokémon are also recorded in the Hall of Fame.
+<Prof. Oak> @s!
+<Prof. Oak> You have worked hard to become the new League Champion.
+<Prof. Oak> Congratulations, @s, you and your Pokémon are Hall of Famers!
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 106 - Roll Credits
+
+
+
+
+#tps the player to Pallet Town
+
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 107 - Pallet Town
+#Oak post-Pokemon League
+#https://youtu.be/_6uv4msYJiM?t=55252
+
+#teleport Oak in
+
+<Prof. Oak> Ah, @s! You're back, are you?
+<Prof. Oak> How much have you filled in your Pokédex?
+<Prof. Oak> May I see it?
+<Prof. Oak> Let's see…
+<Prof. Oak> You've caught… {FD03}!? Now, this is impressive!
+<Prof. Oak> There's something I wanted to ask of you, @s.
+<Prof. Oak> Come. Follow me.
+
+#telport player to Oak's Lab
+
+<Prof. Oak> Recently, there have been sightings of many rare Pokémon species.
+<Prof. Oak> I'm talking about Pokémon that have never been seen in Kanto.
+<Prof. Oak> I would love to go see things for myself, but I'm much too old.
+<Prof. Oak> Since I can't do it, @s, I'd like you to go in my place.
+
+#tp Blue in
+
+<Blue> Hey, I heard that!
+<Blue> Gramps, what's with favoring @s over me all the time?
+<Blue> I went and collected more Pokémon, and faster, too.
+<Blue> You should just let me handle everything.
+
+<Prof. Oak> I know, I know.
+<Prof. Oak> Of course I need your help, too.
+<Prof. Oak> Now, I need to see both your Pokédexes.
+
+Prof. Oak took both Pokédex units.
+
+… … … … … …
+
+… … … … … …
+
+<Prof. Oak> …And that's done!
+<Prof. Oak> Now these units can record data on a lot more Pokémon.
+
+@s's Pokédex was upgraded!
+
+<Prof. Oak> Now, @s and Blue!
+<Prof. Oak> This time, you really must work towards filling your Pokédexes.
+<Prof. Oak> I urge you to make them the best and the most complete of all time!
+<Prof. Oak> Truly, this is a monumentally great undertaking in Pokémon history!
+
+<Blue> Gramps, calm down. Don't get so excited.
+<Blue> I'll get the Pokédex completed, don't you worry about a thing.
+<Blue> I think I'll try looking around One Island first…
+<Blue> Anyways, I'm outta here!
+
+#tp blue out
+
+<Prof. Oak> Pokémon around the world wait for you, @s!
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 108 - One Island
+#Celio prompting the player about the Ruby
+#https://youtu.be/_6uv4msYJiM?t=55435
+
+<Celio> @s, how have things been for you?
+<Celio> Oh, is that right? You've caught more Pokémon.
+<Celio> Do you know what? Maybe I can be useful to you.
+<Celio> I'm modifying the Network Machine right now.
+<Celio> I'm changing it so it can handle trades over long distances.
+<Celio> When I get finished, you'll be trading for exotic Pokémon from Trainers far away.
+<Celio> But, there is a slight catch.
+<Celio> For the link to work, the Machine needs a special gemstone.
+<Celio> It's supposed to be on One Island, but I haven't found one yet.
+<Celio> Who knows where it could be.
+
+#-------------------
+#Dialogue 109 - One Island
+#Giving Celio the Ruby
+#https://youtu.be/_6uv4msYJiM?t=56042
+
+<Celio> Oh! Th-that's…
+
+@s handed the Ruby  to Celio.
+
+<Celio> Thank you! @s, you're simply amazing.
+<Celio> … … … … … …
+<Celio> Um… May I ask one more giant favor of you?
+<Celio> It… It's not anything weird. Please, I need your help.
+<Celio> While I was studying gemstones, I discovered something important.
+<Celio> There is another gem that forms a pair with this Ruby.
+<Celio> That other gemstone is supposed to be in the Sevii Islands.
+<Celio> @s, please, I need you to go find the other gem.
+<Celio> @s, may I have your ferry Pass and the Town Map?
+
+@s returned the Tri-Pass and received the Rainbow Pass.
+Obtained an extra page for the Town Map!
+
+<Celio> This is my own ferry Pass.
+<Celio> It will let you get to all the Sevii Islands.
+<Celio> @s, please, I can't do it without your help.
+
+#-------------------
+#Dialogue 110 - One Island
+#Giving Celio the Sapphire
+
+
+@s handed the Sapphire to Celio.
+
+
+<Celio> So this is the gem that forms a pair with the Ruby…
+<Celio> @s, you've gone through a lot to get this, didn't you?
+<Celio> You don't have to tell me. I know it wasn't easy.
+<Celio> Thank you so much!
+<Celio> Now it's my turn to work for you! Please give me a little time.
+<Celio> Okay, this is good…
+<Celio> I did it! I linked up with Lanette!
+<Celio> @s…
+<Celio> @s, I did it!
+<Celio> I've managed to link up with Trainers in the Hoenn region!
+<Celio> Finally, the Network Machine is fully operational!
+<Celio> @s, I owe it all to you!
+<Celio> Thanks to you, my dream came true…
+<Celio> I… I'm not crying.
+<Celio> That's enough about me!
+<Celio> @s, you're going to keep looking for exotic Pokémon, right?
+<Celio> I wish you the best of luck!
+
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 111 - One Island
+#Team Rocket grunts outside of Mt. Ember Path
+#https://youtu.be/_6uv4msYJiM?t=55531
+
+<Team Rocket Grunt> Whew, punched through at last. Let's go treasure hunting!
+<Team Rocket Grunt> Any treasure we find, we haul back to the Warehouse, understood?
+<Team Rocket Grunt> …Oh, and what're the passwords? At the Rocket Warehouse, I mean.
+<Team Rocket Grunt> What, you forgot the password? There're actually two.
+<Team Rocket Grunt> The first one's "Goldeen need log.”
+<Team Rocket Grunt> And the second one is…
+<Team Rocket Grunt> Hey!
+<Team Rocket Grunt> This snoop's been listening in!
+
+#Swap out chatting npcs to trainers
+
+#-------------------
+#Dialogue 112 - One Island
+#After defeating both Rocket Grunts
+#https://youtu.be/_6uv4msYJiM?t=55747
+
+<Team Rocket Grunt> What a setback… We'll have to regroup.
+<Team Rocket Grunt> You! Don't even think about taking a step inside here!
+<Team Rocket Grunt> If you know what's good for you, don't even think about this!
+
+#tp grunts out
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 113 - Four Island
+#Blue after stepping off boat
+#https://youtu.be/_6uv4msYJiM?t=56131
+
+<Blue> Hey! @s!
+<Blue> What are you doing here in the Sevii Islands?
+<Blue> You should quit copying me, you know?
+<Blue> Anyways, I already got my Pokémon Egg, so I'm done with this island.
+<Blue> Heh, I bet you don't even know about Pokémon Eggs.
+<Blue> You'll never fill your National Pokédex that way.
+<Blue> By the way, I saw someone we both know on this island.
+<Blue> Why don't you go look around if it makes you curious?
+<Blue> Me, I don't have the time to waste.
+<Blue> Be smelling ya!
+
+#tp blue out
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 114 - Four Island
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1336,7 +2044,7 @@ pokebattle
 
 
 #Left off at
-https://youtu.be/_6uv4msYJiM?t=46085
+https://youtu.be/_6uv4msYJiM?t=56184
 
 
 

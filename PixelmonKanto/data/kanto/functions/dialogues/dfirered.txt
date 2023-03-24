@@ -841,7 +841,7 @@ I can beat you when it comes to
 knowledge about Pokémon!
 
 
-This here is VICTORY Road.
+This here is Victory Road.
 It's the final test for Trainers!
 
 
@@ -870,10 +870,10 @@ I got whipped!
 
 
 You earned the right to be on
-VICTORY Road…
+Victory Road…
 
 
-Is VICTORY Road too tough?
+Is Victory Road too tough?
 
 
 Well done!
@@ -885,7 +885,7 @@ challenge here and go home.
 
 You should be proud of yourself,
 having battled your way through
-VICTORY Road so courageously.
+Victory Road so courageously.
 
 In recognition of your feat,
 I'll teach you DOUBLE-EDGE.
@@ -915,7 +915,7 @@ I heard rumors of a child prodigy.
 The rumors were true!
 
 
-So, it was you who beat GIOVANNI
+So, it was you who beat Giovanni
 of Team Rocket?
 
 
@@ -2150,7 +2150,7 @@ You have won!
 from the attendant!
 
 
-HM03 is SURF.
+HM03 is Surf.
 
 Pokémon will be able to ferry you
 across water using it.
@@ -2171,7 +2171,7 @@ Mew!
 
 Welcome to the Pokémon League.
 
-I am LORELEI of the Elite Four.
+I am Lorelei of the Elite Four.
 
 No one can best me when it comes
 to icy Pokémon.
@@ -2187,7 +2187,7 @@ Are you ready?{MUSIC:DRAMATIC}
 
 Welcome to the Pokémon League.
 
-I, LORELEI of the Elite Four,
+I, Lorelei of the Elite Four,
 have returned!
 
 You know how it goes.
@@ -2213,7 +2213,7 @@ You only got a taste of the
 Pokémon League's power.
 
 
-I am BRUNO of the Elite Four!
+I am Bruno of the Elite Four!
 
 Through rigorous training, people
 and Pokémon can become stronger
@@ -2231,7 +2231,7 @@ superior power!
 Hoo hah!{MUSIC:DRAMATIC}
 
 
-I am BRUNO of the Elite Four!
+I am Bruno of the Elite Four!
 
 Through rigorous training, people
 and Pokémon can become stronger
@@ -2257,7 +2257,7 @@ My job is done.
 Go face your next challenge.
 
 
-I am AGATHA of the Elite Four.
+I am Agatha of the Elite Four.
 
 I hear Oak's taken a lot of
 interest in you, child.
@@ -2278,7 +2278,7 @@ Pokémon are for battling!
 Trainer battles!{MUSIC:DRAMATIC}
 
 
-I am AGATHA of the Elite Four.
+I am Agatha of the Elite Four.
 
 You're the child that Oak's taken
 under his wing, aren't you?
@@ -2317,7 +2317,7 @@ Ah! I've heard about you,
 
 I lead the Elite Four.
 
-You can call me LANCE the dragon
+You can call me Lance the dragon
 Trainer.
 
 You know that dragons are
@@ -2340,7 +2340,7 @@ So, you've returned, @s!
 
 I lead the Elite Four.
 
-You can call me LANCE the dragon
+You can call me Lance the dragon
 Trainer.
 
 You know that dragons are
@@ -2368,7 +2368,7 @@ I still can't believe my dragons
 lost to you, @s.
 
 You are now the Pokémon League
-ChampION!
+Champion!
 
 …Or, you would have been, but
 you have one more challenge left.
@@ -2382,7 +2382,7 @@ He beat the Elite Four before
 you.
 
 He is the real Pokémon League
-ChampION.
+Champion.
 
 
 Blue: Hey, @s!
@@ -2401,7 +2401,7 @@ that would beat any Pokémon type.
 
 And now…
 
-I'm the Pokémon League ChampION!
+I'm the Pokémon League Champion!
 
 @s!
 Do you know what that means?
@@ -2428,7 +2428,7 @@ that would beat any Pokémon type.
 
 And now…
 
-I'm the Pokémon League ChampION!
+I'm the Pokémon League Champion!
 
 @s!
 Do you know what that means?
@@ -2457,7 +2457,7 @@ I never made any mistakes raising
 my Pokémon…
 
 Darn it! You're the new Pokémon
-League ChampION!
+League Champion!
 
 Although I don't like to admit it…
 
@@ -2469,7 +2469,7 @@ Oak: So, you've won!
 Sincerely, congratulations!
 
 You're the new Pokémon League
-ChampION!
+Champion!
 
 You've grown up so much since you
 first left with {FD02} to work
@@ -2512,22 +2512,22 @@ Come with me!
 Oak: Er-hem!
 Congratulations, @s!
 
-This floor is the Pokémon HALL OF
-FAME.
+This floor is the Pokémon Hall of
+Fame.
 
-Pokémon League ChampIONS are
+Pokémon League Champions are
 honored for their exploits here.
 
 Their Pokémon are also recorded in
-the HALL OF FAME.
+the Hall of Fame.
 
 @s!
 
 You have worked hard to become
-the new League ChampION.
+the new League Champion.
 
 Congratulations, @s, you and
-your Pokémon are HALL OF FAMERS!
+your Pokémon are Hall of Famers!
 
 
 This tunnel goes a long way, kid!
@@ -2972,7 +2972,7 @@ Intruders…
 
 
 The ghost was the restless spirit
-of CUBONE's mother!
+of CUBOne's mother!
 
 
 The mother's spirit was calmed.
@@ -3080,17 +3080,16 @@ Let's go treasure hunting!
 
 
 Any treasure we find, we haul back
-to the WAREHOUSE, understood?
+to the Warehouse, understood?
 
 …Oh, and what're the passwords?
-At the Rocket WAREHOUSE, I mean.
+At the Rocket Warehouse, I mean.
 
 
 What, you forgot the password?
 There're actually two.
 
-The first one's “GOLDEEN need
-log.”
+The first one's Goldeen need log.”
 
 And the second one is…
 
@@ -3173,17 +3172,17 @@ The way you battle, it reminds me
 of the guy who dumped me…
 
 
-@s found a RUBY!
+@s found a Ruby!
 
 
-LOSTELLE: Whimper… Sniff…
+Lostelle: Whimper… Sniff…
 Oh! Please, help!
 
 A scary Pokémon appeared there
 a little while ago.
 
 It kept scaring.
-It made LOSTELLE scared.
+It made Lostelle scared.
 
 I'm too scared to move!
 But I want to go home…
@@ -3199,7 +3198,7 @@ I want my daddy!
 Ohh! That was so scary!
 Thank you!
 
-LOSTELLE came to pick some
+Lostelle came to pick some
 Berries.
 
 You can have this!
@@ -3207,7 +3206,7 @@ You can have this!
 
 What's your name?
 
-LOSTELLE's scared, so can I go
+Lostelle's scared, so can I go
 with you to my daddy's house?
 
 Okay!
@@ -3228,7 +3227,7 @@ Beware of wild, Berry-loving
 Pokémon!
 
 
-LORELEI: Keep your filthy hands
+Lorelei: Keep your filthy hands
 off the Pokémon in the cave!
 
 Do as I say, or you'll have me to
@@ -3242,7 +3241,7 @@ Don't let your glasses get all
 steamed up!
 
 
-LORELEI: @s?!
+Lorelei: @s?!
 What are you doing here?
 
 No, we can catch up later.
@@ -3267,7 +3266,7 @@ with the Pokémon we catch?
 We didn't plan on this!
 
 
-LORELEI: Humph.
+Lorelei: Humph.
 So despicably weak.
 
 You!
@@ -3284,7 +3283,7 @@ N-no way!
 I'm not telling you that!
 
 
-LORELEI: If you won't confess,
+Lorelei: If you won't confess,
 we'll deep-freeze you.
 
 My Lapras is furious for what
@@ -3298,13 +3297,13 @@ Wawaah! Okay!
 I'll talk!
 
 The Pokémon are in the Rocket
-WAREHOUSE on FIVE ISLAND.
+Warehouse on FIVE Island.
 
 There! I said it!
 We'll be going now!
 
 …But I doubt you'll ever make it
-into the Rocket WAREHOUSE!
+into the Rocket Warehouse!
 
 Heheheheh!
 
@@ -3328,7 +3327,7 @@ The Pokémon appear to have fled.
 
 
 Did you come here knowing it's
-Team Rocket's WAREHOUSE?
+Team Rocket's Warehouse?
 
 
 What do you think you're doing?!
@@ -3423,7 +3422,7 @@ So it's true?
 Team Rocket really has disbanded?
 
 
-We will abandon this WAREHOUSE…
+We will abandon this Warehouse…
 
 But don't think this is over.
 I won't let this be the end.
@@ -3447,7 +3446,7 @@ It's too difficult to understand…
 
 
 I almost managed to sell the
-SAPPHIRE for huge money…
+Sapphire for huge money…
 
 Then, you just had to come along
 and blow the whole deal apart!
@@ -3480,7 +3479,7 @@ You don't have any reasons for
 bugging me. Leave me alone!
 
 
-@s found a SAPPHIRE!
+@s found a Sapphire!
 
 
 Fufu… Fufufufu…
@@ -3489,7 +3488,7 @@ I guessed right.
 I was right in tailing you!
 
 
-I knew that there was a SAPPHIRE
+I knew that there was a Sapphire
 here, so it belongs to me!
 
 I'll sell it to Team Rocket for
@@ -3502,9 +3501,9 @@ go get it after I sell it?
 
 I'll even tell you one of the
 passwords to Team Rocket's
-WAREHOUSE.
+Warehouse.
 
-The WAREHOUSE password I know is
+The Warehouse password I know is
 “Yes, nah, Chansey.”
 
 I'm done.
@@ -3873,7 +3872,7 @@ What am I doing here, you ask?
 Why, I'm prospecting for gold!
 
 When I strike it rich, I'm buying
-a house in KANTO.
+a house in Kanto.
 
 
 Hey, there! How's it going?
@@ -3944,7 +3943,7 @@ After an honest day of training,
 nothing beats a relaxing soak in
 the hot spring pool.
 
-BRUNO, who's a senior ahead of me,
+Bruno, who's a senior ahead of me,
 visits the SPA on occasion.
 
 He comes to rehab injuries, both
@@ -4526,7 +4525,7 @@ be allowed inside there.
 
 You'd have to be strong enough to
 become the Pokémon League
-ChampION for starters.
+Champion for starters.
 
 And, you would have to have
 made a great achievement.
@@ -4686,7 +4685,7 @@ You need a ticket to get aboard.
 The ship set sail.
 
 
-Ah, you have a TRI-PASS.
+Ah, you have a Tri-Pass.
 
 Would you like to board
 a SEAGALLOP ferry?
@@ -4698,7 +4697,7 @@ SEAGALLOP HI-Speed 7 will be
 departing immediately.
 
 
-Ah, you have a RAINBOW PASS.
+Ah, you have a Rainbow Pass.
 
 Would you like to board
 a SEAGALLOP ferry?
@@ -4715,7 +4714,7 @@ Oh! That's an AURORATICKET!
 Now that is rare.
 
 We'll be happy to take you to
-BIRTH ISLAND anytime.
+BIRTH Island anytime.
 
 
 Would you like to board
@@ -5048,7 +5047,7 @@ Well, listen, since we met up here,
 how about spending time with me?
 
 There's this little island in the far
-south called ONE ISLAND.
+south called One Island.
 
 A friend invited me, so I'm on my
 way out there.
@@ -5215,11 +5214,11 @@ This FAN CLUB…
 No one here has a clue!
 
 How could they not recognize
-the brilliance that is LANCE?
+the brilliance that is Lance?
 
 He stands for justice!
 He's cool, and yet passionate!
-He's the greatest, LANCE!
+He's the greatest, Lance!
 
 
 Bill: Here we are!
@@ -5262,7 +5261,7 @@ My granddaughter was in a tizzy
 over a new breakthrough.
 
 She said we now have PC linkage
-with people in KANTO.
+with people in Kanto.
 
 I'm not sure what that means, but
 Celio is quite the man!
@@ -5272,7 +5271,7 @@ My granddaughter was in a tizzy
 over a new breakthrough.
 
 She said we finally have PC linkage
-with people in HOENN.
+with people in Hoenn.
 
 I'm not sure what that means, but
 Celio is quite the man.
@@ -5281,7 +5280,7 @@ He would make a fine husband for
 my granddaughter!
 
 
-ONE ISLAND
+One Island
 Friends Gather at Knot Island
 
 
@@ -5293,7 +5292,7 @@ Hi, sight-seeing, are you?
 Isn't the warm climate here great?
 
 
-TWO ISLAND
+TWO Island
 Boon Island for Two
 
 
@@ -5315,15 +5314,15 @@ hope we can serve your needs.
 
 
 I can't tell you how grateful I am
-for your rescue of LOSTELLE.
+for your rescue of Lostelle.
 
 Thanks to your feat, the people of
-THREE ISLAND have changed their
-attitudes about KANTO people.
+Three Island have changed their
+attitudes about Kanto people.
 
-And, I'm from KANTO, you see.
+And, I'm from Kanto, you see.
 
-The people of THREE ISLAND
+The people of Three Island
 helped me add to my merchandise.
 
 
@@ -5362,10 +5361,10 @@ Listen, listen.
 Did you know?
 
 A famous Trainer came to the
-ISLAND a little while back.
+Island a little while back.
 
 He's one of the Elite Four.
-His name is BRUNO.
+His name is Bruno.
 
 He went away disappointed when he
 found out that they were all sold
@@ -5397,7 +5396,7 @@ Did you know that?
 Boing!
 
 
-THREE ISLAND
+Three Island
 Kin Island of Family Bonding
 
 
@@ -5411,7 +5410,7 @@ We don't need you people bringing
 your noise and trouble here!
 
 We're asking you to go back to
-KANTO!
+Kanto!
 
 
 Hey, go cry somewhere else.
@@ -5430,7 +5429,7 @@ Who's gonna make me?
 
 
 Are you the boss?
-Go back to KANTO right now!
+Go back to Kanto right now!
 
 
 Hah?
@@ -5488,7 +5487,7 @@ Aww, man…
 Don't you dare laugh!
 
 
-Aren't you from KANTO?
+Aren't you from Kanto?
 You should be on our side!
 
 
@@ -5561,13 +5560,13 @@ I hope you'll at least stay here
 a while.
 
 …I beg your pardon?
-You're looking for LOSTELLE?
+You're looking for Lostelle?
 
-LOSTELLE went off towards BOND
+Lostelle went off towards Bond
 Bridge a while ago.
 
 
-THREE ISLAND is actually the most
+Three Island is actually the most
 populous of the islands here.
 
 Still, it could be less sleepy.
@@ -5576,27 +5575,27 @@ But I wouldn't want to see goons
 like those Bikers here again.
 
 
-I'm going to train my DODUO in the
+I'm going to train my Doduo in the
 Berry Forest.
 
 When it evolves, I'm going to play
-a game on TWO ISLAND.
+a game on Two Island.
 
 
 DODUO: Gigiih!
 
 
-FOUR ISLAND
+FOUR Island
 The Warm, Blue, Floe Island
 
 
-LORELEI has returned.
+Lorelei has returned.
 
 Did she find the city life too
 stressful, I wonder?
 
 
-LORELEI has gone back.
+Lorelei has gone back.
 
 The Lapras she has, I imagine it
 to be the one she met as a child.
@@ -5639,13 +5638,13 @@ Be smelling ya!
 
 
 Oh, you found me!
-Please don't tell LORELEI.
+Please don't tell Lorelei.
 
-Did you know that LORELEI has lots
+Did you know that Lorelei has lots
 and lots of stuffed dolls?
 
 Every time she comes back to
-FOUR ISLAND, her collection grows!
+FOUR Island, her collection grows!
 
 
 Ooh, chilly!
@@ -5656,10 +5655,10 @@ shaved inside Icefall Cave.
 It's chilly and tasty!
 
 
-LORELEI'S HOUSE
+Lorelei'S HOUSE
 
 
-FIVE ISLAND
+FIVE Island
 Chrono Island: Where Time Goes
 
 
@@ -5699,7 +5698,7 @@ If only we could keep getting
 stronger and stronger, eh?
 
 
-SEVEN ISLAND
+SEVEN Island
 Quest Island of Infinity
 
 
@@ -5721,7 +5720,7 @@ It could be a little difficult to
 hike around because of that.
 
 
-SIX ISLAND
+SIX Island
 Fortune Island of Aged Wisdom
 
 
@@ -7905,7 +7904,7 @@ Pokémon League
 Front Gate
 
 
-VICTORY Road GATE -
+Victory Road GATE -
 Pokémon League
 
 
@@ -8429,13 +8428,13 @@ One Pokémon isn't enough.
 Berry Forest AHEAD
 
 
-BOND Bridge
+Bond Bridge
 Please be quiet when crossing.
 
 Berry Forest AHEAD
 
 
-We're the KANTO RIDER FEDERATION!
+We're the Kanto Rider Federation!
 Vroom! Vavavavooom! Vroom!
 
 My bike's wimpy, so I have to
@@ -8460,7 +8459,7 @@ They certainly had me terrified!
 
 
 Those Bikers ran off, and
-LOSTELLE was found safe.
+Lostelle was found safe.
 
 Everything turned out for the best!
 
@@ -8642,10 +8641,10 @@ open the door…
 
 … … … … … …
 
-The WAREHOUSE's door opened!
+The Warehouse's door opened!
 
 
-The WAREHOUSE's door is already
+The Warehouse's door is already
 open.
 
 
@@ -8661,7 +8660,7 @@ Go home!
 
 
 There's nothing past here except
-our WAREHOUSE.
+our Warehouse.
 
 So what brings you here?
 
@@ -8670,7 +8669,7 @@ That wasn't supposed to happen…
 
 
 You're wanting to know what's inside
-this WAREHOUSE?
+this Warehouse?
 
 It's better you didn't know.
 For your own sake, I mean.
@@ -8697,7 +8696,7 @@ It has to be the beak.
 Oh, so sharp!
 
 
-You can fly to FOUR ISLAND from
+You can fly to FOUR Island from
 here.
 
 
@@ -9380,7 +9379,7 @@ not a bad thing.
 But it's also not bad to aim for
 the top with a partner.
 
-Even BRUNO…
+Even Bruno…
 He trained with a fellow by the
 name of BRAWLY before.
 
@@ -9534,7 +9533,7 @@ When they get tired, please give
 them a rest.
 
 
-It's a big map of the KANTO region.
+It's a big map of the Kanto region.
 Now this would be useful!
 
 
@@ -9989,7 +9988,7 @@ Recently, there have been sightings
 of many rare Pokémon species.
 
 I'm talking about Pokémon that
-have never been seen in KANTO.
+have never been seen in Kanto.
 
 I would love to go see things for
 myself, but I'm much too old.
@@ -10014,7 +10013,7 @@ Oak: I know, I know.
 Of course I need your help, too.
 
 Now, I need to see both your
-PokédexES.
+Pokédexes.
 
 
 Prof. Oak took both Pokédex
@@ -10053,7 +10052,7 @@ I'll get the Pokédex completed,
 don't you worry about a thing.
 
 I think I'll try looking around
-ONE ISLAND first…
+One Island first…
 
 Anyways, I'm outta here!
 
@@ -10093,7 +10092,7 @@ Ha!
 That was a truly intense fight.
 You have won!
 
-As proof, here is the EARTHBadge!
+As proof, here is the EarthBadge!
 
 
 Having lost in this fashion,
@@ -10110,7 +10109,7 @@ Let us meet again someday!
 Farewell!
 
 
-The EARTHBadge makes Pokémon of
+The EarthBadge makes Pokémon of
 any level obey without question.
 
 It is evidence of your mastery as
@@ -10195,7 +10194,7 @@ The Leader will scold me for
 losing this way…
 
 
-I'm the Karate KING!
+I'm the Karate King!
 Your fate rests with me!
 
 
@@ -10871,7 +10870,7 @@ The Defense stat of all your
 Pokémon increases a little bit.
 
 It also lets you use the move
-SURF outside of battle.
+Surf outside of battle.
 
 
 Pokémon up to Lv. 70 will obey
@@ -11319,13 +11318,13 @@ There is no job too dirty, no deed
 too heinous, no crime too wicked!
 
 
-I saw CUBONE's mother trying to
+I saw CUBOne's mother trying to
 escape from Team Rocket.
 
 She was killed trying to get away…
 
 
-You know how the CUBONE species
+You know how the CUBOne species
 wears skulls, right?
 
 People will pay a lot for one.
@@ -11342,7 +11341,7 @@ Where'd he go?
 
 
 MR. FUJI had been praying alone
-for CUBONE's mother.
+for CUBOne's mother.
 
 
 This is really MR. FUJI's house.
@@ -11409,13 +11408,13 @@ Pokémon INSIDER…
 Pokémon FAN…
 
 
-CUBONE: Kyarugoo!
+CUBOne: Kyarugoo!
 
 
 Those horrible Rockets!
 They deserve no mercy!
 
-That poor CUBONE's mother…
+That poor CUBOne's mother…
 
 It was killed trying to escape from
 Team Rocket.
@@ -11980,7 +11979,7 @@ Top-Grade Items for Trainers!
 2F: Trainer'S MARKET
 
 
-We have a customer, LANCE, who
+We have a customer, Lance, who
 occasionally comes.
 
 He always buys capes.
@@ -12984,7 +12983,7 @@ It will surely terrorize foes!
 Now that you have the SoulBadge,
 the Defense of your Pokémon rises.
 
-It also lets you SURF outside of
+It also lets you Surf outside of
 battle.
 
 Ah!
@@ -13708,7 +13707,7 @@ have been learned.
 
 
 Bill: Hey, you kept me waiting!
-Ready to set sail to ONE ISLAND?
+Ready to set sail to One Island?
 
 
 Oh, you're still not done yet?
@@ -13751,20 +13750,20 @@ next Trainer. Good luck!
 I am so sorry, but you've wasted
 your time coming here.
 
-LORELEI of the Elite Four is
+Lorelei of the Elite Four is
 absent, you see.
 
 As a result, the Pokémon League is
 closed for the time being.
 
 
-AGATHA's GHOST-type Pokémon are
+Agatha's Ghost-type Pokémon are
 horrifically terrifying in toughness.
 
 I took my Fighting-type Pokémon
 and raised them to the max.
 
-I went at AGATHA feeling pretty
+I went at Agatha feeling pretty
 confident, but she whupped us.
 
 That old lady's also got a really
@@ -13777,7 +13776,7 @@ that scary lady hollering.
 Maybe becoming an Elite Four
 member is in the blood.
 
-From what I've heard, LANCE has
+From what I've heard, Lance has
 a cousin who's a Gym Leader
 somewhere far away.
 
@@ -15660,7 +15659,7 @@ Okay, preparations are complete
 for me to explore the RUINS.
 
 
-I need to fish on SEVEN ISLAND.
+I need to fish on SEVEN Island.
 
 That will complete my fishing tour
 of the Sevii Islands.
@@ -15752,7 +15751,7 @@ me just a bit?
 me a favor?
 
 The island next to this one's
-called TWO ISLAND.
+called TWO Island.
 
 There's a guy there that runs
 a Game Corner.
@@ -15772,14 +15771,14 @@ from Bill.
 
 
 Celio: @s, if you are going
-to TWO ISLAND, please take this.
+to TWO Island, please take this.
 
 
-It's a PASS for the ferry service
+It's a Pass for the ferry service
 serving the local islands.
 
 It will let you travel between the
-Islands ONE, TWO, and THREE.
+Islands One, TWO, and Three.
 
 Oh, you should have this, too.
 
@@ -15854,7 +15853,7 @@ Ehehe…
 
 Bill: Well, there you have it.
 I'm finished with the job.
-We should head back to KANTO.
+We should head back to Kanto.
 
 Celio, I'll be seeing you again.
 
@@ -15905,7 +15904,7 @@ But, there is a slight catch.
 For the link to work, the Machine
 needs a special gemstone.
 
-It's supposed to be on ONE ISLAND,
+It's supposed to be on One Island,
 but I haven't found one yet.
 
 Who knows where it could be.
@@ -15928,7 +15927,7 @@ Oh!
 Th-that's…
 
 
-@s handed the RUBY
+@s handed the Ruby
 to Celio.
 
 
@@ -15949,7 +15948,7 @@ While I was studying gemstones,
 I discovered something important.
 
 There is another gem that forms
-a pair with this RUBY.
+a pair with this Ruby.
 
 That other gemstone is supposed to
 be in the Sevii Islands.
@@ -15958,18 +15957,18 @@ be in the Sevii Islands.
 find the other gem.
 
 @s, may I have your ferry
-PASS and the Town Map?
+Pass and the Town Map?
 
 
-@s returned the TRI-PASS and
-received the RAINBOW PASS.
+@s returned the Tri-Pass and
+received the Rainbow Pass.
 
 
 Obtained an extra page for the
 Town Map!
 
 
-This is my own ferry PASS.
+This is my own ferry Pass.
 
 It will let you get to all the
 Sevii Islands.
@@ -15978,12 +15977,12 @@ Sevii Islands.
 it without your help.
 
 
-@s handed the SAPPHIRE
+@s handed the Sapphire
 to Celio.
 
 
 Celio: So this is the gem that
-forms a pair with the RUBY…
+forms a pair with the Ruby…
 
 @s, you've gone through a lot
 to get this, didn't you?
@@ -16001,14 +16000,14 @@ Okay, this is good…
 
 
 I did it!
-I linked up with LANETTE!
+I linked up with Lanette!
 
 
 @s…
 @s, I did it!
 
 I've managed to link up with
-Trainers in the HOENN region!
+Trainers in the Hoenn region!
 
 Finally, the Network Machine is
 fully operational!
@@ -16043,7 +16042,7 @@ Bill is a Pokémaniac, so he loves
 every kind.
 
 Apparently, the first one he caught
-was an ABRA.
+was an Abra.
 
 
 By the way, @s, you're from
@@ -16105,18 +16104,18 @@ adjustment…
 Network Machine
 Link Level 1
 
-Link established with the KANTO
+Link established with the Kanto
 region.
 
 
 Network Machine
 Link Level 2
 
-Link established with the KANTO
-and HOENN regions.
+Link established with the Kanto
+and Hoenn regions.
 
 
-Obtained the TRI-PASS!
+Obtained the Tri-Pass!
 
 
 On sunny days, I step out and gaze
@@ -16135,7 +16134,7 @@ big cities.
 But I want to stay here forever!
 
 
-Now, where's LOSTELLE gotten to
+Now, where's Lostelle gotten to
 today?
 
 She always brings me lunch every
@@ -16143,20 +16142,20 @@ day right about now…
 
 
 Hm? You, there!
-Are you a friend of LOSTELLE's?
+Are you a friend of Lostelle's?
 
-Have you seen LOSTELLE around?
+Have you seen Lostelle around?
 I don't know where she might be.
 She should've been here long ago.
 
-LOSTELLE's a cutie - she got my
+Lostelle's a cutie - she got my
 looks - so what if someone…
 
 What if something's happened to
-my LOSTELLE?!
+my Lostelle?!
 
 Please, help me find her!
-Please go search THREE ISLAND!
+Please go search Three Island!
 
 
 Hah? What is this Game Corner?
@@ -16167,14 +16166,14 @@ Those clowns…
 They said they'd be waiting on the
 island, so where are they?
 
-Hey, you! Is this the only THREE
-ISLAND around here?
+Hey, you! Is this the only Three
+Island around here?
 
 
 Try waking up before you crawl out
 of bed, you punk.
 
-This is TWO ISLAND!
+This is TWO Island!
 
 Move it! Get your filthy motorbike
 out of my place!
@@ -16192,13 +16191,13 @@ That punk scuffed up my floor.
 
 
 Hey, but listen! I'm begging you,
-you have to go to THREE ISLAND.
+you have to go to Three Island.
 
 If anything were to happen to my
-LOSTELLE…
+Lostelle…
 
 My place is the house with the red
-roof on THREE ISLAND.
+roof on Three Island.
 
 She may just show up late here,
 so I can't run off anywhere.
@@ -16215,16 +16214,16 @@ We'll get the games going soon
 for you!
 
 
-So you rescued LOSTELLE?
+So you rescued Lostelle?
 How can I thank you?
 
-LOSTELLE, darling, forgive me!
+Lostelle, darling, forgive me!
 
 Daddy didn't know you were scared
 and in trouble!
 
 
-LOSTELLE: It's okay, Daddy.
+Lostelle: It's okay, Daddy.
 I got to be friends with @s!
 
 
@@ -16239,7 +16238,7 @@ happy.
 
 
 @s handed the Meteorite
-to LOSTELLE's daddy.
+to Lostelle's daddy.
 
 
 Oh, I see, this is from Bill!
@@ -16250,7 +16249,7 @@ I want you to have this.
 
 
 @s received a Moon Stone
-from LOSTELLE's daddy.
+from Lostelle's daddy.
 
 
 Your BAG's not going to fit another
@@ -16331,7 +16330,7 @@ You have to take a friend along.
 
 
 Not many people live on
-TWO ISLAND.
+Two Island.
 
 There is this old lady who lives
 out on the cape.
@@ -16340,7 +16339,7 @@ She's been there since I don't know
 when.
 
 
-LOSTELLE: Hi, @s!
+Lostelle: Hi, @s!
 You're always so cool!
 
 I'll make lunch for you, too, one
@@ -16353,13 +16352,13 @@ Rare rocks and gems are displayed.
 Hey, did you hear the news?
 
 The PC network here can now link
-with PCs in KANTO.
+with PCs in Kanto.
 
 I don't know how that came about,
 but it's fantastic!
 
 
-It's impossible to SURF between the
+It's impossible to Surf between the
 islands around these parts.
 
 The tides are too fast and
@@ -16434,7 +16433,7 @@ let me go out and play!
 
 
 Me?
-I'm not LOSTELLE.
+I'm not Lostelle.
 
 She's probably gone to the
 Berry Forest, I think.
@@ -16443,7 +16442,7 @@ She picks Berries there for making
 lunch.
 
 
-I think I'll go play with LOSTELLE
+I think I'll go play with Lostelle
 today.
 
 
@@ -16498,7 +16497,7 @@ There! Boing!
 You're awfully heavy!
 
 
-LORELEI: There's something weighing
+Lorelei: There's something weighing
 heavily on my mind.
 
 If anything were to happen on
@@ -16511,7 +16510,7 @@ I wonder if that would make me
 irresponsible to my home…
 
 
-LORELEI: So, you managed to solve
+Lorelei: So, you managed to solve
 all the problems here?
 
 That's wonderful.
@@ -16539,9 +16538,9 @@ We've had a great and powerful
 Trainer grow up on this island.
 
 I bet even you'd know her.
-It's LORELEI of the Elite Four!
+It's Lorelei of the Elite Four!
 
-When LORELEI was just a tyke,
+When Lorelei was just a tyke,
 I taught her about Pokémon.
 
 
@@ -16646,7 +16645,7 @@ Relax and enjoy your stay.
 Play with Pokémon lots and live
 a long life!
 
-Take AGATHA, for example.
+Take Agatha, for example.
 
 She set a record for being the
 oldest-ever Elite Four member.
@@ -17030,14 +17029,14 @@ full health.
 
 
 The water is dyed a deep blue…
-Would you like to SURF?
+Would you like to Surf?
 
 
-{FD02} used SURF!
+{FD02} used Surf!
 
 
 The current is much too fast!
-SURF can't be used here…
+Surf can't be used here…
 
 
 I'm terribly sorry.
@@ -17418,8 +17417,8 @@ Amulet Coin. Be sure to get it!
 Ah, you've finally topped 50
 species!
 
-I've given one of my Aides an EXP.
-SHARE. Be sure to go get it!
+I've given one of my Aides an Exp.
+Share. Be sure to go get it!
 
 
 Hoho! This is turning into quite the
@@ -17694,7 +17693,7 @@ hopes about this place.
 
 There's a rumor…
 
-Misty is said to worship LORELEI
+Misty is said to worship Lorelei
 of the Elite Four.
 
 
@@ -17934,7 +17933,7 @@ new quiz questions.
 
 What does this person do?
 
-I am LORELEI of the Elite Four.
+I am Lorelei of the Elite Four.
 
 
 Favorite kind of Pokémon?
@@ -17949,23 +17948,23 @@ We've had a great and powerful
 Trainer grow up on this island.
 
 I bet even you'd know her.
-It's LORELEI of the Elite Four!
+It's Lorelei of the Elite Four!
 
 
 What is this person like?
 
 Known for her logical, calculated,
-and cool battling style, LORELEI
+and cool battling style, Lorelei
 has a surprising secret!
 
 
 What is this person like?
 
-Did you know that LORELEI has lots
+Did you know that Lorelei has lots
 and lots of stuffed dolls?
 
 Every time she comes back to
-FOUR ISLAND, her collection grows!
+FOUR Island, her collection grows!
 
 
 Favorite kind of Pokémon?
@@ -17982,7 +17981,7 @@ her ever since.
 
 What does this person do?
 
-I am BRUNO of the Elite Four!
+I am Bruno of the Elite Four!
 
 
 Favorite kind of Pokémon?
@@ -17993,14 +17992,14 @@ fighting Pokémon!
 
 What is this person like?
 
-BRUNO apparently joined the ELITE
+Bruno apparently joined the ELITE
 FOUR out of his burning ambition to
 battle the best Trainers.
 
 
 What is this person like?
 
-BRUNO, who's a senior ahead of me,
+Bruno, who's a senior ahead of me,
 visits the SPA on occasion.
 
 He comes to rehab injuries, both
@@ -18010,7 +18009,7 @@ his own and his Pokémon's.
 There's a rumor…
 
 He's one of the Elite Four.
-His name is BRUNO.
+His name is Bruno.
 
 He went away disappointed when he
 found out that they were all sold
@@ -18019,19 +18018,19 @@ out of Rage Candybars.
 
 Family and friends?
 
-Even BRUNO…
+Even Bruno…
 He trained with a fellow by the
 name of BRAWLY before.
 
 
 What does this person do?
 
-I am AGATHA of the Elite Four.
+I am Agatha of the Elite Four.
 
 
 Favorite kind of Pokémon?
 
-AGATHA's GHOST-type Pokémon are
+Agatha's Ghost-type Pokémon are
 horrifically terrifying in toughness.
 
 
@@ -18046,7 +18045,7 @@ that scary lady hollering.
 
 There's a rumor…
 
-In her youth, AGATHA and PROF.
+In her youth, Agatha and PROF.
 Oak were rivals who vied for
 supremacy as Trainers.
 
@@ -18065,7 +18064,7 @@ He's a shadow of his former self.
 
 What is this person like?
 
-Take AGATHA, for example.
+Take Agatha, for example.
 
 She set a record for being the
 oldest-ever Elite Four member.
@@ -18075,7 +18074,7 @@ What does this person do?
 
 I lead the Elite Four.
 
-You can call me LANCE the dragon
+You can call me Lance the dragon
 Trainer.
 
 
@@ -18095,12 +18094,12 @@ What is this person like?
 
 He stands for justice!
 He's cool, and yet passionate!
-He's the greatest, LANCE!
+He's the greatest, Lance!
 
 
 There's a rumor…
 
-We have a customer, LANCE, who
+We have a customer, Lance, who
 occasionally comes.
 
 He always buys capes.
@@ -18111,14 +18110,14 @@ identical capes at home?
 
 Family and friends?
 
-LANCE's grandfather is thought to
+Lance's grandfather is thought to
 be the elder of a famous clan of
 dragon masters.
 
 
 Family and friends?
 
-From what I've heard, LANCE has
+From what I've heard, Lance has
 a cousin who's a Gym Leader
 somewhere far away.
 
@@ -18404,10 +18403,10 @@ And now, a quiz. How many kinds of
 Fire-type Pokémon are there?
 
 
-LORELEI
+Lorelei
 
 
-From: LORELEI
+From: Lorelei
 To: @s
 
 I needed to thank you for your
@@ -18419,10 +18418,10 @@ battles.
 You'd better watch out next time!
 
 
-BRUNO
+Bruno
 
 
-From: BRUNO
+From: Bruno
 To: @s
 
 The super power of your Pokémon
@@ -18432,10 +18431,10 @@ Next time, maybe I should show you
 how to train yourself.
 
 
-AGATHA
+Agatha
 
 
-From: AGATHA
+From: Agatha
 To: @s
 
 When you grow older, don't you
@@ -18444,10 +18443,10 @@ dare go soft like that coot Oak!
 Be like me and keep battling on!
 
 
-LANCE
+Lance
 
 
-From: LANCE
+From: Lance
 To: @s
 
 I'm considering going back to my
@@ -18534,7 +18533,7 @@ Viridian City
 Celadon Mansion
 
 
-FOUR ISLAND
+FOUR Island
 
 
 Pewter City
@@ -18630,7 +18629,7 @@ Safari Zone
 Saffron City
 
 
-THREE ISLAND
+Three Island
 
 
 Saffron Gym
@@ -18669,16 +18668,16 @@ Pokémon League
 Pokémon League
 
 
-FOUR ISLAND
+FOUR Island
 
 
-FIVE ISLAND
+FIVE Island
 
 
-FOUR ISLAND
+FOUR Island
 
 
-FOUR ISLAND
+FOUR Island
 
 
 Pokémon League
@@ -18693,7 +18692,7 @@ Saffron City
 EMBER SPA
 
 
-TWO ISLAND
+TWO Island
 
 
 SEVAULT CANYON
@@ -18708,13 +18707,13 @@ INDIGO PLATeaU
 INDIGO PLATeaU
 
 
-SEVEN ISLAND
+SEVEN Island
 
 
 Pokémon League
 
 
-SIX ISLAND
+SIX Island
 
 
 Pokémon League
@@ -18744,13 +18743,13 @@ Cerulean City
 Fuchsia City
 
 
-ONE ISLAND
+One Island
 
 
-ONE ISLAND
+One Island
 
 
-ONE ISLAND
+One Island
 
 
 Lavender Town
@@ -18786,7 +18785,7 @@ Viridian Gym
 Viridian Gym
 
 
-Rocket WAREHOUSE
+Rocket Warehouse
 
 
 SIGN
@@ -18801,7 +18800,7 @@ Aide
 Pokémon JOURNAL
 
 
-AGATHA
+Agatha
 
 
 Aide
@@ -18951,10 +18950,10 @@ PHOTO
 Pokémon JOURNAL
 
 
-LORELEI
+Lorelei
 
 
-LORELEI
+Lorelei
 
 
 OLD MAN
@@ -18969,10 +18968,10 @@ LITTLE GIRL
 OLD LADY
 
 
-BRUNO
+Bruno
 
 
-BRUNO
+Bruno
 
 
 Pokémon JOURNAL
@@ -18987,7 +18986,7 @@ WOMAN
 CRUSHER
 
 
-AGATHA
+Agatha
 
 
 CRUSHER
@@ -18999,16 +18998,16 @@ CRUSHER
 Pokémon JOURNAL
 
 
-AGATHA
+Agatha
 
 
 OLD LADY
 
 
-LANCE
+Lance
 
 
-LANCE
+Lance
 
 
 WOMAN
@@ -19091,7 +19090,7 @@ Pokémon JOURNAL
 Special Feature: Cerulean Gym
 Leader Misty!
 
-Misty is said to worship LORELEI
+Misty is said to worship Lorelei
 of the Elite Four.
 
 
@@ -19152,19 +19151,19 @@ new quiz questions.
 Pokémon JOURNAL
 
 Special Feature:
-Elite Four's LORELEI!
+Elite Four's Lorelei!
 
 Known for her logical, calculated,
-and cool battling style, LORELEI
+and cool battling style, Lorelei
 has a surprising secret!
 
 
 Pokémon JOURNAL
 
 Special Feature:
-Elite Four's BRUNO!
+Elite Four's Bruno!
 
-BRUNO apparently joined the ELITE
+Bruno apparently joined the ELITE
 FOUR out of his burning ambition to
 battle the best Trainers.
 
@@ -19172,9 +19171,9 @@ battle the best Trainers.
 Pokémon JOURNAL
 
 Special Feature:
-Elite Four's AGATHA!
+Elite Four's Agatha!
 
-In her youth, AGATHA and PROF.
+In her youth, Agatha and PROF.
 Oak were rivals who vied for
 supremacy as Trainers.
 
@@ -19182,9 +19181,9 @@ supremacy as Trainers.
 Pokémon JOURNAL
 
 Special Feature:
-Elite Four's LANCE!
+Elite Four's Lance!
 
-LANCE's grandfather is thought to
+Lance's grandfather is thought to
 be the elder of a famous clan of
 dragon masters.
 
@@ -19310,21 +19309,21 @@ today?
 
 
 Oh, wow, you made it into the
-HALL OF FAME.
+Hall of Fame.
 
 That's pretty good, yup!
 I'll give you one of these.
 
 
 Oh, wow, you've entered the
-HALL OF FAME often!
+Hall of Fame often!
 
 That's impressive, yup!
 I'll give you one of these.
 
 
 Whoa! You've made it into the
-HALL OF FAME that often?
+Hall of Fame that often?
 That's seriously incredible, yup!
 
 You own the Pokémon League!
@@ -19332,13 +19331,13 @@ I'll give you one of these.
 
 
 No way! You've gone into the
-HALL OF FAME that many times?
+Hall of Fame that many times?
 
 You're beyond incredible, yup!
 That's it, I have to give you this.
 
 
-The HALL OF FAME STICKER was
+The Hall of Fame STICKER was
 applied to the Trainer CARD.
 
 
@@ -19431,7 +19430,7 @@ You're the stuff of nightmares!
 That's it, I have to give you this.
 
 
-The VICTORY STICKER was applied
+The Victory STICKER was applied
 to the Trainer CARD.
 
 
@@ -19782,7 +19781,7 @@ the appropriate item.
 
 If all the Pokémon in your party
 (all the Pokémon with you) faint, you
-lose some MONEY, and you are
+lose some MOneY, and you are
 returned home or to a Pokémon
 Center. To reduce that chance, visit
 Pokémon Centers often. Also, get
@@ -19934,7 +19933,7 @@ They appear to obey the wishes of the
 Trainers that caught them.
 
 
-Use the FAME CHECKER among the
+Use the Fame CHECKER among the
 KEY ITEMS in your BAG.
 It may give you a hint, so try it out.
 
@@ -20115,7 +20114,7 @@ Using “BAIT”
 Using “Rock”
 
 
-Using “HALL OF FAME”
+Using “Hall of Fame”
 
 
 ① Select “Pokédex” on the MENU.
@@ -20496,9 +20495,9 @@ make it run away, but it becomes easier
 to catch!
 
 
-① Select “HALL OF FAME” on the PC.
+① Select “Hall of Fame” on the PC.
 ② The Pokémon that have entered the
-HALL OF FAME can be examined.
+Hall of Fame can be examined.
 
 
 HP
@@ -20542,7 +20541,7 @@ ITEM
 ABILITY
 
 
-MONEY
+MOneY
 
 
 MOVE TYPE
@@ -20626,7 +20625,7 @@ Pokémon
 ID No.
 
 
-MONEY
+MOneY
 
 
 Badges
@@ -20664,7 +20663,7 @@ offensive move. The higher this stat,
 the more powerful the move.
 It is applied for the following move
 types: NORMAL, Poison, Ground,
-FlyING, Bug, Fighting, Rock, GHOST,
+FlyING, Bug, Fighting, Rock, Ghost,
 and STEEL.
 
 
@@ -21056,10 +21055,10 @@ Own move type: Grass
 Own Pokémon type: Grass
 
 
-Own move type: GHOST
+Own move type: Ghost
 
 
-Own Pokémon type: GHOST
+Own Pokémon type: Ghost
 
 
 Own move type: ICE
@@ -21139,7 +21138,7 @@ type, the move's effectiveness varies:
 
 Effect on the opposing Pokémon:
 
-◎: Psychic, GHOST
+◎: Psychic, Ghost
 
 △: Fighting, DARK, STEEL
 
@@ -21148,7 +21147,7 @@ Effect of foe's move on own Pokémon:
 
 ◎: Fighting, Bug
 
-△: GHOST, DARK
+△: Ghost, DARK
 
 ✕: Psychic
 
@@ -21179,7 +21178,7 @@ Effect on the opposing Pokémon:
 
 Effect of foe's move on own Pokémon:
 
-◎: Bug, GHOST, DARK
+◎: Bug, Ghost, DARK
 
 △: Fighting, Psychic
 
@@ -21190,7 +21189,7 @@ Effect on the opposing Pokémon:
 
 △: Poison, FlyING, Psychic, Bug
 
-✕: GHOST
+✕: Ghost
 
 
 Effect of foe's move on own Pokémon:
@@ -21217,7 +21216,7 @@ Effect of foe's move on own Pokémon:
 
 Effect on the opposing Pokémon:
 
-◎: Psychic, GHOST
+◎: Psychic, Ghost
 
 △: DARK, STEEL
 
@@ -21226,7 +21225,7 @@ Effect on the opposing Pokémon:
 
 Effect of foe's move on own Pokémon:
 
-◎: GHOST, DARK
+◎: Ghost, DARK
 
 △: Poison, Bug
 
@@ -21285,7 +21284,7 @@ Effect on the opposing Pokémon:
 
 ◎: Grass
 
-△: Poison, Ground, Rock, GHOST
+△: Poison, Ground, Rock, Ghost
 
 ✕: STEEL
 
@@ -21315,14 +21314,14 @@ Effect on the opposing Pokémon:
 
 △: Rock, STEEL
 
-✕: GHOST
+✕: Ghost
 
 
 Effect of foe's move on own Pokémon:
 
 ◎: Fighting
 
-✕: GHOST
+✕: Ghost
 
 
 Effect on the opposing Pokémon:
@@ -21336,7 +21335,7 @@ Effect of foe's move on own Pokémon:
 
 ◎: Fire, Fighting, Ground
 △: NORMAL, Grass, ICE, FlyING,
-Psychic, Bug, Rock, GHOST,
+Psychic, Bug, Rock, Ghost,
 DRAGON, DARK, STEEL
 ✕: Poison
 
@@ -21390,7 +21389,7 @@ Effect on the opposing Pokémon:
 ◎: Grass, Psychic, DARK
 
 △: Fire, Fighting, Poison,
-FlyING, GHOST, STEEL
+FlyING, Ghost, STEEL
 
 
 Effect of foe's move on own Pokémon:
@@ -23213,7 +23212,7 @@ A battle'd be a change of pace!
 
 Gasp… Gasp…
 
-I swam here from SIX ISLAND's port
+I swam here from SIX Island's port
 in one go again.
 
 
@@ -23771,7 +23770,7 @@ SR. AND JR.
 PokéFAN
 EXPERT
 YOUNGSTER
-ChampION
+Champion
 FISHERMAN
 TRIATHLETE
 DRAGON TAMER
@@ -23831,7 +23830,7 @@ COOLTrainer
 Elite Four
 GENTLEMAN
 RIVAL
-ChampION
+Champion
 Channeler
 TWINS
 COOL COUPLE
@@ -24174,10 +24173,10 @@ NAOMI
 BROOKE
 AUSTINA
 JULIE
-LORELEI
-BRUNO
-AGATHA
-LANCE
+Lorelei
+Bruno
+Agatha
+Lance
 Brock
 Misty
 Lt. Surge
@@ -24484,10 +24483,10 @@ COLTON
 MATTHEW
 TONY
 MELISSA
-LORELEI
-BRUNO
-AGATHA
-LANCE
+Lorelei
+Bruno
+Agatha
+Lance
 TERRY
 TERRY
 TERRY
@@ -24598,7 +24597,7 @@ Voltorb
 ELECTRodE
 EXEGGCutE
 EXEGGUTOR
-CUBONE
+CUBOne
 MAROWAK
 Hitmonlee
 HITMONCHAN
@@ -24783,7 +24782,7 @@ SWAMPERT
 POOCHYENA
 MIGHTYENA
 ZIGZAGOON
-LINOONE
+LINOOne
 WURMPLE
 SILCOON
 BEAUTIFly
@@ -24814,7 +24813,7 @@ DELCATTY
 KECLEON
 BALTOY
 CLAYDOL
-NOSEPASS
+NOSEPass
 TORKOAL
 SABLEYE
 BARBOACH
@@ -24842,7 +24841,7 @@ CACNEA
 CACTURNE
 SNORUNT
 GLALIE
-LUNATONE
+LUNATOne
 SOLRock
 AZURILL
 SPOINK
@@ -24965,7 +24964,7 @@ FLAMETHROWER
 MIST
 Water GUN
 HYDRO PUMP
-SURF
+Surf
 ICE BEAM
 BLIZZARD
 PSYBEAM
@@ -25033,7 +25032,7 @@ EGG BOMB
 LICK
 SMOG
 SLUDGE
-BONE CLUB
+BOne CLUB
 Fire BLAST
 WaterFALL
 CLAMP
@@ -25063,7 +25062,7 @@ ACID ARMOR
 CRABHAMMER
 EXPLOSION
 FURY SWIPES
-BONEMERANG
+BOneMERANG
 REST
 Rock Slide
 HYPER FANG
@@ -25102,11 +25101,11 @@ OCTAZOOKA
 SPIKES
 ZAP CANNON
 FORESIGHT
-DESTINY BOND
+DESTINY Bond
 PERISH SONG
 ICY WIND
 DETECT
-BONE RUSH
+BOne RUSH
 LOCK-ON
 OUTRAGE
 SANDSTORM
@@ -25134,7 +25133,7 @@ MAGNITUDE
 DYNAMICPUNCH
 MEGAHORN
 DRAGONBREATH
-BATON PASS
+BATON Pass
 ENCORE
 PURSUIT
 RAPID SPIN
@@ -25272,7 +25271,7 @@ Poison
 Ground
 Rock
 Bug
-GHOST
+Ghost
 STEEL
 ???
 Fire
@@ -26303,7 +26302,7 @@ and boosts ICE-type moves.
 
 An item to be held by a Pokémon.
 A sinister, eerie tag that boosts
-GHOST-type moves.
+Ghost-type moves.
 
 
 An item to be held by a Pokémon.
@@ -26357,7 +26356,7 @@ It raises DITTO's Defense stat.
 
 
 A hard bone of some sort to be
-held by a CUBONE or MAROWAK.
+held by a CUBOne or MAROWAK.
 It raises the Attack stat.
 
 
@@ -26495,27 +26494,27 @@ It is very lumpy and hard.
 
 
 A key that opens the door to Room
-1 inside the ABANDONED SHIP.
+1 inside the ABANDOneD SHIP.
 It is old and looks easily broken.
 
 
 A key that opens the door to Room
-2 inside the ABANDONED SHIP.
+2 inside the ABANDOneD SHIP.
 It is old and looks easily broken.
 
 
 A key that opens the door to Room
-4 inside the ABANDONED SHIP.
+4 inside the ABANDOneD SHIP.
 It is old and looks easily broken.
 
 
 A key that opens the door to Room
-6 inside the ABANDONED SHIP.
+6 inside the ABANDOneD SHIP.
 It is old and looks easily broken.
 
 
 A key that opens the storage hold
-inside the ABANDONED SHIP.
+inside the ABANDOneD SHIP.
 It is old and looks easily broken.
 
 
@@ -26914,8 +26913,8 @@ a program with useful tips for
 novice Trainers.
 
 
-A pass for ferries between ONE,
-TWO, and THREE ISLAND.
+A pass for ferries between One,
+TWO, and Three Island.
 It has a drawing of three islands.
 
 
@@ -26935,7 +26934,7 @@ It glows with a mystic light.
 
 
 A ticket required to board the ship
-to BIRTH ISLAND.
+to BIRTH Island.
 It glows beautifully.
 
 
@@ -27222,7 +27221,7 @@ OLD Rod
 GOOD Rod
 Super Rod
 S.S. TICKET
-CONTEST PASS
+CONTEST Pass
 ????????
 WAILMER PAIL
 DEVON GOODS
@@ -27319,18 +27318,18 @@ Silph Scope
 Bicycle
 Town Map
 VS SEEKER
-FAME CHECKER
+Fame CHECKER
 TM CASE
 Berry POUCH
 Teachy TV
-TRI-PASS
-RAINBOW PASS
+Tri-Pass
+Rainbow Pass
 Tea
 MYSTICTICKET
 AURORATICKET
 Powder JAR
-RUBY
-SAPPHIRE
+Ruby
+Sapphire
 
 
 
@@ -27382,7 +27381,7 @@ ENIGMA
 I CHOOSE YOU
 GOTCHA
 TRADE
-SAPPHIRE
+Sapphire
 EVOLVE
 ENCYCLOPEDIA
 NATURE
@@ -27396,7 +27395,7 @@ PokéNAV
 Pokémon
 GET
 Pokédex
-RUBY
+Ruby
 LEVEL
 RED
 GREEN
@@ -27438,7 +27437,7 @@ SUCTION CUPS
 Grass
 CLEAR BODY
 TORRENT
-GHOST
+Ghost
 ICE
 GUTS
 ROUGH SKIN
@@ -27545,7 +27544,7 @@ TALENT
 STRATEGY
 SMITE
 MATCH
-VICTORY
+Victory
 OFFENSIVE
 SENSE
 VERSUS
@@ -27629,7 +27628,7 @@ COME OVER
 COUNT ON
 
 
-OPPONENT
+OPPOneNT
 I
 YOU
 YOURS
@@ -27673,7 +27672,7 @@ MY
 I AM
 I'VE
 WHO
-SOMEONE
+SOMEOne
 WHO WAS
 TO WHOM
 WHOSE
@@ -27930,7 +27929,7 @@ DISLIKE
 ANGRY
 ANGER
 SCARY
-LONESOME
+LOneSOME
 DISAPPOINT
 JOY
 GETS
@@ -27964,7 +27963,7 @@ SATISFIED
 SEE
 RARE
 NEGATIVE
-DONE
+DOne
 DANGER
 DEFEATED
 BEAT
@@ -28022,7 +28021,7 @@ SKILL
 TOP
 NON-STOP
 PREPOSTEROUS
-NONE
+NOne
 NOTHING
 NATURAL
 BECOMES
@@ -28030,7 +28029,7 @@ LUKEWARM
 FAST
 LOW
 AWFUL
-ALONE
+ALOne
 BORED
 SECRET
 Mystery
@@ -28128,7 +28127,7 @@ FAINTED
 
 CHORES
 HOME
-MONEY
+MOneY
 ALLOWANCE
 BATH
 CONVERSATION
@@ -28154,7 +28153,7 @@ DIGITAL
 TEST
 Dept. Store
 TELEVISION
-PHONE
+PHOne
 ITEM
 NAME
 NEWS
@@ -28367,7 +28366,7 @@ MC
 JUDGE
 Super
 STAGE
-HALL OF FAME
+Hall of Fame
 EVOLUTION
 HYPER
 BATTLE Tower
@@ -28467,7 +28466,7 @@ S.S. Anne
 UNDERGround PATH
 UNDERGround PATH
 Diglett'S Cave
-VICTORY Road
+Victory Road
 Rocket Hideout
 Silph Co.
 Pokémon Mansion
@@ -28478,18 +28477,18 @@ Seafoam Islands
 Pokémon Tower
 Cerulean Cave
 Power Plant
-ONE ISLAND
-TWO ISLAND
-THREE ISLAND
-FOUR ISLAND
-FIVE ISLAND
-SEVEN ISLAND
-SIX ISLAND
+One Island
+TWO Island
+Three Island
+FOUR Island
+FIVE Island
+SEVEN Island
+SIX Island
 KINDLE Road
 TREASURE BEACH
 CAPE BRINK
-BOND Bridge
-THREE ISLE PORT
+Bond Bridge
+Three ISLE PORT
 Sevii ISLE 6
 Sevii ISLE 7
 Sevii ISLE 8
@@ -28498,7 +28497,7 @@ RESORT GORGEOUS
 Water LabYRINTH
 FIVE ISLE MEADOW
 MEMORIAL PILLAR
-OUTCAST ISLAND
+OUTCAST Island
 GREEN PATH
 Water PATH
 RUIN VALLEY
@@ -28513,17 +28512,17 @@ NAVEL Rock
 Mt. Ember
 Berry Forest
 Icefall Cave
-Rocket WAREHOUSE
+Rocket Warehouse
 Trainer Tower
 DOTTED HOLE
 LOST Cave
 PATTERN BUSH
 ALTERING Cave
 TANOBY CHAmberS
-THREE ISLE PATH
+Three ISLE PATH
 TANOBY KEY
-BIRTH ISLAND
-MONEAN CHAmber
+BIRTH Island
+MOneAN CHAmber
 LIPTOO CHAmber
 WEEPTH CHAmber
 DILFORD CHAmber
@@ -29551,7 +29550,7 @@ had no effect on {FD11}!
 {FD0F} is too scared to move!
 
 
-GHOST: Get out…… Get out……
+Ghost: Get out…… Get out……
 
 
 sharply
@@ -29872,24 +29871,24 @@ Wild Blue and
 
 
 
-The GHOST appeared!
+The Ghost appeared!
 
 Darn!
-The GHOST can't be ID'd!
+The Ghost can't be ID'd!
 
 
 
 
-The GHOST appeared!
+The Ghost appeared!
 
 
 
 
-Silph Scope unveiled the GHOST's
+Silph Scope unveiled the Ghost's
 identity!
 
 
-The GHOST was MAROWAK!
+The Ghost was MAROWAK!
 
 
 
@@ -30453,7 +30452,7 @@ a Rock move
 a Bug move
 
 
-a GHOST move
+a Ghost move
 
 
 a STEEL move
@@ -30516,8 +30515,8 @@ Player battled to a draw against
 {FD1C} {FD1D}!
 
 
-SAPPHIRE
-RUBY
+Sapphire
+Ruby
 AQUA
 MAGMA
 ARCHIE
@@ -30600,7 +30599,7 @@ Seen:
 Owned:
 
 
-KANTO
+Kanto
 
 
 National
@@ -30663,7 +30662,7 @@ SMALLEST MODE
 Pokémon LIST
 
 
-NUMERICAL MODE: KANTO
+NUMERICAL MODE: Kanto
 
 
 NUMERICAL MODE: National
@@ -30729,17 +30728,17 @@ Area UNKNOWN
 PAGE
 
 
-Welcome to the HALL OF FAME!
+Welcome to the Hall of Fame!
 
 
-The HALL OF FAME data is
+The Hall of Fame data is
 corrupted.
 
 
-HALL OF FAME No. {FD02}
+Hall of Fame No. {FD02}
 
 
-League ChampION!
+League Champion!
 CONGRATULATIONS!
 
 
@@ -30809,7 +30808,7 @@ Store
 CHECK
 
 
-NONE
+NOne
 
 
 OPEN
@@ -31371,10 +31370,10 @@ Do what with this {PKMN}?
 There's nothing to Cut.
 
 
-No SURFING here!
+No SurfING here!
 
 
-You're already SURFING.
+You're already SurfING.
 
 
 Can't use that here.
@@ -31624,7 +31623,7 @@ INFO
 Eggs
 
 
-HALL OF FAME
+Hall of Fame
 
 
 VICTORIES
@@ -31825,10 +31824,10 @@ MARSHBadge
 VolcanoBadge
 
 
-EARTHBadge
+EarthBadge
 
 
-SOMEONE'S PC
+SOMEOne'S PC
 
 
 Bill'S PC
@@ -31837,7 +31836,7 @@ Bill'S PC
 @s's PC
 
 
-HALL OF FAME
+Hall of Fame
 
 
 LOG OFF
@@ -31951,25 +31950,25 @@ Berry POUCH
 OTHER
 
 
-ONE ISLAND
+One Island
 
 
-TWO ISLAND
+TWO Island
 
 
-THREE ISLAND
+Three Island
 
 
-FOUR ISLAND
+FOUR Island
 
 
-FIVE ISLAND
+FIVE Island
 
 
-SIX ISLAND
+SIX Island
 
 
-SEVEN ISLAND
+SEVEN Island
 
 
 Vermilion
@@ -31999,7 +31998,7 @@ Sevii Islands
 NAVEL Rock
 
 
-BIRTH ISLAND
+BIRTH Island
 
 
 MIRACLE SEED 1,000 Coins
@@ -32074,7 +32073,7 @@ MARSHBadge
 VolcanoBadge
 
 
-EARTHBadge
+EarthBadge
 
 
 1F
@@ -32187,7 +32186,7 @@ DRAW
 ----
 
 
-The FAME CHECKER will be closed.
+The Fame CHECKER will be closed.
 
 
 Exit from the BOX.
@@ -32667,13 +32666,13 @@ with fire at night.
 
 
 A forest on a small islet off the
-coast of THREE ISLAND. Berries
+coast of Three Island. Berries
 grow wildly in profusion, quickly
 replenishing those that fall off.
 
 
 A cave which is covered by water
-and ice on FOUR ISLAND.
+and ice on FOUR Island.
 It seems like the end of the cave
 is connected to the ocean.
 
@@ -32873,7 +32872,7 @@ NAME:
 IDNo.
 
 
-MONEY
+MOneY
 
 
 ¥
@@ -32894,7 +32893,7 @@ TIME
 's Trainer CARD
 
 
-HALL OF FAME DEBUT
+Hall of Fame DEBUT
 
 
 LINK BATTLES
@@ -33067,7 +33066,7 @@ at a Pokémon Center.
 
 
 {F700} had a marvelous battle
-with the ChampION, {F701}.
+with the Champion, {F701}.
 
 
 In the end, {F700} sent out {F701}
@@ -33287,7 +33286,7 @@ Fly and flew to {FD03}.
 
 
 {FD02} used the Hidden Move
-SURF and rode the waves.
+Surf and rode the waves.
 
 
 {FD02} used the Hidden Move
@@ -33493,7 +33492,7 @@ Pokémon Mansion
 Pokémon RESEARCH Lab
 
 
-VICTORY Road
+Victory Road
 
 
 Pokémon League
@@ -33690,7 +33689,7 @@ Game FREAK
 National
 
 
-KANTO
+Kanto
 
 
 Clear all save data areas?
@@ -34052,7 +34051,7 @@ a day brings happiness to stay!
 Bill
 
 
-SOMEONE
+SOMEOne
 
 
 HELP
@@ -34282,7 +34281,7 @@ Pressing-Speed Rankings
 {FD02} PLAYERS
 
 
-GHOST
+Ghost
 
 
 A Pokémon's on the hook!
@@ -38057,7 +38056,7 @@ tail is a flotation device in water.
 
 
 Its magnetic nose consistently faces
-north. Travelers check NOSEPASS to get
+north. Travelers check NOSEPass to get
 their bearings.
 
 
@@ -38864,8 +38863,8 @@ Ball
 Ball
 EGG
 COCONUT
-LONELY
-BONE KEEPER
+LOneLY
+BOne KEEPER
 KICKING
 PUNCHING
 LICKING
@@ -39059,7 +39058,7 @@ LOUD NOISE
 GUTS
 ARM THRUST
 POLKA DOT
-COMPASS
+COMPass
 KITTEN
 PRIM
 DARKNESS
@@ -39114,7 +39113,7 @@ TENDER
 WEATHER
 COLOR SWAP
 PUPPET
-MARIONETTE
+MARIOneTTE
 REQUIEM
 BECKON
 FRUIT
@@ -39422,7 +39421,7 @@ stepped on.
 
 
 A mat designed with
-a SURF image.
+a Surf image.
 Put items on top.
 
 
@@ -39782,7 +39781,7 @@ G NOTE MAT
 A NOTE MAT
 B NOTE MAT
 C High NOTE MAT
-SURF MAT
+Surf MAT
 Thunder MAT
 Fire BLAST MAT
 Powder SNOW MAT
@@ -40679,7 +40678,7 @@ Canceled reading the Card.
 
 
 HARDY
-LONELY
+LOneLY
 BRAVE
 ADAMANT
 NAUGHTY
@@ -42267,7 +42266,7 @@ cause flinching.
 
 A move that works
 differently for the
-GHOST-type and all
+Ghost-type and all
 the other types.
 
 
@@ -43382,7 +43381,7 @@ Your party is full.
 
 
 A new Trainer has arrived in
-HOENN.
+Hoenn.
 
 
 This data can't be used in
@@ -43534,7 +43533,7 @@ Recently, there have been rumors
 of rare Pokémon appearances.
 
 The rumors are about ALTERING
-Cave on OUTCAST ISLAND.
+Cave on OUTCAST Island.
 
 Why not visit there and check if
 the rumors are indeed true?
