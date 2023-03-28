@@ -2101,9 +2101,9 @@ Go to the deepest part of the
 Safari Zone. You will win a prize!
 
 
-My EEVEE evolved into FLAREON.
+My Eevee evolved into FLAREON.
 
-But, a friend's EEVEE turned into a
+But, a friend's Eevee turned into a
 VAPOREON. I wonder why?
 
 
@@ -2537,7 +2537,7 @@ Doh!
 You win!
 
 
-Watch for ONIX.
+Watch for Onix.
 They appear only occasionally.
 
 High-level ones can put the
@@ -4688,19 +4688,19 @@ The ship set sail.
 Ah, you have a Tri-Pass.
 
 Would you like to board
-a SEAGALLOP ferry?
+a Seagallop ferry?
 
 
 Okay, everything's in order.
 
-SEAGALLOP HI-Speed 7 will be
+Seagallop HI-Speed 7 will be
 departing immediately.
 
 
 Ah, you have a Rainbow Pass.
 
 Would you like to board
-a SEAGALLOP ferry?
+a Seagallop ferry?
 
 
 Oh! That's a MYSTICTICKET!
@@ -4718,20 +4718,20 @@ BIRTH Island anytime.
 
 
 Would you like to board
-a SEAGALLOP ferry?
+a Seagallop ferry?
 
 
 Okay, everything's in order for you
 to board a special ferry.
 
-SEAGALLOP HI-Speed 10 will be
+Seagallop HI-Speed 10 will be
 departing immediately.
 
 
 Okay, everything's in order for you
 to board a special ferry.
 
-SEAGALLOP HI-Speed 12 will be
+Seagallop HI-Speed 12 will be
 departing immediately.
 
 
@@ -5698,7 +5698,7 @@ If only we could keep getting
 stronger and stronger, eh?
 
 
-SEVEN Island
+Seven Island
 Quest Island of Infinity
 
 
@@ -5720,15 +5720,15 @@ It could be a little difficult to
 hike around because of that.
 
 
-SIX Island
+Six Island
 Fortune Island of Aged Wisdom
 
 
 Keep going this way and you'll get
-to the Water PATH.
+to the Water Path.
 
 Stay on that and you'll get to
-the RUIN VALLEY.
+the Ruin Valley.
 
 
 When you're this far away from the
@@ -5973,7 +5973,7 @@ I want to become a Gym Leader
 like him.
 
 
-UNDERGround PATH
+UNDERGround Path
 Cerulean City - Vermilion City
 
 
@@ -6046,11 +6046,11 @@ Or, am I just bad?
 Which do you think?
 
 
-UNDERGround PATH
+UNDERGround Path
 Cerulean City - Vermilion City
 
 
-UNDERGround PATH
+UNDERGround Path
 Celadon City - Lavender Town
 
 
@@ -6164,7 +6164,7 @@ I read that in a Pokémon JOURNAL.
 I wonder if it's true?
 
 
-UNDERGround PATH
+UNDERGround Path
 Celadon City - Lavender Town
 
 
@@ -8485,7 +8485,7 @@ This loss…
 I feel like I'm whiting out…
 
 
-GILLIAN?
+Gillian?
 Please tilt your head slightly…
 There! That's the look I want!
 
@@ -8551,12 +8551,12 @@ Getting so serious over this…
 How nonsensical.
 
 
-SELPHY: Thank you.
+Selphy: Thank you.
 
 You may go now.
 
 
-SELPHY'S House
+Selphy'S House
 
 
 You travel all over the place,
@@ -8621,7 +8621,7 @@ admirably well!
 
 
 You know, I think you have the
-talent to be a good BREEDER.
+talent to be a good Breeder.
 
 
 @s entered a password.
@@ -8696,11 +8696,11 @@ It has to be the beak.
 Oh, so sharp!
 
 
-You can fly to FOUR Island from
+You can fly to Four Island from
 here.
 
 
-I'm the middle kid of the BIRD
+I'm the middle kid of the Bird
 Brothers.
 
 The best thing about birds…
@@ -8714,7 +8714,7 @@ There was a really somber guy
 over that way.
 
 
-I'm the youngest of the BIRD
+I'm the youngest of the Bird
 Brothers.
 
 The best thing about birds…
@@ -8736,28 +8736,28 @@ Hello…
 Your Pokémon look healthy…
 
 
-This is where I buried my ONIX…
-It was named TECTONIX…
+This is where I buried my Onix…
+It was named Tectonix…
 
 
-“Here lies TECTONIX” is engraved
+“Here lies Tectonix” is engraved
 on a boulder.
 
-There is a LEMONADE placed as an
+I placed a Lemonade as an
 offering in front of the grave.
 
 
 Would you like to leave another
-LEMONADE as an offering?
+Lemonade as an offering?
 
 
-@s placed a can of LEMONADE
+@s placed a can of Lemonade
 in front of the grave.
 
 
 Th-thank you…
 
-That was my TECTONIX's favorite
+That was my Tectonix's favorite
 drink…
 
 I don't even know you, but your
@@ -8786,13 +8786,13 @@ you to have as my thanks.
 Scrub, scrub…
 
 … … …
-TECTONIX…
+Tectonix…
 
 
 Boulders and rocks are neatly piled
 up as a cairn.
 
-“Here lies TECTONIX” is engraved
+“Here lies Tectonix” is engraved
 on a boulder.
 
 
@@ -8902,11 +8902,11 @@ I need to focus so I can Teleport
 properly to my house!
 
 
-GREEN PATH
+GREEN Path
 PATTERN BUSH AHEAD
 
 
-GREEN PATH
+GREEN Path
 Think Green, Keep Nature Clean!
 
 
@@ -9011,8 +9011,8 @@ Wanted!
 The Ultimate Horn!
 
 
-Water PATH
-Leads to RUIN VALLEY
+Water Path
+Leads to Ruin Valley
 
 
 I can't figure out how I'm supposed
@@ -9135,7 +9135,7 @@ Could it be that they're waiting
 for you?
 
 
-Trainer Tower ENTRANCE
+Trainer Tower Entrance
 Rise to the Challenge, Trainers!
 
 
@@ -9197,49 +9197,49 @@ If you treat your Pokémon with
 kindness, they'll understand.
 
 
-EVE: I'll team up with JON and
+Eve: I'll team up with Jon and
 battle together.
 
 
-EVE: Me and JON, we lost.
+Eve: Me and Jon, we lost.
 Ehehe.
 
 
-EVE: I'm going to work harder with
-JON.
+Eve: I'm going to work harder with
+Jon.
 
 
-EVE: I want to team up with JON
+Eve: I want to team up with Jon
 when I battle you.
 
 Come back with two Pokémon, okay?
 
 
-JON: When I'm with EVE, it feels
+Jon: When I'm with Eve, it feels
 like we could never lose.
 
 
-JON: When I'm with EVE,
+Jon: When I'm with Eve,
 it doesn't feel like I've lost!
 
 
-JON: When I'm with EVE, I feel
+Jon: When I'm with Eve, I feel
 giddy whether I win or lose.
 
 It's magical!
 
 
-JON: If it's with EVE, I'll be
+Jon: If it's with Eve, I'll be
 happy to battle with you.
 
 So, I'd like to make it a
 two-on-two battle, if I may.
 
 
-SEVAULT CANYON ENTRANCE
+Sevault Canyon Entrance
 
 Trainers are asked to refrain from
-damaging plants in the CANYON.
+damaging plants in the Canyon.
 
 
 My conditioning's in top form!
@@ -9331,46 +9331,46 @@ I'll calm myself by breathing
 deeply.
 
 
-LEX: My darling NYA, together
+Lex: My darling Nya, together
 we could win!
 
 
-LEX: I seem to have been too
+Lex: I seem to have been too
 careless…
 
 
-LEX: I think it was a good
-experience for NYA.
+Lex: I think it was a good
+experience for Nya.
 
 You have my gratitude.
 
 
-LEX: May I ask you to battle the
+Lex: May I ask you to battle the
 both of us at the same time?
 
 
-NYA: I'll do my best so I won't
-drag down my mentor, LEX!
+Nya: I'll do my best so I won't
+drag down my mentor, Lex!
 
 
-NYA: Oh, no…
+Nya: Oh, no…
 I'm so sorry, I…
 
 
-NYA: I think I'm going to need
+Nya: I think I'm going to need
 much more seasoning and tutoring
-under LEX…
+under Lex…
 
-…So, LEX, please, may I stay with
+…So, Lex, please, may I stay with
 you like this?
 
 
-NYA: I'm sorry, but may we battle
+Nya: I'm sorry, but may we battle
 in two-on-two style?
 
 
-SEVAULT CANYON
-TANOBY RUINS AHEAD
+Sevault Canyon
+Tanoby Ruins AHEAD
 
 
 Training by oneself is certainly
@@ -9381,18 +9381,18 @@ the top with a partner.
 
 Even Bruno…
 He trained with a fellow by the
-name of BRAWLY before.
+name of Brawly before.
 
 
 Do you know anything about this
-stone chAmber?
+stone chamber?
 
 
 That was uncalled for.
 You didn't have to be so rough.
 
 
-The TANOBY RUINS date back at
+The Tanoby Ruins date back at
 least 1,500 years.
 
 But it's a baffling mystery as to
@@ -9413,7 +9413,7 @@ Might they be the resting places
 of other mystic Pokémon?
 
 
-CLIFFORD is teaching me how to
+Clifford is teaching me how to
 paint.
 
 
@@ -9424,11 +9424,11 @@ noisy here.
 I said that I wanted to paint an
 old building.
 
-So CLIFFORD brought me here.
+So Clifford brought me here.
 
 
 Today, in addition to our lesson,
-we came to see the chAmber.
+we came to see the chamber.
 
 
 My, how extraordinary.
@@ -12162,7 +12162,7 @@ problems among your Pokémon.
 
 Yay!
 
-LEMONADE!
+Lemonade!
 
 Thank you!
 You can have this from me!
@@ -12303,7 +12303,7 @@ Better not look at the ending!
 Game FREAK Development Room
 
 
-I KNOW EVERYTHING!
+I KNOW EveRYTHING!
 
 
 There is nothing that I don't know,
@@ -12316,7 +12316,7 @@ Get together with your friends and
 enjoy trading Pokémon!
 
 
-@s obtained an EEVEE!
+@s obtained an Eevee!
 
 
 Pokémon Lecture
@@ -13570,7 +13570,7 @@ I think it's of a rare, prehistoric
 Pokémon.
 
 
-EEVEE can evolve into one of three
+Eevee can evolve into one of three
 kinds of Pokémon.
 
 
@@ -14962,7 +14962,7 @@ on twenty species, I'm supposed to
 give you a reward from Prof. Oak.
 
 He entrusted me with this
-EVERStone.
+EveRStone.
 
 So, @s, let me ask you.
 
@@ -14977,7 +14977,7 @@ Congratulations!
 Here you go!
 
 
-@s received the EVERStone
+@s received the EveRStone
 from the Aide.
 
 
@@ -14987,7 +14987,7 @@ can add to the Pokédex.
 However, at times, you may not
 want a certain Pokémon to evolve.
 
-In that case, give the EVERStone
+In that case, give the EveRStone
 to that Pokémon.
 
 It will prevent evolution according
@@ -15651,15 +15651,15 @@ and redouble your training!
 Pokémon have personalities of their
 own, just like people.
 
-My Pikachu has a HASTY nature,
+My Pikachu has a Hasty nature,
 so it grew to be a speedy Pokémon.
 
 
 Okay, preparations are complete
-for me to explore the RUINS.
+for me to explore the Ruins.
 
 
-I need to fish on SEVEN Island.
+I need to fish on Seven Island.
 
 That will complete my fishing tour
 of the Sevii Islands.
@@ -15677,7 +15677,7 @@ They are for you to discover on
 your own.
 
 
-Did you ride a SEAGALLOP ferry
+Did you ride a Seagallop ferry
 to get here?
 
 There are at least ten of those
@@ -16657,7 +16657,7 @@ I should buy some Mail and write
 him a letter…
 
 
-SELPHY: Oh?
+Selphy: Oh?
 Do I know you from somewhere?
 
 Oh, but that doesn't matter.
@@ -16673,14 +16673,14 @@ I want to see one right away.
 Please, make my wish come true.
 
 
-SELPHY: Oh, I'm tired of this.
+Selphy: Oh, I'm tired of this.
 I'm tired of waiting for you.
 
 I'll forgive you this time, but
 please don't fail me next time.
 
 
-SELPHY: Oh, hello, there.
+Selphy: Oh, hello, there.
 
 Oh, my gracious. That must be the
 {FD02} you caught for me.
@@ -16705,7 +16705,7 @@ I need you here this instant!
 Butler: Yes, my lady.
 
 
-SELPHY: See to it that this person
+Selphy: See to it that this person
 is given a token of appreciation.
 
 
@@ -16714,7 +16714,7 @@ my lady.
 
 
 Butler: I sincerely thank you for
-pleasing Lady SELPHY.
+pleasing Lady Selphy.
 
 Please accept this as her thanks…
 
@@ -16727,15 +16727,15 @@ Oh…
 How disappointing.
 
 
-SELPHY: I wish you the best of
+Selphy: I wish you the best of
 luck.
 
 
-Butler: The smile of Lady SELPHY
+Butler: The smile of Lady Selphy
 has the brilliance of the sun.
 
 Please, I beg you to bring joy
-to Lady SELPHY.
+to Lady Selphy.
 
 
 I perfected the ultimate move of
@@ -17355,7 +17355,7 @@ It contains {FD02}.
 
 
 All right!
-All aboard SEAGALLOP HI-Speed {FD02}!
+All aboard Seagallop HI-Speed {FD02}!
 
 
 Gyaoo!
@@ -18020,7 +18020,7 @@ Family and friends?
 
 Even Bruno…
 He trained with a fellow by the
-name of BRAWLY before.
+name of Brawly before.
 
 
 What does this person do?
@@ -18695,7 +18695,7 @@ EMBER SPA
 TWO Island
 
 
-SEVAULT CANYON
+Sevault Canyon
 
 
 Pokémon League
@@ -18707,13 +18707,13 @@ INDIGO PLATeaU
 INDIGO PLATeaU
 
 
-SEVEN Island
+Seven Island
 
 
 Pokémon League
 
 
-SIX Island
+Six Island
 
 
 Pokémon League
@@ -23212,7 +23212,7 @@ A battle'd be a change of pace!
 
 Gasp… Gasp…
 
-I swam here from SIX Island's port
+I swam here from Six Island's port
 in one go again.
 
 
@@ -23312,11 +23312,11 @@ I don't forgive people who abuse
 Pokémon!
 
 
-EVE: I'll team up with JON and
+Eve: I'll team up with Jon and
 battle together again.
 
 
-JON: When I'm with EVE, it feels
+Jon: When I'm with Eve, it feels
 like we could never lose, not ever.
 
 
@@ -23350,16 +23350,16 @@ I won't lose this time.
 Absolutely not!
 
 
-LEX: My darling NYA, together
+Lex: My darling Nya, together
 we will win for certain!
 
 
-NYA: I won't drag down my mentor
-LEX! We're going to win!
+Nya: I won't drag down my mentor
+Lex! We're going to win!
 
 
 Have you discovered anything about
-this stone chAmber?
+this stone chamber?
 
 
 A mystic Pokémon is said to sleep
@@ -23371,7 +23371,7 @@ paint some more.
 
 
 Today, in addition to our lesson,
-we came to see the chAmber again.
+we came to see the chamber again.
 
 
 Would you like to save the game?
@@ -23414,14 +23414,14 @@ KENE
 GEKI
 JAK
 JANNE
-JONN
+JonN
 KAMON
 KARL
 TAYLOR
 OSCAR
 HIRO
 Max
-JON
+Jon
 RALPH
 KAY
 TOSH
@@ -23851,7 +23851,7 @@ PAINTER
 SIDNEY
 PHOEBE
 ROXANNE
-BRAWLY
+Brawly
 TATE&LIZA
 MATT
 SHELLY
@@ -23937,7 +23937,7 @@ HANNAH
 MARK
 HERMan
 COOPER
-STEVE
+STEve
 WINSTON
 DAWSON
 ASHTON
@@ -23967,7 +23967,7 @@ LUCAS
 JARED
 MALIK
 ERNEST
-ALEX
+ALex
 LAO
 HIDEO
 RUBEN
@@ -24039,7 +24039,7 @@ MELISSA
 GRACE
 OLIVIA
 LAUREN
-ANYA
+ANya
 ALICE
 CONNIE
 SHIRLEY
@@ -24167,7 +24167,7 @@ YUJI
 WARREN
 MARY
 CAROLINE
-ALEXA
+ALexA
 SHANNON
 NAOMI
 BROOKE
@@ -24300,14 +24300,14 @@ ABIGAIL
 FINN
 GARRETT
 TOMMY
-TANYA
+TANya
 SHEA
 HUGH
 BRYCE
 CLAIRE
 MIK & KIA
 VIOLET
-ALEXIS
+ALexIS
 JOY & MEG
 TISHA
 CELINA
@@ -24337,7 +24337,7 @@ HECTOR
 DARIO
 RodETTE
 MIAH
-EVE & JON
+Eve & Jon
 MASON
 CYNDY
 JOCELYN
@@ -24349,18 +24349,18 @@ BETH
 KATELYN
 LEROY
 MICHELLE
-LEX & NYA
+Lex & Nya
 BRANDON
 BENJAMIN
 EDNA
-CLIFFORD
-SELPHY
+Clifford
+Selphy
 LAWSON
 LAURA
 BETHANY
 ALLISON
 GARRET
-JONAH
+JonAH
 VANCE
 NASH
 CORDELL
@@ -24441,8 +24441,8 @@ LIL & IAN
 FINN
 SHARON
 SHARON
-TANYA
-TANYA
+TANya
+TANya
 SHEA
 SHEA
 HUGH
@@ -24476,7 +24476,7 @@ JACKSON
 KATELYN
 LEROY
 MICHELLE
-LEX & NYA
+Lex & Nya
 COLTON
 COLTON
 COLTON
@@ -24588,7 +24588,7 @@ Cloyster
 GASTLY
 Haunter
 GENGAR
-ONIX
+Onix
 DROWZEE
 HYPNO
 KRABBY
@@ -24626,7 +24626,7 @@ Magikarp
 GYARADOS
 Lapras
 DITTO
-EEVEE
+Eevee
 VAPOREON
 JOLTEON
 FLAREON
@@ -25086,7 +25086,7 @@ FLAIL
 CONVERSION 2
 AEROBLAST
 COTTON SPORE
-REVERSAL
+REveRSAL
 SPITE
 Powder SNOW
 PROTECT
@@ -25186,7 +25186,7 @@ INGRAIN
 SuperPOWER
 MAGIC COAT
 RECYCLE
-REVENGE
+REveNGE
 BRICK BREAK
 YAWN
 KNOCK OFF
@@ -26459,7 +26459,7 @@ one {PokéBLOCK} when shaken.
 
 
 An extremely important letter to
-STEVEN from the President of the
+STEveN from the President of the
 DEVON CORPORATION.
 
 
@@ -26983,7 +26983,7 @@ Revive
 Max Revive
 FRESH Water
 SODA POP
-LEMONADE
+Lemonade
 MOOMOO MILK
 ENERGYPowder
 ENERGY ROOT
@@ -27150,7 +27150,7 @@ SOUL DEW
 DEEPSEATOOTH
 DEEPSEASCALE
 SMOKE Ball
-EVERStone
+EveRStone
 FOCUS BAND
 LUCKY EGG
 SCOPE LENS
@@ -27167,7 +27167,7 @@ MAGNET
 MYSTIC Water
 SHARP BEAK
 Poison BARB
-NEVERMELTICE
+NEveRMELTICE
 SPELL TAG
 TWISTEDSPOON
 CHARCOAL
@@ -27396,7 +27396,7 @@ Pokémon
 GET
 Pokédex
 Ruby
-LEVEL
+LEveL
 RED
 GREEN
 BAG
@@ -27781,7 +27781,7 @@ QUITE
 FROM
 FEELING
 BUT
-HOWEVER
+HOWEveR
 CASE
 THE
 MISS
@@ -27801,7 +27801,7 @@ A TINY BIT
 WILD
 THAT'S
 JUST
-EVEN SO,
+EveN SO,
 MUST BE
 NATURALLY
 FOR NOW,
@@ -27882,7 +27882,7 @@ AS
 TO
 WITH
 BETTER
-EVER
+EveR
 SINCE
 OF
 BELONGS TO
@@ -27933,7 +27933,7 @@ LOneSOME
 DISAPPOINT
 JOY
 GETS
-NEVER
+NEveR
 DARN
 DOWNCAST
 INCREDIBLE
@@ -28084,7 +28084,7 @@ StoreS
 BRAG
 IGNORANT
 THINKS
-BELIEVE
+BELIEve
 Slide
 EATS
 USE
@@ -28148,7 +28148,7 @@ LIVING
 TeaCHER
 TOURNAMENT
 LETTER
-EVENT
+EveNT
 DIGITAL
 TEST
 Dept. Store
@@ -28236,7 +28236,7 @@ DAY
 SOMETIME
 ALWAYS
 CURRENT
-FOREVER
+FOREveR
 DAYS
 END
 TUESDAY
@@ -28291,7 +28291,7 @@ OUTSIDE
 BESIDE
 THIS IS IT!
 THIS
-EVERY
+EveRY
 THESE
 THESE WERE
 DOWN
@@ -28358,7 +28358,7 @@ ANTICIPATION
 
 
 APPEAL
-EVENTS
+EveNTS
 STAY-AT-HOME
 Berry
 CONTEST
@@ -28413,7 +28413,7 @@ BANG
 KNOCKOUT
 HASSLE
 WINNER
-FEVER
+FEveR
 WANNABE
 BABY
 HEART
@@ -28463,8 +28463,8 @@ Route 25
 Viridian Forest
 Mt. Moon
 S.S. Anne
-UNDERGround PATH
-UNDERGround PATH
+UNDERGround Path
+UNDERGround Path
 Diglett'S Cave
 Victory Road
 Rocket Hideout
@@ -28482,8 +28482,8 @@ TWO Island
 Three Island
 FOUR Island
 Five Island
-SEVEN Island
-SIX Island
+Seven Island
+Six Island
 KINDLE Road
 TREASURE BEACH
 CAPE BRINK
@@ -28498,13 +28498,13 @@ Water LabYRINTH
 Five ISLE Meadow
 MEMORIAL PILLAR
 OUTCAST Island
-GREEN PATH
-Water PATH
-RUIN VALLEY
+GREEN Path
+Water Path
+Ruin Valley
 Trainer Tower
-CANYON ENTRANCE
-SEVAULT CANYON
-TANOBY RUINS
+Canyon Entrance
+Sevault Canyon
+Tanoby Ruins
 Sevii ISLE 22
 Sevii ISLE 23
 Sevii ISLE 24
@@ -28518,9 +28518,9 @@ DOTTED HOLE
 LOST Cave
 PATTERN BUSH
 ALTERING Cave
-TANOBY CHAmberS
-Three ISLE PATH
-TANOBY KEY
+Tanoby CHAmberS
+Three ISLE Path
+Tanoby KEY
 BIRTH Island
 MOneAN CHAmber
 LIPTOO CHAmber
@@ -31683,7 +31683,7 @@ FRESH Water ¥200
 SODA POP ¥300
 
 
-LEMONADE ¥350
+Lemonade ¥350
 
 
 50 Coins ¥1,000
@@ -31845,7 +31845,7 @@ LOG OFF
 Prof. Oak's PC
 
 
-EEVEE
+Eevee
 
 
 FLAREON
@@ -31866,7 +31866,7 @@ FRESH Water
 SODA POP
 
 
-LEMONADE
+Lemonade
 
 
 Coins
@@ -31965,10 +31965,10 @@ FOUR Island
 Five Island
 
 
-SIX Island
+Six Island
 
 
-SEVEN Island
+Seven Island
 
 
 Vermilion
@@ -33429,7 +33429,7 @@ Bill'S House
 DAY CARE
 
 
-UNDERGround PATH
+UNDERGround Path
 
 
 Pokémon FAN CLUB
@@ -35192,7 +35192,7 @@ MISC.
 ADJECTIVES
 
 
-EVENTS
+EveNTS
 
 
 MOVE 1
@@ -37327,7 +37327,7 @@ down to attack.
 
 
 
-It is said that if an ONIX lives for over
+It is said that if an Onix lives for over
 100 years, its composition changes to
 become diamond-like.
 
@@ -40688,7 +40688,7 @@ RELAXED
 IMPISH
 LAX
 TIMID
-HASTY
+Hasty
 SERIOUS
 JOLLY
 NAIVE
@@ -40875,7 +40875,7 @@ JOLTEON
 ESPEON
 FLAREON
 VAPOREON
-EEVEE
+Eevee
 UMBREON
 
 
@@ -40884,7 +40884,7 @@ JOLTEON
 ESPEON
 FLAREON
 VAPOREON
-EEVEE
+Eevee
 UMBREON
 
 

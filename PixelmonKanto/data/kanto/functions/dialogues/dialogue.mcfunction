@@ -1123,6 +1123,7 @@ Gyaoo!
 #-------------------
 #Dialogue 70 -
 #Mewtwo Encounter
+#https://youtu.be/_6uv4msYJiM?t=68729
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -2142,7 +2143,127 @@ The Warehouse's door opened!
 <...> Then, you just had to come along and blow the whole deal apart!
 <...> Fufu… Fufufufu… There's no forgiveness for you!
 
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 123 - Memorial Pillar
+#If player leaves a lemmonade on the base of the pillar
+#https://youtu.be/_6uv4msYJiM?t=62183
+
+@s placed a can of Lemonade in front of the grave.
+
+Th-thank you…
+That was my Tectonix's favorite drink…
+I don't even know you, but your act of kindness…
+It's uplifted me a little.
+Can you please take this as my thanks?
+
+give TM42 (Facade)
+
+Please be good to your Pokémon, too.
+Scrub, scrub…
+… … … Tectonix…
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 124 - Lost Cave
+#After battling Selphy
+#https://youtu.be/_6uv4msYJiM?t=63177
+
+<Selphy> I am so glad that you happened here.
+<Selphy> I grew rather bored of walking, and I am feeling fatigued.
+<Selphy> May I ask you to take me home from here?
+
+#teleports to her house
+
+<Selphy> Thank you. You may go now.
+
 #-------------------
+#Dialogue 125 - Selphy's House
+#Selphy asking to see a _____ Pokemon.
+#https://youtu.be/_6uv4msYJiM?t=63195
+
+#Pokemon is randomized and can be anything the player has seen or caught?
+
+<Selphy> Oh? Do I know you from somewhere?
+<Selphy> Oh, but that doesn't matter.
+<Selphy> I am exquisitely bored. Please, hear my wish.
+
+<Selphy> I wish to see a Pokémon. A darling Ditto.
+<Selphy> I wish to see a Pokémon. A darling Ditto.
+<Selphy> I wish to see a Pokémon. A darling Ditto.
+<Selphy> I wish to see a Pokémon. A darling Ditto.
+<Selphy> I wish to see a Pokémon. A darling Ditto.
+
+<Selphy> I want to see one right away. Please, make my wish come true.
+
+
+#-------------------
+#Dialogue 126 - Selphy's House
+#Selphy seeing the incorrect Pokemon.
+
+<Selphy> Oh, I'm tired of this. I'm tired of waiting for you.
+<Selphy> I'll forgive you this time, but please don't fail me next time.
+
+
+#-------------------
+#Dialogue 127 - Selphy's House
+#Selphy seeing the correct Pokemon.
+https://youtu.be/_6uv4msYJiM?t=63320
+
+<Selphy> Oh, hello, there.
+
+<Selphy> Oh, my gracious. That must be the Ditto you caught for me.
+<Selphy> Oh, my gracious. That must be the Ditto you caught for me.
+<Selphy> Oh, my gracious. That must be the Ditto you caught for me.
+<Selphy> Oh, my gracious. That must be the Ditto you caught for me.
+<Selphy> Oh, my gracious. That must be the Ditto you caught for me.
+
+<Selphy> Giggle… I see a resemblance to you. Thank you so kindly.
+<Selphy> … … … … … …
+<Selphy> Is something the matter? You may leave.
+<Selphy> … … … … … …
+<Selphy> Oh, fine. I understand now.
+<Selphy> SEBASTIAN!
+<Selphy> I need you here this instant!
+
+#tps Butler in if first time
+
+<Butler> Yes, my lady.
+
+<Selphy> See to it that this person is given a token of appreciation.
+
+<Butler> I shall do as you bid, my lady.
+
+<Butler> I sincerely thank you for pleasing Lady Selphy.
+<Butler> Please accept this as her thanks…
+
+#random item?
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 128 - Battle Tower
+#Owner giving reward at top
+#https://youtu.be/_6uv4msYJiM?t=65272
+
+
+<Tower Owner> Hello…
+<Tower Owner> I am the owner of this Tower…
+<Tower Owner> How the sky soars above this rooftop…
+<Tower Owner> The caress of the winds up here…
+<Tower Owner> It's all so perfect…
+<Tower Owner> The way you battled… It, too, was perfection…
+<Tower Owner> This is for you…
+
+#Item determined by player's track
+
+
+#-------------------
+#Dialogue 129 - Battle Tower
+#Owner if player is too slow
+
+<Tower Owner> You seem to have taken your sweet time getting here…
+<Tower Owner> What I would like to see is a better time out of you…
+<Tower Owner> I'm counting on you.
+<Tower Owner> Until then, farewell…
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -2153,8 +2274,8 @@ The Warehouse's door opened!
 
 
 
-#Left off at
-https://youtu.be/_6uv4msYJiM?t=61923
+
+
 
 
 
