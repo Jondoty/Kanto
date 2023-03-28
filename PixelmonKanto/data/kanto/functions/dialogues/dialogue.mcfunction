@@ -1913,6 +1913,7 @@ Obtained an extra page for the Town Map!
 #-------------------
 #Dialogue 110 - One Island
 #Giving Celio the Sapphire
+#https://youtu.be/_6uv4msYJiM?t=61773
 
 
 @s handed the Sapphire to Celio.
@@ -1984,55 +1985,164 @@ Obtained an extra page for the Town Map!
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue 114 - Four Island
+#Icefall Cave Lorelei and Team Rocket
+#https://youtu.be/_6uv4msYJiM?t=56606
+
+<Lorelei> Keep your filthy hands off the Pokémon in the cave!
+<Lorelei> Do as I say, or you'll have me to answer to!
+
+<Team Rocket Grunt> Aww, shut it, lady, and leave us be.
+<Team Rocket Grunt> Don't let your glasses get all steamed up!
+
+<Lorelei> @s?! What are you doing here?
+<Lorelei> No, we can catch up later. Right now, I need your help.
+<Lorelei> Help me kick these poachers out before they do anything else.
+<Lorelei> They've been catching Pokémon here, then selling them off!
+<Lorelei> Are you ready? You take that one, please!
+
+<Team Rocket Grunt> W-what?!
+<Team Rocket Grunt> Who says we can't do what we want with the Pokémon we catch?
+
+#-------------------
+#Dialogue 115 - Icefall Cave
+#Post-Rocket Battle
+#https://youtu.be/_6uv4msYJiM?t=56711
+
+<Lorelei> Humph. So despicably weak.
+<Lorelei> You! Tell me!
+<Lorelei> Where have you taken the captured Pokémon?
+<Lorelei> I'm smashing your ring once and for all!
+
+<Team Rocket Grunt> N-no way! I'm not telling you that!
+
+<Lorelei> If you won't confess, we'll deep-freeze you.
+
+#sets Lapras statue pointing at grunt
+
+<Lorelei> My Lapras is furious for what you've done to its friends.
+<Lorelei> Go, Lapras! Ice Beam…
+
+<Team Rocket Grunt> Wawaah! Okay! I'll talk!
+<Team Rocket Grunt> The Pokémon are in the Rocket Warehouse on Five Island.
+<Team Rocket Grunt> There! I said it! We'll be going now!
+<Team Rocket Grunt> …But I doubt you'll ever make it into the Rocket Warehouse!
+<Team Rocket Grunt> Heheheheh!
+
+#tps Rockets out
+
+<Lorelei> @s, thank you. But this is awful…
+<Lorelei> I was born and raised here on these islands.
+<Lorelei> I had no idea that those horrible criminals were loose here…
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 116 - Six Island
+#Blue in Pokemon Center
+#https://youtu.be/_6uv4msYJiM?t=59366
+
+<Blue> Hey, @s! How's your Pokédex filling up?
+<Blue> It looks like it's impossible to get all the Pokémon by hanging around just these parts.
+<Blue> Maybe there are Pokémon we don't know about somewhere far away…
+<Blue> … … … … … … … … …
+<Blue> Well, if I can't do it, there's no way for you to get it done.
+<Blue> I'm not going to get all desperate over this.
+<Blue> I'll keep collecting Pokémon at my own pace while I train them.
+<Blue> That's what I'll do. So there's no point staying here.
+<Blue> I may as well leave for home. That's that, then!
+<Blue> Smell ya later!
+
+#tps Blue out
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 117 - Dotted Hole
+#When player goes to pick up the Sapphire
+#https://youtu.be/_6uv4msYJiM?t=60196
+
+@s found a Sapphire!
+
+#tps in scientist on the ceiling
+
+<...> Fufu… Fufufufu… I guessed right. I was right in tailing you!
+
+#grunt takes sapphire
+
+<...> I knew that there was a Sapphire here, so it belongs to me!
+<...> I'll sell it to Team Rocket for serious money.
+<...> …D-don't glare at me like that!
+<...> If you want it back, why don't you go get it after I sell it?
+<...> I'll even tell you one of the passwords to Team Rocket's Warehouse.
+<...> The Warehouse password I know is “Yes, nah, Chansey.”
+<...> I'm done. Don't think badly of me!
+
+#scientist tps out
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 118 - Five Island
+#Rocket Warehouse Passwords when next to door
+#https://youtu.be/_6uv4msYJiM?t=60780
+
+#if player only has one password or the other
+@s entered a password.
+Goldeen need log.”
+… … … … … …
+Another password is needed to open the door…
 
 
+@s entered two passwords.
+
+Goldeen need log.”
+“Yes, nah, Chansey.”
+… … … … … …
+The Warehouse's door opened!
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 119 - Rocket Warehouse
+#Admin post-battle
+#https://youtu.be/_6uv4msYJiM?t=61304
+
+<Rocket Admin> You're doing things according to your beliefs and morals. I understand now…
+<Rocket Admin> I've made it so you can come back in through there.
+<Rocket Admin> Why don't you go get rested and refreshed for what lies ahead?
+<Rocket Admin> The Admin after me outranks me thoroughly as a Trainer.
+<Rocket Admin> You'd better steel yourself for one harsh challenge.
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 120 - Rocket Warehouse
+#Second admin pre-battle
+#https://youtu.be/_6uv4msYJiM?t=61325
+
+<Rocket Admin> That's quite enough of you playing the hero, kid.
+<Rocket Admin> Spreading lies about how Team Rocket has disbanded…
+<Rocket Admin> It's such an obvious attempt to cause confusion in our ranks.
+<Rocket Admin> Fortunately, we're not so ignorant to fall for the lies of a child!
+<Rocket Admin> And now, I'll show you how scary an angry adult can be!
 
 
+#-------------------
+#Dialogue 121 - Rocket Warehouse
+#Second admin post-battle
 
+<Rocket Admin> Urgh… You were too strong…
+<Rocket Admin> …
+<Rocket Admin> Th-that's Giovanni's Badge!
+<Rocket Admin> So it's true? Team Rocket really has disbanded?
+<Rocket Admin> We will abandon this Warehouse…
+<Rocket Admin> But don't think this is over. I won't let this be the end.
+<Rocket Admin> I will find Giovanni. And I will resurrect Team Rocket!
+<Rocket Admin> I will…
+<Rocket Admin> Until then, farewell!
 
+#Teleport Rocket to an uninfested HQ?
 
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 122 - Rocket Warehouse
+#Scientist with sapphire pre-battle
+#https://youtu.be/_6uv4msYJiM?t=61548
 
+<...> I almost managed to sell the Sapphire for huge money…
+<...> Then, you just had to come along and blow the whole deal apart!
+<...> Fufu… Fufufufu… There's no forgiveness for you!
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#-------------------
 
 
 
@@ -2044,7 +2154,7 @@ Obtained an extra page for the Town Map!
 
 
 #Left off at
-https://youtu.be/_6uv4msYJiM?t=56184
+https://youtu.be/_6uv4msYJiM?t=61923
 
 
 

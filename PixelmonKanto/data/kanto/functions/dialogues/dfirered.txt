@@ -1091,7 +1091,7 @@ around the world.
 They're important tools for keeping
 our criminal enterprise going.
 
-I am the leader, GIOVANNI!
+I am the leader, Giovanni!
 
 For your insolence, you will feel a
 world of pain!
@@ -1996,7 +1996,7 @@ We have failed to curb its vicious
 tendencies…
 
 
-REST HOUSE
+REST House
 
 
 Trainer Tips
@@ -2008,7 +2008,7 @@ remaining time.
 Center Area
 
 
-REST HOUSE
+REST House
 
 
 Trainer Tips
@@ -2021,12 +2021,12 @@ Area 1
 WEST: Center Area
 
 
-REST HOUSE
+REST House
 
 
 Trainer Tips
 
-The SECRET HOUSE is still ahead.
+The SECRET House is still ahead.
 
 
 Area 2
@@ -2043,10 +2043,10 @@ flush them out.
 Trainer Tips
 
 Win a free HM for finding the
-SECRET HOUSE.
+SECRET House.
 
 
-REST HOUSE
+REST House
 
 
 REQUEST NOTICE
@@ -2062,7 +2062,7 @@ Contact: Warden
 Trainer Tips
 
 Zone Exploration Campaign!
-The Search for the SECRET HOUSE!
+The Search for the SECRET House!
 
 
 Area 3
@@ -3297,7 +3297,7 @@ Wawaah! Okay!
 I'll talk!
 
 The Pokémon are in the Rocket
-Warehouse on FIVE Island.
+Warehouse on Five Island.
 
 There! I said it!
 We'll be going now!
@@ -3356,7 +3356,7 @@ I got word about you from the
 others.
 
 But there's no way a kid like you'd
-know our Boss GIOVANNI!
+know our Boss Giovanni!
 
 
 Don't…you…dare…laugh…
@@ -3369,7 +3369,7 @@ you jumped-up pip-squeak!
 I don't know or care if what I'm
 doing is right or wrong…
 
-I just put my faith in GIOVANNI
+I just put my faith in Giovanni
 and do as I am told.
 
 
@@ -3389,7 +3389,7 @@ in through there.
 Why don't you go get rested and
 refreshed for what lies ahead?
 
-The ADMIN after me outranks me
+The Admin after me outranks me
 thoroughly as a Trainer.
 
 You'd better steel yourself for one
@@ -3416,7 +3416,7 @@ Urgh…
 You were too strong…
 
 …
-Th-that's GIOVANNI's Badge!
+Th-that's Giovanni's Badge!
 
 So it's true?
 Team Rocket really has disbanded?
@@ -3427,7 +3427,7 @@ We will abandon this Warehouse…
 But don't think this is over.
 I won't let this be the end.
 
-I will find GIOVANNI.
+I will find Giovanni.
 And I will resurrect Team Rocket!
 I will…
 
@@ -3469,11 +3469,11 @@ Go on, get lost, leave me be.
 
 What, you again?
 
-You… You're not GIOVANNI's kid,
+You… You're not Giovanni's kid,
 are you?
 
 No, that can't be right!
-GIOVANNI's kid has red hair.
+Giovanni's kid has red hair.
 
 You don't have any reasons for
 bugging me. Leave me alone!
@@ -3546,8 +3546,8 @@ Heheh…
 Isn't my Pokémon awesome?
 
 
-There's a girl near the BUSH who
-measures HERACROSS for Trainers.
+There's a girl near the Bush who
+measures Heracross for Trainers.
 
 
 You know, it just doesn't feel right
@@ -3668,8 +3668,8 @@ Have you taken a good look around
 your feet?
 
 
-There are places here in PATTERN
-BUSH where grass won't grow.
+There are places here in Pattern
+Bush where grass won't grow.
 
 What could be the cause of such
 a phenomenon?
@@ -4591,7 +4591,7 @@ Silph Co.
 
 
 Lavender VOLUNTEER
-Pokémon HOUSE
+Pokémon House
 
 
 Pokémon Tower
@@ -4956,7 +4956,7 @@ Name: Lapras
 AKA the king of the seas.
 
 
-Name: OMANYTE
+Name: OManYTE
 An extremely rare Pokémon that was
 regenerated from a fossil.
 
@@ -5197,7 +5197,7 @@ Pokémon.
 Silph Co. Office Building
 
 
-MR. Psychic'S HOUSE
+MR. Psychic'S House
 
 
 Silph's latest product!
@@ -5644,7 +5644,7 @@ Did you know that Lorelei has lots
 and lots of stuffed dolls?
 
 Every time she comes back to
-FOUR Island, her collection grows!
+Four Island, her collection grows!
 
 
 Ooh, chilly!
@@ -5655,15 +5655,15 @@ shaved inside Icefall Cave.
 It's chilly and tasty!
 
 
-Lorelei'S HOUSE
+Lorelei's House
 
 
-FIVE Island
+Five Island
 Chrono Island: Where Time Goes
 
 
 Oh, this stinks. I wanted to play in
-the MEADOW.
+the Meadow.
 
 But they put up a weird building
 on it, so I can't play there.
@@ -8556,7 +8556,7 @@ SELPHY: Thank you.
 You may go now.
 
 
-SELPHY'S HOUSE
+SELPHY'S House
 
 
 You travel all over the place,
@@ -8686,7 +8686,7 @@ You won't be able to get in without
 the passwords anyway.
 
 
-I'm the eldest of the BIRD
+I'm the eldest of the Bird
 Brothers.
 
 The best thing about birds…
@@ -8823,7 +8823,7 @@ catching something, though.
 
 Gasp… Gasp…
 
-I swam here from SIX ISLE PORT
+I swam here from Six Isle Port
 in one go.
 
 
@@ -8890,7 +8890,7 @@ my sister!
 …Huh?
 
 I was envisioning my house, but
-this is where I TELEPORT?
+this is where I Teleport?
 
 
 Big boo-boo!
@@ -8898,7 +8898,7 @@ Big boo-boo!
 
 I am so scatterbrained!
 
-I need to focus so I can TELEPORT
+I need to focus so I can Teleport
 properly to my house!
 
 
@@ -8937,7 +8937,7 @@ to know about the effort I put in.
 
 
 What, you're suggesting that you're
-sick of seeing SWIMMERS like me?
+sick of seeing Swimmers like me?
 
 Aww, don't be hatin'!
 
@@ -8946,7 +8946,7 @@ Oh, no, no, no.
 
 
 I couldn't lift the stigma of being
-a SWIMMER…
+a Swimmer…
 
 
 My boyfriend's always busy, so I
@@ -10085,7 +10085,7 @@ So be it.
 This time, I'm not holding back!
 
 Once more, you shall face
-GIOVANNI, the greatest Trainer!{MUSIC:SINISTER}
+Giovanni, the greatest Trainer!{MUSIC:SINISTER}
 
 
 Ha!
@@ -10125,7 +10125,7 @@ League challenge.
 
 
 @s received TM26
-from GIOVANNI.
+from Giovanni.
 
 
 TM26 contains Earthquake.
@@ -10245,7 +10245,7 @@ Also, I heard that the Trainers
 here like Ground-type Pokémon.
 
 
-Blow me away! GIOVANNI was the
+Blow me away! Giovanni was the
 Gym Leader of Viridian?
 
 
@@ -10257,7 +10257,7 @@ Blue
 
 
 Viridian Pokémon Gym
-Leader: GIOVANNI
+Leader: Giovanni
 
 WINNING Trainers:
 Blue, @s
@@ -10905,7 +10905,7 @@ They stole a TM for teaching
 Pokémon how to DIG holes!
 
 I was going to use it on a
-MANKEY or a SANDSHREW…
+ManKEY or a SANDSHREW…
 
 That cost me a bundle, it did!
 
@@ -11954,7 +11954,7 @@ the store layout.
 
 3F: TV Game SHOP
 
-4F: WISE MAN GiftS
+4F: WISE Man GiftS
 
 5F: Drugstore
 
@@ -12084,7 +12084,7 @@ Pokémon is distracted.
 
 
 Express yourself with gifts!
-4F: WISE MAN GiftS
+4F: WISE Man GiftS
 
 Evolution Special!
 Element Stones on sale now!
@@ -13227,7 +13227,7 @@ It lets Pokémon move boulders when
 you're outside of battle.
 
 Oh yes, did you find the SECRET
-HOUSE in the Safari Zone?
+House in the Safari Zone?
 
 
 Pokémon photos and fossils are on
@@ -14712,7 +14712,7 @@ Not a day goes by without Team
 Rocket being in the news.
 
 
-MAN: Hello there, laddie!
+Man: Hello there, laddie!
 Have I got a deal just for you!
 
 I'll let you have a secret Pokémon
@@ -14721,7 +14721,7 @@ I'll let you have a secret Pokémon
 So, you'll buy it, am I right?
 
 
-MAN: Hello there, sweetie pie!
+Man: Hello there, sweetie pie!
 Have I got a deal just for you!
 
 I'll let you have a secret Pokémon
@@ -14745,7 +14745,7 @@ Pokémon, it looks like.
 You'll need more money than that!
 
 
-MAN: Well, I don't give refunds.
+Man: Well, I don't give refunds.
 You knew what you were getting!
 
 
@@ -14797,7 +14797,7 @@ Here's your Pokémon.
 
 
 @s got {FD02} back
-from the DAY-CARE MAN.
+from the Day-Care Man.
 
 
 Oh? You only have one Pokémon
@@ -16449,7 +16449,7 @@ today.
 Ready?
 Boing!
 
-We're having a BODY SLAM match
+We're having a Body Slam match
 to see who wimps out first.
 
 If you were to join us, you'd be
@@ -16470,17 +16470,17 @@ to BODY SLAM?
 Boioing!
 
 
-There's a rare kind of ICE Pokémon
+There's a rare kind of Ice Pokémon
 that lives in the cave.
 
 We get a lot of visitors hoping to
 see that Pokémon.
 
 
-Oh? A Pokémon EGG?
+Oh? A Pokémon Egg?
 …I have no idea.
 
-…Oh, wait. The DAY-CARE people
+…Oh, wait. The Day-Care people
 in town were saying something.
 
 They said that they'd found Eggs
@@ -16489,7 +16489,7 @@ before on their property.
 
 What's this?
 
-The new Pokémon JOURNAL hasn't
+The new Pokémon Journal hasn't
 arrived on this island?
 
 
@@ -16575,7 +16575,7 @@ I'm not sure if I can count on him
 to live up to that promise.
 
 
-That MEADOW has belonged to our
+That Meadow has belonged to our
 family for generations.
 
 I should have had a giant mansion
@@ -16586,7 +16586,7 @@ those thugs run wild on it!
 
 
 For ten years, I've searched for
-RUINS.
+Ruins.
 
 No, make that twenty years.
 
@@ -16653,7 +16653,7 @@ oldest-ever Elite Four member.
 She spurs me to do bigger things.
 
 
-I should buy some MAIL and write
+I should buy some Mail and write
 him a letter…
 
 
@@ -16804,13 +16804,13 @@ In fact, I feel rejuvenated,
 as if I were younger again!
 
 
-Hera, hera, HERACROSS!
+Hera, hera, Heracross!
 Big and shiny, it's the bug boss!
-Love it, need it, HERACROSS!
+Love it, need it, Heracross!
 
 
 Eeeeek!
-That's a HERACROSS!
+That's a Heracross!
 
 Please, please, may I measure how
 big it is?
@@ -16822,10 +16822,10 @@ You deserve a reward!
 
 
 I want to see a much, much bigger
-HERACROSS than that one.
+Heracross than that one.
 
 Oh, how I adore them, big
-HERACROSS!
+Heracross!
 
 
 Huh? This {FD03}-inch measurement…
@@ -16833,15 +16833,15 @@ Oh, boo! It's the same as before.
 
 
 Oh, it's just {FD03} inches.
-The HERACROSS before was bigger.
+The Heracross before was bigger.
 
 It was {FD04} inches, the biggest
-HERACROSS you've brought me.
+Heracross you've brought me.
 
 
 Oh, no! This won't do!
 
-HERACROSS looks much more macho
+Heracross looks much more macho
 and cool, and has a lovely horn!
 
 
@@ -16849,7 +16849,7 @@ Your BAG is full.
 My reward won't fit.
 
 
-The biggest HERACROSS that I have
+The biggest Heracross that I have
 ever seen measured so far is:
 
 {FD04} inches!
@@ -18232,7 +18232,7 @@ around the world.
 They're important tools for keeping
 our criminal enterprise going.
 
-I am the leader, GIOVANNI!
+I am the leader, Giovanni!
 
 
 Favorite kind of Pokémon?
@@ -18263,17 +18263,17 @@ Team Rocket to its former glory.
 
 What does this person do?
 
-Blow me away! GIOVANNI was the
+Blow me away! Giovanni was the
 Gym Leader of Viridian?
 
 
 Family and friends?
 
-You… You're not GIOVANNI's kid,
+You… You're not Giovanni's kid,
 are you?
 
 No, that can't be right.
-GIOVANNI's kid has red hair.
+Giovanni's kid has red hair.
 
 
 Prof. Oak
@@ -18487,10 +18487,10 @@ of just your Pokémon…
 happiness of all Pokémon?
 
 
-GIOVANNI
+Giovanni
 
 
-From: GIOVANNI
+From: Giovanni
 To: @s
 
 There is nothing that I wish to say
@@ -18671,7 +18671,7 @@ Pokémon League
 FOUR Island
 
 
-FIVE Island
+Five Island
 
 
 FOUR Island
@@ -18809,10 +18809,10 @@ Aide
 Aide
 
 
-WOMAN
+WOMan
 
 
-MAN
+Man
 
 
 Pokémon JOURNAL
@@ -18830,13 +18830,13 @@ SIGN
 Brock
 
 
-YOUNG MAN
+YOUNG Man
 
 
 BOY
 
 
-MAN
+Man
 
 
 Pokémon JOURNAL
@@ -18851,7 +18851,7 @@ Misty
 LUIS
 
 
-YOUNG MAN
+YOUNG Man
 
 
 DAME
@@ -18911,13 +18911,13 @@ CHARINE
 Pokémon JOURNAL
 
 
-MAN
+Man
 
 
 SIGN
 
 
-YOUNG MAN
+YOUNG Man
 
 
 Sabrina
@@ -18941,7 +18941,7 @@ Blaine
 DEREK
 
 
-WOMAN
+WOMan
 
 
 PHOTO
@@ -18956,7 +18956,7 @@ Lorelei
 Lorelei
 
 
-OLD MAN
+OLD Man
 
 
 Pokémon JOURNAL
@@ -18980,7 +18980,7 @@ Pokémon JOURNAL
 CRUSHER
 
 
-WOMAN
+WOMan
 
 
 CRUSHER
@@ -19010,7 +19010,7 @@ Lance
 Lance
 
 
-WOMAN
+WOMan
 
 
 LITTLE GIRL
@@ -19019,7 +19019,7 @@ LITTLE GIRL
 Pokémon JOURNAL
 
 
-YOUNG MAN
+YOUNG Man
 
 
 Blue
@@ -19028,7 +19028,7 @@ Blue
 LITTLE BOY
 
 
-OLD MAN
+OLD Man
 
 
 Celio
@@ -19049,7 +19049,7 @@ Team Rocket
 MAGAZINE
 
 
-MAN
+Man
 
 
 PHOTO
@@ -19058,7 +19058,7 @@ PHOTO
 Pokémon JOURNAL
 
 
-GIOVANNI
+Giovanni
 
 
 SCIENTIST
@@ -19067,10 +19067,10 @@ SCIENTIST
 SCIENTIST
 
 
-GIOVANNI
+Giovanni
 
 
-MAN
+Man
 
 
 GIDEON
@@ -19211,7 +19211,7 @@ Pallet Town!
 Pokémon JOURNAL
 
 Special Feature:
-MR. FUJI of Pokémon HOUSE!
+MR. FUJI of Pokémon House!
 
 Editor: The shy MR. FUJI turned
 down our interview requests.
@@ -19276,7 +19276,7 @@ Check your Trainer CARD.
 
 
 Giggle…
-I collected a ton of STICKERS.
+I collected a ton of Stickers.
 I wish I could show them off…
 
 
@@ -19284,13 +19284,13 @@ Oh, excellent!
 You've come to the right place!
 
 Look, look! See? See?
-These are my STICKERS!
+These are my Stickers!
 Look how many I got!
 
 I bet you want some.
 I bet you do!
 
-I'll give a STICKER if you can tell
+I'll give a Sticker if you can tell
 me something awesome about
 yourself.
 
@@ -22042,7 +22042,7 @@ yourself next time!
 
 
 
-I'm the DAY-CARE MAN.
+I'm the Day-Care Man.
 
 I help take care of the precious
 Pokémon of Trainers.
@@ -22056,7 +22056,7 @@ Ah, it's you!
 We were raising your Pokémon, and
 my goodness, were we surprised!
 
-Your Pokémon had an EGG!
+Your Pokémon had an Egg!
 
 We don't know how it got there,
 but your Pokémon had it.
@@ -22077,7 +22077,7 @@ Come back when you've made room.
 
 
 @s received the EGG from
-the DAY-CARE MAN.
+the Day-Care Man.
 
 
 Take good care of it.
@@ -22091,7 +22091,7 @@ I really will keep it.
 You do want this, yes?
 
 
-I'm the DAY-CARE LADY.
+I'm the Day-Care Lady.
 
 We can raise Pokémon for you.
 
@@ -22156,7 +22156,7 @@ Here's your Pokémon.
 
 
 @s took back {FD02} from
-the DAY-CARE LADY.
+the Day-Care LADY.
 
 
 Oh? But you have just one
@@ -23428,7 +23428,7 @@ TOSH
 ROak
 OMI
 JODI
-AMANDA
+AManDA
 HILLARY
 MAKEY
 MICHI
@@ -23762,7 +23762,7 @@ KINDLER
 CAMPER
 Bug Maniac
 Psychic
-GENTLEMAN
+GENTLEMan
 Elite Four
 Leader
 SCHOOL Kid
@@ -23771,7 +23771,7 @@ PokéFAN
 EXPERT
 YOUNGSTER
 Champion
-FISHERMAN
+FISHERMan
 TRIATHLETE
 DRAGON TAMER
 BIRD KEEPER
@@ -23809,7 +23809,7 @@ HIKER
 BikeR
 BURGLAR
 ENGINEER
-FISHERMAN
+FISHERMan
 SWIMMER♂
 CUE Ball
 GameR
@@ -23828,7 +23828,7 @@ Leader
 Team Rocket
 COOLTrainer
 Elite Four
-GENTLEMAN
+GENTLEMan
 RIVAL
 Champion
 Channeler
@@ -23859,7 +23859,7 @@ TABITHA
 COURTNEY
 WATTSON
 FLANNERY
-NORMAN
+NORMan
 WINONA
 WALLACE
 GLACIA
@@ -23935,7 +23935,7 @@ MartHA
 TINA
 HANNAH
 MARK
-HERMAN
+HERMan
 COOPER
 STEVE
 WINSTON
@@ -24111,9 +24111,9 @@ ED
 TRAVIS
 BRAYDON
 IVAN
-GIOVANNI
-GIOVANNI
-GIOVANNI
+Giovanni
+Giovanni
+Giovanni
 GRUNT
 GRUNT
 GRUNT
@@ -24217,7 +24217,7 @@ JANAE
 ANGELICA
 EMILIA
 JENNIFER
-AMANDA
+AManDA
 STACY
 TASHA
 JEREMY
@@ -24393,8 +24393,8 @@ ALICIA
 ALICIA
 JEREMY
 MARK
-HERMAN
-HERMAN
+HERMan
+HERMan
 TRENT
 MEGAN
 MEGAN
@@ -24549,7 +24549,7 @@ Meowth
 PERSIAN
 PSYDUCK
 GOLDUCK
-MANKEY
+ManKEY
 PRIMEAPE
 Growlithe
 ARCANINE
@@ -24631,7 +24631,7 @@ VAPOREON
 JOLTEON
 FLAREON
 PORYGON
-OMANYTE
+OManYTE
 OMASTAR
 KABUTO
 KABUTOPS
@@ -24707,7 +24707,7 @@ GRANBULL
 QWILFISH
 SCIZOR
 SHUCKLE
-HERACROSS
+Heracross
 SNEASEL
 TEDDIURSA
 URSARING
@@ -24719,7 +24719,7 @@ CORSOLA
 REMORAID
 OCTILLERY
 DELIBIRD
-MANTINE
+ManTINE
 SKARMORY
 HOUNDOUR
 HOUNDOOM
@@ -24831,7 +24831,7 @@ FlyGON
 MAKUHITA
 HARIYAMA
 ELECTRIKE
-MANECTRIC
+ManECTRIC
 NUMEL
 CAMERUPT
 SPHEAL
@@ -27647,7 +27647,7 @@ SISTER
 GRANDMOTHER
 AUNT
 PARENT
-MAN
+Man
 ME
 GIRL
 BABE
@@ -27696,7 +27696,7 @@ OUR
 WE'RE
 RIVAL
 WE'VE
-WOMAN
+WOMan
 SHE
 SHE WAS
 TO HER
@@ -27968,7 +27968,7 @@ DANGER
 DEFEATED
 BEAT
 GREAT
-ROMANTIC
+ROManTIC
 QUESTION
 UNDERSTAND
 UNDERSTANDS
@@ -28481,7 +28481,7 @@ One Island
 TWO Island
 Three Island
 FOUR Island
-FIVE Island
+Five Island
 SEVEN Island
 SIX Island
 KINDLE Road
@@ -28495,7 +28495,7 @@ Sevii ISLE 8
 Sevii ISLE 9
 RESORT GORGEOUS
 Water LabYRINTH
-FIVE ISLE MEADOW
+Five ISLE Meadow
 MEMORIAL PILLAR
 OUTCAST Island
 GREEN PATH
@@ -31962,7 +31962,7 @@ Three Island
 FOUR Island
 
 
-FIVE Island
+Five Island
 
 
 SIX Island
@@ -32774,7 +32774,7 @@ a fateful encounter (hatched:
 
 
 An odd Pokémon EGG found by the
-DAY-CARE couple.
+Day-Care couple.
 
 
 An odd Pokémon EGG obtained from
@@ -33423,7 +33423,7 @@ Mt. Moon
 Bike Shop
 
 
-Bill'S HOUSE
+Bill'S House
 
 
 DAY CARE
@@ -33450,10 +33450,10 @@ Power Plant
 Pokémon Tower
 
 
-VOLUNTEER HOUSE
+VOLUNTEER House
 
 
-NAME RATER'S HOUSE
+NAME RATER'S House
 
 
 Celadon Dept. Store
@@ -37448,7 +37448,7 @@ these Pokémon.
 
 
 Using its dorsal fin as a suction pad, it
-clings to a MANTINE's underside to
+clings to a ManTINE's underside to
 scavenge for leftovers.
 
 
@@ -38882,8 +38882,8 @@ GOLDFISH
 STAR SHAPE
 MYSTERIOUS
 BARRIER
-MANTIS
-HUMAN SHAPE
+ManTIS
+HUMan SHAPE
 Electric
 SPITFire
 STAG BEETLE
@@ -38924,8 +38924,8 @@ SCOUT
 LONG BODY
 OWL
 OWL
-FIVE STAR
-FIVE STAR
+Five STAR
+Five STAR
 STRING SPIT
 LONG LEG
 BAT
@@ -39085,7 +39085,7 @@ NUMB
 ERUPTION
 COAL
 BOUNCE
-MANIPULATE
+ManIPULATE
 SPOT PANDA
 ANT PIT
 VIBRATION
@@ -40680,7 +40680,7 @@ Canceled reading the Card.
 HARDY
 LOneLY
 BRAVE
-ADAMANT
+ADAManT
 NAUGHTY
 BOLD
 DOCILE
@@ -40768,7 +40768,7 @@ HITMONCHAN
 MAChamp
 HOUNDOOM
 PRIMEAPE
-HERACROSS
+Heracross
 
 
 JORDY
@@ -40857,7 +40857,7 @@ Hitmonlee
 RHYDON
 GOLEM
 MAGMAR
-HERACROSS
+Heracross
 Poliwrath
 
 
@@ -40899,7 +40899,7 @@ STEELIX
 
 ISAC & MAG
 SKARMORY
-MANTINE
+ManTINE
 JUMPLUFF
 GENGAR
 CROBAT
@@ -41060,9 +41060,9 @@ QWILFISH
 
 
 SHANIA
-MANTINE
+ManTINE
 Magikarp
-MANTINE
+ManTINE
 GYARADOS
 Magikarp
 GYARADOS
@@ -41086,7 +41086,7 @@ SEAKING
 TENTACRUEL
 
 
-EMANUEL
+EManUEL
 VAPOREON
 ESPEON
 BLISSEY
@@ -41142,7 +41142,7 @@ Lapras
 
 AXE & REN
 LANTURN
-MANTINE
+ManTINE
 DEWGONG
 Cloyster
 TENTACRUEL
