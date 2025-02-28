@@ -24,26 +24,26 @@ scoreboard players set @s[tag=RivalBattleMusic,scores={MusicCooldown=0}] MusicCo
 
 
 
-#Deoxys battle
-execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!DeoxysMusic,nbt={ndex:386,OwnerUUID:""}] add DeoxysMusic
-
-execute at @e[tag=DeoxysMusic,type=pixelmon:pixelmon,limit=1] run playsound battledeoxys record @a[distance=..25,scores={MusicCooldown=0,TalkTime=0}] ~ ~ ~ 1 1 1
-execute at @e[tag=DeoxysMusic,type=pixelmon:pixelmon] run scoreboard players set @a[distance=..25,scores={MusicCooldown=0,TalkTime=0}] MusicCooldown 226
-
-
-#Legendary battles
-execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!LegendaryMusic,nbt={ndex:144,OwnerUUID:""}] add LegendaryMusic
-execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!LegendaryMusic,nbt={ndex:145,OwnerUUID:""}] add LegendaryMusic
-execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!LegendaryMusic,nbt={ndex:146,OwnerUUID:""}] add LegendaryMusic
-execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!LegendaryMusic,nbt={ndex:150,OwnerUUID:""}] add LegendaryMusic
-execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!LegendaryMusic,nbt={ndex:151,OwnerUUID:""}] add LegendaryMusic
-execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!LegendaryMusic,nbt={ndex:249,OwnerUUID:""}] add LegendaryMusic
-execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!LegendaryMusic,nbt={ndex:243,OwnerUUID:""}] add LegendaryMusic
-execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!LegendaryMusic,nbt={ndex:244,OwnerUUID:""}] add LegendaryMusic
-execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!LegendaryMusic,nbt={ndex:245,OwnerUUID:""}] add LegendaryMusic
-
-execute at @e[tag=LegendaryMusic,type=pixelmon:pixelmon,limit=1] run playsound battlelegend record @a[distance=..25,scores={MusicCooldown=0,TalkTime=0}] ~ ~ ~ 1 1 1
-execute at @e[tag=LegendaryMusic,type=pixelmon:pixelmon] run scoreboard players set @a[distance=..25,scores={MusicCooldown=0,TalkTime=0}] MusicCooldown 80
+##Deoxys battle
+#execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!DeoxysMusic,nbt={ndex:386,OwnerUUID:""}] add DeoxysMusic
+#
+#execute at @e[tag=DeoxysMusic,type=pixelmon:pixelmon,limit=1] run playsound battledeoxys record @a[distance=..25,scores={MusicCooldown=0,TalkTime=0}] ~ ~ ~ 1 1 1
+#execute at @e[tag=DeoxysMusic,type=pixelmon:pixelmon] run scoreboard players set @a[distance=..25,scores={MusicCooldown=0,TalkTime=0}] MusicCooldown 226
+#
+#
+##Legendary battles
+#execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!LegendaryMusic,nbt={ndex:144,OwnerUUID:""}] add LegendaryMusic
+#execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!LegendaryMusic,nbt={ndex:145,OwnerUUID:""}] add LegendaryMusic
+#execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!LegendaryMusic,nbt={ndex:146,OwnerUUID:""}] add LegendaryMusic
+#execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!LegendaryMusic,nbt={ndex:150,OwnerUUID:""}] add LegendaryMusic
+#execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!LegendaryMusic,nbt={ndex:151,OwnerUUID:""}] add LegendaryMusic
+#execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!LegendaryMusic,nbt={ndex:249,OwnerUUID:""}] add LegendaryMusic
+#execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!LegendaryMusic,nbt={ndex:243,OwnerUUID:""}] add LegendaryMusic
+#execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!LegendaryMusic,nbt={ndex:244,OwnerUUID:""}] add LegendaryMusic
+#execute at @s run tag @e[distance=..25,type=pixelmon:pixelmon,tag=!LegendaryMusic,nbt={ndex:245,OwnerUUID:""}] add LegendaryMusic
+#
+#execute at @e[tag=LegendaryMusic,type=pixelmon:pixelmon,limit=1] run playsound battlelegend record @a[distance=..25,scores={MusicCooldown=0,TalkTime=0}] ~ ~ ~ 1 1 1
+#execute at @e[tag=LegendaryMusic,type=pixelmon:pixelmon] run scoreboard players set @a[distance=..25,scores={MusicCooldown=0,TalkTime=0}] MusicCooldown 80
 
 
 
