@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "seadra-1",
+            "pokemon": "seadra",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "25-35",
+            "weight": 2.0,
+            "condition": {
+                "minX": 4101, "maxX": 4227, "minZ": -198, "maxZ": -99,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        }
+    ]
+}
