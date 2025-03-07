@@ -4,53 +4,39 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "machoke-1",
-            "pokemon": "machoke",
+            "id": "wobbuffet-1",
+            "pokemon": "wobbuffet",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "44-48",
-            "weight": 5,
-            "condition": {
-                "canSeeSky": false,
-                "minX": 3506, "maxX": 3831, "minZ": 1393, "maxZ": 1573
-            }
-        },
-
-        {
-            "id": "machoke-2",
-            "pokemon": "machoke",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "46",
-            "weight": 10,
+            "level": "55",
+            "weight": 4,
             "condition": {
                 "canSeeSky": false,
                 "minX": 2779, "maxX": 3015, "minY": 60, "maxY": 89, "minZ": 1845, "maxZ": 1994
             }
         },
         {
-            "id": "machoke-3",
-            "pokemon": "machoke",
+            "id": "wobbuffet-2",
+            "pokemon": "wobbuffet",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "49",
-            "weight": 20,
+            "level": "58",
+            "weight": 5,
             "condition": {
                 "canSeeSky": false,
                 "minX": 2779, "maxX": 3015, "minY": 90, "maxY": 99, "minZ": 1845, "maxZ": 1994
             }
         },
         {
-            "id": "machoke-4",
-            "pokemon": "machoke",
+            "id": "wobbuffet-3",
+            "pokemon": "wobbuffet",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "52",
-            "weight": 10,
+            "level": "61",
+            "weight": 4,
             "condition": {
                 "canSeeSky": false,
                 "minX": 2779, "maxX": 3015, "minY": 33, "maxY": 59, "minZ": 1845, "maxZ": 1994

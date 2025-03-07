@@ -20,7 +20,7 @@
         },
 
         {
-            "id": "primeape-1",
+            "id": "primeape-2",
             "pokemon": "primeape",
             "type": "pokemon",
             "context": "grounded",
@@ -30,6 +30,20 @@
             "condition": {
                 "canSeeSky": false,
                 "minX": 3506, "maxX": 3831,"minY": 51, "maxY": 68, "minZ": 1393, "maxZ": 1573
+            }
+        },
+
+        {
+            "id": "primeape-3",
+            "pokemon": "primeape",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "52-61",
+            "weight": 11,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 2779, "maxX": 3015, "minY": 60, "maxY": 89, "minZ": 1845, "maxZ": 1994
             }
         }
     ]

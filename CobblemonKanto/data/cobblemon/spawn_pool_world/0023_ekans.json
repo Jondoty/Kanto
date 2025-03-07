@@ -17,6 +17,22 @@
                 ],
                 "minX": 4379, "maxX": 4529, "minZ": 251, "maxZ": 898
             }
+        },
+
+        {
+            "id": "ekans-2",
+            "pokemon": "ekans",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-12",
+            "weight": 13,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3236, "maxX": 3619, "minZ": 804, "maxZ": 947
+            }
         }
     ]
 }

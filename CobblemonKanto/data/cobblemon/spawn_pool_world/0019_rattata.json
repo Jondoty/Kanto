@@ -64,6 +64,22 @@
                 ],
                 "minX": 4145, "maxX": 4203, "minZ": 367, "maxZ": 425
             }
+        },
+
+        {
+            "id": "rattata-5",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "8-12",
+            "weight": 35,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3236, "maxX": 3619, "minZ": 804, "maxZ": 947
+            }
         }
     ]
 }

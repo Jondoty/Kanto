@@ -15,6 +15,47 @@
                 "canSeeSky": false,
                 "minX": 3506, "maxX": 3831, "minZ": 1393, "maxZ": 1573
             }
+        },
+
+        {
+            "id": "golbat-2",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "46-55",
+            "weight": 14,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 2779, "maxX": 3015, "minY": 60, "maxY": 89, "minZ": 1845, "maxZ": 1994
+            }
+        },
+
+        {
+            "id": "golbat-3",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "59-58",
+            "weight": 25,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 2779, "maxX": 3015, "minY": 90, "maxY": 99, "minZ": 1845, "maxZ": 1994
+            }
+        },
+        {
+            "id": "golbat-4",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "52-61",
+            "weight": 11,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 2779, "maxX": 3015, "minY": 33, "maxY": 59, "minZ": 1845, "maxZ": 1994
+            }
         }
     ]
 }

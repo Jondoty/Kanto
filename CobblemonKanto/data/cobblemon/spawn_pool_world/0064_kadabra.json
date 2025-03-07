@@ -1,0 +1,33 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "kadabra-1",
+            "pokemon": "kadabra",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "55-64",
+            "weight": 11,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 2779, "maxX": 3015, "minY": 90, "maxY": 99, "minZ": 1845, "maxZ": 1994
+            }
+        },
+        {
+            "id": "kadabra-2",
+            "pokemon": "kadabra",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "58-67",
+            "weight": 25,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 2779, "maxX": 3015, "minY": 33, "maxY": 59, "minZ": 1845, "maxZ": 1994
+            }
+        }
+    ]
+}
