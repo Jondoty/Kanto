@@ -1,6 +1,6 @@
 
 #Runs the Portals when a player steps on a magenta carpet block
-execute at @a run execute if block ~ ~ ~ minecraft:magenta_carpet run function kanto:world/portals
+execute as @a at @s if block ~ ~ ~ minecraft:magenta_carpet run function kanto:world/portals
 
 
 
