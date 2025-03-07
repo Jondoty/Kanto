@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ekans-1",
+            "pokemon": "ekans",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-34",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 4379, "maxX": 4529, "minZ": 251, "maxZ": 898
+            }
+        }
+    ]
+}

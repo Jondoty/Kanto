@@ -1,0 +1,36 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "primeape-1",
+            "pokemon": "primeape",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "42",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 4379, "maxX": 4529, "minZ": 251, "maxZ": 898
+            }
+        },
+
+        {
+            "id": "primeape-1",
+            "pokemon": "primeape",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "42",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3831,"minY": 51, "maxY": 68, "minZ": 1393, "maxZ": 1573
+            }
+        }
+    ]
+}

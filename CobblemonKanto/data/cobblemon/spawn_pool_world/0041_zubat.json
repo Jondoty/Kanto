@@ -1,0 +1,47 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "zubat-1",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-34",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3831, "minZ": 1393, "maxZ": 1573
+            }
+        },
+
+        {
+            "id": "zubat-2",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "7-10",
+            "weight": 69,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 2384, "maxX": 2643, "minZ": 1823, "maxZ": 2045
+            }
+        },
+        {
+            "id": "zubat-3",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "8-11",
+            "weight": 49,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 2384, "maxX": 2643, "minZ": 1398, "maxZ": 1607
+            }
+        }
+    ]
+}

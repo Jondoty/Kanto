@@ -1,0 +1,33 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "clefairy-1",
+            "pokemon": "clefairy",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "8",
+            "weight": 1,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 2384, "maxX": 2643, "minZ": 1823, "maxZ": 2045
+            }
+        },
+        {
+            "id": "clefairy-2",
+            "pokemon": "clefairy",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-12",
+            "weight": 6,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 2384, "maxX": 2643, "minZ": 1398, "maxZ": 1607
+            }
+        }
+    ]
+}

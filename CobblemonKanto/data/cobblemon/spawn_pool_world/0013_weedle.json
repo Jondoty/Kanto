@@ -4,29 +4,13 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "pidgey-1",
-            "pokemon": "pidgey",
+            "id": "weedle-1",
+            "pokemon": "weedle",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "2-5",
-            "weight": 50,
-            "condition": {
-                "neededNearbyBlocks": [
-                    "minecraft:short_grass"
-                ],
-                "minX": 4100, "maxX": 4227, "minZ": -98, "maxZ": 101
-            }
-        },   
-        
-        {
-            "id": "pidgey-2",
-            "pokemon": "pidgey",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "2-5",
-            "weight": 45,
+            "level": "4-5",
+            "weight": 5,
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
@@ -35,13 +19,13 @@
             }
         },
         {
-            "id": "pidgey-3",
-            "pokemon": "pidgey",
+            "id": "weedle-2",
+            "pokemon": "weedle",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "2-5",
-            "weight": 45,
+            "level": "4-5",
+            "weight": 5,
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
@@ -51,18 +35,18 @@
         },
 
         {
-            "id": "pidgey-4",
-            "pokemon": "pidgey",
+            "id": "weedle-3",
+            "pokemon": "weedle",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "6-7",
-            "weight": 30,
+            "level": "3-5",
+            "weight": 40,
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
                 ],
-                "minX": 3620, "maxX": 4045, "minZ": 703, "maxZ": 947
+                "minX": 4147, "maxX": 4291, "minZ": 437, "maxZ": 599
             }
         }
     ]

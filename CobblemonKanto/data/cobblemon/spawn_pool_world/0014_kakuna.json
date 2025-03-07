@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "kakuna-1",
+            "pokemon": "kakuna",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-6",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 4147, "maxX": 4291, "minZ": 437, "maxZ": 599
+            }
+        }
+    ]
+}

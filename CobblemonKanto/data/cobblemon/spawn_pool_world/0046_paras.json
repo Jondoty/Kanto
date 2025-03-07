@@ -1,0 +1,47 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "paras-1",
+            "pokemon": "paras",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "8",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 2384, "maxX": 2643, "minZ": 1823, "maxZ": 2045
+            }
+        },
+
+        {
+            "id": "paras-2",
+            "pokemon": "paras",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-10",
+            "weight": 100,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 2384, "maxX": 2643, "minZ": 1608, "maxZ": 1822
+            }
+        },
+        {
+            "id": "paras-3",
+            "pokemon": "paras",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-12",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 2384, "maxX": 2643, "minZ": 1398, "maxZ": 1607
+            }
+        }
+    ]
+}

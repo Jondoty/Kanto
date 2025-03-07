@@ -17,6 +17,53 @@
                 ],
                 "minX": 4100, "maxX": 4227, "minZ": -98, "maxZ": 101
             }
-        }    
+        },
+
+        {
+            "id": "rattata-2",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-5",
+            "weight": 45,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 4265, "maxX": 4507, "minZ": 139, "maxZ": 250
+            }
+        },
+
+        {
+            "id": "rattata-3",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-5",
+            "weight": 45,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 4171, "maxX": 4217, "minZ": 635, "maxZ": 684
+            }
+        },
+        {
+            "id": "rattata-4",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-5",
+            "weight": 45,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 4145, "maxX": 4203, "minZ": 367, "maxZ": 425
+            }
+        }
     ]
 }

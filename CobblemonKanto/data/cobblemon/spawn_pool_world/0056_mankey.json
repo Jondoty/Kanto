@@ -4,60 +4,45 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "pidgey-1",
-            "pokemon": "pidgey",
+            "id": "mankey-1",
+            "pokemon": "mankey",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
             "level": "2-5",
-            "weight": 50,
+            "weight": 45,
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
                 ],
-                "minX": 4100, "maxX": 4227, "minZ": -98, "maxZ": 101
+                "minX": 4265, "maxX": 4507, "minZ": 139, "maxZ": 250
             }
         },   
-        
+
         {
-            "id": "pidgey-2",
-            "pokemon": "pidgey",
+            "id": "mankey-2",
+            "pokemon": "mankey",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "2-5",
-            "weight": 45,
+            "level": "32-34",
+            "weight": 30,
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
                 ],
-                "minX": 4171, "maxX": 4217, "minZ": 635, "maxZ": 684
-            }
-        },
-        {
-            "id": "pidgey-3",
-            "pokemon": "pidgey",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "2-5",
-            "weight": 45,
-            "condition": {
-                "neededNearbyBlocks": [
-                    "minecraft:short_grass"
-                ],
-                "minX": 4145, "maxX": 4203, "minZ": 367, "maxZ": 425
+                "minX": 4379, "maxX": 4529, "minZ": 251, "maxZ": 898
             }
         },
 
         {
-            "id": "pidgey-4",
-            "pokemon": "pidgey",
+            "id": "mankey-3",
+            "pokemon": "mankey",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "6-7",
-            "weight": 30,
+            "level": "7",
+            "weight": 10,
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"

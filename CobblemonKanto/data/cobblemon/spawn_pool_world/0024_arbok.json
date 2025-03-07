@@ -1,0 +1,36 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "arbok-1",
+            "pokemon": "arbok",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "44",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 4379, "maxX": 4529, "minZ": 251, "maxZ": 898
+            }
+        },
+
+        {
+            "id": "arbok-2",
+            "pokemon": "arbok",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "44",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3831, "minZ": 1393, "maxZ": 1573
+            }
+        }
+    ]
+}

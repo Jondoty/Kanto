@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "44-46",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3831, "minZ": 1393, "maxZ": 1573
+            }
+        }
+    ]
+}

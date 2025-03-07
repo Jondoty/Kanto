@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "diglett-1",
+            "pokemon": "diglett",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "15-19",
+            "weight": 95,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 2750, "maxX": 3070, "maxY": 41, "minZ": 1394, "maxZ": 1684
+            }
+        }
+    ]
+}
