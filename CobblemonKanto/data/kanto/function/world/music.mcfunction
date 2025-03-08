@@ -109,12 +109,12 @@ playsound lavendertown record @s[x=2483,y=0,z=426,dx=159,dy=256,dz=129,scores={M
 scoreboard players set @s[x=2483,y=0,z=426,dx=159,dy=256,dz=129,scores={MusicCooldown=0}] MusicCooldown 158
 
 #Route 9
-playsound route4 record @s[x=2483,y=0,z=841,dx=522,dy=256,dz=97,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=2483,y=0,z=841,dx=522,dy=256,dz=97,scores={MusicCooldown=0}] MusicCooldown 97
+playsound route4 record @s[x=2483,y=0,z=841,dx=367,dy=256,dz=97,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2483,y=0,z=841,dx=367,dy=256,dz=97,scores={MusicCooldown=0}] MusicCooldown 97
 
 #Route 10
-playsound route4 record @s[x=2483,y=0,z=556,dx=154,dy=256,dz=284,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=2483,y=0,z=556,dx=154,dy=256,dz=284,scores={MusicCooldown=0}] MusicCooldown 97
+playsound route4 record @s[x=2483,y=0,z=556,dx=154,dy=256,dz=382,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2483,y=0,z=556,dx=154,dy=256,dz=382,scores={MusicCooldown=0}] MusicCooldown 97
 
 #Route 8
 playsound route4 record @s[x=2643,y=0,z=426,dx=328,dy=256,dz=117,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
