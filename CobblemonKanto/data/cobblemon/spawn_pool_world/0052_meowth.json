@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "meowth-1",
+            "pokemon": "meowth",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-16",
+            "weight": 35,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3028, "maxX": 3175, "minZ": 605, "maxZ": 803
+            }
+        }
+    ]
+}

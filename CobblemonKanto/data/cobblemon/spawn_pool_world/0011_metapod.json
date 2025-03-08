@@ -17,6 +17,38 @@
                 ],
                 "minX": 4147, "maxX": 4291, "minZ": 437, "maxZ": 599
             }
+        },
+
+        {
+            "id": "metapod-2",
+            "pokemon": "metapod",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "8",
+            "weight": 4,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3053, "maxX": 3170, "minZ": 974, "maxZ": 1098
+            }
+        },
+
+        {
+            "id": "metapod-3",
+            "pokemon": "metapod",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "9",
+            "weight": 4,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2725, "maxX": 3170, "minZ": 1099, "maxZ": 1190
+            }
         }
     ]
 }

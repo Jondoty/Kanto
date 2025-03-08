@@ -4,29 +4,13 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "kakuna-1",
-            "pokemon": "kakuna",
+            "id": "bellsprout-1",
+            "pokemon": "bellsprout",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "4-6",
-            "weight": 10,
-            "condition": {
-                "neededNearbyBlocks": [
-                    "minecraft:short_grass"
-                ],
-                "minX": 4147, "maxX": 4291, "minZ": 437, "maxZ": 599
-            }
-        },
-
-        {
-            "id": "kakuna-2",
-            "pokemon": "kakuna",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "8",
-            "weight": 4,
+            "level": "12-14",
+            "weight": 13,
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
@@ -36,18 +20,34 @@
         },
 
         {
-            "id": "kakuna-3",
-            "pokemon": "kakuna",
+            "id": "bellsprout-2",
+            "pokemon": "bellsprout",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "9",
-            "weight": 4,
+            "level": "12-14",
+            "weight": 13,
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
                 ],
                 "minX": 2725, "maxX": 3170, "minZ": 1099, "maxZ": 1190
+            }
+        },
+
+        {
+            "id": "bellsprout-3",
+            "pokemon": "bellsprout",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-16",
+            "weight": 13,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3028, "maxX": 3175, "minZ": 605, "maxZ": 803
             }
         }
     ]

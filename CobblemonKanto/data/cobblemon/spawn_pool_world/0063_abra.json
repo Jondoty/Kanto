@@ -4,29 +4,13 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "kakuna-1",
-            "pokemon": "kakuna",
+            "id": "abra-1",
+            "pokemon": "abra",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "4-6",
-            "weight": 10,
-            "condition": {
-                "neededNearbyBlocks": [
-                    "minecraft:short_grass"
-                ],
-                "minX": 4147, "maxX": 4291, "minZ": 437, "maxZ": 599
-            }
-        },
-
-        {
-            "id": "kakuna-2",
-            "pokemon": "kakuna",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "8",
-            "weight": 4,
+            "level": "8-12",
+            "weight": 15,
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
@@ -36,13 +20,13 @@
         },
 
         {
-            "id": "kakuna-3",
-            "pokemon": "kakuna",
+            "id": "abra-2",
+            "pokemon": "abra",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "9",
-            "weight": 4,
+            "level": "9-13",
+            "weight": 15,
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"

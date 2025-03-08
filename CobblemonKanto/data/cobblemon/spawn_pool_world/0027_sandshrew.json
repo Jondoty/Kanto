@@ -33,6 +33,38 @@
                 ],
                 "minX": 3236, "maxX": 3619, "minZ": 804, "maxZ": 947
             }
+        },
+
+        {
+            "id": "sandshrew-3",
+            "pokemon": "sandshrew",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "11-17",
+            "weight": 13,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2638, "maxX": 3005, "minZ": 841, "maxZ": 938
+            }
+        },
+
+        {
+            "id": "sandshrew-4",
+            "pokemon": "sandshrew",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "11-17",
+            "weight": 13,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2483, "maxX": 2637, "minZ": 556, "maxZ": 938
+            }
         }
     ]
 }
