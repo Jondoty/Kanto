@@ -4,30 +4,13 @@
     "neededUninstalledMods": [],
     "spawns": [
       {
-          "id": "nidoranm-1",
-          "pokemon": "nidoranm",
-          "type": "pokemon",
-          "context": "grounded",
-          "bucket": "common",
-          "level": "6-7",
-          "weight": 15,
-          "condition": {
-              "canSeeSky": true,
-              "neededNearbyBlocks": [
-                  "minecraft:short_grass"
-              ],
-              "minX": 3620, "maxX": 4045, "minZ": 703, "maxZ": 947
-          }
-      },
-
-      {
-        "id": "nidoranm-2",
-        "pokemon": "nidoranm",
+        "id": "nidorina-1",
+        "pokemon": "nidorina",
         "type": "pokemon",
         "context": "grounded",
         "bucket": "common",
-        "level": "22",
-        "weight": 10,
+        "level": "31",
+        "weight": 5,
         "condition": {
             "neededNearbyBlocks": [
                 "minecraft:short_grass"
@@ -36,12 +19,12 @@
         }
     },
     {
-        "id": "nidoranm-3",
-        "pokemon": "nidoranm",
+        "id": "nidorina-2",
+        "pokemon": "nidorina",
         "type": "pokemon",
         "context": "grounded",
         "bucket": "common",
-        "level": "24",
+        "level": "33",
         "weight": 10,
         "condition": {
             "neededNearbyBlocks": [
@@ -51,8 +34,8 @@
         }
     },
     {
-        "id": "nidoranm-4",
-        "pokemon": "nidoranm",
+        "id": "nidorina-3",
+        "pokemon": "nidorina",
         "type": "pokemon",
         "context": "grounded",
         "bucket": "common",
@@ -66,8 +49,8 @@
         }
     },
     {
-        "id": "nidoranm-5",
-        "pokemon": "nidoranm",
+        "id": "nidorina-4",
+        "pokemon": "nidorina",
         "type": "pokemon",
         "context": "grounded",
         "bucket": "common",

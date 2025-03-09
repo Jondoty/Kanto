@@ -42,6 +42,37 @@
                 "canSeeSky": false,
                 "minX": 2779, "maxX": 3015, "minY": 33, "maxY": 59, "minZ": 1845, "maxZ": 1994
             }
+        },
+
+        {
+            "id": "parasect-4",
+            "pokemon": "parasect",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3379, "maxX": 3523, "minZ": -302, "maxZ": -199
+            }
+        },
+        {
+            "id": "parasect-5",
+            "pokemon": "parasect",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3194, "maxX": 3341, "minZ": -268, "maxZ": -158
+            }
         }
     ]
 }

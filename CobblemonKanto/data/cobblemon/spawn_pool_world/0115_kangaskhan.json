@@ -1,0 +1,37 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "kangaskhan-1",
+            "pokemon": "kangaskhan",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 4,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3194, "maxX": 3341, "minZ": -268, "maxZ": -158
+            }
+        },
+        {
+            "id": "kangaskhan-2",
+            "pokemon": "kangaskhan",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28",
+            "weight": 1,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3593, "maxX": 3710, "minZ": -281, "maxZ": 168
+            }
+        }
+    ]
+}

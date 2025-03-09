@@ -18,6 +18,67 @@
               ],
               "minX": 3620, "maxX": 4045, "minZ": 703, "maxZ": 947
           }
-      }
+      },
+
+      {
+        "id": "nidoranf-2",
+        "pokemon": "nidoranf",
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "22",
+        "weight": 10,
+        "condition": {
+            "neededNearbyBlocks": [
+                "minecraft:short_grass"
+            ],
+            "minX": 3379, "maxX": 3523, "minZ": -302, "maxZ": -199
+        }
+    },
+    {
+        "id": "nidoranf-3",
+        "pokemon": "nidoranf",
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "24",
+        "weight": 10,
+        "condition": {
+            "neededNearbyBlocks": [
+                "minecraft:short_grass"
+            ],
+            "minX": 3194, "maxX": 3341, "minZ": -268, "maxZ": -158
+        }
+    },
+    {
+        "id": "nidoranf-4",
+        "pokemon": "nidoranf",
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "30",
+        "weight": 10,
+        "condition": {
+            "neededNearbyBlocks": [
+                "minecraft:short_grass"
+            ],
+            "minX": 3381, "maxX": 3535, "minZ": -166, "maxZ": -45
+        }
+    },
+    {
+        "id": "nidoranf-5",
+        "pokemon": "nidoranf",
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "30",
+        "weight": 10,
+        "condition": {
+            "neededNearbyBlocks": [
+                "minecraft:short_grass"
+            ],
+            "minX": 3593, "maxX": 3710, "minZ": -281, "maxZ": 168
+        }
+    }
     ]
 }

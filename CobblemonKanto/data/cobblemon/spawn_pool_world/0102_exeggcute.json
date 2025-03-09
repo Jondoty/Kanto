@@ -4,60 +4,27 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "doduo-1",
-            "pokemon": "doduo",
+            "id": "exeggcute-1",
+            "pokemon": "exeggcute",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "18-22",
-            "weight": 35,
+            "level": "24-25",
+            "weight": 20,
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
                 ],
-                "minX": 3638, "maxX": 3873, "minZ": 443, "maxZ": 534
+                "minX": 3379, "maxX": 3523, "minZ": -302, "maxZ": -199
             }
         },
-
         {
-            "id": "doduo-2",
-            "pokemon": "doduo",
+            "id": "exeggcute-2",
+            "pokemon": "exeggcute",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "24-28",
-            "weight": 35,
-            "condition": {
-                "neededNearbyBlocks": [
-                    "minecraft:short_grass"
-                ],
-                "minX": 3702, "maxX": 3873, "minZ": -337, "maxZ": 442
-            }
-        },
-
-        {
-            "id": "doduo-3",
-            "pokemon": "doduo",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "24-28",
-            "weight": 35,
-            "condition": {
-                "neededNearbyBlocks": [
-                    "minecraft:short_grass"
-                ],
-                "minX": 3608, "maxX": 3870, "minZ": -489, "maxZ": -338
-            }
-        },
-
-        {
-            "id": "doduo-4",
-            "pokemon": "doduo",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "26",
+            "level": "23-25",
             "weight": 20,
             "condition": {
                 "neededNearbyBlocks": [
@@ -67,12 +34,27 @@
             }
         },
         {
-            "id": "doduo-5",
-            "pokemon": "doduo",
+            "id": "exeggcute-3",
+            "pokemon": "exeggcute",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "26",
+            "level": "25-27",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3381, "maxX": 3535, "minZ": -166, "maxZ": -45
+            }
+        },
+        {
+            "id": "exeggcute-4",
+            "pokemon": "exeggcute",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-27",
             "weight": 20,
             "condition": {
                 "neededNearbyBlocks": [

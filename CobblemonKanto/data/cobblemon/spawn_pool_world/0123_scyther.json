@@ -1,0 +1,37 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "scyther-1",
+            "pokemon": "scyther",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23",
+            "weight": 4,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3379, "maxX": 3523, "minZ": -302, "maxZ": -199
+            }
+        },
+        {
+            "id": "scyther-2",
+            "pokemon": "scyther",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28",
+            "weight": 1,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3194, "maxX": 3341, "minZ": -268, "maxZ": -158
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "venomoth-1",
+            "pokemon": "venomoth",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3381, "maxX": 3535, "minZ": -166, "maxZ": -45
+            }
+        },
+        {
+            "id": "venomoth-2",
+            "pokemon": "venomoth",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3593, "maxX": 3710, "minZ": -281, "maxZ": 168
+            }
+        }
+    ]
+}
