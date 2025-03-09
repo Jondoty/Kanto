@@ -49,6 +49,54 @@
                 ],
                 "minX": 3028, "maxX": 3175, "minZ": 605, "maxZ": 803
             }
+        },
+
+        {
+            "id": "bellsprout-4",
+            "pokemon": "bellsprout",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-26",
+            "weight": 18,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2483, "maxX": 2679, "minZ": -154, "maxZ": 425
+            }
+        },
+
+        {
+            "id": "bellsprout-5",
+            "pokemon": "bellsprout",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-16",
+            "weight": 13,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3042, "maxX": 3174, "minZ": 215, "maxZ": 386
+            }
+        },
+
+        {
+            "id": "bellsprout-6",
+            "pokemon": "bellsprout",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 13,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3237, "maxX": 3334, "minZ": 432, "maxZ": 554
+            }
         }
     ]
 }

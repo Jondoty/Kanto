@@ -16,6 +16,21 @@
                 "minLureLevel": 3,
                 "maxLureLevel": 3
             }
+        },
+
+        {
+            "id": "shellder-2",
+            "pokemon": "shellder",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 20.0,
+            "condition": {
+                "minX": 2976, "maxX": 3235, "minZ": 3, "maxZ": 214,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
         }
     ]
 }

@@ -65,6 +65,38 @@
                 ],
                 "minX": 2483, "maxX": 2637, "minZ": 556, "maxZ": 938
             }
+        },
+
+        {
+            "id": "ekans-5",
+            "pokemon": "ekans",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "17-19",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2643, "maxX": 2971, "minZ": 426, "maxZ": 543
+            }
+        },
+
+        {
+            "id": "ekans-6",
+            "pokemon": "ekans",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "12-15",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2680, "maxX": 2975, "minZ": 30, "maxZ": 159
+            }
         }
     ]
 }

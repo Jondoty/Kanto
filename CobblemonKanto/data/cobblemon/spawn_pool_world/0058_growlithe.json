@@ -1,0 +1,38 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "growlithe-1",
+            "pokemon": "growlithe",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "15-18",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2643, "maxX": 2971, "minZ": 426, "maxZ": 543
+            }
+        },
+
+        {
+            "id": "growlithe-2",
+            "pokemon": "growlithe",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-20",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3237, "maxX": 3334, "minZ": 432, "maxZ": 554
+            }
+        }
+    ]
+}

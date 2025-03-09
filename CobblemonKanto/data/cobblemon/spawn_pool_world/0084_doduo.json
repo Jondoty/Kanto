@@ -4,66 +4,50 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "meowth-1",
-            "pokemon": "meowth",
+            "id": "doduo-1",
+            "pokemon": "doduo",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "10-16",
+            "level": "18-22",
             "weight": 35,
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
                 ],
-                "minX": 3028, "maxX": 3175, "minZ": 605, "maxZ": 803
+                "minX": 3638, "maxX": 3873, "minZ": 443, "maxZ": 534
             }
         },
 
         {
-            "id": "meowth-2",
-            "pokemon": "meowth",
+            "id": "doduo-2",
+            "pokemon": "doduo",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "18-20 ",
+            "level": "24-28",
             "weight": 35,
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
                 ],
-                "minX": 2643, "maxX": 2971, "minZ": 426, "maxZ": 543
+                "minX": 3702, "maxX": 3873, "minZ": -337, "maxZ": 442
             }
         },
 
         {
-            "id": "meowth-3",
-            "pokemon": "meowth",
+            "id": "doduo-3",
+            "pokemon": "doduo",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "10-16",
+            "level": "24-28",
             "weight": 35,
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
                 ],
-                "minX": 3042, "maxX": 3174, "minZ": 215, "maxZ": 386
-            }
-        },
-
-        {
-            "id": "meowth-4",
-            "pokemon": "meowth",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "17-20",
-            "weight": 40,
-            "condition": {
-                "neededNearbyBlocks": [
-                    "minecraft:short_grass"
-                ],
-                "minX": 3237, "maxX": 3334, "minZ": 432, "maxZ": 554
+                "minX": 3608, "maxX": 3870, "minZ": -489, "maxZ": -338
             }
         }
     ]

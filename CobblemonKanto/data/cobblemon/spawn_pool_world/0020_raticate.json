@@ -4,29 +4,29 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "fearow-1",
-            "pokemon": "fearow",
+            "id": "raticate-1",
+            "pokemon": "raticate",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "40-44",
-            "weight": 15,
+            "level": "23-25",
+            "weight": 5,
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
                 ],
-                "minX": 4379, "maxX": 4529, "minZ": 251, "maxZ": 898
+                "minX": 3638, "maxX": 3873, "minZ": 443, "maxZ": 534
             }
         },
 
         {
-            "id": "fearow-2",
-            "pokemon": "fearow",
+            "id": "raticate-2",
+            "pokemon": "raticate",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "25-27",
-            "weight": 5,
+            "level": "25-29",
+            "weight": 25,
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
@@ -36,12 +36,12 @@
         },
 
         {
-            "id": "fearow-3",
-            "pokemon": "fearow",
+            "id": "raticate-3",
+            "pokemon": "raticate",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "25-27",
+            "level": "25-29",
             "weight": 15,
             "condition": {
                 "neededNearbyBlocks": [

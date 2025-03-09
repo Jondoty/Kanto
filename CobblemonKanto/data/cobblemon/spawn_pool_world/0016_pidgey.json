@@ -112,6 +112,70 @@
                 ],
                 "minX": 3028, "maxX": 3175, "minZ": 605, "maxZ": 803
             }
+        },
+
+        {
+            "id": "pidgey-8",
+            "pokemon": "pidgey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-27",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2483, "maxX": 2679, "minZ": -154, "maxZ": 425
+            }
+        },
+
+        {
+            "id": "pidgey-9",
+            "pokemon": "pidgey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-20",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2643, "maxX": 2971, "minZ": 426, "maxZ": 543
+            }
+        },
+
+        {
+            "id": "pidgey-10",
+            "pokemon": "pidgey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-16",
+            "weight": 40,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3042, "maxX": 3174, "minZ": 215, "maxZ": 386
+            }
+        },
+
+        {
+            "id": "pidgey-11",
+            "pokemon": "pidgey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-22",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3237, "maxX": 3334, "minZ": 432, "maxZ": 554
+            }
         }
     ]
 }

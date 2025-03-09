@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "koffing-1",
+            "pokemon": "koffing",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "11-17",
+            "weight": 2.0,
+            "condition": {
+                "minX": 3335, "maxX": 3637, "minZ": 396, "maxZ": 599
+            }
+        }
+    ]
+}
