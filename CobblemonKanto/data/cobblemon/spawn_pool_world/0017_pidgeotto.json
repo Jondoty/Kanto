@@ -4,28 +4,12 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "weepinbell-1",
-            "pokemon": "weepinbell",
+            "id": "pidgeotto-1",
+            "pokemon": "pidgeotto",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "28-30",
-            "weight": 5,
-            "condition": {
-                "neededNearbyBlocks": [
-                    "minecraft:short_grass"
-                ],
-                "minX": 2483, "maxX": 2679, "minZ": -154, "maxZ": 425
-            }
-        },
-
-        {
-            "id": "weepinbell-2",
-            "pokemon": "weepinbell",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "28-30",
+            "level": "29",
             "weight": 5,
             "condition": {
                 "neededNearbyBlocks": [
@@ -36,12 +20,12 @@
         },
 
         {
-            "id": "weepinbell-3",
-            "pokemon": "weepinbell",
+            "id": "pidgeotto-2",
+            "pokemon": "pidgeotto",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "30",
+            "level": "29",
             "weight": 5,
             "condition": {
                 "neededNearbyBlocks": [
@@ -52,12 +36,12 @@
         },
 
         {
-            "id": "weepinbell-4",
-            "pokemon": "weepinbell",
+            "id": "pidgeotto-3",
+            "pokemon": "pidgeotto",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "28-30",
+            "level": "29",
             "weight": 5,
             "condition": {
                 "neededNearbyBlocks": [

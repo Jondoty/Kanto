@@ -41,6 +41,54 @@
                 "canSeeSky": false,
                 "minX": 2779, "maxX": 3015, "minY": 33, "maxY": 59, "minZ": 1845, "maxZ": 1994
             }
+        },
+
+        {
+            "id": "ditto-4",
+            "pokemon": "ditto",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2978, "maxX": 3332, "minZ": -446, "maxZ": -350
+            }
+        },
+
+        {
+            "id": "ditto-5",
+            "pokemon": "ditto",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2859, "maxX": 2977, "minZ": -446, "maxZ": -234
+            }
+        },
+
+        {
+            "id": "ditto-6",
+            "pokemon": "ditto",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2483, "maxX": 2977, "minZ": -233, "maxZ": -155
+            }
         }
     ]
 }

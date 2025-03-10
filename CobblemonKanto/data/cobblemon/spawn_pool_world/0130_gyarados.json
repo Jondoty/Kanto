@@ -240,6 +240,21 @@
                 "minLureLevel": 3,
                 "maxLureLevel": 3
             }
+        },
+
+        {
+            "id": "gyarados-17",
+            "pokemon": "gyarados",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 15.0,
+            "condition": {
+                "minX": 2483, "maxX": 2977, "minZ": -233, "maxZ": -155,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
         }
     ]
 }

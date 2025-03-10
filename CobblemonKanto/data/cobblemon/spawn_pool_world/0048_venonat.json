@@ -48,6 +48,54 @@
                 ],
                 "minX": 3593, "maxX": 3710, "minZ": -281, "maxZ": 168
             }
+        },
+
+        {
+            "id": "venonat-4",
+            "pokemon": "venonat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-26",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2978, "maxX": 3332, "minZ": -446, "maxZ": -350
+            }
+        },
+
+        {
+            "id": "venonat-5",
+            "pokemon": "venonat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-26",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2859, "maxX": 2977, "minZ": -446, "maxZ": -234
+            }
+        },
+
+        {
+            "id": "venonat-6",
+            "pokemon": "venonat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-26",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2483, "maxX": 2977, "minZ": -233, "maxZ": -155
+            }
         }
     ]
 }
