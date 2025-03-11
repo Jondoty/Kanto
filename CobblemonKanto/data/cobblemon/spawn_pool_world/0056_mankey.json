@@ -65,6 +65,33 @@
                 ],
                 "minX": 3236, "maxX": 3619, "minZ": 804, "maxZ": 947
             }
+        },
+
+        {
+            "id": "mankey-5",
+            "pokemon": "mankey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-17",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3176, "maxX": 3415, "minZ": 1598, "maxZ": 1807
+            }
+        },
+        {
+            "id": "mankey-6",
+            "pokemon": "mankey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-17",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3176, "maxX": 3415, "minZ": 1392, "maxZ": 1597
+            }
         }
     ]
 }

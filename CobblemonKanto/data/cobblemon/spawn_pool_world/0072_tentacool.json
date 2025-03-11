@@ -145,6 +145,70 @@
             "condition": {
                 "minX": 2483, "maxX": 2977, "minZ": -233, "maxZ": -155
             }
+        },
+
+        {
+            "id": "tentacool-10",
+            "pokemon": "tentacool",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "22-30",
+            "weight": 100.0,
+            "condition": {
+                "minX": 3373, "maxX": 3537, "minZ": -839, "maxZ": -490
+            }
+        },
+
+        {
+            "id": "tentacool-11",
+            "pokemon": "tentacool",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "22-30",
+            "weight": 100.0,
+            "condition": {
+                "minX": 3538, "maxX": 4097, "minZ": -839, "maxZ": -490
+            }
+        },
+
+        {
+            "id": "tentacool-12",
+            "pokemon": "tentacool",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "22-30",
+            "weight": 100.0,
+            "condition": {
+                "minX": 4098, "maxX": 4244, "minZ": -793, "maxZ": -654
+            }
+        },
+
+        {
+            "id": "tentacool-13",
+            "pokemon": "tentacool",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "17-28",
+            "weight": 100.0,
+            "condition": {
+                "minX": 4098, "maxX": 4227, "minZ": -653, "maxZ": -199
+            }
         }
     ]
 }

@@ -443,6 +443,164 @@
                 "minLureLevel": 3,
                 "maxLureLevel": 3
             }
+        },
+
+        {
+            "id": "slowpoke-30",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 1.0,
+            "condition": {
+                "minX": 3373, "maxX": 3537, "minZ": -839, "maxZ": -490,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "slowpoke-31",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 1.0,
+            "condition": {
+                "minX": 3538, "maxX": 4097, "minZ": -839, "maxZ": -490,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "slowpoke-32",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-33",
+            "weight": 28,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3712, "minY": 120, "maxY": 138, "minZ": 1641, "maxZ": 1774
+            }
+        },
+        {
+            "id": "slowpoke-33",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "29-31",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3712, "minY": 102, "maxY": 119, "minZ": 1641, "maxZ": 1774
+            }
+        },
+        {
+            "id": "slowpoke-34",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-32",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3712, "minY": 87, "maxY": 101, "minZ": 1641, "maxZ": 1774
+            }
+        },
+        {
+            "id": "slowpoke-35",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-32",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3712, "minY": 65, "maxY": 86, "minZ": 1641, "maxZ": 1774
+            }
+        },
+        {
+            "id": "slowpoke-36",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3712, "minY": 33, "maxY": 64, "minZ": 1641, "maxZ": 1774
+            }
+        },
+
+        {
+            "id": "slowpoke-37",
+            "pokemon": "slowpoke",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "30-40",
+            "weight": 4.0,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3712, "minY": 33, "maxY": 86, "minZ": 1641, "maxZ": 1774
+            }
+        },
+
+        {
+            "id": "slowpoke-38",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 4.0,
+            "condition": {
+                "minX": 3506, "maxX": 3712, "minY": 33, "maxY": 86, "minZ": 1641, "maxZ": 1774,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "slowpoke-39",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 1.0,
+            "condition": {
+                "minX": 4098, "maxX": 4244, "minZ": -793, "maxZ": -654,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "slowpoke-40",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 1.0,
+            "condition": {
+                "minX": 4098, "maxX": 4227, "minZ": -653, "maxZ": -199,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
         }
     ]
 }

@@ -56,6 +56,72 @@
                 "canSeeSky": false,
                 "minX": 2779, "maxX": 3015, "minY": 33, "maxY": 59, "minZ": 1845, "maxZ": 1994
             }
+        },
+
+        {
+            "id": "golbat-5",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-30",
+            "weight": 11,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3712, "minY": 120, "maxY": 138, "minZ": 1641, "maxZ": 1774
+            }
+        },
+        {
+            "id": "golbat-6",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-30",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3712, "minY": 102, "maxY": 119, "minZ": 1641, "maxZ": 1774
+            }
+        },
+        {
+            "id": "golbat-7",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-30",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3712, "minY": 87, "maxY": 101, "minZ": 1641, "maxZ": 1774
+            }
+        },
+        {
+            "id": "golbat-8",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-30",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3712, "minY": 65, "maxY": 86, "minZ": 1641, "maxZ": 1774
+            }
+        },
+        {
+            "id": "golbat-9",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-30",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3712, "minY": 33, "maxY": 64, "minZ": 1641, "maxZ": 1774
+            }
         }
     ]
 }

@@ -16,6 +16,66 @@
                 "minLureLevel": 3,
                 "maxLureLevel": 3
             }
+        },
+
+        {
+            "id": "seadra-2",
+            "pokemon": "seadra",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "25-35",
+            "weight": 4.0,
+            "condition": {
+                "minX": 3373, "maxX": 3537, "minZ": -839, "maxZ": -490,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "seadra-3",
+            "pokemon": "seadra",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "25-35",
+            "weight": 4.0,
+            "condition": {
+                "minX": 3538, "maxX": 4097, "minZ": -839, "maxZ": -490,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "seadra-4",
+            "pokemon": "seadra",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "25-35",
+            "weight": 4.0,
+            "condition": {
+                "minX": 4098, "maxX": 4244, "minZ": -793, "maxZ": -654,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "seadra-5",
+            "pokemon": "seadra",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "25-35",
+            "weight": 4.0,
+            "condition": {
+                "minX": 4098, "maxX": 4227, "minZ": -653, "maxZ": -199,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
         }
     ]
 }

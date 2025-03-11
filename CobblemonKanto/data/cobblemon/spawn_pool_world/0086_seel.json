@@ -4,83 +4,52 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "golduck-1",
-            "pokemon": "golduck",
-            "presets": [
-                "water"
-            ],
-            "type": "pokemon",
-            "context": "surface",
-            "bucket": "common",
-            "level": "30-55",
-            "weight": 17.0,
-            "condition": {
-                "minX": 2779, "maxX": 3015, "minY": 60, "maxY": 89, "minZ": 1845, "maxZ": 1994
-            }
-        },
-        {
-            "id": "golduck-2",
-            "pokemon": "golduck",
-            "presets": [
-                "water"
-            ],
-            "type": "pokemon",
-            "context": "surface",
-            "bucket": "common",
-            "level": "40-65",
-            "weight": 17.0,
-            "condition": {
-                "minX": 2779, "maxX": 3015, "minY": 33, "maxY": 59, "minZ": 1845, "maxZ": 1994
-            }
-        },
-
-        {
-            "id": "golduck-3",
-            "pokemon": "golduck",
+            "id": "seel-1",
+            "pokemon": "seel",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "33-35",
-            "weight": 5,
+            "level": "28",
+            "weight": 10,
             "condition": {
                 "canSeeSky": false,
                 "minX": 3506, "maxX": 3712, "minY": 102, "maxY": 119, "minZ": 1641, "maxZ": 1774
             }
         },
         {
-            "id": "golduck-4",
-            "pokemon": "golduck",
+            "id": "seel-2",
+            "pokemon": "seel",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "32-34",
-            "weight": 10,
+            "level": "30-32",
+            "weight": 20,
             "condition": {
                 "canSeeSky": false,
                 "minX": 3506, "maxX": 3712, "minY": 87, "maxY": 101, "minZ": 1641, "maxZ": 1774
             }
         },
         {
-            "id": "golduck-5",
-            "pokemon": "golduck",
+            "id": "seel-3",
+            "pokemon": "seel",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "32-34",
-            "weight": 7,
+            "level": "30-32",
+            "weight": 40,
             "condition": {
                 "canSeeSky": false,
                 "minX": 3506, "maxX": 3712, "minY": 65, "maxY": 86, "minZ": 1641, "maxZ": 1774
             }
         },
         {
-            "id": "golduck-5",
-            "pokemon": "golduck",
+            "id": "seel-4",
+            "pokemon": "seel",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "32-34",
-            "weight": 7,
+            "level": "30-34",
+            "weight": 50,
             "condition": {
                 "canSeeSky": false,
                 "minX": 3506, "maxX": 3712, "minY": 33, "maxY": 64, "minZ": 1641, "maxZ": 1774
@@ -88,16 +57,16 @@
         },
 
         {
-            "id": "golduck-6",
-            "pokemon": "golduck",
+            "id": "seel-5",
+            "pokemon": "seel",
             "presets": [
                 "water"
             ],
             "type": "pokemon",
             "context": "surface",
             "bucket": "common",
-            "level": "35-40",
-            "weight": 1.0,
+            "level": "25-35",
+            "weight": 60.0,
             "condition": {
                 "canSeeSky": false,
                 "minX": 3506, "maxX": 3712, "minY": 33, "maxY": 86, "minZ": 1641, "maxZ": 1774

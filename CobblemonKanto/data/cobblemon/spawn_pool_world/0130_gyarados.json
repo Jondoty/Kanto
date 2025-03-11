@@ -255,6 +255,81 @@
                 "minLureLevel": 3,
                 "maxLureLevel": 3
             }
+        },
+
+        {
+            "id": "gyarados-18",
+            "pokemon": "gyarados",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 15.0,
+            "condition": {
+                "minX": 3373, "maxX": 3537, "minZ": -839, "maxZ": -490,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "gyarados-19",
+            "pokemon": "gyarados",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 15.0,
+            "condition": {
+                "minX": 3538, "maxX": 4097, "minZ": -839, "maxZ": -490,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "gyarados-20",
+            "pokemon": "gyarados",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 16.0,
+            "condition": {
+                "minX": 3506, "maxX": 3712, "minY": 33, "maxY": 86, "minZ": 1641, "maxZ": 1774,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "gyarados-21",
+            "pokemon": "gyarados",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 15.0,
+            "condition": {
+                "minX": 4098, "maxX": 4244, "minZ": -793, "maxZ": -654,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "gyarados-22",
+            "pokemon": "gyarados",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 15.0,
+            "condition": {
+                "minX": 4098, "maxX": 4227, "minZ": -653, "maxZ": -199,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
         }
     ]
 }

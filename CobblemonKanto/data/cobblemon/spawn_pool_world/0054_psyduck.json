@@ -438,6 +438,165 @@
                 "minLureLevel": 3,
                 "maxLureLevel": 3
             }
+        },
+
+        {
+            "id": "psyduck-30",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 1.0,
+            "condition": {
+                "minX": 3373, "maxX": 3537, "minZ": -839, "maxZ": -490,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "psyduck-31",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 1.0,
+            "condition": {
+                "minX": 3538, "maxX": 4097, "minZ": -839, "maxZ": -490,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+
+        {
+            "id": "psyduck-32",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-33",
+            "weight": 28,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3712, "minY": 120, "maxY": 138, "minZ": 1641, "maxZ": 1774
+            }
+        },
+        {
+            "id": "psyduck-33",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "29-31",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3712, "minY": 102, "maxY": 119, "minZ": 1641, "maxZ": 1774
+            }
+        },
+        {
+            "id": "psyduck-34",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-32",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3712, "minY": 87, "maxY": 101, "minZ": 1641, "maxZ": 1774
+            }
+        },
+        {
+            "id": "psyduck-35",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-32",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3712, "minY": 65, "maxY": 86, "minZ": 1641, "maxZ": 1774
+            }
+        },
+        {
+            "id": "psyduck-36",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3712, "minY": 33, "maxY": 64, "minZ": 1641, "maxZ": 1774
+            }
+        },
+
+        {
+            "id": "psyduck-37",
+            "pokemon": "psyduck",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "30-40",
+            "weight": 4.0,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3506, "maxX": 3712, "minY": 33, "maxY": 86, "minZ": 1641, "maxZ": 1774
+            }
+        },
+
+        {
+            "id": "psyduck-38",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 4.0,
+            "condition": {
+                "minX": 3506, "maxX": 3712, "minY": 33, "maxY": 86, "minZ": 1641, "maxZ": 1774,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "psyduck-39",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 1.0,
+            "condition": {
+                "minX": 4098, "maxX": 4244, "minZ": -793, "maxZ": -654,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "psyduck-40",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 1.0,
+            "condition": {
+                "minX": 4098, "maxX": 4227, "minZ": -653, "maxZ": -199,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
         }
 
     ]

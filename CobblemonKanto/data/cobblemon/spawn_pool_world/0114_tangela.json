@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "tangela-1",
+            "pokemon": "tangela",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "17-28",
+            "weight": 100,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 4098, "maxX": 4227, "minZ": -653, "maxZ": -199
+            }
+        }
+    ]
+}
