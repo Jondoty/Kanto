@@ -65,6 +65,22 @@
                 ],
                 "minX": 2483, "maxX": 2977, "minZ": -233, "maxZ": -155
             }
+        },
+
+        {
+            "id": "weepinbell-5",
+            "pokemon": "weepinbell",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-38",
+            "weight": 7,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3224, "maxX": 3440, "minZ": -2169, "maxZ": -1982
+            }
         }
     ]
 }

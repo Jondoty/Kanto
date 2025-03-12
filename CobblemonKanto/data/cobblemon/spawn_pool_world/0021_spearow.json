@@ -161,6 +161,68 @@
                 ],
                 "minX": 2680, "maxX": 2975, "minZ": 30, "maxZ": 159
             }
+        },
+
+        {
+            "id": "spearow-11",
+            "pokemon": "spearow",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "31-32",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 4225, "maxX": 4372, "minZ": -2698, "maxZ": -2472
+            }
+        },
+        {
+            "id": "spearow-12",
+            "pokemon": "spearow",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-32",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 4083, "maxX": 4242, "minZ": -2471, "maxZ": -1714
+            }
+        },
+        {
+            "id": "spearow-13",
+            "pokemon": "spearow",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-32",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3996, "maxX": 4332, "minZ": -1713, "maxZ": -1292
+            }
+        },
+
+        {
+            "id": "spearow-14",
+            "pokemon": "spearow",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "31",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3224, "maxX": 3440, "minZ": -2169, "maxZ": -1982
+            }
         }
     ]
 }

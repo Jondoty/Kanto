@@ -205,6 +205,35 @@
                 "minLureLevel": 2,
                 "maxLureLevel": 2
             }
+        },
+
+        {
+            "id": "poliwag-15",
+            "pokemon": "poliwag",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 20.0,
+            "condition": {
+                "minX": 3224, "maxX": 3440, "minZ": -2169, "maxZ": -1982,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "poliwag-16",
+            "pokemon": "poliwag",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 40.0,
+            "condition": {
+                "minX": 3224, "maxX": 3440, "minZ": -2169, "maxZ": -1982,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
         }
     ]
 }

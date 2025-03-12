@@ -46,6 +46,21 @@
                 "minLureLevel": 3,
                 "maxLureLevel": 3
             }
+        },
+
+        {
+            "id": "staryu-4",
+            "pokemon": "staryu",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 20.0,
+            "condition": {
+                "minX": 4243, "maxX": 4372, "minZ": -2471, "maxZ": -2288,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
         }
     ]
 }

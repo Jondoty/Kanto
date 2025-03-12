@@ -102,6 +102,37 @@
                 "canSeeSky": false,
                 "minX": 3506, "maxX": 3712, "minY": 33, "maxY": 86, "minZ": 1641, "maxZ": 1774
             }
+        },
+
+        {
+            "id": "golduck-7",
+            "pokemon": "golduck",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "31",
+            "weight": 5.0,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3224, "maxX": 3440, "minZ": -2169, "maxZ": -1982
+            }
+        },
+        {
+            "id": "golduck-8",
+            "pokemon": "golduck",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "35-40",
+            "weight": 5.0,
+            "condition": {
+                "minX": 3224, "maxX": 3440, "minZ": -2169, "maxZ": -1982
+            }
         }
     ]
 }

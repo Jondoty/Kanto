@@ -49,6 +49,68 @@
                 ],
                 "minX": 3608, "maxX": 3870, "minZ": -489, "maxZ": -338
             }
+        },
+
+        {
+            "id": "fearow-4",
+            "pokemon": "fearow",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-40",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 4225, "maxX": 4372, "minZ": -2698, "maxZ": -2472
+            }
+        },
+        {
+            "id": "fearow-5",
+            "pokemon": "fearow",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 4083, "maxX": 4242, "minZ": -2471, "maxZ": -1714
+            }
+        },
+        {
+            "id": "fearow-6",
+            "pokemon": "fearow",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-40",
+            "weight": 25,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3996, "maxX": 4332, "minZ": -1713, "maxZ": -1292
+            }
+        },
+
+        {
+            "id": "fearow-7",
+            "pokemon": "fearow",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3224, "maxX": 3440, "minZ": -2169, "maxZ": -1982
+            }
         }
     ]
 }

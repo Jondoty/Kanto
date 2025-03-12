@@ -4,34 +4,34 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "tangela-1",
-            "pokemon": "tangela",
+            "id": "rapidash-1",
+            "pokemon": "rapidash",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "17-28",
-            "weight": 100,
+            "level": "37-40",
+            "weight": 5,
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
                 ],
-                "minX": 4098, "maxX": 4227, "minZ": -653, "maxZ": -199
+                "minX": 4083, "maxX": 4242, "minZ": -2471, "maxZ": -1714
             }
         },
 
         {
-            "id": "tangela-2",
-            "pokemon": "tangela",
+            "id": "rapidash-2",
+            "pokemon": "rapidash",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "33-35",
-            "weight": 30,
+            "level": "39-42",
+            "weight": 5,
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
                 ],
-                "minX": 4225, "maxX": 4372, "minZ": -2698, "maxZ": -2472
+                "minX": 3996, "maxX": 4332, "minZ": -1713, "maxZ": -1292
             }
         }
     ]

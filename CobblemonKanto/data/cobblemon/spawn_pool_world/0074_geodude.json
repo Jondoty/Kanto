@@ -69,6 +69,37 @@
                 "canSeeSky": false,
                 "minX": 3176, "maxX": 3415, "minZ": 1392, "maxZ": 1597
             }
+        },
+
+        {
+            "id": "geodude-6",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "31",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 4083, "maxX": 4242, "minZ": -2471, "maxZ": -1714
+            }
+        },
+        {
+            "id": "geodude-7",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "33",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3996, "maxX": 4332, "minZ": -1713, "maxZ": -1292
+            }
         }
     ]
 }

@@ -145,6 +145,22 @@
                 ],
                 "minX": 2483, "maxX": 2977, "minZ": -233, "maxZ": -155
             }
+        },
+
+        {
+            "id": "bellsprout-10",
+            "pokemon": "bellsprout",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-32",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3224, "maxX": 3440, "minZ": -2169, "maxZ": -1982
+            }
         }
     ]
 }

@@ -42,6 +42,22 @@
                 "canSeeSky": false,
                 "minX": 3176, "maxX": 3415, "minZ": 1598, "maxZ": 1807
             }
+        },
+
+        {
+            "id": "machop-4",
+            "pokemon": "machop",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "35",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3996, "maxX": 4332, "minZ": -1713, "maxZ": -1292
+            }
         }
     ]
 }
