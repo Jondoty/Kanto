@@ -106,6 +106,21 @@
                 "minLureLevel": 3,
                 "maxLureLevel": 3
             }
+        },
+
+        {
+            "id": "kingler-8",
+            "pokemon": "kingler",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "25-35",
+            "weight": 4.0,
+            "condition": {
+                "minX": 2896, "maxX": 3243, "minZ": -1551, "maxZ": -1433,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
         }
     ]
 }

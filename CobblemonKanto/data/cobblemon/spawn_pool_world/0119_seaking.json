@@ -31,6 +31,21 @@
                 "minLureLevel": 3,
                 "maxLureLevel": 3
             }
+        },
+
+        {
+            "id": "seaking-3",
+            "pokemon": "seaking",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "20-30",
+            "weight": 40.0,
+            "condition": {
+                "minX": 3244, "maxX": 3440, "minZ": -1551, "maxZ": -1287,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
         }
     ]
 }

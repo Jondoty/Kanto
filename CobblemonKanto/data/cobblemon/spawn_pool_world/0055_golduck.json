@@ -133,6 +133,38 @@
             "condition": {
                 "minX": 3224, "maxX": 3440, "minZ": -2169, "maxZ": -1982
             }
+        },
+
+        {
+            "id": "golduck-9",
+            "pokemon": "golduck",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "35-40",
+            "weight": 5.0,
+            "condition": {
+                "minX": 3244, "maxX": 3440, "minZ": -1551, "maxZ": -1287
+            }
+        },
+
+        {
+            "id": "golduck-10",
+            "pokemon": "golduck",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "35-40",
+            "weight": 5.0,
+            "condition": {
+                "minX": 3244, "maxX": 3440, "minZ": -1551, "maxZ": -1287
+            }
         }
     ]
 }

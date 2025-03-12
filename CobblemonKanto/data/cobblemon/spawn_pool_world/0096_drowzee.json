@@ -17,6 +17,22 @@
                 ],
                 "minX": 2680, "maxX": 2975, "minZ": 30, "maxZ": 159
             }
+        },
+
+        {
+            "id": "drowzee-2",
+            "pokemon": "drowzee",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "34",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3244, "maxX": 3440, "minZ": -1551, "maxZ": -1287
+            }
         }
     ]
 }

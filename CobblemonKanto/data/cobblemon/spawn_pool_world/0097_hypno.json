@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "hypno-1",
+            "pokemon": "hypno",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-40",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3244, "maxX": 3440, "minZ": -1551, "maxZ": -1287
+            }
+        }
+    ]
+}

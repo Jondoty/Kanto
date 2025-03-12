@@ -47,6 +47,22 @@
             "condition": {
                 "minX": 4083, "maxX": 4242, "minZ": -2471, "maxZ": -1714
             }
+        },
+
+        {
+            "id": "tentacruel-4",
+            "pokemon": "tentacruel",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "5-40",
+            "weight": 5.0,
+            "condition": {
+                "minX": 2896, "maxX": 3243, "minZ": -1551, "maxZ": -1433
+            }
         }
     ]
 }

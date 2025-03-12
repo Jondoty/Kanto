@@ -32,6 +32,22 @@
                 ],
                 "minX": 3593, "maxX": 3710, "minZ": -281, "maxZ": 168
             }
+        },
+
+        {
+            "id": "venomoth-3",
+            "pokemon": "venomoth",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-40",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3244, "maxX": 3440, "minZ": -1551, "maxZ": -1287
+            }
         }
     ]
 }

@@ -48,6 +48,22 @@
                 ],
                 "minX": 3224, "maxX": 3440, "minZ": -2169, "maxZ": -1982
             }
+        },
+
+        {
+            "id": "persian-4",
+            "pokemon": "persian",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-40",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2896, "maxX": 3243, "minZ": -1551, "maxZ": -1433
+            }
         }
     ]
 }

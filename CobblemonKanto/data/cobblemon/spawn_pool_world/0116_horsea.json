@@ -540,6 +540,35 @@
                 "minLureLevel": 3,
                 "maxLureLevel": 3
             }
+        },
+
+        {
+            "id": "horsea-38",
+            "pokemon": "horsea",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 40.0,
+            "condition": {
+                "minX": 2896, "maxX": 3243, "minZ": -1551, "maxZ": -1433,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "horsea-39",
+            "pokemon": "horsea",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 40.0,
+            "condition": {
+                "minX": 2896, "maxX": 3243, "minZ": -1551, "maxZ": -1433,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
         }
     ]
 }

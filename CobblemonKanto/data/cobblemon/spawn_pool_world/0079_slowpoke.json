@@ -724,6 +724,82 @@
                 "minLureLevel": 3,
                 "maxLureLevel": 3
             }
+        },
+
+        {
+            "id": "slowpoke-49",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "31",
+            "weight": 5.0,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2896, "maxX": 3243, "minZ": -1551, "maxZ": -1433
+            }
+        },
+        {
+            "id": "slowpoke-50",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 1.0,
+            "condition": {
+                "minX": 2896, "maxX": 3243, "minZ": -1551, "maxZ": -1433,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "slowpoke-51",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "31",
+            "weight": 5.0,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3244, "maxX": 3440, "minZ": -1551, "maxZ": -1287
+            }
+        },
+
+        {
+            "id": "slowpoke-52",
+            "pokemon": "slowpoke",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "5-40",
+            "weight": 45.0,
+            "condition": {
+                "minX": 3244, "maxX": 3440, "minZ": -1551, "maxZ": -1287
+            }
+        },
+        {
+            "id": "slowpoke-53",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 5.0,
+            "condition": {
+                "minX": 3244, "maxX": 3440, "minZ": -1551, "maxZ": -1287,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
         }
     ]
 }
