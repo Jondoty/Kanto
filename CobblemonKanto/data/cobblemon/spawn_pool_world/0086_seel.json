@@ -71,6 +71,64 @@
                 "canSeeSky": false,
                 "minX": 3506, "maxX": 3712, "minY": 33, "maxY": 86, "minZ": 1641, "maxZ": 1774
             }
+        },
+
+        {
+            "id": "seel-6",
+            "pokemon": "seel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "43-47",
+            "weight": 40.0,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3399, "maxX": 3540, "minY": 33, "maxY": 82, "minZ": 1874, "maxZ": 2026
+            }
+        },
+        {
+            "id": "seel-7",
+            "pokemon": "seel",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "5-35",
+            "weight": 60,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3399, "maxX": 3540, "minY": 33, "maxY": 82, "minZ": 1874, "maxZ": 2026
+            }
+        },
+
+        {
+            "id": "seel-8",
+            "pokemon": "seel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "45",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3399, "maxX": 3540, "minY": 107, "minZ": 1874, "maxZ": 2026
+            }
+        },
+
+        {
+            "id": "seel-9",
+            "pokemon": "seel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "43-47",
+            "weight": 40.0,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3399, "maxX": 3540, "minY": 83, "maxY": 107, "minZ": 1874, "maxZ": 2026
+            }
         }
     ]
 }

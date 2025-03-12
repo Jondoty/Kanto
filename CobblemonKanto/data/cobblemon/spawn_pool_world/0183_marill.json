@@ -1,0 +1,38 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "marill-1",
+            "pokemon": "marill",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "5-25",
+            "weight": 35.0,
+            "condition": {
+                "minX": 4155, "maxX": 4428, "minZ": -3426, "maxZ": -3154
+            }
+        },
+        {
+            "id": "marill-2",
+            "pokemon": "marill",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3399, "maxX": 3540, "minY": 33, "maxY": 82, "minZ": 1874, "maxZ": 2026
+            }
+        }
+    ]
+}

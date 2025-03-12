@@ -45,6 +45,49 @@
                 "canSeeSky": false,
                 "minX": 3506, "maxX": 3712, "minY": 33, "maxY": 86, "minZ": 1641, "maxZ": 1774
             }
+        },
+
+        {
+            "id": "dewgong-4",
+            "pokemon": "dewgong",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "49-53",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3399, "maxX": 3540, "minY": 33, "maxY": 82, "minZ": 1874, "maxZ": 2026
+            }
+        },
+        {
+            "id": "dewgong-5",
+            "pokemon": "dewgong",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "35-40",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3399, "maxX": 3540, "minY": 33, "maxY": 82, "minZ": 1874, "maxZ": 2026
+            }
+        },
+        {
+            "id": "dewgong-6",
+            "pokemon": "dewgong",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "49-53",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3399, "maxX": 3540, "minY": 83, "maxY": 107, "minZ": 1874, "maxZ": 2026
+            }
         }
     ]
 }

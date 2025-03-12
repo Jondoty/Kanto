@@ -193,6 +193,36 @@
                 "minLureLevel": 3,
                 "maxLureLevel": 3
             }
+        },
+
+        {
+            "id": "goldeen-14",
+            "pokemon": "goldeen",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 60.0,
+            "condition": {
+                "minX": 4155, "maxX": 4428, "minZ": -3426, "maxZ": -3154,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+
+        {
+            "id": "goldeen-15",
+            "pokemon": "goldeen",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 60.0,
+            "condition": {
+                "minX": 3399, "maxX": 3540, "minY": 33, "maxY": 82, "minZ": 1874, "maxZ": 2026,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
         }
     ]
 }

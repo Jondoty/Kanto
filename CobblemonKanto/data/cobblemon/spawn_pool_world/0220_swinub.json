@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "swinub-1",
+            "pokemon": "swinub",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-31",
+            "weight": 50.0,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3399, "maxX": 3540, "minY": 107, "minZ": 1874, "maxZ": 2026
+            }
+        }
+    ]
+}
