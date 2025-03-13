@@ -60,13 +60,13 @@ tp @a[x=4178,y=243,z=1142,dy=4,tag=FlyVermilion] 3142 35 160 180 0
 tp @a[x=4178,y=243,z=1144,dy=4,tag=FlySaffron] 3151 35 432 180 0
 tp @a[x=4178,y=243,z=1146,dy=4,tag=FlyCerulean] 3112 35 881 180 0
 tp @a[x=4174,y=243,z=1144,dy=4,tag=FlyLavender] 2603 35 511 180 0
-tp @a[x=4185,y=243,z=1130,dy=4,tag=FlyOne]
-tp @a[x=4180,y=243,z=1130,dy=4,tag=FlyTwo]
-tp @a[x=4174,y=243,z=1129,dy=4,tag=FlyThree]
-tp @a[x=4184,y=243,z=1126,dy=4,tag=FlyFour]
-tp @a[x=4175,y=243,z=1122,dy=4,tag=FlyFive]
-tp @a[x=4177,y=243,z=1118,dy=4,tag=FlySix]
-tp @a[x=4185,y=243,z=1119,dy=4,tag=FlySeven]
+tp @a[x=4185,y=243,z=1130,dy=4,tag=FlyOne] 4296 44 -2365 180 0
+tp @a[x=4180,y=243,z=1130,dy=4,tag=FlyTwo] 3426 40 -2206 180 0
+tp @a[x=4174,y=243,z=1129,dy=4,tag=FlyThree] 2825 40 -1562 180 0
+tp @a[x=4184,y=243,z=1126,dy=4,tag=FlyFour] 4330 40 -3323 180 0
+tp @a[x=4175,y=243,z=1122,dy=4,tag=FlyFive] 3156 40 -2991 180 0
+tp @a[x=4177,y=243,z=1118,dy=4,tag=FlySix] 2836 40 -4327 180 0
+tp @a[x=4185,y=243,z=1119,dy=4,tag=FlySeven] 4226 40 -4117 180 0
 
 
 #Sets carpets to what player can fly to

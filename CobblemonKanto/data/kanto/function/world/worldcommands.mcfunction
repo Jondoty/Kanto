@@ -22,28 +22,21 @@ execute as @a run function kanto:world/caveportals
 
 
 #------------------------------------------------------------------------------
+#HMs
 
 #Runs if player can fly
-execute as @a[scores={Fly=1..}] run function kanto:hms/fly
+execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"HM02: Fly"}],"text":""}'}}}] run scoreboard players set @s Fly 1
+execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"HM02: Fly"}],"text":""}'}}}] run function kanto:hms/fly
+execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"HM02: Fly"}],"text":""}'}}}] run scoreboard players set @s Click 0
 
 #Fly Map updating
 execute as @a[x=4181,y=243,z=1134,distance=..40] run function kanto:hms/flymap
 
-
-
-
-
-
-
-#------------------------------------------------------------------------------
-
 #Activates Flash
-
-effect give @a[scores={Flash=1..}] minecraft:night_vision 900 1 true
-tellraw @a[scores={Flash=1..}] ["",{"selector":"@s"},{"text":" used Flash!"}]
-execute as @a[scores={Flash=1..}] run function kanto:spawn/flashhm
-scoreboard players remove @a[scores={Flash=1..}] Flash 1
-
+execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"HM05: Flash"}],"text":""}'}}}] run tellraw @s {"text":"You used Flash!","italic":true,"color":"gray"} 
+execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"HM05: Flash"}],"text":""}'}}}] run effect give @s minecraft:night_vision 900 1 true
+execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"HM05: Flash"}],"text":""}'}}}] run playsound minecraft:entity.firework_rocket.launch ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"HM05: Flash"}],"text":""}'}}}] run scoreboard players set @s Click 0
 
 
 #------------------------------------------------------------------------------
