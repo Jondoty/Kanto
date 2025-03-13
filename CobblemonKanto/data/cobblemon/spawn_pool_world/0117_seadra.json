@@ -225,6 +225,21 @@
                 "minLureLevel": 3,
                 "maxLureLevel": 3
             }
+        },
+
+        {
+            "id": "seadra-14",
+            "pokemon": "seadra",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "25-35",
+            "weight": 4.0,
+            "condition": {
+                "minX": 2627, "maxX": 3165, "minZ": -4534, "maxZ": -3665,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
         }
     ]
 }

@@ -112,6 +112,22 @@
                 ],
                 "minX": 3244, "maxX": 3440, "minZ": -1551, "maxZ": -1287
             }
+        },
+
+        {
+            "id": "gloom-8",
+            "pokemon": "gloom",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "48",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2627, "maxX": 2772, "minZ": -4610, "maxZ": -4049
+            }
         }
     ]
 }

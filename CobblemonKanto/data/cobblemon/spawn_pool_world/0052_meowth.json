@@ -144,6 +144,38 @@
                 ],
                 "minX": 3012, "maxX": 3115, "minZ": -3159, "maxZ": -2941
             }
+        },
+
+        {
+            "id": "meowth-10",
+            "pokemon": "meowth",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "43",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2773, "maxX": 3034, "minZ": -4696, "maxZ": -4446
+            }
+        },
+
+        {
+            "id": "meowth-11",
+            "pokemon": "meowth",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "41",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2627, "maxX": 2772, "minZ": -4610, "maxZ": -4049
+            }
         }
     ]
 }

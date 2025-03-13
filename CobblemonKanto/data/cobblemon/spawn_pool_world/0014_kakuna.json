@@ -49,6 +49,22 @@
                 ],
                 "minX": 2725, "maxX": 3170, "minZ": 1099, "maxZ": 1190
             }
+        },
+
+        {
+            "id": "kakuna-4",
+            "pokemon": "kakuna",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "9",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2803, "maxX": 2912, "minZ": -4122, "maxZ": -4049
+            }
         }
     ]
 }

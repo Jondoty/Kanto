@@ -164,6 +164,20 @@
                 "canSeeSky": false,
                 "minX": 3399, "maxX": 3540, "minY": 83, "maxY": 107, "minZ": 1874, "maxZ": 2026
             }
+        },
+
+        {
+            "id": "zubat-13",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-16",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3129, "maxX": 3304, "minZ": 1912, "maxZ": 2041
+            }
         }
     ]
 }

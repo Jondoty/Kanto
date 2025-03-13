@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "spinarak-1",
+            "pokemon": "spinarak",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "9-14",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2803, "maxX": 2912, "minZ": -4122, "maxZ": -4049
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "pineco-1",
+            "pokemon": "pineco",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-29",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3129, "maxX": 3304, "minZ": 1912, "maxZ": 2041
+            }
+        }
+    ]
+}

@@ -973,7 +973,70 @@
                 "minLureLevel": 3,
                 "maxLureLevel": 3
             }
+        },
+
+        {
+            "id": "psyduck-65",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "41",
+            "weight": 5.0,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2773, "maxX": 3034, "minZ": -4696, "maxZ": -4446
+            }
+        },
+
+        {
+            "id": "psyduck-66",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 5.0,
+            "condition": {
+                "minX": 2773, "maxX": 3034, "minZ": -4696, "maxZ": -4446,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "psyduck-67",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "41",
+            "weight": 5.0,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2627, "maxX": 2772, "minZ": -4610, "maxZ": -4049
+            }
+        },
+
+        {
+            "id": "psyduck-68",
+            "pokemon": "psyduck",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 1.0,
+            "condition": {
+                "minX": 2627, "maxX": 3165, "minZ": -4534, "maxZ": -3665,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
         }
+        
 
 
     ]

@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "mareep-1",
+            "pokemon": "mareep",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-13",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3129, "maxX": 3304, "minZ": 1912, "maxZ": 2041
+            }
+        }
+    ]
+}

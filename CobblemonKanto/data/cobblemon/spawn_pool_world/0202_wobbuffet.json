@@ -41,6 +41,22 @@
                 "canSeeSky": false,
                 "minX": 2779, "maxX": 3015, "minY": 33, "maxY": 59, "minZ": 1845, "maxZ": 1994
             }
+        },
+
+        {
+            "id": "wobbuffet-4",
+            "pokemon": "wobbuffet",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 5.0,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2773, "maxX": 3034, "minZ": -4696, "maxZ": -4446
+            }
         }
     ]
 }

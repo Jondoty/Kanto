@@ -192,6 +192,22 @@
                 ],
                 "minX": 2896, "maxX": 3243, "minZ": -1551, "maxZ": -1433
             }
+        },
+
+        {
+            "id": "oddish-13",
+            "pokemon": "oddish",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "44",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2627, "maxX": 2772, "minZ": -4610, "maxZ": -4049
+            }
         }
     ]
 }

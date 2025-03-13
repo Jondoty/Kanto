@@ -33,6 +33,38 @@
                 "canSeeSky": false,
                 "minX": 3399, "maxX": 3540, "minY": 33, "maxY": 82, "minZ": 1874, "maxZ": 2026
             }
+        },
+
+        {
+            "id": "marill-3",
+            "pokemon": "marill",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "15",
+            "weight": 10.0,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2773, "maxX": 3034, "minZ": -4696, "maxZ": -4446
+            }
+        },
+
+        {
+            "id": "marill-4",
+            "pokemon": "marill",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "5-25",
+            "weight": 50.0,
+            "condition": {
+                "minX": 2773, "maxX": 3034, "minZ": -4696, "maxZ": -4446
+            }
         }
     ]
 }
