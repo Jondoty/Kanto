@@ -86,6 +86,11 @@ playsound viridianforest record @s[x=4147,y=0,z=437,dx=144,dy=256,dz=163,scores=
 scoreboard players set @s[x=4147,y=0,z=437,dx=144,dy=256,dz=163,scores={MusicCooldown=0}] MusicCooldown 227
 
 
+#Pattern Bush (within Green Path)
+playsound viridianforest record @s[x=2803,y=0,z=-4122,dx=109,dy=256,dz=73,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2803,y=0,z=-4122,dx=109,dy=256,dz=73,scores={MusicCooldown=0}] MusicCooldown 227
+
+
 #Pokemon Centers
 #/summon armor_stand ~ ~3 ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:"PokemonCenter",DisabledSlots:2039583}
 execute at @e[type=armor_stand,name=PokemonCenter] run playsound pokemoncenter record @a[distance=..11,tag=!RadioOff,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
@@ -263,6 +268,129 @@ scoreboard players set @s[x=2750,y=0,z=1394,dx=320,dy=256,dz=290,scores={MusicCo
 #Rock Tunnel
 playsound mtmoon record @s[x=3176,y=0,z=1392,dx=239,dy=256,dz=415,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=3176,y=0,z=1392,dx=239,dy=256,dz=415,scores={MusicCooldown=0}] MusicCooldown 224
+
+#Berry Forest
+playsound viridianforest record @s[x=3244,y=0,z=-1551,dx=196,dy=256,dz=264,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3244,y=0,z=-1551,dx=196,dy=256,dz=264,scores={MusicCooldown=0}] MusicCooldown 224
+
+#Birth Island (Silence)
+scoreboard players set @s[x=3610,y=0,z=-3726,dx=226,dy=256,dz=210,scores={MusicCooldown=0}] MusicCooldown 60
+
+#Bond Bridge
+playsound route4 record @s[x=2896,y=0,z=-1551,dx=347,dy=256,dz=118,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2896,y=0,z=-1551,dx=347,dy=256,dz=118,scores={MusicCooldown=0}] MusicCooldown 99
+
+#Canyon Entrance
+playsound seviiislands record @s[x=4178,y=0,z=-4377,dx=130,dy=256,dz=177,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4178,y=0,z=-4377,dx=130,dy=256,dz=177,scores={MusicCooldown=0}] MusicCooldown 147
+
+#Cape Brink
+playsound route4 record @s[x=3224,y=0,z=-2169,dx=216,dy=256,dz=187,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3224,y=0,z=-2169,dx=216,dy=256,dz=187,scores={MusicCooldown=0}] MusicCooldown 99
+
+#Five Island (town)
+playsound fourfiveislands record @s[x=3116,y=0,z=-3067,dx=128,dy=256,dz=108,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3116,y=0,z=-3067,dx=128,dy=256,dz=108,scores={MusicCooldown=0}] MusicCooldown 144
+
+#Five Isle Meadow
+playsound seviiislands record @s[x=3012,y=0,z=-3159,dx=103,dy=256,dz=218,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3012,y=0,z=-3159,dx=103,dy=256,dz=218,scores={MusicCooldown=0}] MusicCooldown 147
+
+#Five Isle Meadow (Small part)
+playsound seviiislands record @s[x=3116,y=0,z=-3159,dx=32,dy=256,dz=91,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3116,y=0,z=-3159,dx=32,dy=256,dz=91,scores={MusicCooldown=0}] MusicCooldown 147
+
+#Four Island (town)
+playsound fourfiveislands record @s[x=4155,y=0,z=-3426,dx=243,dy=256,dz=272,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4155,y=0,z=-3426,dx=243,dy=256,dz=272,scores={MusicCooldown=0}] MusicCooldown 144
+
+#Green Path
+playsound seviiislands record @s[x=2773,y=0,z=-4178,dx=369,dy=256,dz=129,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2773,y=0,z=-4178,dx=369,dy=256,dz=129,scores={MusicCooldown=0}] MusicCooldown 147
+
+#Icefall Cave
+playsound mtmoon record @s[x=3399,y=33,z=1874,dx=141,dy=107,dz=152,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3399,y=33,z=1874,dx=141,dy=107,dz=152,scores={MusicCooldown=0}] MusicCooldown 224
+
+#Kindle Road
+playsound route4 record @s[x=4083,y=0,z=-2471,dx=159,dy=256,dz=757,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4083,y=0,z=-2471,dx=159,dy=256,dz=757,scores={MusicCooldown=0}] MusicCooldown 99
+
+#Memorial Pillar
+playsound seviiislands record @s[x=2881,y=0,z=-3357,dx=130,dy=256,dz=325,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2881,y=0,z=-3357,dx=130,dy=256,dz=325,scores={MusicCooldown=0}] MusicCooldown 147
+
+#Memorial Pillar (water but no grass)
+playsound seviiislands record @s[x=3012,y=0,z=-3357,dx=54,dy=256,dz=187,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3012,y=0,z=-3357,dx=54,dy=256,dz=187,scores={MusicCooldown=0}] MusicCooldown 147
+
+#Mt. Ember (Exterior)
+playsound mtmoon record @s[x=3996,y=0,z=-1713,dx=336,dy=256,dz=421,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3996,y=0,z=-1713,dx=336,dy=256,dz=421,scores={MusicCooldown=0}] MusicCooldown 224
+
+#One Island (town)
+playsound pewtercity record @s[x=4243,y=0,z=-2471,dx=129,dy=256,dz=183,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4243,y=0,z=-2471,dx=129,dy=256,dz=183,scores={MusicCooldown=0}] MusicCooldown 173
+
+#Outcast Island
+playsound seviiislands record @s[x=2996,y=0,z=-4048,dx=169,dy=256,dz=383,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2996,y=0,z=-4048,dx=169,dy=256,dz=383,scores={MusicCooldown=0}] MusicCooldown 147
+
+#Resort Gorgeous
+playsound seviiislands record @s[x=2838,y=0,z=-2855,dx=409,dy=256,dz=116,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2838,y=0,z=-2855,dx=409,dy=256,dz=116,scores={MusicCooldown=0}] MusicCooldown 147
+
+#Resort Gorgeous (small bit no spawns)
+playsound seviiislands record @s[x=2838,y=0,z=-2898,dx=277,dy=256,dz=42,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2838,y=0,z=-2898,dx=277,dy=256,dz=42,scores={MusicCooldown=0}] MusicCooldown 147
+
+#Ruin Valley
+playsound seviiislands record @s[x=2773,y=0,z=-4696,dx=261,dy=256,dz=250,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2773,y=0,z=-4696,dx=261,dy=256,dz=250,scores={MusicCooldown=0}] MusicCooldown 147
+
+#Sevault Canyon
+playsound seviiislands record @s[x=4041,y=0,z=-4606,dx=136,dy=256,dz=406,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4041,y=0,z=-4606,dx=136,dy=256,dz=406,scores={MusicCooldown=0}] MusicCooldown 147
+
+#Seven Island (town)
+playsound sixsevenislands record @s[x=4131,y=0,z=-4199,dx=203,dy=256,dz=112,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4131,y=0,z=-4199,dx=203,dy=256,dz=112,scores={MusicCooldown=0}] MusicCooldown 155
+
+#Six Island (town)
+playsound sixsevenislands record @s[x=2773,y=0,z=-4445,dx=169,dy=256,dz=186,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2773,y=0,z=-4445,dx=169,dy=256,dz=186,scores={MusicCooldown=0}] MusicCooldown 155
+
+#Tanoby Ruins (exterior)
+playsound seviiislands record @s[x=3735,y=0,z=-4767,dx=688,dy=256,dz=160,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3735,y=0,z=-4767,dx=688,dy=256,dz=160,scores={MusicCooldown=0}] MusicCooldown 147
+
+#Three Island (town)
+playsound pewtercity record @s[x=2714,y=0,z=-1614,dx=181,dy=256,dz=181,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2714,y=0,z=-1614,dx=181,dy=256,dz=181,scores={MusicCooldown=0}] MusicCooldown 173
+
+#Three Isle Port
+playsound route4 record @s[x=2673,y=0,z=-1728,dx=222,dy=256,dz=113,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2673,y=0,z=-1728,dx=222,dy=256,dz=113,scores={MusicCooldown=0}] MusicCooldown 99
+
+#Trainer Tower Exterior
+playsound seviiislands record @s[x=4131,y=0,z=-4086,dx=203,dy=256,dz=210,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4131,y=0,z=-4086,dx=203,dy=256,dz=210,scores={MusicCooldown=0}] MusicCooldown 147
+
+#Treasure Beach
+playsound route4 record @s[x=4225,y=0,z=-2698,dx=147,dy=256,dz=226,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4225,y=0,z=-2698,dx=147,dy=256,dz=226,scores={MusicCooldown=0}] MusicCooldown 99
+
+#Two Island (town)
+playsound pewtercity record @s[x=3224,y=0,z=-2292,dx=327,dy=256,dz=122,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3224,y=0,z=-2292,dx=327,dy=256,dz=122,scores={MusicCooldown=0}] MusicCooldown 173
+
+#Water Labyrinth
+playsound seviiislands record @s[x=3116,y=0,z=-2960,dx=337,dy=256,dz=104,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3116,y=0,z=-2960,dx=337,dy=256,dz=104,scores={MusicCooldown=0}] MusicCooldown 147
+
+#Water Path
+playsound seviiislands record @s[x=2627,y=0,z=-4610,dx=145,dy=256,dz=562,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2627,y=0,z=-4610,dx=145,dy=256,dz=562,scores={MusicCooldown=0}] MusicCooldown 147
 
 
 #---------------------------------------------------------------------------------------------
