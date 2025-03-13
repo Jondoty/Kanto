@@ -112,6 +112,37 @@
                 ],
                 "minX": 2627, "maxX": 2772, "minZ": -4610, "maxZ": -4049
             }
+        },
+
+        {
+            "id": "persian-7",
+            "pokemon": "persian",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "47-50",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 4041, "maxX": 4177, "minZ": -4606, "maxZ": -4200
+            }
+        },
+        {
+            "id": "persian-8",
+            "pokemon": "persian",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "47-50",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 4178, "maxX": 4308, "minZ": -4377, "maxZ": -4200
+            }
         }
     ]
 }

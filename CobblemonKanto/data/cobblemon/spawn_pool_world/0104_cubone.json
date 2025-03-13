@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "cubone-1",
+            "pokemon": "cubone",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "46",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 4041, "maxX": 4177, "minZ": -4606, "maxZ": -4200
+            }
+        }
+    ]
+}

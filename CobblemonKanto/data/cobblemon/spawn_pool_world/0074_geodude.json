@@ -100,6 +100,22 @@
                 ],
                 "minX": 3996, "maxX": 4332, "minZ": -1713, "maxZ": -1292
             }
+        },
+
+        {
+            "id": "geodude-8",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "46",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 4041, "maxX": 4177, "minZ": -4606, "maxZ": -4200
+            }
         }
     ]
 }

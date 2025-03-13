@@ -381,6 +381,22 @@
             "condition": {
                 "minX": 2627, "maxX": 3165, "minZ": -4534, "maxZ": -3665
             }
+        },
+
+        {
+            "id": "tentacool-25",
+            "pokemon": "tentacool",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "5-40",
+            "weight": 90.0,
+            "condition": {
+                "minX": 3735, "maxX": 4415, "minZ": -4767, "maxZ": -3851
+            }
         }
     ]
 }

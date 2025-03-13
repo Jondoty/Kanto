@@ -4,32 +4,34 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "marowak-1",
-            "pokemon": "marowak",
+            "id": "phanpy-1",
+            "pokemon": "phanpy",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "44-48",
-            "weight": 5,
-            "condition": {
-                "canSeeSky": false,
-                "minX": 3506, "maxX": 3831, "minZ": 1393, "maxZ": 1573
-            }
-        },
-
-        {
-            "id": "marowak-2",
-            "pokemon": "marowak",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "52",
-            "weight": 10,
+            "level": "15",
+            "weight": 20,
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
                 ],
                 "minX": 4041, "maxX": 4177, "minZ": -4606, "maxZ": -4200
+            }
+        },
+
+        {
+            "id": "phanpy-2",
+            "pokemon": "phanpy",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-15",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 4178, "maxX": 4308, "minZ": -4377, "maxZ": -4200
             }
         }
     ]

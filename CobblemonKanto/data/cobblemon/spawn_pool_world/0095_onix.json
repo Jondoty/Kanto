@@ -68,6 +68,22 @@
                 "canSeeSky": false,
                 "minX": 3176, "maxX": 3415, "minZ": 1392, "maxZ": 1597
             }
+        },
+
+        {
+            "id": "onix-6",
+            "pokemon": "onix",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "54",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 4041, "maxX": 4177, "minZ": -4606, "maxZ": -4200
+            }
         }
     ]
 }
