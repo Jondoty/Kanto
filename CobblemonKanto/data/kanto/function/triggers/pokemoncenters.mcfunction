@@ -11,12 +11,12 @@ tag @a[x=3151,y=35,z=447,distance=..11,tag=!FlySaffron] add FlySaffron
 tag @a[x=3112,y=35,z=896,distance=..11,tag=!FlyCerulean] add FlyCerulean
 tag @a[x=2603,y=35,z=526,distance=..11,tag=!FlyLavender] add FlyLavender
 #tag @a[x=4123,y=35,z=-747,distance=..10,tag=!FlyOne] add FlyOne
-#tag @a[x=4123,y=35,z=-747,distance=..10,tag=!FlyTwo] add FlyTwo
-#tag @a[x=4123,y=35,z=-747,distance=..10,tag=!FlyThree] add FlyThree
-#tag @a[x=4123,y=35,z=-747,distance=..10,tag=!FlyFour] add FlyFour
-#tag @a[x=4123,y=35,z=-747,distance=..10,tag=!FlyFive] add FlyFive
-#tag @a[x=4123,y=35,z=-747,distance=..10,tag=!FlySix] add FlySix
-#tag @a[x=4123,y=35,z=-747,distance=..10,tag=!FlySeven] add FlySeven
+tag @a[x=3426,y=40,z=-2193,distance=..11,tag=!FlyTwo] add FlyTwo
+tag @a[x=2825,y=40,z=-1549,distance=..11,tag=!FlyThree] add FlyThree
+tag @a[x=4330,y=40,z=-3310,distance=..11,tag=!FlyFour] add FlyFour
+tag @a[x=3156,y=40,z=-2978,distance=..11,tag=!FlyFive] add FlyFive
+tag @a[x=2836,y=40,z=-4314,distance=..11,tag=!FlySix] add FlySix
+tag @a[x=4226,y=40,z=-4104,distance=..11,tag=!FlySeven] add FlySeven
 
 
 
@@ -38,13 +38,13 @@ spawnpoint @a[x=2568,y=35,z=845,distance=..11,tag=!RockTunnel] 2568 35 831
 spawnpoint @a[x=3690,y=35,z=919,distance=..11,tag=!MtMoon] 3690 35 904
 
 
-#spawnpoint @a[x=4123,y=35,z=-747,distance=..10,tag=FlyOne]
-#spawnpoint @a[x=4123,y=35,z=-747,distance=..10,tag=FlyTwo]
-#spawnpoint @a[x=4123,y=35,z=-747,distance=..10,tag=FlyThree]
-#spawnpoint @a[x=4123,y=35,z=-747,distance=..10,tag=FlyFour]
-#spawnpoint @a[x=4123,y=35,z=-747,distance=..10,tag=FlyFive]
-#spawnpoint @a[x=4123,y=35,z=-747,distance=..10,tag=FlySix]
-#spawnpoint @a[x=4123,y=35,z=-747,distance=..10,tag=FlySeven]
+#spawnpoint @a[x=4123,y=35,z=-747,distance=..11,tag=FlyOne] 4296 44 -2365
+spawnpoint @a[x=3426,y=40,z=-2193,distance=..11,tag=FlyTwo] 3426 40 -2206
+spawnpoint @a[x=2825,y=40,z=-1549,distance=..11,tag=FlyThree] 2825 40 -1562
+spawnpoint @a[x=4330,y=40,z=-3310,distance=..11,tag=FlyFour] 4330 40 -3323
+spawnpoint @a[x=3156,y=40,z=-2978,distance=..11,tag=FlyFive] 3156 40 -2991
+spawnpoint @a[x=2836,y=40,z=-4314,distance=..11,tag=FlySix] 2836 40 -4327
+spawnpoint @a[x=4226,y=40,z=-4104,distance=..11,tag=FlySeven] 4226 40 -4117
 
 
 

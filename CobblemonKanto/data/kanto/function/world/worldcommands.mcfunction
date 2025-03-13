@@ -13,8 +13,8 @@ execute as @a[x=3870,y=40,z=1195,dx=2,dy=2,dz=2] run function kanto:triggers/sta
 execute as @a[scores={Relog=1..}] run function kanto:triggers/relog
 
 
-#Runs when player is near/within a Pokemon Center
-execute at @e[type=armor_stand,name=PokemonCenter] as @a[distance=..15] run function kanto:triggers/pokemoncenters
+#Gives player Pokemon Center commands, fly map tags and spawnpoints
+function kanto:triggers/pokemoncenters
 
 
 #Runs Cave warps
