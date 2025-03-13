@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='["",{"text":"Radio","italic":false,"color":"aqua"}]',lore=['["",{"text":"An item to play music to the user!","italic":false,"color":"yellow"}]','["",{"text":"Right click twice to toggle music,","italic":false,"color":"yellow"}]','["",{"text":"single click to refresh song.","italic":false,"color":"yellow"}]']]

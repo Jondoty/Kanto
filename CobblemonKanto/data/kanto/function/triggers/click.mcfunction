@@ -1,16 +1,16 @@
 #Detects which item the player is holding
 
 #Regular Radio
-tag @s[nbt={Inventory:[{Slot:-106b,tag:{display:{Name:"Radio"}}}]}] add RadioHold
-tag @s[nbt={SelectedItemSlot:0,Inventory:[{Slot:0b,tag:{display:{Name:"Radio"}}}]}] add RadioHold
-tag @s[nbt={SelectedItemSlot:1,Inventory:[{Slot:1b,tag:{display:{Name:"Radio"}}}]}] add RadioHold
-tag @s[nbt={SelectedItemSlot:2,Inventory:[{Slot:2b,tag:{display:{Name:"Radio"}}}]}] add RadioHold
-tag @s[nbt={SelectedItemSlot:3,Inventory:[{Slot:3b,tag:{display:{Name:"Radio"}}}]}] add RadioHold
-tag @s[nbt={SelectedItemSlot:4,Inventory:[{Slot:4b,tag:{display:{Name:"Radio"}}}]}] add RadioHold
-tag @s[nbt={SelectedItemSlot:5,Inventory:[{Slot:5b,tag:{display:{Name:"Radio"}}}]}] add RadioHold
-tag @s[nbt={SelectedItemSlot:6,Inventory:[{Slot:6b,tag:{display:{Name:"Radio"}}}]}] add RadioHold
-tag @s[nbt={SelectedItemSlot:7,Inventory:[{Slot:7b,tag:{display:{Name:"Radio"}}}]}] add RadioHold
-tag @s[nbt={SelectedItemSlot:8,Inventory:[{Slot:8b,tag:{display:{Name:"Radio"}}}]}] add RadioHold
+tag @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Radio"}],"text":""}'}}]}] add RadioHold
+tag @s[nbt={SelectedItemSlot:0,Inventory:[{Slot:0b,components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Radio"}],"text":""}'}}]}] add RadioHold
+tag @s[nbt={SelectedItemSlot:1,Inventory:[{Slot:1b,components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Radio"}],"text":""}'}}]}] add RadioHold
+tag @s[nbt={SelectedItemSlot:2,Inventory:[{Slot:2b,components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Radio"}],"text":""}'}}]}] add RadioHold
+tag @s[nbt={SelectedItemSlot:3,Inventory:[{Slot:3b,components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Radio"}],"text":""}'}}]}] add RadioHold
+tag @s[nbt={SelectedItemSlot:4,Inventory:[{Slot:4b,components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Radio"}],"text":""}'}}]}] add RadioHold
+tag @s[nbt={SelectedItemSlot:5,Inventory:[{Slot:5b,components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Radio"}],"text":""}'}}]}] add RadioHold
+tag @s[nbt={SelectedItemSlot:6,Inventory:[{Slot:6b,components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Radio"}],"text":""}'}}]}] add RadioHold
+tag @s[nbt={SelectedItemSlot:7,Inventory:[{Slot:7b,components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Radio"}],"text":""}'}}]}] add RadioHold
+tag @s[nbt={SelectedItemSlot:8,Inventory:[{Slot:8b,components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Radio"}],"text":""}'}}]}] add RadioHold
 
 
 
