@@ -392,6 +392,9 @@ scoreboard players set @s[x=3116,y=0,z=-2960,dx=337,dy=256,dz=104,scores={MusicC
 playsound seviiislands record @s[x=2627,y=0,z=-4610,dx=145,dy=256,dz=562,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=2627,y=0,z=-4610,dx=145,dy=256,dz=562,scores={MusicCooldown=0}] MusicCooldown 147
 
+#Gyms (All)
+playsound gym record @s[x=4315,y=0,z=1331,dx=397,dy=100,dz=243,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4315,y=0,z=1331,dx=397,dy=100,dz=243,scores={MusicCooldown=0}] MusicCooldown 103
 
 #---------------------------------------------------------------------------------------------
 
