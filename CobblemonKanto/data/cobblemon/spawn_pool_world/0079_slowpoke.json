@@ -906,6 +906,96 @@
                 "minLureLevel": 3,
                 "maxLureLevel": 3
             }
+        },
+
+        {
+            "id": "slowpoke-61",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 1.0,
+            "condition": {
+                "minX": 3116, "maxX": 3244, "minZ": -3067, "maxZ": -2961,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "slowpoke-62",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 1.0,
+            "condition": {
+                "minX": 2836, "maxX": 3453, "minZ": -2960, "maxZ": -2739,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "slowpoke-63",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "41",
+            "weight": 5.0,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3012, "maxX": 3115, "minZ": -3159, "maxZ": -2941
+            }
+        },
+
+        {
+            "id": "slowpoke-64",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 1.0,
+            "condition": {
+                "minX": 3012, "maxX": 3115, "minZ": -3159, "maxZ": -2941,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "slowpoke-65",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 1.0,
+            "condition": {
+                "minX": 2881, "maxX": 3011, "minZ": -3357, "maxZ": -3032,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+        {
+            "id": "slowpoke-66",
+            "pokemon": "slowpoke",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-35",
+            "weight": 1.0,
+            "condition": {
+                "minX": 3012, "maxX": 3066, "minZ": -3357, "maxZ": -3160,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
         }
     ]
 }

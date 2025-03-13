@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sentret-1",
+            "pokemon": "sentret",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-15",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3012, "maxX": 3115, "minZ": -3159, "maxZ": -2941
+            }
+        }
+    ]
+}

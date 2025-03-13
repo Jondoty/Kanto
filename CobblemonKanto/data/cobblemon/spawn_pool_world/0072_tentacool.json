@@ -288,6 +288,83 @@
                 "canSeeSky": false,
                 "minX": 3399, "maxX": 3540, "minY": 83, "maxY": 107, "minZ": 1874, "maxZ": 2026
             }
+        },
+
+        {
+            "id": "tentacool-19",
+            "pokemon": "tentacool",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "5-40",
+            "weight": 65.0,
+            "condition": {
+                "minX": 3116, "maxX": 3244, "minZ": -3067, "maxZ": -2961
+            }
+        },
+        {
+            "id": "tentacool-20",
+            "pokemon": "tentacool",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "5-40",
+            "weight": 65.0,
+            "condition": {
+                "minX": 2836, "maxX": 3453, "minZ": -2960, "maxZ": -2739
+            }
+        },
+        {
+            "id": "tentacool-21",
+            "pokemon": "tentacool",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "5-40",
+            "weight": 65.0,
+            "condition": {
+                "minX": 3012, "maxX": 3115, "minZ": -3159, "maxZ": -2941
+            }
+        },
+
+        {
+            "id": "tentacool-22",
+            "pokemon": "tentacool",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "5-40",
+            "weight": 65.0,
+            "condition": {
+                "minX": 2881, "maxX": 3011, "minZ": -3357, "maxZ": -3032
+            }
+        },
+        {
+            "id": "tentacool-23",
+            "pokemon": "tentacool",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "5-40",
+            "weight": 65.0,
+            "condition": {
+                "minX": 3012, "maxX": 3066, "minZ": -3357, "maxZ": -3160
+            }
         }
     ]
 }

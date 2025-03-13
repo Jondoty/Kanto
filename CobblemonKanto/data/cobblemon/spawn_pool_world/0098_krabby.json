@@ -598,6 +598,151 @@
                 "minLureLevel": 3,
                 "maxLureLevel": 3
             }
+        },
+
+        {
+            "id": "krabby-42",
+            "pokemon": "krabby",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 40.0,
+            "condition": {
+                "minX": 3116, "maxX": 3244, "minZ": -3067, "maxZ": -2961,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "krabby-43",
+            "pokemon": "krabby",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 20.0,
+            "condition": {
+                "minX": 3116, "maxX": 3244, "minZ": -3067, "maxZ": -2961,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "krabby-44",
+            "pokemon": "krabby",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 40.0,
+            "condition": {
+                "minX": 2836, "maxX": 3453, "minZ": -2960, "maxZ": -2739,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "krabby-45",
+            "pokemon": "krabby",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 20.0,
+            "condition": {
+                "minX": 2836, "maxX": 3453, "minZ": -2960, "maxZ": -2739,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "krabby-46",
+            "pokemon": "krabby",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 40.0,
+            "condition": {
+                "minX": 3012, "maxX": 3115, "minZ": -3159, "maxZ": -2941,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "krabby-47",
+            "pokemon": "krabby",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 20.0,
+            "condition": {
+                "minX": 3012, "maxX": 3115, "minZ": -3159, "maxZ": -2941,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "krabby-48",
+            "pokemon": "krabby",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 40.0,
+            "condition": {
+                "minX": 2881, "maxX": 3011, "minZ": -3357, "maxZ": -3032,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "krabby-49",
+            "pokemon": "krabby",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 20.0,
+            "condition": {
+                "minX": 3012, "maxX": 3066, "minZ": -3357, "maxZ": -3160,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
+        },
+
+        {
+            "id": "krabby-50",
+            "pokemon": "krabby",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 40.0,
+            "condition": {
+                "minX": 2881, "maxX": 3011, "minZ": -3357, "maxZ": -3032,
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            }
+        },
+        {
+            "id": "krabby-51",
+            "pokemon": "krabby",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 20.0,
+            "condition": {
+                "minX": 3012, "maxX": 3066, "minZ": -3357, "maxZ": -3160,
+                "minLureLevel": 3,
+                "maxLureLevel": 3
+            }
         }
     ]
 }

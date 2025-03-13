@@ -1,0 +1,114 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "hoppip-1",
+            "pokemon": "hoppip",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 30.0,
+            "condition": {
+                "minX": 3116, "maxX": 3244, "minZ": -3067, "maxZ": -2961
+            }
+        },
+        {
+            "id": "hoppip-2",
+            "pokemon": "hoppip",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 30.0,
+            "condition": {
+                "minX": 2836, "maxX": 3453, "minZ": -2960, "maxZ": -2739
+            }
+        },
+
+        {
+            "id": "hoppip-3",
+            "pokemon": "hoppip",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-15",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3012, "maxX": 3115, "minZ": -3159, "maxZ": -2941
+            }
+        },
+        {
+            "id": "hoppip-4",
+            "pokemon": "hoppip",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 30.0,
+            "condition": {
+                "minX": 3012, "maxX": 3115, "minZ": -3159, "maxZ": -2941
+            }
+        },
+        {
+            "id": "hoppip-5",
+            "pokemon": "hoppip",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-16",
+            "weight": 100,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 2881, "maxX": 3011, "minZ": -3357, "maxZ": -3032
+            }
+        },
+
+        {
+            "id": "hoppip-6",
+            "pokemon": "hoppip",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 30.0,
+            "condition": {
+                "minX": 2881, "maxX": 3011, "minZ": -3357, "maxZ": -3032
+            }
+        },
+        {
+            "id": "hoppip-7",
+            "pokemon": "hoppip",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 30.0,
+            "condition": {
+                "minX": 3012, "maxX": 3066, "minZ": -3357, "maxZ": -3160
+            }
+        }
+    ]
+}

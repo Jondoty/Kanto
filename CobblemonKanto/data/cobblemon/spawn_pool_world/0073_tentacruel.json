@@ -12,7 +12,7 @@
             "type": "pokemon",
             "context": "surface",
             "bucket": "common",
-            "level": "5-40",
+            "level": "35-40",
             "weight": 5.0,
             "condition": {
                 "minX": 4243, "maxX": 4372, "minZ": -2471, "maxZ": -2288
@@ -27,7 +27,7 @@
             "type": "pokemon",
             "context": "surface",
             "bucket": "common",
-            "level": "5-40",
+            "level": "35-40",
             "weight": 5.0,
             "condition": {
                 "minX": 4225, "maxX": 4372, "minZ": -2698, "maxZ": -2472
@@ -42,7 +42,7 @@
             "type": "pokemon",
             "context": "surface",
             "bucket": "common",
-            "level": "5-40",
+            "level": "35-40",
             "weight": 5.0,
             "condition": {
                 "minX": 4083, "maxX": 4242, "minZ": -2471, "maxZ": -1714
@@ -58,7 +58,7 @@
             "type": "pokemon",
             "context": "surface",
             "bucket": "common",
-            "level": "5-40",
+            "level": "35-40",
             "weight": 5.0,
             "condition": {
                 "minX": 2896, "maxX": 3243, "minZ": -1551, "maxZ": -1433
@@ -74,11 +74,88 @@
             "type": "pokemon",
             "context": "surface",
             "bucket": "common",
-            "level": "5-40",
+            "level": "35-40",
             "weight": 4.0,
             "condition": {
                 "canSeeSky": false,
                 "minX": 3399, "maxX": 3540, "minY": 83, "maxY": 107, "minZ": 1874, "maxZ": 2026
+            }
+        },
+
+        {
+            "id": "tentacruel-6",
+            "pokemon": "tentacruel",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "35-40",
+            "weight": 5.0,
+            "condition": {
+                "minX": 3116, "maxX": 3244, "minZ": -3067, "maxZ": -2961
+            }
+        },
+        {
+            "id": "tentacruel-7",
+            "pokemon": "tentacruel",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "35-40",
+            "weight": 5.0,
+            "condition": {
+                "minX": 2836, "maxX": 3453, "minZ": -2960, "maxZ": -2739
+            }
+        },
+        {
+            "id": "tentacruel-8",
+            "pokemon": "tentacruel",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "35-40",
+            "weight": 5.0,
+            "condition": {
+                "minX": 3012, "maxX": 3115, "minZ": -3159, "maxZ": -2941
+            }
+        },
+
+        {
+            "id": "tentacruel-9",
+            "pokemon": "tentacruel",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "35-40",
+            "weight": 5.0,
+            "condition": {
+                "minX": 2881, "maxX": 3011, "minZ": -3357, "maxZ": -3032
+            }
+        },
+        {
+            "id": "tentacruel-10",
+            "pokemon": "tentacruel",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "35-40",
+            "weight": 5.0,
+            "condition": {
+                "minX": 3012, "maxX": 3066, "minZ": -3357, "maxZ": -3160
             }
         }
     ]

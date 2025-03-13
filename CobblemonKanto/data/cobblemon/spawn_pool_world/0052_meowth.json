@@ -128,6 +128,22 @@
                 ],
                 "minX": 2896, "maxX": 3243, "minZ": -1551, "maxZ": -1433
             }
+        },
+
+        {
+            "id": "meowth-9",
+            "pokemon": "meowth",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "41",
+            "weight": 10,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3012, "maxX": 3115, "minZ": -3159, "maxZ": -2941
+            }
         }
     ]
 }

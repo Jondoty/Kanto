@@ -80,6 +80,22 @@
                 ],
                 "minX": 3244, "maxX": 3440, "minZ": -1551, "maxZ": -1287
             }
+        },
+
+        {
+            "id": "pidgeotto-6",
+            "pokemon": "pidgeotto",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "48-50",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3012, "maxX": 3115, "minZ": -3159, "maxZ": -2941
+            }
         }
     ]
 }

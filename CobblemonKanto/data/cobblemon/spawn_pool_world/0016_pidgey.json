@@ -255,6 +255,22 @@
                 ],
                 "minX": 3244, "maxX": 3440, "minZ": -1551, "maxZ": -1287
             }
+        },
+
+        {
+            "id": "pidgey-17",
+            "pokemon": "pidgey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "44",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3012, "maxX": 3115, "minZ": -3159, "maxZ": -2941
+            }
         }
     ]
 }
