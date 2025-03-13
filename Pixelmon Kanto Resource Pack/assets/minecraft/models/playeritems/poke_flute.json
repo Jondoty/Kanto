@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"poke_flute_atlas": "playeritems/poke_flute"
+		"poke_flute_atlas": "item/playeritems/poke_flute"
 	},
 	"elements": [
 		{
