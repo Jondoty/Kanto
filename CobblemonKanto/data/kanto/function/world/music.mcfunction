@@ -396,6 +396,14 @@ scoreboard players set @s[x=2627,y=0,z=-4610,dx=145,dy=256,dz=562,scores={MusicC
 playsound gym record @s[x=4315,y=0,z=1331,dx=397,dy=100,dz=243,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=4315,y=0,z=1331,dx=397,dy=100,dz=243,scores={MusicCooldown=0}] MusicCooldown 103
 
+#Mt. Ember
+playsound mtmoon record @s[x=3600,y=0,z=1811,dx=1435,dy=256,dz=289,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3600,y=0,z=1811,dx=1435,dy=256,dz=289,scores={MusicCooldown=0}] MusicCooldown 224
+
+#Rocket Hideout
+playsound rocketgamecorner record @s[x=4542,y=0,z=1587,dx=154,dy=256,dz=145,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4542,y=0,z=1587,dx=154,dy=256,dz=145,scores={MusicCooldown=0}] MusicCooldown 169
+
 #---------------------------------------------------------------------------------------------
 
 

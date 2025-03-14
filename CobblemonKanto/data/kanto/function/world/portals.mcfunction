@@ -109,6 +109,9 @@ tp @s[x=2587,y=34,z=649,dx=5,dy=5] 3322 34 1417
 scoreboard players set @s[x=3320,y=34,z=1416,dx=5,dy=5] EscapeRope 0
 tp @s[x=3320,y=34,z=1416,dx=5,dy=5] 2588 34 648
 
+#-------------------------------------------------------------------------------------------------------------
+#Celadon Rocket Hideout
+tp @s[x=3450,y=29,z=500,dx=1,dy=3,dz=1] 4599 89 1685 90 12
 
 #-------------------------------------------------------------------------------------------------------------
 #Victory Road (route side)
@@ -142,6 +145,37 @@ tp @s[x=3746,y=34,z=-759,dx=5,dy=5] 3538 122 1655
 
 scoreboard players set @s[x=3536,y=122,z=1654,dx=5,dy=5] EscapeRope 0
 tp @s[x=3536,y=122,z=1654,dx=5,dy=5] 3748 34 -760
+
+#-------------------------------------------------------------------------------------------------------------
+#Mt. Ember
+
+#Ruby line (bottom right on mountain)
+tp @s[x=4110,y=59,z=-1607,dx=5,dy=5] 4107 140 1824
+tp @s[x=4105,y=140,z=1823,dx=5,dy=5] 4112 59 -1608
+
+#Regular Line, middle left
+scoreboard players set @s[x=4260,y=69,z=-1527,dx=5,dy=5] EscapeRope 11
+tp @s[x=4260,y=69,z=-1527,dx=5,dy=5] 3750 150 1912
+
+scoreboard players set @s[x=3748,y=150,z=1911,dx=5,dy=5] EscapeRope 0
+tp @s[x=3748,y=150,z=1911,dx=5,dy=5] 4262 69 -1528
+
+
+#Exits top right
+scoreboard players set @s[x=4125,y=99,z=-1499,dx=5,dy=5] EscapeRope 12
+tp @s[x=4125,y=99,z=-1499,dx=5,dy=5] 3843 150 1933
+
+scoreboard players set @s[x=3842,y=150,z=1932,dx=5,dy=5] EscapeRope 0
+tp @s[x=3842,y=150,z=1932,dx=4,dy=5] 4127 99 -1500
+
+
+#Summit line interior door 1
+tp @s[x=3693,y=150,z=2000,dx=4,dy=4] 3901 84 1845
+tp @s[x=3900,y=84,z=1844,dx=4,dy=4] 3694 150 1999
+
+#Summit line interior door 2
+tp @s[x=3897,y=150,z=1956,dx=4,dy=4] 3712 124 2050
+tp @s[x=3710,y=124,z=2051,dx=4,dy=4] 3898 150 1957
 
 #-------------------------------------------------------------------------------------------------------------
 #Icefall Cave

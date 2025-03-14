@@ -116,6 +116,100 @@
                 ],
                 "minX": 4041, "maxX": 4177, "minZ": -4606, "maxZ": -4200
             }
+        },
+
+        {
+            "id": "geodude-9",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "29-37",
+            "weight": 50,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3600, "maxX": 3922, "minY": 149, "minZ": 1811, "maxZ": 2100
+            }
+        },
+        {
+            "id": "geodude-10",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-34",
+            "weight": 40,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3600, "maxX": 3922, "minY": 33, "maxY": 148, "minZ": 1811, "maxZ": 2100
+            }
+        },
+
+        {
+            "id": "geodude-11",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-40",
+            "weight": 50,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3993, "maxX": 4317, "minY": 137, "maxY": 153, "minZ": 1812, "maxZ": 2106
+            }
+        },
+        {
+            "id": "geodude-12",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "34-42",
+            "weight": 65,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3993, "maxX": 4317, "minY": 119, "maxY": 136, "minZ": 1812, "maxZ": 2106
+            }
+        },
+        {
+            "id": "geodude-13",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "34-42",
+            "weight": 65,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3993, "maxX": 4317, "minY": 33, "maxY": 51, "minZ": 1812, "maxZ": 2106
+            }
+        },
+
+        {
+            "id": "geodude-14",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "40-44",
+            "weight": 40,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3993, "maxX": 4317, "minY": 100, "maxY": 118, "minZ": 1812, "maxZ": 2106
+            }
+        },
+        {
+            "id": "geodude-15",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "40-44",
+            "weight": 40,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3993, "maxX": 4317, "minY": 52, "maxY": 70, "minZ": 1812, "maxZ": 2106
+            }
         }
     ]
 }

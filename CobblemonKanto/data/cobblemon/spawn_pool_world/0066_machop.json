@@ -58,6 +58,47 @@
                 ],
                 "minX": 3996, "maxX": 4332, "minZ": -1713, "maxZ": -1292
             }
+        },
+
+        {
+            "id": "machop-5",
+            "pokemon": "machop",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "31-39",
+            "weight": 50,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3600, "maxX": 3922, "minY": 149, "minZ": 1811, "maxZ": 2100
+            }
+        },
+        {
+            "id": "machop-6",
+            "pokemon": "machop",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-36",
+            "weight": 40,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3600, "maxX": 3922, "minY": 33, "maxY": 148, "minZ": 1811, "maxZ": 2100
+            }
+        },
+
+        {
+            "id": "machop-7",
+            "pokemon": "machop",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "34-38",
+            "weight": 40,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3993, "maxX": 4317, "minY": 137, "maxY": 153, "minZ": 1812, "maxZ": 2106
+            }
         }
     ]
 }

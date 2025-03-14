@@ -1,0 +1,74 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "slugma-1",
+            "pokemon": "slugma",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-30",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3993, "maxX": 4317, "minY": 119, "maxY": 136, "minZ": 1812, "maxZ": 2106
+            }
+        },
+        {
+            "id": "slugma-2",
+            "pokemon": "slugma",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-30",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3993, "maxX": 4317, "minY": 33, "maxY": 51, "minZ": 1812, "maxZ": 2106
+            }
+        },
+
+        {
+            "id": "slugma-3",
+            "pokemon": "slugma",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-32",
+            "weight": 60,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3993, "maxX": 4317, "minY": 100, "maxY": 118, "minZ": 1812, "maxZ": 2106
+            }
+        },
+        {
+            "id": "slugma-4",
+            "pokemon": "slugma",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-32",
+            "weight": 60,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3993, "maxX": 4317, "minY": 52, "maxY": 70, "minZ": 1812, "maxZ": 2106
+            }
+        },
+
+        {
+            "id": "slugma-5",
+            "pokemon": "slugma",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-36",
+            "weight": 100,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3993, "maxX": 4317, "minY": 71, "maxY": 99, "minZ": 1812, "maxZ": 2106
+            }
+        }
+    ]
+}

@@ -55,6 +55,34 @@
                 "canSeeSky": false,
                 "minX": 2779, "maxX": 3015, "minY": 33, "maxY": 59, "minZ": 1845, "maxZ": 1994
             }
+        },
+
+        {
+            "id": "machoke-5",
+            "pokemon": "machoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-40",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3600, "maxX": 3922, "minY": 33, "maxY": 148, "minZ": 1811, "maxZ": 2100
+            }
+        },
+
+        {
+            "id": "machoke-6",
+            "pokemon": "machoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "40-42",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3993, "maxX": 4317, "minY": 137, "maxY": 153, "minZ": 1812, "maxZ": 2106
+            }
         }
     ]
 }
