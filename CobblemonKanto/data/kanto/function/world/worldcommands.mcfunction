@@ -2,6 +2,8 @@
 
 execute as @a[x=3870,y=40,z=1195,dx=2,dy=2,dz=2] run function kanto:triggers/startingcommands
 
+#Aligns and gets rid of nametags for NPCs
+execute as @e[type=cobblemon:npc,nbt={PersistenceRequired:0b}] run data merge entity @s {Rotation:[180f,0.0f],PersistenceRequired:1b,HideNPCNameTag:1b}
 
 #Kills entities that may be corrput and crashing
 #tp @e[x=2798,y=34,z=-188,distance=..3,type=pixelmon:npc_trainer] ~ ~-1000 ~
