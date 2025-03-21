@@ -2,16 +2,16 @@
     "c.npc.set_chatting();",
     "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
     "q.run_command('execute as ' + q.player.username + ' run function kanto:tools/forceclick');",
-    "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $288 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
-    "q.run_command('scoreboard players add ' + q.player.username + ' Money 288');"
+    "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $864 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+    "q.run_command('scoreboard players add ' + q.player.username + ' Money 864');"
         ],
   "speakers": {
     "npc": {
-      "name": "Ann",
+      "name": "Erik",
       "face": {
         "type": "artificial",
         "modelType": "npc",
-        "identifier": "cobblemon:lass",
+        "identifier": "cobblemon:supernerd",
         "isLeftSide": true
       }
     }
@@ -20,7 +20,7 @@
     {
       "id": "greeting",
       "speaker": "npc",
-      "lines": ["Oh, no! I went around the world for these!"],
+      "lines": ["Fire, or to be more precise, combustion… …Oxygen in the air… Blah, blah, blah, blah…"],
             "input": {
                 "type": "option",
                 "vertical": false,

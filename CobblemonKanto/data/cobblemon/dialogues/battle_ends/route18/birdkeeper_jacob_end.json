@@ -2,16 +2,16 @@
     "c.npc.set_chatting();",
     "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
     "q.run_command('execute as ' + q.player.username + ' run function kanto:tools/forceclick');",
-    "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $288 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
-    "q.run_command('scoreboard players add ' + q.player.username + ' Money 288');"
+    "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $624 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+    "q.run_command('scoreboard players add ' + q.player.username + ' Money 624');"
         ],
   "speakers": {
     "npc": {
-      "name": "Ann",
+      "name": "Jacob",
       "face": {
         "type": "artificial",
         "modelType": "npc",
-        "identifier": "cobblemon:lass",
+        "identifier": "cobblemon:birdkeeper",
         "isLeftSide": true
       }
     }
@@ -20,7 +20,7 @@
     {
       "id": "greeting",
       "speaker": "npc",
-      "lines": ["Oh, no! I went around the world for these!"],
+      "lines": ["This is my fave area for catching Pokémon."],
             "input": {
                 "type": "option",
                 "vertical": false,
