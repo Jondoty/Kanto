@@ -404,6 +404,15 @@ scoreboard players set @s[x=3600,y=0,z=1811,dx=1435,dy=256,dz=289,scores={MusicC
 playsound rocketgamecorner record @s[x=4542,y=0,z=1587,dx=154,dy=256,dz=145,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=4542,y=0,z=1587,dx=154,dy=256,dz=145,scores={MusicCooldown=0}] MusicCooldown 169
 
+#Ember Spa
+playsound fuchsiacity record @s[x=3910,y=0,z=1392,dx=138,dy=70,dz=197,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3910,y=0,z=1392,dx=138,dy=70,dz=197,scores={MusicCooldown=0}] MusicCooldown 107
+
+#Pokemon Tower
+playsound pokemontower record @s[x=4375,y=0,z=1608,dx=126,dy=200,dz=105,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4375,y=0,z=1608,dx=126,dy=200,dz=105,scores={MusicCooldown=0}] MusicCooldown 140
+
+
 #---------------------------------------------------------------------------------------------
 
 

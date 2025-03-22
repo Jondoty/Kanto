@@ -4,29 +4,13 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "cubone-1",
-            "pokemon": "cubone",
+            "id": "gastly-1",
+            "pokemon": "gastly",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "46",
-            "weight": 10,
-            "condition": {
-                "neededNearbyBlocks": [
-                    "minecraft:short_grass"
-                ],
-                "minX": 4041, "maxX": 4177, "minZ": -4606, "maxZ": -4200
-            }
-        },
-
-        {
-            "id": "cubone-2",
-            "pokemon": "cubone",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "15-17",
-            "weight": 9,
+            "level": "13-19",
+            "weight": 90,
             "condition": {
                 "canSeeSky": false,
                 "neededNearbyBlocks": [
@@ -37,13 +21,13 @@
             }
         },
         {
-            "id": "cubone-3",
-            "pokemon": "cubone",
+            "id": "gastly-2",
+            "pokemon": "gastly",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "15-17",
-            "weight": 9,
+            "level": "13-19",
+            "weight": 86,
             "condition": {
                 "canSeeSky": false,
                 "neededNearbyBlocks": [
@@ -54,13 +38,13 @@
             }
         },
         {
-            "id": "cubone-4",
-            "pokemon": "cubone",
+            "id": "gastly-3",
+            "pokemon": "gastly",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "17-19",
-            "weight": 9,
+            "level": "14-19",
+            "weight": 85,
             "condition": {
                 "canSeeSky": false,
                 "neededNearbyBlocks": [
@@ -71,13 +55,13 @@
             }
         },
         {
-            "id": "cubone-5",
-            "pokemon": "cubone",
+            "id": "gastly-4",
+            "pokemon": "gastly",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "17-19",
-            "weight": 10,
+            "level": "15-19",
+            "weight": 75,
             "condition": {
                 "canSeeSky": false,
                 "neededNearbyBlocks": [

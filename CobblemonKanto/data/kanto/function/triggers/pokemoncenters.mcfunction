@@ -48,10 +48,14 @@ spawnpoint @a[x=4226,y=40,z=-4104,distance=..11,tag=FlySeven] 4226 40 -4117
 
 
 
+#Ember Spa
+execute as @a[x=3910,y=0,z=1392,dx=138,dy=70,dz=197,tag=!SpaCooldown] at @s if block ~ ~ ~ minecraft:water run pokeheal @s
+execute as @a[x=3910,y=0,z=1392,dx=138,dy=70,dz=197,tag=!SpaCooldown] at @s if block ~ ~ ~ minecraft:water run tellraw @s {"text":"Your Pokemon were healed by the water!","italic":true,"color":"gray"}
+execute as @a[x=3910,y=0,z=1392,dx=138,dy=70,dz=197,tag=!SpaCooldown] at @s if block ~ ~ ~ minecraft:water run tag @s add SpaCooldown
 
-
-
-
-
+#Pokemon Tower Heal Pad
+execute as @a[x=4440,y=130,z=1659,distance=0..4,tag=!TowerCooldown] run pokeheal @s
+execute as @a[x=4440,y=130,z=1659,distance=0..4,tag=!TowerCooldown] run tellraw @s {"text":"Your Pokemon were healed!","italic":true,"color":"gray"}
+execute as @a[x=4440,y=130,z=1659,distance=0..4,tag=!TowerCooldown] run tag @s add TowerCooldown
 
 #
