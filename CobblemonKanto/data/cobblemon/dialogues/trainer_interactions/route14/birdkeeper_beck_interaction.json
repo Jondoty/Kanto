@@ -1,0 +1,52 @@
+{   "initializationAction": [              
+    "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 1000');",
+    "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');"
+        ],
+    "escapeAction": [              
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 0');",
+        "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
+        "q.dialogue.close();"
+        ],
+    "names": ["Beck"],
+    "speakers": {
+        "npc": {
+            "name": {
+                "type": "expression",
+                "expression": "q.npc.name"
+            },
+            "face": "q.npc.face();"
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+                "They have TMs on sale at the Celadon Dept. Store. TMs aren't really rare, but not many people have HMs."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "§c⚔ Battle ⚔§r",
+                        "value": "battle",
+                        "action": [                           
+                                    "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 999');",
+                                    "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
+                                    "v.battle = q.npc.start_battle(q.player);"
+                            ]
+                    },
+                    {
+                        "text": "No",
+                        "value": "no",
+                        "action": [              
+                            "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 0');",
+                            "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
+                            "q.dialogue.close();"]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
