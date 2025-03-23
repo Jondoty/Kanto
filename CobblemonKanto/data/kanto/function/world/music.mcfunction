@@ -397,8 +397,8 @@ playsound gym record @s[x=4315,y=0,z=1331,dx=397,dy=100,dz=243,scores={MusicCool
 scoreboard players set @s[x=4315,y=0,z=1331,dx=397,dy=100,dz=243,scores={MusicCooldown=0}] MusicCooldown 103
 
 #Mt. Ember
-playsound mtmoon record @s[x=3600,y=0,z=1811,dx=1435,dy=256,dz=289,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=3600,y=0,z=1811,dx=1435,dy=256,dz=289,scores={MusicCooldown=0}] MusicCooldown 224
+playsound mtmoon record @s[x=3600,y=0,z=1811,dx=717,dy=256,dz=289,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3600,y=0,z=1811,dx=717,dy=256,dz=289,scores={MusicCooldown=0}] MusicCooldown 224
 
 #Rocket Hideout
 playsound rocketgamecorner record @s[x=4542,y=0,z=1587,dx=154,dy=256,dz=145,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
@@ -411,6 +411,15 @@ scoreboard players set @s[x=3910,y=0,z=1392,dx=138,dy=70,dz=197,scores={MusicCoo
 #Pokemon Tower
 playsound pokemontower record @s[x=4375,y=0,z=1608,dx=126,dy=200,dz=105,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=4375,y=0,z=1608,dx=126,dy=200,dz=105,scores={MusicCooldown=0}] MusicCooldown 140
+
+#Silph Co (Rocket Takeover)
+playsound silphco record @s[x=4354,y=0,z=1751,dx=176,dy=200,dz=141,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4354,y=0,z=1751,dx=176,dy=200,dz=141,scores={MusicCooldown=0}] MusicCooldown 162
+
+#Silph Co (Normal/post-rocket)
+playsound pewtercity record @s[x=4354,y=0,z=1894,dx=176,dy=200,dz=141,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4354,y=0,z=1894,dx=176,dy=200,dz=141,scores={MusicCooldown=0}] MusicCooldown 173
+
 
 
 #---------------------------------------------------------------------------------------------
