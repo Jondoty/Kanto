@@ -1,0 +1,43 @@
+{  
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:cooltrainer",
+    "presets": ["cobblemon:trainer_basics"],
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:cooltrainer_george_interaction"
+    },
+        "name": "George",
+        "party": {
+        "type": "simple",
+        "pokemon": [
+            "Exeggutor level=42",
+            "Sandslash level=42",
+            "Cloyster level=42",
+            "Electrode level=42",
+            "Arcanine level=42"
+        ]
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "0"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        },
+        {
+            "variableName": "on_player_wins",
+            "displayName": "npc.variable.on_player_wins.name",
+            "description": "npc.variable.on_player_wins.desc",
+            "type": "TEXT",
+            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue cooltrainer_george_end @s');"
+          }
+    ]
+}
