@@ -4,7 +4,7 @@
     "presets": ["cobblemon:trainer_basics"],
     "interaction": {
         "type": "dialogue",
-        "dialogue": "cobblemon:elite_agatha_interaction"
+        "dialogue": "cobblemon:elite_agatha_rematch_interaction"
     },
         "name": "Agatha",
         "party": {
@@ -37,7 +37,7 @@
             "displayName": "npc.variable.on_player_wins.name",
             "description": "npc.variable.on_player_wins.desc",
             "type": "TEXT",
-            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue elite_agatha_end @s');"
+            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue elite_agatha_rematch_end @s');"
           }
     ]
 }
