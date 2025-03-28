@@ -1,0 +1,43 @@
+{  
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:lance",
+    "presets": ["cobblemon:trainer_basics"],
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:elite_lance_interaction"
+    },
+        "name": "Lance",
+        "party": {
+        "type": "simple",
+        "pokemon": [
+            "Gyarados level=56 moves=bite,dragonrage,twister,hyperbeam",
+            "Dragonair level=54 moves=safeguard,outrage,dragonrage,hyperbeam",
+            "Dragonair level=54 moves=safeguard,outrage,thunderwave,hyperbeam",
+            "Aerodactyl level=58 moves=wingattack,ancientpower,scaryface,hyperbeam",
+            "Dragonite level=60 moves=safeguard,outrage,wingattack,hyperbeam"
+        ]
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "0"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        },
+        {
+            "variableName": "on_player_wins",
+            "displayName": "npc.variable.on_player_wins.name",
+            "description": "npc.variable.on_player_wins.desc",
+            "type": "TEXT",
+            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue elite_lance_end @s');"
+          }
+    ]
+}

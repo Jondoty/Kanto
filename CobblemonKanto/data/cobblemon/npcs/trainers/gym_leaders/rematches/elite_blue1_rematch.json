@@ -1,0 +1,44 @@
+{  
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:blue",
+    "presets": ["cobblemon:trainer_basics"],
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:elite_blue_interaction"
+    },
+        "name": "Blue",
+        "party": {
+        "type": "simple",
+        "pokemon": [
+            "Heracross level=72 moves=megahorn,counter,rocktomb,earthquake",
+            "Alakazam level=73 moves=psychic,reflect,calmmind,shadowball",
+            "Tyranitar level=72 moves=crunch,thunderbolt,earthquake,aerialace",
+            "Exeggutor level=73 moves=sleeppowder,lightscreen,gigadrain,psychic",
+            "Gyarados level=73 moves=dragondance,hydropump,earthquake,hyperbeam",
+            "Charizard level=75 moves=fireblast,aerialace,dragonclaw,earthquake"
+        ]
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "0"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        },
+        {
+            "variableName": "on_player_wins",
+            "displayName": "npc.variable.on_player_wins.name",
+            "description": "npc.variable.on_player_wins.desc",
+            "type": "TEXT",
+            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue elite_blue_end @s');"
+          }
+    ]
+}

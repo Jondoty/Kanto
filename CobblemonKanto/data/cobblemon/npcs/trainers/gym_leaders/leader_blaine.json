@@ -1,0 +1,42 @@
+{  
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:blaine",
+    "presets": ["cobblemon:trainer_basics"],
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:leader_blaine_interaction"
+    },
+        "name": "Blaine",
+        "party": {
+        "type": "simple",
+        "pokemon": [
+            "Growlithe level=42 moves=bite,roar,takedown,fireblast",
+            "Ponyta level=40 moves=stomp,bounce,firespin,fireblast",
+            "Rapidash level=42 moves=stomp,bounce,firespin,fireblast",
+            "Arcanine level=47 moves=bite,roar,takedown,fireblast"
+        ]
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "0"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        },
+        {
+            "variableName": "on_player_wins",
+            "displayName": "npc.variable.on_player_wins.name",
+            "description": "npc.variable.on_player_wins.desc",
+            "type": "TEXT",
+            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue leader_blaine_end @s');"
+          }
+    ]
+}

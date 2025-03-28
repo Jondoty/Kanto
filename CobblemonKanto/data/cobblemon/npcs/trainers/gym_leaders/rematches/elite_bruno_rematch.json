@@ -1,0 +1,43 @@
+{  
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:bruno",
+    "presets": ["cobblemon:trainer_basics"],
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:elite_bruno_interaction"
+    },
+        "name": "Bruno",
+        "party": {
+        "type": "simple",
+        "pokemon": [
+            "Steelix level=65 moves=earthquake,rocktomb,irontail,crunch",
+            "Hitmonchan level=65 moves=skyuppercut,machpunch,rockslide,counter",
+            "Hitmonlee level=65 moves=megakick,foresight,earthquake,rockslide",
+            "Steelix level=66 moves=dragonbreath,irontail,earthquake,crunch",
+            "Machamp level=68 moves=brickbreak,crosschop,earthquake,rockslide"
+        ]
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "0"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        },
+        {
+            "variableName": "on_player_wins",
+            "displayName": "npc.variable.on_player_wins.name",
+            "description": "npc.variable.on_player_wins.desc",
+            "type": "TEXT",
+            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue elite_bruno_end @s');"
+          }
+    ]
+}

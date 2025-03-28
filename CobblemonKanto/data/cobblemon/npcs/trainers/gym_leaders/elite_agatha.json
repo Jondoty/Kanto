@@ -1,0 +1,43 @@
+{  
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:agatha",
+    "presets": ["cobblemon:trainer_basics"],
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:elite_agatha_interaction"
+    },
+        "name": "Agatha",
+        "party": {
+        "type": "simple",
+        "pokemon": [
+            "Gengar level=54 moves=confuseray,shadowpunch,doubleteam,toxic",
+            "Golbat level=54 moves=confuseray,bite,aircutter,poisonfang",
+            "Haunter level=53 moves=meanlook,curse,hypnosis,dreameater",
+            "Arbok level=56 moves=bite,sludgebomb,screech,irontail",
+            "Gengar level=58 moves=shadowball,sludgebomb,hypnosis,nightmare"
+        ]
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "0"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        },
+        {
+            "variableName": "on_player_wins",
+            "displayName": "npc.variable.on_player_wins.name",
+            "description": "npc.variable.on_player_wins.desc",
+            "type": "TEXT",
+            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue elite_agatha_end @s');"
+          }
+    ]
+}

@@ -1,0 +1,42 @@
+{  
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:sabrina",
+    "presets": ["cobblemon:trainer_basics"],
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:leader_sabrina_interaction"
+    },
+        "name": "Sabrina",
+        "party": {
+        "type": "simple",
+        "pokemon": [
+            "Kadabra level=38 moves=psybeam,reflect,futuresight,calmmind",
+            "MrMime level=37 moves=barrier,psybeam,batonpass,calmmind",
+            "Venomoth level=38 moves=psybeam,gust,leechlife,supersonic",
+            "Alakazam level=43 moves=psychic,recover,futuresight,calmmind"
+        ]
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "0"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        },
+        {
+            "variableName": "on_player_wins",
+            "displayName": "npc.variable.on_player_wins.name",
+            "description": "npc.variable.on_player_wins.desc",
+            "type": "TEXT",
+            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue leader_sabrina_end @s');"
+          }
+    ]
+}
