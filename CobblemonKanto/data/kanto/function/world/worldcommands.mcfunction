@@ -42,11 +42,8 @@ execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custo
 
 
 #------------------------------------------------------------------------------
-
-
-
-
-#Music rate: 86 ticks per 60 seconds
+#Music commands
+#Music rate: 86 ticks per 60 seconds (~1 second x 1.4)
 
 #Runs the click trigger if player uses Carrot on a Stick
 execute as @a[scores={Click=1..},tag=TempDelay] run function kanto:triggers/click
@@ -68,63 +65,15 @@ execute as @a[tag=TrackSeek,tag=!RadioOff] run function kanto:world/music
 
 
 
-
-#Largely doesn't work since battle music was added
-
-#Switches between music for riding Pokemon and Bikes
-#tag @a[tag=ActiveBattle] add Skip
-#execute @a[score_MusicCooldown_min=1,tag=BikeCheck] ~ ~-4 ~ execute @e[type=pixelmon:bike,dy=2] ~ ~ ~ tag @a[tag=BikeCheck,dy=3] add Skip
-#Pokemon Variant
-#execute @a[score_MusicCooldown_min=1,tag=RideCheck] ~ ~-4 ~ execute @e[type=pixelmon:pixelmon,dy=2] ~ ~ ~ tag @a[tag=RideCheck,dy=4] add Skip
-
-#Stops sounds and resets Music if player leaves entity
-#execute @a[score_MusicCooldown_min=1,tag=BikeCheck] ~ ~ ~ stopsound @a[tag=!Skip] record
-#execute @a[score_MusicCooldown_min=1,tag=BikeCheck] ~ ~ ~ scoreboard players set @a[tag=!Skip] MusicCooldown 0
-
-#execute @a[score_MusicCooldown_min=1,tag=RideCheck] ~ ~ ~ stopsound @a[tag=!Skip] record
-#execute @a[score_MusicCooldown_min=1,tag=RideCheck] ~ ~ ~ scoreboard players set @a[tag=!Skip] MusicCooldown 0
-
-#tag @a[tag=Skip] remove Skip
+#Runs battle music and post-battle events
+#Battle endings
+execute as @a[scores={BattleEnd=1..}] run function kanto:triggers/battles/battleend
 
 
+#Battle start and music
+execute as @a[scores={BattleStart=1..,MusicCooldown=0},tag=BattleMusicCooldown] run tag @s remove BattleMusicCooldown
+execute as @a[scores={BattleStart=1..},tag=!BattleMusicCooldown] run function kanto:triggers/battles/battlestart
 
-#Checks if player isn't riding and entity but then does that they then should get entity music
-
-
-#Bike
-#execute @a[score_MusicCooldown_min=1,tag=!BikeCheck] ~ ~-4 ~ execute @e[type=pixelmon:bike,dy=2] ~ ~ ~ tag @a[tag=!BikeCheck,dy=5] add Skip
-#Pokemon Variant
-#execute @a[score_MusicCooldown_min=1,tag=!RideCheck] ~ ~-4 ~ execute @e[type=pixelmon:pixelmon,dy=2] ~ ~ ~ tag @a[tag=!RideCheck,dy=5] add Skip
-
-#Stops sounds and resets Music if player leaves entity
-#execute @a[score_MusicCooldown_min=1,tag=!BikeCheck] ~ ~ ~ stopsound @a[tag=Skip] record
-#execute @a[score_MusicCooldown_min=1,tag=!BikeCheck] ~ ~ ~ scoreboard players set @a[tag=Skip] MusicCooldown 0
-
-#execute @a[score_MusicCooldown_min=1,tag=!RideCheck] ~ ~ ~ stopsound @a[tag=Skip] record
-#execute @a[score_MusicCooldown_min=1,tag=!RideCheck] ~ ~ ~ scoreboard players set @a[tag=Skip] MusicCooldown 0
-
-#tag @a[tag=Skip] remove Skip
-
-
-
-#Runs trainer music
-
-#Battle Start
-#/tedit add BATTLE_START scoreboard players set @pl TrainerClass 1
-#/tedit add BATTLE_START tag @pl add BattleStart
-execute as @a[tag=BattleStart] run function kanto:battles/battlestart
-
-#Battle Win (player)
-#/tedit add LOSS tag @pl add BattleWin
-execute as @a[tag=BattleWin] run function kanto:battles/playerwin
-
-#Battle Lose (player)
-#/tedit add WIN tag @pl add BattleLose
-execute as @a[tag=BattleLose] run function kanto:battles/playerlose
-
-#Battle Forefit (player)
-#/tedit add FORFEIT tag @pl add BattleForefit
-execute as @a[tag=BattleForefit] run function kanto:battles/playerforfeit
 
 
 
