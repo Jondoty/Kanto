@@ -1,9 +1,5 @@
 
 
-#Vanilla Armor Stand
-#execute @e[x=3833,y=41,z=1158,dy=3,type=armor_stand] ~ ~ ~
-data merge entity @e[x=3833,y=41,z=1158,dy=3,type=armor_stand,limit=1] {CustomName:"Pixelmon Kanto"}
-execute as @e[x=3833,y=41,z=1158,dy=3,type=armor_stand] run givemoney @a[x=3870,y=40,z=1195,dx=2,dy=2,dz=2,tag=!InitialTags] 2000
 
 spawnpoint @s 4190 34 -137
 
@@ -13,6 +9,12 @@ scoreboard players set @s DialogueTrigger 0
 scoreboard players set @s TalkTime 0
 scoreboard players set @s MusicCooldown 0
 scoreboard players set @s StarterPick 0
+
+
+#Grants basic items on starting
+scoreboard players add @s Money 2000
+give @s cobblemon:pokedex_blue
+function kanto:spawn/radio
 
 
 #Removes existing Quest tags
@@ -50,6 +52,14 @@ tag @s remove FlyCinnabar
 
 #Removes misc tags
 tag @s remove FirstSong
+
+
+
+#Removes item tags
+tag @s remove ItemLoot1
+
+
+
 
 
 
