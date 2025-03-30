@@ -94,6 +94,11 @@ scoreboard players set @s[x=2803,y=0,z=-4122,dx=109,dy=256,dz=73,scores={MusicCo
 playsound viridianforest record @s[x=4097,y=12,z=-4376,dx=77,dy=20,dz=95,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=4097,y=12,z=-4376,dx=77,dy=20,dz=95,scores={MusicCooldown=0}] MusicCooldown 227
 
+#Fighting Dojo
+playsound pewtercity record @s[x=3051,y=-11,z=565,dx=23,dy=10,dz=27,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3051,y=-11,z=565,dx=23,dy=10,dz=27,scores={MusicCooldown=0}] MusicCooldown 173
+
+
 #Pokemon Centers
 #/summon armor_stand ~ ~3 ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:"PokemonCenter",DisabledSlots:2039583}
 execute at @e[type=armor_stand,name=PokemonCenter] run playsound pokemoncenter record @a[distance=..11,tag=!RadioOff,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
