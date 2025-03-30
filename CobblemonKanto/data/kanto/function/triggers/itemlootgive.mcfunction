@@ -1,5 +1,6 @@
 #Runs each time the player clicks on an interaction entity with the tag ItemLoot
 
+execute as @s[x=4201,y=34,z=270,distance=..4,tag=ItemLoot1] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
 execute as @s[x=4201,y=34,z=270,distance=..4,tag=!ItemLoot1] run give @s cobblemon:potion
 execute as @s[x=4201,y=34,z=270,distance=..4,tag=!ItemLoot1] run tellraw @s {"text":"You found a Potion!","italic":true,"color":"gray"}
 execute as @s[x=4201,y=34,z=270,distance=..4,tag=!ItemLoot1] run playsound getitem ambient @s ~ ~ ~ 1 1 1
