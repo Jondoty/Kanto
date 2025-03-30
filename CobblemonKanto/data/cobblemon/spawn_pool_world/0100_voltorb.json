@@ -17,6 +17,19 @@
                 ],
                 "minX": 2483, "maxX": 2637, "minZ": 556, "maxZ": 938
             }
+        },
+        {
+            "id": "voltorb-2",
+            "pokemon": "voltorb",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-25",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4590, "maxX": 4816, "maxY": 38, "minZ": 1785, "maxZ": 1975
+            }
         }
     ]
 }

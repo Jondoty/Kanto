@@ -17,6 +17,19 @@
                 ],
                 "minX": 4147, "maxX": 4291, "minZ": 437, "maxZ": 599
             }
+        },
+        {
+            "id": "pikachu-2",
+            "pokemon": "pikachu",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-26",
+            "weight": 25,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4590, "maxX": 4816, "maxY": 38, "minZ": 1785, "maxZ": 1975
+            }
         }
     ]
 }

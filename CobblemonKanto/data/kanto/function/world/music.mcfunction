@@ -90,6 +90,9 @@ scoreboard players set @s[x=4147,y=0,z=437,dx=144,dy=256,dz=163,scores={MusicCoo
 playsound viridianforest record @s[x=2803,y=0,z=-4122,dx=109,dy=256,dz=73,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=2803,y=0,z=-4122,dx=109,dy=256,dz=73,scores={MusicCooldown=0}] MusicCooldown 227
 
+#Tanoby Key
+playsound viridianforest record @s[x=4097,y=12,z=-4376,dx=77,dy=20,dz=95,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4097,y=12,z=-4376,dx=77,dy=20,dz=95,scores={MusicCooldown=0}] MusicCooldown 227
 
 #Pokemon Centers
 #/summon armor_stand ~ ~3 ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:"PokemonCenter",DisabledSlots:2039583}
@@ -364,13 +367,21 @@ scoreboard players set @s[x=2773,y=0,z=-4445,dx=169,dy=256,dz=186,scores={MusicC
 playsound seviiislands record @s[x=3735,y=0,z=-4767,dx=688,dy=256,dz=160,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=3735,y=0,z=-4767,dx=688,dy=256,dz=160,scores={MusicCooldown=0}] MusicCooldown 147
 
+#Tanoby Ruins (interior)
+playsound viridianforest record @s[x=3694,y=-10,z=-4718,dx=770,dy=12,dz=72,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3694,y=-10,z=-4718,dx=770,dy=12,dz=72,scores={MusicCooldown=0}] MusicCooldown 226
+
 #Three Island (town)
-playsound pewtercity record @s[x=2714,y=0,z=-1614,dx=181,dy=256,dz=181,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=2714,y=0,z=-1614,dx=181,dy=256,dz=181,scores={MusicCooldown=0}] MusicCooldown 173
+playsound pewtercity record @s[x=2714,y=10,z=-1614,dx=181,dy=256,dz=181,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2714,y=10,z=-1614,dx=181,dy=256,dz=181,scores={MusicCooldown=0}] MusicCooldown 173
 
 #Three Isle Port
-playsound route4 record @s[x=2673,y=0,z=-1728,dx=222,dy=256,dz=113,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=2673,y=0,z=-1728,dx=222,dy=256,dz=113,scores={MusicCooldown=0}] MusicCooldown 99
+playsound route4 record @s[x=2673,y=10,z=-1728,dx=222,dy=256,dz=113,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2673,y=10,z=-1728,dx=222,dy=256,dz=113,scores={MusicCooldown=0}] MusicCooldown 99
+
+#Three Isle Path
+playsound viridianforest record @s[x=2695,y=-6,z=-1638,dx=145,dy=17,dz=44,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2695,y=-6,z=-1638,dx=145,dy=17,dz=44,scores={MusicCooldown=0}] MusicCooldown 226
 
 #Trainer Tower Exterior
 playsound seviiislands record @s[x=4131,y=0,z=-4086,dx=203,dy=256,dz=210,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
@@ -420,6 +431,9 @@ scoreboard players set @s[x=4354,y=0,z=1751,dx=176,dy=200,dz=141,scores={MusicCo
 playsound pewtercity record @s[x=4354,y=0,z=1894,dx=176,dy=200,dz=141,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=4354,y=0,z=1894,dx=176,dy=200,dz=141,scores={MusicCooldown=0}] MusicCooldown 173
 
+#Power Plant
+playsound pokemonmansion record @s[x=4590,y=30,z=1785,dx=226,dy=50,dz=190,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4590,y=30,z=1785,dx=226,dy=50,dz=190,scores={MusicCooldown=0}] MusicCooldown 171
 
 
 #---------------------------------------------------------------------------------------------

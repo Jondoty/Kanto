@@ -42,6 +42,19 @@
                 "canSeeSky": false,
                 "minX": 2779, "maxX": 3015, "minY": 33, "maxY": 59, "minZ": 1845, "maxZ": 1994
             }
+        },
+        {
+            "id": "magneton-4",
+            "pokemon": "magneton",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "31-34",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4590, "maxX": 4816, "maxY": 38, "minZ": 1785, "maxZ": 1975
+            }
         }
     ]
 }

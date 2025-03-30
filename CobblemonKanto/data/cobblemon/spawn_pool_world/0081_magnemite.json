@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "magnemite-1",
+            "pokemon": "magnemite",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-25",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4590, "maxX": 4816, "maxY": 38, "minZ": 1785, "maxZ": 1975
+            }
+        }
+    ]
+}
