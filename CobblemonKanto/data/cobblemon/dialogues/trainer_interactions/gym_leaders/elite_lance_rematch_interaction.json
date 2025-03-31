@@ -139,7 +139,7 @@
                         "value": "battle",
                         "action": [              
                             "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 12');",
-                            "q.run_command('execute as ' + q.player.username + ' run function kanto:tools/forceclick');",
+                            "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
                             "q.dialogue.close();",
                             "v.battle = q.npc.start_battle(q.player);"]
                     },
