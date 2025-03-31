@@ -44,6 +44,16 @@ execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custo
 #Music commands
 #Music rate: 86 ticks per 60 seconds (~1 second x 1.4)
 
+#Runs battle music and post-battle events
+#Battle endings
+execute as @a[scores={BattleEnd=1..}] run function kanto:triggers/battles/battleend
+
+
+#Battle start and music
+execute as @a[scores={BattleStart=1..,MusicCooldown=0},tag=BattleMusicCooldown] run tag @s remove BattleMusicCooldown
+execute as @a[scores={BattleStart=1..},tag=!BattleMusicCooldown] run function kanto:triggers/battles/battlestart
+
+
 #Runs the click trigger if player uses Carrot on a Stick
 execute as @a[scores={Click=1..},tag=TempDelay] run function kanto:triggers/click
 tag @a[scores={Click=1..},tag=!TempDelay] add TempDelay
@@ -63,26 +73,8 @@ tag @a[scores={MusicCooldown=0},tag=!RadioOff,nbt={Inventory:[{Slot:8b,component
 execute as @a[tag=TrackSeek,tag=!RadioOff] run function kanto:world/music
 
 
-
-#Runs battle music and post-battle events
-#Battle endings
-execute as @a[scores={BattleEnd=1..}] run function kanto:triggers/battles/battleend
-
-
-#Battle start and music
-execute as @a[scores={BattleStart=1..,MusicCooldown=0},tag=BattleMusicCooldown] run tag @s remove BattleMusicCooldown
-execute as @a[scores={BattleStart=1..},tag=!BattleMusicCooldown] run function kanto:triggers/battles/battlestart
-
-
-
-
-
 #removes MusicCooldown score for music timings
 scoreboard players remove @a[scores={MusicCooldown=1..}] MusicCooldown 1
-
-
-
-
 
 
 #------------------------------------------------------------------------------

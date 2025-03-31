@@ -63,7 +63,7 @@ execute as @s[tag=!RadioOff,scores={BattleStart=16}] run stopsound @s record
 execute as @s[tag=!RadioOff,scores={BattleStart=16}] run playsound battlerivalfinal record @s ~ ~ ~ 1 1 1
 execute as @s[tag=!RadioOff,scores={BattleStart=16}] run scoreboard players set @s MusicCooldown 219
 
-#17 - Wild battle (unused)
+#17 - Wild battle
 execute as @s[tag=!RadioOff,scores={BattleStart=17}] run stopsound @s record
 execute as @s[tag=!RadioOff,scores={BattleStart=17}] run playsound battlewild record @s ~ ~ ~ 1 1 1
 execute as @s[tag=!RadioOff,scores={BattleStart=17}] run scoreboard players set @s MusicCooldown 127

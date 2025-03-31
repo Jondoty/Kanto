@@ -125,6 +125,15 @@
         ]
       },
 
+      "victorywild": {
+      "sounds": [
+        {
+          "name":"battles/victorywild",
+          "stream": true
+          }
+        ]
+      },
+
 
 
 

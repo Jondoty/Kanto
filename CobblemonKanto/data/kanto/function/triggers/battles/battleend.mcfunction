@@ -14,6 +14,10 @@ execute as @s[tag=!RadioOff,scores={BattleEnd=3}] run stopsound @s record
 execute as @s[tag=!RadioOff,scores={BattleEnd=3}] run playsound victorygymleader record @s ~ ~ ~ 1 1 1
 execute as @s[tag=!RadioOff,scores={BattleEnd=3}] run scoreboard players set @s MusicCooldown 84
 
+#3 - Wild Pokemon Win
+execute as @s[tag=!RadioOff,scores={BattleEnd=4}] run stopsound @s record
+execute as @s[tag=!RadioOff,scores={BattleEnd=4}] run playsound victorywild record @s ~ ~ ~ 1 1 1
+execute as @s[tag=!RadioOff,scores={BattleEnd=4}] run scoreboard players set @s MusicCooldown 15
 
 #Gives player AllGyms tag
 tag @s[tag=Brock,tag=Misty,tag=Surge,tag=Erika,tag=Koga,tag=Sabrina,tag=Blaine,tag=Giovanni,tag=!AllGyms] add AllGyms
