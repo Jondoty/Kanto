@@ -122,8 +122,8 @@ playsound lavendertown record @s[x=2483,y=0,z=426,dx=159,dy=256,dz=129,scores={M
 scoreboard players set @s[x=2483,y=0,z=426,dx=159,dy=256,dz=129,scores={MusicCooldown=0}] MusicCooldown 158
 
 #Route 9
-playsound route4 record @s[x=2483,y=0,z=841,dx=367,dy=256,dz=97,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=2483,y=0,z=841,dx=367,dy=256,dz=97,scores={MusicCooldown=0}] MusicCooldown 97
+playsound route4 record @s[x=2638,y=0,z=841,dx=367,dy=256,dz=97,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2638,y=0,z=841,dx=367,dy=256,dz=97,scores={MusicCooldown=0}] MusicCooldown 97
 
 #Route 10
 playsound route4 record @s[x=2483,y=0,z=556,dx=154,dy=256,dz=382,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
@@ -439,6 +439,22 @@ scoreboard players set @s[x=4354,y=0,z=1894,dx=176,dy=200,dz=141,scores={MusicCo
 #Power Plant
 playsound pokemonmansion record @s[x=4590,y=30,z=1785,dx=226,dy=50,dz=190,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=4590,y=30,z=1785,dx=226,dy=50,dz=190,scores={MusicCooldown=0}] MusicCooldown 171
+
+#Altering Cave
+playsound mtmoon record @s[x=3129,y=0,z=1912,dx=175,dy=100,dz=129,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3129,y=0,z=1912,dx=175,dy=100,dz=129,scores={MusicCooldown=0}] MusicCooldown 224
+
+#Seafoam Islands
+playsound viridianforest record @s[x=3506,y=0,z=1641,dx=206,dy=256,dz=133,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3506,y=0,z=1641,dx=206,dy=256,dz=133,scores={MusicCooldown=0}] MusicCooldown 226
+
+#Cerulean Cave
+playsound rocketgamecorner record @s[x=2779,y=0,z=1845,dx=236,dy=256,dz=149,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2779,y=0,z=1845,dx=236,dy=256,dz=149,scores={MusicCooldown=0}] MusicCooldown 171
+
+#Victory Road
+playsound victoryroad record @s[x=3506,y=0,z=1393,dx=325,dy=256,dz=180,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3506,y=0,z=1393,dx=325,dy=256,dz=180,scores={MusicCooldown=0}] MusicCooldown 100
 
 
 #---------------------------------------------------------------------------------------------
