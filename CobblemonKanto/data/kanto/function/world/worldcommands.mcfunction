@@ -21,6 +21,8 @@ function kanto:triggers/pokemoncenters
 #Runs Cave warps
 execute as @a run function kanto:world/caveportals
 
+#Escape Ropes, when used minecraft.used:minecraft.ender_eye
+execute as @a[scores={EscapeRopeUse=1..}] run function kanto:triggers/escaperope
 
 #------------------------------------------------------------------------------
 #HMs
