@@ -30,6 +30,13 @@ tag @s remove FlyLavender
 tag @s remove FlyVermilion
 tag @s remove FlyFuchsia
 tag @s remove FlyCinnabar
+tag @s remove FlyOne
+tag @s remove FlyTwo
+tag @s remove FlyThree
+tag @s remove FlyFour
+tag @s remove FlyFive
+tag @s remove FlySix
+tag @s remove FlySeven
 
 
 #Removes misc tags
