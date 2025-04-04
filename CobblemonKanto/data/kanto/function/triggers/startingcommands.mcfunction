@@ -39,8 +39,8 @@ tag @s remove FirstSong
 
 
 #Removes existing Quest tags
-
-
+tag @s remove LiftKey
+tag @s remove Surf
 
 
 
