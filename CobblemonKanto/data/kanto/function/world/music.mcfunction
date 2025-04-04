@@ -456,6 +456,10 @@ scoreboard players set @s[x=2779,y=0,z=1845,dx=236,dy=256,dz=149,scores={MusicCo
 playsound victoryroad record @s[x=3506,y=0,z=1393,dx=325,dy=256,dz=180,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=3506,y=0,z=1393,dx=325,dy=256,dz=180,scores={MusicCooldown=0}] MusicCooldown 100
 
+#Pokemon Mansion
+playsound pokemonmansion record @s[x=3805,y=33,z=1636,dx=253,dy=256,dz=155,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3805,y=33,z=1636,dx=253,dy=256,dz=155,scores={MusicCooldown=0}] MusicCooldown 171
+
 
 #---------------------------------------------------------------------------------------------
 

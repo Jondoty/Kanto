@@ -144,6 +144,32 @@
                 ],
                 "minX": 3608, "maxX": 3870, "minZ": -489, "maxZ": -338
             }
+        },
+        {
+            "id": "rattata-10",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-28",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3805, "maxX": 4058, "minY": 47, "maxY": 88, "minZ": 1636, "maxZ": 1791
+            }
+        },
+        {
+            "id": "rattata-11",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3805, "maxX": 4058, "minY": 30, "maxY": 43, "minZ": 1636, "maxZ": 1791
+            }
         }
     ]
 }

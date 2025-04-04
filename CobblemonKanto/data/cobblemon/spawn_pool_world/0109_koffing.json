@@ -17,6 +17,33 @@
             "condition": {
                 "minX": 3335, "maxX": 3637, "minZ": 396, "maxZ": 599
             }
+        },
+
+        {
+            "id": "koffing-2",
+            "pokemon": "grimer",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-30",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3805, "maxX": 4058, "minY": 47, "maxY": 88, "minZ": 1636, "maxZ": 1791
+            }
+        },
+        {
+            "id": "koffing-3",
+            "pokemon": "grimer",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-30",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3805, "maxX": 4058, "minY": 30, "maxY": 43, "minZ": 1636, "maxZ": 1791
+            }
         }
     ]
 }

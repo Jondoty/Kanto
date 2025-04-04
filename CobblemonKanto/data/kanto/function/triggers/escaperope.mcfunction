@@ -123,10 +123,11 @@ execute as @s[scores={EscapeRope=2}] run tp @s 3593 34 904 180 12
 
 
 #Pokémon Mansion
-#execute as @s[] run effect give @s minecraft:blindness 3 1 true
-#execute as @s[] run playsound door ambient @s ~ ~ ~ 1 1 1
-#execute as @s[] run tellraw @s {"text":"You used an Escape Rope!","italic":true,"color":"gray"}
-#execute as @s[] run tp @s 4185 35 -703 180 12
+execute as @s[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] run tag @s add EscapeRopeUse
+execute as @s[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] run effect give @s minecraft:blindness 3 1 true
+execute as @s[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] run tellraw @s {"text":"You used an Escape Rope!","italic":true,"color":"gray"}
+execute as @s[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] run tp @s 4185 35 -703 180 12
 
 
 

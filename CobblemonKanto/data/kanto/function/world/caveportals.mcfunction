@@ -922,11 +922,19 @@ execute as @e[x=4425,y=165,z=1853,dx=5,dy=5,dz=5] at @s if block 4425 168 1857 m
 execute as @e[x=4425,y=165,z=1853,dx=5,dy=5,dz=5] at @s if block 4425 168 1857 minecraft:stone_button[powered=true] run setblock 4425 168 1857 minecraft:stone_button[facing=east,powered=false]
 
 #--------------------------
+#Pokemon Mansion
+
+#Switches Puzzle
 
 
+#Staircases
+#Near void
+tp @e[x=3835,y=66,z=1699,dx=8,dy=8,dz=5] 3833 79 1709 90 12
+tp @e[x=3835,y=75,z=1707,dx=8,dy=7,dz=7] 3845 65 1702 -90 12
 
-
-
+#North edge
+tp @e[x=3915,y=66,z=1766,dx=8,dy=8,dz=5] 3915 79 1758 90 12
+tp @e[x=3917,y=75,z=1756,dx=7,dy=7,dz=6] 3924 65 1768 -90 12
 
 
 

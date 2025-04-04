@@ -4,41 +4,26 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "grimer-1",
-            "pokemon": "grimer",
-            "type": "pokemon",
-            "context": "fishing",
-            "bucket": "common",
-            "level": "30-40",
-            "weight": 5.0,
-            "condition": {
-                "minX": 3335, "maxX": 3637, "minZ": 396, "maxZ": 599,
-                "minLureLevel": 3,
-                "maxLureLevel": 3
-            }
-        },
-
-        {
-            "id": "grimer-2",
-            "pokemon": "grimer",
+            "id": "muk-1",
+            "pokemon": "muk",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "28-30",
-            "weight": 15,
+            "level": "32",
+            "weight": 5,
             "condition": {
                 "canSeeSky": false,
                 "minX": 3805, "maxX": 4058, "minY": 47, "maxY": 88, "minZ": 1636, "maxZ": 1791
             }
         },
         {
-            "id": "grimer-3",
-            "pokemon": "grimer",
+            "id": "muk-2",
+            "pokemon": "muk",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "28-30",
-            "weight": 15,
+            "level": "34",
+            "weight": 5,
             "condition": {
                 "canSeeSky": false,
                 "minX": 3805, "maxX": 4058, "minY": 30, "maxY": 43, "minZ": 1636, "maxZ": 1791

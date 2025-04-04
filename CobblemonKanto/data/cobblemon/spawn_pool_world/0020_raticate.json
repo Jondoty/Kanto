@@ -49,6 +49,33 @@
                 ],
                 "minX": 3608, "maxX": 3870, "minZ": -489, "maxZ": -338
             }
+        },
+
+        {
+            "id": "raticate-4",
+            "pokemon": "raticate",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-36",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3805, "maxX": 4058, "minY": 47, "maxY": 88, "minZ": 1636, "maxZ": 1791
+            }
+        },
+        {
+            "id": "raticate-5",
+            "pokemon": "raticate",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "34-38",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3805, "maxX": 4058, "minY": 30, "maxY": 43, "minZ": 1636, "maxZ": 1791
+            }
         }
     ]
 }

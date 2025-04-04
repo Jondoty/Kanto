@@ -542,9 +542,9 @@ execute as @s[x=4046,y=0,z=703,dx=227,dy=256,dz=201,tag=!Indoors] unless entity 
 
 
 #Pokémon Mansion (Interior)
-#execute as @s[] unless entity @s[scores={Location=72}] run title @s actionbar {"text":""}
-#execute as @s[] unless entity @s[scores={Location=72}] run function kanto:triggers/stopsound
-#execute as @s[] unless entity @s[scores={Location=72}] run scoreboard players set @s Location 72
+execute as @s[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] unless entity @s[scores={Location=72}] run title @s actionbar {"text":"Pokémon Mansion"}
+execute as @s[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] unless entity @s[scores={Location=72}] run function kanto:triggers/stopsound
+execute as @s[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] unless entity @s[scores={Location=72}] run scoreboard players set @s Location 72
 
 
 
