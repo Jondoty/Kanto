@@ -197,6 +197,10 @@ scoreboard players set @s[x=3333,y=0,z=-489,dx=274,dy=256,dz=194,scores={MusicCo
 playsound celadoncity record @s[x=3335,y=0,z=396,dx=302,dy=256,dz=203,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=3335,y=0,z=396,dx=302,dy=256,dz=203,scores={MusicCooldown=0}] MusicCooldown 119
 
+#Celadon Condos
+playsound celadoncity record @s[x=3475,y=-5,z=531,dx=33,dy=31,dz=37,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3475,y=-5,z=531,dx=33,dy=31,dz=37,scores={MusicCooldown=0}] MusicCooldown 119
+
 #Route 19
 playsound route4 record @s[x=3373,y=0,z=-839,dx=164,dy=256,dz=349,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=3373,y=0,z=-839,dx=164,dy=256,dz=349,scores={MusicCooldown=0}] MusicCooldown 97

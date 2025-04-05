@@ -145,6 +145,17 @@ tp @s[x=3061,y=-10,z=566,dx=3,dy=3] 3063 35 565
 #Celadon Rocket Hideout
 tp @s[x=3450,y=29,z=500,dx=1,dy=3,dz=1] 4599 89 1685 90 12
 
+#Celadon Condos
+tp @s[x=3481,y=35,z=532,dx=2,dy=2] 3482 -4 533
+tp @s[x=3481,y=-4,z=532,dx=3,dy=3] 3482 34 530
+
+#Back Door
+tp @s[x=3483,y=34,z=556,dx=3,dy=3] 3503 -4 566
+tp @s[x=3501,y=-4,z=567,dx=3,dy=3] 3484 34 557
+
+#Roof
+tp @s[x=3506,y=70,z=546,dz=1,dy=1] 3497 18 564 ~ ~12
+
 #-------------------------------------------------------------------------------------------------------------
 #Victory Road (route side)
 scoreboard players set @s[x=4493,y=34,z=890,dx=4,dy=4] EscapeRope 7

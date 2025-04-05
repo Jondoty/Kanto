@@ -56,6 +56,11 @@ execute as @s[x=4147,y=0,z=437,dx=144,dy=256,dz=163] unless entity @s[scores={Lo
 execute as @s[x=4147,y=0,z=437,dx=144,dy=256,dz=163] run tag @s add Indoors
 
 
+#Celadon Condominiums
+execute as @s[x=3475,y=-5,z=531,dx=33,dy=31,dz=37] unless entity @s[scores={Location=8}] run title @s actionbar {"text":"Celadon Condominiums"}
+execute as @s[x=3475,y=-5,z=531,dx=33,dy=31,dz=37] unless entity @s[scores={Location=8}] run scoreboard players set @s Location 8
+execute as @s[x=3475,y=-5,z=531,dx=33,dy=31,dz=37] run tag @s add Indoors
+
 #--------------------------------------------------------------
 
 #Altering Cave
@@ -102,15 +107,8 @@ execute as @s[x=3224,y=0,z=-2169,dx=216,dy=256,dz=187] unless entity @s[scores={
 
 #Celadon City
 execute as @s[x=3335,y=0,z=396,dx=302,dy=256,dz=203,tag=!Indoors] unless entity @s[scores={Location=7}] run title @s actionbar {"text":"Celadon City"}
-execute as @s[x=3335,y=0,z=396,dx=302,dy=256,dz=203,tag=!Indoors] unless entity @s[scores={Location=7}] run function kanto:triggers/stopsound
+execute as @s[x=3335,y=0,z=396,dx=302,dy=256,dz=203,tag=!Indoors] unless entity @s[scores={Location=7}] unless entity @s[scores={Location=8}] run function kanto:triggers/stopsound
 execute as @s[x=3335,y=0,z=396,dx=302,dy=256,dz=203,tag=!Indoors] unless entity @s[scores={Location=7}] run scoreboard players set @s Location 7
-
-
-
-#Celadon Condominiums
-#execute as @s[] unless entity @s[scores={Location=8}] run title @s actionbar {"text":"Celadon Condominiums"}
-#execute as @s[] unless entity @s[scores={Location=8}] run function kanto:triggers/stopsound
-#execute as @s[] unless entity @s[scores={Location=8}] run scoreboard players set @s Location 8
 
 
 
