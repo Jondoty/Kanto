@@ -1,6 +1,6 @@
 {  
     "hitbox": "player",
-    "resourceIdentifier": "cobblemon:hiker",
+    "resourceIdentifier": "cobblemon:camper",
     "presets": ["cobblemon:trainer_basics"],
     "interaction": {
         "type": "dialogue",

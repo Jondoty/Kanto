@@ -1,16 +1,16 @@
 {  
     "hitbox": "player",
-    "resourceIdentifier": "cobblemon:cueball",
+    "resourceIdentifier": "cobblemon:picknicker",
     "presets": ["cobblemon:trainer_basics"],
     "interaction": {
         "type": "dialogue",
-        "dialogue": "cobblemon:cueball_hideo_interaction"
+        "dialogue": "cobblemon:picknicker_celia_interaction"
     },
-        "name": "Hideo",
+        "name": "Celia",
         "party": {
         "type": "simple",
         "pokemon": [
-            "Weezing level=33"
+            "Clefairy level=33"
         ]
     },
     "config": [
@@ -33,7 +33,7 @@
             "displayName": "npc.variable.on_player_wins.name",
             "description": "npc.variable.on_player_wins.desc",
             "type": "TEXT",
-            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue cueball_hideo_end @s');"
+            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue picknicker_celia_end @s');"
           }
     ]
 }

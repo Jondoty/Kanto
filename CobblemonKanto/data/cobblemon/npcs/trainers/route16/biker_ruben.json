@@ -1,16 +1,18 @@
 {  
     "hitbox": "player",
-    "resourceIdentifier": "cobblemon:picknicker",
+    "resourceIdentifier": "cobblemon:biker",
     "presets": ["cobblemon:trainer_basics"],
     "interaction": {
         "type": "dialogue",
-        "dialogue": "cobblemon:picknicker_diana_interaction"
+        "dialogue": "cobblemon:biker_ruben_interaction"
     },
-        "name": "Diana",
+        "name": "Ruben",
         "party": {
         "type": "simple",
         "pokemon": [
-            "Goldeen level=19"
+            "Weezing level=28",
+            "Koffing level=28",
+            "Weezing level=28"
         ]
     },
     "config": [
@@ -33,7 +35,7 @@
             "displayName": "npc.variable.on_player_wins.name",
             "description": "npc.variable.on_player_wins.desc",
             "type": "TEXT",
-            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue picknicker_diana_end @s');"
+            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue biker_ruben_end @s');"
           }
     ]
 }

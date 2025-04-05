@@ -1,18 +1,16 @@
 {  
     "hitbox": "player",
-    "resourceIdentifier": "cobblemon:cueball",
+    "resourceIdentifier": "cobblemon:picknicker",
     "presets": ["cobblemon:trainer_basics"],
     "interaction": {
         "type": "dialogue",
-        "dialogue": "cobblemon:cueball_ruben_interaction"
+        "dialogue": "cobblemon:picknicker_caitlin_interaction"
     },
-        "name": "Ruben",
+        "name": "Caitlin",
         "party": {
         "type": "simple",
         "pokemon": [
-            "Weezing level=28",
-            "Koffing level=28",
-            "Weezing level=28"
+            "Meowth level=20"
         ]
     },
     "config": [
@@ -35,7 +33,7 @@
             "displayName": "npc.variable.on_player_wins.name",
             "description": "npc.variable.on_player_wins.desc",
             "type": "TEXT",
-            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue cueball_ruben_end @s');"
+            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue picknicker_caitlin_end @s');"
           }
     ]
 }
