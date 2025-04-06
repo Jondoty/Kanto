@@ -1912,6 +1912,13 @@ execute as @s[x=4257,y=34,z=-4048,distance=..4,tag=!ItemLoot386] run tag @s add 
 #387-390 Trainer Tower
 
 
+execute as @s[x=4182,y=34,z=-49,distance=..4,tag=ItemLoot392] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=4182,y=34,z=-49,distance=..4,tag=!ItemLoot392] run give @s cobblemon:potion
+execute as @s[x=4182,y=34,z=-49,distance=..4,tag=!ItemLoot392] run tellraw @s {"text":"You recieved a Potion!","italic":true,"color":"gray"}
+execute as @s[x=4182,y=34,z=-49,distance=..4,tag=!ItemLoot392] run playsound getitem ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=4182,y=34,z=-49,distance=..4,tag=!ItemLoot392] run tag @s add ItemLoot392
+
+
 
 advancement revoke @s only kanto:advancement/click/itemclick
 tag @s remove ItemLoot
