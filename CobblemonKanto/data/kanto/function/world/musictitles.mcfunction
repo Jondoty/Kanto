@@ -589,9 +589,9 @@ execute as @s[x=3176,y=0,z=1392,dx=239,dy=256,dz=415] unless entity @s[scores={L
 
 
 #Rocket Warehouse (Interior)
-#execute as @s[] unless entity @s[scores={Location=78}] run title @s actionbar {"text":"Rocket Warehouse"}
-#execute as @s[] unless entity @s[scores={Location=78}] run function kanto:triggers/stopsound
-#execute as @s[] unless entity @s[scores={Location=78}] run scoreboard players set @s Location 78
+execute as @s[x=3056,y=-15,z=-3063,dx=90,dy=15,dz=80] unless entity @s[scores={Location=78}] run title @s actionbar {"text":"Rocket Warehouse"}
+execute as @s[x=3056,y=-15,z=-3063,dx=90,dy=15,dz=80] unless entity @s[scores={Location=78}] run function kanto:triggers/stopsound
+execute as @s[x=3056,y=-15,z=-3063,dx=90,dy=15,dz=80] unless entity @s[scores={Location=78}] run scoreboard players set @s Location 78
 
 
 

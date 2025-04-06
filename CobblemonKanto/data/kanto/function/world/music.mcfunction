@@ -454,7 +454,7 @@ scoreboard players set @s[x=3506,y=0,z=1641,dx=206,dy=256,dz=133,scores={MusicCo
 
 #Cerulean Cave
 playsound rocketgamecorner record @s[x=2779,y=0,z=1845,dx=236,dy=256,dz=149,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=2779,y=0,z=1845,dx=236,dy=256,dz=149,scores={MusicCooldown=0}] MusicCooldown 171
+scoreboard players set @s[x=2779,y=0,z=1845,dx=236,dy=256,dz=149,scores={MusicCooldown=0}] MusicCooldown 169
 
 #Victory Road
 playsound victoryroad record @s[x=3506,y=0,z=1393,dx=325,dy=256,dz=180,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
@@ -463,6 +463,10 @@ scoreboard players set @s[x=3506,y=0,z=1393,dx=325,dy=256,dz=180,scores={MusicCo
 #Pokemon Mansion
 playsound pokemonmansion record @s[x=3805,y=33,z=1636,dx=253,dy=256,dz=155,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=3805,y=33,z=1636,dx=253,dy=256,dz=155,scores={MusicCooldown=0}] MusicCooldown 171
+
+#Rocket Warehouse
+playsound rocketgamecorner record @s[x=3056,y=-15,z=-3063,dx=90,dy=15,dz=80,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3056,y=-15,z=-3063,dx=90,dy=15,dz=80,scores={MusicCooldown=0}] MusicCooldown 169
 
 
 #---------------------------------------------------------------------------------------------
