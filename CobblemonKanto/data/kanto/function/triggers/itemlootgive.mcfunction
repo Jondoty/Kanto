@@ -1953,6 +1953,11 @@ execute as @s[x=4182,y=34,z=-49,distance=..4,tag=!ItemLoot392] run tellraw @s {"
 execute as @s[x=4182,y=34,z=-49,distance=..4,tag=!ItemLoot392] run playsound getitem ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=4182,y=34,z=-49,distance=..4,tag=!ItemLoot392] run tag @s add ItemLoot392
 
+execute as @s[x=3481,y=71,z=540,distance=..4,tag=ItemLoot393] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=3481,y=71,z=540,distance=..4,tag=!ItemLoot393] run pokegive togepi level=5
+execute as @s[x=3481,y=71,z=540,distance=..4,tag=!ItemLoot393] run tellraw @s {"text":"You received a Togepi!","italic":true,"color":"gray"}
+execute as @s[x=3481,y=71,z=540,distance=..4,tag=!ItemLoot393] run playsound getpokemon ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3481,y=71,z=540,distance=..4,tag=!ItemLoot393] run tag @s add ItemLoot393
 
 
 advancement revoke @s only kanto:advancement/click/itemclick
