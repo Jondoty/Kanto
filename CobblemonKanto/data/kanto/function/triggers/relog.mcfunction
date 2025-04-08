@@ -4,8 +4,8 @@ tag @s remove TrainerBattleMusic
 tag @s remove GymLeaderBattleMusic
 tag @s remove RivalBattleMusic
 
-#Resets any current music remains
-scoreboard players set @s MusicCooldown 0
+#Resets the player's location score so the map displays new location and refeshes music
+scoreboard players set @s Location 0
 
 
-scoreboard players set @s Relog 0
+scoreboard players set @s relog 0

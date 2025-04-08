@@ -11,7 +11,7 @@ execute as @e[type=cobblemon:npc,nbt={PersistenceRequired:0b}] run data merge en
 execute as @a run function kanto:world/musictitles
 
 #Relog trigger
-execute as @a[scores={Relog=1..}] run function kanto:triggers/relog
+execute as @a[scores={relog=1..}] run function kanto:triggers/relog
 
 
 #Gives player Pokemon Center commands, fly map tags and spawnpoints
