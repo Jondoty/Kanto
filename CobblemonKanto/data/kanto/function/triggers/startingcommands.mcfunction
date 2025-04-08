@@ -17,6 +17,7 @@ scoreboard players set @s Location 0
 scoreboard players add @s Money 2000
 give @s cobblemon:pokedex_blue
 function kanto:spawn/radio
+function kanto:spawn/runningshoes
 
 
 #Removes FlyMap Progress

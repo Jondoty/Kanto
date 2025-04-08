@@ -24,6 +24,10 @@ execute as @a run function kanto:world/caveportals
 #Escape Ropes, when used minecraft.used:minecraft.ender_eye
 execute as @a[scores={EscapeRopeUse=1..}] run function kanto:triggers/escaperope
 
+#Running Shoes Effects
+execute as @a[nbt={Inventory:[{Slot:100b,id:"minecraft:golden_boots"}]}] run effect give @s minecraft:speed 30 2 true
+execute as @a unless entity @s[nbt={Inventory:[{Slot:100b,id:"minecraft:golden_boots"}]}] run effect clear @s minecraft:speed
+
 #------------------------------------------------------------------------------
 #HMs
 
