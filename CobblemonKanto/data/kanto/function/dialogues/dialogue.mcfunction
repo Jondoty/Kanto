@@ -683,7 +683,7 @@ tag @s[scores={DialogueTrigger=34,TalkTime=10..}] add Dialogue34
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue 35 - Route 2
-#Elm's Aide 30 dex count
+#Elm's Aide 10 dex count
 #https://youtu.be/_6uv4msYJiM?t=15357
 #Reset these tags after each day if player doesn't recieve the item
 
