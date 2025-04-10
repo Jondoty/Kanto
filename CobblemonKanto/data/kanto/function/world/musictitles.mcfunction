@@ -481,7 +481,7 @@ execute as @s[x=3926,y=40,z=1182,dx=30,dy=20,dz=30] unless entity @s[scores={Loc
 #Memorial Pillar
 execute as @s[x=2881,y=0,z=-3357,dx=130,dy=256,dz=325] unless entity @s[scores={Location=60}] run title @s actionbar {"text":"Memorial Pillar"}
 execute as @s[x=2881,y=0,z=-3357,dx=130,dy=256,dz=325] unless entity @s[scores={Location=60}] unless entity @s[scores={Location=21}] run function kanto:triggers/stopsound
-execute as @s[x=2881,y=0,z=-3357,dx=130,dy=256,dz=325] unless entity @s[scores={Location=60}] run scoreboard players set @s Location 59
+execute as @s[x=2881,y=0,z=-3357,dx=130,dy=256,dz=325] unless entity @s[scores={Location=60}] run scoreboard players set @s Location 60
 
 
 
