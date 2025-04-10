@@ -1,0 +1,1 @@
+give @s iron_hoe[minecraft:hide_tooltip={},custom_name='["",{"text":"Town Map","italic":false,"color":"aqua"}]',unbreakable={},custom_model_data=68]
