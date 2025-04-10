@@ -28,6 +28,9 @@ execute as @a[scores={EscapeRopeUse=1..}] run function kanto:triggers/escaperope
 execute as @a[nbt={Inventory:[{Slot:100b,id:"minecraft:golden_boots"}]}] run effect give @s minecraft:speed 30 2 true
 execute as @a unless entity @s[nbt={Inventory:[{Slot:100b,id:"minecraft:golden_boots"}]}] run effect clear @s minecraft:speed
 
+#Town Map function when selecting the item
+execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Town Map"}],"text":""}'}}}] run function kanto:world/townmap
+
 #------------------------------------------------------------------------------
 #HMs
 
