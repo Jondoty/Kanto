@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [256, 256],
 	"textures": {
-		"0": "townmap/74",
-		"particle": "townmap/74"
+		"0": "item/townmap/74",
+		"particle": "item/townmap/74"
 	},
 	"elements": [
 		{
