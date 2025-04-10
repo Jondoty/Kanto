@@ -3,7 +3,7 @@
 	"texture_size": [256, 256],
 	"textures": {
 		"0": "item/townmap/103",
-		"particle": "item/townmap/104"
+		"particle": "item/townmap/103"
 	},
 	"elements": [
 		{
