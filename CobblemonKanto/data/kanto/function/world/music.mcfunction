@@ -105,6 +105,14 @@ execute at @e[type=armor_stand,name=PokemonCenter] run playsound pokemoncenter r
 execute at @e[type=armor_stand,name=PokemonCenter] run scoreboard players set @a[distance=..11,tag=!RadioOff,scores={MusicCooldown=0}] MusicCooldown 100
 
 
+#Underground Path (Kanto Routes 5-6)
+playsound route1 record @s[x=3062,y=26,z=327,dx=10,dy=6,dz=320,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=3062,y=26,z=327,dx=10,dy=6,dz=320,scores={MusicCooldown=0}] MusicCooldown 76
+
+#Underground Path (Kanto Routes 7-8)
+playsound route1 record @s[x=2910,y=18,z=464,dx=414,dy=6,dz=70,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2910,y=18,z=464,dx=414,dy=6,dz=70,scores={MusicCooldown=0}] MusicCooldown 76
+
 
 #---------------------------------------------------------------------------------------------
 #Lowest-Priority music (general area world music), nothing else above found
@@ -467,6 +475,8 @@ scoreboard players set @s[x=3805,y=33,z=1636,dx=253,dy=256,dz=155,scores={MusicC
 #Rocket Warehouse
 playsound rocketgamecorner record @s[x=3056,y=-15,z=-3063,dx=90,dy=15,dz=80,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=3056,y=-15,z=-3063,dx=90,dy=15,dz=80,scores={MusicCooldown=0}] MusicCooldown 169
+
+
 
 
 #---------------------------------------------------------------------------------------------
