@@ -32,6 +32,12 @@ execute as @a unless entity @s[nbt={Inventory:[{Slot:100b,id:"minecraft:golden_b
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Town Map"}],"text":""}'}}}] run function kanto:world/townmap
 execute as @a[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Town Map"}],"text":""}'}}]}] run function kanto:world/townmap
 
+
+
+#Combines Sprint to StepCooldown 
+execute as @a run scoreboard players operation @s StepCooldown += @s SprintCount
+scoreboard players set @a SprintCount 0
+
 #------------------------------------------------------------------------------
 #HMs
 

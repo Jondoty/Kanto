@@ -974,18 +974,162 @@ tp @e[x=3484,y=64,z=2003,dx=2,dy=5,dz=2] 3512 121 1942 180 12
 tp @e[x=3511,y=128,z=1941,dx=2,dy=2,dz=2] 3483 71 2006 95 12
 
 #--------------------------
+#Kanto Power Plant
+#Back area warp
+execute as @s[x=4776,y=34,z=1908,dy=3] run playsound minecraft:entity.enderman.teleport ambient @s ~ ~ ~ 1000 1 1
+tp @s[x=4776,y=34,z=1908,dy=3] 2602 34 728 180 12
 
 
+#--------------------------
+#Saffron Gym Portals
+#Game Guide https://gamefaqs.gamespot.com/gba/918916-pokemon-leafgreen-version/map/1210?raw=1
+
+#Player steps on a block meant to represent a portal
+#If a player's Step count is above 300ish, teleport the player
+#execute store checks if the player has teleported. If sucessful teleport, resets the player's StepCooldown to not teleport them again at destination.
 
 
+#Combines Sprint to StepCooldown 
+execute as @a run scoreboard players operation @s StepCooldown += @s SprintCount
+scoreboard players set @a SprintCount 0
 
+execute as @a[x=4429,y=32,z=1475,dx=78,dy=10,dz=63,scores={StepCooldown=300..}] at @s if block ~ ~ ~ minecraft:light_blue_carpet run playsound minecraft:entity.enderman.teleport ambient @s ~ ~ ~ 1000 1 1
 
+#A
+execute store success score @s CommandSuccess as @a[x=4458,y=34,z=1485,dy=3,scores={StepCooldown=300..}] run tp @s 4432 34 1478
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
 
+execute store success score @s CommandSuccess as @a[x=4432,y=34,z=1478,dy=3,scores={StepCooldown=300..}] run tp @s 4458 34 1485
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
 
+#B
+execute store success score @s CommandSuccess as @a[x=4432,y=34,z=1487,dy=3,scores={StepCooldown=300..}] run tp @s 4432 34 1508
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
 
+execute store success score @s CommandSuccess as @a[x=4432,y=34,z=1508,dy=3,scores={StepCooldown=300..}] run tp @s 4432 34 1487
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
 
+#C
+execute store success score @s CommandSuccess as @a[x=4452,y=34,z=1487,dy=3,scores={StepCooldown=300..}] run tp @s 4432 34 1529
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
 
+execute store success score @s CommandSuccess as @a[x=4432,y=34,z=1529,dy=3,scores={StepCooldown=300..}] run tp @s 4452 34 1487
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
 
+#D
+execute store success score @s CommandSuccess as @a[x=4484,y=34,z=1487,dy=3,scores={StepCooldown=300..}] run tp @s 4452 34 1478
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+execute store success score @s CommandSuccess as @a[x=4452,y=34,z=1478,dy=3,scores={StepCooldown=300..}] run tp @s 4484 34 1487
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+#E
+execute store success score @s CommandSuccess as @a[x=4484,y=34,z=1478,dy=3,scores={StepCooldown=300..}] run tp @s 4484 34 1499
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+execute store success score @s CommandSuccess as @a[x=4484,y=34,z=1499,dy=3,scores={StepCooldown=300..}] run tp @s 4484 34 1478
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+#F
+execute store success score @s CommandSuccess as @a[x=4504,y=34,z=1478,dy=3,scores={StepCooldown=300..}] run tp @s 4464 34 1520
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+execute store success score @s CommandSuccess as @a[x=4464,y=34,z=1520,dy=3,scores={StepCooldown=300..}] run tp @s 4504 34 1478
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+#G
+execute store success score @s CommandSuccess as @a[x=4504,y=34,z=1487,dy=3,scores={StepCooldown=300..}] run tp @s 4432 34 1520
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+execute store success score @s CommandSuccess as @a[x=4432,y=34,z=1520,dy=3,scores={StepCooldown=300..}] run tp @s 4504 34 1487
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+#H
+execute store success score @s CommandSuccess as @a[x=4452,y=34,z=1529,dy=3,scores={StepCooldown=300..}] run tp @s 4452 34 1508
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+execute store success score @s CommandSuccess as @a[x=4452,y=34,z=1508,dy=3,scores={StepCooldown=300..}] run tp @s 4452 34 1529
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+#I
+execute store success score @s CommandSuccess as @a[x=4504,y=34,z=1529,dy=3,scores={StepCooldown=300..}] run tp @s 4452 34 1520
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+execute store success score @s CommandSuccess as @a[x=4452,y=34,z=1520,dy=3,scores={StepCooldown=300..}] run tp @s 4504 34 1529
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+#J
+execute store success score @s CommandSuccess as @a[x=4484,y=34,z=1529,dy=3,scores={StepCooldown=300..}] run tp @s 4464 34 1529
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+execute store success score @s CommandSuccess as @a[x=4464,y=34,z=1529,dy=3,scores={StepCooldown=300..}] run tp @s 4484 34 1529
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+#K
+execute store success score @s CommandSuccess as @a[x=4504,y=34,z=1499,dy=3,scores={StepCooldown=300..}] run tp @s 4484 34 1520
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+execute store success score @s CommandSuccess as @a[x=4484,y=34,z=1520,dy=3,scores={StepCooldown=300..}] run tp @s 4504 34 1499
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+#L
+execute store success score @s CommandSuccess as @a[x=4504,y=34,z=1508,dy=3,scores={StepCooldown=300..}] run tp @s 4432 34 1499
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+execute store success score @s CommandSuccess as @a[x=4432,y=34,z=1499,dy=3,scores={StepCooldown=300..}] run tp @s 4504 34 1508
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+#M
+execute store success score @s CommandSuccess as @a[x=4473,y=34,z=1529,dy=3,scores={StepCooldown=300..}] run tp @s 4452 34 1499
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+execute store success score @s CommandSuccess as @a[x=4452,y=34,z=1499,dy=3,scores={StepCooldown=300..}] run tp @s 4473 34 1529
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+#N
+execute store success score @s CommandSuccess as @a[x=4484,y=34,z=1508,dy=3,scores={StepCooldown=300..}] run tp @s 4473 34 1520
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+execute store success score @s CommandSuccess as @a[x=4473,y=34,z=1520,dy=3,scores={StepCooldown=300..}] run tp @s 4484 34 1508
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+#O (to Sabrina)
+execute store success score @s CommandSuccess as @a[x=4504,y=34,z=1520,dy=3,scores={StepCooldown=300..}] run tp @s 4458 34 1499
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
+
+#to lobby
+execute store success score @s CommandSuccess as @a[x=4458,y=34,z=1499,dy=3,scores={StepCooldown=300..}] run tp @s 4458 34 1485
+execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
+scoreboard players set @s CommandSuccess 0
 
 
 
