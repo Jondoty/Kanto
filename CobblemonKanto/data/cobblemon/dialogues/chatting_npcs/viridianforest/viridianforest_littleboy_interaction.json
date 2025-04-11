@@ -15,7 +15,7 @@
             "id": "greeting",
             "speaker": "npc",
             "lines": [
-                "I came here with some friends to catch us some Bug Pokémon!"
+                "I was throwing Poké Balls to catch Pokémon, and I ran out."
             ],
             "input": {
                 "type": "option",
@@ -33,7 +33,7 @@
             "id": "page2",
             "speaker": "npc",
             "lines": [
-                "They’re all itching to get into some Pokémon battles!"
+                "That’s why you can never have too many Poké Balls."
             ],
             "input": {
                 "type": "option",

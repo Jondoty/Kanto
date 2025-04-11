@@ -58,24 +58,6 @@
                 "vertical": false,
                 "options": [
                     {
-                        "text": "Next",
-                        "value": "next",
-                        "action": "q.dialogue.set_page('page4');"
-                    }
-                ]
-            }
-        },
-        {
-            "id": "page4",
-            "speaker": "npc",
-            "lines": [
-                "Snore…"
-            ],
-            "input": {
-                "type": "option",
-                "vertical": false,
-                "options": [
-                    {
                         "text": "Close",
                         "value": "close",
                         "action": [

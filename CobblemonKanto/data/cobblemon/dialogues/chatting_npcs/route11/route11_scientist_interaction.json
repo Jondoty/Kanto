@@ -1,11 +1,11 @@
 {   
     "speakers": {
         "npc": {
-          "name": "Gym Guy",
+          "name": "Oak's Aide",
           "face": {
             "type": "artificial",
             "modelType": "npc",
-            "identifier": "cobblemon:supernerd",
+            "identifier": "cobblemon:scientistm",
             "isLeftSide": true
           }
         }
@@ -15,7 +15,7 @@
             "id": "greeting",
             "speaker": "npc",
             "lines": [
-                "Hiya! Do you want to dream big?"
+                "Hi! Remember me? I'm one of Prof. Oak's Aides."
             ],
             "input": {
                 "type": "option",
@@ -33,7 +33,7 @@
             "id": "page2",
             "speaker": "npc",
             "lines": [
-                "Do you dare to dream of becoming the Pokémon champ?"
+                "If you've caught or evolved 30 species for your Pokédex, I'm supposed to give you a reward."
             ],
             "input": {
                 "type": "option",
@@ -51,7 +51,7 @@
             "id": "page3",
             "speaker": "npc",
             "lines": [
-                "I'm no Trainer, but I can advise you on how to win."
+                "Prof. Oak entrusted me with the ItemFinder for you."
             ],
             "input": {
                 "type": "option",
@@ -60,7 +60,9 @@
                     {
                         "text": "Next",
                         "value": "next",
-                        "action": "q.dialogue.set_page('page4');"
+                        "action": [
+                        "q.dialogue.set_page('page4');"
+                    ]
                     }
                 ]
             }
@@ -69,7 +71,7 @@
             "id": "page4",
             "speaker": "npc",
             "lines": [
-                "Let me take you to the top!"
+                "So, let me ask you."
             ],
             "input": {
                 "type": "option",
@@ -78,7 +80,9 @@
                     {
                         "text": "Next",
                         "value": "next",
-                        "action": "q.dialogue.set_page('page5');"
+                        "action": [
+                        "q.dialogue.set_page('page5');"
+                    ]
                     }
                 ]
             }
@@ -87,7 +91,7 @@
             "id": "page5",
             "speaker": "npc",
             "lines": [
-                "All right! Let's get happening!"
+                "Have you gathered data on at least 30 kinds of Pokémon?"
             ],
             "input": {
                 "type": "option",
@@ -96,7 +100,9 @@
                     {
                         "text": "Next",
                         "value": "next",
-                        "action": "q.dialogue.set_page('page6');"
+                        "action": [
+                        "q.dialogue.set_page('page6');"
+                    ]
                     }
                 ]
             }
@@ -105,43 +111,7 @@
             "id": "page6",
             "speaker": "npc",
             "lines": [
-                "The first Pokémon out in a match is at the left of the Pokémon List."
-            ],
-            "input": {
-                "type": "option",
-                "vertical": false,
-                "options": [
-                    {
-                        "text": "Next",
-                        "value": "next",
-                        "action": "q.dialogue.set_page('page7');"
-                    }
-                ]
-            }
-        },
-        {
-            "id": "page7",
-            "speaker": "npc",
-            "lines": [
-                "By changing the order of Pokémon, you may gain an advantage."
-            ],
-            "input": {
-                "type": "option",
-                "vertical": false,
-                "options": [
-                    {
-                        "text": "Next",
-                        "value": "next",
-                        "action": "q.dialogue.set_page('page8');"
-                    }
-                ]
-            }
-        },
-        {
-            "id": "page8",
-            "speaker": "npc",
-            "lines": [
-                "Try different orders to suit your opponent's party."
+                "Come see me when you have!"
             ],
             "input": {
                 "type": "option",

@@ -1,6 +1,6 @@
 {  
     "hitbox": "player",
-    "resourceIdentifier": "cobblemon:engineer",
+    "resourceIdentifier": "cobblemon:scientistm",
     "presets": [],
     "variation": {
         "dirt": [
@@ -12,9 +12,9 @@
     },
     "interaction": {
         "type": "dialogue",
-        "dialogue": "cobblemon:cerulean_engineer_interaction"
+        "dialogue": "cobblemon:route11_scientist_interaction"
     },
-        "name": "     ",
+        "name": "Oak's Aide",
         "party": {
         "type": "simple",
         "pokemon": [

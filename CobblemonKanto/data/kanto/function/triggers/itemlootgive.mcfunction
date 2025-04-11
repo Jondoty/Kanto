@@ -1959,6 +1959,11 @@ execute as @s[x=3481,y=71,z=540,distance=..4,tag=!ItemLoot393] run tellraw @s {"
 execute as @s[x=3481,y=71,z=540,distance=..4,tag=!ItemLoot393] run playsound getpokemon ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=3481,y=71,z=540,distance=..4,tag=!ItemLoot393] run tag @s add ItemLoot393
 
+execute as @s[x=3452,y=34,z=458,distance=..4,tag=ItemLoot394] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=3452,y=34,z=458,distance=..4,tag=!ItemLoot394] run tag @s add CoinCase
+execute as @s[x=3452,y=34,z=458,distance=..4,tag=!ItemLoot394] run tellraw @s {"text":"You recieved a Coin Case! You can now get coins in the Game Corner.","italic":true,"color":"gray"}
+execute as @s[x=3452,y=34,z=458,distance=..4,tag=!ItemLoot394] run playsound getitem ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3452,y=34,z=458,distance=..4,tag=!ItemLoot394] run tag @s add ItemLoot394
 
 advancement revoke @s only kanto:advancement/click/itemclick
 tag @s remove ItemLoot
