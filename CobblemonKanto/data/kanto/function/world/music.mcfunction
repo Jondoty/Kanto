@@ -476,6 +476,9 @@ scoreboard players set @s[x=3805,y=33,z=1636,dx=253,dy=256,dz=155,scores={MusicC
 playsound rocketgamecorner record @s[x=3056,y=-15,z=-3063,dx=90,dy=15,dz=80,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=3056,y=-15,z=-3063,dx=90,dy=15,dz=80,scores={MusicCooldown=0}] MusicCooldown 169
 
+#Dotted Hole
+playsound viridianforest record @s[x=4091,y=33,z=1720,dx=54,dy=101,dz=44,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4091,y=33,z=1720,dx=54,dy=101,dz=44,scores={MusicCooldown=0}] MusicCooldown 227
 
 
 

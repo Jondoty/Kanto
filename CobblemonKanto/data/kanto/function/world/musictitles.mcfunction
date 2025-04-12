@@ -171,9 +171,9 @@ execute as @s[x=2750,y=0,z=1394,dx=320,dy=256,dz=290] unless entity @s[scores={L
 
 
 #Dotted Hole
-#execute as @s[] unless entity @s[scores={Location=16}] run title @s actionbar {"text":""}
-#execute as @s[] unless entity @s[scores={Location=16}] run function kanto:triggers/stopsound
-#execute as @s[] unless entity @s[scores={Location=16}] run scoreboard players set @s Location 16
+execute as @s[x=4091,y=33,z=1720,dx=54,dy=101,dz=44] unless entity @s[scores={Location=16}] run title @s actionbar {"text":"Dotted Hole"}
+execute as @s[x=4091,y=33,z=1720,dx=54,dy=101,dz=44] unless entity @s[scores={Location=16}] run function kanto:triggers/stopsound
+execute as @s[x=4091,y=33,z=1720,dx=54,dy=101,dz=44] unless entity @s[scores={Location=16}] run scoreboard players set @s Location 16
 
 
 

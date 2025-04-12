@@ -1131,21 +1131,45 @@ execute store success score @s CommandSuccess as @a[x=4458,y=34,z=1499,dy=3,scor
 execute as @a[scores={CommandSuccess=1..}] run scoreboard players set @s StepCooldown 0
 scoreboard players set @s CommandSuccess 0
 
+#--------------------------
+#Dotted Hole
+
+#bottom ladder to top
+tp @e[x=4109,y=43,z=1746,dx=2,dy=5,dz=2] 4098 124 1746 -90 7
+tp @e[x=4097,y=119,z=1742,dx=2,dy=3,dz=2] 4110 39 1747 180 7
+
+#Ground Floor first drop 
+tp @e[x=4118,y=118,z=1742,dx=2,dy=4,dz=2] 4119 113 1736
+
+#Order: North, East, South, West
+
+#B1F (go north)
+#4119 95 1736
+tp @e[x=4118,y=101,z=1754,dx=2,dy=4,dz=2] 4119 95 1736
+tp @e[x=4103,y=101,z=1742,dx=2,dy=4,dz=2] 4119 131 1735
+tp @e[x=4118,y=101,z=1730,dx=2,dy=4,dz=2] 4119 131 1735
+tp @e[x=4133,y=101,z=1742,dx=2,dy=4,dz=2] 4119 131 1735
+
+#B2F (go west)
+#4119 77 1736
+tp @e[x=4118,y=84,z=1754,dx=2,dy=4,dz=2] 4119 131 1735
+tp @e[x=4103,y=84,z=1742,dx=2,dy=4,dz=2] 4119 131 1735
+tp @e[x=4118,y=84,z=1730,dx=2,dy=4,dz=2] 4119 131 1735
+tp @e[x=4133,y=84,z=1742,dx=2,dy=4,dz=2] 4119 77 1736
 
 
+#B3F (go east)
+#4119 62 1736
+tp @e[x=4118,y=67,z=1754,dx=2,dy=4,dz=2] 4119 131 1735
+tp @e[x=4103,y=67,z=1742,dx=2,dy=4,dz=2] 4119 62 1736
+tp @e[x=4118,y=67,z=1730,dx=2,dy=4,dz=2] 4119 131 1735
+tp @e[x=4134,y=67,z=1742,dx=2,dy=4,dz=2] 4119 131 1735
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#B3F (go south)
+#4119 46 1737
+tp @e[x=4118,y=50,z=1754,dx=2,dy=4,dz=2] 4119 131 1735
+tp @e[x=4103,y=50,z=1742,dx=2,dy=4,dz=2] 4119 131 1735
+tp @e[x=4118,y=50,z=1730,dx=2,dy=4,dz=2] 4119 46 1737
+tp @e[x=4134,y=50,z=1742,dx=2,dy=4,dz=2] 4119 131 1735
 
 #
