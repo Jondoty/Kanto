@@ -39,6 +39,11 @@ execute as @a run function kanto:world/roadblocks
 execute as @a run scoreboard players operation @s StepCooldown += @s SprintCount
 scoreboard players set @a SprintCount 0
 
+#Runs troubleshooting infolist
+scoreboard players enable @a info
+execute as @a[scores={info=1..}] run function tools:infolist
+
+
 #------------------------------------------------------------------------------
 #HMs
 
