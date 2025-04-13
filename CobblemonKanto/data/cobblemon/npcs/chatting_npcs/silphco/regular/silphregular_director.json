@@ -1,6 +1,6 @@
 {  
     "hitbox": "player",
-    "resourceIdentifier": "cobblemon:scientistm",
+    "resourceIdentifier": "cobblemon:gentleman",
     "presets": [],
     "variation": {
         "dirt": [
@@ -12,9 +12,9 @@
     },
     "interaction": {
         "type": "dialogue",
-        "dialogue": "cobblemon:safari_scientist2_interaction"
+        "dialogue": "cobblemon:silphregular_director_interaction"
     },
-        "name": "     ",
+        "name": "Silph Director",
         "party": {
         "type": "simple",
         "pokemon": [

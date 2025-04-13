@@ -1,11 +1,11 @@
 {   
     "speakers": {
         "npc": {
-          "name": "     ",
+          "name": "Silph Director",
           "face": {
             "type": "artificial",
             "modelType": "npc",
-            "identifier": "cobblemon:engineer",
+            "identifier": "cobblemon:gentleman",
             "isLeftSide": true
           }
         }
@@ -15,7 +15,7 @@
             "id": "greeting",
             "speaker": "npc",
             "lines": [
-                "Oh! Hi! You're not a Rocket! You came to save us? Why, thank you!"
+                "Oh, thank you for saving Silph. I will never forget you saved us in our moment of peril. "
             ],
             "input": {
                 "type": "option",
@@ -33,7 +33,7 @@
             "id": "page2",
             "speaker": "npc",
             "lines": [
-                "I want you to have this Pokémon for saving us."
+                "I have to thank you in some way."
             ],
             "input": {
                 "type": "option",
@@ -51,7 +51,7 @@
             "id": "page3",
             "speaker": "npc",
             "lines": [
-                "It's a Lapras. It's a very intelligent Pokémon."
+                "Because I am rich, I can give you anything. Here, maybe this will do."
             ],
             "input": {
                 "type": "option",
@@ -69,7 +69,7 @@
             "id": "page4",
             "speaker": "npc",
             "lines": [
-                "We kept it in our lab, but it will be much better off with you. "
+                "You can't buy that anywhere. It's our secret prototype Master Ball."
             ],
             "input": {
                 "type": "option",
@@ -87,7 +87,7 @@
             "id": "page5",
             "speaker": "npc",
             "lines": [
-                "I think you will be a good Trainer for Lapras!"
+                "It will catch any Pokémon without fail! You should be quiet about using it, though."
             ],
             "input": {
                 "type": "option",

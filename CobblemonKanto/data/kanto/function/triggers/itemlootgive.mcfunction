@@ -736,7 +736,7 @@ execute as @s[x=4433,y=153,z=1958,distance=..4,tag=!ItemLoot144] run tag @s add 
 
 execute as @s[x=4419,y=166,z=1974,distance=..4,tag=ItemLoot145] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
 execute as @s[x=4419,y=166,z=1974,distance=..4,tag=!ItemLoot145] run give @s cobblemon:master_ball
-execute as @s[x=4419,y=166,z=1974,distance=..4,tag=!ItemLoot145] run tellraw @s {"text":"You found a Master Ball!","italic":true,"color":"gray"}
+execute as @s[x=4419,y=166,z=1974,distance=..4,tag=!ItemLoot145] run tellraw @s {"text":"You received a Master Ball!","italic":true,"color":"gray"}
 execute as @s[x=4419,y=166,z=1974,distance=..4,tag=!ItemLoot145] run playsound getitem ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=4419,y=166,z=1974,distance=..4,tag=!ItemLoot145] run tag @s add ItemLoot145
 
@@ -1953,17 +1953,30 @@ execute as @s[x=4182,y=34,z=-49,distance=..4,tag=!ItemLoot392] run tellraw @s {"
 execute as @s[x=4182,y=34,z=-49,distance=..4,tag=!ItemLoot392] run playsound getitem ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=4182,y=34,z=-49,distance=..4,tag=!ItemLoot392] run tag @s add ItemLoot392
 
-execute as @s[x=3481,y=71,z=540,distance=..4,tag=ItemLoot393] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
-execute as @s[x=3481,y=71,z=540,distance=..4,tag=!ItemLoot393] run pokegive togepi level=5
-execute as @s[x=3481,y=71,z=540,distance=..4,tag=!ItemLoot393] run tellraw @s {"text":"You received a Togepi!","italic":true,"color":"gray"}
-execute as @s[x=3481,y=71,z=540,distance=..4,tag=!ItemLoot393] run playsound getpokemon ambient @s ~ ~ ~ 1 1 1
-execute as @s[x=3481,y=71,z=540,distance=..4,tag=!ItemLoot393] run tag @s add ItemLoot393
+execute as @s[x=3376,y=34,z=-2913,distance=..4,tag=ItemLoot393] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=3376,y=34,z=-2913,distance=..4,tag=!ItemLoot393] run pokegive togepi level=5
+execute as @s[x=3376,y=34,z=-2913,distance=..4,tag=!ItemLoot393] run tellraw @s {"text":"You received a Togepi!","italic":true,"color":"gray"}
+execute as @s[x=3376,y=34,z=-2913,distance=..4,tag=!ItemLoot393] run playsound getpokemon ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3376,y=34,z=-2913,distance=..4,tag=!ItemLoot393] run tag @s add ItemLoot393
 
 execute as @s[x=3452,y=34,z=458,distance=..4,tag=ItemLoot394] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
 execute as @s[x=3452,y=34,z=458,distance=..4,tag=!ItemLoot394] run tag @s add CoinCase
 execute as @s[x=3452,y=34,z=458,distance=..4,tag=!ItemLoot394] run tellraw @s {"text":"You recieved a Coin Case! You can now get coins in the Game Corner.","italic":true,"color":"gray"}
 execute as @s[x=3452,y=34,z=458,distance=..4,tag=!ItemLoot394] run playsound getitem ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=3452,y=34,z=458,distance=..4,tag=!ItemLoot394] run tag @s add ItemLoot394
+
+execute as @s[x=4474,y=114,z=1838,distance=..4,tag=ItemLoot395] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=4474,y=114,z=1838,distance=..4,tag=!ItemLoot395] run pokegive lapras level=15
+execute as @s[x=4474,y=114,z=1838,distance=..4,tag=!ItemLoot395] run tellraw @s {"text":"You received a Lapras!","italic":true,"color":"gray"}
+execute as @s[x=4474,y=114,z=1838,distance=..4,tag=!ItemLoot395] run playsound getpokemon ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=4474,y=114,z=1838,distance=..4,tag=!ItemLoot395] run tag @s add ItemLoot395
+
+
+execute as @s[x=2805,y=-5,z=-1619,distance=..4,tag=ItemLoot396] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=2805,y=-5,z=-1619,distance=..4,tag=!ItemLoot396] run scoreboard players add @s Money 5000
+execute as @s[x=2805,y=-5,z=-1619,distance=..4,tag=!ItemLoot396] run tellraw @s {"text":"You recieved $5,000!","italic":true,"color":"gray"}
+execute as @s[x=2805,y=-5,z=-1619,distance=..4,tag=!ItemLoot396] run playsound getitem ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2805,y=-5,z=-1619,distance=..4,tag=!ItemLoot396] run tag @s add ItemLoot396
 
 advancement revoke @s only kanto:advancement/click/itemclick
 tag @s remove ItemLoot
