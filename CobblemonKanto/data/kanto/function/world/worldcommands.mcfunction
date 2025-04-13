@@ -43,6 +43,8 @@ scoreboard players set @a SprintCount 0
 scoreboard players enable @a info
 execute as @a[scores={info=1..}] run function tools:infolist
 
+#Runs Safari Zone specific commands, tracks steps and displays progress
+execute as @a[x=3191,y=0,z=-294,dx=510,dy=256,dz=245] run function kanto:world/safarizone
 
 #------------------------------------------------------------------------------
 #HMs

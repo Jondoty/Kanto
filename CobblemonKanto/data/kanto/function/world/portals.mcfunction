@@ -44,7 +44,23 @@ tp @s[x=4624,y=34,z=1476,dx=4,dy=5] 4107 34 248
 
 #-------------------------------------------------------------------------------------------------------------
 #Safari Zone
-tp @s[x=3453,y=35,z=-294,dx=3,dy=5] 3454 34 -290
+
+#Entrance
+execute as @s[x=3453,y=35,z=-294,dx=3,dy=5,scores={Money=..499}] run tellraw @s {"text":"You need more money for the Safari Zone!","italic":true,"color":"gray"}
+execute as @s[x=3453,y=35,z=-294,dx=3,dy=5,scores={Money=..499}] run scoreboard players set @s StepCooldown 0
+execute as @s[x=3453,y=35,z=-294,dx=3,dy=5,scores={Money=..499}] run scoreboard players set @s SafariBar 0
+execute as @s[x=3453,y=35,z=-294,dx=3,dy=5,scores={Money=..499}] run tp @s ~ ~ ~-4
+
+execute as @s[x=3453,y=35,z=-294,dx=3,dy=5,scores={Money=500..}] run give @s cobblemon:safari_ball 32
+execute as @s[x=3453,y=35,z=-294,dx=3,dy=5,scores={Money=500..}] run scoreboard players set @s StepCooldown 0
+execute as @s[x=3453,y=35,z=-294,dx=3,dy=5,scores={Money=500..}] run scoreboard players set @s SafariBar 0
+execute as @s[x=3453,y=35,z=-294,dx=3,dy=5,scores={Money=500..}] run tag @s remove SafariMoneyDeduct
+tp @s[x=3453,y=35,z=-294,dx=3,dy=5,scores={Money=500..}] 3454 34 -290
+
+#Exit
+execute as @s[x=3453,y=35,z=-292,dx=3,dy=5] run scoreboard players add @s StepCooldown 200000
+execute as @s[x=3453,y=35,z=-292,dx=3,dy=5] run function kanto:world/safarizone
+execute as @s[x=3453,y=35,z=-292,dx=3,dy=5] run tellraw @s {"text":"<Safari Clerk> Did you catch your fair share? Come again!"}
 tp @s[x=3453,y=35,z=-292,dx=3,dy=5] 3455 35 -295
 
 
