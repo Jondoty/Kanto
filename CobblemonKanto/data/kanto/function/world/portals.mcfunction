@@ -130,6 +130,7 @@ tp @s[x=4437,y=34,z=1624,dx=5,dy=5] 2545 34 505
 
 #Takeover version
 #TBD
+tp @s[x=4461,y=36,z=1800,dx=7,dy=5] 3108 34 473
 
 #Non-takeover version
 tp @s[x=3106,y=34,z=474,dx=3,dy=3] 4464 36 1944
