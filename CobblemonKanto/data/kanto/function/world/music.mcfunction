@@ -48,27 +48,10 @@ scoreboard players set @s[tag=RivalBattleMusic,scores={MusicCooldown=0}] MusicCo
 
 
 #---------------------------------------------------------------------------------------------
-#Secondary Priority (Riding Entities)
+#Secondary Priority (Dialogue-based event music)
 
-#Removes riding tags if found
-#tag @s remove BikeCheck
-#tag @s remove RideCheck
-
-
-#tag @s add Temp
-
-#execute @s ~ ~-3 ~ execute @e[type=pixelmon:bike,dy=3] ~ ~1 ~ playsound cycling record @a[dy=5,scores={MusicCooldown=0},tag=Temp] ~ ~ ~ 1 1 1
-#execute @s ~ ~-3 ~ execute @e[type=pixelmon:bike,dy=3] ~ ~1 ~ scoreboard players tag @a[dy=5,scores={MusicCooldown=0},tag=Temp] add BikeCheck
-#execute @s ~ ~-3 ~ execute @e[type=pixelmon:bike,dy=3] ~ ~1 ~ scoreboard players set @a[dy=5,scores={MusicCooldown=0},tag=Temp] MusicCooldown 100
-#
-#execute @s ~ ~-3 ~ execute @e[type=pixelmon:pixelmon,dy=2] ~ ~ ~ playsound thesea record @a[dy=5,scores={MusicCooldown=0},tag=Temp] ~ ~ ~ 1 1 1
-#execute @s ~ ~-3 ~ execute @e[type=pixelmon:pixelmon,dy=2] ~ ~ ~ scoreboard players tag @a[dy=5,scores={MusicCooldown=0},tag=Temp] add RideCheck
-#execute @s ~ ~-3 ~ execute @e[type=pixelmon:pixelmon,dy=2] ~ ~ ~ scoreboard players set @a[dy=5,scores={MusicCooldown=0},tag=Temp] MusicCooldown 97
-
-
-
-
-#tag @s remove Temp
+playsound endingtheme record @s[scores={DialogueTrigger=106,MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={DialogueTrigger=106,MusicCooldown=0}] MusicCooldown 360
 
 #---------------------------------------------------------------------------------------------
 #Buildings within larger areas

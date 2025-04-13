@@ -104,10 +104,9 @@ scoreboard players remove @a[scores={MusicCooldown=1..}] MusicCooldown 1
 #------------------------------------------------------------------------------
 #Dialogues Triggers
 
-
 execute as @a[tag=!InDialogue] run function kanto:dialogues/dialoguetriggers
 
-
+execute as @a[scores={DialogueTrigger=1..}] run function kanto:dialogues/dialogue
 
 
 

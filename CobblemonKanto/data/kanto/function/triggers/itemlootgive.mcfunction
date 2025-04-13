@@ -1978,6 +1978,25 @@ execute as @s[x=2805,y=-5,z=-1619,distance=..4,tag=!ItemLoot396] run tellraw @s 
 execute as @s[x=2805,y=-5,z=-1619,distance=..4,tag=!ItemLoot396] run playsound getitem ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=2805,y=-5,z=-1619,distance=..4,tag=!ItemLoot396] run tag @s add ItemLoot396
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Starts the Hall of Fame room credits
+execute as @s[x=4608,y=27,z=1306,distance=..10,scores={DialogueTrigger=0}] run scoreboard players set @s DialogueTrigger 106
+
+
+
 advancement revoke @s only kanto:advancement/click/itemclick
 tag @s remove ItemLoot
 
