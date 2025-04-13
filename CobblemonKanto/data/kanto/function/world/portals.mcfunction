@@ -203,6 +203,63 @@ scoreboard players set @s[x=3536,y=122,z=1654,dx=5,dy=5] EscapeRope 0
 tp @s[x=3536,y=122,z=1654,dx=5,dy=5] 3748 34 -760
 
 #-------------------------------------------------------------------------------------------------------------
+#Elite Four
+#Removes any tags for the members
+execute as @s[x=4456,y=61,z=1118,dx=4,dy=3] run tag @s remove Agatha
+execute as @s[x=4456,y=61,z=1118,dx=4,dy=3] run tag @s remove Bruno
+execute as @s[x=4456,y=61,z=1118,dx=4,dy=3] run tag @s remove Lance
+execute as @s[x=4456,y=61,z=1118,dx=4,dy=3] run tag @s remove Lorelei
+execute as @s[x=4456,y=61,z=1118,dx=4,dy=3] run tag @s remove Blue
+
+#Main Door
+execute as @s[x=4456,y=61,z=1118,dx=4,dy=3] run tp @s 4608 18 855 0 5
+execute as @s[x=4606,y=18,z=854,dx=4,dy=3] run tp @s 4458 61 1117
+
+#Lorelei door
+execute as @s[x=4607,y=18,z=935,dx=2,dy=2,tag=!Lorelei] run tellraw @s {"text":"You need to defeat Lorelei to proceed!","italic":true,"color":"gray"}
+execute as @s[x=4607,y=18,z=935,dx=2,dy=2,tag=!Lorelei] at @s run tp @s ~ ~ ~-5
+
+execute as @s[x=4607,y=18,z=935,dx=2,dy=2,tag=Lorelei] run function kanto:triggers/stopsound
+execute as @s[x=4607,y=18,z=935,dx=2,dy=2,tag=Lorelei] run tp @s 4608 18 938
+
+execute as @s[x=4607,y=18,z=937,dx=2,dy=2] run function kanto:triggers/stopsound
+execute as @s[x=4607,y=18,z=937,dx=2,dy=2] run tp @s 4608 18 934
+
+
+#Bruno door
+execute as @s[x=4607,y=18,z=1005,dx=2,dy=2,tag=!Bruno] run tellraw @s {"text":"You need to defeat Bruno to proceed!","italic":true,"color":"gray"}
+execute as @s[x=4607,y=18,z=1005,dx=2,dy=2,tag=!Bruno] at @s run tp @s ~ ~ ~-5
+
+execute as @s[x=4607,y=18,z=1005,dx=2,dy=2,tag=Bruno] run function kanto:triggers/stopsound
+execute as @s[x=4607,y=18,z=1005,dx=2,dy=2,tag=Bruno] run tp @s 4608 18 1008
+
+execute as @s[x=4607,y=18,z=1007,dx=2,dy=2] run function kanto:triggers/stopsound
+execute as @s[x=4607,y=18,z=1007,dx=2,dy=2] run tp @s 4608 18 1004
+
+
+#Agatha door
+execute as @s[x=4607,y=18,z=1075,dx=2,dy=2,tag=!Agatha] run tellraw @s {"text":"You need to defeat Agatha to proceed!","italic":true,"color":"gray"}
+execute as @s[x=4607,y=18,z=1075,dx=2,dy=2,tag=!Agatha] at @s run tp @s ~ ~ ~-5
+
+execute as @s[x=4607,y=18,z=1075,dx=2,dy=2,tag=Agatha] run function kanto:triggers/stopsound
+execute as @s[x=4607,y=18,z=1075,dx=2,dy=2,tag=Agatha] run tp @s 4608 18 1078
+
+execute as @s[x=4607,y=18,z=1077,dx=2,dy=2] run function kanto:triggers/stopsound
+execute as @s[x=4607,y=18,z=1077,dx=2,dy=2] run tp @s 4608 18 1074
+
+
+
+#Lance
+execute as @s[x=4607,y=18,z=1145,dx=2,dy=2,tag=!Lance] run tellraw @s {"text":"You need to defeat Lance to proceed!","italic":true,"color":"gray"}
+execute as @s[x=4607,y=18,z=1145,dx=2,dy=2,tag=!Lance] at @s run tp @s ~ ~ ~-5
+
+execute as @s[x=4607,y=18,z=1145,dx=2,dy=2,tag=Lance] run tp @s 4608 18 1148
+
+execute as @s[x=4607,y=18,z=1147,dx=2,dy=2] run tp @s 4608 18 1144
+
+
+
+#-------------------------------------------------------------------------------------------------------------
 #Mt. Ember
 
 #Ruby line (bottom right on mountain)

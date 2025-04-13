@@ -1,0 +1,154 @@
+{
+  "initializationAction": [
+      "c.npc.set_chatting();",
+      "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 2');",
+      "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
+      "q.run_command('execute as ' + q.player.username + ' run tag ' + q.player.username + ' add Blue');",
+      "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $6,300 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+      "q.run_command('scoreboard players add ' + q.player.username + ' Money 6300');"
+  ],
+  "speakers": {
+      "npc": {
+          "name": "Blue",
+          "face": {
+              "type": "artificial",
+              "modelType": "npc",
+              "identifier": "cobblemon:blue",
+              "isLeftSide": true
+          }
+      }
+  },
+  "pages": [
+      {
+          "id": "greeting",
+          "speaker": "npc",
+          "lines": [
+              "NO! That can't be! You beat me at my best!"
+          ],
+          "input": {
+              "type": "option",
+              "vertical": false,
+              "options": [
+                  {
+                      "text": "Next",
+                      "value": "next",
+                      "action": "q.dialogue.set_page('page2');"
+                  }
+              ]
+          }
+      },
+      {
+          "id": "page2",
+          "speaker": "npc",
+          "lines": [
+              "After all that work to become the League Champ?"
+          ],
+          "input": {
+              "type": "option",
+              "vertical": false,
+              "options": [
+                  {
+                      "text": "Next",
+                      "value": "next",
+                      "action": "q.dialogue.set_page('page3');"
+                  }
+              ]
+          }
+      },
+      {
+        "id": "page3",
+        "speaker": "npc",
+        "lines": [
+            "My reign is over already? It's not fair!"
+        ],
+        "input": {
+            "type": "option",
+            "vertical": false,
+            "options": [
+                {
+                    "text": "Next",
+                    "value": "next",
+                    "action": "q.dialogue.set_page('page4');"
+                }
+            ]
+        }
+    },
+    {
+        "id": "page4",
+        "speaker": "npc",
+        "lines": [
+            "Why? Why did I lose?"
+        ],
+        "input": {
+            "type": "option",
+            "vertical": false,
+            "options": [
+                {
+                    "text": "Next",
+                    "value": "next",
+                    "action": "q.dialogue.set_page('page5');"
+                }
+            ]
+        }
+    },
+    {
+        "id": "page5",
+        "speaker": "npc",
+        "lines": [
+            "I never made any mistakes raising my Pokémon…"
+        ],
+        "input": {
+            "type": "option",
+            "vertical": false,
+            "options": [
+                {
+                    "text": "Next",
+                    "value": "next",
+                    "action": "q.dialogue.set_page('page6');"
+                }
+            ]
+        }
+    },
+    {
+        "id": "page6",
+        "speaker": "npc",
+        "lines": [
+            "Darn it! You're the new Pokémon League Champion!"
+        ],
+        "input": {
+            "type": "option",
+            "vertical": false,
+            "options": [
+                {
+                    "text": "Next",
+                    "value": "next",
+                    "action": "q.dialogue.set_page('page7');"
+                }
+            ]
+        }
+    },
+      {
+          "id": "page7",
+          "speaker": "npc",
+          "lines": [
+              "Head through that door behind me."
+          ],
+          "input": {
+              "type": "option",
+              "vertical": false,
+              "options": [
+                  {
+                      "text": "Close",
+                      "value": "close",
+                      "action": [
+                          "q.dialogue.close();"
+                      ]
+                  }
+              ]
+          }
+      }
+  ],
+  "escapeAction": [
+      "q.dialogue.close();"
+  ]
+}
