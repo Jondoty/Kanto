@@ -1978,7 +1978,7 @@ execute as @s[x=2805,y=-5,z=-1619,distance=..4,tag=!ItemLoot396] run tellraw @s 
 execute as @s[x=2805,y=-5,z=-1619,distance=..4,tag=!ItemLoot396] run playsound getitem ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=2805,y=-5,z=-1619,distance=..4,tag=!ItemLoot396] run tag @s add ItemLoot396
 
-
+#ItemLoot397 one time shop item
 
 
 
