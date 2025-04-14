@@ -46,6 +46,9 @@ execute as @a[scores={info=1..}] run function tools:infolist
 #Runs Safari Zone specific commands, tracks steps and displays progress
 execute as @a[x=3191,y=0,z=-294,dx=510,dy=256,dz=245] run function kanto:world/safarizone
 
+#Runs TriggerCommands function, score activated by shops and dialogues to run several commands together
+execute as @a[scores={TriggerCommand=1..}] run function kanto:triggers/triggercommand
+
 #------------------------------------------------------------------------------
 #HMs
 
