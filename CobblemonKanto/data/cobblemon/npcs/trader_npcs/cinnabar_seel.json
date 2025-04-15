@@ -1,14 +1,14 @@
 {
-  "resourceIdentifier": "cobblemon:schoolboy",
+  "resourceIdentifier": "cobblemon:scientistm",
   "names": [
-    "§lTrader Reyley"
+    "§lTrader Clifton"
   ],
   "presets": [
     "trainer_basics"
   ],
   "interaction": {
     "type": "dialogue",
-    "dialogue": "cobblemon:route2_mrmime_interaction"
+    "dialogue": "cobblemon:cinnabar_seel_interaction"
   },
   "config": [
     {
@@ -16,28 +16,28 @@
       "displayName": "Trade Offer Pokemon for GUI",
       "description": "Trade Offer Pokemon (What is shown to user)",
       "type": "TEXT",
-      "defaultValue": "Mr. Mime"
+      "defaultValue": "Seel"
     },
     {
       "variableName": "trade_offered",
       "displayName": "Trade Offer Pokemon for MoLang",
       "description": "Trade Offer Pokemon along with any properties (All lowercase)",
       "type": "TEXT",
-      "defaultValue": "MrMime level=10 nickname=Mimien"
+      "defaultValue": "seel level=10 nickname=Seelor"
     },
     {
       "variableName": "trade_requested_display",
       "displayName": "Trade Requested Pokemon for GUI",
       "description": "Trade Requested Pokemon (What is shown to user)",
       "type": "TEXT",
-      "defaultValue": "Abra"
+      "defaultValue": "Ponyta"
     },
     {
       "variableName": "trade_requested",
       "displayName": "Trade Request Pokemon for MoLang",
       "description": "Trade Request Pokemon along with any properties (All lowercase)",
       "type": "TEXT",
-      "defaultValue": "abra"
+      "defaultValue": "ponyta"
     },
     {
       "variableName": "trade_requested_min_level",
