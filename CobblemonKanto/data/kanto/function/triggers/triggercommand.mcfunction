@@ -1044,8 +1044,8 @@ execute as @a[scores={TriggerCommand=195,Money=3000..}] run scoreboard players r
 
 #-----------------------------
 #if player lacks a Coin Case
-execute as @a[scores={TriggerCommand=196..198}] run tellraw @s {"text":"You need a Coin Case to store these coins in!","italic":true,"color":"gray"}
-execute as @a[scores={TriggerCommand=196..198}] run scoreboard players set @s TriggerCommand 0
+execute as @a[scores={TriggerCommand=196..198},tag=!CoinCase] run tellraw @s {"text":"You need a Coin Case to store these coins in!","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=196..198},tag=!CoinCase] run scoreboard players set @s TriggerCommand 0
 
 #Game Corner Coins
 #50 Coins
@@ -1079,7 +1079,7 @@ execute as @a[scores={TriggerCommand=198,Money=10000..}] run scoreboard players 
 #-----------------------------
 #Game Corner Prizes
 
-#Link Cable
+#Smoke Ball
 execute as @a[scores={TriggerCommand=199,Coins=..99}] run tellraw @s {"text":"You need more Coins for this prize!","italic":true,"color":"gray"}
 execute as @a[scores={TriggerCommand=199,Coins=..99}] run scoreboard players set @s TriggerCommand 0
 
@@ -1106,7 +1106,7 @@ execute as @a[scores={TriggerCommand=201,Coins=..999}] run tellraw @s {"text":"Y
 execute as @a[scores={TriggerCommand=201,Coins=..999}] run scoreboard players set @s TriggerCommand 0
 
 execute as @a[scores={TriggerCommand=201,Coins=1000..}] run tellraw @s {"text":"You put the items in your inventory.","italic":true,"color":"gray"}
-execute as @a[scores={TriggerCommand=201,Coins=1000..}] run give @s cobblemon:charcoal 1
+execute as @a[scores={TriggerCommand=201,Coins=1000..}] run give @s cobblemon:charcoal_stick 1
 execute as @a[scores={TriggerCommand=201,Coins=1000..}] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
 execute as @a[scores={TriggerCommand=201,Coins=1000..}] run scoreboard players remove @s Coins 1000
 
