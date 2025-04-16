@@ -3,12 +3,50 @@
 #/scoreboard objectives add TriggerCommand dummy
 
 #-------------------
-#0-99, empty for now
+#0-90, empty for now
+
+
+
+#Sevii Island Transport Destinations
+execute as @a[scores={TriggerCommand=90..99}] run effect give @s minecraft:blindness 3 1 true
+
+#Vermilion
+execute as @a[scores={TriggerCommand=90}] run tp @s 3105 34 26 0 6
+
+#Birth Island
+execute as @a[scores={TriggerCommand=91}] run tp @s 3734 34 -3668 0 6
+
+#Naval Island
+#execute as @a[scores={TriggerCommand=92}] run tp @s 
+
+#One Island
+execute as @a[scores={TriggerCommand=93}] run tp @s 4306 34 -2437 0 6
+
+#Two Island
+execute as @a[scores={TriggerCommand=94}] run tp @s 3484 34 -2212 0 6
+
+#Three Island
+execute as @a[scores={TriggerCommand=95}] run tp @s 2835 34 -1683 0 6
+
+#Four Island
+execute as @a[scores={TriggerCommand=96}] run tp @s 4367 34 -3358 0 6
+
+#Five Island
+execute as @a[scores={TriggerCommand=97}] run tp @s 3186 34 -3030 0 6
+
+#Six Island
+execute as @a[scores={TriggerCommand=98}] run tp @s 2836 34 -4401 0 6
+
+#Seven Island
+execute as @a[scores={TriggerCommand=99}] run tp @s 4209 34 -4175 0 6
+
+
+
 
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#100-200, shopkeeper based triggers
+#100-250, shopkeeper based triggers
 
 #Poke Ball
 execute as @a[scores={TriggerCommand=100,Money=..199}] run tellraw @s {"text":"You don't have enough money for that!","italic":true,"color":"gray"}
