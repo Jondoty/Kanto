@@ -15,7 +15,7 @@
             "id": "greeting",
             "speaker": "npc",
             "lines": [
-                "Ahoy, there!"
+                "Ah, you have a Rainbow Pass."
             ],
             "input": {
                 "type": "option",
@@ -33,17 +33,12 @@
             "id": "page2",
             "speaker": "npc",
             "lines": [
-                "Where do you want to sail?"
+                "Would you like to board a Seagallop ferry?"
             ],
             "input": {
                 "type": "option",
                 "vertical": true,
                 "options": [
-                    {
-                        "text": "Vermilion",
-                        "value": "vermilion",
-                        "action": "q.dialogue.set_page('pickvermilion');"
-                    },
                     {
                         "text": "One Island",
                         "value": "oneisland",
@@ -58,6 +53,11 @@
                         "text": "Three Island",
                         "value": "threeisland",
                         "action": "q.dialogue.set_page('pickthreeisland');"
+                    },
+                    {
+                        "text": "Four Island",
+                        "value": "fourisland",
+                        "action": "q.dialogue.set_page('pickfourisland');"
                     },
                     {
                         "text": "Other >>",
@@ -77,11 +77,6 @@
                 "type": "option",
                 "vertical": true,
                 "options": [
-                    {
-                        "text": "Four Island",
-                        "value": "fourisland",
-                        "action": "q.dialogue.set_page('pickfourisland');"
-                    },
                     {
                         "text": "Five Island",
                         "value": "fiveisland",
@@ -107,31 +102,10 @@
         },
 
         {
-            "id": "pickvermilion",
-            "speaker": "npc",
-            "lines": [
-                "All right! All aboard Seagallop HI-Speed 7!"
-            ],
-            "input": {
-                "type": "option",
-                "vertical": false,
-                "options": [
-                    {
-                        "text": "Close",
-                        "value": "close",
-                        "action": [
-                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 0');",
-                            "q.dialogue.close();"
-                        ]
-                    }
-                ]
-            }
-        },
-        {
             "id": "pickoneisland",
             "speaker": "npc",
             "lines": [
-                "All right! All aboard Seagallop HI-Speed 7!"
+                "Okay, everything's in order. Seagallop HI-Speed 7 will be departing immediately."
             ],
             "input": {
                 "type": "option",
@@ -152,7 +126,7 @@
             "id": "picktwoisland",
             "speaker": "npc",
             "lines": [
-                "All right! All aboard Seagallop HI-Speed 7!"
+                "Okay, everything's in order. Seagallop HI-Speed 7 will be departing immediately."
             ],
             "input": {
                 "type": "option",
@@ -173,7 +147,7 @@
             "id": "pickthreeisland",
             "speaker": "npc",
             "lines": [
-                "All right! All aboard Seagallop HI-Speed 7!"
+                "Okay, everything's in order. Seagallop HI-Speed 7 will be departing immediately."
             ],
             "input": {
                 "type": "option",
@@ -194,7 +168,7 @@
             "id": "pickfourisland",
             "speaker": "npc",
             "lines": [
-                "All right! All aboard Seagallop HI-Speed 7!"
+                "Okay, everything's in order. Seagallop HI-Speed 7 will be departing immediately."
             ],
             "input": {
                 "type": "option",
@@ -215,7 +189,7 @@
             "id": "pickfiveisland",
             "speaker": "npc",
             "lines": [
-                "All right! All aboard Seagallop HI-Speed 7!"
+                "Okay, everything's in order. Seagallop HI-Speed 7 will be departing immediately."
             ],
             "input": {
                 "type": "option",
@@ -236,7 +210,7 @@
             "id": "picksixisland",
             "speaker": "npc",
             "lines": [
-                "All right! All aboard Seagallop HI-Speed 7!"
+                "Okay, everything's in order. Seagallop HI-Speed 7 will be departing immediately."
             ],
             "input": {
                 "type": "option",
@@ -257,7 +231,7 @@
             "id": "picksevenisland",
             "speaker": "npc",
             "lines": [
-                "All right! All aboard Seagallop HI-Speed 7!"
+                "Okay, everything's in order. Seagallop HI-Speed 7 will be departing immediately."
             ],
             "input": {
                 "type": "option",

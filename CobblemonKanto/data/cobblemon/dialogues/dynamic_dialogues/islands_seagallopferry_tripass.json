@@ -58,11 +58,6 @@
                         "text": "Three Island",
                         "value": "threeisland",
                         "action": "q.dialogue.set_page('pickthreeisland');"
-                    },
-                    {
-                        "text": "Other >>",
-                        "value": "other",
-                        "action": "q.dialogue.set_page('page3');"
                     }
                 ]
             }
