@@ -81,13 +81,6 @@ scoreboard players set @s[x=4097,y=12,z=-4376,dx=77,dy=20,dz=95,scores={MusicCoo
 playsound pewtercity record @s[x=3051,y=-11,z=565,dx=23,dy=10,dz=27,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=3051,y=-11,z=565,dx=23,dy=10,dz=27,scores={MusicCooldown=0}] MusicCooldown 173
 
-
-#Pokemon Centers
-#/summon armor_stand ~ ~3 ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:"PokemonCenter",DisabledSlots:2039583}
-execute at @e[type=armor_stand,name=PokemonCenter] run playsound pokemoncenter record @a[distance=..11,tag=!RadioOff,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-execute at @e[type=armor_stand,name=PokemonCenter] run scoreboard players set @a[distance=..11,tag=!RadioOff,scores={MusicCooldown=0}] MusicCooldown 100
-
-
 #Underground Path (Kanto Routes 5-6)
 playsound route1 record @s[x=3062,y=26,z=327,dx=10,dy=6,dz=320,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=3062,y=26,z=327,dx=10,dy=6,dz=320,scores={MusicCooldown=0}] MusicCooldown 76
@@ -95,6 +88,11 @@ scoreboard players set @s[x=3062,y=26,z=327,dx=10,dy=6,dz=320,scores={MusicCoold
 #Underground Path (Kanto Routes 7-8)
 playsound route1 record @s[x=2910,y=18,z=464,dx=414,dy=6,dz=70,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=2910,y=18,z=464,dx=414,dy=6,dz=70,scores={MusicCooldown=0}] MusicCooldown 76
+
+#Pokemon Centers (General)
+#/summon minecraft:armor_stand ~ ~3 ~ {Invisible:true,Invulnerable:true,NoGravity:true,CustomName:'{"text":"PokemonCenter"}',DisabledSlots:4144959}
+execute at @e[type=armor_stand,name=PokemonCenter] run playsound pokemoncenter record @a[distance=..10,tag=!RadioOff,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute at @e[type=armor_stand,name=PokemonCenter] run scoreboard players set @a[distance=..10,tag=!RadioOff,scores={MusicCooldown=0}] MusicCooldown 100
 
 #Pokémon Network Center (One Island Center)
 playsound pokemonnetcenter record @s[x=4274,y=25,z=-2363,dx=45,dy=13,dz=27,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
