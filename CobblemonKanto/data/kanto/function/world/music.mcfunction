@@ -96,6 +96,9 @@ scoreboard players set @s[x=3062,y=26,z=327,dx=10,dy=6,dz=320,scores={MusicCoold
 playsound route1 record @s[x=2910,y=18,z=464,dx=414,dy=6,dz=70,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=2910,y=18,z=464,dx=414,dy=6,dz=70,scores={MusicCooldown=0}] MusicCooldown 76
 
+#Pokémon Network Center (One Island Center)
+playsound pokemonnetcenter record @s[x=4274,y=25,z=-2363,dx=45,dy=13,dz=27,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4274,y=25,z=-2363,dx=45,dy=13,dz=27,scores={MusicCooldown=0}] MusicCooldown 58
 
 #---------------------------------------------------------------------------------------------
 #Lowest-Priority music (general area world music), nothing else above found
