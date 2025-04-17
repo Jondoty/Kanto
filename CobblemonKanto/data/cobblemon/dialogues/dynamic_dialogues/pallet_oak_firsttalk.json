@@ -1,0 +1,90 @@
+{   
+    "speakers": {
+        "npc": {
+          "name": "Porfessor Oak",
+          "face": {
+            "type": "artificial",
+            "modelType": "npc",
+            "identifier": "cobblemon:oak",
+            "isLeftSide": true
+          }
+        }
+      },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+                "Hey! Wait! Don't go out! It's unsafe!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page2",
+            "speaker": "npc",
+            "lines": [
+                "Wild Pokémon live in tall grass!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page3');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "npc",
+            "lines": [
+                "You need your own Pokémon for your protection."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page4');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page4",
+            "speaker": "npc",
+            "lines": [
+                "I know! Here, you can have one. Go on, choose!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run openstarterscreen @s');",
+                            "q.dialogue.close();"
+                            ]
+                    }
+                ]
+            }
+        }
+        ]
+    }

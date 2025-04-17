@@ -7,10 +7,10 @@ execute as @s[x=4132,y=35,z=461,distance=..5,tag=!Dialogue35,scores={PokeDex=10.
 #Route 10 - Oak's Aide Everstone
 execute as @s[x=2562,y=35,z=840,distance=..5,tag=!Dialogue39,scores={PokeDex=20..}] run opendialogue route10_oakaide_dialogue39 @s
 
-#exp share, item not a thing
+#Amulet Coin, item not a thing
 #3280 35 -391
 
-#Route 10 - Oak's Aide Everstone
+#Route 10 - Oak's Aide Exp Share
 execute as @s[x=3280,y=35,z=-391,distance=..5,tag=!Dialogue66,scores={PokeDex=50..}] run opendialogue route15_oakaide_dialogue66 @s
 
 
