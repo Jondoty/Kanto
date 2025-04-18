@@ -114,6 +114,8 @@
 		{"predicate": {"custom_model_data":107}, "model": "townmap/107"},
 		{"predicate": {"custom_model_data":108}, "model": "townmap/108"},
 		{"predicate": {"custom_model_data":109}, "model": "townmap/109"},
-		{"predicate": {"custom_model_data":110}, "model": "townmap/110"}
+		{"predicate": {"custom_model_data":110}, "model": "townmap/110"},
+
+		{"predicate": {"custom_model_data":500}, "model": "hms/cut_tree"}
 		    ]
 		}
