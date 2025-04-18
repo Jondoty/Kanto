@@ -4,6 +4,10 @@
 tag @a remove TowerCooldown
 
 
+#Regenerates Cut Trees
+execute as @a run function kanto:hms/cutregen
+
+
 
 
 #Checks for if the player does not have a StarterPick score but also has a Pokemon
