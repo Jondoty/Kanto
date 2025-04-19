@@ -1,0 +1,615 @@
+{
+  "battledeoxys": {
+    "sounds": [
+      {
+        "name":"battles/battledeoxys",
+        "stream": true
+        }
+      ]
+    },
+
+    "battlegymleader": {
+    "sounds": [
+      {
+        "name":"battles/battlegymleader",
+        "stream": true
+        }
+      ]
+    },
+    
+    "battlelegend": {
+      "sounds": [
+        {
+          "name":"battles/battlelegend",
+          "stream": true
+          }
+        ]
+      },
+
+      "battlemewtwo": {
+      "sounds": [
+        {
+          "name":"battles/battlemewtwo",
+          "stream": true
+          }
+        ]
+      },
+
+      "battlerivalfinal": {
+      "sounds": [
+        {
+          "name":"battles/battlerivalfinal",
+          "stream": true
+          }
+        ]
+      },
+
+      "battletrainer": {
+      "sounds": [
+        {
+          "name":"battles/battletrainer",
+          "stream": true
+          }
+        ]
+      },
+
+      "battlewild": {
+      "sounds": [
+        {
+          "name":"battles/battlewild",
+          "stream": true
+          }
+        ]
+      },
+
+      "introbadguy": {
+      "sounds": [
+        {
+          "name":"battles/introbadguy",
+          "stream": true
+          }
+        ]
+      },
+
+      "introboy": {
+      "sounds": [
+        {
+          "name":"battles/introboy",
+          "stream": true
+          }
+        ]
+      },
+
+      "introgirl": {
+      "sounds": [
+        {
+          "name":"battles/introgirl",
+          "stream": true
+          }
+        ]
+      },
+
+      "introrival": {
+      "sounds": [
+        {
+          "name":"battles/introrival",
+          "stream": true
+          }
+        ]
+      },
+
+      "introtense": {
+      "sounds": [
+        {
+          "name":"battles/introtense",
+          "stream": true
+          }
+        ]
+      },
+
+      "victorybattle": {
+      "sounds": [
+        {
+          "name":"battles/victorybattle",
+          "stream": true
+          }
+        ]
+      },
+
+      "victorygymleader": {
+      "sounds": [
+        {
+          "name":"battles/victorygymleader",
+          "stream": true
+          }
+        ]
+      },
+
+      "victorywild": {
+      "sounds": [
+        {
+          "name":"battles/victorywild",
+          "stream": true
+          }
+        ]
+      },
+
+
+
+
+      "cycling": {
+        "sounds": [
+          {
+            "name":"events/cycling",
+            "stream": true
+            }
+          ]
+        },
+        
+        "deoxysappears": {
+        "sounds": [
+          {
+            "name":"events/deoxysappears",
+            "stream": true
+            }
+          ]
+        },
+
+        "endingtheme": {
+        "sounds": [
+          {
+            "name":"events/endingtheme",
+            "stream": true
+            }
+          ]
+        },
+
+        "epilogue": {
+        "sounds": [
+          {
+            "name":"events/epilogue",
+            "stream": true
+            }
+          ]
+        },
+
+        "getbadge": {
+        "sounds": [
+          {
+            "name":"events/getbadge",
+            "stream": true
+            }
+          ]
+        },
+
+        "getitem": {
+        "sounds": [
+          {
+            "name":"events/getitem",
+            "stream": true
+            }
+          ]
+        },
+
+        "getpokemon": {
+        "sounds": [
+          {
+            "name":"events/getpokemon",
+            "stream": true
+            }
+          ]
+        },
+
+        "guide": {
+        "sounds": [
+          {
+            "name":"events/guide",
+            "stream": true
+            }
+          ]
+        },
+
+        "halloffame": {
+        "sounds": [
+          {
+            "name":"events/halloffame",
+            "stream": true
+            }
+          ]
+        },
+
+        "introduction": {
+        "sounds": [
+          {
+            "name":"events/introduction",
+            "stream": true
+            }
+          ]
+        },
+
+        "oak": {
+        "sounds": [
+          {
+            "name":"events/oak",
+            "stream": true
+            }
+          ]
+        },
+
+        "pokeflute": {
+        "sounds": [
+          {
+            "name":"events/pokeflute",
+            "stream": true
+            }
+          ]
+        },
+
+
+
+
+        "articuno": {
+        "sounds": [
+          {
+            "name":"pokemon/articuno",
+            "stream": true
+            }
+          ]
+        },
+        
+        "bulbasaur": {
+        "sounds": [
+          {
+            "name":"pokemon/bulbasaur",
+            "stream": true
+            }
+          ]
+        },
+
+        "charmander": {
+        "sounds": [
+          {
+            "name":"pokemon/charmander",
+            "stream": true
+            }
+          ]
+        },
+
+        "deoxys": {
+        "sounds": [
+          {
+            "name":"pokemon/deoxys",
+            "stream": true
+            }
+          ]
+        },
+
+        "mew": {
+        "sounds": [
+          {
+            "name":"pokemon/mew",
+            "stream": true
+            }
+          ]
+        },
+
+        "mewtwo": {
+        "sounds": [
+          {
+            "name":"pokemon/mewtwo",
+            "stream": true
+            }
+          ]
+        },
+
+        "moltres": {
+        "sounds": [
+          {
+            "name":"pokemon/moltres",
+            "stream": true
+            }
+          ]
+        },
+
+        "squirtle": {
+        "sounds": [
+          {
+            "name":"pokemon/squirtle",
+            "stream": true
+            }
+          ]
+        },
+
+        "vulpix": {
+        "sounds": [
+          {
+            "name":"pokemon/vulpix",
+            "stream": true
+            }
+          ]
+        },
+
+        "zapdos": {
+        "sounds": [
+          {
+            "name":"pokemon/zapdos",
+            "stream": true
+            }
+          ]
+        },
+
+
+
+
+        "celadoncity": {
+        "sounds": [
+          {
+            "name":"world/celadoncity",
+            "stream": true
+            }
+          ]
+        },
+
+        "cinnabarisland": {
+        "sounds": [
+          {
+            "name":"world/cinnabarisland",
+            "stream": true
+            }
+          ]
+        },
+
+        "fourfiveislands": {
+        "sounds": [
+          {
+            "name":"world/fourfiveislands",
+            "stream": true
+            }
+          ]
+        },
+
+        "fuchsiacity": {
+        "sounds": [
+          {
+            "name":"world/fuchsiacity",
+            "stream": true
+            }
+          ]
+        },
+
+        "gamecorner": {
+        "sounds": [
+          {
+            "name":"world/gamecorner",
+            "stream": true
+            }
+          ]
+        },
+
+        "gym": {
+        "sounds": [
+          {
+            "name":"world/gym",
+            "stream": true
+            }
+          ]
+        },
+
+        "lavendertown": {
+        "sounds": [
+          {
+            "name":"world/lavendertown",
+            "stream": true
+            }
+          ]
+        },
+
+        "mtmoon": {
+        "sounds": [
+          {
+            "name":"world/mtmoon",
+            "stream": true
+            }
+          ]
+        },
+
+        "oakslab": {
+        "sounds": [
+          {
+            "name":"world/oakslab",
+            "stream": true
+            }
+          ]
+        },
+
+        "pallettown": {
+        "sounds": [
+          {
+            "name":"world/pallettown",
+            "stream": true
+            }
+          ]
+        },
+
+        "pewtercity": {
+        "sounds": [
+          {
+            "name":"world/pewtercity",
+            "stream": true
+            }
+          ]
+        },
+
+        "pokemoncenter": {
+        "sounds": [
+          {
+            "name":"world/pokemoncenter",
+            "stream": true
+            }
+          ]
+        },
+
+        "pokemonmansion": {
+        "sounds": [
+          {
+            "name":"world/pokemonmansion",
+            "stream": true
+            }
+          ]
+        },
+
+        "pokemonnetcenter": {
+        "sounds": [
+          {
+            "name":"world/pokemonnetcenter",
+            "stream": true
+            }
+          ]
+        },
+
+        "pokemontower": {
+        "sounds": [
+          {
+            "name":"world/pokemontower",
+            "stream": true
+            }
+          ]
+        },
+
+        "rocketgamecorner": {
+        "sounds": [
+          {
+            "name":"world/rocketgamecorner",
+            "stream": true
+            }
+          ]
+        },
+
+        "rockethideout": {
+        "sounds": [
+          {
+            "name":"world/rockethideout",
+            "stream": true
+            }
+          ]
+        },
+
+        "route1": {
+        "sounds": [
+          {
+            "name":"world/route1",
+            "stream": true
+            }
+          ]
+        },
+
+        "route4": {
+        "sounds": [
+          {
+            "name":"world/route4",
+            "stream": true
+            }
+          ]
+        },
+
+        "route12": {
+        "sounds": [
+          {
+            "name":"world/route12",
+            "stream": true
+            }
+          ]
+        },
+
+        "safari": {
+        "sounds": [
+          {
+            "name":"world/safari",
+            "stream": true
+            }
+          ]
+        },
+
+        "seviiislands": {
+        "sounds": [
+          {
+            "name":"world/seviiislands",
+            "stream": true
+            }
+          ]
+        },
+
+        "silphco": {
+        "sounds": [
+          {
+            "name":"world/silphco",
+            "stream": true
+            }
+          ]
+        },
+
+        "sixsevenislands": {
+        "sounds": [
+          {
+            "name":"world/sixsevenislands",
+            "stream": true
+            }
+          ]
+        },
+
+        "ssanne": {
+        "sounds": [
+          {
+            "name":"world/ssanne",
+            "stream": true
+            }
+          ]
+        },
+
+        "thesea": {
+        "sounds": [
+          {
+            "name":"world/thesea",
+            "stream": true
+            }
+          ]
+        },
+
+        "title": {
+        "sounds": [
+          {
+            "name":"world/title",
+            "stream": true
+            }
+          ]
+        },
+
+        "vermilioncity": {
+        "sounds": [
+          {
+            "name":"world/vermilioncity",
+            "stream": true
+            }
+          ]
+        },
+
+        "victoryroad": {
+        "sounds": [
+          {
+            "name":"world/victoryroad",
+            "stream": true
+            }
+          ]
+        },
+
+        "viridianforest": {
+        "sounds": [
+          {
+            "name":"world/viridianforest",
+            "stream": true
+            }
+          ]
+        }
+        
+
+}
