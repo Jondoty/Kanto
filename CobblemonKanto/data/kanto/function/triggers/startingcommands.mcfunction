@@ -1,6 +1,24 @@
 #Commands that run on every player first thing when the player spawns in.
 #Sets up any scoreboard values needed, and removes any story and loot progress
 
+#Misc Game Rules
+scoreboard objectives setdisplay sidebar
+scoreboard objectives setdisplay list
+difficulty peaceful
+
+gamerule doFireTick false
+gamerule randomTickSpeed 100
+gamerule doDaylightCycle true
+gamerule doFireTick false
+gamerule fallDamage false
+gamerule commandBlockOutput false
+gamerule naturalRegeneration true
+
+gamemode adventure @s
+team add default
+team join default
+
+
 #Sets spawnpoint in Pallet Town in case of death
 spawnpoint @s 4190 34 -137
 
@@ -22,6 +40,21 @@ function kanto:spawn/radio
 function kanto:spawn/runningshoes
 function kanto:spawn/townmap
 
+#Removes Gym Leaders beaten
+tag @s remove Brock
+tag @s remove Misty
+tag @s remove Surge
+tag @s remove Erika
+tag @s remove Koga
+tag @s remove Sabrina
+tag @s remove Blaine
+tag @s remove Giovanni
+tag @s remove AllGyms
+
+#Removes HMs obtained
+tag @s remove Cut
+tag @s remove RockSmash
+tag @s remove Surf
 
 #Removes FlyMap Progress
 tag @s remove FlyViridian
@@ -45,6 +78,7 @@ tag @s remove FlySeven
 
 #Removes misc tags
 tag @s remove FirstSong
+tag @s remove RainbowPass
 
 
 
@@ -465,7 +499,157 @@ tag @s remove ItemLoot399
 tag @s remove ItemLoot400
 
 
-
+#Removes Dialogue Tags
+tag @s remove Dialogue1
+tag @s remove Dialogue2
+tag @s remove Dialogue3
+tag @s remove Dialogue4
+tag @s remove Dialogue5
+tag @s remove Dialogue6
+tag @s remove Dialogue7
+tag @s remove Dialogue8
+tag @s remove Dialogue9
+tag @s remove Dialogue10
+tag @s remove Dialogue11
+tag @s remove Dialogue12
+tag @s remove Dialogue13
+tag @s remove Dialogue14
+tag @s remove Dialogue15
+tag @s remove Dialogue16
+tag @s remove Dialogue17
+tag @s remove Dialogue18
+tag @s remove Dialogue19
+tag @s remove Dialogue20
+tag @s remove Dialogue21
+tag @s remove Dialogue22
+tag @s remove Dialogue23
+tag @s remove Dialogue24
+tag @s remove Dialogue25
+tag @s remove Dialogue26
+tag @s remove Dialogue27
+tag @s remove Dialogue28
+tag @s remove Dialogue29
+tag @s remove Dialogue30
+tag @s remove Dialogue31
+tag @s remove Dialogue32
+tag @s remove Dialogue33
+tag @s remove Dialogue34
+tag @s remove Dialogue35
+tag @s remove Dialogue36
+tag @s remove Dialogue37
+tag @s remove Dialogue38
+tag @s remove Dialogue39
+tag @s remove Dialogue40
+tag @s remove Dialogue41
+tag @s remove Dialogue42
+tag @s remove Dialogue43
+tag @s remove Dialogue44
+tag @s remove Dialogue45
+tag @s remove Dialogue46
+tag @s remove Dialogue47
+tag @s remove Dialogue48
+tag @s remove Dialogue49
+tag @s remove Dialogue50
+tag @s remove Dialogue51
+tag @s remove Dialogue52
+tag @s remove Dialogue53
+tag @s remove Dialogue54
+tag @s remove Dialogue55
+tag @s remove Dialogue56
+tag @s remove Dialogue57
+tag @s remove Dialogue58
+tag @s remove Dialogue59
+tag @s remove Dialogue60
+tag @s remove Dialogue61
+tag @s remove Dialogue62
+tag @s remove Dialogue63
+tag @s remove Dialogue64
+tag @s remove Dialogue65
+tag @s remove Dialogue66
+tag @s remove Dialogue67
+tag @s remove Dialogue68
+tag @s remove Dialogue69
+tag @s remove Dialogue70
+tag @s remove Dialogue71
+tag @s remove Dialogue72
+tag @s remove Dialogue73
+tag @s remove Dialogue74
+tag @s remove Dialogue75
+tag @s remove Dialogue76
+tag @s remove Dialogue77
+tag @s remove Dialogue78
+tag @s remove Dialogue79
+tag @s remove Dialogue80
+tag @s remove Dialogue81
+tag @s remove Dialogue82
+tag @s remove Dialogue83
+tag @s remove Dialogue84
+tag @s remove Dialogue85
+tag @s remove Dialogue86
+tag @s remove Dialogue87
+tag @s remove Dialogue88
+tag @s remove Dialogue89
+tag @s remove Dialogue90
+tag @s remove Dialogue91
+tag @s remove Dialogue92
+tag @s remove Dialogue93
+tag @s remove Dialogue94
+tag @s remove Dialogue95
+tag @s remove Dialogue96
+tag @s remove Dialogue97
+tag @s remove Dialogue98
+tag @s remove Dialogue99
+tag @s remove Dialogue100
+tag @s remove Dialogue101
+tag @s remove Dialogue102
+tag @s remove Dialogue103
+tag @s remove Dialogue104
+tag @s remove Dialogue105
+tag @s remove Dialogue106
+tag @s remove Dialogue107
+tag @s remove Dialogue108
+tag @s remove Dialogue109
+tag @s remove Dialogue110
+tag @s remove Dialogue111
+tag @s remove Dialogue112
+tag @s remove Dialogue113
+tag @s remove Dialogue114
+tag @s remove Dialogue115
+tag @s remove Dialogue116
+tag @s remove Dialogue117
+tag @s remove Dialogue118
+tag @s remove Dialogue119
+tag @s remove Dialogue120
+tag @s remove Dialogue121
+tag @s remove Dialogue122
+tag @s remove Dialogue123
+tag @s remove Dialogue124
+tag @s remove Dialogue125
+tag @s remove Dialogue126
+tag @s remove Dialogue127
+tag @s remove Dialogue128
+tag @s remove Dialogue129
+tag @s remove Dialogue130
+tag @s remove Dialogue131
+tag @s remove Dialogue132
+tag @s remove Dialogue133
+tag @s remove Dialogue134
+tag @s remove Dialogue135
+tag @s remove Dialogue136
+tag @s remove Dialogue137
+tag @s remove Dialogue138
+tag @s remove Dialogue139
+tag @s remove Dialogue140
+tag @s remove Dialogue141
+tag @s remove Dialogue142
+tag @s remove Dialogue143
+tag @s remove Dialogue144
+tag @s remove Dialogue145
+tag @s remove Dialogue146
+tag @s remove Dialogue147
+tag @s remove Dialogue148
+tag @s remove Dialogue149
+tag @s remove Dialogue150
 
 
 tag @s add InitialTags
