@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Games Time",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Obtain Coins from the Game Corner"
+        },
+        "icon": {
+            "id": "cobblemon:relic_coin"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+
+        "commandonly": {
+
+            "trigger": "minecraft:impossible"
+
+        }
+
+    },
+    "parent": "kanto:sidequests/sidequests"
+}

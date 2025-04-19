@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Safari Zone",
+            "color": "green"
+        },
+        "description": {
+            "text": "Go through the Safari Zone"
+        },
+        "icon": {
+            "id": "cobblemon:safari_ball"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+
+        "commandonly": {
+
+            "trigger": "minecraft:impossible"
+
+        }
+
+    },
+    "parent": "kanto:sidequests/sidequests"
+}
