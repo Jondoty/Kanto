@@ -79,8 +79,8 @@ tp @s[x=4126,y=34,z=-705,dx=4,dy=3,tag=SecretKey] 4444 35 1367
 tp @s[x=4442,y=35,z=1366,dx=5,dy=5] 4128 34 -706
 
 #Viridian 
-execute as @s[x=4105,y=34,z=249,dx=4,dy=3,tag=Blaine] run opendialogue viridian_gentleman_interaction @s
-execute as @s[x=4105,y=34,z=249,dx=4,dy=3,tag=Blaine] at @s run tp @s ~ ~ ~-4
+execute as @s[x=4105,y=34,z=249,dx=4,dy=3,tag=!Blaine] run opendialogue viridian_gentleman_interaction @s
+execute as @s[x=4105,y=34,z=249,dx=4,dy=3,tag=!Blaine] at @s run tp @s ~ ~ ~-4
 tp @s[x=4105,y=34,z=249,dx=4,dy=3] 4626 34 1477
 tp @s[x=4624,y=34,z=1476,dx=4,dy=5] 4107 34 248
 

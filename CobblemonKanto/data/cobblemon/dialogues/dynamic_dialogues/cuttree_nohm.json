@@ -11,7 +11,7 @@
     "pages": [
         {
             "id": "greeting",
-            "speaker": "npc",
+            "speaker": "player",
             "lines": [
                 "This tree looks like it can be Cut down!"
             ],
