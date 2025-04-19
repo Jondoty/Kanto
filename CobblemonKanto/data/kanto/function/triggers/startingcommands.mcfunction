@@ -1,9 +1,11 @@
 #Commands that run on every player first thing when the player spawns in.
 #Sets up any scoreboard values needed, and removes any story and loot progress
 
-
+#Sets spawnpoint in Pallet Town in case of death
 spawnpoint @s 4190 34 -137
 
+#Resets any present advancement progress
+advancement revoke @s everything
 
 #Adds initial scoreboard scores needed for quests
 scoreboard players set @s DialogueTrigger 0

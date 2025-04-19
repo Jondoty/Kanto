@@ -411,6 +411,7 @@ execute as @s[scores={StepCooldown=200000..}] run clear @s cobblemon:safari_ball
 execute as @s[scores={StepCooldown=200000..}] run tellraw @s {"text":"<Safari Clerk> Time is up! Did you catch your fair share? Come again!"}
 execute as @s[scores={StepCooldown=200000..}] run tp @s 3455 35 -295 -180 5
 execute as @s[scores={StepCooldown=200000..}] run scoreboard players set @s SafariBar 0
+execute as @s[scores={StepCooldown=200000..}] run advancement grant @s only kanto:sidequests/safari
 
 
 

@@ -35,6 +35,7 @@ tellraw @s[scores={DialogueTrigger=106,TalkTime=98}] {"text":"Special thanks to 
 
 #tps the player to Pallet Town
 execute as @s[scores={DialogueTrigger=106,TalkTime=110}] run scoreboard players set @s Location 68
+execute as @s[scores={DialogueTrigger=106,TalkTime=110}] run advancement grant @s only kanto:badges/champion
 execute as @s[scores={DialogueTrigger=106,TalkTime=110}] run tp @s 4191 40 -130
 
 tag @s[scores={DialogueTrigger=106,TalkTime=110..}] add Dialogue106

@@ -1,6 +1,9 @@
 #Lobby to Pallet Town
 
 playsound door ambient @s[x=3949,y=42,z=1195,dy=3,dz=1] ~ ~ ~ 1 1 1
+
+execute as @a[x=3949,y=42,z=1195,dy=3,dz=1] run advancement grant @s only kanto:root
+execute as @a[x=3949,y=42,z=1195,dy=3,dz=1] run advancement grant @s only kanto:sidequests/sidequests
 tp @s[x=3949,y=42,z=1195,dy=3,dz=1] 4191 40 -130 0 7
 
 #Pallet Town to Lobby

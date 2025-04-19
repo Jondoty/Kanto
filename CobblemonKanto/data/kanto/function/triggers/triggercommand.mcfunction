@@ -9,6 +9,7 @@
 
 #Sevii Island Transport Destinations
 execute as @a[scores={TriggerCommand=90..99}] run effect give @s minecraft:blindness 3 1 true
+execute as @a[scores={TriggerCommand=90..99}] run advancement grant @s only kanto:sidequests/seviiislands
 
 #Vermilion
 execute as @a[scores={TriggerCommand=90}] run tp @s 3105 34 26 0 6
@@ -1084,6 +1085,7 @@ execute as @a[scores={TriggerCommand=195,Money=3000..}] run scoreboard players r
 #if player lacks a Coin Case
 execute as @a[scores={TriggerCommand=196..198},tag=!CoinCase] run tellraw @s {"text":"You need a Coin Case to store these coins in!","italic":true,"color":"gray"}
 execute as @a[scores={TriggerCommand=196..198},tag=!CoinCase] run scoreboard players set @s TriggerCommand 0
+execute as @a[scores={TriggerCommand=196..198},tag=CoinCase] run advancement grant @s only kanto:sidequests/gamecorner
 
 #Game Corner Coins
 #50 Coins
