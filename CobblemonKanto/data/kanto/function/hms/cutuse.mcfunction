@@ -109,9 +109,71 @@ execute as @s[x=4650,y=34,z=1418,distance=..7] at @e[x=4650,y=34,z=1418,distance
 execute as @s[x=4650,y=34,z=1418,distance=..7] as @e[x=4650,y=34,z=1418,distance=..7,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"air",Count:1}]}
 execute as @s[x=4650,y=34,z=1418,distance=..7] run kill @e[x=4650,y=34,z=1418,distance=..7,tag=CutTree,type=interaction]
 
+#Route 12
+execute as @s[x=2570,y=34,z=-102,distance=..20] run fill 2570 34 -107 2570 36 -100 air
+execute as @s[x=2570,y=34,z=-102,distance=..20] at @e[x=2570,y=34,z=-102,distance=..10,type=minecraft:armor_stand,tag=CutTree] run particle minecraft:explosion ~ ~ ~ 1 1 1 1 10 normal
+execute as @s[x=2570,y=34,z=-102,distance=..20] as @e[x=2570,y=34,z=-102,distance=..20,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"air",Count:1}]}
+execute as @s[x=2570,y=34,z=-102,distance=..20] run kill @e[x=2570,y=34,z=-102,distance=..20,tag=CutTree,type=interaction]
 
+#Route 13
+execute as @s[x=2653,y=34,z=-174,distance=..20] run fill 2653 34 -177 2653 37 -171 air
+execute as @s[x=2653,y=34,z=-174,distance=..20] at @e[x=2653,y=34,z=-174,distance=..10,type=minecraft:armor_stand,tag=CutTree] run particle minecraft:explosion ~ ~ ~ 1 1 1 1 10 normal
+execute as @s[x=2653,y=34,z=-174,distance=..20] as @e[x=2653,y=34,z=-174,distance=..20,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"air",Count:1}]}
+execute as @s[x=2653,y=34,z=-174,distance=..20] run kill @e[x=2653,y=34,z=-174,distance=..20,tag=CutTree,type=interaction]
 
+#Route 14 (Near Grass)
+execute as @s[x=2950,y=34,z=-278,distance=..20] run fill 2953 34 -278 2949 37 -278 air
+execute as @s[x=2950,y=34,z=-278,distance=..20] at @e[x=2950,y=34,z=-278,distance=..10,type=minecraft:armor_stand,tag=CutTree] run particle minecraft:explosion ~ ~ ~ 1 1 1 1 10 normal
+execute as @s[x=2950,y=34,z=-278,distance=..20] as @e[x=2950,y=34,z=-278,distance=..20,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"air",Count:1}]}
+execute as @s[x=2950,y=34,z=-278,distance=..20] run kill @e[x=2950,y=34,z=-278,distance=..20,tag=CutTree,type=interaction]
 
+#Route 14 (between trees)
+execute as @s[x=2922,y=34,z=-320,distance=..20] run fill 2922 34 -323 2922 36 -318 air
+execute as @s[x=2922,y=34,z=-320,distance=..20] at @e[x=2922,y=34,z=-320,distance=..10,type=minecraft:armor_stand,tag=CutTree] run particle minecraft:explosion ~ ~ ~ 1 1 1 1 10 normal
+execute as @s[x=2922,y=34,z=-320,distance=..20] as @e[x=2922,y=34,z=-320,distance=..20,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"air",Count:1}]}
+execute as @s[x=2922,y=34,z=-320,distance=..20] run kill @e[x=2922,y=34,z=-320,distance=..20,tag=CutTree,type=interaction]
+
+#Route 13
+execute as @s[x=2978,y=34,z=-379,distance=..20] run fill 2978 34 -377 2978 35 -381 air
+execute as @s[x=2978,y=34,z=-379,distance=..20] at @e[x=2978,y=34,z=-379,distance=..10,type=minecraft:armor_stand,tag=CutTree] run particle minecraft:explosion ~ ~ ~ 1 1 1 1 10 normal
+execute as @s[x=2978,y=34,z=-379,distance=..20] as @e[x=2978,y=34,z=-379,distance=..20,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"air",Count:1}]}
+execute as @s[x=2978,y=34,z=-379,distance=..20] run kill @e[x=2978,y=34,z=-379,distance=..20,tag=CutTree,type=interaction]
+
+#Fuchsia City No 1
+execute as @s[x=3454,y=34,z=-403,distance=..10] run fill 3453 34 -403 3457 37 -403 air
+execute as @s[x=3454,y=34,z=-403,distance=..10] at @e[x=3454,y=34,z=-403,distance=..10,type=minecraft:armor_stand,tag=CutTree] run particle minecraft:explosion ~ ~ ~ 1 1 1 1 10 normal
+execute as @s[x=3454,y=34,z=-403,distance=..10] as @e[x=3454,y=34,z=-403,distance=..10,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"air",Count:1}]}
+execute as @s[x=3454,y=34,z=-403,distance=..10] run kill @e[x=3454,y=34,z=-403,distance=..10,tag=CutTree,type=interaction]
+
+#Fuchsia City No 2
+execute as @s[x=3418,y=34,z=-375,distance=..10] run fill 3413 34 -375 3422 38 -375 air replace barrier
+execute as @s[x=3418,y=34,z=-375,distance=..10] at @e[x=3418,y=34,z=-375,distance=..10,type=minecraft:armor_stand,tag=CutTree] run particle minecraft:explosion ~ ~ ~ 1 1 1 1 10 normal
+execute as @s[x=3418,y=34,z=-375,distance=..10] as @e[x=3418,y=34,z=-375,distance=..10,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"air",Count:1}]}
+execute as @s[x=3418,y=34,z=-375,distance=..10] run kill @e[x=3418,y=34,z=-375,distance=..10,tag=CutTree,type=interaction]
+
+#Fuchsia City No 3
+execute as @s[x=3470,y=34,z=-359,distance=..10] run fill 3469 34 -359 3473 37 -359 air
+execute as @s[x=3470,y=34,z=-359,distance=..10] at @e[x=3470,y=34,z=-359,distance=..10,type=minecraft:armor_stand,tag=CutTree] run particle minecraft:explosion ~ ~ ~ 1 1 1 1 10 normal
+execute as @s[x=3470,y=34,z=-359,distance=..10] as @e[x=3470,y=34,z=-359,distance=..10,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"air",Count:1}]}
+execute as @s[x=3470,y=34,z=-359,distance=..10] run kill @e[x=3470,y=34,z=-359,distance=..10,tag=CutTree,type=interaction]
+
+#Fuchsia City No 4
+execute as @s[x=3426,y=34,z=-345,distance=..10] run fill 3427 34 -345 3423 37 -345 air
+execute as @s[x=3426,y=34,z=-345,distance=..10] at @e[x=3426,y=34,z=-345,distance=..10,type=minecraft:armor_stand,tag=CutTree] run particle minecraft:explosion ~ ~ ~ 1 1 1 1 10 normal
+execute as @s[x=3426,y=34,z=-345,distance=..10] as @e[x=3426,y=34,z=-345,distance=..10,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"air",Count:1}]}
+execute as @s[x=3426,y=34,z=-345,distance=..10] run kill @e[x=3426,y=34,z=-345,distance=..10,tag=CutTree,type=interaction]
+
+#Route 16
+execute as @s[x=3665,y=34,z=483,distance=..20] run fill 3664 34 483 3668 37 483 air
+execute as @s[x=3665,y=34,z=483,distance=..20] at @e[x=3665,y=34,z=483,distance=..10,type=minecraft:armor_stand,tag=CutTree] run particle minecraft:explosion ~ ~ ~ 1 1 1 1 10 normal
+execute as @s[x=3665,y=34,z=483,distance=..20] as @e[x=3665,y=34,z=483,distance=..20,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"air",Count:1}]}
+execute as @s[x=3665,y=34,z=483,distance=..20] run kill @e[x=3665,y=34,z=483,distance=..20,tag=CutTree,type=interaction]
+
+#Route 25
+execute as @s[x=2897,y=34,z=1159,distance=..20] run fill 2894 34 1159 2899 37 1159 air
+execute as @s[x=2897,y=34,z=1159,distance=..20] at @e[x=2897,y=34,z=1159,distance=..10,type=minecraft:armor_stand,tag=CutTree] run particle minecraft:explosion ~ ~ ~ 1 1 1 1 10 normal
+execute as @s[x=2897,y=34,z=1159,distance=..20] as @e[x=2897,y=34,z=1159,distance=..20,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"air",Count:1}]}
+execute as @s[x=2897,y=34,z=1159,distance=..20] run kill @e[x=2897,y=34,z=1159,distance=..20,tag=CutTree,type=interaction]
 
 
 
