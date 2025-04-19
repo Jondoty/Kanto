@@ -162,7 +162,67 @@ execute as @a[x=2897,y=34,z=1159,distance=30..150] as @e[x=2897,y=34,z=1159,dist
 execute as @a[x=2897,y=34,z=1159,distance=30..150] as @e[x=2897,y=34,z=1159,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~1 ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
 
 
+#Two Island
+execute as @a[x=3380,y=34,z=-2248,distance=30..150] run fill 3380 34 -2245 3380 37 -2252 barrier replace air
+execute as @a[x=3380,y=34,z=-2248,distance=30..150] as @e[x=3380,y=34,z=-2248,distance=..10,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"nether_gold_ore",Count:1}]}
+execute as @a[x=3380,y=34,z=-2248,distance=30..150] as @e[x=3380,y=34,z=-2248,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~ ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+execute as @a[x=3380,y=34,z=-2248,distance=30..150] as @e[x=3380,y=34,z=-2248,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~1 ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
 
+#Three Island
+execute as @a[x=2797,y=39,z=-1467,distance=30..150] run fill 2797 39 -1468 2797 41 -1466 barrier
+execute as @a[x=2797,y=39,z=-1467,distance=30..150] as @e[x=2797,y=39,z=-1467,distance=..10,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"nether_gold_ore",Count:1}]}
+execute as @a[x=2797,y=39,z=-1467,distance=30..150] as @e[x=2797,y=39,z=-1467,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~ ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+execute as @a[x=2797,y=39,z=-1467,distance=30..150] as @e[x=2797,y=39,z=-1467,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~1 ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+
+#Bond Bridge (closest to town)
+execute as @a[x=2932,y=39,z=-1490,distance=30..150] run fill 2932 39 -1489 2932 42 -1493 barrier replace air
+execute as @a[x=2932,y=39,z=-1490,distance=30..150] as @e[x=2932,y=34,z=-1490,distance=..10,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"nether_gold_ore",Count:1}]}
+execute as @a[x=2932,y=39,z=-1490,distance=30..150] as @e[x=2932,y=34,z=-1490,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~ ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+execute as @a[x=2932,y=39,z=-1490,distance=30..150] as @e[x=2932,y=34,z=-1490,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~1 ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+
+#Bond Bridge
+execute as @a[x=3010,y=49,z=-1470,distance=30..150] run fill 3010 49 -1474 3010 51 -1465 barrier
+execute as @a[x=3010,y=49,z=-1470,distance=30..150] as @e[x=3010,y=49,z=-1470,distance=..10,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"nether_gold_ore",Count:1}]}
+execute as @a[x=3010,y=49,z=-1470,distance=30..150] as @e[x=3010,y=49,z=-1470,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~ ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+execute as @a[x=3010,y=49,z=-1470,distance=30..150] as @e[x=3010,y=49,z=-1470,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~1 ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+
+
+#Berry Forest No 1
+execute as @a[x=3278,y=39,z=-1392,distance=30..150] run fill 3278 39 -1393 3278 42 -1390 barrier
+execute as @a[x=3278,y=39,z=-1392,distance=30..150] as @e[x=3278,y=39,z=-1392,distance=..10,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"nether_gold_ore",Count:1}]}
+execute as @a[x=3278,y=39,z=-1392,distance=30..150] as @e[x=3278,y=39,z=-1392,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~ ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+execute as @a[x=3278,y=39,z=-1392,distance=30..150] as @e[x=3278,y=39,z=-1392,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~1 ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+
+#Berry Forest No 2
+execute as @a[x=3345,y=39,z=-1347,distance=30..150] run fill 3345 39 -1345 3345 41 -1348 barrier
+execute as @a[x=3345,y=39,z=-1347,distance=30..150] as @e[x=3345,y=39,z=-1347,distance=..10,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"nether_gold_ore",Count:1}]}
+execute as @a[x=3345,y=39,z=-1347,distance=30..150] as @e[x=3345,y=39,z=-1347,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~ ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+execute as @a[x=3345,y=39,z=-1347,distance=30..150] as @e[x=3345,y=39,z=-1347,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~1 ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+
+#Berry Forest No 3
+execute as @a[x=3367,y=39,z=-1361,distance=30..150] run fill 3369 39 -1361 3366 41 -1361 barrier
+execute as @a[x=3367,y=39,z=-1361,distance=30..150] as @e[x=3367,y=39,z=-1361,distance=..10,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"nether_gold_ore",Count:1}]}
+execute as @a[x=3367,y=39,z=-1361,distance=30..150] as @e[x=3367,y=39,z=-1361,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~ ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+execute as @a[x=3367,y=39,z=-1361,distance=30..150] as @e[x=3367,y=39,z=-1361,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~1 ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+
+#Berry Forest No 4
+execute as @a[x=3337,y=39,z=-1378,distance=30..150] run fill 3338 39 -1378 3336 40 -1378 barrier
+execute as @a[x=3337,y=39,z=-1378,distance=30..150] as @e[x=3337,y=39,z=-1378,distance=..10,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"nether_gold_ore",Count:1}]}
+execute as @a[x=3337,y=39,z=-1378,distance=30..150] as @e[x=3337,y=39,z=-1378,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~ ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+execute as @a[x=3337,y=39,z=-1378,distance=30..150] as @e[x=3337,y=39,z=-1378,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~1 ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+
+#Five Isle Meadow (Town Side)
+execute as @a[x=3094,y=39,z=-2998,distance=30..150] run fill 3094 39 -2996 3094 41 -3001 barrier
+execute as @a[x=3094,y=39,z=-2998,distance=30..150] as @e[x=3094,y=39,z=-2998,distance=..10,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"nether_gold_ore",Count:1}]}
+execute as @a[x=3094,y=39,z=-2998,distance=30..150] as @e[x=3094,y=39,z=-2998,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~ ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+execute as @a[x=3094,y=39,z=-2998,distance=30..150] as @e[x=3094,y=39,z=-2998,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~1 ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+
+
+#Five Isle Meadow (Ocean Side)
+execute as @a[x=3036,y=39,z=-3016,distance=30..150] run fill 3039 39 -3016 3031 41 -3016 barrier
+execute as @a[x=3036,y=39,z=-3016,distance=30..150] as @e[x=3036,y=39,z=-3016,distance=..10,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"nether_gold_ore",Count:1}]}
+execute as @a[x=3036,y=39,z=-3016,distance=30..150] as @e[x=3036,y=39,z=-3016,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~ ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+execute as @a[x=3036,y=39,z=-3016,distance=30..150] as @e[x=3036,y=39,z=-3016,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~1 ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
 
 
 
