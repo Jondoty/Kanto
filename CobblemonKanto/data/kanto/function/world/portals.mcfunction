@@ -6,6 +6,41 @@ tp @s[x=3949,y=42,z=1195,dy=3,dz=1] 4191 40 -130 0 7
 #Pallet Town to Lobby
 tp @a[x=4193,y=40,z=-121,dy=3] 3930 42 1196.0 -90 15
 
+#-------------------------------------------------------------------------------------------------------------
+#Celadon Gym regens Cut Trees
+
+#Celadon City (South)
+execute as @s[x=4659,y=34,z=1368,dx=6,dy=5] run fill 4663 35 1408 4661 38 1408 barrier
+execute as @s[x=4659,y=34,z=1368,dx=6,dy=5] as @e[x=4662,y=35,z=1408,distance=..7,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"nether_gold_ore",Count:1}]}
+execute as @s[x=4659,y=34,z=1368,dx=6,dy=5] as @e[x=4662,y=35,z=1408,distance=..7,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~ ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+execute as @s[x=4659,y=34,z=1368,dx=6,dy=5] as @e[x=4662,y=35,z=1408,distance=..7,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~1 ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+
+#West
+execute as @s[x=4659,y=34,z=1368,dx=6,dy=5] run fill 4673 35 1419 4673 38 1422 barrier
+execute as @s[x=4659,y=34,z=1368,dx=6,dy=5] as @e[x=4673,y=35,z=1422,distance=..7,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"nether_gold_ore",Count:1}]}
+execute as @s[x=4659,y=34,z=1368,dx=6,dy=5] as @e[x=4673,y=35,z=1422,distance=..7,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~ ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+execute as @s[x=4659,y=34,z=1368,dx=6,dy=5] as @e[x=4673,y=35,z=1422,distance=..7,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~1 ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+
+#East
+execute as @s[x=4659,y=34,z=1368,dx=6,dy=5] run fill 4650 35 1418 4650 38 1415 barrier
+execute as @s[x=4659,y=34,z=1368,dx=6,dy=5] as @e[x=4650,y=35,z=1418,distance=..7,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"nether_gold_ore",Count:1}]}
+execute as @s[x=4659,y=34,z=1368,dx=6,dy=5] as @e[x=4650,y=35,z=1418,distance=..7,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~ ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+execute as @s[x=4659,y=34,z=1368,dx=6,dy=5] as @e[x=4650,y=35,z=1418,distance=..7,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~1 ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+
+
+#Route 10
+execute as @a[x=2590,y=34,z=835,dx=5,dy=5] run fill 2582 34 834 2582 37 829 barrier
+execute as @a[x=2590,y=34,z=835,dx=5,dy=5] as @e[x=2582,y=34,z=831,distance=..10,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"nether_gold_ore",Count:1}]}
+execute as @a[x=2590,y=34,z=835,dx=5,dy=5] as @e[x=2582,y=34,z=831,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~ ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+execute as @a[x=2590,y=34,z=835,dx=5,dy=5] as @e[x=2582,y=34,z=831,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~1 ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+
+
+#Vermilion City
+execute as @a[x=3149,y=34,z=71,dx=4,dy=3] run fill 3124 34 77 3133 38 77 barrier
+execute as @a[x=3149,y=34,z=71,dx=4,dy=3] as @e[x=3129,y=34,z=77,distance=..10,type=minecraft:armor_stand,tag=CutTree] run data merge entity @s {ArmorItems:[{},{},{},{id:"nether_gold_ore",Count:1}]}
+execute as @a[x=3149,y=34,z=71,dx=4,dy=3] as @e[x=3129,y=34,z=77,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~ ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+execute as @a[x=3149,y=34,z=71,dx=4,dy=3] as @e[x=3129,y=34,z=77,distance=..10,type=minecraft:armor_stand,tag=CutTree] at @s run summon minecraft:interaction ~ ~1 ~ {width:1.5,height:1.5,response:1,Tags:[CutTree]}
+
 
 #-------------------------------------------------------------------------------------------------------------
 #Gyms
