@@ -110,7 +110,7 @@ When healthy, they may escape!
 
 
 LEAVING Viridian Forest
-Pewter City AHEAD
+Pewter City Ahead
 
 
 WHOA!
@@ -5292,7 +5292,7 @@ Hi, sight-seeing, are you?
 Isn't the warm climate here great?
 
 
-TWO Island
+Two Island
 Boon Island for Two
 
 
@@ -5585,7 +5585,7 @@ a game on Two Island.
 DODUO: Gigiih!
 
 
-FOUR Island
+Four Island
 The Warm, Blue, Floe Island
 
 
@@ -5879,7 +5879,7 @@ Mt. Moon.
 
 
 Route 3
-Mt. Moon AHEAD
+Mt. Moon Ahead
 
 
 Ouch! I tripped over a rocky
@@ -8301,13 +8301,13 @@ Bring two or more Pokémon with
 you, then.
 
 
-This is KINDLE Road.
+This is Kindle Road.
 
 Go straight for Mt. Ember.
 
 
 Light the Fire in Your Heart!
-EMBER SPA
+Ember Spa
 
 
 Lying back, rocked by the waves…
@@ -8425,13 +8425,13 @@ with JOY.
 One Pokémon isn't enough.
 
 
-Berry Forest AHEAD
+Berry Forest Ahead
 
 
 Bond Bridge
 Please be quiet when crossing.
 
-Berry Forest AHEAD
+Berry Forest Ahead
 
 
 We're the Kanto Rider Federation!
@@ -8902,11 +8902,11 @@ I need to focus so I can Teleport
 properly to my house!
 
 
-GREEN Path
-PATTERN BUSH AHEAD
+Green Path
+Patterh Bush Ahead
 
 
-GREEN Path
+Green Path
 Think Green, Keep Nature Clean!
 
 
@@ -9139,7 +9139,7 @@ Trainer Tower Entrance
 Rise to the Challenge, Trainers!
 
 
-Trainer Tower AHEAD
+Trainer Tower Ahead
 
 
 Kyahaha!
@@ -9370,7 +9370,7 @@ in two-on-two style?
 
 
 Sevault Canyon
-Tanoby Ruins AHEAD
+Tanoby Ruins Ahead
 
 
 Training by oneself is certainly
@@ -27608,7 +27608,7 @@ EXCUSE
 SEE YA
 EXCUSE ME
 WELL, THEN
-GO AHEAD
+GO Ahead
 APPRECIATE
 HEY?
 WHAT'S UP?
