@@ -52,3 +52,7 @@ scoreboard players set @s info 0
 #Vanilla villager found (tests for if player has the Pixelmon config files added)
 #Pixelmon statue found (ensures Pixelmon itself is installed)
 #Player confirmed not in dialogue (helps diagnose if player is stuck with a TalkTime or DialogueTrigger score when one trips to 0 but not the other)
+
+
+#Attempts to clone in a new hopper on the main hopper clock in case a duplication bug occurs
+clone 3872 41 1176 3871 41 1176 3871 42 1181
