@@ -1981,7 +1981,10 @@ execute as @s[x=2805,y=-5,z=-1619,distance=..4,tag=!ItemLoot396] run tag @s add 
 #ItemLoot397 one time shop item
 
 
-
+execute as @s[x=3097,y=52,z=-21,distance=..4,tag=Cut] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=3097,y=52,z=-21,distance=..4,tag=!Cut] run tellraw @s {"text":"You obtained HM01 from the Captain!","italic":true,"color":"gray"}
+execute as @s[x=3097,y=52,z=-21,distance=..4,tag=!Cut] run playsound getitem ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3097,y=52,z=-21,distance=..4,tag=!Cut] run tag @s add Cut
 
 
 
