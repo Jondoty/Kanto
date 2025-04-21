@@ -38,6 +38,9 @@ execute as @s[x=3399,y=33,z=1874,dx=141,dy=107,dz=152] run tag @s add DisableFly
 #Kanto Power Plant
 execute as @s[x=4590,y=30,z=1785,dx=226,dy=50,dz=190] run tag @s add DisableFly
 
+#Kanto Safari Zone
+execute as @s[x=3191,y=0,z=-294,dx=510,dy=256,dz=245] run tag @s add DisableFly
+
 #Lobby
 execute as @s[x=3926,y=40,z=1182,dx=30,dy=20,dz=30] run tag @s add DisableFly
 
