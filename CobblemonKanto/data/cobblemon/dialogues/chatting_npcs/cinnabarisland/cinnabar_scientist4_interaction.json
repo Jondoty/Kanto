@@ -69,7 +69,7 @@
             "id": "page4",
             "speaker": "npc",
             "lines": [
-                "Put it in one of these machines and fill it with organic matter!"
+                "Put it in one of these machines and fill it with organic matter! Apricorns or berries work great."
             ],
             "input": {
                 "type": "option",
