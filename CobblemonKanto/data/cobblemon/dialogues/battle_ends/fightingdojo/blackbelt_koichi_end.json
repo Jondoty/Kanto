@@ -1,58 +1,147 @@
-{   "initializationAction": [              
-    "c.npc.set_chatting();",
-    "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
-    "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
-    "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $888 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
-    "q.run_command('scoreboard players add ' + q.player.username + ' Money 888');"
-        ],
+{
+  "initializationAction": [
+      "c.npc.set_chatting();",
+      "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
+      "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
+      "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $888 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+      "q.run_command('scoreboard players add ' + q.player.username + ' Money 888');"
+  ],
   "speakers": {
-    "npc": {
-      "name": "Koichi",
-      "face": {
-        "type": "artificial",
-        "modelType": "npc",
-        "identifier": "cobblemon:blackbelt",
-        "isLeftSide": true
+      "npc": {
+          "name": "Koichi",
+          "face": {
+              "type": "artificial",
+              "modelType": "npc",
+              "identifier": "cobblemon:blackbelt",
+              "isLeftSide": true
+          }
       }
-    }
   },
   "pages": [
-    {
-      "id": "greeting",
-      "speaker": "npc",
-      "lines": ["Indeed, I have lost! But, I beseech you, do not take our emblem as your trophy!"],
-            "input": {
-                "type": "option",
-                "vertical": false,
-                "options": [
-                    {
-                        "text": "Close",
-                        "value": "close",
-                        "action": [              
-                            "q.dialogue.set_page('page2');"]
-                    }
-                ]
-            }
-        },
-        {
+      {
+          "id": "greeting",
+          "speaker": "npc",
+          "lines": [
+              "Indeed, I have lost! But, I beseech you, do not take our emblem as your trophy!"
+          ],
+          "input": {
+              "type": "option",
+              "vertical": false,
+              "options": [
+                  {
+                      "text": "Next",
+                      "value": "next",
+                      "action": [
+                          "q.dialogue.set_page('page2');"
+                      ]
+                  }
+              ]
+          }
+      },
+      {
           "id": "page2",
           "speaker": "npc",
-          "lines": ["In return, I will give you a prized Fighting Pokémon! Choose whichever one you like!"],
-                "input": {
-                    "type": "option",
-                    "vertical": false,
-                    "options": [
-                        {
-                            "text": "Close",
-                            "value": "close",
-                            "action": [              
-                                "q.dialogue.close();"]
-                        }
-                    ]
-                }
-            }
-    ],
-    "escapeAction": [              
-      "q.dialogue.close();"
-      ]
+          "lines": [
+              "In return, I will give you a prized Fighting Pokémon! Choose whichever one you like!"
+          ],
+          "input": {
+              "type": "option",
+              "vertical": false,
+              "options": [
+                  {
+                      "text": "Hitmonchan",
+                      "value": "hitmonchan",
+                      "action": [
+                          "q.dialogue.set_page('pickhitmonchan');"
+                      ]
+                  },
+                  {
+                      "text": "Hitmonlee",
+                      "value": "hitmonlee",
+                      "action": [
+                          "q.dialogue.set_page('pickhitmonlee');"
+                      ]
+                  }
+              ]
+          }
+      },
+      {
+          "id": "pickhitmonchan",
+          "speaker": "npc",
+          "lines": [
+              "So you pick Hitmonchan?"
+          ],
+          "input": {
+              "type": "option",
+              "vertical": false,
+              "options": [
+                  {
+                      "text": "Yes",
+                      "value": "yes",
+                      "action": [
+                          "q.run_command('execute as ' + q.player.username + ' run tag @s add Temp1');",
+                          "q.dialogue.set_page('enddialogue');"
+                      ]
+                  },
+                  {
+                      "text": "No",
+                      "value": "no",
+                      "action": [
+                          "q.dialogue.set_page('page2');"
+                      ]
+                  }
+              ]
+          }
+      },
+      {
+          "id": "pickhitmonlee",
+          "speaker": "npc",
+          "lines": [
+              "So you pick Hitmonlee?"
+          ],
+          "input": {
+              "type": "option",
+              "vertical": false,
+              "options": [
+                  {
+                      "text": "Yes",
+                      "value": "yes",
+                      "action": [
+                          "q.run_command('execute as ' + q.player.username + ' run tag @s add Temp2');",
+                          "q.dialogue.set_page('enddialogue');"
+                      ]
+                  },
+                  {
+                      "text": "No",
+                      "value": "no",
+                      "action": [
+                          "q.dialogue.set_page('page2');"
+                      ]
+                  }
+              ]
+          }
+      },
+      {
+          "id": "enddialogue",
+          "speaker": "npc",
+          "lines": [
+              "Take good care of it!"
+          ],
+          "input": {
+              "type": "option",
+              "vertical": false,
+              "options": [
+                  {
+                      "text": "Close",
+                      "value": "close",
+                      "action": [
+                         "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/itemlootgive');",
+                          "q.dialogue.close();"
+                      ]
+                  }
+              ]
+          }
+      }
+  ],
+  "escapeAction": []
 }
