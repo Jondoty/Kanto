@@ -10,9 +10,9 @@
         "party": {
         "type": "simple",
         "pokemon": [
-            "Pidgey level=20",
-            "Pidgey level=20",
-            "Pidgey level=20"
+            "Pidgey level=16",
+            "Pidgey level=16",
+            "Pidgey level=16"
         ]
     },
     "config": [

@@ -107,7 +107,7 @@
             "weight": 30,
             "condition": {
                 "canSeeSky": false,
-                "minX": 3176, "maxX": 3415, "minZ": 1598, "maxZ": 1807
+                "minX": 3176, "maxX": 3415, "maxY": 38, "minZ": 1598, "maxZ": 1807
             }
         },
         {
@@ -120,7 +120,7 @@
             "weight": 30,
             "condition": {
                 "canSeeSky": false,
-                "minX": 3176, "maxX": 3415, "minZ": 1392, "maxZ": 1597
+                "minX": 3176, "maxX": 3415, "maxY": 38, "minZ": 1392, "maxZ": 1597
             }
         },
 

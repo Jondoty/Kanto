@@ -10,6 +10,10 @@ execute as @s[tag=!RadioOff,scores={BattleEnd=1}] run scoreboard players set @s 
 
 
 #2 - Gym Leader battle ending
+execute as @s[tag=!RadioOff,scores={BattleEnd=2}] run stopsound @s record
+execute as @s[tag=!RadioOff,scores={BattleEnd=2}] run playsound victorygymleader record @s ~ ~ ~ 1 1 1
+execute as @s[tag=!RadioOff,scores={BattleEnd=2}] run scoreboard players set @s MusicCooldown 84
+
 execute as @s[tag=!RadioOff,scores={BattleEnd=3}] run stopsound @s record
 execute as @s[tag=!RadioOff,scores={BattleEnd=3}] run playsound victorygymleader record @s ~ ~ ~ 1 1 1
 execute as @s[tag=!RadioOff,scores={BattleEnd=3}] run scoreboard players set @s MusicCooldown 84

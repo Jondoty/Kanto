@@ -32,6 +32,7 @@ scoreboard players set @s MusicCooldown 0
 scoreboard players set @s StarterPick 0
 scoreboard players set @s Location 0
 scoreboard players set @s PokemonLeague 0
+scoreboard players set @s PokeDex 0
 
 
 #Grants basic items on starting

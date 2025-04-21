@@ -10,7 +10,8 @@
         "party": {
         "type": "simple",
         "pokemon": [
-            "Squirtle level=20"
+            "Spearow level=16",
+            "Raticate level=16"
         ]
     },
     "config": [
