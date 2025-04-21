@@ -1,41 +1,147 @@
-{   "initializationAction": [              
-    "c.npc.set_chatting();",
-    "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
-    "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
-    "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $288 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
-    "q.run_command('scoreboard players add ' + q.player.username + ' Money 288');"
-        ],
+{
+  "initializationAction": [
+      "c.npc.set_chatting();",
+      "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
+      "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
+      "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $288 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+      "q.run_command('scoreboard players add ' + q.player.username + ' Money 288');"
+  ],
   "speakers": {
-    "npc": {
-      "name": "Miguel",
-      "face": {
-        "type": "artificial",
-        "modelType": "npc",
-        "identifier": "cobblemon:supernerd",
-        "isLeftSide": true
+      "npc": {
+          "name": "Miguel",
+          "face": {
+              "type": "artificial",
+              "modelType": "npc",
+              "identifier": "cobblemon:supernerd",
+              "isLeftSide": true
+          }
       }
-    }
   },
   "pages": [
-    {
-      "id": "greeting",
-      "speaker": "npc",
-      "lines": ["Okay! I'll share! We'll each take a fossil! No being greedy!"],
-            "input": {
-                "type": "option",
-                "vertical": false,
-                "options": [
-                    {
-                        "text": "Close",
-                        "value": "close",
-                        "action": [              
-                            "q.dialogue.close();"]
-                    }
-                ]
-            }
-        }
-    ],
-    "escapeAction": [              
-      "q.dialogue.close();"
-      ]
+      {
+          "id": "greeting",
+          "speaker": "npc",
+          "lines": [
+              "Okay! I'll share! We'll each take a fossil! No being greedy!"
+          ],
+          "input": {
+              "type": "option",
+              "vertical": false,
+              "options": [
+                  {
+                      "text": "Next",
+                      "value": "next",
+                      "action": [
+                          "q.dialogue.set_page('page2');"
+                      ]
+                  }
+              ]
+          }
+      },
+      {
+          "id": "page2",
+          "speaker": "npc",
+          "lines": [
+              "Which fossil do you want?"
+          ],
+          "input": {
+              "type": "option",
+              "vertical": false,
+              "options": [
+                  {
+                      "text": "Dome Fossil",
+                      "value": "dome",
+                      "action": [
+                          "q.dialogue.set_page('pickdome');"
+                      ]
+                  },
+                  {
+                      "text": "Helix Fossil",
+                      "value": "helix",
+                      "action": [
+                          "q.dialogue.set_page('pickhelix');"
+                      ]
+                  }
+              ]
+          }
+      },
+      {
+          "id": "pickdome",
+          "speaker": "npc",
+          "lines": [
+              "Do you want the Dome Fossil?"
+          ],
+          "input": {
+              "type": "option",
+              "vertical": false,
+              "options": [
+                  {
+                      "text": "Yes",
+                      "value": "yes",
+                      "action": [
+                          "q.run_command('execute as ' + q.player.username + ' run tag @s add Temp1');",
+                          "q.dialogue.set_page('end');"
+                      ]
+                  },
+                  {
+                      "text": "No",
+                      "value": "no",
+                      "action": [
+                          "q.dialogue.set_page('page2');"
+                      ]
+                  }
+              ]
+          }
+      },
+      {
+          "id": "pickhelix",
+          "speaker": "npc",
+          "lines": [
+              "Do you want the Helix Fossil?"
+          ],
+          "input": {
+              "type": "option",
+              "vertical": false,
+              "options": [
+                  {
+                      "text": "Yes",
+                      "value": "yes",
+                      "action": [
+                          "q.run_command('execute as ' + q.player.username + ' run tag @s add Temp2');",
+                          "q.dialogue.set_page('end');"
+                      ]
+                  },
+                  {
+                      "text": "No",
+                      "value": "no",
+                      "action": [
+                          "q.dialogue.set_page('page2');"
+                      ]
+                  }
+              ]
+          }
+      },
+      {
+          "id": "end",
+          "speaker": "npc",
+          "lines": [
+              "All right. Then this fossil is mine!"
+          ],
+          "input": {
+              "type": "option",
+              "vertical": false,
+              "options": [
+                  {
+                      "text": "Close",
+                      "value": "close",
+                      "action": [
+                          "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/itemlootgive');",
+                          "q.dialogue.close();"
+                      ]
+                  }
+              ]
+          }
+      }
+  ],
+  "escapeAction": []
 }
