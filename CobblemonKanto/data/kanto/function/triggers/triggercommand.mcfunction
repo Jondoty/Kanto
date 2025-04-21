@@ -1066,6 +1066,7 @@ execute as @a[scores={TriggerCommand=194,Money=500..},tag=!ItemLoot397] run tell
 execute as @a[scores={TriggerCommand=194,Money=500..},tag=!ItemLoot397] run pokegive magikarp level=5
 execute as @a[scores={TriggerCommand=194,Money=500..},tag=!ItemLoot397] run playsound minecraft:getpokemon ambient @s ~ ~ ~ 1 1 1
 execute as @a[scores={TriggerCommand=194,Money=500..},tag=!ItemLoot397] run scoreboard players remove @s Money 500
+execute as @a[scores={TriggerCommand=194,Money=500..},tag=!ItemLoot397] run scoreboard players add @s PokeDex 1
 execute as @a[scores={TriggerCommand=194,Money=500..},tag=!ItemLoot397] run tag @s add ItemLoot397
 
 
@@ -1171,6 +1172,7 @@ execute as @a[scores={TriggerCommand=203,Coins=..179}] run scoreboard players se
 execute as @a[scores={TriggerCommand=203,Coins=180..}] run tellraw @s {"text":"You received an Abra!","italic":true,"color":"gray"}
 execute as @a[scores={TriggerCommand=203,Coins=180..}] run pokegive abra level=9
 execute as @a[scores={TriggerCommand=203,Coins=180..}] run playsound minecraft:getpokemon ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={TriggerCommand=203,Coins=180..}] run scoreboard players add @s PokeDex 1
 execute as @a[scores={TriggerCommand=203,Coins=180..}] run scoreboard players remove @s Coins 180
 
 #Clefairy
@@ -1180,6 +1182,7 @@ execute as @a[scores={TriggerCommand=204,Coins=..499}] run scoreboard players se
 execute as @a[scores={TriggerCommand=204,Coins=500..}] run tellraw @s {"text":"You received a Clefairy!","italic":true,"color":"gray"}
 execute as @a[scores={TriggerCommand=204,Coins=500..}] run pokegive clefairy level=12
 execute as @a[scores={TriggerCommand=204,Coins=500..}] run playsound minecraft:getpokemon ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={TriggerCommand=204,Coins=500..}] run scoreboard players add @s PokeDex 1
 execute as @a[scores={TriggerCommand=204,Coins=500..}] run scoreboard players remove @s Coins 500
 
 #Pinsir
@@ -1189,6 +1192,7 @@ execute as @a[scores={TriggerCommand=205,Coins=..2499}] run scoreboard players s
 execute as @a[scores={TriggerCommand=205,Coins=2500..}] run tellraw @s {"text":"You received a Pinsir!","italic":true,"color":"gray"}
 execute as @a[scores={TriggerCommand=205,Coins=2500..}] run pokegive clefairy level=18
 execute as @a[scores={TriggerCommand=205,Coins=2500..}] run playsound minecraft:getpokemon ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={TriggerCommand=205,Coins=2500..}] run scoreboard players add @s PokeDex 1
 execute as @a[scores={TriggerCommand=205,Coins=2500..}] run scoreboard players remove @s Coins 2500
 
 #Dratini
@@ -1198,6 +1202,7 @@ execute as @a[scores={TriggerCommand=206,Coins=..2799}] run scoreboard players s
 execute as @a[scores={TriggerCommand=206,Coins=2800..}] run tellraw @s {"text":"You received a Dratini!","italic":true,"color":"gray"}
 execute as @a[scores={TriggerCommand=206,Coins=2800..}] run pokegive dratini level=24
 execute as @a[scores={TriggerCommand=206,Coins=2800..}] run playsound minecraft:getpokemon ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={TriggerCommand=206,Coins=2800..}] run scoreboard players add @s PokeDex 1
 execute as @a[scores={TriggerCommand=206,Coins=2800..}] run scoreboard players remove @s Coins 2800
 
 #Scyther
@@ -1207,6 +1212,7 @@ execute as @a[scores={TriggerCommand=207,Coins=..5499}] run scoreboard players s
 execute as @a[scores={TriggerCommand=207,Coins=5500..}] run tellraw @s {"text":"You received a Scyther!","italic":true,"color":"gray"}
 execute as @a[scores={TriggerCommand=207,Coins=5500..}] run pokegive scyther level=25
 execute as @a[scores={TriggerCommand=207,Coins=5500..}] run playsound minecraft:getpokemon ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={TriggerCommand=207,Coins=5500..}] run scoreboard players add @s PokeDex 1
 execute as @a[scores={TriggerCommand=207,Coins=5500..}] run scoreboard players remove @s Coins 5500
 
 #Porygon
@@ -1216,6 +1222,7 @@ execute as @a[scores={TriggerCommand=208,Coins=..6499}] run scoreboard players s
 execute as @a[scores={TriggerCommand=208,Coins=6500..}] run tellraw @s {"text":"You received a Porygon!","italic":true,"color":"gray"}
 execute as @a[scores={TriggerCommand=208,Coins=6500..}] run pokegive porygon level=26
 execute as @a[scores={TriggerCommand=208,Coins=6500..}] run playsound minecraft:getpokemon ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={TriggerCommand=208,Coins=6500..}] run scoreboard players add @s PokeDex 1
 execute as @a[scores={TriggerCommand=208,Coins=6500..}] run scoreboard players remove @s Coins 6500
 
 

@@ -796,6 +796,7 @@ execute as @s[x=3481,y=71,z=540,distance=..4,tag=ItemLoot154] run tellraw @s {"t
 execute as @s[x=3481,y=71,z=540,distance=..4,tag=!ItemLoot154] run pokegive eevee level=25
 execute as @s[x=3481,y=71,z=540,distance=..4,tag=!ItemLoot154] run tellraw @s {"text":"You received an Eevee!","italic":true,"color":"gray"}
 execute as @s[x=3481,y=71,z=540,distance=..4,tag=!ItemLoot154] run playsound getpokemon ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3481,y=71,z=540,distance=..4,tag=!ItemLoot154] run scoreboard players add @s PokeDex 1
 execute as @s[x=3481,y=71,z=540,distance=..4,tag=!ItemLoot154] run tag @s add ItemLoot154
 
 #155
@@ -1965,6 +1966,7 @@ execute as @s[x=3376,y=34,z=-2913,distance=..4,tag=ItemLoot393] run tellraw @s {
 execute as @s[x=3376,y=34,z=-2913,distance=..4,tag=!ItemLoot393] run pokegive togepi level=5
 execute as @s[x=3376,y=34,z=-2913,distance=..4,tag=!ItemLoot393] run tellraw @s {"text":"You received a Togepi!","italic":true,"color":"gray"}
 execute as @s[x=3376,y=34,z=-2913,distance=..4,tag=!ItemLoot393] run playsound getpokemon ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3376,y=34,z=-2913,distance=..4,tag=!ItemLoot393] run scoreboard players add @s PokeDex 1
 execute as @s[x=3376,y=34,z=-2913,distance=..4,tag=!ItemLoot393] run tag @s add ItemLoot393
 
 execute as @s[x=3452,y=34,z=458,distance=..4,tag=ItemLoot394] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
@@ -1977,6 +1979,7 @@ execute as @s[x=4474,y=114,z=1838,distance=..4,tag=ItemLoot395] run tellraw @s {
 execute as @s[x=4474,y=114,z=1838,distance=..4,tag=!ItemLoot395] run pokegive lapras level=15
 execute as @s[x=4474,y=114,z=1838,distance=..4,tag=!ItemLoot395] run tellraw @s {"text":"You received a Lapras!","italic":true,"color":"gray"}
 execute as @s[x=4474,y=114,z=1838,distance=..4,tag=!ItemLoot395] run playsound getpokemon ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=4474,y=114,z=1838,distance=..4,tag=!ItemLoot395] run scoreboard players add @s PokeDex 1
 execute as @s[x=4474,y=114,z=1838,distance=..4,tag=!ItemLoot395] run tag @s add ItemLoot395
 
 
