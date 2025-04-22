@@ -5,7 +5,7 @@
           "face": {
             "type": "artificial",
             "modelType": "npc",
-            "identifier": "cobblemon:lady",
+            "identifier": "cobblemon:schoolboy",
             "isLeftSide": true
           }
         }
@@ -15,7 +15,25 @@
             "id": "greeting",
             "speaker": "npc",
             "lines": [
-                "Welcome. The President is in the boardroom on 11F."
+                "Team Rocket took off!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page2",
+            "speaker": "npc",
+            "lines": [
+                "You're our hero! Thank you!"
             ],
             "input": {
                 "type": "option",

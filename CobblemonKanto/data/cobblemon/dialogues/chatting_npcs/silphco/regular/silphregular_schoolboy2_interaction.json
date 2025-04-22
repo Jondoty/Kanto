@@ -5,7 +5,7 @@
           "face": {
             "type": "artificial",
             "modelType": "npc",
-            "identifier": "cobblemon:lady",
+            "identifier": "cobblemon:schoolboy",
             "isLeftSide": true
           }
         }
@@ -15,7 +15,7 @@
             "id": "greeting",
             "speaker": "npc",
             "lines": [
-                "Welcome. The President is in the boardroom on 11F."
+                "Come work for Silph when you get older."
             ],
             "input": {
                 "type": "option",

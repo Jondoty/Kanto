@@ -5,7 +5,7 @@
           "face": {
             "type": "artificial",
             "modelType": "npc",
-            "identifier": "cobblemon:lady",
+            "identifier": "cobblemon:scientistm",
             "isLeftSide": true
           }
         }
@@ -15,7 +15,7 @@
             "id": "greeting",
             "speaker": "npc",
             "lines": [
-                "Welcome. The President is in the boardroom on 11F."
+                "Huh? Team Rocket is gone?"
             ],
             "input": {
                 "type": "option",

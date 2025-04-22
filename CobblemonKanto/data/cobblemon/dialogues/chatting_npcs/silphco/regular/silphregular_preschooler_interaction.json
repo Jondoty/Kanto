@@ -5,7 +5,7 @@
           "face": {
             "type": "artificial",
             "modelType": "npc",
-            "identifier": "cobblemon:lady",
+            "identifier": "cobblemon:preschoolerf",
             "isLeftSide": true
           }
         }
@@ -15,7 +15,7 @@
             "id": "greeting",
             "speaker": "npc",
             "lines": [
-                "Welcome. The President is in the boardroom on 11F."
+                "About me crying… Please keep it a secret."
             ],
             "input": {
                 "type": "option",

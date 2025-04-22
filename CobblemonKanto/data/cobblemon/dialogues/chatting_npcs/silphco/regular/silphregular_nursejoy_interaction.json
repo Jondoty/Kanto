@@ -1,11 +1,11 @@
 {   
     "speakers": {
         "npc": {
-          "name": "     ",
+          "name": "Nurse Joy",
           "face": {
             "type": "artificial",
             "modelType": "npc",
-            "identifier": "cobblemon:lady",
+            "identifier": "cobblemon:nursejoy",
             "isLeftSide": true
           }
         }
@@ -15,7 +15,7 @@
             "id": "greeting",
             "speaker": "npc",
             "lines": [
-                "Welcome. The President is in the boardroom on 11F."
+                "Thank you so much."
             ],
             "input": {
                 "type": "option",
