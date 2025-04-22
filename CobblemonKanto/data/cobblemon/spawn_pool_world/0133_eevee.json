@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "eevee-1",
+            "pokemon": "eevee",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-28",
+            "weight": 15,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:short_grass"
+                ],
+                "minX": 3702, "maxX": 3873, "minZ": -337, "maxZ": 442
+            }
+        }
+    ]
+}
