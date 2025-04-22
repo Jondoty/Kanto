@@ -86,6 +86,30 @@ execute as @s[x=4143,y=34,z=-156,distance=..6,scores={StarterPick=1..,PokeDex=50
 #Oak's Rainbow Pass custom after E4
 execute as @s[x=4143,y=34,z=-156,distance=..6,scores={StarterPick=1..,PokemonLeague=1..},tag=!RainbowPass] run opendialogue pallet_oak_rainbowpass @s
 
+#----------------------------------------------
+
+#Oak's aides on routes
+
+#Route 2 - Oak's Aide Flash HM
+execute as @s[x=4132,y=35,z=461,distance=..5,tag=!Dialogue35,scores={PokeDex=..9}] run opendialogue route2_oakaide_interaction @s
+execute as @s[x=4132,y=35,z=461,distance=..5,tag=!Dialogue35,scores={PokeDex=10..}] run opendialogue route2_oakaide_dialogue35 @s
+execute as @s[x=4132,y=35,z=461,distance=..5,tag=Dialogue35] run opendialogue route2_oakaide_interaction2 @s
+
+
+#Route 10 - Oak's Aide Everstone
+execute as @s[x=2562,y=35,z=840,distance=..5,tag=!Dialogue39,scores={PokeDex=..19}] run opendialogue route10_oakaide_interaction @s
+execute as @s[x=2562,y=35,z=840,distance=..5,tag=!Dialogue39,scores={PokeDex=20..}] run opendialogue route10_oakaide_dialogue39 @s
+execute as @s[x=2562,y=35,z=840,distance=..5,tag=Dialogue39] run opendialogue route10_oakaide_interaction2 @s
+
+#Amulet Coin, item not a thing
+#3280 35 -391
+
+#Route 15 - Oak's Aide Exp Share
+execute as @s[x=3280,y=35,z=-391,distance=..5,tag=!Dialogue66,scores={PokeDex=..49}] run opendialogue route15_oakaide_interaction @s
+execute as @s[x=3280,y=35,z=-391,distance=..5,tag=!Dialogue66,scores={PokeDex=50..}] run opendialogue route15_oakaide_dialogue66 @s
+execute as @s[x=3280,y=35,z=-391,distance=..5,tag=Dialogue66] run opendialogue route15_oakaide_interaction2 @s
+
+#----------------------------------------------
 
 
 #Vermilion Seagallop NPC
