@@ -4,6 +4,11 @@ execute as @a[tag=!InitialTags] run function kanto:triggers/startingcommands
 #Aligns and gets rid of nametags for NPCs
 execute as @e[type=cobblemon:npc,nbt={PersistenceRequired:0b}] run data merge entity @s {Rotation:[180f,0.0f],PersistenceRequired:1b,HideNPCNameTag:1b}
 
+#Auto reloads the server if function fails to load (should thus fix itself by reloading)
+tag @e[x=3833,y=41,z=1158,dy=3,type=armor_stand] remove ReloadCheck
+function kanto:triggers/autoreload
+execute if entity @e[x=3833,y=41,z=1158,dy=3,type=armor_stand,tag=!ReloadCheck] run reload
+
 #------------------------------------------------------------------------------
 #World important triggers
 
