@@ -18,8 +18,9 @@ execute as @a[x=3056,y=-15,z=-3063,dx=90,dy=15,dz=80] run function kanto:world/m
 #Runs Game Corner Slot animations
 execute as @a[x=3449,y=0,z=482,dx=31,dy=44,dz=19] run function kanto:triggers/gamecornerslots
 
-
-
+#Temp Wallmake Function
+#execute as @a[tag=WallMake] run function tools:wallmake
+#execute as @a[tag=WallMakeWater] run function tools:wallmakewater
 
 
 
