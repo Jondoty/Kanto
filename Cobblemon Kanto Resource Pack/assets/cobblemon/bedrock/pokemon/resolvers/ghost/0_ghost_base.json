@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ghost",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ghost",
+      "model": "cobblemon:ghost.geo",
+      "texture": "cobblemon:textures/pokemon/ghost/ghost.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ghost/ghost_shiny.png"
+    }
+  ]
+ }
