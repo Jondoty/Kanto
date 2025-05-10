@@ -164,6 +164,20 @@
                 "canSeeSky": false,
                 "minX": 3399, "maxX": 3540, "minY": 83, "maxY": 107, "minZ": 1874, "maxZ": 2026
             }
+        },
+
+        {
+            "id": "golbat-13",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "41-43",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4065, "maxX": 4325, "minZ": 1579, "maxZ": 1690
+            }
         }
     ]
 }

@@ -70,6 +70,19 @@
                 ],
                 "minX": 4375, "maxX": 4501, "minY": 176, "maxY": 191, "minZ": 1608, "maxZ": 1713
             }
+        },
+        {
+            "id": "haunter-5",
+            "pokemon": "haunter",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "44-52",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4065, "maxX": 4325, "minZ": 1579, "maxZ": 1690
+            }
         }
     ]
 }

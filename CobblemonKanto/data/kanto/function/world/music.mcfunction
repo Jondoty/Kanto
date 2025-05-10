@@ -488,7 +488,9 @@ scoreboard players set @s[x=4581,y=11,z=1146,dx=57,dy=23,dz=110,scores={MusicCoo
 playsound epilogue record @s[x=4581,y=11,z=1257,dx=57,dy=23,dz=54,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=4581,y=11,z=1257,dx=57,dy=23,dz=54,scores={MusicCooldown=0}] MusicCooldown 90
 
-
+#Lost Cave
+playsound mtmoon record @s[x=4065,y=32,z=1579,dx=260,dy=30,dz=111,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4065,y=32,z=1579,dx=260,dy=30,dz=111,scores={MusicCooldown=0}] MusicCooldown 221
 
 
 #---------------------------------------------------------------------------------------------

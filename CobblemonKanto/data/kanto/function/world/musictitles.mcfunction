@@ -490,9 +490,9 @@ execute as @s[x=3926,y=40,z=1182,dx=30,dy=20,dz=30] unless entity @s[scores={Loc
 
 
 #Lost Cave
-#execute as @s[] unless entity @s[scores={Location=59}] run title @s actionbar {"text":""}
-#execute as @s[] unless entity @s[scores={Location=59}] run function kanto:triggers/stopsound
-#execute as @s[] unless entity @s[scores={Location=59}] run scoreboard players set @s Location 59
+execute as @s[x=4065,y=32,z=1579,dx=260,dy=30,dz=111] unless entity @s[scores={Location=59}] run title @s actionbar {"text":""}
+execute as @s[x=4065,y=32,z=1579,dx=260,dy=30,dz=111] unless entity @s[scores={Location=59}] run function kanto:triggers/stopsound
+execute as @s[x=4065,y=32,z=1579,dx=260,dy=30,dz=111] unless entity @s[scores={Location=59}] run scoreboard players set @s Location 59
 
 
 
