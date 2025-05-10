@@ -8,6 +8,7 @@ execute at @s[scores={EscapeRopeUse=1..}] run kill @e[distance=..20,type=minecra
 
 
 #Adds success automatically if score is found
+#Tag is applied in each cave zone area if done by coordinates
 execute as @s[scores={EscapeRope=1..}] run tag @s add EscapeRopeUse
 
 
@@ -41,10 +42,11 @@ execute as @s[scores={EscapeRope=4}] run tp @s 2954 34 109 180 12
 
 
 #Dotted Hole
-#execute as @s[] run effect give @s minecraft:blindness 3 1 true
-#execute as @s[] run playsound door ambient @s ~ ~ ~ 1 1 1
-#execute as @s[] run tellraw @s {"text":"You used an Escape Rope!","italic":true,"color":"gray"}
-#execute as @s[] run tp @s 2890 34 -4591 180 12
+execute as @s[x=4091,y=33,z=1720,dx=54,dy=101,dz=44] run tag @s add EscapeRopeUse
+execute as @s[x=4091,y=33,z=1720,dx=54,dy=101,dz=44] run effect give @s minecraft:blindness 3 1 true
+execute as @s[x=4091,y=33,z=1720,dx=54,dy=101,dz=44] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=4091,y=33,z=1720,dx=54,dy=101,dz=44] run tellraw @s {"text":"You used an Escape Rope!","italic":true,"color":"gray"}
+execute as @s[x=4091,y=33,z=1720,dx=54,dy=101,dz=44] run tp @s 2890 34 -4591 180 12
 
 
 #Ember Spa
@@ -72,10 +74,11 @@ execute as @s[x=4590,y=30,z=1785,dx=226,dy=50,dz=190] run tp @s 2602 34 728 180 
 
 
 #Lost Cave
-#execute as @s[] run effect give @s minecraft:blindness 3 1 true
-#execute as @s[] run playsound door ambient @s ~ ~ ~ 1 1 1
-#execute as @s[] run tellraw @s {"text":"You used an Escape Rope!","italic":true,"color":"gray"}
-#execute as @s[] run tp @s 2914 34 -2829 180 12
+execute as @s[x=4065,y=32,z=1579,dx=260,dy=30,dz=111] run tag @s add EscapeRopeUse
+execute as @s[x=4065,y=32,z=1579,dx=260,dy=30,dz=111] run effect give @s minecraft:blindness 3 1 true
+execute as @s[x=4065,y=32,z=1579,dx=260,dy=30,dz=111] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=4065,y=32,z=1579,dx=260,dy=30,dz=111] run tellraw @s {"text":"You used an Escape Rope!","italic":true,"color":"gray"}
+execute as @s[x=4065,y=32,z=1579,dx=260,dy=30,dz=111] run tp @s 2914 34 -2829 180 12
 
 
 #Mt. Ember
@@ -154,10 +157,11 @@ execute as @s[scores={EscapeRope=6}] run tp @s 2588 34 648 180 12
 
 
 #Rocket Warehouse
-#execute as @s[] run effect give @s minecraft:blindness 3 1 true
-#execute as @s[] run playsound door ambient @s ~ ~ ~ 1 1 1
-#execute as @s[] run tellraw @s {"text":"You used an Escape Rope!","italic":true,"color":"gray"}
-#execute as @s[] run tp @s 3071 39 -3062 180 12
+execute as @s[x=3056,y=-15,z=-3063,dx=90,dy=15,dz=80] run tag @s add EscapeRopeUse
+execute as @s[x=3056,y=-15,z=-3063,dx=90,dy=15,dz=80] run effect give @s minecraft:blindness 3 1 true
+execute as @s[x=3056,y=-15,z=-3063,dx=90,dy=15,dz=80] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3056,y=-15,z=-3063,dx=90,dy=15,dz=80] run tellraw @s {"text":"You used an Escape Rope!","italic":true,"color":"gray"}
+execute as @s[x=3056,y=-15,z=-3063,dx=90,dy=15,dz=80] run tp @s 3071 39 -3062 180 12
 
 
 #Seafoam Islands
