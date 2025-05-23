@@ -1,0 +1,4 @@
+t.constants = ' nature=hardy level='+ (q.player.party.highest_level);
+
+q.party.add_by_properties('Dunsparce held_item=cobblemon:persim_berry' + t.constants);
+q.party.add_by_properties('Politoed held_item=cobblemon:chesto_berry' + t.constants);

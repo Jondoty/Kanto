@@ -1,0 +1,4 @@
+t.constants = ' nature=hardy level='+ (q.player.party.highest_level);
+
+q.party.add_by_properties('Beedrill held_item=cobblemon:bright_powder' + t.constants);
+q.party.add_by_properties('Yanma held_item=cobblemon:bright_powder' + t.constants);

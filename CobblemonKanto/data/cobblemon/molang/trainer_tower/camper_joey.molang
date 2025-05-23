@@ -1,0 +1,4 @@
+t.constants = ' nature=hardy level='+ (q.player.party.highest_level);
+
+q.party.add_by_properties('Nidoking held_item=cobblemon:soft_sand' + t.constants);
+q.party.add_by_properties('Tauros held_item=cobblemon:silk_scarf' + t.constants);

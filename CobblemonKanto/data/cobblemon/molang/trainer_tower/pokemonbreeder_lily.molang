@@ -1,0 +1,4 @@
+t.constants = ' nature=hardy level='+ (q.player.party.highest_level);
+
+q.party.add_by_properties('Togepi held_item=cobblemon:sitrus_berry' + t.constants);
+q.party.add_by_properties('Snorlax held_item=cobblemon:leftovers' + t.constants);

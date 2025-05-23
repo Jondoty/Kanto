@@ -1,0 +1,4 @@
+t.constants = ' nature=hardy level='+ (q.player.party.highest_level);
+
+q.party.add_by_properties('Meowth held_item=cobblemon:liechi_berry' + t.constants);
+q.party.add_by_properties('Chansey' + t.constants);
