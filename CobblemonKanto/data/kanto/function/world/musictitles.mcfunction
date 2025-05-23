@@ -43,10 +43,10 @@ execute as @s[x=4097,y=12,z=-4376,dx=77,dy=20,dz=95] run tag @s add Indoors
 
 
 #Trainer Tower Interior
-#execute as @s[] unless entity @s[scores={Location=96}] run title @s actionbar {"text":"Trainer Tower"}
-#execute as @s[] unless entity @s[scores={Location=96}] run function kanto:triggers/stopsound
-#execute as @s[] unless entity @s[scores={Location=96}] run scoreboard players set @s Location 96
-#execute as @s[] run tag @s add Indoors
+execute as @s[x=4217,y=30,z=-3955,dx=32,dy=150,dz=47] unless entity @s[scores={Location=96}] run title @s actionbar {"text":"Trainer Tower"}
+execute as @s[x=4217,y=30,z=-3955,dx=32,dy=150,dz=47] unless entity @s[scores={Location=96}] run function kanto:triggers/stopsound
+execute as @s[x=4217,y=30,z=-3955,dx=32,dy=150,dz=47] unless entity @s[scores={Location=96}] run scoreboard players set @s Location 96
+execute as @s[x=4217,y=30,z=-3955,dx=32,dy=150,dz=47] run tag @s add Indoors
 
 
 #Viridian Forest

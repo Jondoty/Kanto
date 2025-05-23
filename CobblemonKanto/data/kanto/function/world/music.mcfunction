@@ -98,6 +98,10 @@ execute at @e[type=armor_stand,name=PokemonCenter] run scoreboard players set @a
 playsound pokemonnetcenter record @s[x=4274,y=25,z=-2363,dx=45,dy=13,dz=27,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=4274,y=25,z=-2363,dx=45,dy=13,dz=27,scores={MusicCooldown=0}] MusicCooldown 58
 
+#Trainer Tower Interior
+playsound gym record @s[x=4217,y=30,z=-3955,dx=32,dy=150,dz=47,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4217,y=30,z=-3955,dx=32,dy=150,dz=47,scores={MusicCooldown=0}] MusicCooldown 98
+
 #---------------------------------------------------------------------------------------------
 #Lowest-Priority music (general area world music), nothing else above found
 

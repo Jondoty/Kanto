@@ -1549,4 +1549,22 @@ tp @e[x=4103,y=50,z=1742,dx=2,dy=4,dz=2] 4119 131 1735
 tp @e[x=4118,y=50,z=1730,dx=2,dy=4,dz=2] 4119 46 1737
 tp @e[x=4134,y=50,z=1742,dx=2,dy=4,dz=2] 4119 131 1735
 
+
+#--------------------------
+
+#Trainer Tower Elevator
+#Ground
+execute as @e[x=4219,y=33,z=-3933,dx=4,dy=5,dz=3] at @s if block 4220 35 -3930 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @e[x=4219,y=33,z=-3933,dx=4,dy=5,dz=3] at @s if block 4220 35 -3930 minecraft:stone_button[powered=true] run tp @s ~5 ~98 ~-8
+
+execute as @e[x=4219,y=33,z=-3933,dx=4,dy=5,dz=3] at @s if block 4220 34 -3930 minecraft:stone_button[powered=true] run tellraw @s {"text":"You're already on that floor!","italic":true,"color":"gray"}
+execute as @e[x=4219,y=33,z=-3933,dx=4,dy=5,dz=3] at @s if block 4220 34 -3930 minecraft:stone_button[powered=true] run setblock 4220 34 -3930 minecraft:stone_button[facing=north,powered=false]
+
+#Roof
+execute as @e[x=4224,y=131,z=-3941,dx=4,dy=5,dz=3] at @s if block 4225 133 -3938 minecraft:stone_button[powered=true] run tellraw @s {"text":"You're already on that floor!","italic":true,"color":"gray"}
+execute as @e[x=4224,y=131,z=-3941,dx=4,dy=5,dz=3] at @s if block 4225 133 -3938 minecraft:stone_button[powered=true] run setblock 4225 133 -3938 minecraft:stone_button[facing=north,powered=false]
+
+execute as @e[x=4224,y=131,z=-3941,dx=4,dy=5,dz=3] at @s if block 4225 132 -3938 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
+execute as @e[x=4224,y=131,z=-3941,dx=4,dy=5,dz=3] at @s if block 4225 132 -3938 minecraft:stone_button[powered=true] run tp @s ~-5 ~-98 ~8
+
 #
