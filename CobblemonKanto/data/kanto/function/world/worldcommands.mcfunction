@@ -9,6 +9,10 @@ tag @e[x=3833,y=41,z=1158,dy=3,type=armor_stand] remove ReloadCheck
 function kanto:triggers/autoreload
 execute if entity @e[x=3833,y=41,z=1158,dy=3,type=armor_stand,tag=!ReloadCheck] run reload
 
+#Clears out accidental barriers
+fill 3064 28 615 3070 33 374 air replace barrier
+fill 3064 28 615 3070 33 374 air replace minecraft:nether_quartz_ore
+
 #------------------------------------------------------------------------------
 #World important triggers
 
