@@ -1,5 +1,5 @@
 #Current Map Version
-tellraw @s {"text":"1) Map version: Cobblemon Kanto 1.0.0"}
+tellraw @s {"text":"1) Map version: Cobblemon Kanto 1.0.1"}
 
 tag @s add infoverify
 
@@ -21,11 +21,11 @@ tag @s remove skip
 
 
 #Tests for a Cobblemon npc, ensures Cobblemon is installed
-execute as @e[x=3907,y=41,z=1165,dy=3,type=cobblemon:npc] run tag @a[tag=infoverify] add skip
+execute as @e[x=3907,y=41,z=1165,dy=3] run tag @a[tag=infoverify] add skip
 
 execute as @s[tag=skip] run tellraw @s[tag=infoverify] ["",{"text":"3) "},{"text":"Test NPC found.","color":"green"},{"text":" ["},{"text":"Info","hoverEvent":{"action":"show_text","value":"Ensures the Cobblemon mod is being used with the map."}},{"text":"]"}]
-execute as @s[tag=!skip] run tellraw @s[tag=!verify2] ["",{"text":"3) "},{"text":"Test NPC NOT found.","color":"red"},{"text":" ["},{"text":"Info","hoverEvent":{"action":"show_text","value":"This map requires Cobblemon Reforged, from https://cobblemon.com. Please ensure this is in your mods folder when you open the world. If condition #2 is green, this save must be DELETED if loaded without the mod even once. It may be possible to port player data to another save."}},{"text":"]"}]
-execute as @s[tag=!skip] run tellraw @s[tag=verify2] ["",{"text":"3) "},{"text":"Test NPC NOT found.","color":"yellow"},{"text":" ["},{"text":"Info","hoverEvent":{"action":"show_text","value":"This map requires Cobblemon Reforged, from https://cobblemon.com. Please ensure this is in your mods folder when you open the world. If condition #2 is red, this may be the result of not being able to find the test entity within spawn. See #2 info."}},{"text":"]"}]
+execute as @s[tag=!skip] run tellraw @s[tag=!verify2] ["",{"text":"3) "},{"text":"Test NPC NOT found.","color":"red"},{"text":" ["},{"text":"Info","hoverEvent":{"action":"show_text","value":"This map requires Cobblemon, from https://cobblemon.com. Please ensure this is in your mods folder when you open the world. If condition #2 is green, this save must be DELETED if loaded without the mod even once. It may be possible to port player data to another save."}},{"text":"]"}]
+execute as @s[tag=!skip] run tellraw @s[tag=verify2] ["",{"text":"3) "},{"text":"Test NPC NOT found.","color":"yellow"},{"text":" ["},{"text":"Info","hoverEvent":{"action":"show_text","value":"This map requires Cobblemon, from https://cobblemon.com. Please ensure this is in your mods folder when you open the world. If condition #2 is red, this may be the result of not being able to find the test entity within spawn. See #2 info."}},{"text":"]"}]
 
 tag @s remove skip
 tag @s remove verify2
