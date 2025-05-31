@@ -1,0 +1,44 @@
+{  
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:blue",
+    "presets": ["cobblemon:trainer_basics"],
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:route22_rematch_blue_interaction"
+    },
+        "name": "Blue",
+        "party": {
+        "type": "simple",
+        "pokemon": [
+            "Pidgeot level=47 moves=featherdance,wingattack,gust,quickattack",
+            "Rhyhorn level=45 moves=takedown,horndrill,rockblast,furyattack",
+            "Gyarados level=45 moves=hydropump,twister,leer,raindance",
+            "Growlithe level=45 moves=flamewheel,takedown,leer,agility",
+            "Alakazam level=47 moves=psychic,calmmind,futuresight,disable",
+            "Venusaur level=53 moves=razorleaf,sweetscent,growth,synthesis"
+        ]
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "0"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        },
+        {
+            "variableName": "on_player_wins",
+            "displayName": "npc.variable.on_player_wins.name",
+            "description": "npc.variable.on_player_wins.desc",
+            "type": "TEXT",
+            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue route22_rematch_blue_end @s');"
+          }
+    ]
+}

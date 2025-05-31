@@ -1,0 +1,42 @@
+{  
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:blue",
+    "presets": ["cobblemon:trainer_basics"],
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:ssanne_blue_interaction"
+    },
+        "name": "Blue",
+        "party": {
+        "type": "simple",
+        "pokemon": [
+            "Pidgeotto level=19 moves=tackle,sandattack,gust,quickattack",
+            "Kadabra level=16 moves=teleport,kinesis,confusion,disable",
+            "Raticate level=16 moves=tackle,tailwhip,quickattack,hyperfang",
+            "Ivysaur level=20 moves=leechseed,vinewhip,poisonpowder,sleeppowder"
+        ]
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "0"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        },
+        {
+            "variableName": "on_player_wins",
+            "displayName": "npc.variable.on_player_wins.name",
+            "description": "npc.variable.on_player_wins.desc",
+            "type": "TEXT",
+            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue ssanne_blue_end @s');"
+          }
+    ]
+}
