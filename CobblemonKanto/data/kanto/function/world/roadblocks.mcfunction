@@ -3,6 +3,9 @@
 #Directs the player back to Oak's Lab before they've picked a starter
 execute as @s[x=4139,y=33,z=-170,dx=8,dy=5,dz=5,tag=Dialogue2] unless entity @s[scores={StarterPick=1..}] run opendialogue oaklab_leavecheck @s
 
+#Viridian City old man blocking until player returns the parcel
+execute as @s[x=4164,y=33,z=275,dx=31,dy=7,dz=10,tag=!Dialogue6] run opendialogue viridian_oldman_blocked @s
+execute as @s[x=4164,y=33,z=275,dx=31,dy=7,dz=10,tag=!Dialogue6] run tp @s 4174 34 268 -25 12
 
 #Route 23 - Badge Gate Checks
 execute as @s[x=4475,y=35,z=277,distance=..5,tag=!Brock] run opendialogue route23_badgecheck1 @s

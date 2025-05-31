@@ -1,0 +1,707 @@
+{
+    "initializationAction": [
+        "q.run_command('tag ' + q.player.username + ' add InDialogue');"
+    ],
+    "escapeAction": [],
+    "speakers": {
+        "oak": {
+            "name": "Professor Oak",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:oak",
+                "isLeftSide": true
+            }
+        },
+        "blue": {
+            "name": "Blue",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:blue",
+                "isLeftSide": false
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "oak",
+            "lines": [
+        {
+            "type": "expression",
+            "expression": "'Oh, ' + q.player.username + '!';"
+        }
+    ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page2",
+            "speaker": "oak",
+            "lines": [
+                "How is my old Pokémon?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page3');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "oak",
+            "lines": [
+                "Well, it seems to be growing more attached to you."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page4');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page4",
+            "speaker": "oak",
+            "lines": [
+                "You must be talented as a Pokémon Trainer."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page5');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page5",
+            "speaker": "oak",
+            "lines": [
+                "What's that? You have something for me?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.run_command('clear ' + q.player.username + ' minecraft:music_disc_cat');",
+                        "q.dialogue.set_page('page6');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page6",
+            "speaker": "oak",
+            "lines": [
+                "Ah! It's the custom Poké Ball!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page7');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page7",
+            "speaker": "oak",
+            "lines": [
+                "I had it on order. Thank you!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page8');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page8",
+            "speaker": "blue",
+            "lines": [
+                "Gramps!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.run_command('particle cloud 4145 34 -160 1 1 1 1 25');",
+                        "q.dialogue.set_page('page9');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page9",
+            "speaker": "blue",
+            "lines": [
+                "I almost forgot! What did you call me for?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page10');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page10",
+            "speaker": "oak",
+            "lines": [
+                "Oh, right! I have a request for you two."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page11');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page11",
+            "speaker": "oak",
+            "lines": [
+                "On the desk there is my invention, the Pokédex!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page12');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page12",
+            "speaker": "oak",
+            "lines": [
+                "It automatically records data on Pokémon you've seen or caught."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page13');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page13",
+            "speaker": "oak",
+            "lines": [
+                "It's a high-tech encyclopedia!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page14');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page14",
+            "speaker": "oak",
+            "lines": [
+        {
+            "type": "expression",
+            "expression": "'' + q.player.username + ' and Blue.';"
+        }
+    ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page15');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page15",
+            "speaker": "oak",
+            "lines": [
+                "Take these with you."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.run_command('playsound minecraft:getitem ambient ' + q.player.username + ' ~ ~ ~ 1 1 1');",
+                        "q.run_command('give ' + q.player.username + ' cobblemon:pokedex_red');",
+                        "q.dialogue.set_page('page16');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page16",
+            "speaker": "oak",
+            "lines": [
+                "You can't get detailed data on Pokémon by just seeing them."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page17');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page17",
+            "speaker": "oak",
+            "lines": [
+                "You must catch them to obtain complete data."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page18');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page18",
+            "speaker": "oak",
+            "lines": [
+                "So, here are some tools for catching wild Pokémon."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.run_command('playsound minecraft:getitem ambient ' + q.player.username + ' ~ ~ ~ 1 1 1');",
+                        "q.run_command('give ' + q.player.username + ' cobblemon:poke_ball 5');",
+                        "q.dialogue.set_page('page19');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page19",
+            "speaker": "oak",
+            "lines": [
+                "When a wild Pokémon appears, it's fair game."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page20');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page20",
+            "speaker": "oak",
+            "lines": [
+                "Just throw a Poké Ball at it and try to catch it!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page21');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page21",
+            "speaker": "oak",
+            "lines": [
+                "This won't always work, however."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page22');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page22",
+            "speaker": "oak",
+            "lines": [
+                "A healthy Pokémon can escape. You have to be lucky!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page23');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page23",
+            "speaker": "oak",
+            "lines": [
+                "To make a complete guide on all the Pokémon in the world..."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page24');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page24",
+            "speaker": "oak",
+            "lines": [
+                "That was my dream!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page25');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page25",
+            "speaker": "oak",
+            "lines": [
+                "But, I'm too old. I can't get the job done."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page26');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page26",
+            "speaker": "oak",
+            "lines": [
+                "So, I want you two to fulfill my dream for me."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page27');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page27",
+            "speaker": "oak",
+            "lines": [
+                "Get moving, you two."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page28');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page28",
+            "speaker": "oak",
+            "lines": [
+                "This is a great undertaking in Pokémon history!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page30');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page30",
+            "speaker": "blue",
+            "lines": [
+                "All right, Gramps! Leave it all to me!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page31');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page31",
+            "speaker": "blue",
+            "lines": [
+        {
+            "type": "expression",
+            "expression": "'' + q.player.username + ', I hate to say it, but you will not be necessary for this.';"
+        }
+    ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page32');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page32",
+            "speaker": "blue",
+            "lines": [
+                "I know! I'll borrow a Town Map from my sis!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page33');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page33",
+            "speaker": "blue",
+            "lines": [
+        {
+            "type": "expression",
+            "expression": "'I will tell her not to lend you one, ' + q.player.username + '! Hahaha!';"
+        }
+    ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page34');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page34",
+            "speaker": "blue",
+            "lines": [
+                "Don't bother coming around to my place after this!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('particle cloud 4145 34 -160 1 1 1 1 25');",
+                            "q.run_command('tag ' + q.player.username + ' add Dialogue6');",
+                            "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+give @s music_disc_cat[!minecraft:jukebox_playable,custom_name='["",{"text":"Parcel","italic":false,"color":"yellow"}]',lore=['["",{"text":"A parcel to be delivered to Prof. Oak","italic":false}]','["",{"text":"from the Viridian City Pokémon Mart. ","italic":false}]'],enchantment_glint_override=false]

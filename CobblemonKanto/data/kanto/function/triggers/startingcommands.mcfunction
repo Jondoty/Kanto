@@ -37,10 +37,8 @@ scoreboard players set @s PokeDex 0
 
 #Grants basic items on starting
 scoreboard players add @s Money 2000
-give @s cobblemon:pokedex_blue
 function kanto:spawn/radio
 function kanto:spawn/runningshoes
-function kanto:spawn/townmap
 
 #Removes Gym Leaders beaten
 tag @s remove Brock
