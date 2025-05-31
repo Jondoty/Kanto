@@ -1,0 +1,357 @@
+{
+    "initializationAction": [
+        "q.run_command('tag ' + q.player.username + ' add InDialogue');",
+        "q.run_command('execute as ' + q.player.username + ' as @s[tag=!RadioOff] run function kanto:triggers/stopsound');",
+        "q.run_command('execute as ' + q.player.username + ' run playsound oak record @s[tag=!RadioOff] ~ ~ ~ 1 1 1');",
+        "q.run_command('execute as ' + q.player.username + ' run scoreboard players set @s[tag=!RadioOff] MusicCooldown 60');"
+    ],
+    "escapeAction": [],
+    "speakers": {
+        "oak": {
+            "name": "Professor Oak",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:oak",
+                "isLeftSide": true
+            }
+        },
+        "blue": {
+            "name": "Blue",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:blue",
+                "isLeftSide": false
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "oak",
+            "lines": [
+                "Hey! Wait! Don't go out!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page2",
+            "speaker": "oak",
+            "lines": [
+                "It's unsafe!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page3');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "oak",
+            "lines": [
+                "Wild Pokémon live in tall grass!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page4');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page4",
+            "speaker": "oak",
+            "lines": [
+                "You need your own Pokémon for your protection."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page5');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page5",
+            "speaker": "oak",
+            "lines": [
+                "I know! Here, come with me!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.run_command('effect clear @e[x=4143,y=33,z=-156,dy=4] minecraft:invisibility');",
+                        "q.run_command('tag ' + q.player.username + ' add Dialogue2');",
+                        "q.run_command('tp ' + q.player.username + ' 4143 34 -161 0 12');",
+                        "q.dialogue.set_page('page6');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page6",
+            "speaker": "blue",
+            "lines": [
+                "Gramps! I'm fed up with waiting!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page7');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page7",
+            "speaker": "oak",
+            "lines": [
+                "Blue? Let me think..."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page8');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page8",
+            "speaker": "oak",
+            "lines": [
+                "Oh, that's right, I told you to come! Just wait!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page9');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page9",
+            "speaker": "oak",
+            "lines": [
+        {
+            "type": "expression",
+            "expression": "'Here, ' + q.player.username + '.';"
+        }
+    ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page10');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page10",
+            "speaker": "oak",
+            "lines": [
+                "There are three Pokémon here."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page11');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page11",
+            "speaker": "oak",
+            "lines": [
+                "When I was young, I was a serious Pokémon Trainer."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page12');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page12",
+            "speaker": "oak",
+            "lines": [
+                "But now, in my old age, I have only these three left."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page13');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page13",
+            "speaker": "oak",
+            "lines": [
+                "You can have one. Go on, choose!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page14');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page14",
+            "speaker": "blue",
+            "lines": [
+                "Hey! Gramps! No fair!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page15');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page15",
+            "speaker": "blue",
+            "lines": [
+                "What about me?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page16');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page16",
+            "speaker": "oak",
+            "lines": [
+                "Be patient, Blue. You can have one, too!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('tag ' + q.player.username + ' add Dialogue2');",
+                            "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

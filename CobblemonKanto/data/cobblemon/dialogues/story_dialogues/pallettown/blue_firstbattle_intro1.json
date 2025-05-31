@@ -1,0 +1,131 @@
+{
+    "initializationAction": [
+        "q.run_command('tag ' + q.player.username + ' add InDialogue');"
+    ],
+    "escapeAction": [],
+    "speakers": {
+        "oak": {
+            "name": "Professor Oak",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:oak",
+                "isLeftSide": true
+            }
+        },
+        "blue": {
+            "name": "Blue",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:blue",
+                "isLeftSide": false
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "blue",
+            "lines": [
+                "I'll take this one, then!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page2",
+            "speaker": "blue",
+            "lines": [
+                "Blue received the Charmander from Prof. Oak!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.run_command('playsound minecraft:getpokemon ambient @s 4145 34 -106 1 1 0.2');",
+                        "q.dialogue.set_page('page3');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "blue",
+            "lines": [
+                "My Pokémon looks a lot tougher than yours."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page4');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page4",
+            "speaker": "blue",
+            "lines": [
+                "Let's check out our Pokémon!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page5');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page5",
+            "speaker": "blue",
+            "lines": [
+                "Come on, I'll take you on!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('tp @e[x=4145,y=34,z=-160,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000');",
+                            "q.run_command('npcspawnat 4145 34 -160 pallet_blue1');",
+                            "q.run_command('tag ' + q.player.username + ' add Dialogue3');",
+                            "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

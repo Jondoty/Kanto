@@ -1,3 +1,4 @@
 q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 0');
 q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 0');
+q.run_command('execute as ' + q.player.username + ' as @s[x=4130,y=33,z=-167,dx=26,dy=9,dz=16,tag=Dialogue3,tag=!Dialogue4] if entity @e[x=4145,y=34,z=-160,dy=3] run opendialogue pallet_blue_end @s');
 q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');

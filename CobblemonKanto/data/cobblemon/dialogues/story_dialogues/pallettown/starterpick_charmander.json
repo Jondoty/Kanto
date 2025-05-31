@@ -1,0 +1,116 @@
+{
+    "initializationAction": [
+        "q.run_command('tag ' + q.player.username + ' add InDialogue');",
+        "q.run_command('playsound minecraft:charmander ambient ' + q.player.username + ' ~ ~ ~ 1 1 1');"
+    ],
+    "escapeAction": [              
+        ],
+
+    "names": [
+        "Professor Oak"
+    ],
+    "speakers": {
+        "npc": {
+            "name": "Professor Oak",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:oak",
+                "isLeftSide": true
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+                "Ah! Charmander is your choice. You should raise it patiently."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        }, 
+        {
+            "id": "page2",
+            "speaker": "npc",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'So, ' + q.player.username + ', you are claiming the Fire Pokémon Charmander?';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Yes",
+                        "value": "yes",
+                        "action": "q.dialogue.set_page('pickstarter');"
+                    },
+                    {
+                        "text": "No",
+                        "value": "no",
+                        "action": "q.dialogue.set_page('goback');"
+                    }
+                ]
+            }
+        },
+
+        {
+            "id": "goback",
+            "speaker": "npc",
+            "lines": [
+                "Think carefully!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pickstarter",
+            "speaker": "npc",
+            "lines": [
+                "This Pokémon is really quite energetic!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run pokegive charmander level=5');",
+                            "q.run_command('playsound minecraft:getpokemon ambient ' + q.player.username + ' ~ ~ ~ 1 1 1');",
+                            "q.run_command('scoreboard players add ' + q.player.username + ' PokeDex 1');",
+                            "q.run_command('scoreboard players set ' + q.player.username + ' StarterPick 2');",
+                            "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

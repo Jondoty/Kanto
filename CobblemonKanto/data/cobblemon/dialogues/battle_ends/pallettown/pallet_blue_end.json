@@ -1,0 +1,76 @@
+{   "initializationAction": [              
+    "c.npc.set_chatting();",
+    "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
+    "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
+    "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $80 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+    "q.run_command('scoreboard players add ' + q.player.username + ' Money 80');"
+        ],
+    "escapeAction": [],
+    "speakers": {
+        "oak": {
+            "name": "Professor Oak",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:oak",
+                "isLeftSide": true
+            }
+        },
+        "blue": {
+            "name": "Blue",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:blue",
+                "isLeftSide": false
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "blue",
+            "lines": [
+                "Okay! I'll make my Pokémon battle to toughen it up!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page2",
+            "speaker": "blue",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'' + q.player.username + '! Gramps! Smell you later!';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('particle cloud 4145 34 -160 1 1 1 1 25');",
+                            "q.run_command('tp @e[x=4145,y=34,z=-160,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000');",
+                            "q.run_command('tag ' + q.player.username + ' add Dialogue4');",
+                            "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

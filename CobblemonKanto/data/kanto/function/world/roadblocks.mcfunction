@@ -1,5 +1,9 @@
 #Controls where the player cannot go until they have a specific tag gained somewhere in the story
 
+#Directs the player back to Oak's Lab before they've picked a starter
+execute as @s[x=4139,y=33,z=-170,dx=8,dy=5,dz=5,tag=Dialogue2] unless entity @s[scores={StarterPick=1..}] run opendialogue oaklab_leavecheck @s
+
+
 #Route 23 - Badge Gate Checks
 execute as @s[x=4475,y=35,z=277,distance=..5,tag=!Brock] run opendialogue route23_badgecheck1 @s
 execute as @s[x=4475,y=35,z=277,distance=..5,tag=!Brock] run tp @s 4475 35 266 0 5
