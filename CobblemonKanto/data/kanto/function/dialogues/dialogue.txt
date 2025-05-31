@@ -48,33 +48,6 @@ tellraw @s[scores={DialogueTrigger=1,TalkTime=1}] {"text":"<Prof Oak> A world of
 tag @s[scores={DialogueTrigger=1,TalkTime=10..}] add Dialogue1
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 8 - Route 22
-#Optional Blue Battle beginning
-#https://youtu.be/_6uv4msYJiM?t=1587
-
-#tps Blue in
-
-tellraw @s[scores={DialogueTrigger=8,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> Hey! @s!"}]
-tellraw @s[scores={DialogueTrigger=8,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> You're off to the Pokémon League? Forget about it!"}]
-tellraw @s[scores={DialogueTrigger=8,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> You probably don't have any Badges, do you?"}]
-tellraw @s[scores={DialogueTrigger=8,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> The guard won't let you through without them."}]
-tellraw @s[scores={DialogueTrigger=8,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> By the way, did your Pokémon get any stronger?"}]
-#pokebattle
-
-tag @s[scores={DialogueTrigger=8,TalkTime=10..}] add Dialogue8
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 9 - Route 22
-#Optional Blue Battle post-battle
-
-tellraw @s[scores={DialogueTrigger=9,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> I heard the Pokémon League is crawling with tough Trainers."}]
-tellraw @s[scores={DialogueTrigger=9,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> I have to figure out how to get past them."}]
-tellraw @s[scores={DialogueTrigger=9,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> You should quit dawdling and get a move on!"}]
-#Blue tps away
-
-tag @s[scores={DialogueTrigger=9,TalkTime=10..}] add Dialogue9
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue 10 - Pewter City
 #Pewter City Tour
 #https://youtu.be/_6uv4msYJiM?t=3531
@@ -92,72 +65,8 @@ tag @s[scores={DialogueTrigger=9,TalkTime=10..}] add Dialogue9
 #tps NPC
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 12 - Pewter City
-#Gym block until beaten
-#https://youtu.be/_6uv4msYJiM?t=3684
+(These I'll probably spawn the player with)
 
-#You're a Trainer, right?
-#Brock's looking for new challengers. Follow me!
-##tps player to gym with NPC
-#If you have the right stuff, go take on Brock!
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 13 - Petwer Gym
-#Brock Pre-Battle
-
-tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] {"text":"<...> So, you're here. I'm Brock. I'm Pewter's Gym Leader."}
-tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] {"text":"<Brock> My rock-hard willpower is evident even in my Pokémon."}
-tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] {"text":"<Brock> My Pokémon are all rock hard, and have true-grit determination."}
-tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] {"text":"<Brock> That's right - my Pokémon are all the Rock type!"}
-tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] {"text":"<Brock> Fuhaha! You're going to challenge me knowing that you'll lose?"}
-tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] {"text":"<Brock> That's the Trainer's honor that compels you to challenge me."}
-tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] {"text":"<Brock> Fine, then! Show me your best!"}
-
-tag @s[scores={DialogueTrigger=13,TalkTime=10..}] add Dialogue13
-
-#-------------------
-#Dialogue 14 - Petwer Gym
-#Brock Post-Battle
-
-tellraw @s[scores={DialogueTrigger=14,TalkTime=1}] {"text":"<Brock> I took you for granted, and so I lost."}
-tellraw @s[scores={DialogueTrigger=14,TalkTime=1}] {"text":"<Brock> As proof of your victory, I confer on you this..."}
-tellraw @s[scores={DialogueTrigger=14,TalkTime=1}] {"text":"<Brock> The official Pokémon League Boulderbadge."}
-
-#Gives badge
-#playsound
-tellraw @s[scores={DialogueTrigger=14,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Boulderbadge from Brock!","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=14,TalkTime=1}] {"text":"<Brock> Just having the Boulderbadge makes your Pokémon more powerful."}
-tellraw @s[scores={DialogueTrigger=14,TalkTime=1}] {"text":"<Brock> It also enables the use of the move Flash outside of battle."}
-
-tag @s[scores={DialogueTrigger=14,TalkTime=10..}] add Dialogue14
-
-#-------------------
-#Dialogue 15 - Petwer Gym
-#Brock when player leaves the portal
-#https://youtu.be/_6uv4msYJiM?t=4013
-
-#tps the player back from the portal
-
-tellraw @s[scores={DialogueTrigger=15,TalkTime=1}] {"text":"<Brock> <Brock> Wait! Take this with you."}
-
-tellraw @s[scores={DialogueTrigger=15,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received TM39 from Brock.","italic":true,"color":"gray"}]
-#playsound
-
-tellraw @s[scores={DialogueTrigger=15,TalkTime=1}] {"text":"<Brock> A TM, Technical Machine, contains a technique for Pokémon."}
-tellraw @s[scores={DialogueTrigger=15,TalkTime=1}] {"text":"<Brock> Using a TM teaches the move it contains to a Pokémon."}
-tellraw @s[scores={DialogueTrigger=15,TalkTime=1}] {"text":"<Brock> A TM is good for only one use."}
-tellraw @s[scores={DialogueTrigger=15,TalkTime=1}] {"text":"<Brock> So, when you use one, pick the Pokémon carefully."}
-tellraw @s[scores={DialogueTrigger=15,TalkTime=1}] {"text":"<Brock> Anyways... TM39 contains Rock Tomb."}
-tellraw @s[scores={DialogueTrigger=15,TalkTime=1}] {"text":"<Brock> It hurls boulders at the foe and lowers its Speed."}
-tellraw @s[scores={DialogueTrigger=15,TalkTime=1}] {"text":"<Brock> There are all kinds of Trainers in this huge world of ours."}
-tellraw @s[scores={DialogueTrigger=15,TalkTime=1}] {"text":"<Brock> You appear to be very gifted as a Pokémon Trainer."}
-tellraw @s[scores={DialogueTrigger=15,TalkTime=1}] {"text":"<Brock> So let me make a suggestion."}
-tellraw @s[scores={DialogueTrigger=15,TalkTime=1}] {"text":"<Brock> Go to the Gym in Cerulean and test your abilities."}
-
-tag @s[scores={DialogueTrigger=15,TalkTime=10..}] add Dialogue15
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue 16 - Pewter City
 #Oak's Aide giving Running Shoes
 #https://youtu.be/_6uv4msYJiM?t=4120

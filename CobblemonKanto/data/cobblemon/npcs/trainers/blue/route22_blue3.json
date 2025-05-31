@@ -11,7 +11,7 @@
         "type": "simple",
         "pokemon": [
             "Pidgey level=9 moves=tackle,sandattack",
-            "Squirtle level=9 moves=tackle,growl"
+            "Bulbasaur level=9 moves=tackle,growl"
         ]
     },
     "config": [

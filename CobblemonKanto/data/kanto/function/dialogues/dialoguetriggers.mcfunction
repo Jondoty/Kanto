@@ -35,6 +35,14 @@ execute as @s[x=4143,y=34,z=-166,distance=..10] as @e[x=4134,y=34,z=-156,dx=4,dy
 execute as @s[x=4105,y=35,z=208,distance=..7,tag=!Dialogue5] run opendialogue shopkeeper_dialogue5 @s
 
 
+#Route 22 Blue
+#Doesn't happen if player goes to Cerulean instead and battles Blue
+execute as @s[x=4334,y=34,z=197,distance=..15,scores={StarterPick=1},tag=!Dialogue9,tag=!Dialogue23] unless entity @e[x=4357,y=33,z=218,dy=3] run npcspawnat 4357 34 218 route22_blue1 1
+execute as @s[x=4334,y=34,z=197,distance=..15,scores={StarterPick=2},tag=!Dialogue9,tag=!Dialogue23] unless entity @e[x=4357,y=33,z=218,dy=3] run npcspawnat 4357 34 218 route22_blue2 1
+execute as @s[x=4334,y=34,z=197,distance=..15,scores={StarterPick=3},tag=!Dialogue9,tag=!Dialogue23] unless entity @e[x=4357,y=33,z=218,dy=3] run npcspawnat 4357 34 218 route22_blue3 1
+
+
+
 #Saffron City, prevents the player from entering before they've been to Celadon with Tea
 #Cerulean Side 
 execute as @s[x=3094,y=34,z=596,dx=12,dy=6,dz=10,tag=!Dialogue49] run opendialogue saffron_police_blocked @s

@@ -7,6 +7,11 @@ execute as @s[x=4139,y=33,z=-170,dx=8,dy=5,dz=5,tag=Dialogue2] unless entity @s[
 execute as @s[x=4164,y=33,z=275,dx=31,dy=7,dz=10,tag=!Dialogue6] run opendialogue viridian_oldman_blocked @s
 execute as @s[x=4164,y=33,z=275,dx=31,dy=7,dz=10,tag=!Dialogue6] run tp @s 4174 34 268 -25 12
 
+#Pewter City, preventing player from leaving Pewter until after Brock
+execute as @s[x=4060,y=33,z=767,dx=10,dy=7,dz=19,tag=!Brock] run opendialogue pewter_youngster2_interaction @s
+execute as @s[x=4060,y=33,z=767,dx=10,dy=7,dz=19,tag=!Brock] at @s run tp @s ~10 ~ ~
+
+
 #Route 23 - Badge Gate Checks
 execute as @s[x=4475,y=35,z=277,distance=..5,tag=!Brock] run opendialogue route23_badgecheck1 @s
 execute as @s[x=4475,y=35,z=277,distance=..5,tag=!Brock] run tp @s 4475 35 266 0 5

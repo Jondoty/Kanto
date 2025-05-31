@@ -1,0 +1,91 @@
+{   "initializationAction": [              
+    "c.npc.set_chatting();",
+    "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
+    "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
+    "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $144 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+    "q.run_command('scoreboard players add ' + q.player.username + ' Money 144');"
+        ],
+    "escapeAction": [],
+    "speakers": {
+        "oak": {
+            "name": "Professor Oak",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:oak",
+                "isLeftSide": true
+            }
+        },
+        "blue": {
+            "name": "Blue",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:blue",
+                "isLeftSide": false
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "blue",
+            "lines": [
+                "I heard the Pokémon League is crawling with tough Trainers."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "greeting",
+            "speaker": "blue",
+            "lines": [
+                "I have to figure out how to get past them."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page2",
+            "speaker": "blue",
+            "lines": [
+                "You should quit dawdling and get a move on!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('particle cloud 4357 34 218 1 1 1 1 75');",
+                            "q.run_command('tp @e[x=4357,y=33,z=218,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000');",
+                            "q.run_command('tag ' + q.player.username + ' add Dialogue9');",
+                            "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

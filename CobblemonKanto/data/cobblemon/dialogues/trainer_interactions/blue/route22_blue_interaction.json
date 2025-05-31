@@ -1,0 +1,131 @@
+{
+    "initializationAction": [
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 4');",
+        "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');"
+    ],
+    "escapeAction": [
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 0');",
+        "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
+        "q.dialogue.close();"
+    ],
+    "names": [
+        "Blue"
+    ],
+    "speakers": {
+        "npc": {
+            "name": {
+                "type": "expression",
+                "expression": "q.npc.name"
+            },
+            "face": "q.npc.face();"
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'Hey! ' + q.player.username + '!';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page2",
+            "speaker": "npc",
+            "lines": [
+                "You're off to the Pokémon League? Forget about it!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page3');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "npc",
+            "lines": [
+                "You probably don't have any Badges, do you?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page4');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page4",
+            "speaker": "npc",
+            "lines": [
+                "The guard won't let you through without them."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page5');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page5",
+            "speaker": "npc",
+            "lines": [
+                "By the way, did your Pokémon get any stronger?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "§c⚔ Battle ⚔§r",
+                        "value": "battle",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 11');",
+                            "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
+                            "v.battle = q.npc.start_battle(q.player);"
+                        ]
+                    },
+                    {
+                        "text": "No",
+                        "value": "no",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 0');",
+                            "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
