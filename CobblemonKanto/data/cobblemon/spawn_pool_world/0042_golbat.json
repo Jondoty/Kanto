@@ -37,7 +37,7 @@
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "59-58",
+            "level": "58-59",
             "weight": 25,
             "condition": {
                 "canSeeSky": false,
