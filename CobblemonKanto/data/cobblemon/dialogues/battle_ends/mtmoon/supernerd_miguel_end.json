@@ -80,7 +80,7 @@
                       "value": "yes",
                       "action": [
                           "q.run_command('execute as ' + q.player.username + ' run tag @s add Temp1');",
-                          "q.dialogue.set_page('end');"
+                          "q.dialogue.set_page('end1');"
                       ]
                   },
                   {
@@ -108,7 +108,7 @@
                       "value": "yes",
                       "action": [
                           "q.run_command('execute as ' + q.player.username + ' run tag @s add Temp2');",
-                          "q.dialogue.set_page('end');"
+                          "q.dialogue.set_page('end1');"
                       ]
                   },
                   {
@@ -122,7 +122,7 @@
           }
       },
       {
-          "id": "end",
+          "id": "end1",
           "speaker": "npc",
           "lines": [
               "All right. Then this fossil is mine!"
@@ -132,10 +132,51 @@
               "vertical": false,
               "options": [
                   {
+                      "text": "Next",
+                      "value": "next",
+                      "action": [
+                          "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/itemlootgive');",
+                          "q.dialogue.set_page('end2');"
+                      ]
+                  }
+              ]
+          }
+      },
+      {
+          "id": "end2",
+          "speaker": "npc",
+          "lines": [
+              "Far away, on Cinnabar Island, there's a Pokémon Lab."
+          ],
+          "input": {
+              "type": "option",
+              "vertical": false,
+              "options": [
+                  {
+                      "text": "Next",
+                      "value": "next",
+                      "action": [
+                          "q.dialogue.set_page('end3');"
+                      ]
+                  }
+              ]
+          }
+      },
+      {
+          "id": "end3",
+          "speaker": "npc",
+          "lines": [
+              "They do research on regenerating fossils."
+          ],
+          "input": {
+              "type": "option",
+              "vertical": false,
+              "options": [
+                                    {
                       "text": "Close",
                       "value": "close",
                       "action": [
-                          "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/itemlootgive');",
+                          
                           "q.dialogue.close();"
                       ]
                   }

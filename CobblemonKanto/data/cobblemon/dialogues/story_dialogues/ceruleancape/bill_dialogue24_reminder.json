@@ -1,0 +1,50 @@
+{
+    "initializationAction": [
+        "q.run_command('tag ' + q.player.username + ' add InDialogue');"
+    ],
+    "escapeAction": [],
+    "speakers": {
+        "unknown": {
+            "name": "???",
+            "face": {
+                "type": "artificial",
+                "modelType": "pokemon",
+                "identifier": "cobblemon:clefairy",
+                "isLeftSide": false
+            }
+        },
+        "npc": {
+            "name": "Bill",
+            "face": {
+                "type": "artificial",
+                "modelType": "pokemon",
+                "identifier": "cobblemon:clefairy",
+                "isLeftSide": false
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "page8",
+            "speaker": "npc",
+            "lines": [
+                "I need you to hit that button on my desk over there."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('tag ' + q.player.username + ' add Dialogue24');",
+                            "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

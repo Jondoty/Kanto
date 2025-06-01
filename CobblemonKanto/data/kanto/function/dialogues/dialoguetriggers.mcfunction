@@ -41,6 +41,27 @@ execute as @s[x=4334,y=34,z=197,distance=..15,scores={StarterPick=1},tag=!Dialog
 execute as @s[x=4334,y=34,z=197,distance=..15,scores={StarterPick=2},tag=!Dialogue9,tag=!Dialogue23] unless entity @e[x=4357,y=33,z=218,dy=3] run npcspawnat 4357 34 218 route22_blue2 1
 execute as @s[x=4334,y=34,z=197,distance=..15,scores={StarterPick=3},tag=!Dialogue9,tag=!Dialogue23] unless entity @e[x=4357,y=33,z=218,dy=3] run npcspawnat 4357 34 218 route22_blue3 1
 
+#Cerulean City Blue
+execute as @s[x=3107,y=34,z=915,distance=..15,scores={StarterPick=1},tag=!Dialogue23] unless entity @e[x=3107,y=33,z=950,dy=3] run npcspawnat 3107 34 950 cerulean_blue1 1
+execute as @s[x=3107,y=34,z=915,distance=..15,scores={StarterPick=2},tag=!Dialogue23] unless entity @e[x=3107,y=33,z=950,dy=3] run npcspawnat 3107 34 950 cerulean_blue2 1
+execute as @s[x=3107,y=34,z=915,distance=..15,scores={StarterPick=3},tag=!Dialogue23] unless entity @e[x=3107,y=33,z=950,dy=3] run npcspawnat 3107 34 950 cerulean_blue3 1
+
+
+#Cerulean Cape, Bill's House
+#Spawns a Clefairy statue
+execute as @s[x=2799,y=34,z=1148,distance=..20,tag=!Dialogue24] unless entity @e[x=2795,y=35,z=1164,dy=3,type=cobblemon:pokemon] run pokespawnat 2795 35 1164 clefairy no_ai=yes level=5
+execute as @s[x=2799,y=34,z=1148,distance=..20,tag=!Dialogue24] as @e[x=2795,y=35,z=1164,dy=3,type=cobblemon:pokemon,nbt={PersistenceRequired:0b}] at @s run tp @s ~ ~ ~ ~180 ~
+execute as @s[x=2799,y=34,z=1148,distance=..20,tag=!Dialogue24] as @e[x=2795,y=35,z=1164,dy=3,type=cobblemon:pokemon,nbt={PersistenceRequired:0b}] run data modify entity @s Invulnerable set value 1b
+execute as @s[x=2799,y=34,z=1148,distance=..20,tag=!Dialogue24] as @e[x=2795,y=35,z=1164,dy=3,type=cobblemon:pokemon,nbt={PersistenceRequired:0b}] run data modify entity @s Unbattleable set value 1b
+execute as @s[x=2799,y=34,z=1148,distance=..20,tag=!Dialogue24] as @e[x=2795,y=35,z=1164,dy=3,type=cobblemon:pokemon,nbt={PersistenceRequired:0b}] run data merge entity @s {Pokemon:{PokemonData:["uncatchable"]}}
+execute as @s[x=2799,y=34,z=1148,distance=..20,tag=!Dialogue24] as @e[x=2795,y=35,z=1164,dy=3,type=cobblemon:pokemon,nbt={PersistenceRequired:0b}] run data merge entity @s {PersistenceRequired:1b}
+
+#Swaps out for Bill NPC
+execute as @s[x=2788,y=34,z=1160,dx=14,dy=5,dz=8,tag=!Dialogue24] if block 2801 36 1162 minecraft:stone_button[powered=true] run tellraw @s {"text":"It's a button that looks like it controls some kind of machine.","italic":true,"color":"gray"}
+execute as @s[x=2788,y=34,z=1160,dx=14,dy=5,dz=8,tag=!Dialogue24] if block 2801 36 1162 minecraft:stone_button[powered=true] run setblock 2801 36 1162 stone_button[face=floor,facing=east,powered=false]
+execute as @s[x=2788,y=34,z=1160,dx=14,dy=5,dz=8,tag=Dialogue24] if block 2801 36 1162 minecraft:stone_button[powered=true] run particle minecraft:explosion 2795 35 1164 1 1 1 1 10 normal
+execute as @s[x=2788,y=34,z=1160,dx=14,dy=5,dz=8,tag=Dialogue24] if block 2801 36 1162 minecraft:stone_button[powered=true] run tp @e[x=2795,y=34,z=1164,dy=3,type=cobblemon:pokemon] 10000000 -50000 -10000000
+execute as @s[x=2788,y=34,z=1160,dx=14,dy=5,dz=8,tag=Dialogue24] if block 2801 36 1162 minecraft:stone_button[powered=true] unless entity @e[x=2795,y=34,z=1164,dy=3,type=cobblemon:npc] run spawnnpcat 2795 35 1164 bill_generic 1
 
 
 #Saffron City, prevents the player from entering before they've been to Celadon with Tea

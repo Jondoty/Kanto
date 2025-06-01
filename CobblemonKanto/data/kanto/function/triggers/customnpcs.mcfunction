@@ -47,7 +47,18 @@ execute as @s[x=3280,y=35,z=-391,distance=..5,tag=!Dialogue66,scores={PokeDex=50
 execute as @s[x=3280,y=35,z=-391,distance=..5,tag=Dialogue66] run opendialogue route15_oakaide_interaction2 @s
 
 #----------------------------------------------
+#Bill's House
+#Before pressing button
 
+#Before button
+execute as @s[x=2788,y=34,z=1160,dx=14,dy=5,dz=8,tag=!Dialogue24] run opendialogue bill_dialogue24 @s
+execute as @s[x=2788,y=34,z=1160,dx=14,dy=5,dz=8,tag=Dialogue24,tag=!Dialogue25] if entity @e[x=2795,y=34,z=1164,dy=3,type=cobblemon:pokemon] run opendialogue bill_dialogue25_reminder @s
+
+#After button
+execute as @s[x=2788,y=34,z=1160,dx=14,dy=5,dz=8,tag=Dialogue24,tag=!Dialogue25] if entity @e[x=2795,y=34,z=1164,dy=3,type=cobblemon:npc] run opendialogue bill_dialogue25 @s
+
+
+#----------------------------------------------
 
 #Vermilion Seagallop NPC
 execute as @s[x=3102,y=34,z=26,distance=..6,tag=TriPass] run opendialogue vermilion_seagallopferry_tripass @s

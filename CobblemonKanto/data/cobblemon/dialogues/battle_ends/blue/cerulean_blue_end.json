@@ -31,7 +31,7 @@
             "id": "greeting",
             "speaker": "blue",
             "lines": [
-                "I heard the Pokémon League is crawling with tough Trainers."
+                "Hey, guess what?"
             ],
             "input": {
                 "type": "option",
@@ -49,7 +49,7 @@
             "id": "page2",
             "speaker": "blue",
             "lines": [
-                "I have to figure out how to get past them."
+                "I went to Bill's and got him to show me his rare Pokémon."
             ],
             "input": {
                 "type": "option",
@@ -67,7 +67,79 @@
             "id": "page3",
             "speaker": "blue",
             "lines": [
-                "You should quit dawdling and get a move on!"
+                "That added a lot of pages to my Pokédex!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page4');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page4",
+            "speaker": "blue",
+            "lines": [
+                "After all, Bill's world famous as a Pokémaniac."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page5');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page5",
+            "speaker": "blue",
+            "lines": [
+                "He invented the Pokémon Storage System on PC, too."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page6');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page6",
+            "speaker": "blue",
+            "lines": [
+                "Since you're using his system, you should go thank him."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page7');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page7",
+            "speaker": "blue",
+            "lines": [
+                "Well, I better get rolling! Smell ya later!"
             ],
             "input": {
                 "type": "option",
@@ -77,9 +149,9 @@
                         "text": "Close",
                         "value": "close",
                         "action": [
-                            "q.run_command('particle cloud 4357 34 218 1 1 1 1 75');",
-                            "q.run_command('tp @e[x=4357,y=33,z=218,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000');",
-                            "q.run_command('tag ' + q.player.username + ' add Dialogue9');",
+                            "q.run_command('particle cloud 3107 34 950 1 1 1 1 75');",
+                            "q.run_command('tp @e[x=3107,y=33,z=950,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000');",
+                            "q.run_command('tag ' + q.player.username + ' add Dialogue23');",
                             "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
                             "q.dialogue.close();"
                         ]
