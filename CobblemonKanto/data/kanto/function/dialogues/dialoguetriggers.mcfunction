@@ -64,6 +64,10 @@ execute as @s[x=2788,y=34,z=1160,dx=14,dy=5,dz=8,tag=Dialogue24] if block 2801 3
 execute as @s[x=2788,y=34,z=1160,dx=14,dy=5,dz=8,tag=Dialogue24] if block 2801 36 1162 minecraft:stone_button[powered=true] unless entity @e[x=2795,y=34,z=1164,dy=3,type=cobblemon:npc] run spawnnpcat 2795 35 1164 bill_generic 1
 
 
+#Cerulean City Team Rocket Grunt past house
+execute as @s[x=3079,y=34,z=935,distance=..30,tag=!Dialogue27] unless entity @e[x=3059,y=33,z=950,dy=3,type=cobblemon:npc] run npcspawnat 3059 34 950 rocketgrunt_5
+
+
 #Saffron City, prevents the player from entering before they've been to Celadon with Tea
 #Cerulean Side 
 execute as @s[x=3094,y=34,z=596,dx=12,dy=6,dz=10,tag=!Dialogue49] run opendialogue saffron_police_blocked @s
@@ -84,6 +88,35 @@ execute as @s[x=3094,y=34,z=386,dx=12,dy=6,dz=10,tag=!Dialogue49] run tp @s 3100
 execute as @s[x=3227,y=34,z=486,dx=10,dy=6,dz=12,tag=!Dialogue49] run opendialogue saffron_police_blocked @s
 execute as @s[x=3227,y=34,z=486,dx=10,dy=6,dz=12,tag=!Dialogue49,nbt={Inventory:[{id:"minecraft:music_disc_13"}]}] run opendialogue saffron_police_dialogue49 @s
 execute as @s[x=3227,y=34,z=486,dx=10,dy=6,dz=12,tag=!Dialogue49] run tp @s 3244 35 492
+
+
+#SS Anne with ticket, just flashing it
+execute as @s[x=3101,y=33,z=6,dx=12,dy=5,dz=18,tag=Dialogue25,tag=!Dialogue30] run opendialogue ssanne_ticket @s
+
+#SS Anne Blue
+execute as @s[x=3108,y=36,z=2,distance=..15,scores={StarterPick=1},tag=!Dialogue32] unless entity @e[x=3104,y=41,z=-21,dy=3] run npcspawnat 3104 42 -21 ssanne_blue1 1
+execute as @s[x=3108,y=36,z=2,distance=..15,scores={StarterPick=2},tag=!Dialogue32] unless entity @e[x=3104,y=41,z=-21,dy=3] run npcspawnat 3104 42 -21 ssanne_blue2 1
+execute as @s[x=3108,y=36,z=2,distance=..15,scores={StarterPick=3},tag=!Dialogue32] unless entity @e[x=3104,y=41,z=-21,dy=3] run npcspawnat 3104 42 -21 ssanne_blue3 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #

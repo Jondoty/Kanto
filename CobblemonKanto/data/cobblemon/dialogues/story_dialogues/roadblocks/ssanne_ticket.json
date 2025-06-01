@@ -1,20 +1,24 @@
 {
     "initializationAction": [
-        "c.npc.set_chatting();",
-        "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
-        "q.run_command('tag ' + q.player.username + ' add Dialogue27');",
-        "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
-        "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $544 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
-        "q.run_command('scoreboard players add ' + q.player.username + ' Money 544');"
+        "q.run_command('tag ' + q.player.username + ' add InDialogue');"
     ],
+    "escapeAction": [],
     "speakers": {
         "npc": {
-            "name": "Team Rocket Grunt",
+            "name": "Sailor",
             "face": {
                 "type": "artificial",
                 "modelType": "npc",
-                "identifier": "cobblemon:rocketgrunt",
+                "identifier": "cobblemon:sailor",
                 "isLeftSide": true
+            }
+        },
+        "player": {
+            "face": "q.player.face(true);",
+            "isLeftSide": false,
+            "name": {
+                "type": "expression",
+                "expression": "q.player.username"
             }
         }
     },
@@ -23,7 +27,7 @@
             "id": "greeting",
             "speaker": "npc",
             "lines": [
-                "Stop! I give up! I'll leave quietly!"
+                "Welcome to the S.S. Anne!"
             ],
             "input": {
                 "type": "option",
@@ -41,7 +45,7 @@
             "id": "page2",
             "speaker": "npc",
             "lines": [
-                "...Okay. I'll return the TM I stole."
+                "Excuse me, do you have a ticket?"
             ],
             "input": {
                 "type": "option",
@@ -57,9 +61,30 @@
         },
         {
             "id": "page3",
+            "speaker": "player",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'' + q.player.username + ' flashed the S.S. Ticket!';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page4');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page4",
             "speaker": "npc",
             "lines": [
-                "I better get moving! Bye!"
+                "Great! Welcome to the S.S. Anne!"
             ],
             "input": {
                 "type": "option",
@@ -69,14 +94,13 @@
                         "text": "Close",
                         "value": "close",
                         "action": [
-                            "q.run_command('particle cloud 3059 34 950 1 1 1 1 75');",
-                            "q.run_command('tp @e[x=3059,y=34,z=950,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000');",
+                            "q.run_command('tag ' + q.player.username + ' add Dialogue30');",
+                            "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
                             "q.dialogue.close();"
                         ]
                     }
                 ]
             }
         }
-    ],
-    "escapeAction": []
+    ]
 }

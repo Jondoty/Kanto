@@ -92,35 +92,6 @@ tellraw @s[scores={DialogueTrigger=16,TalkTime=1}] {"text":"From Mom","italic":t
 
 tag @s[scores={DialogueTrigger=16,TalkTime=10..}] add Dialogue16
 
-
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 26 - Cerulean City
-#Rocket Grunt outside exploded house
-#https://youtu.be/_6uv4msYJiM?t=9743
-
-tellraw @s[scores={DialogueTrigger=26,TalkTime=1}] {"text":"<...> Hey! Stay out! It's not your yard!"}
-tellraw @s[scores={DialogueTrigger=26,TalkTime=1}] {"text":"<...> ...Huh? Me?"}
-tellraw @s[scores={DialogueTrigger=26,TalkTime=1}] {"text":"<...> I'm an innocent bystander! Don't you believe me?"}
-
-tag @s[scores={DialogueTrigger=26,TalkTime=10..}] add Dialogue26
-
-#-------------------
-#Dialogue 27 - Grunt Post-Battle
-
-
-
-tellraw @s[scores={DialogueTrigger=27,TalkTime=1}] {"text":"<Team Rocket Grunt> Stop! I give up! I'll leave quietly!"}
-tellraw @s[scores={DialogueTrigger=27,TalkTime=1}] {"text":"<Team Rocket Grunt> ...Okay. I'll return the TM I stole."}
-
-tellraw @s[scores={DialogueTrigger=27,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" recovered TM28 from the Team Rocket Grunt.","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=27,TalkTime=1}] {"text":"<Team Rocket Grunt> I better get moving! Bye!"}
-
-#Tps out
-
-tag @s[scores={DialogueTrigger=27,TalkTime=10..}] add Dialogue27
-
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue 28 - Route 11
 #Elm's Aide 30 dex count
@@ -152,114 +123,8 @@ tellraw @s[scores={DialogueTrigger=28,TalkTime=1}] {"text":"<Oak's Aide> When yo
 
 tag @s[scores={DialogueTrigger=28,TalkTime=10..}] add Dialogue28
 
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 29 - Vermilion City
-#SS Anne Without the Ticket
-#https://youtu.be/_6uv4msYJiM?t=12446
 
-tellraw @s[scores={DialogueTrigger=29,TalkTime=1}] {"text":"<Sailor> Welcome to the S.S. Anne!"}
-tellraw @s[scores={DialogueTrigger=29,TalkTime=1}] {"text":"<Sailor> Excuse me, do you have a ticket?"}
-tellraw @s[scores={DialogueTrigger=29,TalkTime=1}] {"text":"<Sailor> Sorry!"}
-tellraw @s[scores={DialogueTrigger=29,TalkTime=1}] {"text":"<Sailor> You need a ticket to get aboard."}
 
-tag @s[scores={DialogueTrigger=29,TalkTime=10..}] add Dialogue29
-
-#-------------------
-#Dialogue 30 - Vermilion City
-#SS Anne With the Ticket
-
-tellraw @s[scores={DialogueTrigger=30,TalkTime=1}] {"text":"<Sailor> Welcome to the S.S. Anne!"}
-tellraw @s[scores={DialogueTrigger=30,TalkTime=1}] {"text":"<Sailor> Excuse me, do you have a ticket?"}
-
-tellraw @s[scores={DialogueTrigger=30,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" flashed the S.S. Ticket!","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=30,TalkTime=1}] {"text":"<Sailor> Great! Welcome to the S.S. Anne!"}
-
-tag @s[scores={DialogueTrigger=30,TalkTime=10..}] add Dialogue30
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 31 - SS Anne
-#Blue pre-battle
-#https://youtu.be/_6uv4msYJiM?t=14309
-
-#tp in
-
-tellraw @s[scores={DialogueTrigger=31,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> Bonjour! "},{"selector":"@s"},{"text":"!"}]
-tellraw @s[scores={DialogueTrigger=31,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> Imagine seeing you here! "},{"selector":"@s"},{"text":", were you really invited?"}]
-tellraw @s[scores={DialogueTrigger=31,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> So how's your Pokédex coming?"}]
-tellraw @s[scores={DialogueTrigger=31,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> I already caught 40 kinds, pal. Different kinds are everywhere."}]
-tellraw @s[scores={DialogueTrigger=31,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> Crawl around in grassy areas, and look hard for them."}]
-
-tag @s[scores={DialogueTrigger=31,TalkTime=10..}] add Dialogue31
-
-#-------------------
-#Dialogue 32 - SS Anne
-#Blue post-battle
-
-tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> I heard there was a Cut master on board."}]
-tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> But he was just a seasick old man!"}]
-tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> Cut itself is really useful. Yup, it'll be handy."}]
-tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> You should go see him, too."}]
-tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> Smell ya!"}]
-
-#tp out
-
-tag @s[scores={DialogueTrigger=32,TalkTime=10..}] add Dialogue32
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 130 - SS Anne
-#Captain giving Cut
-#https://youtu.be/_6uv4msYJiM?t=14494
-
-tellraw @s[scores={DialogueTrigger=130,TalkTime=1}] {"text":"<Captain> Ooargh..."}
-tellraw @s[scores={DialogueTrigger=130,TalkTime=1}] {"text":"<Captain> I feel hideous..."}
-tellraw @s[scores={DialogueTrigger=130,TalkTime=1}] {"text":"<Captain> Urrp! Seasick..."}
-
-tellraw @s[scores={DialogueTrigger=130,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" rubbed the Captain's back!","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=130,TalkTime=1}] {"text":"Rub-rub...","italic":true,"color":"gray"}
-tellraw @s[scores={DialogueTrigger=130,TalkTime=1}] {"text":"Rub-rub...","italic":true,"color":"gray"}
-
-tellraw @s[scores={DialogueTrigger=130,TalkTime=1}] {"text":"<Captain> Whew! Thank you! I'm feeling much better now."}
-tellraw @s[scores={DialogueTrigger=130,TalkTime=1}] {"text":"<Captain> You want to see my hidden Cut technique?"}
-tellraw @s[scores={DialogueTrigger=130,TalkTime=1}] {"text":"<Captain> I could show you my prized Cut technique if I weren't so ill..."}
-tellraw @s[scores={DialogueTrigger=130,TalkTime=1}] {"text":"<Captain> I know! You can have this! This Hidden Machine!"}
-tellraw @s[scores={DialogueTrigger=130,TalkTime=1}] {"text":"<Captain> Teach Cut to your Pokémon, and you can see it Cut anytime!"}
-
-tellraw @s[scores={DialogueTrigger=130,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained HM01 from the Captain!","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=130,TalkTime=1}] {"text":"<Captain> Using Cut, you can chop down small trees."}
-tellraw @s[scores={DialogueTrigger=130,TalkTime=1}] {"text":"<Captain> Why not try it with the trees around Vermilion City?"}
-
-tag @s[scores={DialogueTrigger=130,TalkTime=10..}] add Dialogue130
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 131 - Vermilion Gym
-#Surge Pre-Battle
-#https://youtu.be/_6uv4msYJiM?t=14953
-
-tellraw @s[scores={DialogueTrigger=131,TalkTime=1}] {"text":"<Lt. Surge> Hey, kid! What do you think you're doing here?"}
-tellraw @s[scores={DialogueTrigger=131,TalkTime=1}] {"text":"<Lt. Surge> You won't live long in combat! Not with your puny power!"}
-tellraw @s[scores={DialogueTrigger=131,TalkTime=1}] {"text":"<Lt. Surge> I tell you, kid, electric Pokémon saved me during the war!"}
-tellraw @s[scores={DialogueTrigger=131,TalkTime=1}] {"text":"<Lt. Surge> They zapped my enemies into paralysis!"}
-tellraw @s[scores={DialogueTrigger=131,TalkTime=1}] {"text":"<Lt. Surge> The same as I'll do to you!"}
-
-tag @s[scores={DialogueTrigger=131,TalkTime=10..}] add Dialogue131
-
-#-------------------
-#Dialogue 132 - Vermilion Gym
-#Surge Post-Battle
-
-tellraw @s[scores={DialogueTrigger=132,TalkTime=1}] {"text":"<Lt. Surge> The ThunderBadge cranks up your Pokémon's Speed!"}
-tellraw @s[scores={DialogueTrigger=132,TalkTime=1}] {"text":"<Lt. Surge> It also lets your Pokémon Fly lightning-quick anytime, kid!"}
-tellraw @s[scores={DialogueTrigger=132,TalkTime=1}] {"text":"<Lt. Surge> You're special, kid! Take this!"}
-
-tellraw @s[scores={DialogueTrigger=132,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received TM34 from Lt. Surge.","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=132,TalkTime=1}] {"text":"<Lt. Surge> TM34 contains Shock Wave!"}
-tellraw @s[scores={DialogueTrigger=132,TalkTime=1}] {"text":"<Lt. Surge> Teach it to an Electric Pokémon!"}
-
-tag @s[scores={DialogueTrigger=132,TalkTime=10..}] add Dialogue132
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue 34 - Vermilion City

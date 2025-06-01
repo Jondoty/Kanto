@@ -2,20 +2,11 @@
     "c.npc.set_chatting();",
     "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
     "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
-    "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $288 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
-    "q.run_command('scoreboard players add ' + q.player.username + ' Money 288');"
+    "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $720 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+    "q.run_command('scoreboard players add ' + q.player.username + ' Money 720');"
         ],
     "escapeAction": [],
     "speakers": {
-        "oak": {
-            "name": "Professor Oak",
-            "face": {
-                "type": "artificial",
-                "modelType": "npc",
-                "identifier": "cobblemon:oak",
-                "isLeftSide": true
-            }
-        },
         "blue": {
             "name": "Blue",
             "face": {
@@ -31,7 +22,7 @@
             "id": "greeting",
             "speaker": "blue",
             "lines": [
-                "Hey, guess what?"
+                "I heard there was a Cut master on board."
             ],
             "input": {
                 "type": "option",
@@ -49,7 +40,7 @@
             "id": "page2",
             "speaker": "blue",
             "lines": [
-                "I went to Bill's and got him to show me his rare Pokémon."
+                "But he was just a seasick old man!"
             ],
             "input": {
                 "type": "option",
@@ -67,7 +58,7 @@
             "id": "page3",
             "speaker": "blue",
             "lines": [
-                "That added a lot of pages to my Pokédex!"
+                "Cut itself is really useful. Yup, it'll be handy."
             ],
             "input": {
                 "type": "option",
@@ -85,7 +76,7 @@
             "id": "page4",
             "speaker": "blue",
             "lines": [
-                "After all, Bill's world famous as a Pokémaniac."
+                "You should go see him, too."
             ],
             "input": {
                 "type": "option",
@@ -103,43 +94,7 @@
             "id": "page5",
             "speaker": "blue",
             "lines": [
-                "He invented the Pokémon Storage System on PC, too."
-            ],
-            "input": {
-                "type": "option",
-                "vertical": false,
-                "options": [
-                    {
-                        "text": "Next",
-                        "value": "next",
-                        "action": "q.dialogue.set_page('page6');"
-                    }
-                ]
-            }
-        },
-        {
-            "id": "page6",
-            "speaker": "blue",
-            "lines": [
-                "Since you're using his system, you should go thank him."
-            ],
-            "input": {
-                "type": "option",
-                "vertical": false,
-                "options": [
-                    {
-                        "text": "Next",
-                        "value": "next",
-                        "action": "q.dialogue.set_page('page7');"
-                    }
-                ]
-            }
-        },
-        {
-            "id": "page7",
-            "speaker": "blue",
-            "lines": [
-                "Well, I better get rolling! Smell ya later!"
+                "Smell ya!"
             ],
             "input": {
                 "type": "option",
@@ -149,9 +104,9 @@
                         "text": "Close",
                         "value": "close",
                         "action": [
-                            "q.run_command('particle cloud 3107 34 950 1 1 1 1 75');",
-                            "q.run_command('tp @e[x=3107,y=33,z=950,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000');",
-                            "q.run_command('tag ' + q.player.username + ' add Dialogue23');",
+                            "q.run_command('particle cloud 3104 42 -21 1 1 1 1 75');",
+                            "q.run_command('tp @e[x=3104,y=42,z=-21,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000');",
+                            "q.run_command('tag ' + q.player.username + ' add Dialogue32');",
                             "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
                             "q.dialogue.close();"
                         ]
