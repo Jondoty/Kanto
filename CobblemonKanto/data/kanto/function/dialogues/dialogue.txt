@@ -125,50 +125,6 @@ tag @s[scores={DialogueTrigger=28,TalkTime=10..}] add Dialogue28
 
 
 
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 34 - Vermilion City
-#Obtaining package
-#https://youtu.be/_6uv4msYJiM?t=15112
-
-tellraw @s[scores={DialogueTrigger=34,TalkTime=1}] ["",{"text":"<Oak's Aide> Oh, hello, "},{"selector":"@s"},{"text":"! How are you doing?"}]
-tellraw @s[scores={DialogueTrigger=34,TalkTime=1}] {"text":"<Oak's Aide> It's me, one of Prof. Oak's Aides."}
-tellraw @s[scores={DialogueTrigger=34,TalkTime=1}] {"text":"<Oak's Aide> Did you meet the other Aide?"}
-tellraw @s[scores={DialogueTrigger=34,TalkTime=1}] ["",{"text":"<Oak's Aide> He had a package from Prof. Oak for you, "},{"selector":"@s"},{"text":"."}]
-tellraw @s[scores={DialogueTrigger=34,TalkTime=1}] ["",{"text":"<Oak's Aide> He said he'd look for you around Route 2, "},{"selector":"@s"},{"text":"."}]
-tellraw @s[scores={DialogueTrigger=34,TalkTime=1}] {"text":"<Oak's Aide> If you're in the Route 2 area, please look for him."}
-
-tag @s[scores={DialogueTrigger=34,TalkTime=10..}] add Dialogue34
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 35 - Route 2
-#Elm's Aide 10 dex count
-#https://youtu.be/_6uv4msYJiM?t=15357
-#Reset these tags after each day if player doesn't recieve the item
-
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Oak's Aide> Hi! Remember me? I'm one of Prof. Oak's Aides."}
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Oak's Aide> If your Pokédex has complete data on ten species, I'm supposed to give you a reward."}
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Oak's Aide> Prof. Oak entrusted me with the HM05 for you."}
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] ["",{"text":"<Oak's Aide> So, "},{"selector":"@s"},{"text":", let me ask you."}]
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Oak's Aide> Have you gathered data on at least ten kinds of Pokémon?"}
-
-#If 10 or more
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Oak's Aide> Great! You have caught or owned ten kinds of Pokémon!"}
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Oak's Aide> Congratulations! Here you go!"}
-
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the HM05 from the Aide.","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Oak's Aide> HM05 contains the hidden move Flash."}
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Oak's Aide> Flash lights up even the darkest of caves and dungeons."}
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Oak's Aide> Once a Pokémon learns Flash, you can get through Rock Tunnel."}
-
-#If 9 or less
-
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Oak's Aide> ...Oh. I see."}
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Oak's Aide> When you get ten kinds of Pokémon, come back for the HM05."}
-
-tag @s[scores={DialogueTrigger=35,TalkTime=10..}] add Dialogue35
-
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue 36 - Vermilion City
 #Pokemon Fan Club Chairman first talk
@@ -218,37 +174,6 @@ tellraw @s[scores={DialogueTrigger=38,TalkTime=1}] ["",{"selector":"@s","italic"
 tellraw @s[scores={DialogueTrigger=38,TalkTime=1}] {"text":"<Bike Clerk> Thank you! Come back again sometime!"}
 
 tag @s[scores={DialogueTrigger=38,TalkTime=10..}] add Dialogue38
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 39 - Route 10
-#ELm's Aide twenty species
-#https://youtu.be/_6uv4msYJiM?t=16848
-
-tellraw @s[scores={DialogueTrigger=39,TalkTime=1}] ["",{"text":"<Oak's Aide> Oh... "},{"selector":"@s"},{"text":"! I've been looking for you!"}]
-tellraw @s[scores={DialogueTrigger=39,TalkTime=1}] {"text":"<Oak's Aide> It's me, one of the ever-present Aides to Prof. Oak."}
-tellraw @s[scores={DialogueTrigger=39,TalkTime=1}] {"text":"<Oak's Aide> If your Pokédex has complete data on twenty species, I'm supposed to give you a reward from Prof. Oak."}
-tellraw @s[scores={DialogueTrigger=39,TalkTime=1}] {"text":"<Oak's Aide> He entrusted me with this Everstone."}
-tellraw @s[scores={DialogueTrigger=39,TalkTime=1}] ["",{"text":"<Oak's Aide> So, "},{"selector":"@s"},{"text":", let me ask you."}]
-tellraw @s[scores={DialogueTrigger=39,TalkTime=1}] {"text":"<Oak's Aide> Have you gathered data on at least 20 kinds of Pokémon?"}
-
-
-#If 20 or more
-tellraw @s[scores={DialogueTrigger=39,TalkTime=1}] {"text":"<Oak's Aide> Great! You have caught or owned 20 kinds of Pokémon!"}
-tellraw @s[scores={DialogueTrigger=39,TalkTime=1}] {"text":"<Oak's Aide> Congratulations! Here you go!"}
-
-tellraw @s[scores={DialogueTrigger=39,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Everstone from the Aide.","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=39,TalkTime=1}] {"text":"<Oak's Aide> Making Pokémon evolve certainly can add to the Pokédex."}
-tellraw @s[scores={DialogueTrigger=39,TalkTime=1}] {"text":"<Oak's Aide> However, at times, you may not want a certain Pokémon to evolve."}
-tellraw @s[scores={DialogueTrigger=39,TalkTime=1}] {"text":"<Oak's Aide> In that case, give the Everstone to that Pokémon."}
-tellraw @s[scores={DialogueTrigger=39,TalkTime=1}] {"text":"<Oak's Aide> It will prevent evolution according to the Professor."}
-
-#If 19 or less
-
-tellraw @s[scores={DialogueTrigger=39,TalkTime=1}] {"text":"<Oak's Aide> ...Oh. I see."}
-tellraw @s[scores={DialogueTrigger=39,TalkTime=1}] {"text":"<Oak's Aide> When you get 20 kinds of Pokémon, come back for the Everstone."}
-
-tag @s[scores={DialogueTrigger=39,TalkTime=10..}] add Dialogue39
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue 40 - Celadon Gym
@@ -695,32 +620,6 @@ tellraw @s[scores={DialogueTrigger=65,TalkTime=1}] {"text":"<Koga> It will surel
 
 tag @s[scores={DialogueTrigger=65,TalkTime=10..}] add Dialogue65
 
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 66 - R15 & Fuchsia Gate
-#Oak's Aide 50 species
-#https://youtu.be/_6uv4msYJiM?t=38794
-
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Oak's Aide> Hi! Remember me? I'm one of Prof. Oak's Aides."}
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Oak's Aide> If your Pokédex has complete data on 50 species, I'm supposed to give you a reward."}
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Oak's Aide> Prof. Oak entrusted me with an Exp. Share for you."}
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] ["",{"text":"<Oak's Aide> So, "},{"selector":"@s"},{"text":", let me ask you."}]
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Oak's Aide> Have you gathered data on at least 50 kinds of Pokémon?"}
-
-#If 40 or more
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Oak's Aide> Great! You have caught or owned 50 kinds of Pokémon!"}
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Oak's Aide> Congratulations! Here you go!"}
-
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Exp. Share from the Aide.","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Oak's Aide> Exp. Share is an item to be held by a Pokémon."}
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Oak's Aide> The Pokémon will receive a share of the Exp. Points without having to battle."}
-
-#If 50 or less
-
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Oak's Aide> ...Oh. I see."}
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Oak's Aide> When you get 50 kinds of Pokémon, come back for the Exp. Share."}
-
-tag @s[scores={DialogueTrigger=66,TalkTime=10..}] add Dialogue66
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue 67 - Seafoam Islands
