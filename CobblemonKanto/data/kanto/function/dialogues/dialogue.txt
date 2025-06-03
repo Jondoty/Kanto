@@ -161,6 +161,8 @@ tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] {"text":"<Chairman> So, I hav
 tag @s[scores={DialogueTrigger=37,TalkTime=10..}] add Dialogue37
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+(Probably won't do the bike at all?)
+
 #Dialogue 38 - Cerulean City
 #Bike voucher for bike
 #https://youtu.be/_6uv4msYJiM?t=15751
@@ -174,56 +176,6 @@ tellraw @s[scores={DialogueTrigger=38,TalkTime=1}] ["",{"selector":"@s","italic"
 tellraw @s[scores={DialogueTrigger=38,TalkTime=1}] {"text":"<Bike Clerk> Thank you! Come back again sometime!"}
 
 tag @s[scores={DialogueTrigger=38,TalkTime=10..}] add Dialogue38
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 40 - Celadon Gym
-#Erika Pre-Battle
-#https://youtu.be/_6uv4msYJiM?t=22460
-
-tellraw @s[scores={DialogueTrigger=40,TalkTime=1}] {"text":"<Erika> Hello... Lovely weather, isn't it? It's so pleasant..."}
-tellraw @s[scores={DialogueTrigger=40,TalkTime=1}] {"text":"<Erika> ...Oh, dear... I must have dozed off. Welcome."}
-tellraw @s[scores={DialogueTrigger=40,TalkTime=1}] {"text":"<Erika> My name is Erika. I am the Leader of Celadon Gym."}
-tellraw @s[scores={DialogueTrigger=40,TalkTime=1}] {"text":"<Erika> I am a student of the art of flower arranging."}
-tellraw @s[scores={DialogueTrigger=40,TalkTime=1}] {"text":"<Erika> My Pokémon are solely of the Grass type."}
-tellraw @s[scores={DialogueTrigger=40,TalkTime=1}] {"text":"<Erika> ...Oh, I'm sorry, I had no idea that you wished to challenge me."}
-tellraw @s[scores={DialogueTrigger=40,TalkTime=1}] {"text":"<Erika> Very well, but I shall not lose."}
-
-tag @s[scores={DialogueTrigger=40,TalkTime=10..}] add Dialogue40
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 41 - Celadon Gym
-#Erika Post-Battle
-#https://youtu.be/_6uv4msYJiM?t=22460
-
-tellraw @s[scores={DialogueTrigger=41,TalkTime=1}] {"text":"<Erika> Oh! I concede defeat."}
-tellraw @s[scores={DialogueTrigger=41,TalkTime=1}] {"text":"<Erika> You are remarkably strong."}
-tellraw @s[scores={DialogueTrigger=41,TalkTime=1}] {"text":"<Erika> I must confer on you the RainbowBadge."}
-tellraw @s[scores={DialogueTrigger=41,TalkTime=1}] {"text":"<Erika> Please also take this with you."}
-
-tellraw @s[scores={DialogueTrigger=41,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received TM19 from Erika.","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=41,TalkTime=1}] {"text":"<Erika> TM19 contains Giga Drain."}
-tellraw @s[scores={DialogueTrigger=41,TalkTime=1}] {"text":"<Erika> Half the damage it inflicts is drained to heal your Pokémon."}
-tellraw @s[scores={DialogueTrigger=41,TalkTime=1}] {"text":"<Erika> Wouldn't you agree that it's a wonderful move?"}
-
-tag @s[scores={DialogueTrigger=41,TalkTime=10..}] add Dialogue41
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 42 - Game Corner
-#Team Rocket Lookout Grunt post-battle
-#https://youtu.be/_6uv4msYJiM?t=22970
-
-tellraw @s[scores={DialogueTrigger=42,TalkTime=1}] {"text":"<Team Rocket Grunt> The Team Rocket Hideout might be discovered!"}
-tellraw @s[scores={DialogueTrigger=42,TalkTime=1}] {"text":"<Team Rocket Grunt> I better tell Boss!"}
-
-#tp away
-
-tellraw @s[scores={DialogueTrigger=42,TalkTime=1}] {"text":"Hey!","italic":true,"color":"gray"}
-tellraw @s[scores={DialogueTrigger=42,TalkTime=1}] {"text":"A switch behind the poster!? Let's push it!","italic":true,"color":"gray"}
-
-#Opens the staircase
-
-tag @s[scores={DialogueTrigger=42,TalkTime=10..}] add Dialogue42
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue 43 - Rocket HQ

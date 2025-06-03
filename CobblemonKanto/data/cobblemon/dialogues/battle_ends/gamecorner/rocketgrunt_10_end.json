@@ -1,26 +1,78 @@
-{   "initializationAction": [              
-    "c.npc.set_chatting();",
-    "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
-    "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
-    "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $640 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
-    "q.run_command('scoreboard players add ' + q.player.username + ' Money 640');"
-        ],
-  "speakers": {
-    "npc": {
-      "name": "Team Rocket Grunt",
-      "face": {
-        "type": "artificial",
-        "modelType": "npc",
-        "identifier": "cobblemon:rocketgrunt",
-        "isLeftSide": true
-      }
-    }
-  },
-  "pages": [
-    {
-      "id": "greeting",
-      "speaker": "npc",
-      "lines": ["The Team Rocket Hideout might be discovered! I better tell Boss!"],
+{
+    "initializationAction": [
+        "c.npc.set_chatting();",
+        "q.run_command('tag ' + q.player.username + ' add InDialogue');",
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
+        "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
+        "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $640 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+        "q.run_command('scoreboard players add ' + q.player.username + ' Money 640');"
+    ],
+    "speakers": {
+        "npc": {
+            "name": "Team Rocket Grunt",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:rocketgrunt",
+                "isLeftSide": true
+            }
+        },
+        "player": {
+            "face": "q.player.face(true);",
+            "name": {
+                "isLeftSide": false,
+                "type": "expression",
+                "expression": "q.player.username"
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+                "The Team Rocket Hideout might be discovered!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page2",
+            "speaker": "npc",
+            "lines": [
+                "I better tell Boss!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                            "q.run_command('particle cloud 3458 34 499 1 1 1 1 75');",
+                            "q.run_command('tp @e[x=3458,y=33,z=499,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000');",
+                            "q.dialogue.set_page('page3');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "player",
+            "lines": [
+                "A switch behind the poster!? Let's push it!"
+            ],
             "input": {
                 "type": "option",
                 "vertical": false,
@@ -28,14 +80,17 @@
                     {
                         "text": "Close",
                         "value": "close",
-                        "action": [              
-                            "q.dialogue.close();"]
+                        "action": [
+                            "q.run_command('fill 3452 33 500 3455 33 501 air');",
+                            "q.run_command('fill 3456 33 500 3456 33 501 minecraft:quartz_stairs[facing=east]');",
+                            "q.run_command('tag ' + q.player.username + ' add Dialogue42');",
+                            "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
+                            "q.dialogue.close();"
+                        ]
                     }
                 ]
             }
         }
     ],
-    "escapeAction": [              
-      "q.dialogue.close();"
-      ]
+    "escapeAction": []
 }

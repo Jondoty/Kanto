@@ -100,6 +100,14 @@ execute as @s[x=3108,y=36,z=2,distance=..15,scores={StarterPick=3},tag=!Dialogue
 
 
 
+#Game Corner Rocket unlocking stairs
+execute as @s[x=3449,y=0,z=482,dx=31,dy=44,dz=19,tag=!Dialogue42] unless entity @e[x=3458,y=33,z=499,dy=3] run npcspawnat 3458 34 499 rocketgrunt_10 1
+execute as @s[x=3449,y=0,z=482,dx=31,dy=44,dz=19,tag=!Dialogue42] run fill 3456 33 500 3452 33 501 minecraft:birch_planks
+
+#If trainer has been beaten
+execute as @s[x=3449,y=0,z=482,dx=31,dy=44,dz=19,tag=Dialogue42] run tp @e[x=3458,y=33,z=499,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @s[x=3449,y=0,z=482,dx=31,dy=44,dz=19,tag=Dialogue42] run fill 3452 33 500 3455 33 501 air
+execute as @s[x=3449,y=0,z=482,dx=31,dy=44,dz=19,tag=Dialogue42] run fill 3456 33 500 3456 33 501 minecraft:quartz_stairs[facing=east]
 
 
 
