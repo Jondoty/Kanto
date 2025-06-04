@@ -58,12 +58,6 @@ execute as @a[x=3191,y=0,z=-294,dx=510,dy=256,dz=245] run function kanto:world/s
 #Runs TriggerCommands function, score activated by shops and dialogues to run several commands together
 execute as @a[scores={TriggerCommand=1..}] run function kanto:triggers/triggercommand
 
-#Makes the Pokemon Tower rare ghost unbattleable
-execute as @e[x=4375,y=0,z=1608,dx=126,dy=200,dz=105,nbt={Pokemon:{Species:"cobblemon:ghost"}},tag=!InitialSetup] run data modify entity @s Invulnerable set value 1b
-execute as @e[x=4375,y=0,z=1608,dx=126,dy=200,dz=105,nbt={Pokemon:{Species:"cobblemon:ghost"}},tag=!InitialSetup] run data modify entity @s Unbattleable set value 1b
-execute as @e[x=4375,y=0,z=1608,dx=126,dy=200,dz=105,nbt={Pokemon:{Species:"cobblemon:ghost"}},tag=!InitialSetup] run data merge entity @s {Pokemon:{PokemonData:["uncatchable"]}}
-execute as @e[x=4375,y=0,z=1608,dx=126,dy=200,dz=105,nbt={Pokemon:{Species:"cobblemon:ghost"}},tag=!InitialSetup] run tag @s add InitialSetup
-
 #------------------------------------------------------------------------------
 #HMs
 

@@ -54,6 +54,21 @@ execute as @p[x=4618,y=35,z=1667,distance=..20,tag=!HideoutGrunt1,tag=!HideoutGr
 execute as @s[x=4616,y=34,z=1669,dx=4,dy=5,dz=5,tag=!HideoutGrunt1] at @s run tp @s ~ ~ ~-10 
 execute as @s[x=4616,y=34,z=1669,dx=4,dy=5,dz=5,tag=!HideoutGrunt2] at @s run tp @s ~ ~ ~-10 
 
+
+#Pokemon Tower with and without Silph Scope
+#Without
+execute as @s[x=4435,y=154,z=1627,dx=8,dy=10,dz=12,tag=!Dialogue44] unless entity @e[x=4439,y=154,z=1642,nbt={Pokemon:{Species:"cobblemon:ghost"}}] run particle minecraft:glow_squid_ink 4439 154 1642 2 2 2 0.5 100 normal
+execute as @s[x=4435,y=154,z=1627,dx=8,dy=10,dz=12,tag=!Dialogue44] unless entity @e[x=4439,y=154,z=1642,nbt={Pokemon:{Species:"cobblemon:ghost"}}] run pokespawnat 4439 154 1642 ghost no_ai=yes level=30
+
+#Makes ghost uncatch/batttleable
+execute as @e[x=4375,y=0,z=1608,dx=126,dy=200,dz=105,nbt={Pokemon:{Species:"cobblemon:ghost"}},tag=!InitialSetup] run data modify entity @s Invulnerable set value 1b
+execute as @e[x=4375,y=0,z=1608,dx=126,dy=200,dz=105,nbt={Pokemon:{Species:"cobblemon:ghost"}},tag=!InitialSetup] run data modify entity @s Unbattleable set value 1b
+execute as @e[x=4375,y=0,z=1608,dx=126,dy=200,dz=105,nbt={Pokemon:{Species:"cobblemon:ghost"}},tag=!InitialSetup] run data merge entity @s {Pokemon:{PokemonData:["uncatchable"]}}
+execute as @e[x=4375,y=0,z=1608,dx=126,dy=200,dz=105,nbt={Pokemon:{Species:"cobblemon:ghost"}},tag=!InitialSetup] run tag @s add InitialSetup
+
+execute as @s[x=4435,y=154,z=1627,dx=8,dy=10,dz=12,tag=!Dialogue44] run opendialogue pokemontower_ghost_block @s
+execute as @s[x=4435,y=154,z=1627,dx=8,dy=10,dz=12,tag=!Dialogue44] run tp @s 4439 154 1648 180 -5
+
 #------------------------------------------------------------------------------
 
 #Surf Checks

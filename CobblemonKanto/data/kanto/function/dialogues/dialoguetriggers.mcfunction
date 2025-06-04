@@ -114,13 +114,24 @@ execute as @s[x=3449,y=0,z=482,dx=31,dy=44,dz=19,tag=Dialogue42] run fill 3456 3
 execute as @s[x=4606,y=34,z=1647,dx=25,dy=9,dz=60,tag=!Dialogue44] unless entity @e[x=4619,y=35,z=1701,distance=..2] run npcspawnat 4619.0 35 1701 hideout_giovanni 1
 
 
+#Pokemon Tower Blue
+execute as @s[x=4396,y=45,z=1667,distance=..15,scores={StarterPick=1},tag=!Dialogue46] unless entity @e[x=4429,y=58,z=1688,dy=3] run npcspawnat 4429 58 1688 pokemontower_blue1 1
+execute as @s[x=4396,y=45,z=1667,distance=..15,scores={StarterPick=2},tag=!Dialogue46] unless entity @e[x=4429,y=58,z=1688,dy=3] run npcspawnat 4429 58 1688 pokemontower_blue2 1
+execute as @s[x=4396,y=45,z=1667,distance=..15,scores={StarterPick=3},tag=!Dialogue46] unless entity @e[x=4429,y=58,z=1688,dy=3] run npcspawnat 4429 58 1688 pokemontower_blue3 1
 
 
+#Pokemon Tower Ghost revealing when player has the scope
+execute as @s[x=4439,y=154,z=1642,distance=..10,tag=Dialogue44,tag=!Dialogue47] run opendialogue pokemontower_ghost_scope @s
+
+#Sets up ghost if player has not spawned it themselves
+execute as @s[x=4439,y=154,z=1642,distance=..30,tag=Dialogue44,tag=!Dialogue47] unless entity @e[x=4439,y=154,z=1642,distance=..30,nbt={Pokemon:{Species:"cobblemon:ghost"}}] run particle minecraft:glow_squid_ink 4439 154 1642 2 2 2 0.5 100 normal
+execute as @s[x=4439,y=154,z=1642,distance=..30,tag=Dialogue44,tag=!Dialogue47] unless entity @e[x=4439,y=154,z=1642,distance=..30,nbt={Pokemon:{Species:"cobblemon:ghost"}}] run pokespawnat 4439 154 1642 ghost no_ai=yes level=30
 
 
-
-
-
+#Swaps out the ghost for a Marowak
+execute as @s[x=4439,y=154,z=1642,distance=..30,tag=Dialogue47] at @e[x=4439,y=154,z=1642,distance=..30,nbt={Pokemon:{Species:"cobblemon:ghost"}}] run particle minecraft:cloud 4439 154 1642 2 2 2 0.5 100 normal
+execute as @s[x=4439,y=154,z=1642,distance=..30,tag=Dialogue47] at @e[x=4439,y=154,z=1642,distance=..30,nbt={Pokemon:{Species:"cobblemon:ghost"}}] run pokespawnat 4439 154 1642 marowak level=30 uncatchable=yes
+execute as @s[x=4439,y=154,z=1642,distance=..30,tag=Dialogue47] run tp @e[x=4439,y=154,z=1642,distance=..30,nbt={Pokemon:{Species:"cobblemon:ghost"}}] 10000000 -50000 -10000000
 
 
 
