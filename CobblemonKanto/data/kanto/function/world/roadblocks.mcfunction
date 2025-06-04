@@ -47,6 +47,13 @@ execute as @s[x=3101,y=33,z=6,dx=12,dy=5,dz=18,tag=!Dialogue25] run opendialogue
 execute as @s[x=3101,y=33,z=6,dx=12,dy=5,dz=18,tag=!Dialogue25] at @s run tp @s ~ ~.5 ~10
 
 
+#Rocket Hideout Giovanni room before beating grunts
+execute as @p[x=4618,y=35,z=1667,distance=..10,tag=HideoutGrunt1,tag=HideoutGrunt2] if block 4618 35 1667 iron_block run playsound minecraft:entity.iron_golem.hurt ambient @s ~ ~ ~ 1 1 1
+execute as @p[x=4618,y=35,z=1667,distance=..10,tag=HideoutGrunt1,tag=HideoutGrunt2] run fill 4620 35 1668 4616 37 1667 minecraft:air
+execute as @p[x=4618,y=35,z=1667,distance=..20,tag=!HideoutGrunt1,tag=!HideoutGrunt2] run fill 4620 35 1668 4616 37 1667 minecraft:iron_block
+execute as @s[x=4616,y=34,z=1669,dx=4,dy=5,dz=5,tag=!HideoutGrunt1] at @s run tp @s ~ ~ ~-10 
+execute as @s[x=4616,y=34,z=1669,dx=4,dy=5,dz=5,tag=!HideoutGrunt2] at @s run tp @s ~ ~ ~-10 
+
 #------------------------------------------------------------------------------
 
 #Surf Checks

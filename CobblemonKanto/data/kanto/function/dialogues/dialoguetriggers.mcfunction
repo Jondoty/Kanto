@@ -110,6 +110,8 @@ execute as @s[x=3449,y=0,z=482,dx=31,dy=44,dz=19,tag=Dialogue42] run fill 3452 3
 execute as @s[x=3449,y=0,z=482,dx=31,dy=44,dz=19,tag=Dialogue42] run fill 3456 33 500 3456 33 501 minecraft:quartz_stairs[facing=east]
 
 
+#Giovanni spawn/respawn
+execute as @s[x=4606,y=34,z=1647,dx=25,dy=9,dz=60,tag=!Dialogue44] unless entity @e[x=4619,y=35,z=1701,distance=..2] run npcspawnat 4619.0 35 1701 hideout_giovanni 1
 
 
 

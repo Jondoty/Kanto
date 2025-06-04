@@ -4,14 +4,14 @@
     "presets": ["cobblemon:trainer_basics"],
     "interaction": {
         "type": "dialogue",
-        "dialogue": "cobblemon:boss_giovanni_interaction"
+        "dialogue": "cobblemon:hideout_giovanni_interaction"
     },
         "name": "Giovanni",
         "party": {
         "type": "simple",
         "pokemon": [
             "Onix level=25 moves=rockthrow,bind,rage,harden",
-            "Rhyhorn level=24, moves=stomp,furyattack,scaryface,tailwhip",
+            "Rhyhorn level=24 moves=stomp,furyattack,scaryface,tailwhip",
             "Kangaskhan level=29 moves=fakeout,megapunch,bite,tailwhip"
         ]
     },
@@ -35,7 +35,7 @@
             "displayName": "npc.variable.on_player_wins.name",
             "description": "npc.variable.on_player_wins.desc",
             "type": "TEXT",
-            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue boss_giovanni_end @s');"
+            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue hideout_giovanni_end @s');"
           }
     ]
 }

@@ -37,8 +37,8 @@ scoreboard players set @s PokeDex 0
 
 #Grants basic items on starting
 scoreboard players add @s Money 2000
-function kanto:spawn/radio
 function kanto:spawn/runningshoes
+function kanto:spawn/radio
 
 #Removes Gym Leaders beaten
 tag @s remove Brock
@@ -79,7 +79,9 @@ tag @s remove FlySeven
 #Removes misc tags
 tag @s remove FirstSong
 tag @s remove RainbowPass
-
+tag @s remove TriPass
+tag @s remove HideoutGrunt1
+tag @s remove HideoutGrunt2
 
 
 

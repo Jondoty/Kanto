@@ -114,35 +114,44 @@ tp @e[x=4582,y=81,z=1607,dx=7,dy=5,dz=6] 4606 70 1666 -90 12
 
 #Elevator
 #B1F
-execute as @e[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 90 1630 minecraft:stone_button[powered=true] run tellraw @s {"text":"You're already on that floor!","italic":true,"color":"gray"}
-execute as @e[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 90 1630 minecraft:stone_button[powered=true] run setblock 4562 90 1630 minecraft:stone_button[facing=east,powered=false]
+execute as @s[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 90 1630 minecraft:stone_button[powered=true] run tellraw @s[tag=!LiftKey] {"text":"The elevator won't start without a Lift Key!","italic":true,"color":"gray"}
+execute as @s[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 90 1630 minecraft:stone_button[powered=true] run tellraw @s[tag=LiftKey] {"text":"You're already on that floor!","italic":true,"color":"gray"}
+execute as @s[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 90 1630 minecraft:stone_button[powered=true] run setblock 4562 90 1630 minecraft:stone_button[facing=east,powered=false]
 
-execute as @e[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 91 1627 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
-execute as @e[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 91 1627 minecraft:stone_button[powered=true] run tp @s ~30 ~-19 ~31
+execute as @s[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 91 1627 minecraft:stone_button[powered=true] run tellraw @s[tag=!LiftKey] {"text":"The elevator won't start without a Lift Key!","italic":true,"color":"gray"}
+execute as @s[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 91 1627 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s[tag=LiftKey] ~ ~ ~ 100 1 1
+execute as @s[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 91 1627 minecraft:stone_button[powered=true] run tp @s[tag=LiftKey] ~30 ~-19 ~31
 
-execute as @e[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 90 1627 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
-execute as @e[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 90 1627 minecraft:stone_button[powered=true] run tp @s ~49 ~-54 ~13
+execute as @s[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 90 1627 minecraft:stone_button[powered=true] run tellraw @s[tag=!LiftKey] {"text":"The elevator won't start without a Lift Key!","italic":true,"color":"gray"}
+execute as @s[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 90 1627 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s[tag=LiftKey] ~ ~ ~ 100 1 1
+execute as @s[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 90 1627 minecraft:stone_button[powered=true] run tp @s[tag=LiftKey] ~49 ~-54 ~13
 
 #B2F
-execute as @e[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 71 1661 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
-execute as @e[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 71 1661 minecraft:stone_button[powered=true] run tp @s ~-30 ~19 ~-31
+execute as @s[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 71 1661 minecraft:stone_button[powered=true] run tellraw @s[tag=!LiftKey] {"text":"The elevator won't start without a Lift Key!","italic":true,"color":"gray"}
+execute as @s[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 71 1661 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s[tag=LiftKey] ~ ~ ~ 100 1 1
+execute as @s[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 71 1661 minecraft:stone_button[powered=true] run tp @s[tag=LiftKey] ~-30 ~19 ~-31
 
-execute as @e[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 72 1658 minecraft:stone_button[powered=true] run tellraw @s {"text":"You're already on that floor!","italic":true,"color":"gray"}
-execute as @e[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 72 1658 minecraft:stone_button[powered=true] run setblock 4592 72 1658 minecraft:stone_button[facing=east,powered=false]
+execute as @s[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 72 1658 minecraft:stone_button[powered=true] run tellraw @s[tag=!LiftKey] {"text":"The elevator won't start without a Lift Key!","italic":true,"color":"gray"}
+execute as @s[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 72 1658 minecraft:stone_button[powered=true] run tellraw @s[tag=LiftKey] {"text":"You're already on that floor!","italic":true,"color":"gray"}
+execute as @s[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 72 1658 minecraft:stone_button[powered=true] run setblock 4592 72 1658 minecraft:stone_button[facing=east,powered=false]
 
-execute as @e[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 71 1658 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
-execute as @e[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 71 1658 minecraft:stone_button[powered=true] run tp @s ~19 ~-35 ~-18
+execute as @s[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 71 1658 minecraft:stone_button[powered=true] run tellraw @s[tag=!LiftKey] {"text":"The elevator won't start without a Lift Key!","italic":true,"color":"gray"}
+execute as @s[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 71 1658 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s[tag=LiftKey] ~ ~ ~ 100 1 1
+execute as @s[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 71 1658 minecraft:stone_button[powered=true] run tp @s[tag=LiftKey] ~19 ~-35 ~-18
 
 
 #B4F
-execute as @e[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 36 1643 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
-execute as @e[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 36 1643 minecraft:stone_button[powered=true] run tp @s ~-49 ~54 ~-13
+execute as @s[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 36 1643 minecraft:stone_button[powered=true] run tellraw @s[tag=!LiftKey] {"text":"The elevator won't start without a Lift Key!","italic":true,"color":"gray"}
+execute as @s[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 36 1643 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s[tag=LiftKey] ~ ~ ~ 100 1 1
+execute as @s[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 36 1643 minecraft:stone_button[powered=true] run tp @s[tag=LiftKey] ~-49 ~54 ~-13
 
-execute as @e[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 37 1640 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
-execute as @e[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 37 1640 minecraft:stone_button[powered=true] run tp @s ~-19 ~35 ~18
+execute as @s[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 37 1640 minecraft:stone_button[powered=true] run tellraw @s[tag=!LiftKey] {"text":"The elevator won't start without a Lift Key!","italic":true,"color":"gray"}
+execute as @s[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 37 1640 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s[tag=LiftKey] ~ ~ ~ 100 1 1
+execute as @s[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 37 1640 minecraft:stone_button[powered=true] run tp @s[tag=LiftKey] ~-19 ~35 ~18
 
-execute as @e[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 36 1640 minecraft:stone_button[powered=true] run tellraw @s {"text":"You're already on that floor!","italic":true,"color":"gray"}
-execute as @e[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 36 1640 minecraft:stone_button[powered=true] run setblock 4611 36 1640 minecraft:stone_button[facing=east,powered=false]
+execute as @s[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 36 1640 minecraft:stone_button[powered=true] run tellraw @s[tag=!LiftKey] {"text":"The elevator won't start without a Lift Key!","italic":true,"color":"gray"}
+execute as @s[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 36 1640 minecraft:stone_button[powered=true] run tellraw @s[tag=LiftKey] {"text":"You're already on that floor!","italic":true,"color":"gray"}
+execute as @s[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 36 1640 minecraft:stone_button[powered=true] run setblock 4611 36 1640 minecraft:stone_button[facing=east,powered=false]
 
 #--------------------------
 #Silph Co Elevators
@@ -540,38 +549,6 @@ execute as @e[x=4425,y=165,z=1996,dx=5,dy=5,dz=5] at @s if block 4425 167 2000 m
 execute as @e[x=4425,y=165,z=1996,dx=5,dy=5,dz=5] at @s if block 4425 168 2000 minecraft:stone_button[powered=true] run tellraw @s {"text":"You're already on that floor!","italic":true,"color":"gray"}
 execute as @e[x=4425,y=165,z=1996,dx=5,dy=5,dz=5] at @s if block 4425 168 2000 minecraft:stone_button[powered=true] run setblock 4425 168 2000 minecraft:stone_button[facing=east,powered=false]
 
-#--------------------------
-#Elevator
-#B1F
-execute as @e[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 90 1630 minecraft:stone_button[powered=true] run tellraw @s {"text":"You're already on that floor!","italic":true,"color":"gray"}
-execute as @e[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 90 1630 minecraft:stone_button[powered=true] run setblock 4562 90 1630 minecraft:stone_button[facing=east,powered=false]
-
-execute as @e[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 91 1627 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
-execute as @e[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 91 1627 minecraft:stone_button[powered=true] run tp @s ~30 ~-19 ~31
-
-execute as @e[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 90 1627 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
-execute as @e[x=4562,y=88,z=1626,dx=5,dy=5,dz=5] at @s if block 4562 90 1627 minecraft:stone_button[powered=true] run tp @s ~49 ~-54 ~13
-
-#B2F
-execute as @e[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 71 1661 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
-execute as @e[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 71 1661 minecraft:stone_button[powered=true] run tp @s ~-30 ~19 ~-31
-
-execute as @e[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 72 1658 minecraft:stone_button[powered=true] run tellraw @s {"text":"You're already on that floor!","italic":true,"color":"gray"}
-execute as @e[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 72 1658 minecraft:stone_button[powered=true] run setblock 4592 72 1658 minecraft:stone_button[facing=east,powered=false]
-
-execute as @e[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 71 1658 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
-execute as @e[x=4592,y=69,z=1657,dx=5,dy=5,dz=5] at @s if block 4592 71 1658 minecraft:stone_button[powered=true] run tp @s ~19 ~-35 ~-18
-
-
-#B4F
-execute as @e[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 36 1643 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
-execute as @e[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 36 1643 minecraft:stone_button[powered=true] run tp @s ~-49 ~54 ~-13
-
-execute as @e[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 37 1640 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
-execute as @e[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 37 1640 minecraft:stone_button[powered=true] run tp @s ~-19 ~35 ~18
-
-execute as @e[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 36 1640 minecraft:stone_button[powered=true] run tellraw @s {"text":"You're already on that floor!","italic":true,"color":"gray"}
-execute as @e[x=4611,y=34,z=1639,dx=5,dy=5,dz=5] at @s if block 4611 36 1640 minecraft:stone_button[powered=true] run setblock 4611 36 1640 minecraft:stone_button[facing=east,powered=false]
 
 #--------------------------
 #Silph Co Elevators
