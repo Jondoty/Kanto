@@ -1085,8 +1085,11 @@ execute as @s[x=4606,y=35,z=1675,distance=..4,tag=!ItemLoot172] run tag @s add I
 
 #173 (Silph Scope)
 
-#174 (Leftovers)
-
+execute as @s[x=3500,y=-5,z=551,distance=..4,tag=ItemLoot174] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=3500,y=-5,z=551,distance=..4,tag=!ItemLoot174] run give @s music_disc_13[!jukebox_playable,custom_name='["",{"text":"Tea","italic":false,"color":"dark_green"}]',lore=['["",{"text":"An aromatic tea prepared by an old","italic":false}]','["",{"text":"lady. It will slake even the worst","italic":false}]','["",{"text":"thirst.","italic":false}]']]
+execute as @s[x=3500,y=-5,z=551,distance=..4,tag=!ItemLoot174] run tellraw @s {"text":"You received a Tea!","italic":true,"color":"gray"}
+execute as @s[x=3500,y=-5,z=551,distance=..4,tag=!ItemLoot174] run playsound getitem ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3500,y=-5,z=551,distance=..4,tag=!ItemLoot174] run tag @s add ItemLoot174
 
 execute as @s[x=3818,y=35,z=511,distance=..4,tag=ItemLoot175] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
 execute as @s[x=3818,y=35,z=511,distance=..4,tag=!ItemLoot175] run function kanto:spawn/flyhm

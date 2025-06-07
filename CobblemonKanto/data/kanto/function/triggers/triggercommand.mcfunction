@@ -1227,16 +1227,6 @@ execute as @a[scores={TriggerCommand=208,Coins=6500..}] run scoreboard players r
 
 
 
-#Tea for Saffron Guards
-execute as @a[scores={TriggerCommand=210,Money=..199}] run tellraw @s {"text":"You don't have enough money for that!","italic":true,"color":"gray"}
-execute as @a[scores={TriggerCommand=210,Money=..199}] run scoreboard players set @s TriggerCommand 0
-
-execute as @a[scores={TriggerCommand=210,Money=200..}] run tellraw @s {"text":"You put the items in your inventory.","italic":true,"color":"gray"}
-execute as @a[scores={TriggerCommand=210,Money=200..}] run give @s music_disc_13[!jukebox_playable,custom_name='["",{"text":"Tea","italic":false,"color":"dark_green"}]',lore=['["",{"text":"An aromatic tea prepared by an old","italic":false}]','["",{"text":"lady. It will slake even the worst","italic":false}]','["",{"text":"thirst.","italic":false}]']]
-execute as @a[scores={TriggerCommand=210,Money=200..}] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
-execute as @a[scores={TriggerCommand=210,Money=200..}] run scoreboard players remove @s Money 200
-
-
 
 
 
