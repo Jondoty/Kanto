@@ -68,8 +68,12 @@ tp @s[x=4659,y=34,z=1368,dx=6,dy=5] 3577 34 439
 tp @s[x=3530,y=34,z=-454,dx=4,dy=3] 4382 34 1366
 tp @s[x=4380,y=34,z=1365,dx=4,dy=5] 3532 34 -455
 
-#Saffron 
-tp @s[x=3032,y=34,z=563,dx=4,dy=3] 4468 34 1477
+#Saffron (Rocket blocked)
+execute as @s[x=3032,y=34,z=563,dx=4,dy=3,tag=!Dialogue55] run opendialogue saffron_rocketgrunt6_interaction @s
+execute as @s[x=3032,y=34,z=563,dx=4,dy=3,tag=!Dialogue55] at @s run tp @s ~ ~ ~-10
+
+#Saffron (Normal)
+tp @s[x=3032,y=34,z=563,dx=4,dy=3,tag=Dialogue55] 4468 34 1477
 tp @s[x=4466,y=34,z=1476,dx=5,dy=5] 3034 34 562
 
 #Cinnabar 
@@ -186,12 +190,16 @@ tp @s[x=4437,y=34,z=1624,dx=5,dy=5] 2545 34 505
 
 #Silph Co
 
+#Before player has found Mr. Fuji in the tower
+execute as @s[x=3106,y=34,z=474,dx=3,dy=3,tag=!Dialogue48] run opendialogue saffron_silphco_block @s
+execute as @s[x=3106,y=34,z=474,dx=3,dy=3,tag=!Dialogue48] at @s run tp @s ~ ~ ~-5
+
 #Takeover version
-#TBD
+tp @s[x=3106,y=34,z=474,dx=3,dy=3,tag=!Dialogue55] 4464 36 1801
 tp @s[x=4461,y=36,z=1800,dx=7,dy=5] 3108 34 473
 
 #Non-takeover version
-tp @s[x=3106,y=34,z=474,dx=3,dy=3] 4464 36 1944
+tp @s[x=3106,y=34,z=474,dx=3,dy=3,tag=Dialogue55] 4464 36 1944
 tp @s[x=4461,y=36,z=1943,dx=7,dy=5] 3108 34 473
 
 #------------

@@ -143,9 +143,12 @@ execute as @s[x=4429,y=178,z=1647,distance=..15,tag=!Dialogue48] unless entity @
 
 #Lavender Mr. Fuji
 execute as @s[x=2583,y=34,z=476,distance=..15,tag=Dialogue48] unless entity @e[x=2581,y=34,z=490,dy=3,type=cobblemon:npc] run npcspawnat 2581 35 490 lavender_mrfuji 1
+execute as @s[x=2583,y=34,z=476,distance=..15,tag=!Dialogue48] run tp @e[x=2581,y=34,z=490,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
 
-
-
+#Silph Co Blue
+execute as @s[x=4465,y=114,z=1841,distance=..15,scores={StarterPick=1},tag=!Dialogue53] unless entity @e[x=4465,y=114,z=1841,dy=3] run npcspawnat 4465 114 1841 silphco_blue1 1
+execute as @s[x=4465,y=114,z=1841,distance=..15,scores={StarterPick=2},tag=!Dialogue53] unless entity @e[x=4465,y=114,z=1841,dy=3] run npcspawnat 4465 114 1841 silphco_blue2 1
+execute as @s[x=4465,y=114,z=1841,distance=..15,scores={StarterPick=3},tag=!Dialogue53] unless entity @e[x=4465,y=114,z=1841,dy=3] run npcspawnat 4465 114 1841 silphco_blue3 1
 
 
 #

@@ -4,7 +4,7 @@
     "presets": ["cobblemon:trainer_basics"],
     "interaction": {
         "type": "dialogue",
-        "dialogue": "cobblemon:boss_giovanni2_interaction"
+        "dialogue": "cobblemon:silphco_giovanni_interaction"
     },
         "name": "Giovanni",
         "party": {
@@ -36,7 +36,7 @@
             "displayName": "npc.variable.on_player_wins.name",
             "description": "npc.variable.on_player_wins.desc",
             "type": "TEXT",
-            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue boss_giovanni2_end @s');"
+            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue silphco_giovanni_end @s');"
           }
     ]
 }

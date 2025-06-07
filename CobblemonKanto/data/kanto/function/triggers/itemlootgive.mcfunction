@@ -924,13 +924,7 @@ execute as @s[x=4433,y=153,z=1815,distance=..4,tag=!ItemLoot144] run tellraw @s 
 execute as @s[x=4433,y=153,z=1815,distance=..4,tag=!ItemLoot144] run playsound getitem ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=4433,y=153,z=1815,distance=..4,tag=!ItemLoot144] run tag @s add ItemLoot144
 
-
-execute as @s[x=4419,y=166,z=1974,distance=..4,tag=ItemLoot145] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
-execute as @s[x=4419,y=166,z=1974,distance=..4,tag=!ItemLoot145] run give @s cobblemon:master_ball
-execute as @s[x=4419,y=166,z=1974,distance=..4,tag=!ItemLoot145] run tellraw @s {"text":"You received a Master Ball!","italic":true,"color":"gray"}
-execute as @s[x=4419,y=166,z=1974,distance=..4,tag=!ItemLoot145] run playsound getitem ambient @s ~ ~ ~ 1 1 1
-execute as @s[x=4419,y=166,z=1974,distance=..4,tag=!ItemLoot145] run tag @s add ItemLoot145
-
+#Master Ball, moved to dialogue
 
 execute as @s[x=4398,y=166,z=1805,distance=..4,tag=ItemLoot146] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
 execute as @s[x=4398,y=166,z=1948,distance=..4,tag=ItemLoot146] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
