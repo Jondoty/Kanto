@@ -241,62 +241,6 @@ tellraw @s[scores={DialogueTrigger=62,TalkTime=1}] {"text":"<Warden> Oh yes, did
 
 tag @s[scores={DialogueTrigger=62,TalkTime=10..}] add Dialogue62
 
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 63 - Safari Zone
-#Secret House (Surf)
-#https://youtu.be/_6uv4msYJiM?t=34058
-#Dialogue 63 - Safari Zone
-#Secret House Surf Prize
-#https://youtu.be/_6uv4msYJiM?t=34058
-
-tellraw @s[scores={DialogueTrigger=63,TalkTime=1}] {"text":"<Safari Ranger> Ah! Finally!"}
-tellraw @s[scores={DialogueTrigger=63,TalkTime=1}] {"text":"<Safari Ranger> You're the first person to reach the Secret House!"}
-tellraw @s[scores={DialogueTrigger=63,TalkTime=1}] {"text":"<Safari Ranger> Although I made a campaign for our grand opening,"}
-tellraw @s[scores={DialogueTrigger=63,TalkTime=1}] {"text":"<Safari Ranger> I was getting worried that no one would win our campaign prize."}
-tellraw @s[scores={DialogueTrigger=63,TalkTime=1}] {"text":"<Safari Ranger> Congratulations! You have won!"}
-
-tellraw @s[scores={DialogueTrigger=63,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received HM03 from the attendant!","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=63,TalkTime=1}] {"text":"<Safari Ranger> HM03 is Surf."}
-tellraw @s[scores={DialogueTrigger=63,TalkTime=1}] {"text":"<Safari Ranger> Pokémon will be able to ferry you across water using it."}
-tellraw @s[scores={DialogueTrigger=63,TalkTime=1}] {"text":"<Safari Ranger> And, this HM isn't disposable, so you can use it over and over."}
-tellraw @s[scores={DialogueTrigger=63,TalkTime=1}] {"text":"<Safari Ranger> You're super lucky for winning this fabulous prize!"}
-
-tag @s[scores={DialogueTrigger=63,TalkTime=10..}] add Dialogue63
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 64 - Fuchsia Gym
-#Koga Pre-Battle
-#https://youtu.be/_6uv4msYJiM?t=34889
-
-tellraw @s[scores={DialogueTrigger=64,TalkTime=1}] {"text":"<Koga> Fwahahaha!"}
-tellraw @s[scores={DialogueTrigger=64,TalkTime=1}] {"text":"<Koga> A mere child like you dares to challenge me?"}
-tellraw @s[scores={DialogueTrigger=64,TalkTime=1}] {"text":"<Koga> The very idea makes me shiver with mirth!"}
-tellraw @s[scores={DialogueTrigger=64,TalkTime=1}] {"text":"<Koga> Very well, I shall show you true terror as a ninja master."}
-tellraw @s[scores={DialogueTrigger=64,TalkTime=1}] {"text":"<Koga> Poison brings steady doom. Sleep renders foes helpless."}
-tellraw @s[scores={DialogueTrigger=64,TalkTime=1}] {"text":"<Koga> Despair to the creeping horror of Poison-type Pokémon!"}
-
-tag @s[scores={DialogueTrigger=64,TalkTime=10..}] add Dialogue64
-
-#-------------------
-#Dialogue 65 - Fuchsia Gym
-#Koga Pre-Battle
-#https://youtu.be/_6uv4msYJiM?t=35032
-
-tellraw @s[scores={DialogueTrigger=65,TalkTime=1}] {"text":"<Koga> Here! Take the SoulBadge!"}
-tellraw @s[scores={DialogueTrigger=65,TalkTime=1}] {"text":"<Koga> Now that you have the SoulBadge, the Defense of your Pokémon rises."}
-tellraw @s[scores={DialogueTrigger=65,TalkTime=1}] {"text":"<Koga> It also lets you Surf outside of battle."}
-tellraw @s[scores={DialogueTrigger=65,TalkTime=1}] {"text":"<Koga> Ah! Take this, too!"}
-
-tellraw @s[scores={DialogueTrigger=65,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received TM06 from Koga.","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=65,TalkTime=1}] {"text":"<Koga> Sealed within that TM06 lies Toxic!"}
-tellraw @s[scores={DialogueTrigger=65,TalkTime=1}] {"text":"<Koga> It is a secret technique dating back some four hundred years."}
-tellraw @s[scores={DialogueTrigger=65,TalkTime=1}] {"text":"<Koga> When afflicted by Toxic, a Pokémon suffers more and more."}
-tellraw @s[scores={DialogueTrigger=65,TalkTime=1}] {"text":"<Koga> It suffers worsening damage as the battle wears on!"}
-tellraw @s[scores={DialogueTrigger=65,TalkTime=1}] {"text":"<Koga> It will surely terrorize foes!"}
-
-tag @s[scores={DialogueTrigger=65,TalkTime=10..}] add Dialogue65
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -402,35 +346,6 @@ tellraw @s[] {"text":"You're absolutely correct! Go on through!"}
 tellraw @s[] {"text":"Sorry! Bad call!"}
 #pokebattle
 
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 133 - Cinnabar Gym
-#Blaine Pre-Battle
-#https://youtu.be/_6uv4msYJiM?t=43319
-
-tellraw @s[scores={DialogueTrigger=133,TalkTime=1}] {"text":"<Blaine> Hah!"}
-tellraw @s[scores={DialogueTrigger=133,TalkTime=1}] {"text":"<Blaine> I am Blaine, the red-hot Leader of Cinnabar Gym!"}
-tellraw @s[scores={DialogueTrigger=133,TalkTime=1}] {"text":"<Blaine> My fiery Pokémon are all rough and ready with intense heat!"}
-tellraw @s[scores={DialogueTrigger=133,TalkTime=1}] {"text":"<Blaine> They incinerate all challengers!"}
-tellraw @s[scores={DialogueTrigger=133,TalkTime=1}] {"text":"<Blaine> Hah! You better have Burn Heal!"}
-
-tag @s[scores={DialogueTrigger=133,TalkTime=10..}] add Dialogue133
-
-#-------------------
-#Dialogue 134 - Cinnabar Gym
-#Blaine Post-Battle
-#https://youtu.be/_6uv4msYJiM?t=43460
-
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1}] {"text":"<Blaine> You have earned the VolcanoBadge."}
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1}] {"text":"<Blaine> Fire Blast is the ultimate fire technique."}
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1}] {"text":"<Blaine> Don't waste it on Water Pokémon. Hah!"}
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1}] {"text":"<Blaine> Here, you can have this, too!"}
-
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received TM38 from Blaine.","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1}] {"text":"<Blaine> TM38 contains Fire Blast. Teach it to Fire-type Pokémon."}
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1}] {"text":"<Blaine> Vulpix or Charmeleon would be ideal for that move."}
-
-tag @s[scores={DialogueTrigger=134,TalkTime=10..}] add Dialogue134
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue 78 - Cinnabar Island
@@ -824,44 +739,6 @@ I'll be looking forward to seeing you fill the National Pokédex!
 
 tag @s[scores={DialogueTrigger=91,TalkTime=10..}] add Dialogue91
 
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 92 - Viridian Gym
-#Giovanni Pre-Battle
-#https://youtu.be/_6uv4msYJiM?t=50336
-
-tellraw @s[scores={DialogueTrigger=92,TalkTime=1}] {"text":"<Giovanni> Fwahahaha! Welcome to my hideout!"}
-tellraw @s[scores={DialogueTrigger=92,TalkTime=1}] {"text":"<Giovanni> It shall be so until I can restore Team Rocket to its former glory."}
-tellraw @s[scores={DialogueTrigger=92,TalkTime=1}] {"text":"<Giovanni> But, you have found me again. So be it. This time, I'm not holding back!"}
-tellraw @s[scores={DialogueTrigger=92,TalkTime=1}] {"text":"<Giovanni> Once more, you shall face Giovanni, the greatest Trainer!"}
-
-tag @s[scores={DialogueTrigger=92,TalkTime=10..}] add Dialogue92
-
-#-------------------
-#Dialogue 93 - Viridian Gym
-#Giovanni Post-Battle
-#https://youtu.be/_6uv4msYJiM?t=50536
-
-tellraw @s[scores={DialogueTrigger=93,TalkTime=1}] {"text":"<Giovanni> Ha! That was a truly intense fight."}
-tellraw @s[scores={DialogueTrigger=93,TalkTime=1}] {"text":"<Giovanni> You have won! As proof, here is the EarthBadge!"}
-tellraw @s[scores={DialogueTrigger=93,TalkTime=1}] {"text":"<Giovanni> It is evidence of your mastery as a Pokémon Trainer."}
-tellraw @s[scores={DialogueTrigger=93,TalkTime=1}] {"text":"<Giovanni> With it, you can challenge the Pokémon League."}
-tellraw @s[scores={DialogueTrigger=93,TalkTime=1}] {"text":"<Giovanni> Also, take this TM."}
-tellraw @s[scores={DialogueTrigger=93,TalkTime=1}] {"text":"<Giovanni> Consider it a gift for your Pokémon League challenge."}
-
-tellraw @s[scores={DialogueTrigger=93,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received TM26 from Giovanni.","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=93,TalkTime=1}] {"text":"<Giovanni> TM26 contains Earthquake."}
-tellraw @s[scores={DialogueTrigger=93,TalkTime=1}] {"text":"<Giovanni> It is a powerful attack that causes a massive tremor."}
-tellraw @s[scores={DialogueTrigger=93,TalkTime=1}] {"text":"<Giovanni> I made it when I ran the Gym here, far too long ago..."}
-
-tellraw @s[scores={DialogueTrigger=93,TalkTime=1}] {"text":"<Giovanni> Having lost in this fashion, I can't face my followers. I have betrayed their trust."}
-tellraw @s[scores={DialogueTrigger=93,TalkTime=1}] {"text":"<Giovanni> As of today, Team Rocket is finished forever!"}
-tellraw @s[scores={DialogueTrigger=93,TalkTime=1}] {"text":"<Giovanni> As for myself, I shall dedicate my life to training again."}
-tellraw @s[scores={DialogueTrigger=93,TalkTime=1}] {"text":"<Giovanni> Let us meet again someday! Farewell!"}
-
-#Turns Giovanni invisible if nearby player has this tag
-
-tag @s[scores={DialogueTrigger=93,TalkTime=10..}] add Dialogue93
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue 94 - Route 22
