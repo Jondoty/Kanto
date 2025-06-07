@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='["",{"text":"Poké Flute","italic":false,"color":"aqua"}]',lore=['["",{"text":"A flute that is said to instantly awaken any","italic":false,"color":"#ce9178"}]','["",{"text":"Pokémon. It has a lovely tone.","italic":false,"color":"#ce9178"}]'],unbreakable={},custom_model_data=2]

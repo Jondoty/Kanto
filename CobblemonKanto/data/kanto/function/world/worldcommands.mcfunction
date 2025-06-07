@@ -79,6 +79,12 @@ execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custo
 execute as @a[tag=Surf] at @s if block ~ ~ ~ minecraft:water run effect give @s minecraft:water_breathing 10 255 true
 execute as @a[tag=Surf] at @s if block ~ ~ ~ minecraft:water run effect give @s minecraft:dolphins_grace 10 2 true
 
+#Poke Flute
+execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Poké Flute"}],"text":""}'}}}] run stopsound @s record
+execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Poké Flute"}],"text":""}'}}}] run playsound minecraft:pokeflute record @s ~ ~ ~ 1 1 1
+execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Poké Flute"}],"text":""}'}}}] run scoreboard players set @s MusicCooldown 15
+execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Poké Flute"}],"text":""}'}}}] run scoreboard players set @s Click 0
+
 #------------------------------------------------------------------------------
 #Music commands
 #Music rate: 86 ticks per 60 seconds (~1 second x 1.4)

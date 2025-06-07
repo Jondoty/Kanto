@@ -134,7 +134,15 @@ execute as @s[x=4439,y=154,z=1642,distance=..30,tag=Dialogue47] at @e[x=4439,y=1
 execute as @s[x=4439,y=154,z=1642,distance=..30,tag=Dialogue47] run tp @e[x=4439,y=154,z=1642,distance=..30,nbt={Pokemon:{Species:"cobblemon:ghost"}}] 10000000 -50000 -10000000
 
 
+#Pokemon Tower Top Floor Rockets & Fuji
+execute as @s[x=4439,y=154,z=1642,distance=..15,tag=Dialogue44,tag=!Dialogue47] unless entity @e[x=4437,y=178,z=1653,dy=3,type=cobblemon:npc] run npcspawnat 4437 178 1653 rocketgrunt_7 1
+execute as @s[x=4439,y=154,z=1642,distance=..15,tag=Dialogue44,tag=!Dialogue47] unless entity @e[x=4421,y=178,z=1665,dy=3,type=cobblemon:npc] run npcspawnat 4421 178 1665 rocketgrunt_8 1
+execute as @s[x=4439,y=154,z=1642,distance=..15,tag=Dialogue44,tag=!Dialogue47] unless entity @e[x=4437,y=178,z=1679,dy=3,type=cobblemon:npc] run npcspawnat 4437 178 1679 rocketgrunt_9 1
+execute as @s[x=4429,y=178,z=1647,distance=..15,tag=!Dialogue48] unless entity @e[x=4429,y=178,z=1688,dy=3,type=cobblemon:npc] run npcspawnat 4429 178 1688 pokemontower_mrfuji 1
 
+
+#Lavender Mr. Fuji
+execute as @s[x=2583,y=34,z=476,distance=..15,tag=Dialogue48] unless entity @e[x=2581,y=34,z=490,dy=3,type=cobblemon:npc] run npcspawnat 2581 35 490 lavender_mrfuji 1
 
 
 
