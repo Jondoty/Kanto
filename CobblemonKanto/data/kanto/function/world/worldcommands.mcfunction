@@ -83,6 +83,8 @@ execute as @a[tag=Surf] at @s if block ~ ~ ~ minecraft:water run effect give @s 
 execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Poké Flute"}],"text":""}'}}}] run stopsound @s record
 execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Poké Flute"}],"text":""}'}}}] run playsound minecraft:pokeflute record @s ~ ~ ~ 1 1 1
 execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Poké Flute"}],"text":""}'}}}] run scoreboard players set @s MusicCooldown 15
+execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Poké Flute"}],"text":""}'}}}] run scoreboard players set @s[x=3716,y=34,z=475,distance=..30,tag=!Dialogue58] DialogueTrigger 58
+execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Poké Flute"}],"text":""}'}}}] run scoreboard players set @s[x=2560,y=35,z=96,distance=..30,tag=!Dialogue59] DialogueTrigger 59
 execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Poké Flute"}],"text":""}'}}}] run scoreboard players set @s Click 0
 
 #------------------------------------------------------------------------------

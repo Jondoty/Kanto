@@ -69,6 +69,28 @@ execute as @e[x=4375,y=0,z=1608,dx=126,dy=200,dz=105,nbt={Pokemon:{Species:"cobb
 execute as @s[x=4435,y=154,z=1627,dx=8,dy=10,dz=12,tag=!Dialogue44] run opendialogue pokemontower_ghost_block @s
 execute as @s[x=4435,y=154,z=1627,dx=8,dy=10,dz=12,tag=!Dialogue44] run tp @s 4439 154 1648 180 -5
 
+#Sleeping Snorlaxes
+#Route 11
+execute as @a[x=2560,y=35,z=96,distance=..30,tag=!Dialogue59] unless entity @e[x=2560,y=35,z=96,distance=..5,type=cobblemon:pokemon] run pokespawnat 2560 34.5 96 snorlax no_ai=true level=30 status=sleep held_item=cobblemon:leftovers
+execute positioned 2560 34.5 96 as @e[distance=..5,type=cobblemon:pokemon,name=Snorlax,nbt={PersistenceRequired:0b}] run data merge entity @s {Pokemon:{PokemonData:["uncatchable"]}}
+execute positioned 2560 34.5 96 as @e[distance=..5,type=cobblemon:pokemon,name=Snorlax,nbt={PersistenceRequired:0b}] run data modify entity @s Unbattleable set value 1b
+execute positioned 2560 34.5 96 as @e[distance=..5,type=cobblemon:pokemon,name=Snorlax,nbt={PersistenceRequired:0b}] run data modify entity @s Invulnerable set value 1b
+execute positioned 2560 34.5 96 as @e[distance=..5,type=cobblemon:pokemon,name=Snorlax,nbt={PersistenceRequired:0b}] run data modify entity @s PersistenceRequired set value 1
+
+
+#Celadon Snorlax
+execute as @a[x=3716,y=34,z=475,distance=..30,tag=!Dialogue59] unless entity @e[x=3716,y=34,z=475,distance=..5,type=cobblemon:pokemon] run pokespawnat 3716 34 475.0 snorlax no_ai=true level=30 status=sleep held_item=cobblemon:leftovers
+execute positioned 3716 34 475.0 as @e[distance=..5,type=cobblemon:pokemon,name=Snorlax,nbt={PersistenceRequired:0b}] run data merge entity @s {Pokemon:{PokemonData:["uncatchable"]}}
+execute positioned 3716 34 475.0 as @e[distance=..5,type=cobblemon:pokemon,name=Snorlax,nbt={PersistenceRequired:0b}] run data modify entity @s Unbattleable set value 1b
+execute positioned 3716 34 475.0 as @e[distance=..5,type=cobblemon:pokemon,name=Snorlax,nbt={PersistenceRequired:0b}] run data modify entity @s Invulnerable set value 1b
+execute positioned 3716 34 475.0 as @e[distance=..5,type=cobblemon:pokemon,name=Snorlax,nbt={PersistenceRequired:0b}] run data modify entity @s PersistenceRequired set value 1
+
+#20tps blocks since they're short distances
+
+
+
+
+
 #------------------------------------------------------------------------------
 
 #Surf Checks

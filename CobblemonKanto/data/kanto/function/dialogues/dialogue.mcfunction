@@ -41,10 +41,33 @@ execute as @s[scores={DialogueTrigger=106,TalkTime=110}] run tp @s 4191 40 -130
 tag @s[scores={DialogueTrigger=106,TalkTime=110..}] add Dialogue106
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue 58 - Celadon City
+#Waking Snorlax
+#https://youtu.be/_6uv4msYJiM?t=31488
 
+#Wakes up Snorlax
+execute as @s[scores={DialogueTrigger=58,TalkTime=8}] run data merge entity @e[x=3716,y=34,z=475,distance=..5,type=cobblemon:pokemon,limit=1,name=Snorlax] {Pokemon:{PokemonData:["catchable"]}}
+execute as @s[scores={DialogueTrigger=58,TalkTime=8}] run data merge entity @e[x=3716,y=34,z=475,distance=..5,type=cobblemon:pokemon,limit=1,name=Snorlax] {NoAI:0b}
+execute as @s[scores={DialogueTrigger=58,TalkTime=8}] run data modify entity @e[x=3716,y=34,z=475,distance=..5,type=cobblemon:pokemon,limit=1,name=Snorlax] Unbattleable set value 0b
+execute as @s[scores={DialogueTrigger=58,TalkTime=8}] run data remove entity @e[x=3716,y=34,z=475,distance=..5,type=cobblemon:pokemon,limit=1,name=Snorlax] Pokemon.Status
 
+execute as @s[scores={DialogueTrigger=58,TalkTime=9}] run tellraw @s {"text":"The Poké Flute awakened sleeping Pokémon!","italic":true,"color":"gray"}
+tag @s[scores={DialogueTrigger=58,TalkTime=10..}] add Dialogue58
 
+#-------------------
+#Dialogue 59 - Route 11
+#Waking Snorlax
+#https://youtu.be/_6uv4msYJiM?t=35580
 
+execute as @s[scores={DialogueTrigger=59,TalkTime=8}] run data merge entity @e[x=2560,y=35,z=96,distance=..5,type=cobblemon:pokemon,limit=1,name=Snorlax] {Pokemon:{PokemonData:["catchable"]}}
+execute as @s[scores={DialogueTrigger=59,TalkTime=8}] run data merge entity @e[x=2560,y=35,z=96,distance=..5,type=cobblemon:pokemon,limit=1,name=Snorlax] {NoAI:0b}
+execute as @s[scores={DialogueTrigger=59,TalkTime=8}] run data modify entity @e[x=2560,y=35,z=96,distance=..5,type=cobblemon:pokemon,limit=1,name=Snorlax] Unbattleable set value 0b
+execute as @s[scores={DialogueTrigger=59,TalkTime=8}] run data remove entity @e[x=2560,y=35,z=96,distance=..5,type=cobblemon:pokemon,limit=1,name=Snorlax] Pokemon.Status
+
+execute as @s[scores={DialogueTrigger=59,TalkTime=8}] run tellraw @s {"text":"The Poké Flute awakened sleeping Pokémon!","italic":true,"color":"gray"}
+tag @s[scores={DialogueTrigger=59,TalkTime=10..}] add Dialogue59
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 

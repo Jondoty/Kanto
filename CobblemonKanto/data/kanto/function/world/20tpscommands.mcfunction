@@ -23,5 +23,25 @@ execute as @a[x=3449,y=0,z=482,dx=31,dy=44,dz=19] run function kanto:triggers/ga
 #execute as @a[tag=WallMakeWater] run function tools:wallmakewater
 
 
+#Snorlax blocks
+#Vermilion Side
+execute as @a[x=2566,y=34,z=92,dx=9,dy=10,dz=6,tag=!Dialogue59] run opendialogue snorlax_sleeping @s
+execute as @a[x=2566,y=34,z=92,dx=9,dy=10,dz=6,tag=!Dialogue59] run tp @s 2578 34 96
+
+#Lavender side
+execute as @a[x=2556,y=35,z=97,dx=9,dy=10,dz=8,tag=!Dialogue59] run opendialogue snorlax_sleeping @s
+execute as @a[x=2556,y=35,z=97,dx=9,dy=10,dz=8,tag=!Dialogue59] run tp @s 2560 34.5 112
+
+#Fuchsia Side
+execute as @a[x=2556,y=35,z=89,dx=9,dy=10,dz=8,tag=!Dialogue59] run opendialogue snorlax_sleeping @s
+execute as @a[x=2556,y=35,z=89,dx=9,dy=10,dz=8,tag=!Dialogue59] run tp @s 2560 34.5 84
+
+#Celadon Snorlax
+#Celadon Side
+execute as @a[x=3710,y=34,z=471,dx=6,dy=10,dz=8,tag=!Dialogue58] run opendialogue snorlax_sleeping @s
+execute as @a[x=3710,y=34,z=471,dx=6,dy=10,dz=8,tag=!Dialogue58] run tp @s 3704 34 475
+
+execute as @a[x=3717,y=34,z=471,dx=6,dy=10,dz=8,tag=!Dialogue58] run opendialogue snorlax_sleeping @s
+execute as @a[x=3717,y=34,z=471,dx=6,dy=10,dz=8,tag=!Dialogue58] run tp @s 3730 34 475
 
 #
