@@ -75,13 +75,13 @@ execute as @s[x=4306,y=34,z=-2439,distance=..5,tag=TriPass,tag=Dialogue90] run o
 execute as @s[x=4306,y=34,z=-2439,distance=..5,tag=RainbowPass] run opendialogue islands_seagallopferry_rainbowpass @s
 
 #Two Island
-execute as @s[x=4306,y=34,z=-2439,distance=..5,tag=TriPass,tag=!Dialogue90] run opendialogue islands_seagallopferry_tripass_story @s
-execute as @s[x=4306,y=34,z=-2439,distance=..5,tag=TriPass,tag=Dialogue90] run opendialogue islands_seagallopferry_tripass @s
+execute as @s[x=3484,y=34,z=-2214,distance=..5,tag=!Dialogue90] run opendialogue islands_seagallopferry_tripass_story @s
+execute as @s[x=3484,y=34,z=-2214,distance=..5,tag=Dialogue90] run opendialogue islands_seagallopferry_tripass @s
 execute as @s[x=3484,y=34,z=-2214,distance=..5,tag=RainbowPass] run opendialogue islands_seagallopferry_rainbowpass @s
 
 #Three Island
-execute as @s[x=4306,y=34,z=-2439,distance=..5,tag=TriPass,tag=!Dialogue90] run opendialogue islands_seagallopferry_tripass_story @s
-execute as @s[x=2835,y=34,z=-1685,distance=..5,tag=TriPass,tag=Dialogue90] run opendialogue islands_seagallopferry_tripass @s
+execute as @s[x=2835,y=34,z=-1685,distance=..5,tag=!Dialogue90] run opendialogue islands_seagallopferry_tripass_story @s
+execute as @s[x=2835,y=34,z=-1685,distance=..5,tag=Dialogue90] run opendialogue islands_seagallopferry_tripass @s
 execute as @s[x=2835,y=34,z=-1685,distance=..5,tag=RainbowPass] run opendialogue islands_seagallopferry_rainbowpass @s
 
 #Four Island
