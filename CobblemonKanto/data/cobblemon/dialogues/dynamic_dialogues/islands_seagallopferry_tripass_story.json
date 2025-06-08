@@ -1,0 +1,268 @@
+{
+    "speakers": {
+        "npc": {
+            "name": "Seagallop Ferry Captain",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:sailor",
+                "isLeftSide": true
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+                "Ahoy, there!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page2",
+            "speaker": "npc",
+            "lines": [
+                "Where do you want to sail?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": true,
+                "options": [
+                    {
+                        "text": "One Island",
+                        "value": "oneisland",
+                        "action": "q.dialogue.set_page('pickoneisland');"
+                    },
+                    {
+                        "text": "Two Island",
+                        "value": "twoisland",
+                        "action": "q.dialogue.set_page('picktwoisland');"
+                    },
+                    {
+                        "text": "Three Island",
+                        "value": "threeisland",
+                        "action": "q.dialogue.set_page('pickthreeisland');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "npc",
+            "lines": [
+                "Would you like to board a Seagallop ferry?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": true,
+                "options": [
+                    {
+                        "text": "Four Island",
+                        "value": "fourisland",
+                        "action": "q.dialogue.set_page('pickfourisland');"
+                    },
+                    {
+                        "text": "Five Island",
+                        "value": "fiveisland",
+                        "action": "q.dialogue.set_page('pickfiveisland');"
+                    },
+                    {
+                        "text": "Six Island",
+                        "value": "sixisland",
+                        "action": "q.dialogue.set_page('picksixisland');"
+                    },
+                    {
+                        "text": "Seven Island",
+                        "value": "sevenisland",
+                        "action": "q.dialogue.set_page('picksevenisland');"
+                    },
+                    {
+                        "text": "<< Back",
+                        "value": "back",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+
+        {
+            "id": "pickvermilion",
+            "speaker": "npc",
+            "lines": [
+                "All right! All aboard Seagallop HI-Speed 7!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 90');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pickoneisland",
+            "speaker": "npc",
+            "lines": [
+                "All right! All aboard Seagallop HI-Speed 7!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 93');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "picktwoisland",
+            "speaker": "npc",
+            "lines": [
+                "All right! All aboard Seagallop HI-Speed 7!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 94');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pickthreeisland",
+            "speaker": "npc",
+            "lines": [
+                "All right! All aboard Seagallop HI-Speed 7!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 95');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pickfourisland",
+            "speaker": "npc",
+            "lines": [
+                "All right! All aboard Seagallop HI-Speed 7!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 96');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pickfiveisland",
+            "speaker": "npc",
+            "lines": [
+                "All right! All aboard Seagallop HI-Speed 7!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 97');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "picksixisland",
+            "speaker": "npc",
+            "lines": [
+                "All right! All aboard Seagallop HI-Speed 7!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 98');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "picksevenisland",
+            "speaker": "npc",
+            "lines": [
+                "All right! All aboard Seagallop HI-Speed 7!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 99');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
