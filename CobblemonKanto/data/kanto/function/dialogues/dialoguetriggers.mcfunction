@@ -150,5 +150,19 @@ execute as @s[x=4465,y=114,z=1841,distance=..15,scores={StarterPick=1},tag=!Dial
 execute as @s[x=4465,y=114,z=1841,distance=..15,scores={StarterPick=2},tag=!Dialogue53] unless entity @e[x=4465,y=114,z=1841,dy=3] run npcspawnat 4465 114 1841 silphco_blue2 1
 execute as @s[x=4465,y=114,z=1841,distance=..15,scores={StarterPick=3},tag=!Dialogue53] unless entity @e[x=4465,y=114,z=1841,dy=3] run npcspawnat 4465 114 1841 silphco_blue3 1
 
+#Cinnabar Bill after beating Blaine
+execute as @s[x=4128,y=34,z=-706,distance=..10,tag=Blaine,tag=!Dialogue78] run opendialogue cinnabar_bill_dialogue78 @s
+
+#Spawns Bill if player doesn't go with him immediately
+execute as @s[x=4123,y=34,z=-745,distance=..15,tag=Dialogue78,tag=!TriPass] unless entity @e[x=4129,y=34,z=-737,dy=3] run npcspawnat 4129 35 -737 cinnabar_bill 1
+
+#Little text upon arriving to the island
+execute as @s[x=4306,y=34,z=-2432,distance=..15,tag=!Dialogue79] run opendialogue oneisland_bill_dialogue79 @s
+
+#One Island Bill and Celio first talk
+execute as @s[x=4287,y=28,z=-2355,distance=..15,tag=!Dialogue80] unless entity @e[x=4287,y=28,z=-2355,dy=3] run npcspawnat 4287 28 -2355 one_bill 1
+execute as @s[x=4287,y=28,z=-2355,distance=..15,tag=!Dialogue80] unless entity @e[x=4283,y=28,z=-2355,dy=3] run npcspawnat 4283 28 -2355 one_celio 1
+execute as @s[x=4287,y=28,z=-2355,distance=..7,tag=!Dialogue80] run opendialogue oneisland_bill_dialogue80 @s
+
 
 #

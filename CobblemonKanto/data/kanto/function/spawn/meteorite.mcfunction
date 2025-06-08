@@ -1,0 +1,1 @@
+give @s music_disc_blocks[!minecraft:jukebox_playable,custom_name='["",{"text":"Meteorite","italic":false,"color":"gold"}]',lore=['["",{"text":"A meteorite that fell from space","italic":false}]','["",{"text":"onto Mt. Moon long ago. It is","italic":false}]','["",{"text":"very lumpy and hard. ","italic":false}]']]
