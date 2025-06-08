@@ -82,6 +82,10 @@ tag @s remove RainbowPass
 tag @s remove TriPass
 tag @s remove HideoutGrunt1
 tag @s remove HideoutGrunt2
+tag @s remove Biker1
+tag @s remove Biker2
+tag @s remove Biker3
+tag @s remove Biker4
 
 
 

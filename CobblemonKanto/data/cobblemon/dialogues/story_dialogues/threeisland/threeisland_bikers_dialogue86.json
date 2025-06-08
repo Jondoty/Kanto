@@ -1,0 +1,200 @@
+{
+    "initializationAction": [
+        "q.run_command('tag ' + q.player.username + ' add InDialogue');",
+        "q.run_command('tag ' + q.player.username + ' add Dialogue86');"
+    ],
+    "escapeAction": [],
+    "speakers": {
+        "npc": {
+            "name": "     ",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:shopman",
+                "isLeftSide": true
+            }
+        },
+        "biker": {
+            "name": "Cue Ball Paxton",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:cueball",
+                "isLeftSide": false
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "biker",
+            "lines": [
+                "Humph! Yeah, go right on hanging around with these hayseeds!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                            "q.dialogue.set_page('page2');",
+                            "q.run_command('particle cloud 2854 39 -1550 1 1 1 1 75');",
+                            "q.run_command('tp @e[x=2854,y=39,z=-1550,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000');",
+                            "q.run_command('particle cloud 2847 39 -1549 1 1 1 1 75');",
+                            "q.run_command('tp @e[x=2847,y=39,z=-1549,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000');",
+                            "q.run_command('particle cloud 2841 39 -1550 1 1 1 1 75');",
+                            "q.run_command('tp @e[x=2841,y=39,z=-1550,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000');",
+                            "q.run_command('particle cloud 2850 39 -1545 1 1 1 1 75');",
+                            "q.run_command('tp @e[x=2850,y=39,z=-1545,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page2",
+            "speaker": "npc",
+            "lines": [
+                "Thank you! Those goons were nothing but bad trouble."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page3');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "npc",
+            "lines": [
+                "Oh, look, your Pokémon got hurt on my account."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page4');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page4",
+            "speaker": "npc",
+            "lines": [
+                "Take this!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.run_command('playsound minecraft:getitem ambient ' + q.player.username + ' ~ ~ ~ 1 1 1');",
+                        "q.run_command('give ' + q.player.username + ' cobblemon:full_restore');",
+                        "q.dialogue.set_page('page5');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page5",
+            "speaker": "npc",
+            "lines": [
+                "It'd be fantastic if someone as strong as you lived here."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page6');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page6",
+            "speaker": "npc",
+            "lines": [
+                "I hope you'll at least stay here a while."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page7');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page7",
+            "speaker": "npc",
+            "lines": [
+                "...I beg your pardon? You're looking for Lostelle?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page8');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page8",
+            "speaker": "npc",
+            "lines": [
+                "Lostelle went off towards Bond Bridge a while ago."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+
+        
+    ]
+}

@@ -87,9 +87,12 @@ execute positioned 3716 34 475.0 as @e[distance=..5,type=cobblemon:pokemon,name=
 
 #20tps blocks since they're short distances
 
+#Three Island Bikers before leader arrives
+execute as @s[x=2836,y=39,z=-1555,dx=23,dy=10,dz=15,tag=!Dialogue81] run opendialogue threeisland_bikers_blocked @s
+execute as @s[x=2836,y=39,z=-1555,dx=23,dy=10,dz=15,tag=!Dialogue81] at @s run tp @s ~ ~ ~-10
 
-
-
+#Before bikers are beaten
+execute as @s[x=2836,y=39,z=-1544,dx=23,dy=10,dz=15,tag=!Dialogue86] at @s run tp @s ~ ~ ~-10
 
 #------------------------------------------------------------------------------
 

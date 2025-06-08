@@ -164,5 +164,19 @@ execute as @s[x=4287,y=28,z=-2355,distance=..15,tag=!Dialogue80] unless entity @
 execute as @s[x=4287,y=28,z=-2355,distance=..15,tag=!Dialogue80] unless entity @e[x=4283,y=28,z=-2355,dy=3] run npcspawnat 4283 28 -2355 one_celio 1
 execute as @s[x=4287,y=28,z=-2355,distance=..7,tag=!Dialogue80] run opendialogue oneisland_bill_dialogue80 @s
 
+#Lostelle's Dad first dialogue in the Joyfyl Game Corner
+execute as @s[x=3338,y=39,z=-2205,distance=..7,tag=!Dialogue81] run opendialogue twoisland_lostellesdad_dialogue81 @s
+
+#Sets up Bikers with or without seeing the dad
+execute as @s[x=2839,y=39,z=-1591,distance=..20,tag=!Dialogue86] unless entity @e[x=2854,y=39,z=-1550,dy=3] run npcspawnat 2854 39 -1550 biker_goon1 1
+execute as @s[x=2839,y=39,z=-1591,distance=..20,tag=!Dialogue86] unless entity @e[x=2847,y=39,z=-1549,dy=3] run npcspawnat 2847 39 -1549 biker_goon2 1
+execute as @s[x=2839,y=39,z=-1591,distance=..20,tag=!Dialogue86] unless entity @e[x=2841,y=39,z=-1550,dy=3] run npcspawnat 2841 39 -1550 biker_goon3 1
+
+#Tps in the head guy, requiring the dad dialogue
+execute as @s[x=2845,y=39,z=-1563,distance=..20,tag=Dialogue81,tag=!Dialogue86] unless entity @e[x=2850,y=39,z=-1545,dy=3] run npcspawnat 2850 39 -1545 cueball_paxton 1
+
+#Clears out all the bikers after all grunts are battled
+execute as @s[x=2845,y=39,z=-1563,distance=..50,tag=Biker1,tag=Biker2,tag=Biker3,tag=Biker4,tag=!Dialogue86] run opendialogue threeisland_bikers_dialogue86 @s
+
 
 #
