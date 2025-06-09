@@ -105,6 +105,13 @@ execute as @s[x=3734,y=34,z=-3670,distance=..5] run opendialogue islands_seagall
 execute as @s[x=3734,y=34,z=-3670,distance=..5,tag=RainbowPass] run opendialogue islands_seagallopferry_rainbowpass @s
 
 
+#----------------------------------------------
+
+#Two Island, Lostelle's Dad
+execute as @s[x=3338,y=39,z=-2205,distance=..5,tag=Dialogue88] run opendialogue twoisland_lostellesdad_found_interaction @s
+execute as @s[x=3338,y=39,z=-2205,distance=..5,tag=!Dialogue88] run opendialogue twoisland_lostellesdad_interaction @s
+
+
 
 advancement revoke @s only kanto:advancement/click/npcs
 

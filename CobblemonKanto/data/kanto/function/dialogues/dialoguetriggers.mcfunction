@@ -166,6 +166,7 @@ execute as @s[x=4287,y=28,z=-2355,distance=..7,tag=!Dialogue80] run opendialogue
 
 #Lostelle's Dad first dialogue in the Joyfyl Game Corner
 execute as @s[x=3338,y=39,z=-2205,distance=..7,tag=!Dialogue81] run opendialogue twoisland_lostellesdad_dialogue81 @s
+execute as @s[x=3340,y=39,z=-2224,distance=..25,tag=!Dialogue81] run tp @e[x=3335,y=39,z=-2204,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
 
 #Sets up Bikers with or without seeing the dad
 execute as @s[x=2839,y=39,z=-1591,distance=..20,tag=!Dialogue86] unless entity @e[x=2854,y=39,z=-1550,dy=3] run npcspawnat 2854 39 -1550 biker_goon1 1
@@ -177,6 +178,15 @@ execute as @s[x=2845,y=39,z=-1563,distance=..20,tag=Dialogue81,tag=!Dialogue86] 
 
 #Clears out all the bikers after all grunts are battled
 execute as @s[x=2845,y=39,z=-1563,distance=..50,tag=Biker1,tag=Biker2,tag=Biker3,tag=Biker4,tag=!Dialogue86] run opendialogue threeisland_bikers_dialogue86 @s
+
+#Lostelle spawning
+execute as @s[x=3382,y=39,z=-1408,distance=..15,tag=!Dialogue87] unless entity @e[x=3390,y=39,z=-1353,dy=3,type=cobblemon:npc] run npcspawnat 3390 39 -1353 three_lostelle 1
+
+#Near Lostelle without a Hypno being found
+execute as @s[x=3390,y=39,z=-1353,distance=..15,tag=Dialogue87,tag=!Dialogue88,scores={BattleStart=0}] unless entity @e[x=3377,y=39,z=-1357,dx=18,dy=5,dz=18,type=cobblemon:pokemon,name=Hypno] run opendialogue threeisland_lostelle_dialogue88 @s
+
+
+
 
 
 #
