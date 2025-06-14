@@ -217,6 +217,8 @@ execute as @s[x=4608,y=0,z=1183,distance=..10,tag=!Blue,scores={StarterPick=1}] 
 execute as @s[x=4608,y=0,z=1183,distance=..10,tag=!Blue,scores={StarterPick=2}] unless entity @e[x=4608,y=1,z=1241,dy=3,type=cobblemon:npc] run npcspawnat 4608 1 1241 elite_blue2_rematch 1
 execute as @s[x=4608,y=0,z=1183,distance=..10,tag=!Blue,scores={StarterPick=3}] unless entity @e[x=4608,y=1,z=1241,dy=3,type=cobblemon:npc] run npcspawnat 4608 1 1241 elite_blue3_rematch 1
 
+#Hall of Fame Oak on first introduction
+execute as @s[x=4608,y=25,z=1297,distance=..10,tag=!Dialogue105] run opendialogue halloffame_oak_interaction @s
 
 
 

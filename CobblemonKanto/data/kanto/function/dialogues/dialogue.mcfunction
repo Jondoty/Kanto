@@ -17,6 +17,7 @@ scoreboard players add @s[scores={DialogueTrigger=1..}] TalkTime 1
 #Dialogue 106 - Roll Credits
 execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run scoreboard players add @s PokemonLeague 1
 execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run function kanto:triggers/stopsound
+execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run pokeheal
 
 tellraw @s[scores={DialogueTrigger=106,TalkTime=5}] {"text":"Congratulations, you have completed the Indigo League!"}
 tellraw @s[scores={DialogueTrigger=106,TalkTime=15}] {"text":"Map Creator, builder, commands: Jond."}
@@ -26,13 +27,14 @@ tellraw @s[scores={DialogueTrigger=106,TalkTime=45}] {"text":"Custom builder: Ly
 tellraw @s[scores={DialogueTrigger=106,TalkTime=55}] {"text":"Playtest helper: H3rodude"}
 tellraw @s[scores={DialogueTrigger=106,TalkTime=65}] {"text":"Map is based off of: FireRed and LeafGreen"}
 tellraw @s[scores={DialogueTrigger=106,TalkTime=75}] {"text":"Check out my other projects if you enjoyed!"}
-tellraw @s[scores={DialogueTrigger=106,TalkTime=85}] ["",{"text":"["},{"text":"Pixelmon Hoenn","color":"aqua","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/pixelmon-hoenn"}},{"text":"] ["},{"text":"Pixelmon Kalos","color":"yellow","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/pixelmon-kalos"}},{"text":"] ["},{"text":"Cobblemon Johto","color":"red","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/cobblemon-johto"}},{"text":"]"}]
+tellraw @s[scores={DialogueTrigger=106,TalkTime=75}] ["",{"text":"["},{"text":"Pixelmon Hoenn","color":"aqua","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/pixelmon-hoenn"}},{"text":"] ["},{"text":"Pixelmon Kalos","color":"yellow","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/pixelmon-kalos"}},{"text":"] ["},{"text":"Cobblemon Johto","color":"red","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/cobblemon-johto"}},{"text":"]"}]
 tellraw @s[scores={DialogueTrigger=106,TalkTime=85}] {"text":"Special thanks to Dan and John who played this Kanto world with me all those years ago."}
 
 #runs legendary reset function
 #tbd
 
 #tps the player to Pallet Town
+execute as @s[scores={DialogueTrigger=106,TalkTime=108}] run effect give @s minecraft:blindness 4 1 true
 execute as @s[scores={DialogueTrigger=106,TalkTime=110}] run scoreboard players set @s Location 68
 execute as @s[scores={DialogueTrigger=106,TalkTime=110}] run advancement grant @s only kanto:badges/champion
 execute as @s[scores={DialogueTrigger=106,TalkTime=110}] run tp @s 4191 40 -130

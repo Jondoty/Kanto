@@ -1,154 +1,446 @@
 {
-  "initializationAction": [
-      "c.npc.set_chatting();",
-      "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 2');",
-      "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
-      "q.run_command('execute as ' + q.player.username + ' run tag ' + q.player.username + ' add Blue');",
-      "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $6,300 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
-      "q.run_command('scoreboard players add ' + q.player.username + ' Money 6300');"
-  ],
-  "speakers": {
-      "npc": {
-          "name": "Blue",
-          "face": {
-              "type": "artificial",
-              "modelType": "npc",
-              "identifier": "cobblemon:blue",
-              "isLeftSide": true
-          }
-      }
-  },
-  "pages": [
-      {
-          "id": "greeting",
-          "speaker": "npc",
-          "lines": [
-              "NO! That can't be! You beat me at my best!"
-          ],
-          "input": {
-              "type": "option",
-              "vertical": false,
-              "options": [
-                  {
-                      "text": "Next",
-                      "value": "next",
-                      "action": "q.dialogue.set_page('page2');"
-                  }
-              ]
-          }
-      },
-      {
-          "id": "page2",
-          "speaker": "npc",
-          "lines": [
-              "After all that work to become the League Champ?"
-          ],
-          "input": {
-              "type": "option",
-              "vertical": false,
-              "options": [
-                  {
-                      "text": "Next",
-                      "value": "next",
-                      "action": "q.dialogue.set_page('page3');"
-                  }
-              ]
-          }
-      },
-      {
-        "id": "page3",
-        "speaker": "npc",
-        "lines": [
-            "My reign is over already? It's not fair!"
-        ],
-        "input": {
-            "type": "option",
-            "vertical": false,
-            "options": [
-                {
-                    "text": "Next",
-                    "value": "next",
-                    "action": "q.dialogue.set_page('page4');"
-                }
-            ]
+    "initializationAction": [
+        "c.npc.set_chatting();",
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 2');",
+        "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
+        "q.run_command('execute as ' + q.player.username + ' run tag ' + q.player.username + ' add Blue');",
+        "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $6,300 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+        "q.run_command('scoreboard players add ' + q.player.username + ' Money 6300');"
+    ],
+    "speakers": {
+        "oak": {
+            "name": "Professor Oak",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:oak",
+                "isLeftSide": true
+            }
+        },
+        "blue": {
+            "name": "Blue",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:blue",
+                "isLeftSide": false
+            }
         }
     },
-    {
-        "id": "page4",
-        "speaker": "npc",
-        "lines": [
-            "Why? Why did I lose?"
-        ],
-        "input": {
-            "type": "option",
-            "vertical": false,
-            "options": [
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "blue",
+            "lines": [
+                "NO! That can't be! You beat me at my best!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page2",
+            "speaker": "blue",
+            "lines": [
+                "After all that work to become the League Champ?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page3');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "blue",
+            "lines": [
+                "My reign is over already? It's not fair!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page4');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page4",
+            "speaker": "blue",
+            "lines": [
+                "Why? Why did I lose?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page5');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page5",
+            "speaker": "blue",
+            "lines": [
+                "I never made any mistakes raising my Pokémon…"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page6');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page6",
+            "speaker": "blue",
+            "lines": [
+                "Darn it! You're the new Pokémon League Champion!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page7');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page7",
+            "speaker": "blue",
+            "lines": [
+                "Although I don't like to admit it..."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page8');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page8",
+            "speaker": "oak",
+            "lines": [
                 {
-                    "text": "Next",
-                    "value": "next",
-                    "action": "q.dialogue.set_page('page5');"
+                    "type": "expression",
+                    "expression": "'' + q.player.username + '!';"
                 }
-            ]
-        }
-    },
-    {
-        "id": "page5",
-        "speaker": "npc",
-        "lines": [
-            "I never made any mistakes raising my Pokémon…"
-        ],
-        "input": {
-            "type": "option",
-            "vertical": false,
-            "options": [
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run particle cloud ~2 ~ ~5 1 1 1 1 75');",
+                            "q.dialogue.set_page('page9');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page9",
+            "speaker": "oak",
+            "lines": [
+                "So, you've won! Sincerely, congratulations!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page10');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page10",
+            "speaker": "oak",
+            "lines": [
+                "You're the new Pokémon League Champion!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page11');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page11",
+            "speaker": "oak",
+            "lines": [
+                "You've grown up so much since you first left to work on the Pokédex."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page12');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page12",
+            "speaker": "oak",
+            "lines": [
                 {
-                    "text": "Next",
-                    "value": "next",
-                    "action": "q.dialogue.set_page('page6');"
+                    "type": "expression",
+                    "expression": "'' + q.player.username + ', you have come of age!';"
                 }
-            ]
-        }
-    },
-    {
-        "id": "page6",
-        "speaker": "npc",
-        "lines": [
-            "Darn it! You're the new Pokémon League Champion!"
-        ],
-        "input": {
-            "type": "option",
-            "vertical": false,
-            "options": [
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page13');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page13",
+            "speaker": "oak",
+            "lines": [
+                "Blue..."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page14');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page14",
+            "speaker": "oak",
+            "lines": [
+                "I'm disappointed in you."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page15');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page15",
+            "speaker": "oak",
+            "lines": [
+                "I came when I heard you'd beaten the Elite Four."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page16');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page16",
+            "speaker": "oak",
+            "lines": [
+                "But, when I got here, you had already lost!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page17');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page17",
+            "speaker": "oak",
+            "lines": [
+                "You have forgotten to treat your Pokémon with love and trust."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page18');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page18",
+            "speaker": "oak",
+            "lines": [
+                "Without them, you will never become a Champ again!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page19');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page19",
+            "speaker": "oak",
+            "lines": [
                 {
-                    "text": "Next",
-                    "value": "next",
-                    "action": "q.dialogue.set_page('page7');"
+                    "type": "expression",
+                    "expression": "'' + q.player.username + '.';"
                 }
-            ]
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page20');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page20",
+            "speaker": "oak",
+            "lines": [
+                "You understand that your victory was not just your own doing."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page21');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page21",
+            "speaker": "oak",
+            "lines": [
+                "The bond you share with your Pokémon is marvelous."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page22');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page22",
+            "speaker": "oak",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'' + q.player.username + '! Come with me behind this door!';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
         }
-    },
-      {
-          "id": "page7",
-          "speaker": "npc",
-          "lines": [
-              "Head through that door behind me."
-          ],
-          "input": {
-              "type": "option",
-              "vertical": false,
-              "options": [
-                  {
-                      "text": "Close",
-                      "value": "close",
-                      "action": [
-                          "q.dialogue.close();"
-                      ]
-                  }
-              ]
-          }
-      }
-  ],
-  "escapeAction": [
-      "q.dialogue.close();"
-  ]
+    ],
+    "escapeAction": []
 }
