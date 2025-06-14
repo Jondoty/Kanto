@@ -1485,6 +1485,10 @@ scoreboard players set @s CommandSuccess 0
 execute unless block 4608 25 1256 iron_block unless entity @a[x=4604,y=23,z=1252,dx=8,dy=8,dz=4,tag=Blue] run fill 4611 25 1256 4605 31 1256 iron_block
 execute if block 4608 25 1256 iron_block if entity @a[x=4604,y=23,z=1252,dx=8,dy=8,dz=4,tag=Blue] run fill 4611 25 1256 4605 31 1256 air
 
+#Rematch track
+execute unless block 4605 2 1256 iron_block unless entity @a[x=4604,y=0,z=1252,dx=8,dy=8,dz=4,tag=Blue] run fill 4605 2 1256 4611 8 1256 iron_block
+execute if block 4605 2 1256 iron_block if entity @a[x=4604,y=0,z=1252,dx=8,dy=8,dz=4,tag=Blue] run fill 4605 2 1256 4611 8 1256 air
+
 #--------------------------
 #Dotted Hole
 

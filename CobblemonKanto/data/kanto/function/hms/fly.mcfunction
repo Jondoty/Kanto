@@ -21,7 +21,7 @@ execute as @s[x=2750,y=0,z=1394,dx=320,dy=256,dz=290] run tag @s add DisableFly
 execute as @s[x=4091,y=33,z=1720,dx=54,dy=101,dz=44] run tag @s add DisableFly
 
 #Elite Four (all areas)
-execute as @s[x=4578,y=0,z=850,dx=61,dy=32,dz=463] run tag @s add DisableFly
+execute as @s[x=4578,y=-11,z=850,dx=61,dy=43,dz=463] run tag @s add DisableFly
 
 #Ember Spa
 execute as @s[x=3910,y=0,z=1392,dx=138,dy=70,dz=197] run tag @s add DisableFly

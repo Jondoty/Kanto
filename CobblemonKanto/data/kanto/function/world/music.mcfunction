@@ -469,28 +469,28 @@ playsound viridianforest record @s[x=4091,y=33,z=1720,dx=54,dy=101,dz=44,scores=
 scoreboard players set @s[x=4091,y=33,z=1720,dx=54,dy=101,dz=44,scores={MusicCooldown=0}] MusicCooldown 227
 
 #Elite Four Lorelei
-playsound gym record @s[x=4581,y=11,z=852,dx=57,dy=23,dz=85,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=4581,y=11,z=852,dx=57,dy=23,dz=85,scores={MusicCooldown=0}] MusicCooldown 98
+playsound gym record @s[x=4581,y=-11,z=852,dx=57,dy=45,dz=85,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4581,y=-11,z=852,dx=57,dy=45,dz=85,scores={MusicCooldown=0}] MusicCooldown 98
 
 #Elite Four Bruno
-playsound rocketgamecorner record @s[x=4581,y=11,z=937,dx=57,dy=23,dz=69,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=4581,y=11,z=937,dx=57,dy=23,dz=69,scores={MusicCooldown=0}] MusicCooldown 165
+playsound rocketgamecorner record @s[x=4581,y=-11,z=937,dx=57,dy=45,dz=69,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4581,y=-11,z=937,dx=57,dy=45,dz=69,scores={MusicCooldown=0}] MusicCooldown 165
 
 #Pokemon Tower
-playsound pokemontower record @s[x=4581,y=11,z=1006,dx=57,dy=23,dz=69,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=4581,y=11,z=1006,dx=57,dy=23,dz=69,scores={MusicCooldown=0}] MusicCooldown 135
+playsound pokemontower record @s[x=4581,y=-11,z=1006,dx=57,dy=45,dz=69,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4581,y=-11,z=1006,dx=57,dy=45,dz=69,scores={MusicCooldown=0}] MusicCooldown 135
 
 #Elite Four Lance
-playsound victoryroad record @s[x=4581,y=11,z=1076,dx=57,dy=23,dz=69,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=4581,y=11,z=1076,dx=57,dy=23,dz=69,scores={MusicCooldown=0}] MusicCooldown 100
+playsound victoryroad record @s[x=4581,y=-11,z=1076,dx=57,dy=45,dz=69,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4581,y=-11,z=1076,dx=57,dy=45,dz=69,scores={MusicCooldown=0}] MusicCooldown 100
 
 #Elite Four Blue
-playsound victoryroad record @s[x=4581,y=11,z=1146,dx=57,dy=23,dz=110,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=4581,y=11,z=1146,dx=57,dy=23,dz=110,scores={MusicCooldown=0}] MusicCooldown 100
+playsound victoryroad record @s[x=4581,y=-11,z=1146,dx=57,dy=45,dz=110,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4581,y=-11,z=1146,dx=57,dy=45,dz=110,scores={MusicCooldown=0}] MusicCooldown 100
 
 #Elite Four Hall of Fame Room
-playsound epilogue record @s[x=4581,y=11,z=1257,dx=57,dy=23,dz=54,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=4581,y=11,z=1257,dx=57,dy=23,dz=54,scores={MusicCooldown=0}] MusicCooldown 90
+playsound epilogue record @s[x=4581,y=-11,z=1257,dx=57,dy=45,dz=54,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=4581,y=-11,z=1257,dx=57,dy=45,dz=54,scores={MusicCooldown=0}] MusicCooldown 90
 
 #Lost Cave
 playsound mtmoon record @s[x=4065,y=32,z=1579,dx=260,dy=30,dz=111,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1

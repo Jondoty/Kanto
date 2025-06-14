@@ -196,9 +196,9 @@ execute as @s[x=4091,y=33,z=1720,dx=54,dy=101,dz=44] unless entity @s[scores={Lo
 
 
 #Elite Four (all areas)
-execute as @s[x=4578,y=0,z=850,dx=61,dy=32,dz=463] unless entity @s[scores={Location=17}] run title @s actionbar {"text":"Elite Four"}
-execute as @s[x=4578,y=0,z=850,dx=61,dy=32,dz=463] unless entity @s[scores={Location=17}] run function kanto:triggers/stopsound
-execute as @s[x=4578,y=0,z=850,dx=61,dy=32,dz=463] unless entity @s[scores={Location=17}] run scoreboard players set @s Location 17
+execute as @s[x=4578,y=-11,z=850,dx=61,dy=43,dz=463] unless entity @s[scores={Location=17}] run title @s actionbar {"text":"Elite Four"}
+execute as @s[x=4578,y=-11,z=850,dx=61,dy=43,dz=463] unless entity @s[scores={Location=17}] run function kanto:triggers/stopsound
+execute as @s[x=4578,y=-11,z=850,dx=61,dy=43,dz=463] unless entity @s[scores={Location=17}] run scoreboard players set @s Location 17
 
 
 

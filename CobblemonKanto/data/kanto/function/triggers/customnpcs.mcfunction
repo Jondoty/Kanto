@@ -113,8 +113,14 @@ execute as @s[x=3338,y=39,z=-2205,distance=..5,tag=!Dialogue88] run opendialogue
 
 
 #Pokemon League if lady is blocking the door
-#execute as @s[x=4454,y=61,z=1117,distance=..5,scores={PokemonLeague=1},tag=Dialogue123] run opendialogue indigo_aromalady_interaction @s
-#execute as @s[x=4454,y=61,z=1117,distance=..5,scores={PokemonLeague=1},tag=!Dialogue123] run opendialogue indigo_aromalady_blocked_interaction @s
+execute as @s[x=4454,y=61,z=1117,distance=..5] run opendialogue indigo_aromalady_interaction @s
+execute as @s[x=4454,y=61,z=1117,distance=..5,scores={PokemonLeague=1},tag=!Dialogue110] run opendialogue indigo_aromalady_blocked_interaction @s
+execute as @s[x=4454,y=61,z=1117,distance=..5,scores={PokemonLeague=1},tag=Dialogue110] run opendialogue indigo_aromalady_interaction @s
+
+
+
+
+
 
 
 advancement revoke @s only kanto:advancement/click/npcs

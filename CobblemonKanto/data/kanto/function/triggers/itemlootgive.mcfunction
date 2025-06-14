@@ -2240,8 +2240,11 @@ execute as @s[x=3097,y=52,z=-21,distance=..4,tag=!Cut] run tag @s add Cut
 
 
 #Starts the Hall of Fame room credits
-execute as @s[x=4608,y=27,z=1306,distance=..10,scores={DialogueTrigger=0}] run scoreboard players set @s DialogueTrigger 106
+execute as @s[x=4608,y=27,z=1306,distance=..10,scores={DialogueTrigger=0}] run tag @s remove Dialogue106
+execute as @s[x=4608,y=4,z=1306,distance=..10,scores={DialogueTrigger=0}] run tag @s remove Dialogue106
 
+execute as @s[x=4608,y=27,z=1306,distance=..10,scores={DialogueTrigger=0}] run scoreboard players set @s DialogueTrigger 106
+execute as @s[x=4608,y=4,z=1306,distance=..10,scores={DialogueTrigger=0}] run scoreboard players set @s DialogueTrigger 106
 
 
 advancement revoke @s only kanto:advancement/click/itemclick
