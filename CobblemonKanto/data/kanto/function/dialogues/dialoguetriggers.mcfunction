@@ -185,6 +185,13 @@ execute as @s[x=3382,y=39,z=-1408,distance=..15,tag=!Dialogue87] unless entity @
 #Near Lostelle without a Hypno being found
 execute as @s[x=3390,y=39,z=-1353,distance=..15,tag=Dialogue87,tag=!Dialogue88,scores={BattleStart=0}] unless entity @e[x=3377,y=39,z=-1357,dx=18,dy=5,dz=18,type=cobblemon:pokemon,name=Hypno] run opendialogue threeisland_lostelle_dialogue88 @s
 
+#Bill taking player back to Cinnabar after Lostelle's returned
+execute as @s[x=4285,y=28,z=-2356,distance=..5,tag=Dialogue88,tag=!Dialogue90] run opendialogue oneisland_bill_dialogue90 @s
+
+#Route 22 Blue Higher Level battle
+execute as @s[x=4334,y=34,z=197,distance=..15,scores={StarterPick=1},tag=Giovanni,tag=!Dialogue95] unless entity @e[x=4357,y=33,z=218,dy=3] run npcspawnat 4357 34 218 route22_rematch_blue1 1
+execute as @s[x=4334,y=34,z=197,distance=..15,scores={StarterPick=2},tag=Giovanni,tag=!Dialogue95] unless entity @e[x=4357,y=33,z=218,dy=3] run npcspawnat 4357 34 218 route22_rematch_blue2 1
+execute as @s[x=4334,y=34,z=197,distance=..15,scores={StarterPick=3},tag=Giovanni,tag=!Dialogue95] unless entity @e[x=4357,y=33,z=218,dy=3] run npcspawnat 4357 34 218 route22_rematch_blue3 1
 
 
 

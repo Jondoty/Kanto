@@ -348,104 +348,6 @@ tellraw @s[] {"text":"Sorry! Bad call!"}
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 87 - Three Island
-#Finding Lostelle in Berry Forest
-#https://youtu.be/_6uv4msYJiM?t=47691
-
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Lostelle> Whimper... Sniff... Oh! Please, help!"}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Lostelle> A scary Pokémon appeared there a little while ago."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Lostelle> It kept scaring. It made Lostelle scared."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Lostelle> I'm too scared to move! But I want to go home..."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Lostelle> Oh! Here it comes again! No! Go away! It's scaring me!"}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Lostelle> Waaaaaaah! I want my daddy!"}
-
-pokebattle Hypno,lvl:30
-
-tag @s[scores={DialogueTrigger=87,TalkTime=10..}] add Dialogue87
-
-#-------------------
-#Dialogue 88 - Three Island
-#Lostelle after Hypno encounter
-#https://youtu.be/_6uv4msYJiM?t=47742
-
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Lostelle> Ohh! That was so scary! Thank you!"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Lostelle> Lostelle came to pick some Berries."}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Lostelle> You can have this!"}
-
-give @s pixelmon:iapapa_berry
-
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Lostelle> What's your name?"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Lostelle> Lostelle's scared, so can I go with you to my daddy's house?"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Lostelle> Okay! Let's go home!"}
-
-#teleports to Two Island Game Corne
-
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Lostelle's Father> So you rescued Lostelle? How can I thank you?"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Lostelle's Father> Lostelle, darling, forgive me!"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Lostelle's Father> Daddy didn't know you were scared and in trouble!"}
-
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] ["",{"text":"<Lostelle> It's okay, Daddy. I got to be friends with "},{"selector":"@s"},{"text":"!"}]
-
-tag @s[scores={DialogueTrigger=88,TalkTime=10..}] add Dialogue88
-
-#-------------------
-#Dialogue 89 - Two Island
-#Lostelle's dad getting Meteorite
-
-tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Lostelle's Father> Oh, what's that? You're saying that this is for me?"}
-tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Lostelle's Father> How did you know that I love rare rocks and gems?"}
-tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Lostelle's Father> You sure know how to make a guy happy."}
-
-tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" handed the Meteorite to Lostelle's daddy.","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Lostelle's Father> Oh, I see, this is from Bill! You have to thank him for me!"}
-tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Lostelle's Father> You know, you've been fantastic. I want you to have this."}
-
-tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Moon Stone from Lostelle's daddy.","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Lostelle's Father> All right, I'll get the Game Corner running right away."}
-tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Lostelle's Father> You have to come visit with a friend."}
-
-tag @s[scores={DialogueTrigger=89,TalkTime=10..}] add Dialogue89
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 90 - One Island
-#Bill and Celio after delieving the meteorite
-#https://youtu.be/_6uv4msYJiM?t=47832
-
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] ["",{"text":"<Bill> Oh, hey! "},{"selector":"@s"},{"text":"!"}]
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Bill> What kept you so long? Been out having a good time?"}
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Bill> We got it done. The PCs are up and running!"}
-
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Celio> The job went incredibly quick."}
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Celio> Bill is one amazing guy..."}
-
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Bill> No, no! There was almost nothing left for me to do."}
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Bill> Celio, I have to hand it to you. You've learned a lot."}
-
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Celio> Oh, really? Ehehe..."}
-
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Bill> Well, there you have it. I'm finished with the job."}
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Bill> We should head back to Kanto."}
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Bill> Celio, I'll be seeing you again."}
-
-
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] ["",{"text":"<Celio> "},{"selector":"@s"},{"text":", I'm really sorry that we sent you off alone today."}]
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Celio> I promise, I will show you around these islands sometime."}
-
-#takes the player back to Cinnabar Island
-
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Bill> Hey, wasn't that a long cruise?"}
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Bill> My buddy Celio seemed to enjoy your company."}
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Bill> I'm sure he'd welcome you if you were to visit him again."}
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Bill> If you have a Tri-Pass, you can always take a ferry there from Vermilion Port."}
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Bill> All right, thanks for your company!"}
-
-#tps Bill out
-
-tag @s[scores={DialogueTrigger=90,TalkTime=10..}] add Dialogue90
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue 91 - Pallet Town
 #Oak evaluating the player's Pokedex
 
@@ -510,33 +412,6 @@ I'll be looking forward to seeing you fill the National Pokédex!
 
 tag @s[scores={DialogueTrigger=91,TalkTime=10..}] add Dialogue91
 
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 94 - Route 22
-#Blue Mandatory Battle Pre-Battle
-#https://youtu.be/_6uv4msYJiM?t=50697
-
-#tps Blue in
-
-tellraw @s[scores={DialogueTrigger=94,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> What? "},{"selector":"@s"},{"text":"! What a surprise to see you here!"}]
-tellraw @s[scores={DialogueTrigger=94,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> So you're going to the Pokémon League?"}]
-tellraw @s[scores={DialogueTrigger=94,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> You collected all the Badges, too? That's cool!"}]
-tellraw @s[scores={DialogueTrigger=94,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> Then I'll whip you, "},{"selector":"@s"},{"text":", as a warm-up for the Pokémon League!"}]
-tellraw @s[scores={DialogueTrigger=94,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> Come on!"}]
-
-#Battle
-
-tag @s[scores={DialogueTrigger=94,TalkTime=10..}] add Dialogue94
-
-#-------------------
-#Dialogue 95 - Route 22
-#Blue Mandatory Battle Post-Battle
-
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> That loosened me up. I'm ready for the Pokémon League!"}]
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> "},{"selector":"@s"},{"text":", you need more practice."}]
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> But hey, you know that! I'm out of here. Smell ya!"}]
-
-tag @s[scores={DialogueTrigger=95,TalkTime=10..}] add Dialogue95
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue 96 - Pokemon League
@@ -1092,14 +967,27 @@ tag @s[scores={DialogueTrigger=121,TalkTime=10..}] add Dialogue121
 #Scientist with sapphire pre-battle
 #https://youtu.be/_6uv4msYJiM?t=61548
 
-tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<...> I almost managed to sell the Sapphire for huge money..."}
-tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<...> Then, you just had to come along and blow the whole deal apart!"}
-tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<...> Fufu... Fufufufu... There's no forgiveness for you!"}
+tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<Gideon> I almost managed to sell the Sapphire for huge money..."}
+tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<Gideon> Then, you just had to come along and blow the whole deal apart!"}
+tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<Gideon> Fufu... Fufufufu... There's no forgiveness for you!"}
 
 tag @s[scores={DialogueTrigger=122,TalkTime=10..}] add Dialogue122
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 123 - Memorial Pillar
+#Dialogue 123 - Rocket Warehouse
+#Scientist with sapphire post-battle
+#https://youtu.be/_6uv4msYJiM?t=61548
+
+Gah! Darn! Darn! Darn!
+
+If I can't sell it, it's worthless! Go ahead, take it!
+
+What do you want now? Go on, get lost, leave me be.
+
+tag @s[scores={DialogueTrigger=122,TalkTime=10..}] add Dialogue123
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Dialogue ??? - Memorial Pillar
 #If player leaves a lemmonade on the base of the pillar
 #https://youtu.be/_6uv4msYJiM?t=62183
 
@@ -1225,7 +1113,7 @@ tag @s[scores={DialogueTrigger=129,TalkTime=10..}] add Dialogue129
 #130-134 used in previous dialogues
 
 
-
+#Need to document Celio's Sapphire Return dialogue
 
 
 

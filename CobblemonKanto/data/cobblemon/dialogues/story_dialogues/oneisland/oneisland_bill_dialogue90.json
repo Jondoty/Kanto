@@ -1,0 +1,406 @@
+{
+    "initializationAction": [
+        "q.run_command('tag ' + q.player.username + ' add InDialogue');"
+    ],
+    "escapeAction": [],
+    "speakers": {
+        "bill": {
+            "name": "Bill",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:supernerd",
+                "isLeftSide": true
+            }
+        },
+        "celio": {
+            "name": "Celio",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:camper",
+                "isLeftSide": false
+            }
+        },
+        "player": {
+         "face": "q.player.face(true);",
+         "name": {
+        "type": "expression",
+        "expression": "q.player.username"
+      }
+    }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "bill",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'Oh, hey! ' + q.player.username + '!';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page2",
+            "speaker": "bill",
+            "lines": [
+                "What kept you so long? Been out having a good time?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page3');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "bill",
+            "lines": [
+                "We got it done. The PCs are up and running!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page4');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page4",
+            "speaker": "celio",
+            "lines": [
+                "The job went incredibly quick."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page5');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page5",
+            "speaker": "celio",
+            "lines": [
+                "Bill is one amazing guy..."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page6');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page6",
+            "speaker": "bill",
+            "lines": [
+                "No, no! There was almost nothing left for me to do."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page7');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page7",
+            "speaker": "bill",
+            "lines": [
+                "Celio, I have to hand it to you. You've learned a lot."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page8');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page8",
+            "speaker": "celio",
+            "lines": [
+                "Oh, really? Ehehe..."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page9');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page9",
+            "speaker": "bill",
+            "lines": [
+                "Well, there you have it. I'm finished with the job."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page10');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page10",
+            "speaker": "bill",
+            "lines": [
+                "We should head back to Kanto."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page11');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page11",
+            "speaker": "bill",
+            "lines": [
+                "Celio, I'll be seeing you again."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page12');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page12",
+            "speaker": "celio",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'' + q.player.username + ', I am really sorry that we sent you off alone today.';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page13');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page13",
+            "speaker": "celio",
+            "lines": [
+                "I promise, I will show you around these islands sometime."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.run_command('execute as ' + q.player.username + ' run effect give @s minecraft:blindness 3 1 true');",
+                        "q.run_command('execute as ' + q.player.username + ' unless entity @e[x=4128,y=34,z=-713,dy=3,type=cobblemon:npc] run tp @s 4128.38 34.00 -715.57 -0.40 10.05');",
+                        "q.run_command('execute as ' + q.player.username + ' run npcspawnat 4128 34 -713 bill_generic');",
+                        "q.dialogue.set_page('page14');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page14",
+            "speaker": "bill",
+            "lines": [
+                "Hey, wasn't that a long cruise?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page15');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page15",
+            "speaker": "bill",
+            "lines": [
+                "My buddy Celio seemed to enjoy your company."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page16');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page16",
+            "speaker": "bill",
+            "lines": [
+                "I'm sure he'd welcome you if you were to visit him again."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page17');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page17",
+            "speaker": "bill",
+            "lines": [
+                "If you have a Tri-Pass, you can always take a ferry there from Vermilion Port."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page18');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page18",
+            "speaker": "bill",
+            "lines": [
+                "All right, thanks for your company!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('particle cloud 4128 34 -713 1 1 1 1 75');",
+                            "q.run_command('tp @e[x=4128,y=34,z=-713,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000');",
+                            "q.run_command('tag ' + q.player.username + ' add Dialogue90');",
+                            "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+
+        
+    ]
+}
