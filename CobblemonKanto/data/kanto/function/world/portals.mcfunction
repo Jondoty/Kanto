@@ -409,7 +409,15 @@ tp @s[x=3468,y=91,z=1895,dx=3,dy=5] 3508 121 1955
 #-------------------------------------------------------------------------------------------------------------
 #Five Island
 #Rocket Warehouse
-tp @s[x=3069,y=39,z=-3061,dx=3,dy=5] 3070 -8 -3060
+
+#Opens dialogues based on passwords gained
+execute as @s[x=3069,y=39,z=-3061,dx=3,dy=5,tag=Dialogue111,tag=!Dialogue117] run opendialogue rocketwarehouse_password1_only @s
+execute as @s[x=3069,y=39,z=-3061,dx=3,dy=5,tag=!Dialogue111,tag=Dialogue117] run opendialogue rocketwarehouse_password2_only @s
+execute as @s[x=3069,y=39,z=-3061,dx=3,dy=5,tag=Dialogue111,tag=Dialogue117,tag=!Dialogue118] run opendialogue rocketwarehouse_bothpasswords_dialogue118 @s
+execute as @s[x=3069,y=39,z=-3061,dx=3,dy=5,tag=!Dialogue118] at @s run tp @s ~ ~ ~-3
+
+#Both passwords after dialogue
+tp @s[x=3069,y=39,z=-3061,dx=3,dy=5,tag=Dialogue118] 3070 -8 -3060
 tp @s[x=3069,y=-8,z=-3061,dx=3,dy=5] 3071 39 -3062
 
 #-------------------------------------------------------------------------------------------------------------

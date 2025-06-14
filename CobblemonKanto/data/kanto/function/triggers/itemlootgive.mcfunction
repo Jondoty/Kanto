@@ -1,5 +1,15 @@
 #Runs each time the player clicks on an interaction entity with the tag ItemLoot
 
+#Sapphire Dialogue Trigger
+execute as @s[x=4119,y=40,z=1743,distance=..4,tag=Dialogue117] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=4119,y=40,z=1743,distance=..4,tag=!Dialogue117] run playsound getitem ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=4119,y=40,z=1743,distance=..4,tag=!Dialogue117] run opendialogue sixisland_sapphire_dialogue117 @s
+
+
+
+
+#World Loot
+
 execute as @s[x=4201,y=34,z=270,distance=..4,tag=ItemLoot1] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
 execute as @s[x=4201,y=34,z=270,distance=..4,tag=!ItemLoot1] run give @s cobblemon:potion
 execute as @s[x=4201,y=34,z=270,distance=..4,tag=!ItemLoot1] run tellraw @s {"text":"You found a Potion!","italic":true,"color":"gray"}

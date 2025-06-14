@@ -474,52 +474,6 @@ tag @s[scores={DialogueTrigger=107,TalkTime=10..}] add Dialogue107
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 117 - Dotted Hole
-#When player goes to pick up the Sapphire
-#https://youtu.be/_6uv4msYJiM?t=60196
-
-tellraw @s[scores={DialogueTrigger=117,TalkTime=1}] {"text":"@s found a Sapphire!","italic":true,"color":"gray"}
-
-#tps in scientist on the ceiling
-
-tellraw @s[scores={DialogueTrigger=117,TalkTime=1}] {"text":"<...> Fufu... Fufufufu... I guessed right. I was right in tailing you!"}
-
-#grunt takes sapphire
-
-tellraw @s[scores={DialogueTrigger=117,TalkTime=1}] {"text":"<...> I knew that there was a Sapphire here, so it belongs to me!"}
-tellraw @s[scores={DialogueTrigger=117,TalkTime=1}] {"text":"<...> I'll sell it to Team Rocket for serious money."}
-tellraw @s[scores={DialogueTrigger=117,TalkTime=1}] {"text":"<...> ...D-don't glare at me like that!"}
-tellraw @s[scores={DialogueTrigger=117,TalkTime=1}] {"text":"<...> If you want it back, why don't you go get it after I sell it?"}
-tellraw @s[scores={DialogueTrigger=117,TalkTime=1}] {"text":"<...> I'll even tell you one of the passwords to Team Rocket's Warehouse."}
-tellraw @s[scores={DialogueTrigger=117,TalkTime=1}] {"text":"<...> The Warehouse password I know is \"Yes, nah, Chansey.\""}
-tellraw @s[scores={DialogueTrigger=117,TalkTime=1}] {"text":"<...> I'm done. Don't think badly of me!"}
-
-#scientist tps out
-
-tag @s[scores={DialogueTrigger=117,TalkTime=10..}] add Dialogue117
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 118 - Five Island
-#Rocket Warehouse Passwords when next to door
-#https://youtu.be/_6uv4msYJiM?t=60780
-
-#if player only has one password or the other
-tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] ["",{"text":"@s","italic":true,"color":"gray"},{"text":" entered a password.","color":"gray"}]
-tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"\"Goldeen need log.\u201d","italic":true,"color":"gray"}
-tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"... ... ... ... ... ...","italic":true,"color":"gray"}
-tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"Another password is needed to open the door...","italic":true,"color":"gray"}
-
-
-tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" entered two passwords.","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"\"Goldeen need log.\"","italic":true,"color":"gray"}
-tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"\"Yes, nah, Chansey.\"","italic":true,"color":"gray"}
-tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"... ... ... ... ... ...","italic":true,"color":"gray"}
-tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"The Warehouse's door opened!","italic":true,"color":"gray"}
-
-tag @s[scores={DialogueTrigger=118,TalkTime=10..}] add Dialogue118
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue 119 - Rocket Warehouse
 #Admin post-battle
 #https://youtu.be/_6uv4msYJiM?t=61304
