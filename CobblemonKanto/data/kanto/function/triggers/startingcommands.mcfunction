@@ -86,7 +86,8 @@ tag @s remove Biker1
 tag @s remove Biker2
 tag @s remove Biker3
 tag @s remove Biker4
-
+tag @s remove EmberGrunt1
+tag @s remove EmberGrunt2
 
 
 #Removes existing Quest tags

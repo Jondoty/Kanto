@@ -472,38 +472,6 @@ tellraw @s[scores={DialogueTrigger=107,TalkTime=1}] ["",{"text":"<Prof. Oak> Pok
 
 tag @s[scores={DialogueTrigger=107,TalkTime=10..}] add Dialogue107
 
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 111 - One Island
-#Team Rocket grunts outside of Mt. Ember Path
-#https://youtu.be/_6uv4msYJiM?t=55531
-
-tellraw @s[scores={DialogueTrigger=111,TalkTime=1}] {"text":"<Team Rocket Grunt> Whew, punched through at last. Let's go treasure hunting!"}
-tellraw @s[scores={DialogueTrigger=111,TalkTime=1}] {"text":"<Team Rocket Grunt> Any treasure we find, we haul back to the Warehouse, understood?"}
-tellraw @s[scores={DialogueTrigger=111,TalkTime=1}] {"text":"<Team Rocket Grunt> ...Oh, and what're the passwords? At the Rocket Warehouse, I mean."}
-tellraw @s[scores={DialogueTrigger=111,TalkTime=1}] {"text":"<Team Rocket Grunt> What, you forgot the password? There're actually two."}
-tellraw @s[scores={DialogueTrigger=111,TalkTime=1}] {"text":"<Team Rocket Grunt> The first one's \"Goldeen need log.\""}
-tellraw @s[scores={DialogueTrigger=111,TalkTime=1}] {"text":"<Team Rocket Grunt> And the second one is..."}
-tellraw @s[scores={DialogueTrigger=111,TalkTime=1}] {"text":"<Team Rocket Grunt> Hey!"}
-tellraw @s[scores={DialogueTrigger=111,TalkTime=1}] {"text":"<Team Rocket Grunt> This snoop's been listening in!"}
-
-#Swap out chatting npcs to trainers
-
-tag @s[scores={DialogueTrigger=111,TalkTime=10..}] add Dialogue111
-
-#-------------------
-#Dialogue 112 - One Island
-#After defeating both Rocket Grunts
-#https://youtu.be/_6uv4msYJiM?t=55747
-
-tellraw @s[scores={DialogueTrigger=112,TalkTime=1}] {"text":"<Team Rocket Grunt> What a setback... We'll have to regroup."}
-tellraw @s[scores={DialogueTrigger=112,TalkTime=1}] {"text":"<Team Rocket Grunt> You! Don't even think about taking a step inside here!"}
-tellraw @s[scores={DialogueTrigger=112,TalkTime=1}] {"text":"<Team Rocket Grunt> If you know what's good for you, don't even think about this!"}
-
-#tp grunts out
-
-tag @s[scores={DialogueTrigger=112,TalkTime=10..}] add Dialogue112
-
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue 113 - Four Island
 #Blue after stepping off boat

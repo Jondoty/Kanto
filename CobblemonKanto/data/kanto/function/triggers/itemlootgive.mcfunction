@@ -1725,7 +1725,11 @@ execute as @s[x=4126,y=109,z=-1450,distance=..4,tag=!ItemLoot296] run tellraw @s
 execute as @s[x=4126,y=109,z=-1450,distance=..4,tag=!ItemLoot296] run playsound getitem ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=4126,y=109,z=-1450,distance=..4,tag=!ItemLoot296] run tag @s add ItemLoot296
 
-#297 (Ruby)
+execute as @s[x=4120,y=39,z=1873,distance=..5,tag=ItemLoot297] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=4120,y=39,z=1873,distance=..5,tag=!ItemLoot297] run function kanto:spawn/ruby
+execute as @s[x=4120,y=39,z=1873,distance=..5,tag=!ItemLoot297] run tellraw @s {"text":"You found a Ruby!","italic":true,"color":"gray"}
+execute as @s[x=4120,y=39,z=1873,distance=..5,tag=!ItemLoot297] run playsound getitem ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=4120,y=39,z=1873,distance=..5,tag=!ItemLoot297] run tag @s add ItemLoot297
 
 execute as @s[x=3333,y=34,z=-2248,distance=..4,tag=ItemLoot298] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
 execute as @s[x=3333,y=34,z=-2248,distance=..4,tag=!ItemLoot298] run give @s cobblemon:revive

@@ -226,4 +226,26 @@ execute as @s[x=4296,y=28,z=-2357,distance=..15,tag=Dialogue90] run tp @e[x=4287
 execute as @s[x=4296,y=28,z=-2357,distance=..15,tag=!Dialogue90] unless entity @e[x=4287,y=27,z=-2355,dy=3,type=cobblemon:npc] run npcspawnat 4287 28 -2355 one_bill 1
 
 
+#Mt. Ember Rockets outside of Ruby Chamber
+
+#Chamber closed
+execute as @s[x=4141,y=59,z=-1648,distance=..20,scores={PokemonLeague=0}] run fill 4113 62 -1607 4110 59 -1607 stone
+execute as @s[x=4141,y=59,z=-1648,distance=..20,scores={PokemonLeague=0}] unless entity @e[x=4113,y=59,z=-1610,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:one_rocketgrunt"}] run npcspawnat 4113 59 -1610 one_rocketgrunt 1
+execute as @s[x=4141,y=59,z=-1648,distance=..20,scores={PokemonLeague=0}] unless entity @e[x=4110,y=59,z=-1610,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:one_rocketgrunt2"}] run npcspawnat 4110 59 -1610 one_rocketgrunt2 1
+execute as @s[x=4141,y=59,z=-1648,distance=..20,scores={PokemonLeague=0}] run tp @e[x=4110,y=59,z=-1610,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:rocketgrunt_42"}] 10000000 -50000 -10000000
+execute as @s[x=4141,y=59,z=-1648,distance=..20,scores={PokemonLeague=0}] run tp @e[x=4110,y=59,z=-1610,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:rocketgrunt_43"}] 10000000 -50000 -10000000
+
+#Chamber Open
+execute as @s[x=4141,y=59,z=-1648,distance=..20,scores={PokemonLeague=1..}] run fill 4110 59 -1607 4113 59 -1607 minecraft:magenta_carpet
+execute as @s[x=4141,y=59,z=-1648,distance=..20,scores={PokemonLeague=1..}] run fill 4113 61 -1607 4110 60 -1607 air
+execute as @s[x=4141,y=59,z=-1648,distance=..20,scores={PokemonLeague=1..}] run fill 4112 62 -1607 4111 62 -1607 air
+execute as @s[x=4141,y=59,z=-1648,distance=..20,scores={PokemonLeague=1..},tag=!EmberGrunt1] unless entity @e[x=4113,y=59,z=-1610,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:rocketgrunt_42"}] run npcspawnat 4113 59 -1610 rocketgrunt_42 1
+execute as @s[x=4141,y=59,z=-1648,distance=..20,scores={PokemonLeague=1..},tag=!EmberGrunt2] unless entity @e[x=4110,y=59,z=-1610,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:rocketgrunt_43"}] run npcspawnat 4110 59 -1610 rocketgrunt_43 1
+execute as @s[x=4141,y=59,z=-1648,distance=..20,scores={PokemonLeague=1..}] run tp @e[x=4110,y=59,z=-1610,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:one_rocketgrunt"}] 10000000 -50000 -10000000
+execute as @s[x=4141,y=59,z=-1648,distance=..20,scores={PokemonLeague=1..}] run tp @e[x=4110,y=59,z=-1610,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:one_rocketgrunt2"}] 10000000 -50000 -10000000
+
+#Overhearing the Rockets
+execute as @s[x=4113,y=59,z=-1610,distance=..20,tag=!Dialogue111] run opendialogue oneisland_rockets_dialogue111 @s
+
+
 #
