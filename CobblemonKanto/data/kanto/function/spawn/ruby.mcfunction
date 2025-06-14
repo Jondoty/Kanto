@@ -1,0 +1,1 @@
+give @s music_disc_chirp[!minecraft:jukebox_playable,custom_name='["",{"text":"Ruby","italic":false,"color":"dark_red"}]',lore=['["",{"text":"An exquisitely beautiful gem that has","italic":false}]','["",{"text":"a red glow. It symbolizes passion.","italic":false}]']]

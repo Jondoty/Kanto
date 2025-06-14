@@ -1,0 +1,1 @@
+give @s music_disc_far[!minecraft:jukebox_playable,custom_name='["",{"text":"Sapphire","italic":false,"color":"dark_blue"}]',lore=['["",{"text":"An exquisitely beautiful gem that has","italic":false}]','["",{"text":"a blue glow. It symbolizes honesty.","italic":false}]']]

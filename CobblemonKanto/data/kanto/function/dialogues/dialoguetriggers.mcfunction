@@ -220,7 +220,10 @@ execute as @s[x=4608,y=0,z=1183,distance=..10,tag=!Blue,scores={StarterPick=3}] 
 #Hall of Fame Oak on first introduction
 execute as @s[x=4608,y=25,z=1297,distance=..10,tag=!Dialogue105] run opendialogue halloffame_oak_interaction @s
 
-
+#One Island,
+#Clears out Bill if present post-game
+execute as @s[x=4296,y=28,z=-2357,distance=..15,tag=Dialogue90] run tp @e[x=4287,y=27,z=-2355,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @s[x=4296,y=28,z=-2357,distance=..15,tag=!Dialogue90] unless entity @e[x=4287,y=27,z=-2355,dy=3,type=cobblemon:npc] run npcspawnat 4287 28 -2355 one_bill 1
 
 
 #

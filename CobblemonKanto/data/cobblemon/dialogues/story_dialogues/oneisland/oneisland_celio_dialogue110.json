@@ -1,0 +1,405 @@
+{
+    "initializationAction": [
+        "q.run_command('tag ' + q.player.username + ' add InDialogue');",
+        "q.run_command('clear ' + q.player.username + ' music_disc_far');"
+    ],
+    "escapeAction": [],
+    "speakers": {
+        "celio": {
+            "name": "Celio",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:camper",
+                "isLeftSide": false
+            }
+        },
+        "player": {
+         "face": "q.player.face(true);",
+         "name": {
+        "type": "expression",
+        "expression": "q.player.username"
+      }
+    }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "player",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'' + q.player.username + ' handed the Sapphire to Celio.';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page2",
+            "speaker": "celio",
+            "lines": [
+                "So this is the gem that forms a pair with the Ruby..."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page3');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "celio",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'' + q.player.username + ', you have gone through a lot to get this, didnt you?';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page4');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page4",
+            "speaker": "celio",
+            "lines": [
+                "You don't have to tell me. I know it wasn't easy."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page5');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page5",
+            "speaker": "celio",
+            "lines": [
+                "Thank you so much!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page6');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page6",
+            "speaker": "celio",
+            "lines": [
+                "Now it's my turn to work for you! Please give me a little time."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page7');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page7",
+            "speaker": "celio",
+            "lines": [
+                "Okay, this is good..."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page8');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page8",
+            "speaker": "celio",
+            "lines": [
+                "I did it! I linked up with Lanette!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page9');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page9",
+            "speaker": "celio",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'' + q.player.username + '...';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page10');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page10",
+            "speaker": "celio",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'' + q.player.username + ', I did it!';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page11');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page11",
+            "speaker": "celio",
+            "lines": [
+                "I've managed to link up with Trainers in the Hoenn region!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page12');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page12",
+            "speaker": "celio",
+            "lines": [
+                "Finally, the Network Machine is fully operational!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page13');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page13",
+            "speaker": "celio",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'' + q.player.username + ', I owe it all to you!';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page14');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page14",
+            "speaker": "celio",
+            "lines": [
+                "Thanks to you, my dream came true..."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page15');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page15",
+            "speaker": "celio",
+            "lines": [
+                "I... I'm not crying."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page16');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page16",
+            "speaker": "celio",
+            "lines": [
+                "That's enough about me!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page17');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page17",
+            "speaker": "celio",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'' + q.player.username + ', you are going to keep looking for exotic Pokémon, right?';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page18');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page18",
+            "speaker": "celio",
+            "lines": [
+                "I wish you the best of luck!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('tag ' + q.player.username + ' add Dialogue110');",
+                            "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+
+        
+    ]
+}

@@ -15,7 +15,7 @@ execute as @s[x=4143,y=34,z=-156,distance=..6,scores={StarterPick=1..,PokeDex=20
 execute as @s[x=4143,y=34,z=-156,distance=..6,scores={StarterPick=1..,PokeDex=50..},tag=!Dialogue66] run opendialogue pallet_oak_expshare @s
 
 #Oak's Rainbow Pass custom after E4
-execute as @s[x=4143,y=34,z=-156,distance=..6,scores={StarterPick=1..,PokemonLeague=1..},tag=!RainbowPass] run opendialogue pallet_oak_rainbowpass @s
+#execute as @s[x=4143,y=34,z=-156,distance=..6,scores={StarterPick=1..,PokemonLeague=1..},tag=!RainbowPass] run opendialogue pallet_oak_rainbowpass @s
 
 
 #Daisy
@@ -118,8 +118,12 @@ execute as @s[x=4454,y=61,z=1117,distance=..5,scores={PokemonLeague=1},tag=!Dial
 execute as @s[x=4454,y=61,z=1117,distance=..5,scores={PokemonLeague=1},tag=Dialogue110] run opendialogue indigo_aromalady_interaction @s
 
 
-
-
+#One Island Celio
+execute as @s[x=4283,y=28,z=-2355,distance=..5] run opendialogue one_celio_interaction @s
+execute as @s[x=4283,y=28,z=-2355,distance=..5,scores={PokemonLeague=1..},tag=!Dialogue108] run opendialogue oneisland_celio_dialogue108 @s
+execute as @s[x=4283,y=28,z=-2355,distance=..5,scores={PokemonLeague=1..},tag=!Dialogue109,nbt={Inventory:[{id:"minecraft:music_disc_chirp"}]}] run opendialogue oneisland_celio_dialogue109 @s
+execute as @s[x=4283,y=28,z=-2355,distance=..5,scores={PokemonLeague=1..},tag=!Dialogue110,nbt={Inventory:[{id:"minecraft:music_disc_far"}]}] run opendialogue oneisland_celio_dialogue110 @s
+execute as @s[x=4283,y=28,z=-2355,distance=..5,tag=Dialogue110] run opendialogue oneisland_celio_done @s
 
 
 

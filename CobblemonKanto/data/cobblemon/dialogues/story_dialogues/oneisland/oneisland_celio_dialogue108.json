@@ -1,0 +1,229 @@
+{
+    "initializationAction": [
+        "q.run_command('tag ' + q.player.username + ' add InDialogue');"
+    ],
+    "escapeAction": [],
+    "speakers": {
+        "celio": {
+            "name": "Celio",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:camper",
+                "isLeftSide": false
+            }
+        },
+        "player": {
+         "face": "q.player.face(true);",
+         "name": {
+        "type": "expression",
+        "expression": "q.player.username"
+      }
+    }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "celio",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'' + q.player.username + ', how have things been for you?';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page2",
+            "speaker": "celio",
+            "lines": [
+                "Oh, is that right? You've caught more Pokémon."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page3');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "celio",
+            "lines": [
+                "Do you know what? Maybe I can be useful to you."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page4');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page4",
+            "speaker": "celio",
+            "lines": [
+                "I'm modifying the Network Machine right now."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page5');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page5",
+            "speaker": "celio",
+            "lines": [
+                "I'm changing it so it can handle trades over long distances."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page6');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page6",
+            "speaker": "celio",
+            "lines": [
+                "When I get finished, you'll be trading for exotic Pokémon from Trainers far away."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page7');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page7",
+            "speaker": "celio",
+            "lines": [
+                "But, there is a slight catch."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page8');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page8",
+            "speaker": "celio",
+            "lines": [
+                "For the link to work, the Machine needs a special gemstone."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page9');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page9",
+            "speaker": "celio",
+            "lines": [
+                "It's supposed to be on One Island, but I haven't found one yet."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page10');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page10",
+            "speaker": "celio",
+            "lines": [
+                "Who knows where it could be."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('tag ' + q.player.username + ' add Dialogue108');",
+                            "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+
+        
+    ]
+}

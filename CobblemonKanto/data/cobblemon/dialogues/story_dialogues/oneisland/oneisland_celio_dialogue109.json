@@ -1,0 +1,347 @@
+{
+    "initializationAction": [
+        "q.run_command('tag ' + q.player.username + ' add InDialogue');",
+        "q.run_command('clear ' + q.player.username + ' music_disc_chirp');"
+    ],
+    "escapeAction": [],
+    "speakers": {
+        "celio": {
+            "name": "Celio",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:camper",
+                "isLeftSide": false
+            }
+        },
+        "player": {
+         "face": "q.player.face(true);",
+         "name": {
+        "type": "expression",
+        "expression": "q.player.username"
+      }
+    }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "celio",
+            "lines": [
+                "Oh! Th-that's..."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page2",
+            "speaker": "player",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'' + q.player.username + ' handed the Ruby to Celio.';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page3');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "celio",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'Thank you! ' + q.player.username + ', you are simply amazing.';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page4');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page4",
+            "speaker": "celio",
+            "lines": [
+                "... ... ... ... ... ..."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page5');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page5",
+            "speaker": "celio",
+            "lines": [
+                "Um... May I ask one more giant favor of you?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page6');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page6",
+            "speaker": "celio",
+            "lines": [
+                "It... It's not anything weird. Please, I need your help."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page7');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page7",
+            "speaker": "celio",
+            "lines": [
+                "While I was studying gemstones, I discovered something important."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page8');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page8",
+            "speaker": "celio",
+            "lines": [
+                "There is another gem that forms a pair with this Ruby."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page9');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page9",
+            "speaker": "celio",
+            "lines": [
+                "That other gemstone is supposed to be in the Sevii Islands."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page10');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page10",
+            "speaker": "celio",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'' + q.player.username + ', please, I need you to go find the other gem.';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page11');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page11",
+            "speaker": "celio",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'' + q.player.username + ', may I have your ferry Pass and the Town Map?';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page12');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page12",
+            "speaker": "player",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'' + q.player.username + ' returned the Tri-Pass and received the Rainbow Pass.';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page13');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page13",
+            "speaker": "celio",
+            "lines": [
+                "This is my own ferry Pass."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page14');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page14",
+            "speaker": "celio",
+            "lines": [
+                "It will let you get to all the Sevii Islands."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                        "q.dialogue.set_page('page15');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page15",
+            "speaker": "celio",
+            "lines": [
+                {
+                    "type": "expression",
+                    "expression": "'' + q.player.username + ', please, I can not do it without your help.';"
+                }
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('playsound minecraft:getitem ambient ' + q.player.username + ' ~ ~ ~ 1 1 1');",
+                            "q.run_command('tag ' + q.player.username + ' add RainbowPass');",
+                            "q.run_command('tag ' + q.player.username + ' add Dialogue109');",
+                            "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+
+        
+    ]
+}
