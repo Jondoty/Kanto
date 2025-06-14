@@ -33,6 +33,9 @@ tellraw @s[scores={DialogueTrigger=106,TalkTime=85}] {"text":"Special thanks to 
 #runs legendary reset function
 #tbd
 
+#On player's second run through the E4, shows a finished title
+execute as @s[scores={DialogueTrigger=106,TalkTime=110,PokemonLeague=2}] run title @s title {"text":"The End."}
+
 #tps the player to Pallet Town
 execute as @s[scores={DialogueTrigger=106,TalkTime=108}] run effect give @s minecraft:blindness 4 1 true
 execute as @s[scores={DialogueTrigger=106,TalkTime=110}] run scoreboard players set @s Location 68
