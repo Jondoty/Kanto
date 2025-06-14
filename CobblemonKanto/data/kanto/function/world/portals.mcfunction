@@ -112,11 +112,12 @@ tp @s[x=3453,y=35,z=-292,dx=3,dy=5] 3455 35 -295
 
 #-------------------------------------------------------------------------------------------------------------
 #Cerulean Cave
+execute as @s[x=3213,y=34,z=919,dx=4,dy=3,tag=!Dialogue110] run opendialogue ceruleancave_guard_interaction @s
+execute as @s[x=3213,y=34,z=919,dx=4,dy=3,tag=!Dialogue110] at @s run tp @s ~ ~ ~-4
+
+#After returned the Sapphire.
+tp @s[x=3213,y=34,z=919,dx=4,dy=3,tag=Dialogue110] 2824 69 1867
 tp @s[x=2822,y=69,z=1866,dx=4,dy=3] 3215 34 918
-
-tp @s[x=3213,y=34,z=919,dx=4,dy=3] 2824 69 1867
-
-
 
 #-------------------------------------------------------------------------------------------------------------
 #Mt Moon (Route 3 side)
