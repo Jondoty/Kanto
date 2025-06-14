@@ -254,10 +254,12 @@ execute as @s[x=4367,y=34,z=-3342,distance=..20,tag=!Dialogue113] unless entity 
 execute as @s[x=2836,y=40,z=-4316,distance=..20,tag=!Dialogue116] unless entity @e[x=2836,y=40,z=-4316,dy=3,type=cobblemon:npc] run npcspawnat 2836 40 -4316 six_blue 1
 
 
-
-
-
-
+#Four Island Icefall Cave Rocket Grunts and Lorelei
+execute as @s[x=3470,y=91,z=1902,distance=..10,tag=!Dialogue110,tag=!Dialogue115] unless entity @e[x=3465,y=91,z=1934,dy=3,type=cobblemon:npc] run npcspawnat 3465 91 1934 rocketgrunt_44 1
+execute as @s[x=3470,y=91,z=1902,distance=..10,tag=!Dialogue110,tag=!Dialogue115] unless entity @e[x=3472,y=91,z=1928,dy=3,type=cobblemon:npc] run npcspawnat 3472 91 1928 four_lorelei 1
+execute as @s[x=3470,y=91,z=1902,distance=..10,tag=!Dialogue110,tag=!Dialogue115] unless entity @e[x=3475,y=91,z=1934,dy=3,type=cobblemon:npc] run npcspawnat 3475 91 1934 four_rocketgrunt 1
+execute as @s[x=3470,y=91,z=1929,distance=..10,tag=!Dialogue110,tag=!Dialogue114] run opendialogue fourisland_dialogue114 @s
+execute as @s[x=3470,y=91,z=1902,distance=..10,tag=Dialogue110] run tp @e[x=3472,y=91,z=1928,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
 
 
 

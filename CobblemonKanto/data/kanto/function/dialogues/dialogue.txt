@@ -474,62 +474,6 @@ tag @s[scores={DialogueTrigger=107,TalkTime=10..}] add Dialogue107
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 114 - Four Island
-#Icefall Cave Lorelei and Team Rocket
-#https://youtu.be/_6uv4msYJiM?t=56606
-
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Lorelei> Keep your filthy hands off the Pokémon in the cave!"}
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Lorelei> Do as I say, or you'll have me to answer to!"}
-
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Team Rocket Grunt> Aww, shut it, lady, and leave us be."}
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Team Rocket Grunt> Don't let your glasses get all steamed up!"}
-
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] ["",{"text":"<Lorelei> "},{"selector":"@s"},{"text":"?! What are you doing here?"}]
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Lorelei> No, we can catch up later. Right now, I need your help."}
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Lorelei> Help me kick these poachers out before they do anything else."}
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Lorelei> They've been catching Pokémon here, then selling them off!"}
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Lorelei> Are you ready? You take that one, please!"}
-
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Team Rocket Grunt> W-what?!"}
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Team Rocket Grunt> Who says we can't do what we want with the Pokémon we catch?"}
-
-tag @s[scores={DialogueTrigger=114,TalkTime=10..}] add Dialogue114
-
-#-------------------
-#Dialogue 115 - Icefall Cave
-#Post-Rocket Battle
-#https://youtu.be/_6uv4msYJiM?t=56711
-
-tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"<Lorelei> Humph. So despicably weak."}
-tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"<Lorelei> You! Tell me!"}
-tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"<Lorelei> Where have you taken the captured Pokémon?"}
-tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"<Lorelei> I'm smashing your ring once and for all!"}
-
-tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"<Team Rocket Grunt> N-no way! I'm not telling you that!"}
-
-tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"<Lorelei> If you won't confess, we'll deep-freeze you."}
-
-#sets Lapras statue pointing at grunt
-
-tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"<Lorelei> My Lapras is furious for what you've done to its friends."}
-tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"<Lorelei> Go, Lapras! Ice Beam..."}
-
-tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"<Team Rocket Grunt> Wawaah! Okay! I'll talk!"}
-tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"<Team Rocket Grunt> The Pokémon are in the Rocket Warehouse on Five Island."}
-tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"<Team Rocket Grunt> There! I said it! We'll be going now!"}
-tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"<Team Rocket Grunt> ...But I doubt you'll ever make it into the Rocket Warehouse!"}
-tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"<Team Rocket Grunt> Heheheheh!"}
-
-#tps Rockets out
-
-tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] ["",{"text":"<Lorelei> "},{"selector":"@s"},{"text":", thank you. But this is awful..."}]
-tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"<Lorelei> I was born and raised here on these islands."}
-tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"<Lorelei> I had no idea that those horrible criminals were loose here..."}
-
-tag @s[scores={DialogueTrigger=115,TalkTime=10..}] add Dialogue115
-
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue 117 - Dotted Hole
 #When player goes to pick up the Sapphire
 #https://youtu.be/_6uv4msYJiM?t=60196
