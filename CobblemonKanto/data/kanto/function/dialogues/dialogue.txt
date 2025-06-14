@@ -472,25 +472,6 @@ tellraw @s[scores={DialogueTrigger=107,TalkTime=1}] ["",{"text":"<Prof. Oak> Pok
 
 tag @s[scores={DialogueTrigger=107,TalkTime=10..}] add Dialogue107
 
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 113 - Four Island
-#Blue after stepping off boat
-#https://youtu.be/_6uv4msYJiM?t=56131
-
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> Hey! "},{"selector":"@s"},{"text":"!"}]
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> What are you doing here in the Sevii Islands?"}]
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> You should quit copying me, you know?"}]
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> Anyways, I already got my Pokémon Egg, so I'm done with this island."}]
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> Heh, I bet you don't even know about Pokémon Eggs."}]
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> You'll never fill your National Pokédex that way."}]
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> By the way, I saw someone we both know on this island."}]
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> Why don't you go look around if it makes you curious?"}]
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> Me, I don't have the time to waste."}]
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> Be smelling ya!"}]
-
-#tp blue out
-
-tag @s[scores={DialogueTrigger=113,TalkTime=10..}] add Dialogue113
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue 114 - Four Island
@@ -547,25 +528,6 @@ tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"<Lorelei> I had no 
 
 tag @s[scores={DialogueTrigger=115,TalkTime=10..}] add Dialogue115
 
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 116 - Six Island
-#Blue in Pokemon Center
-#https://youtu.be/_6uv4msYJiM?t=59366
-
-tellraw @s[scores={DialogueTrigger=116,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> Hey, "},{"selector":"@s"},{"text":"! How's your Pokédex filling up?"}]
-tellraw @s[scores={DialogueTrigger=116,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> It looks like it's impossible to get all the Pokémon by hanging around just these parts."}]
-tellraw @s[scores={DialogueTrigger=116,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> Maybe there are Pokémon we don't know about somewhere far away..."}]
-tellraw @s[scores={DialogueTrigger=116,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> ... ... ... ... ... ... ... ... ..."}]
-tellraw @s[scores={DialogueTrigger=116,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> Well, if I can't do it, there's no way for you to get it done."}]
-tellraw @s[scores={DialogueTrigger=116,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> I'm not going to get all desperate over this."}]
-tellraw @s[scores={DialogueTrigger=116,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> I'll keep collecting Pokémon at my own pace while I train them."}]
-tellraw @s[scores={DialogueTrigger=116,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> That's what I'll do. So there's no point staying here."}]
-tellraw @s[scores={DialogueTrigger=116,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> I may as well leave for home. That's that, then!"}]
-tellraw @s[scores={DialogueTrigger=116,TalkTime=1}] ["",{"text":"<"},{"text":"Blue","color":"aqua"},{"text":"> Smell ya later!"}]
-
-#tps Blue out
-
-tag @s[scores={DialogueTrigger=116,TalkTime=10..}] add Dialogue116
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue 117 - Dotted Hole
@@ -807,8 +769,6 @@ tag @s[scores={DialogueTrigger=129,TalkTime=10..}] add Dialogue129
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #130-134 used in previous dialogues
 
-
-#Need to document Celio's Sapphire Return dialogue
 
 
 

@@ -247,5 +247,22 @@ execute as @s[x=4141,y=59,z=-1648,distance=..20,scores={PokemonLeague=1..}] run 
 #Overhearing the Rockets
 execute as @s[x=4113,y=59,z=-1610,distance=..20,tag=!Dialogue111] run opendialogue oneisland_rockets_dialogue111 @s
 
+#Four Island Chatting Blue
+execute as @s[x=4367,y=34,z=-3342,distance=..20,tag=!Dialogue113] unless entity @e[x=4367,y=34,z=-3342,dy=3,type=cobblemon:npc] run npcspawnat 4367 34 -3342 four_blue 1
+
+#Six Island Chatting Blur
+execute as @s[x=2836,y=40,z=-4316,distance=..20,tag=!Dialogue116] unless entity @e[x=2836,y=40,z=-4316,dy=3,type=cobblemon:npc] run npcspawnat 2836 40 -4316 six_blue 1
+
+
+
+
+
+
+
+
+
+
+
+
 
 #
