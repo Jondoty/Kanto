@@ -2244,7 +2244,11 @@ execute as @s[x=3097,y=52,z=-21,distance=..4,tag=!Cut] run tellraw @s {"text":"Y
 execute as @s[x=3097,y=52,z=-21,distance=..4,tag=!Cut] run playsound getitem ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=3097,y=52,z=-21,distance=..4,tag=!Cut] run tag @s add Cut
 
-
+execute as @s[x=3059,y=-8,z=-3001,dx=15,dy=5,dz=15,tag=ItemLoot398] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=3059,y=-8,z=-3001,dx=15,dy=5,dz=15,tag=!ItemLoot398] run function kanto:spawn/sapphire
+execute as @s[x=3059,y=-8,z=-3001,dx=15,dy=5,dz=15,tag=!ItemLoot398] run tellraw @s {"text":"You recieved the Sapphire!","italic":true,"color":"gray"}
+execute as @s[x=3059,y=-8,z=-3001,dx=15,dy=5,dz=15,tag=!ItemLoot398] run playsound getitem ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=3059,y=-8,z=-3001,dx=15,dy=5,dz=15,tag=!ItemLoot398] run tag @s add ItemLoot398
 
 
 

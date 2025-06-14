@@ -414,6 +414,7 @@ tp @s[x=3468,y=91,z=1895,dx=3,dy=5] 3508 121 1955
 execute as @s[x=3069,y=39,z=-3061,dx=3,dy=5,tag=Dialogue111,tag=!Dialogue117] run opendialogue rocketwarehouse_password1_only @s
 execute as @s[x=3069,y=39,z=-3061,dx=3,dy=5,tag=!Dialogue111,tag=Dialogue117] run opendialogue rocketwarehouse_password2_only @s
 execute as @s[x=3069,y=39,z=-3061,dx=3,dy=5,tag=Dialogue111,tag=Dialogue117,tag=!Dialogue118] run opendialogue rocketwarehouse_bothpasswords_dialogue118 @s
+execute as @s[x=3069,y=39,z=-3061,dx=3,dy=5,tag=Dialogue111,tag=Dialogue117,tag=!Dialogue118] run fill 3072 -9 -3045 3077 -9 -3043 minecraft:magenta_glazed_terracotta[facing=south]
 execute as @s[x=3069,y=39,z=-3061,dx=3,dy=5,tag=!Dialogue118] at @s run tp @s ~ ~ ~-3
 
 #Both passwords after dialogue

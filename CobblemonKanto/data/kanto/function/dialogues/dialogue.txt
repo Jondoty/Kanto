@@ -4,6 +4,7 @@
 #https://youtu.be/_6uv4msYJiM
 
 
+#This largely contains organized text for possible implentations, but large parts of existing dialogues are implemented elsewhere.
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -472,74 +473,6 @@ tellraw @s[scores={DialogueTrigger=107,TalkTime=1}] ["",{"text":"<Prof. Oak> Pok
 
 tag @s[scores={DialogueTrigger=107,TalkTime=10..}] add Dialogue107
 
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 119 - Rocket Warehouse
-#Admin post-battle
-#https://youtu.be/_6uv4msYJiM?t=61304
-
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Rocket Admin> You're doing things according to your beliefs and morals. I understand now..."}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Rocket Admin> I've made it so you can come back in through there."}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Rocket Admin> Why don't you go get rested and refreshed for what lies ahead?"}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Rocket Admin> The Admin after me outranks me thoroughly as a Trainer."}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Rocket Admin> You'd better steel yourself for one harsh challenge."}
-
-tag @s[scores={DialogueTrigger=119,TalkTime=10..}] add Dialogue119
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 120 - Rocket Warehouse
-#Second admin pre-battle
-#https://youtu.be/_6uv4msYJiM?t=61325
-
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Rocket Admin> That's quite enough of you playing the hero, kid."}
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Rocket Admin> Spreading lies about how Team Rocket has disbanded..."}
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Rocket Admin> It's such an obvious attempt to cause confusion in our ranks."}
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Rocket Admin> Fortunately, we're not so ignorant to fall for the lies of a child!"}
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Rocket Admin> And now, I'll show you how scary an angry adult can be!"}
-
-tag @s[scores={DialogueTrigger=120,TalkTime=10..}] add Dialogue120
-
-#-------------------
-#Dialogue 121 - Rocket Warehouse
-#Second admin post-battle
-
-tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] {"text":"<Rocket Admin> Urgh... You were too strong..."}
-tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] {"text":"<Rocket Admin> ..."}
-tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] {"text":"<Rocket Admin> Th-that's Giovanni's Badge!"}
-tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] {"text":"<Rocket Admin> So it's true? Team Rocket really has disbanded?"}
-tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] {"text":"<Rocket Admin> We will abandon this Warehouse..."}
-tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] {"text":"<Rocket Admin> But don't think this is over. I won't let this be the end."}
-tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] {"text":"<Rocket Admin> I will find Giovanni. And I will resurrect Team Rocket!"}
-tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] {"text":"<Rocket Admin> I will..."}
-tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] {"text":"<Rocket Admin> Until then, farewell!"}
-
-#Teleport Rocket to an uninfested HQ?
-
-tag @s[scores={DialogueTrigger=121,TalkTime=10..}] add Dialogue121
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 122 - Rocket Warehouse
-#Scientist with sapphire pre-battle
-#https://youtu.be/_6uv4msYJiM?t=61548
-
-tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<Gideon> I almost managed to sell the Sapphire for huge money..."}
-tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<Gideon> Then, you just had to come along and blow the whole deal apart!"}
-tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<Gideon> Fufu... Fufufufu... There's no forgiveness for you!"}
-
-tag @s[scores={DialogueTrigger=122,TalkTime=10..}] add Dialogue122
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Dialogue 123 - Rocket Warehouse
-#Scientist with sapphire post-battle
-#https://youtu.be/_6uv4msYJiM?t=61548
-
-Gah! Darn! Darn! Darn!
-
-If I can't sell it, it's worthless! Go ahead, take it!
-
-What do you want now? Go on, get lost, leave me be.
-
-tag @s[scores={DialogueTrigger=122,TalkTime=10..}] add Dialogue123
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Dialogue ??? - Memorial Pillar

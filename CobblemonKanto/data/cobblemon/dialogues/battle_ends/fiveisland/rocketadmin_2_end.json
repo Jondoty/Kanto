@@ -3,8 +3,8 @@
         "c.npc.set_chatting();",
         "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 1');",
         "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
-        "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $1,728 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
-        "q.run_command('scoreboard players add ' + q.player.username + ' Money 1728');"
+        "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $1,760 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+        "q.run_command('scoreboard players add ' + q.player.username + ' Money 1760');"
     ],
     "speakers": {
         "npc": {
@@ -22,7 +22,7 @@
             "id": "greeting",
             "speaker": "npc",
             "lines": [
-                "I… I'm shattered…"
+                "Urgh... You were too strong..."
             ],
             "input": {
                 "type": "option",
@@ -40,7 +40,7 @@
             "id": "page2",
             "speaker": "npc",
             "lines": [
-                "You're doing things according to your beliefs and morals. I understand now..."
+                "..."
             ],
             "input": {
                 "type": "option",
@@ -50,8 +50,6 @@
                         "text": "Next",
                         "value": "next",
                         "action": [
-                          "q.run_command('execute as ' + q.player.username + ' run playsound minecraft:entity.iron_golem.repair ambient @s ~ ~ ~ 1 1 1');",
-                          "q.run_command('fill 3072 -9 -3045 3077 -9 -3043 minecraft:magenta_glazed_terracotta[facing=north]');",
                           "q.dialogue.set_page('page3');"
                         ]
                     }
@@ -62,7 +60,7 @@
             "id": "page3",
             "speaker": "npc",
             "lines": [
-                "I've made it so you can come back in through there."
+                "Th-that's Giovanni's Badge!"
             ],
             "input": {
                 "type": "option",
@@ -80,7 +78,7 @@
             "id": "page4",
             "speaker": "npc",
             "lines": [
-                "Why don't you go get rested and refreshed for what lies ahead?"
+                "So it's true? Team Rocket really has disbanded?"
             ],
             "input": {
                 "type": "option",
@@ -98,7 +96,7 @@
             "id": "page5",
             "speaker": "npc",
             "lines": [
-                "The Admin after me outranks me thoroughly as a Trainer."
+                "We will abandon this Warehouse..."
             ],
             "input": {
                 "type": "option",
@@ -116,7 +114,61 @@
             "id": "page6",
             "speaker": "npc",
             "lines": [
-                "You'd better steel yourself for one harsh challenge."
+                "But don't think this is over. I won't let this be the end."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page7');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page7",
+            "speaker": "npc",
+            "lines": [
+                "I will find Giovanni. And I will resurrect Team Rocket!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page8');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page8",
+            "speaker": "npc",
+            "lines": [
+                "I will..."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page9');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page9",
+            "speaker": "npc",
+            "lines": [
+                "Until then, farewell!"
             ],
             "input": {
                 "type": "option",
@@ -126,6 +178,7 @@
                         "text": "Close",
                         "value": "close",
                         "action": [
+                            "q.run_command('tag ' + q.player.username + ' add Dialogue121');",
                             "q.dialogue.close();"
                         ]
                     }
@@ -134,6 +187,5 @@
         }
     ],
     "escapeAction": [
-        "q.dialogue.close();"
     ]
 }
