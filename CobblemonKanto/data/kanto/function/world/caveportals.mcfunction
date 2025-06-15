@@ -1468,12 +1468,95 @@ execute as @s[scores={CommandSuccess=1..}] run scoreboard players set @s StepCoo
 scoreboard players set @s CommandSuccess 0
 
 
+#--------------------------
+#Silph Takeover Shutters
+#Based on https://gamefaqs.gamespot.com/gba/918916-pokemon-leafgreen-version/map/3946?raw=1
+
+#reference shutters closed
+#x axis
+#clone 3903 41 1214 3899 44 1214
+
+#z axis
+#clone 3905 41 1208 3905 44 1212
+
+#2F
+execute as @p[x=4472,y=49,z=1816,distance=..10,tag=CardKey] run fill 4470 52 1816 4474 49 1816 air
+execute unless entity @p[x=4472,y=49,z=1816,distance=..10,tag=CardKey] run clone 3903 41 1214 3899 44 1214 4470 49 1816
+
+execute as @p[x=4472,y=49,z=1836,distance=..10,tag=CardKey] run fill 4474 52 1836 4470 49 1836 air
+execute unless entity @p[x=4472,y=49,z=1836,distance=..10,tag=CardKey] run clone 3903 41 1214 3899 44 1214 4470 49 1836
 
 
+#3F
+execute as @p[x=4428,y=62,z=1826,distance=..10,tag=CardKey] run fill 4428 62 1824 4428 65 1828 air
+execute unless entity @p[x=4428,y=62,z=1826,distance=..10,tag=CardKey] run clone 3905 41 1208 3905 44 1212 4428 62 1824
+
+execute as @p[x=4459,y=62,z=1826,distance=..10,tag=CardKey] run fill 4459 62 1824 4459 65 1828 air
+execute unless entity @p[x=4459,y=62,z=1826,distance=..10,tag=CardKey] run clone 3905 41 1208 3905 44 1212 4459 62 1824
 
 
+#4F
+execute as @p[x=4478,y=75,z=1811,distance=..10,tag=CardKey] run fill 4476 75 1811 4480 78 1811 air
+execute unless entity @p[x=4478,y=75,z=1811,distance=..10,tag=CardKey] run clone 3903 41 1214 3899 44 1214 4476 75 1811
+
+execute as @p[x=4448,y=75,z=1829,distance=..10,tag=CardKey] run fill 4446 75 1826 4450 78 1826 air
+execute unless entity @p[x=4448,y=75,z=1829,distance=..10,tag=CardKey] run clone 3903 41 1214 3899 44 1214 4446 75 1826
 
 
+#5F
+execute as @p[x=4467,y=88,z=1837,distance=..10,tag=CardKey] run fill 4467 91 1839 4467 88 1835 air
+execute unless entity @p[x=4467,y=88,z=1837,distance=..10,tag=CardKey] run clone 3905 41 1208 3905 44 1212 4467 88 1835
+
+execute as @p[x=4467,y=88,z=1810,distance=..10,tag=CardKey] run fill 4467 91 1812 4467 88 1808 air
+execute unless entity @p[x=4467,y=88,z=1810,distance=..10,tag=CardKey] run clone 3905 41 1208 3905 44 1212 4467 88 1808
+
+execute as @p[x=4436,y=88,z=1820,distance=..10,tag=CardKey] run fill 4436 88 1818 4436 91 1822 air
+execute unless entity @p[x=4436,y=88,z=1820,distance=..10,tag=CardKey] run clone 3905 41 1208 3905 44 1212 4436 88 1818
+
+
+#6F
+execute as @p[x=4461,y=101,z=1816,distance=..10,tag=CardKey] run fill 4461 101 1814 4461 104 1818 air
+execute unless entity @p[x=4461,y=101,z=1816,distance=..10,tag=CardKey] run clone 3905 41 1208 3905 44 1212 4461 101 1814
+
+
+#7F
+execute as @p[x=4445,y=114,z=1835,distance=..10,tag=CardKey] run fill 4443 114 1835 4447 117 1835 air
+execute unless entity @p[x=4445,y=114,z=1835,distance=..10,tag=CardKey] run clone 3903 41 1214 3899 44 1214 4443 114 1835
+
+execute as @p[x=4408,y=114,z=1838,distance=..10,tag=CardKey] run fill 4406 114 1838 4410 117 1838 air
+execute unless entity @p[x=4408,y=114,z=1838,distance=..10,tag=CardKey] run clone 3903 41 1214 3899 44 1214 4406 114 1838
+
+execute as @p[x=4405,y=114,z=1820,distance=..10,tag=CardKey] run fill 4403 114 1820 4407 117 1820 air
+execute unless entity @p[x=4405,y=114,z=1820,distance=..10,tag=CardKey] run clone 3903 41 1214 3899 44 1214 4403 114 1820
+
+
+#8F
+execute as @p[x=4452,y=127,z=1830,distance=..10,tag=CardKey] run fill 4452 127 1828 4452 130 1832 air
+execute unless entity @p[x=4452,y=127,z=1830,distance=..10,tag=CardKey] run clone 3905 41 1208 3905 44 1212 4452 127 1828
+
+
+#9F
+execute as @p[x=4458,y=140,z=1824,distance=..10,tag=CardKey] run fill 4458 140 1822 4458 143 1826 air
+execute unless entity @p[x=4458,y=140,z=1824,distance=..10,tag=CardKey] run clone 3905 41 1208 3905 44 1212 4458 140 1822
+
+execute as @p[x=4434,y=140,z=1811,distance=..10,tag=CardKey] run fill 4434 140 1809 4434 143 1813 air
+execute unless entity @p[x=4434,y=140,z=1811,distance=..10,tag=CardKey] run clone 3905 41 1208 3905 44 1212 4434 140 1809
+
+execute as @p[x=4408,y=140,z=1837,distance=..10,tag=CardKey] run fill 4406 140 1837 4410 143 1837 air
+execute unless entity @p[x=4408,y=140,z=1837,distance=..10,tag=CardKey] run clone 3903 41 1214 3899 44 1214 4406 140 1837
+
+execute as @p[x=4408,y=140,z=1822,distance=..10,tag=CardKey] run fill 4406 140 1822 4410 143 1822 air
+execute unless entity @p[x=4408,y=140,z=1822,distance=..10,tag=CardKey] run clone 3903 41 1214 3899 44 1214 4406 140 1822
+
+
+#10F
+execute as @p[x=4405,y=153,z=1826,distance=..10,tag=CardKey] run fill 4403 153 1826 4407 156 1826 air
+execute unless entity @p[x=4405,y=153,z=1826,distance=..10,tag=CardKey] run clone 3903 41 1214 3899 44 1214 4403 153 1826
+
+
+#11F
+execute as @p[x=4429,y=166,z=1811,distance=..10,tag=CardKey] run fill 4427 166 1811 4431 169 1811 air
+execute unless entity @p[x=4429,y=166,z=1811,distance=..10,tag=CardKey] run clone 3903 41 1214 3899 44 1214 4427 166 1811
 
 
 
