@@ -38,6 +38,10 @@ execute as @s[x=4472,y=33,z=832,dx=35,dy=7,dz=10,tag=!Giovanni] run opendialogue
 execute as @s[x=4472,y=33,z=832,dx=35,dy=7,dz=10,tag=!Giovanni] run tp @s 4490 34 826 0 5
 
 
+#Mt. Moon supernerd blocking without battling
+execute as @s[x=2552,y=45,z=1572,dx=20,dy=5,dz=10,tag=!ItemLoot48] run opendialogue mtmoon_fossilblock @s
+execute as @s[x=2552,y=45,z=1572,dx=20,dy=5,dz=10,tag=!ItemLoot48] at @s run tp @s ~ ~ ~-10
+
 #Cerulean City without getting SS Ticket
 execute as @s[x=3069,y=34,z=924,dx=4,dy=5,dz=10,tag=!Dialogue25] run opendialogue cerulean_officerjenny_interaction @s
 execute as @s[x=3069,y=34,z=924,dx=4,dy=5,dz=10,tag=!Dialogue25] run tp @s 3071 34 919 0 12
