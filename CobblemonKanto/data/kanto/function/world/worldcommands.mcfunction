@@ -93,12 +93,12 @@ execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custo
 
 #Runs battle music and post-battle events
 #Battle endings
-execute as @a[scores={BattleEnd=1..}] run function kanto:triggers/battles/battleend
+execute as @a[scores={BattleEnd=1..}] run function kanto:battles/battleend
 
 
 #Battle start and music
 execute as @a[scores={BattleStart=1..,MusicCooldown=0},tag=BattleMusicCooldown] run tag @s remove BattleMusicCooldown
-execute as @a[scores={BattleStart=1..},tag=!BattleMusicCooldown] run function kanto:triggers/battles/battlestart
+execute as @a[scores={BattleStart=1..},tag=!BattleMusicCooldown] run function kanto:battles/battlestart
 
 
 #Runs the click trigger if player uses Carrot on a Stick

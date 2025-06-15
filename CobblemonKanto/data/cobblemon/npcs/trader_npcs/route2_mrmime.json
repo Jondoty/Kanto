@@ -4,7 +4,7 @@
     "§lTrader Reyley"
   ],
   "presets": [
-    "trainer_basics"
+    "cobblemon:trainer_basics"
   ],
   "interaction": {
     "type": "dialogue",
