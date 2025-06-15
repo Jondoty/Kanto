@@ -1548,4 +1548,119 @@ execute as @e[x=4224,y=131,z=-3941,dx=4,dy=5,dz=3] at @s if block 4225 133 -3938
 execute as @e[x=4224,y=131,z=-3941,dx=4,dy=5,dz=3] at @s if block 4225 132 -3938 minecraft:stone_button[powered=true] run playsound minecraft:block.note_block.harp ambient @s ~ ~ ~ 100 1 1
 execute as @e[x=4224,y=131,z=-3941,dx=4,dy=5,dz=3] at @s if block 4225 132 -3938 minecraft:stone_button[powered=true] run tp @s ~-5 ~-98 ~8
 
+#--------------------------
+#Pokemon Mansion Shutters Puzzle
+
+#Clones x=axis shutters
+#clone 3894 41 1231 3903 45 1234
+
+#z-axis shutters
+#clone 3892 41 1233 3889 45 1224
+
+#1F shuttes that change (state when statue is at 0, off)
+#3910 51 1739 (x) (shut)
+#3893 51 1689 (x) (shut)
+#3877 51 1689 (x) (shut)
+#3880 51 1712 (x) (open)
+
+
+#2F
+#3920 65 1673 (z) (shut)
+#3867 65 1729 (x) (shut)
+#3913 65 1751 (z) (open)
+
+
+#3F
+#3880 79 1729 (x) (shut)
+#3874 79 1741 (z) (open)
+
+
+#B1F
+#3924 35 1711 (x) (open)
+#3966 35 1704 (x) (shut)
+#3986 35 1687 (z) (open)
+#3999 35 1738 (z) (shut)
+#
+
+#Each statue adds a score, then changes the shutters
+#scoreboard players add @e[x=3839,y=41,z=1158,dy=3] Click 1
+
+#resets if statue rolls over to 2
+execute as @e[x=3839,y=41,z=1158,dy=3,scores={Click=2..}] run scoreboard players set @s Click 0
+
+#1F
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] run clone 3894 41 1231 3903 45 1234 3893 51 1689
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] run clone 3894 51 1231 3903 55 1234 3893 51 1689
+
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] run clone 3894 41 1231 3903 45 1234 3893 51 1689
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] run clone 3894 51 1231 3903 55 1234 3893 51 1689
+
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] run clone 3894 41 1231 3903 45 1234 3877 51 1689
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] run clone 3894 51 1231 3903 55 1234 3877 51 1689
+
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] run clone 3894 51 1231 3903 55 1234 3880 51 1712
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] run clone 3894 41 1231 3903 45 1234 3880 51 1712
+
+#2F
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] run clone 3892 41 1233 3889 45 1224 3920 65 1673
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] run clone 3892 51 1233 3889 55 1224 3920 65 1673
+
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] run clone 3894 41 1231 3903 45 1234 3867 65 1729
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] run clone 3894 51 1231 3903 55 1234 3867 65 1729
+
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] run clone 3892 51 1233 3889 55 1224 3913 65 1751
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] run clone 3892 41 1233 3889 45 1224 3913 65 1751
+
+
+#3F
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] run clone 3894 41 1231 3903 45 1234 3880 79 1729
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] run clone 3894 51 1231 3903 55 1234 3880 79 1729
+
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] run clone 3892 51 1233 3889 55 1224 3874 79 1741
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] run clone 3892 41 1233 3889 45 1224 3874 79 1741
+
+
+#B1F
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] run clone 3894 51 1231 3903 55 1234 3924 35 1711
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] run clone 3894 41 1231 3903 45 1234 3924 35 1711
+
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] run clone 3894 41 1231 3903 45 1234 3966 35 1704
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] run clone 3894 51 1231 3903 55 1234 3966 35 1704
+
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] run clone 3892 51 1233 3889 55 1224 3986 35 1687
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] run clone 3892 41 1233 3889 45 1224 3986 35 1687
+
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] run clone 3892 41 1233 3889 45 1224 3999 35 1738
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] run clone 3892 51 1233 3889 55 1224 3999 35 1738
+
+
+#Notifies of the shutters changing
+execute if entity @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] if block 3972 54 1757 minecraft:lapis_block run tellraw @a[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] {"text":"The shutters changed!","italic":true,"color":"gray"}
+execute if entity @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] if block 3972 54 1757 minecraft:lapis_block run playsound minecraft:block.iron_door.close ambient @a[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] ~ ~ ~ 1 1 1
+
+execute if entity @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] if block 3972 54 1757 minecraft:fire_coral_block run tellraw @a[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] {"text":"The shutters changed!","italic":true,"color":"gray"}
+execute if entity @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] if block 3972 54 1757 minecraft:fire_coral_block run playsound minecraft:block.iron_door.close ambient @a[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] ~ ~ ~ 1 1 1
+
+
+#Changes the statues eye color
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] run setblock 3972 54 1757 minecraft:lapis_block
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] run setblock 3972 54 1757 minecraft:fire_coral_block
+
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] run setblock 3947 68 1722 minecraft:lapis_block
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] run setblock 3947 68 1722 minecraft:fire_coral_block
+
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] run setblock 3905 82 1754 minecraft:lapis_block
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] run setblock 3905 82 1754 minecraft:fire_coral_block
+
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] run setblock 3961 38 1687 minecraft:lapis_block
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] run setblock 3961 38 1687 minecraft:fire_coral_block
+
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=0}] run setblock 3951 38 1763 minecraft:lapis_block
+execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,z=1158,dy=3,scores={Click=1}] run setblock 3951 38 1763 minecraft:fire_coral_block
+
+
+
+
+
+
 #
