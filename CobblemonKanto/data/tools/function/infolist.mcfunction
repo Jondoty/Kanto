@@ -1,5 +1,5 @@
 #Current Map Version
-tellraw @s {"text":"1) Map version: Cobblemon Kanto 1.0.1"}
+tellraw @s {"text":"1) Map version: Cobblemon Kanto 1.1.0"}
 
 tag @s add infoverify
 
