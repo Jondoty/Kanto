@@ -181,6 +181,7 @@
                             "q.run_command('tp @e[x=4128,y=34,z=-713,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000');",
                             "q.run_command('tp ' + q.player.username + ' 4306 34 -2432 0 -9');",
                             "q.run_command('tag ' + q.player.username + ' add Dialogue78');",
+                            "q.run_command('execute as ' + q.player.username + ' run advancement grant @s only kanto:mainquests/seviiislands');",
                             "q.run_command('tag ' + q.player.username + ' add FlyOne');",
                             "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
                             "q.dialogue.close();"

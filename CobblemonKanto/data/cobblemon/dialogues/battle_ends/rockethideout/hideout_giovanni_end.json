@@ -138,6 +138,7 @@
                             "q.run_command('playsound minecraft:getitem ambient ' + q.player.username + ' ~ ~ ~ 1 1 1');",
                             "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"Using the Silph Scope you can now unveil ghosts!\",\"italic\":true,\"color\":\"gray\"}');",
                             "q.run_command('tag ' + q.player.username + ' add Dialogue44');",
+                            "q.run_command('execute as ' + q.player.username + ' run advancement grant @s only kanto:mainquests/rockethideout');",
                             "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
                             "q.dialogue.close();"
                         ]

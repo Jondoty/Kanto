@@ -55,6 +55,7 @@ execute as @s[scores={DialogueTrigger=58,TalkTime=8}] run data merge entity @e[x
 execute as @s[scores={DialogueTrigger=58,TalkTime=8}] run data modify entity @e[x=3716,y=34,z=475,distance=..5,type=cobblemon:pokemon,limit=1,name=Snorlax] Unbattleable set value 0b
 execute as @s[scores={DialogueTrigger=58,TalkTime=8}] run data remove entity @e[x=3716,y=34,z=475,distance=..5,type=cobblemon:pokemon,limit=1,name=Snorlax] Pokemon.Status
 
+execute as @s[scores={DialogueTrigger=58,TalkTime=9}] run advancement grant @s only kanto:sidequests/snorlax
 execute as @s[scores={DialogueTrigger=58,TalkTime=9}] run tellraw @s {"text":"The Poké Flute awakened sleeping Pokémon!","italic":true,"color":"gray"}
 tag @s[scores={DialogueTrigger=58,TalkTime=10..}] add Dialogue58
 
@@ -68,7 +69,8 @@ execute as @s[scores={DialogueTrigger=59,TalkTime=8}] run data merge entity @e[x
 execute as @s[scores={DialogueTrigger=59,TalkTime=8}] run data modify entity @e[x=2560,y=35,z=96,distance=..5,type=cobblemon:pokemon,limit=1,name=Snorlax] Unbattleable set value 0b
 execute as @s[scores={DialogueTrigger=59,TalkTime=8}] run data remove entity @e[x=2560,y=35,z=96,distance=..5,type=cobblemon:pokemon,limit=1,name=Snorlax] Pokemon.Status
 
-execute as @s[scores={DialogueTrigger=59,TalkTime=8}] run tellraw @s {"text":"The Poké Flute awakened sleeping Pokémon!","italic":true,"color":"gray"}
+execute as @s[scores={DialogueTrigger=59,TalkTime=9}] run advancement grant @s only kanto:sidequests/snorlax
+execute as @s[scores={DialogueTrigger=59,TalkTime=9}] run tellraw @s {"text":"The Poké Flute awakened sleeping Pokémon!","italic":true,"color":"gray"}
 tag @s[scores={DialogueTrigger=59,TalkTime=10..}] add Dialogue59
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

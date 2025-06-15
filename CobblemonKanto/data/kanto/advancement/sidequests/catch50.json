@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Serious Researcher",
+            "color": "white"
+        },
+        "description": {
+            "text": "Obtain or evolve 50 Pokemon"
+        },
+        "icon": {
+            "id": "cobblemon:exp_share"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+
+        "commandonly": {
+
+            "trigger": "minecraft:impossible"
+
+        }
+
+    },
+    "parent": "kanto:sidequests/catch10"
+}

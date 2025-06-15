@@ -2,5 +2,7 @@
 
 scoreboard players add @s PokeDex 1
 
+advancement grant @s[scores={PokeDex=10..}] only kanto:sidequests/catch10
+advancement grant @s[scores={PokeDex=50..}] only kanto:sidequests/catch50
 
 advancement revoke @s only kanto:advancement/catchany

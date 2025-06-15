@@ -334,6 +334,7 @@
                             "q.run_command('playsound minecraft:getitem ambient ' + q.player.username + ' ~ ~ ~ 1 1 1');",
                             "q.run_command('tag ' + q.player.username + ' add RainbowPass');",
                             "q.run_command('tag ' + q.player.username + ' add Dialogue109');",
+                            "q.run_command('execute as ' + q.player.username + ' run advancement grant @s only kanto:mainquests/ruby');",
                             "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
                             "q.dialogue.close();"
                         ]

@@ -9,7 +9,6 @@
 
 #Sevii Island Transport Destinations
 execute as @a[scores={TriggerCommand=90..99}] run effect give @s minecraft:blindness 3 1 true
-execute as @a[scores={TriggerCommand=90..99}] run advancement grant @s only kanto:sidequests/seviiislands
 
 #Vermilion
 execute as @a[scores={TriggerCommand=90}] run tp @s 3105 34 26 0 6

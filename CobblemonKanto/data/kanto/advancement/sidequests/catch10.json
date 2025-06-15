@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Poke Catcher",
+            "color": "white"
+        },
+        "description": {
+            "text": "Obtain or evolve 10 Pokemon"
+        },
+        "icon": {
+            "id": "cobblemon:great_ball"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+
+        "commandonly": {
+
+            "trigger": "minecraft:impossible"
+
+        }
+
+    },
+    "parent": "kanto:sidequests/sidequests"
+}

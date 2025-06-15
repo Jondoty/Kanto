@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Silph Saved",
+            "color": "white"
+        },
+        "description": {
+            "text": "Liberate Silph Co from the Rockets"
+        },
+        "icon": {
+            "id": "cobblemon:master_ball"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+
+        "commandonly": {
+
+            "trigger": "minecraft:impossible"
+
+        }
+
+    },
+    "parent": "kanto:mainquests/pokemontower"
+}
