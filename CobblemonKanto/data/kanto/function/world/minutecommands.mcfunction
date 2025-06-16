@@ -1,5 +1,13 @@
 #
 
+#Deletes duplicate Pokemon/Trainers if player relogs near where something respawns
+execute at @e[nbt={NoAI:1b},type=cobblemon:pokemon] unless entity @e[type=cobblemon:pokemon,tag=keeper] run tag @e[distance=..0.01,limit=1] add keeper
+execute at @e[type=cobblemon:npc] unless entity @e[type=cobblemon:npc,tag=keeper] run tag @e[distance=..0.01,limit=1] add keeper
+execute at @e[type=cobblemon:pokemon,tag=keeper] run kill @e[nbt={NoAI:1b},type=cobblemon:pokemon,distance=..0.01,tag=!keeper]
+execute at @e[type=cobblemon:npc,tag=keeper] run tp @e[type=cobblemon:npc,distance=..0.01,tag=!keeper] 10000000 -50000 -10000000
+tag @e[tag=keeper] remove keeper
+
+
 #Cooldown on the Pokemon Tower
 tag @a remove TowerCooldown
 
