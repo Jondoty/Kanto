@@ -126,12 +126,12 @@ execute as @s[x=4439,y=154,z=1642,distance=..10,tag=Dialogue44,tag=!Dialogue47] 
 
 #Sets up ghost if player has not spawned it themselves
 execute as @s[x=4439,y=154,z=1642,distance=..30,tag=Dialogue44,tag=!Dialogue47] unless entity @e[x=4439,y=154,z=1642,distance=..30,nbt={Pokemon:{Species:"cobblemon:ghost"}}] run particle minecraft:glow_squid_ink 4439 154 1642 2 2 2 0.5 100 normal
-execute as @s[x=4439,y=154,z=1642,distance=..30,tag=Dialogue44,tag=!Dialogue47] unless entity @e[x=4439,y=154,z=1642,distance=..30,nbt={Pokemon:{Species:"cobblemon:ghost"}}] run pokespawnat 4439 154 1642 ghost no_ai=yes level=30
+execute as @s[x=4439,y=154,z=1642,distance=..30,tag=Dialogue44,tag=!Dialogue47] unless entity @e[x=4439,y=154,z=1642,distance=..30,nbt={Pokemon:{Species:"cobblemon:ghost"}}] run pokespawnat 4439 154 1642 ghost no_ai=yes level=30 uncatchable=yes
 
 
 #Swaps out the ghost for a Marowak
-execute as @s[x=4439,y=154,z=1642,distance=..30,tag=Dialogue47] at @e[x=4439,y=154,z=1642,distance=..30,nbt={Pokemon:{Species:"cobblemon:ghost"}}] run particle minecraft:cloud 4439 154 1642 2 2 2 0.5 100 normal
-execute as @s[x=4439,y=154,z=1642,distance=..30,tag=Dialogue47] at @e[x=4439,y=154,z=1642,distance=..30,nbt={Pokemon:{Species:"cobblemon:ghost"}}] run pokespawnat 4439 154 1642 marowak level=30 uncatchable=yes
+execute as @s[x=4439,y=154,z=1642,distance=..30,tag=Dialogue47] at @e[x=4439,y=154,z=1642,distance=..10,nbt={Pokemon:{Species:"cobblemon:ghost"}}] unless entity @e[x=4439,y=154,z=1642,distance=..10,nbt={Pokemon:{Species:"cobblemon:marowak"}}] run particle minecraft:cloud 4439 154 1642 2 2 2 0.5 100 normal
+execute as @s[x=4439,y=154,z=1642,distance=..30,tag=Dialogue47] at @e[x=4439,y=154,z=1642,distance=..10,nbt={Pokemon:{Species:"cobblemon:ghost"}}] unless entity @e[x=4439,y=154,z=1642,distance=..10,nbt={Pokemon:{Species:"cobblemon:marowak"}}] run pokespawnat 4439 154 1642 marowak level=30 uncatchable=yes
 execute as @s[x=4439,y=154,z=1642,distance=..30,tag=Dialogue47] run tp @e[x=4439,y=154,z=1642,distance=..30,nbt={Pokemon:{Species:"cobblemon:ghost"}}] 10000000 -50000 -10000000
 
 
