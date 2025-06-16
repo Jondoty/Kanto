@@ -105,9 +105,9 @@ execute as @s[x=3449,y=0,z=482,dx=31,dy=44,dz=19,tag=!Dialogue42] unless entity 
 execute as @s[x=3449,y=0,z=482,dx=31,dy=44,dz=19,tag=!Dialogue42] run fill 3456 33 500 3452 33 501 minecraft:birch_planks
 
 #If trainer has been beaten
-execute as @s[x=3449,y=0,z=482,dx=31,dy=44,dz=19,tag=Dialogue42] run tp @e[x=3458,y=33,z=499,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
-execute as @s[x=3449,y=0,z=482,dx=31,dy=44,dz=19,tag=Dialogue42] run fill 3452 33 500 3455 33 501 air
-execute as @s[x=3449,y=0,z=482,dx=31,dy=44,dz=19,tag=Dialogue42] run fill 3456 33 500 3456 33 501 minecraft:quartz_stairs[facing=east]
+execute as @s[x=3449,y=0,z=482,dx=31,dy=44,dz=19,tag=Dialogue42] unless entity @a[x=3449,y=0,z=482,dx=31,dy=44,dz=19,tag=!Dialogue42] run tp @e[x=3458,y=33,z=499,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @s[x=3449,y=0,z=482,dx=31,dy=44,dz=19,tag=Dialogue42] unless entity @a[x=3449,y=0,z=482,dx=31,dy=44,dz=19,tag=!Dialogue42] run fill 3452 33 500 3455 33 501 air
+execute as @s[x=3449,y=0,z=482,dx=31,dy=44,dz=19,tag=Dialogue42] unless entity @a[x=3449,y=0,z=482,dx=31,dy=44,dz=19,tag=!Dialogue42] run fill 3456 33 500 3456 33 501 minecraft:quartz_stairs[facing=east]
 
 
 #Giovanni spawn/respawn
