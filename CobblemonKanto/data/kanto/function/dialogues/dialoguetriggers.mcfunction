@@ -50,6 +50,7 @@ execute as @s[x=3107,y=34,z=915,distance=..15,scores={StarterPick=3},tag=!Dialog
 #Cerulean Cape, Bill's House
 #Spawns a Clefairy statue
 execute as @s[x=2799,y=34,z=1148,distance=..20,tag=!Dialogue24] unless entity @e[x=2795,y=35,z=1164,dy=3,type=cobblemon:pokemon] run pokespawnat 2795 35 1164 clefairy no_ai=yes level=5
+execute as @s[x=2799,y=34,z=1148,distance=..20,tag=!Dialogue24] run tp @e[x=2795,y=34,z=1164,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000 
 execute as @s[x=2799,y=34,z=1148,distance=..20,tag=!Dialogue24] as @e[x=2795,y=35,z=1164,dy=3,type=cobblemon:pokemon,nbt={PersistenceRequired:0b}] at @s run tp @s ~ ~ ~ ~180 ~
 execute as @s[x=2799,y=34,z=1148,distance=..20,tag=!Dialogue24] as @e[x=2795,y=35,z=1164,dy=3,type=cobblemon:pokemon,nbt={PersistenceRequired:0b}] run data modify entity @s Invulnerable set value 1b
 execute as @s[x=2799,y=34,z=1148,distance=..20,tag=!Dialogue24] as @e[x=2795,y=35,z=1164,dy=3,type=cobblemon:pokemon,nbt={PersistenceRequired:0b}] run data modify entity @s Unbattleable set value 1b
