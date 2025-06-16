@@ -88,6 +88,13 @@ tag @s remove Biker3
 tag @s remove Biker4
 tag @s remove EmberGrunt1
 tag @s remove EmberGrunt2
+tag @s remove BridgeTrainer1
+tag @s remove BridgeTrainer2
+tag @s remove BridgeTrainer3
+tag @s remove BridgeTrainer4
+tag @s remove BridgeTrainer5
+tag @s remove BridgeTrainer6
+
 
 
 #Removes existing Quest tags

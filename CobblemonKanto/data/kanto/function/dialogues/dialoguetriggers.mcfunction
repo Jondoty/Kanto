@@ -46,6 +46,9 @@ execute as @s[x=3107,y=34,z=915,distance=..15,scores={StarterPick=1},tag=!Dialog
 execute as @s[x=3107,y=34,z=915,distance=..15,scores={StarterPick=2},tag=!Dialogue23] unless entity @e[x=3107,y=33,z=950,dy=3] run npcspawnat 3107 34 950 cerulean_blue2 1
 execute as @s[x=3107,y=34,z=915,distance=..15,scores={StarterPick=3},tag=!Dialogue23] unless entity @e[x=3107,y=33,z=950,dy=3] run npcspawnat 3107 34 950 cerulean_blue3 1
 
+#Rocket Grunt off of the bridge giving out price
+execute as @s[x=3102,y=34,z=1106,distance=..5,tag=BridgeTrainer1,tag=BridgeTrainer2,tag=BridgeTrainer3,tag=BridgeTrainer4,tag=BridgeTrainer5,tag=!BridgeTrainer6] run opendialogue teamrocket_alltrainers @s
+
 
 #Cerulean Cape, Bill's House
 #Spawns a Clefairy statue
