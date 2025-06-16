@@ -28,7 +28,7 @@
             "id": "greeting",
             "speaker": "oak",
             "lines": [
-                "Hey! Don't go away yet!"
+                "Hey! Don't go away yet! Click on a starter to pick one!"
             ],
             "input": {
                 "type": "option",

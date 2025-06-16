@@ -84,10 +84,10 @@ execute as @s[x=4274,y=25,z=-2363,dx=45,dy=13,dz=27] run tag @s add Indoors
 
 
 #Professor Oak's Laboratory
-execute as @s[x=4130,y=33,z=-167,dx=26,dy=9,dz=16] unless entity @s[scores={Location=75}] run title @s actionbar {"text":"Professor Oak's Laboratory"}
-execute as @s[x=4130,y=33,z=-167,dx=26,dy=9,dz=16] unless entity @s[scores={Location=75}] run function kanto:triggers/stopsound
-execute as @s[x=4130,y=33,z=-167,dx=26,dy=9,dz=16] unless entity @s[scores={Location=75}] run scoreboard players set @s Location 75
-execute as @s[x=4130,y=33,z=-167,dx=26,dy=9,dz=16] run tag @s add Indoors
+execute as @s[x=4130,y=33,z=-167,dx=26,dy=9,dz=16,tag=!InDialogue] unless entity @s[scores={Location=75}] run title @s actionbar {"text":"Professor Oak's Laboratory"}
+execute as @s[x=4130,y=33,z=-167,dx=26,dy=9,dz=16,tag=!InDialogue] unless entity @s[scores={Location=75}] run function kanto:triggers/stopsound
+execute as @s[x=4130,y=33,z=-167,dx=26,dy=9,dz=16,tag=!InDialogue] unless entity @s[scores={Location=75}] run scoreboard players set @s Location 75
+execute as @s[x=4130,y=33,z=-167,dx=26,dy=9,dz=16,tag=!InDialogue] run tag @s add Indoors
 
 #Pokemon Centers
 execute at @e[type=armor_stand,name=PokemonCenter] as @a[distance=..10] unless entity @s[scores={Location=200}] run title @s actionbar {"text":"Pokémon Center"}
@@ -287,9 +287,9 @@ execute as @s[x=4590,y=30,z=1785,dx=226,dy=50,dz=190] unless entity @s[scores={L
 
 
 #Kanto Route 1
-execute as @s[x=4100,y=0,z=-98,dx=127,dy=256,dz=199] unless entity @s[scores={Location=30}] run title @s actionbar {"text":"Route 1"}
-execute as @s[x=4100,y=0,z=-98,dx=127,dy=256,dz=199] unless entity @s[scores={Location=30}] run function kanto:triggers/stopsound
-execute as @s[x=4100,y=0,z=-98,dx=127,dy=256,dz=199] unless entity @s[scores={Location=30}] run scoreboard players set @s Location 30
+execute as @s[x=4100,y=0,z=-98,dx=127,dy=256,dz=199,tag=!InDialogue] unless entity @s[scores={Location=30}] run title @s actionbar {"text":"Route 1"}
+execute as @s[x=4100,y=0,z=-98,dx=127,dy=256,dz=199,tag=!InDialogue] unless entity @s[scores={Location=30}] run function kanto:triggers/stopsound
+execute as @s[x=4100,y=0,z=-98,dx=127,dy=256,dz=199,tag=!InDialogue] unless entity @s[scores={Location=30}] run scoreboard players set @s Location 30
 
 
 
@@ -560,9 +560,9 @@ execute as @s[x=2996,y=0,z=-4048,dx=169,dy=256,dz=383] unless entity @s[scores={
 
 
 #Pallet Town
-execute as @s[x=4101,y=0,z=-198,dx=126,dy=256,dz=99,tag=!Indoors] unless entity @s[scores={Location=68}] run title @s actionbar {"text":"Pallet Town"}
-execute as @s[x=4101,y=0,z=-198,dx=126,dy=256,dz=99,tag=!Indoors] unless entity @s[scores={Location=68}] run function kanto:triggers/stopsound
-execute as @s[x=4101,y=0,z=-198,dx=126,dy=256,dz=99,tag=!Indoors] unless entity @s[scores={Location=68}] run scoreboard players set @s Location 68
+execute as @s[x=4101,y=0,z=-198,dx=126,dy=256,dz=99,tag=!Indoors,tag=!InDialogue] unless entity @s[scores={Location=68}] run title @s actionbar {"text":"Pallet Town"}
+execute as @s[x=4101,y=0,z=-198,dx=126,dy=256,dz=99,tag=!Indoors,tag=!InDialogue] unless entity @s[scores={Location=68}] run function kanto:triggers/stopsound
+execute as @s[x=4101,y=0,z=-198,dx=126,dy=256,dz=99,tag=!Indoors,tag=!InDialogue] unless entity @s[scores={Location=68}] run scoreboard players set @s Location 68
 
 
 
