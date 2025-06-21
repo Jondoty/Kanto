@@ -83,7 +83,7 @@ execute positioned 2560 34.5 96 as @e[distance=..5,type=cobblemon:pokemon,name=S
 
 
 #Celadon Snorlax
-execute as @a[x=3716,y=34,z=475,distance=..30,tag=!Dialogue59] unless entity @e[x=3716,y=34,z=475,distance=..5,type=cobblemon:pokemon] run pokespawnat 3716 34 475.0 snorlax no_ai=true level=30 status=sleep held_item=cobblemon:leftovers
+execute as @a[x=3716,y=34,z=475,distance=..30,tag=!Dialogue58] unless entity @e[x=3716,y=34,z=475,distance=..5,type=cobblemon:pokemon] run pokespawnat 3716 34 475.0 snorlax no_ai=true level=30 status=sleep held_item=cobblemon:leftovers
 execute positioned 3716 34 475.0 as @e[distance=..5,type=cobblemon:pokemon,name=Snorlax,nbt={PersistenceRequired:0b}] run data merge entity @s {Pokemon:{PokemonData:["uncatchable"]}}
 execute positioned 3716 34 475.0 as @e[distance=..5,type=cobblemon:pokemon,name=Snorlax,nbt={PersistenceRequired:0b}] run data modify entity @s Unbattleable set value 1b
 execute positioned 3716 34 475.0 as @e[distance=..5,type=cobblemon:pokemon,name=Snorlax,nbt={PersistenceRequired:0b}] run data modify entity @s Invulnerable set value 1b

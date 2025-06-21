@@ -200,9 +200,9 @@ execute as @s[x=4334,y=34,z=197,distance=..15,scores={StarterPick=3},tag=Giovann
 #Elite Four Blue, swaps out depending on the player's scores
 #First track
 #TPs out Blue that's existing if they don't have matching Pokemon
-execute as @s[x=4608,y=23,z=1183,distance=..10,tag=!Blue,scores={StarterPick=1}] unless entity @a[x=4595,y=23,z=1221,dx=26,dy=10,dz=33,scores={BattleStart=0}] unless entity @e[x=4608,y=23,z=1241,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:elite_blue1"}] run tp @e[x=4608,y=23,z=1241,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
-execute as @s[x=4608,y=23,z=1183,distance=..10,tag=!Blue,scores={StarterPick=2}] unless entity @a[x=4595,y=23,z=1221,dx=26,dy=10,dz=33,scores={BattleStart=0}] unless entity @e[x=4608,y=23,z=1241,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:elite_blue2"}] run tp @e[x=4608,y=23,z=1241,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
-execute as @s[x=4608,y=23,z=1183,distance=..10,tag=!Blue,scores={StarterPick=3}] unless entity @a[x=4595,y=23,z=1221,dx=26,dy=10,dz=33,scores={BattleStart=0}] unless entity @e[x=4608,y=23,z=1241,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:elite_blue3"}] run tp @e[x=4608,y=23,z=1241,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @s[x=4608,y=23,z=1183,distance=..10,tag=!Blue,scores={StarterPick=1}] unless entity @a[x=4595,y=23,z=1221,dx=26,dy=10,dz=33,scores={BattleStart=1..}] unless entity @e[x=4608,y=23,z=1241,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:elite_blue1"}] run tp @e[x=4608,y=23,z=1241,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @s[x=4608,y=23,z=1183,distance=..10,tag=!Blue,scores={StarterPick=2}] unless entity @a[x=4595,y=23,z=1221,dx=26,dy=10,dz=33,scores={BattleStart=1..}] unless entity @e[x=4608,y=23,z=1241,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:elite_blue2"}] run tp @e[x=4608,y=23,z=1241,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @s[x=4608,y=23,z=1183,distance=..10,tag=!Blue,scores={StarterPick=3}] unless entity @a[x=4595,y=23,z=1221,dx=26,dy=10,dz=33,scores={BattleStart=1..}] unless entity @e[x=4608,y=23,z=1241,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:elite_blue3"}] run tp @e[x=4608,y=23,z=1241,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
 
 #Spawns in new Blue
 execute as @s[x=4608,y=23,z=1183,distance=..10,tag=!Blue,scores={StarterPick=1}] unless entity @e[x=4608,y=23,z=1241,dy=3,type=cobblemon:npc] run npcspawnat 4608 24 1241 elite_blue1 1
@@ -212,9 +212,9 @@ execute as @s[x=4608,y=23,z=1183,distance=..10,tag=!Blue,scores={StarterPick=3}]
 
 #Rematch Track
 #TPs out Blue that's existing if they don't have matching Pokemon
-execute as @s[x=4608,y=0,z=1183,distance=..10,tag=!Blue,scores={StarterPick=1}] unless entity @a[x=4595,y=0,z=1221,dx=26,dy=10,dz=33,scores={BattleStart=0}] unless entity @e[x=4608,y=1,z=1241,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:elite_blue1_rematch"}] run tp @e[x=4608,y=1,z=1241,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
-execute as @s[x=4608,y=0,z=1183,distance=..10,tag=!Blue,scores={StarterPick=2}] unless entity @a[x=4595,y=0,z=1221,dx=26,dy=10,dz=33,scores={BattleStart=0}] unless entity @e[x=4608,y=1,z=1241,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:elite_blue2_rematch"}] run tp @e[x=4608,y=1,z=1241,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
-execute as @s[x=4608,y=0,z=1183,distance=..10,tag=!Blue,scores={StarterPick=3}] unless entity @a[x=4595,y=0,z=1221,dx=26,dy=10,dz=33,scores={BattleStart=0}] unless entity @e[x=4608,y=1,z=1241,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:elite_blue3_rematch"}] run tp @e[x=4608,y=1,z=1241,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @s[x=4608,y=0,z=1183,distance=..10,tag=!Blue,scores={StarterPick=1}] unless entity @a[x=4595,y=0,z=1221,dx=26,dy=10,dz=33,scores={BattleStart=1..}] unless entity @e[x=4608,y=1,z=1241,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:elite_blue1_rematch"}] run tp @e[x=4608,y=1,z=1241,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @s[x=4608,y=0,z=1183,distance=..10,tag=!Blue,scores={StarterPick=2}] unless entity @a[x=4595,y=0,z=1221,dx=26,dy=10,dz=33,scores={BattleStart=1..}] unless entity @e[x=4608,y=1,z=1241,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:elite_blue2_rematch"}] run tp @e[x=4608,y=1,z=1241,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @s[x=4608,y=0,z=1183,distance=..10,tag=!Blue,scores={StarterPick=3}] unless entity @a[x=4595,y=0,z=1221,dx=26,dy=10,dz=33,scores={BattleStart=1..}] unless entity @e[x=4608,y=1,z=1241,dy=3,type=cobblemon:npc,nbt={NPCClass:"cobblemon:elite_blue3_rematch"}] run tp @e[x=4608,y=1,z=1241,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
 
 #Spawns in new Blue
 execute as @s[x=4608,y=0,z=1183,distance=..10,tag=!Blue,scores={StarterPick=1}] unless entity @e[x=4608,y=1,z=1241,dy=3,type=cobblemon:npc] run npcspawnat 4608 1 1241 elite_blue1_rematch 1
@@ -266,9 +266,12 @@ execute as @s[x=3470,y=91,z=1929,distance=..10,tag=!Dialogue110,tag=!Dialogue114
 execute as @s[x=3470,y=91,z=1902,distance=..10,tag=Dialogue110] run tp @e[x=3472,y=91,z=1928,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
 
 
+#Sevii Island Hides or Respawns Ruby and Sapphire for nearest player
+execute as @p[x=4120,y=39,z=1873,distance=..25,tag=ItemLoot297] run kill @e[x=4120,y=39,z=1873,distance=..1,type=item]
+execute as @p[x=4120,y=39,z=1873,distance=..25,tag=!ItemLoot297] unless entity @e[x=4120,y=39,z=1873,distance=..1,type=item] run summon item 4120 39 1873 {Item:{id:"minecraft:music_disc_chirp",Count:1},PickupDelay:32767,Age:-32768}
 
-
-
+execute as @p[x=4119,y=40,z=1743,distance=..25,tag=Dialogue117] run kill @e[x=4119,y=40,z=1743,distance=..1,type=item]
+execute as @p[x=4119,y=40,z=1743,distance=..25,tag=!Dialogue117] unless entity @e[x=4119,y=40,z=1743,distance=..1,type=item] run summon item 4119 40 1743 {Item:{id:"minecraft:music_disc_far",Count:1},PickupDelay:32767,Age:-32768}
 
 
 #

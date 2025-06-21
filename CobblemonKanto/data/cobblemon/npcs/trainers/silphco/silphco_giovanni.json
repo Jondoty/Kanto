@@ -11,7 +11,7 @@
         "type": "simple",
         "pokemon": [
             "Nidorino level=32 moves=hornattack,poisonsting,helpinghand,furyattack",
-            "Rhyhorn level=32, moves=furyattack,scaryface,stomp,rockblast",
+            "Rhyhorn level=32 moves=furyattack,scaryface,stomp,rockblast",
             "Kangaskhan level=32 moves=fakeout,rage,megapunch,tailwhip",
             "Nidoqueen level=32 moves=doublekick,tailwhip,poisonsting,bodyslam"
         ]

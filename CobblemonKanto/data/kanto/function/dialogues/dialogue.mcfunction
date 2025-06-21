@@ -20,21 +20,23 @@ execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run function kanto:trigge
 execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run pokeheal
 
 tellraw @s[scores={DialogueTrigger=106,TalkTime=5}] {"text":"Congratulations, you have completed the Indigo League!"}
-tellraw @s[scores={DialogueTrigger=106,TalkTime=15}] {"text":"Map Creator, builder, commands: Jond."}
-tellraw @s[scores={DialogueTrigger=106,TalkTime=25}] {"text":"Ozzy & crew, massive revamp of the Kanto mainland."}
-tellraw @s[scores={DialogueTrigger=106,TalkTime=35}] {"text":"Modelers: Ozzy, AbstractJoker."}
-tellraw @s[scores={DialogueTrigger=106,TalkTime=45}] {"text":"Custom builder: Lylied."}
-tellraw @s[scores={DialogueTrigger=106,TalkTime=55}] {"text":"Playtest helper: H3rodude"}
-tellraw @s[scores={DialogueTrigger=106,TalkTime=65}] {"text":"Map is based off of: FireRed and LeafGreen"}
-tellraw @s[scores={DialogueTrigger=106,TalkTime=75}] {"text":"Check out my other projects if you enjoyed!"}
-tellraw @s[scores={DialogueTrigger=106,TalkTime=75}] ["",{"text":"["},{"text":"Pixelmon Hoenn","color":"aqua","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/pixelmon-hoenn"}},{"text":"] ["},{"text":"Pixelmon Kalos","color":"yellow","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/pixelmon-kalos"}},{"text":"] ["},{"text":"Cobblemon Johto","color":"red","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/cobblemon-johto"}},{"text":"]"}]
-tellraw @s[scores={DialogueTrigger=106,TalkTime=85}] {"text":"Special thanks to Dan and John who played this Kanto world with me all those years ago."}
+tellraw @s[scores={DialogueTrigger=106,TalkTime=15}] {"text":"You can now play additional story in the Sevii Islands!"}
+tellraw @s[scores={DialogueTrigger=106,TalkTime=25}] {"text":"Map Creator, builder, commands: Jond."}
+tellraw @s[scores={DialogueTrigger=106,TalkTime=35}] {"text":"Ozzy & crew, massive revamp of the Kanto mainland."}
+tellraw @s[scores={DialogueTrigger=106,TalkTime=45}] {"text":"Modelers: Ozzy, AbstractJoker."}
+tellraw @s[scores={DialogueTrigger=106,TalkTime=55}] {"text":"Custom builder: Lylied."}
+tellraw @s[scores={DialogueTrigger=106,TalkTime=65}] {"text":"Playtest helper: H3rodude"}
+tellraw @s[scores={DialogueTrigger=106,TalkTime=75}] {"text":"Map is based off of: FireRed and LeafGreen"}
+tellraw @s[scores={DialogueTrigger=106,TalkTime=85}] {"text":"Check out my other projects if you enjoyed!"}
+tellraw @s[scores={DialogueTrigger=106,TalkTime=85}] ["",{"text":"["},{"text":"Pixelmon Hoenn","color":"aqua","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/pixelmon-hoenn"}},{"text":"] ["},{"text":"Pixelmon Kalos","color":"yellow","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/pixelmon-kalos"}},{"text":"] ["},{"text":"Cobblemon Johto","color":"red","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/cobblemon-johto"}},{"text":"]"}]
+tellraw @s[scores={DialogueTrigger=106,TalkTime=95}] {"text":"Special thanks to Dan and John who played this Kanto world with me all those years ago."}
 
 #runs legendary reset function
 #tbd
 
 #On player's second run through the E4, shows a finished title
 execute as @s[scores={DialogueTrigger=106,TalkTime=110,PokemonLeague=2}] run title @s title {"text":"The End."}
+execute as @s[scores={DialogueTrigger=106,TalkTime=110,PokemonLeague=2}] run advancement grant @s only kanto:badges/champion2
 
 #tps the player to Pallet Town
 execute as @s[scores={DialogueTrigger=106,TalkTime=108}] run effect give @s minecraft:blindness 4 1 true

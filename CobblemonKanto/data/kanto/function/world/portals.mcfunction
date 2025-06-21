@@ -279,6 +279,9 @@ execute as @s[x=4456,y=61,z=1118,dx=4,dy=3] run tag @s remove Lance
 execute as @s[x=4456,y=61,z=1118,dx=4,dy=3] run tag @s remove Lorelei
 execute as @s[x=4456,y=61,z=1118,dx=4,dy=3] run tag @s remove Blue
 
+#Fallback for if player no longer has a StarterPick score for some reason
+execute as @s[x=4456,y=61,z=1118,dx=4,dy=3] unless entity @s[scores={StarterPick=1..}] run scoreboard players set @s StarterPick 1
+
 #Main Door
 #Kicks player back if they are between story beats in the Sevii Island post-game
 execute as @s[x=4456,y=61,z=1118,dx=4,dy=3,scores={PokemonLeague=1},tag=!Dialogue110] run opendialogue indigo_aromalady_blocked_interaction @s
