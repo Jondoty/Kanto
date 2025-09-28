@@ -10,9 +10,9 @@ execute as @s[x=4143,y=34,z=-156,distance=..6,scores={StarterPick=1..}] run open
 execute as @s[x=4143,y=34,z=-156,distance=..6,scores={StarterPick=1..},tag=Dialogue5,tag=!Dialogue6] run opendialogue oak_parcel_dialogue6 @s
 
 #If player can obtain one of his items
-execute as @s[x=4143,y=34,z=-156,distance=..6,scores={StarterPick=1..,PokeDex=10..},tag=!Dialogue35] run opendialogue pallet_oak_flash @s
-execute as @s[x=4143,y=34,z=-156,distance=..6,scores={StarterPick=1..,PokeDex=20..},tag=!Dialogue39] run opendialogue pallet_oak_everstone @s
-execute as @s[x=4143,y=34,z=-156,distance=..6,scores={StarterPick=1..,PokeDex=50..},tag=!Dialogue66] run opendialogue pallet_oak_expshare @s
+execute as @s[x=4143,y=34,z=-156,distance=..6,scores={StarterPick=1..,PokeDex=10..},tag=Dialogue6,tag=!Dialogue35] run opendialogue pallet_oak_flash @s
+execute as @s[x=4143,y=34,z=-156,distance=..6,scores={StarterPick=1..,PokeDex=20..},tag=Dialogue6,tag=!Dialogue39] run opendialogue pallet_oak_everstone @s
+execute as @s[x=4143,y=34,z=-156,distance=..6,scores={StarterPick=1..,PokeDex=50..},tag=Dialogue6,tag=!Dialogue66] run opendialogue pallet_oak_expshare @s
 
 #Oak's Rainbow Pass custom after E4
 #execute as @s[x=4143,y=34,z=-156,distance=..6,scores={StarterPick=1..,PokemonLeague=1..},tag=!RainbowPass] run opendialogue pallet_oak_rainbowpass @s
