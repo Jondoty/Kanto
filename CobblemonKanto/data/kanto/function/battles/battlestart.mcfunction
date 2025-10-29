@@ -63,17 +63,40 @@ execute as @s[tag=!RadioOff,scores={BattleStart=16}] run stopsound @s record
 execute as @s[tag=!RadioOff,scores={BattleStart=16}] run playsound battlerivalfinal record @s ~ ~ ~ 1 1 1
 execute as @s[tag=!RadioOff,scores={BattleStart=16}] run scoreboard players set @s MusicCooldown 219
 
+
 #17 - Wild battle
-execute as @s[tag=!RadioOff,scores={BattleStart=17}] run stopsound @s record
-execute as @s[tag=!RadioOff,scores={BattleStart=17}] run playsound battlewild record @s ~ ~ ~ 1 1 1
-execute as @s[tag=!RadioOff,scores={BattleStart=17}] run scoreboard players set @s MusicCooldown 127
 
+#Legendary specific battles
+#Tags if specific wild species are nearby
+execute as @s[scores={BattleStart=17}] at @s if entity @e[distance=..30,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:articuno",PokemonOriginalTrainerType:"NONE"}}] run tag @s add KantoLegendary
+execute as @s[scores={BattleStart=17}] at @s if entity @e[distance=..30,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:zapdos",PokemonOriginalTrainerType:"NONE"}}] run tag @s add KantoLegendary
+execute as @s[scores={BattleStart=17}] at @s if entity @e[distance=..30,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:moltres",PokemonOriginalTrainerType:"NONE"}}] run tag @s add KantoLegendary
+execute as @s[scores={BattleStart=17}] at @s if entity @e[distance=..30,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:mewtwo",PokemonOriginalTrainerType:"NONE"}}] run tag @s add KantoLegendary
 
+execute as @s[scores={BattleStart=17}] at @s if entity @e[distance=..30,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:deoxys",PokemonOriginalTrainerType:"NONE"}}] run tag @s add LegendaryDeoxys
 
+#legendary
+execute as @s[tag=!RadioOff,scores={BattleStart=17,MusicCooldown=0},tag=LegendaryDeoxys] run stopsound @s record
+execute as @s[tag=!RadioOff,scores={BattleStart=17,MusicCooldown=0},tag=LegendaryDeoxys] run playsound battledeoxys record @s ~ ~ ~ 1 1 1
+execute as @s[tag=!RadioOff,scores={BattleStart=17,MusicCooldown=0},tag=LegendaryDeoxys] run scoreboard players set @s MusicCooldown 226
+
+execute as @s[tag=!RadioOff,scores={BattleStart=17,MusicCooldown=0},tag=KantoLegendary] run stopsound @s record
+execute as @s[tag=!RadioOff,scores={BattleStart=17,MusicCooldown=0},tag=KantoLegendary] run playsound battlelegend record @s ~ ~ ~ 1 1 1
+execute as @s[tag=!RadioOff,scores={BattleStart=17,MusicCooldown=0},tag=KantoLegendary] run scoreboard players set @s MusicCooldown 80
+
+#General Wilds
+execute as @s[tag=!RadioOff,scores={BattleStart=17,MusicCooldown=0}] run stopsound @s record
+execute as @s[tag=!RadioOff,scores={BattleStart=17,MusicCooldown=0}] run playsound battlewild record @s ~ ~ ~ 1 1 1
+execute as @s[tag=!RadioOff,scores={BattleStart=17,MusicCooldown=0}] run scoreboard players set @s MusicCooldown 127
 
 
 #Adds a cooldown tag to not loop until player hits MusicCooldown 0 again
 tag @s add BattleMusicCooldown
+
+
+
+tag @s remove KantoLegendary
+tag @s remove LegendaryDeoxys
 
 
 

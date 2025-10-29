@@ -1,0 +1,44 @@
+{
+    "initializationAction": [
+        "q.run_command('playsound cobblemon:pokemon.hooh.cry ambient ' + q.player.username + ' ~ ~ ~ 1 1 1');"
+    ],
+    "escapeAction": [],
+    "speakers": {
+        "pokemon": {
+            "name": "Ho-oh",
+            "face": {
+                "type": "artificial",
+                "modelType": "pokemon",
+                "identifier": "cobblemon:hooh",
+                "isLeftSide": true
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "pokemon",
+            "lines": [
+                "Hraa-Kyaa-OOOHH!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.dialogue.close();",
+                            "q.run_command('data merge entity @e[x=3651,y=41,z=1748,distance=..5,type=cobblemon:pokemon,limit=1,nbt={Pokemon:{Species:\"cobblemon:hooh\"}}] {Pokemon:{PokemonData:[\"catchable\"]}}');",
+                            "q.run_command('data merge entity @e[x=3651,y=41,z=1748,distance=..5,type=cobblemon:pokemon,limit=1,nbt={Pokemon:{Species:\"cobblemon:hooh\"}}] {NoAI:0b}');",
+                            "q.run_command('data modify entity @e[x=3651,y=41,z=1748,distance=..5,type=cobblemon:pokemon,limit=1,nbt={Pokemon:{Species:\"cobblemon:hooh\"}}] Unbattleable set value 0b');",
+                            "q.run_command('kill @e[x=3651,y=41,z=1748,distance=..5,type=minecraft:interaction]');",
+                            "q.run_command('tag ' + q.player.username + ' add HoohEncounter');"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

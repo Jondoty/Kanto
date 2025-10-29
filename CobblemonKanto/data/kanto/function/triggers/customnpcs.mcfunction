@@ -126,6 +126,19 @@ execute as @s[x=4283,y=28,z=-2355,distance=..5,scores={PokemonLeague=1..},tag=!D
 execute as @s[x=4283,y=28,z=-2355,distance=..5,tag=Dialogue110] run opendialogue oneisland_celio_done @s
 
 
+#----------------------------------------------
+#Legendary Encounters
+execute as @s[x=3651,y=41,z=1748,distance=..10] run opendialogue articuno_encounter @s
+execute as @s[x=4750,y=35,z=1933,distance=..10] run opendialogue zapdos_encounter @s
+execute as @s[x=4179,y=154,z=-1370,distance=..10] run opendialogue moltres_encounter @s
+execute as @s[x=2968,y=46,z=1902,distance=..10] run opendialogue mewtwo_encounter @s
+execute as @s[x=3733,y=49,z=-3594,distance=..10] run opendialogue deoxys_encounter @s
+
+#Ho-oh, Lugia tbd when built
+
+
+
+
 
 advancement revoke @s only kanto:advancement/click/npcs
 
