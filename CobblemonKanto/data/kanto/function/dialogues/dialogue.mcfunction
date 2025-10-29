@@ -32,7 +32,7 @@ tellraw @s[scores={DialogueTrigger=106,TalkTime=85}] ["",{"text":"["},{"text":"P
 tellraw @s[scores={DialogueTrigger=106,TalkTime=95}] {"text":"Special thanks to Dan and John who played this Kanto world with me all those years ago."}
 
 #runs legendary reset function
-#tbd
+execute as @s[scores={DialogueTrigger=106,TalkTime=102}] run function kanto:triggers/legendaryreset
 
 #On player's second run through the E4, shows a finished title
 execute as @s[scores={DialogueTrigger=106,TalkTime=110,PokemonLeague=2}] run title @s title {"text":"The End."}
