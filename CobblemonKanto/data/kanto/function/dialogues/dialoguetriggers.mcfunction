@@ -187,7 +187,7 @@ execute as @s[x=2845,y=39,z=-1563,distance=..50,tag=Biker1,tag=Biker2,tag=Biker3
 execute as @s[x=3382,y=39,z=-1408,distance=..15,tag=!Dialogue87] unless entity @e[x=3390,y=39,z=-1353,dy=3,type=cobblemon:npc] run npcspawnat 3390 39 -1353 three_lostelle 1
 
 #Near Lostelle without a Hypno being found
-execute as @s[x=3390,y=39,z=-1353,distance=..15,tag=Dialogue87,tag=!Dialogue88,scores={BattleStart=0}] unless entity @e[x=3377,y=39,z=-1357,dx=18,dy=5,dz=18,type=cobblemon:pokemon,name=Hypno] run opendialogue threeisland_lostelle_dialogue88 @s
+execute as @s[x=3390,y=39,z=-1353,distance=..15,tag=Dialogue87,tag=!Dialogue88,scores={BattleStart=0}] unless entity @e[x=3377,y=39,z=-1357,dx=18,dy=5,dz=18,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:hypno"}}] run opendialogue threeisland_lostelle_dialogue88 @s
 
 #Bill taking player back to Cinnabar after Lostelle's returned
 execute as @s[x=4285,y=28,z=-2356,distance=..5,tag=Dialogue88,tag=!Dialogue90] run opendialogue oneisland_bill_dialogue90 @s

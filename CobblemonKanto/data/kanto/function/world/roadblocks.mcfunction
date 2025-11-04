@@ -76,18 +76,18 @@ execute as @s[x=4435,y=154,z=1627,dx=8,dy=10,dz=12,tag=!Dialogue44] run tp @s 44
 #Sleeping Snorlaxes
 #Route 11
 execute as @a[x=2560,y=35,z=96,distance=..30,tag=!Dialogue59] unless entity @e[x=2560,y=35,z=96,distance=..5,type=cobblemon:pokemon] run pokespawnat 2560 34.5 96 snorlax no_ai=true level=30 status=sleep held_item=cobblemon:leftovers
-execute positioned 2560 34.5 96 as @e[distance=..5,type=cobblemon:pokemon,name=Snorlax,nbt={PersistenceRequired:0b}] run data merge entity @s {Pokemon:{PokemonData:["uncatchable"]}}
-execute positioned 2560 34.5 96 as @e[distance=..5,type=cobblemon:pokemon,name=Snorlax,nbt={PersistenceRequired:0b}] run data modify entity @s Unbattleable set value 1b
-execute positioned 2560 34.5 96 as @e[distance=..5,type=cobblemon:pokemon,name=Snorlax,nbt={PersistenceRequired:0b}] run data modify entity @s Invulnerable set value 1b
-execute positioned 2560 34.5 96 as @e[distance=..5,type=cobblemon:pokemon,name=Snorlax,nbt={PersistenceRequired:0b}] run data modify entity @s PersistenceRequired set value 1
+execute positioned 2560 34.5 96 as @e[distance=..5,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:snorlax"}},nbt={PersistenceRequired:0b}] run data merge entity @s {Pokemon:{PokemonData:["uncatchable"]}}
+execute positioned 2560 34.5 96 as @e[distance=..5,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:snorlax"}},nbt={PersistenceRequired:0b}] run data modify entity @s Unbattleable set value 1b
+execute positioned 2560 34.5 96 as @e[distance=..5,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:snorlax"}},nbt={PersistenceRequired:0b}] run data modify entity @s Invulnerable set value 1b
+execute positioned 2560 34.5 96 as @e[distance=..5,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:snorlax"}},nbt={PersistenceRequired:0b}] run data modify entity @s PersistenceRequired set value 1
 
 
 #Celadon Snorlax
 execute as @a[x=3716,y=34,z=475,distance=..30,tag=!Dialogue58] unless entity @e[x=3716,y=34,z=475,distance=..5,type=cobblemon:pokemon] run pokespawnat 3716 34 475.0 snorlax no_ai=true level=30 status=sleep held_item=cobblemon:leftovers
-execute positioned 3716 34 475.0 as @e[distance=..5,type=cobblemon:pokemon,name=Snorlax,nbt={PersistenceRequired:0b}] run data merge entity @s {Pokemon:{PokemonData:["uncatchable"]}}
-execute positioned 3716 34 475.0 as @e[distance=..5,type=cobblemon:pokemon,name=Snorlax,nbt={PersistenceRequired:0b}] run data modify entity @s Unbattleable set value 1b
-execute positioned 3716 34 475.0 as @e[distance=..5,type=cobblemon:pokemon,name=Snorlax,nbt={PersistenceRequired:0b}] run data modify entity @s Invulnerable set value 1b
-execute positioned 3716 34 475.0 as @e[distance=..5,type=cobblemon:pokemon,name=Snorlax,nbt={PersistenceRequired:0b}] run data modify entity @s PersistenceRequired set value 1
+execute positioned 3716 34 475.0 as @e[distance=..5,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:snorlax"}},nbt={PersistenceRequired:0b}] run data merge entity @s {Pokemon:{PokemonData:["uncatchable"]}}
+execute positioned 3716 34 475.0 as @e[distance=..5,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:snorlax"}},nbt={PersistenceRequired:0b}] run data modify entity @s Unbattleable set value 1b
+execute positioned 3716 34 475.0 as @e[distance=..5,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:snorlax"}},nbt={PersistenceRequired:0b}] run data modify entity @s Invulnerable set value 1b
+execute positioned 3716 34 475.0 as @e[distance=..5,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:snorlax"}},nbt={PersistenceRequired:0b}] run data modify entity @s PersistenceRequired set value 1
 
 #20tps blocks since they're short distances
 
