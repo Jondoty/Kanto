@@ -98,7 +98,7 @@
                         "value": "next",
                         "action": [
                             "q.dialogue.set_page('page6');",
-                            "q.run_command('execute unless entity @e[x=3377,y=39,z=-1357,dx=18,dy=5,dz=18,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:hypno"}}] run pokespawnat 3390 39 -1351 hypno level=30');"
+                            "q.run_command('execute unless entity @e[x=3377,y=39,z=-1357,dx=18,dy=5,dz=18,type=cobblemon:pokemon,nbt={Pokemon:{Species:\"cobblemon:hypno\"}}] run pokespawnat 3390 39 -1351 hypno level=30');"
                         ]
                     }
                 ]
