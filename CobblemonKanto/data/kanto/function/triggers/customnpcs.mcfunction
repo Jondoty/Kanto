@@ -133,9 +133,8 @@ execute as @s[x=4750,y=35,z=1933,distance=..10] run opendialogue zapdos_encounte
 execute as @s[x=4179,y=154,z=-1370,distance=..10] run opendialogue moltres_encounter @s
 execute as @s[x=2968,y=46,z=1902,distance=..10] run opendialogue mewtwo_encounter @s
 execute as @s[x=3733,y=49,z=-3594,distance=..10] run opendialogue deoxys_encounter @s
-
-#Ho-oh, Lugia tbd when built
-
+execute as @s[x=2780,y=105,z=-2106,distance=..10] run opendialogue hooh_encounter @s
+execute as @s[x=2775,y=-38,z=-2137,distance=..10] run opendialogue lugia_encounter @s
 
 
 
