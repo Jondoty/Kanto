@@ -72,6 +72,8 @@ execute as @s[scores={BattleStart=17}] at @s if entity @e[distance=..30,type=cob
 execute as @s[scores={BattleStart=17}] at @s if entity @e[distance=..30,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:zapdos",PokemonOriginalTrainerType:"NONE"}}] run tag @s add KantoLegendary
 execute as @s[scores={BattleStart=17}] at @s if entity @e[distance=..30,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:moltres",PokemonOriginalTrainerType:"NONE"}}] run tag @s add KantoLegendary
 execute as @s[scores={BattleStart=17}] at @s if entity @e[distance=..30,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:mewtwo",PokemonOriginalTrainerType:"NONE"}}] run tag @s add KantoLegendary
+execute as @s[scores={BattleStart=17}] at @s if entity @e[distance=..30,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:lugia",PokemonOriginalTrainerType:"NONE"}}] run tag @s add KantoLegendary
+execute as @s[scores={BattleStart=17}] at @s if entity @e[distance=..30,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:hooh",PokemonOriginalTrainerType:"NONE"}}] run tag @s add KantoLegendary
 
 execute as @s[scores={BattleStart=17}] at @s if entity @e[distance=..30,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:deoxys",PokemonOriginalTrainerType:"NONE"}}] run tag @s add LegendaryDeoxys
 

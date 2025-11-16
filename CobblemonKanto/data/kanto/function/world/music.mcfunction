@@ -496,6 +496,14 @@ scoreboard players set @s[x=4581,y=-11,z=1257,dx=57,dy=45,dz=54,scores={MusicCoo
 playsound mtmoon record @s[x=4065,y=32,z=1579,dx=260,dy=30,dz=111,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=4065,y=32,z=1579,dx=260,dy=30,dz=111,scores={MusicCooldown=0}] MusicCooldown 221
 
+#Navel Rock Interior
+playsound mtmoon record @s[x=2650,y=-64,z=-2560,dx=229,dy=64,dz=503,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2650,y=-64,z=-2560,dx=229,dy=64,dz=503,scores={MusicCooldown=0}] MusicCooldown 221
+
+#Navel Rock Exterior
+playsound seviiislands record @s[x=2650,y=1,z=-2560,dx=229,dy=256,dz=503,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2650,y=1,z=-2560,dx=229,dy=256,dz=503,scores={MusicCooldown=0}] MusicCooldown 145
+
 
 #---------------------------------------------------------------------------------------------
 

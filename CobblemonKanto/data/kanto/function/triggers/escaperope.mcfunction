@@ -217,6 +217,12 @@ execute as @s[scores={EscapeRope=8}] run tp @s 4426 34 889 180 12
 
 
 
+#Navel Rock Cave areas
+execute as @s[x=2650,y=-64,z=-2560,dx=229,dy=64,dz=503] run tag @s add EscapeRopeUse
+execute as @s[x=2650,y=-64,z=-2560,dx=229,dy=64,dz=503] run effect give @s minecraft:blindness 3 1 true
+execute as @s[x=2650,y=-64,z=-2560,dx=229,dy=64,dz=503] run playsound door ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=2650,y=-64,z=-2560,dx=229,dy=64,dz=503] run tellraw @s {"text":"You used an Escape Rope!","italic":true,"color":"gray"}
+execute as @s[x=2650,y=-64,z=-2560,dx=229,dy=64,dz=503] run tp @s 2778 40 -2448 180 9
 
 
 

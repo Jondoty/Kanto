@@ -1743,6 +1743,31 @@ execute if entity @p[x=3805,y=33,z=1636,dx=253,dy=256,dz=155] as @e[x=3839,y=41,
 
 
 
+#--------------------------
+#Navel Rock
+#https://www.spriters-resource.com/game_boy_advance/pokemonfireredleafgreen/asset/3792/
+
+#1F to B1F
+tp @e[x=2807,y=-18,z=-2318,dx=2,dy=3,dz=2] 2820 -13 -2387 100 9
+tp @e[x=2819,y=-7,z=-2388,dx=2,dy=4,dz=2] 2811 -13 -2314 180 9
+
+#B1F to B2F
+tp @e[x=2799,y=-18,z=-2393,dx=2,dy=3,dz=2] 2735 -13 -2502 0 9
+tp @e[x=-2737,y=-7,z=-2502,dx=2,dy=4,dz=2] 2800 -13 -2389 -85 9
+
+#B2F to Summit
+tp @e[x=2765,y=-4,z=-2243,dx=2,dy=4,dz=2] 2780 95 -2134 0 -5
+tp @e[x=2776,y=88,z=-2132,dx=2,dy=4,dz=2] 2766 -8 -2242 90 9
+
+
+#B2F to Base
+tp @e[x=2700,y=-14,z=-2242,dx=2,dy=3,dz=2] 2764 -33 -2162 -80 9
+tp @e[x=2763,y=-20,z=-2162,dx=2,dy=6,dz=2] 2704 -8 -2239 -100 9
+
+
+
+
+
 
 
 

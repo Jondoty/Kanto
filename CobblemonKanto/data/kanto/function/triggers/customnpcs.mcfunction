@@ -104,6 +104,9 @@ execute as @s[x=4209,y=34,z=-4177,distance=..5,tag=RainbowPass] run opendialogue
 execute as @s[x=3734,y=34,z=-3670,distance=..5] run opendialogue islands_seagallopferry_tripass @s
 execute as @s[x=3734,y=34,z=-3670,distance=..5,tag=RainbowPass] run opendialogue islands_seagallopferry_rainbowpass @s
 
+#Navel Rock
+execute as @s[x=2778,y=35,z=-2486,distance=..5] run opendialogue islands_seagallopferry_tripass @s
+execute as @s[x=2778,y=35,z=-2486,distance=..5,tag=RainbowPass] run opendialogue islands_seagallopferry_rainbowpass @s
 
 #----------------------------------------------
 
