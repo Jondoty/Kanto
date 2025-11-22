@@ -37,7 +37,7 @@
         "party": {
         "type": "simple",
         "pokemon": [
-            "Squirtle level=5 moves=tackle,tailwhip"
+            "Squirtle level=5 moves=tackle,tailwhip,helpinghand,splash"
         ]
     },
     "config": [

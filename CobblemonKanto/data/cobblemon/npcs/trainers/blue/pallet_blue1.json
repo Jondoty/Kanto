@@ -37,7 +37,7 @@
         "party": {
         "type": "simple",
         "pokemon": [
-            "Charmander level=5 moves=scratch,growl"
+            "Charmander level=5 moves=scratch,growl,helpinghand,splash"
         ]
     },
     "config": [

@@ -37,7 +37,7 @@
         "party": {
         "type": "simple",
         "pokemon": [
-            "Bulbasaur level=5 moves=tackle,growl"
+            "Bulbasaur level=5 moves=tackle,growl,helpinghand,splash"
         ]
     },
     "config": [

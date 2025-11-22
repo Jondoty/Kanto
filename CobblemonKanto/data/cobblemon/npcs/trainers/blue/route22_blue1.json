@@ -37,8 +37,8 @@
         "party": {
         "type": "simple",
         "pokemon": [
-            "Pidgey level=9 moves=tackle,sandattack",
-            "Charmander level=9 moves=scratch,growl"
+            "Pidgey level=9 moves=tackle,sandattack,helpinghand,splash",
+            "Charmander level=9 moves=scratch,growl,helpinghand,splash"
         ]
     },
     "config": [

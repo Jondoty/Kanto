@@ -37,8 +37,8 @@
         "party": {
         "type": "simple",
         "pokemon": [
-            "Pidgey level=9 moves=tackle,sandattack",
-            "Squirtle level=9 moves=tackle,tailwhip"
+            "Pidgey level=9 moves=tackle,sandattack,helpinghand,splash",
+            "Squirtle level=9 moves=tackle,tailwhip,helpinghand,splash"
         ]
     },
     "config": [
