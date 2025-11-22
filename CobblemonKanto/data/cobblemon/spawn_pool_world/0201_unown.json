@@ -1,0 +1,595 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "unown-a-1",
+            "pokemon": "unown character=a",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 99,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3696,
+                "maxX": 3789,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-?-1",
+            "pokemon": "unown character=?",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 1,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3696,
+                "maxX": 3789,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-c-1",
+            "pokemon": "unown character=c",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 50,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3807,
+                "maxX": 3900,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-d-1",
+            "pokemon": "unown character=d",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3807,
+                "maxX": 3900,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-h-1",
+            "pokemon": "unown character=h",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 14,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3807,
+                "maxX": 3900,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-u-1",
+            "pokemon": "unown character=u",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3807,
+                "maxX": 3900,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-o-1",
+            "pokemon": "unown character=o",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 1,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3807,
+                "maxX": 3900,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-n-1",
+            "pokemon": "unown character=n",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 60,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3927,
+                "maxX": 4020,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-s-1",
+            "pokemon": "unown character=s",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3927,
+                "maxX": 4020,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-i-1",
+            "pokemon": "unown character=i",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 8,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3927,
+                "maxX": 4020,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-e-1",
+            "pokemon": "unown character=e",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 2,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 3927,
+                "maxX": 4020,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-p-1",
+            "pokemon": "unown character=p",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 40,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4037,
+                "maxX": 4130,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-j-1",
+            "pokemon": "unown character=j",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4037,
+                "maxX": 4130,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-l-1",
+            "pokemon": "unown character=l",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4037,
+                "maxX": 4130,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-r-1",
+            "pokemon": "unown character=r",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 14,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4037,
+                "maxX": 4130,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-q-1",
+            "pokemon": "unown character=q",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 6,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4037,
+                "maxX": 4130,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-y-1",
+            "pokemon": "unown character=y",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 40,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4148,
+                "maxX": 4241,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-g-1",
+            "pokemon": "unown character=g",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 25,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4148,
+                "maxX": 4241,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-t-1",
+            "pokemon": "unown character=t",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4148,
+                "maxX": 4241,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-f-1",
+            "pokemon": "unown character=f",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 13,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4148,
+                "maxX": 4241,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-k-1",
+            "pokemon": "unown character=k",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 2,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4148,
+                "maxX": 4241,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-v-1",
+            "pokemon": "unown character=v",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 50,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4259,
+                "maxX": 4352,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-w-1",
+            "pokemon": "unown character=w",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4259,
+                "maxX": 4352,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-x-1",
+            "pokemon": "unown character=x",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4259,
+                "maxX": 4352,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-m-1",
+            "pokemon": "unown character=m",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 8,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4259,
+                "maxX": 4352,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-b-1",
+            "pokemon": "unown character=b",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 2,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4259,
+                "maxX": 4352,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-z-1",
+            "pokemon": "unown character=z",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 99,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4369,
+                "maxX": 4462,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        },
+        {
+            "id": "unown-!-1",
+            "pokemon": "unown character=!",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "25",
+            "weight": 1,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 4369,
+                "maxX": 4462,
+                "minY": -10,
+                "maxY": -5,
+                "minZ": -4716,
+                "maxZ": -4648
+            }
+        }
+    ]
+}
