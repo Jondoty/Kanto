@@ -19,6 +19,14 @@ execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run scoreboard players ad
 execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run function kanto:triggers/stopsound
 execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run pokeheal
 
+#Gives everyone in the party a ribbon
+execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run givemark @s 1 cobblemon:ribbon_champion
+execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run givemark @s 2 cobblemon:ribbon_champion
+execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run givemark @s 3 cobblemon:ribbon_champion
+execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run givemark @s 4 cobblemon:ribbon_champion
+execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run givemark @s 5 cobblemon:ribbon_champion
+execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run givemark @s 6 cobblemon:ribbon_champion
+
 tellraw @s[scores={DialogueTrigger=106,TalkTime=5}] {"text":"Congratulations, you have completed the Indigo League!"}
 tellraw @s[scores={DialogueTrigger=106,TalkTime=15}] {"text":"You can now play additional story in the Sevii Islands!"}
 tellraw @s[scores={DialogueTrigger=106,TalkTime=25}] {"text":"Map Creator, builder, commands: Jond."}
