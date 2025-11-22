@@ -1,4 +1,10 @@
 {
+  "name": "Trainer Basics",
+  "description": "Sets up default values for trainers interacting with the players",
+  "entityType": "cobblemon:npc",
+  "undo": [
+    "q.entity.unset_interaction();"
+  ],
     "variation": {
         "dirt": [
             "clean",
@@ -41,10 +47,6 @@
     "canDespawn": false,
     "skill": 5,
     "ai": [
-        {
-            "type": "apply_presets",
-            "presets": []
-        },
         {
             "type": "add_tasks_to_activity",
             "activity": "core",

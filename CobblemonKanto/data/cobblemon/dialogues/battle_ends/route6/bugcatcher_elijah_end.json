@@ -11,7 +11,7 @@
       "face": {
         "type": "artificial",
         "modelType": "npc",
-        "identifier": "cobblemon:bugcatcher2",
+        "identifier": "cobblemon:bugcatcher",
         "isLeftSide": true
       }
     }

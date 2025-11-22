@@ -1,7 +1,6 @@
 {  
     "hitbox": "player",
     "resourceIdentifier": "cobblemon:lady",
-    "presets": [],
     "variation": {
         "dirt": [
             "clean",
@@ -33,8 +32,8 @@
     "skill": 5,
     "ai": [
         {
-            "type": "apply_presets",
-            "presets": []
+            "type": "apply_behaviours",
+            "behaviours": ["cobblemon:trainer_basics"]
         },
         {
             "type": "add_tasks_to_activity",

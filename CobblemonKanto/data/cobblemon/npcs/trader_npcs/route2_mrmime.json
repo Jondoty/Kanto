@@ -3,9 +3,6 @@
   "names": [
     "§lTrader Reyley"
   ],
-  "presets": [
-    "cobblemon:trainer_basics"
-  ],
   "interaction": {
     "type": "dialogue",
     "dialogue": "cobblemon:route2_mrmime_interaction"
@@ -54,11 +51,11 @@
   "isInvulnerable": true, 
   "canDespawn": false,
   "skill": 5,
-  "ai": [
-      {
-          "type": "apply_presets",
-          "presets": []
-      },
+    "ai": [
+        {
+            "type": "apply_behaviours",
+            "behaviours": ["cobblemon:trainer_basics"]
+        },
       {
           "type": "add_tasks_to_activity",
           "activity": "core",

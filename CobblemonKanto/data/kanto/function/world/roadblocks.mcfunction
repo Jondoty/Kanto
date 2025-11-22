@@ -100,7 +100,7 @@ execute as @s[x=2836,y=39,z=-1544,dx=23,dy=10,dz=15,tag=!Dialogue86] at @s run t
 
 
 #Cerulean Cave NPC before/after player's returned the Sapphire
-execute as @s[x=3193,y=33,z=935,distance=..15,tag=!Dialogue110] unless entity @e[x=3210,y=34,z=916,dy=3,type=cobblemon:npc] run npcspawnat 3210 34 916 ceruleancave_guard 1
+execute as @s[x=3193,y=33,z=935,distance=..15,tag=!Dialogue110] unless entity @e[x=3210,y=34,z=916,dy=3,type=cobblemon:npc] run npcspawnat 3210 34 916 ceruleancave_guard
 execute as @s[x=3193,y=33,z=935,distance=..15,tag=Dialogue110] if entity @e[x=3210,y=34,z=916,dy=3,type=cobblemon:npc] run tp @e[x=3210,y=34,z=916,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
 
 #------------------------------------------------------------------------------
