@@ -298,8 +298,8 @@ execute positioned 4750.0 36 1933 as @e[distance=..5,type=cobblemon:pokemon,nbt=
 execute positioned 4750.0 36 1933 as @e[distance=..5,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:zapdos"}},nbt={PersistenceRequired:0b}] run data modify entity @s PersistenceRequired set value 1
 
 #Moltres
-execute as @s[x=4178,y=139,z=-1414,distance=..10,tag=!MoltresEncounter] unless entity @e[x=4179,y=154,z=1370,distance=..5,type=cobblemon:pokemon] run summon minecraft:interaction 4179 154 -1370 {width:3,height:4,response:1,Tags:[NPCs]}
-execute as @s[x=4178,y=139,z=-1414,distance=..10,tag=!MoltresEncounter] unless entity @e[x=4179,y=154,z=1370,distance=..5,type=cobblemon:pokemon] run pokespawnat 4179 154 -1370 moltres no_ai=true level=50 moves=firespin,agility,endure,flamethrower
+execute as @s[x=4178,y=139,z=-1414,distance=..10,tag=!MoltresEncounter] unless entity @e[x=4179,y=154,z=-1370,distance=..5,type=cobblemon:pokemon] run summon minecraft:interaction 4179 154 -1370 {width:3,height:4,response:1,Tags:[NPCs]}
+execute as @s[x=4178,y=139,z=-1414,distance=..10,tag=!MoltresEncounter] unless entity @e[x=4179,y=154,z=-1370,distance=..5,type=cobblemon:pokemon] run pokespawnat 4179 154 -1370 moltres no_ai=true level=50 moves=firespin,agility,endure,flamethrower
 execute positioned 4179 154 -1370 as @e[distance=..5,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:moltres"}},nbt={PersistenceRequired:0b}] run tp @s ~ ~ ~ 180 ~
 execute positioned 4179 154 -1370 as @e[distance=..5,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:moltres"}},nbt={PersistenceRequired:0b}] run data merge entity @s {Pokemon:{PokemonData:["uncatchable"]}}
 execute positioned 4179 154 -1370 as @e[distance=..5,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:moltres"}},nbt={PersistenceRequired:0b}] run data modify entity @s Unbattleable set value 1b
