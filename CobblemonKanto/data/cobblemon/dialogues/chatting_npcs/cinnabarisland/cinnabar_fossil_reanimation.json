@@ -1,0 +1,210 @@
+{   
+
+        "initializationAction": [
+        "q.run_command('execute as ' + q.player.username + ' run tag @s[nbt={Inventory:[{id:\"cobblemon:helix_fossil\"}]}] add HelixHave');",
+        "q.run_command('execute as ' + q.player.username + ' run tag @s[nbt={Inventory:[{id:\"cobblemon:dome_fossil\"}]}] add DomeHave');",
+        "q.run_command('execute as ' + q.player.username + ' run tag @s[nbt={Inventory:[{id:\"cobblemon:old_amber_fossil\"}]}] add AmberHave');"
+    ],
+    "escapeAction": [],
+    "speakers": {
+        "npc": {
+          "name": "Fossil Lady",
+          "face": {
+            "type": "artificial",
+            "modelType": "npc",
+            "identifier": "cobblemon:scientistf",
+            "isLeftSide": true
+          }
+        }
+      },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+                "Hiya! I am important doctor. Yes, very much so, indeed."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page2",
+            "speaker": "npc",
+            "lines": [
+                "Here, I study rare Pokémon fossils. All the time, I study."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page3');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "npc",
+            "lines": [
+                "You! Have you a fossil for me?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": true,
+                "options": [
+                    {
+                        "isSelectable": "q.player.has_tag('HelixHave')",
+                        "text": "Helix Fossil",
+                        "value": "helix",
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run clear @s cobblemon:helix_fossil 1');",
+                            "q.run_command('execute as ' + q.player.username + ' run pokegive omanyte level=30');",
+                            "q.run_command('execute as ' + q.player.username + ' run playsound minecraft:getpokemon ambient @s ~ ~ ~ 1 1 1');",
+                            "q.dialogue.set_page('page4');"
+                        ]
+                    },
+                    {
+                        "isSelectable": "q.player.has_tag('DomeHave')",
+                        "text": "Dome Fossil",
+                        "value": "dome",
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run clear @s cobblemon:dome_fossil 1');",
+                            "q.run_command('execute as ' + q.player.username + ' run pokegive kabuto level=30');",
+                            "q.run_command('execute as ' + q.player.username + ' run playsound minecraft:getpokemon ambient @s ~ ~ ~ 1 1 1');",
+                            "q.dialogue.set_page('page4');"
+                        ]
+                    },
+                    {
+                        "isSelectable": "q.player.has_tag('AmberHave')",
+                        "text": "Old Amber",
+                        "value": "oldamber",
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run clear @s cobblemon:old_amber_fossil 1');",
+                            "q.run_command('execute as ' + q.player.username + ' run pokegive aerodactyl level=30');",
+                            "q.run_command('execute as ' + q.player.username + ' run playsound minecraft:getpokemon ambient @s ~ ~ ~ 1 1 1');",
+                            "q.dialogue.set_page('page4');"
+                        ]
+                    },
+                    {
+                        "text": "No Thanks",
+                        "value": "no",
+                        "action": "q.dialogue.set_page('end1');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page4",
+            "speaker": "npc",
+            "lines": [
+                "Your fossil is back to life! It was Omanyte like I think!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('end2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page5",
+            "speaker": "npc",
+            "lines": [
+                "Your fossil is back to life! It was Kabuto like I think!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('end2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page6",
+            "speaker": "npc",
+            "lines": [
+                "Your fossil is back to life! It was Aerodactyl like I think!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('end2');"
+                    }
+                ]
+            }
+        },
+        
+        {
+            "id": "end1",
+            "speaker": "npc",
+            "lines": [
+                "No! Is too bad!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run tag @s remove HelixHave');",
+                            "q.run_command('execute as ' + q.player.username + ' run tag @s remove DomeHave');",
+                            "q.run_command('execute as ' + q.player.username + ' run tag @s remove AmberHave');",
+                            "q.dialogue.close();"
+                            ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "end2",
+            "speaker": "npc",
+            "lines": [
+                "Aiyah! You come again!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run tag @s remove HelixHave');",
+                            "q.run_command('execute as ' + q.player.username + ' run tag @s remove DomeHave');",
+                            "q.run_command('execute as ' + q.player.username + ' run tag @s remove AmberHave');",
+                            "q.dialogue.close();"
+                            ]
+                    }
+                ]
+            }
+        }
+        ]
+    }

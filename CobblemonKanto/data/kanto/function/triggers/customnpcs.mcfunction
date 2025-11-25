@@ -59,6 +59,17 @@ execute as @s[x=2788,y=34,z=1160,dx=14,dy=5,dz=8,tag=Dialogue24,tag=!Dialogue25]
 
 
 #----------------------------------------------
+#Cinnabar Fossil Lady
+execute as @s[x=4181,y=34,z=-725,distance=..8,nbt={Inventory:[{id:"cobblemon:helix_fossil"}]}] run tag @s add FossilHave
+execute as @s[x=4181,y=34,z=-725,distance=..8,nbt={Inventory:[{id:"cobblemon:dome_fossil"}]}] run tag @s add FossilHave
+execute as @s[x=4181,y=34,z=-725,distance=..8,nbt={Inventory:[{id:"cobblemon:old_amber_fossil"}]}] run tag @s add FossilHave
+
+
+execute as @s[x=4181,y=34,z=-725,distance=..8,tag=!FossilHave] run opendialogue cinnabar_scientist4_interaction @s
+execute as @s[x=4181,y=34,z=-725,distance=..8,tag=FossilHave] run opendialogue cinnabar_fossil_reanimation @s
+execute as @s[x=4181,y=34,z=-725,distance=..8,tag=FossilHave] run tag @s remove FossilHave
+
+#----------------------------------------------
 
 #Vermilion Seagallop NPC
 execute as @s[x=3102,y=34,z=26,distance=..6,tag=!RainbowPass,tag=!TriPass] run opendialogue vermilion_seagallopferry_default @s
