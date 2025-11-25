@@ -274,6 +274,66 @@ execute as @p[x=4119,y=40,z=1743,distance=..25,tag=Dialogue117] run kill @e[x=41
 execute as @p[x=4119,y=40,z=1743,distance=..25,tag=!Dialogue117] unless entity @e[x=4119,y=40,z=1743,distance=..1,type=item] run summon item 4119 40 1743 {Item:{id:"minecraft:music_disc_far",Count:1},PickupDelay:32767,Age:-32768}
 
 
+#------------------------------------------------------------------------
+#Mystery Gifts, spawns in NPCs at any mainland Pokemon Center, to the left of Nurse Joys
+
+#Mystic Tickets, Lugia and Ho-Oh
+
+#Vermilion
+execute as @p[x=4154,y=35,z=182,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] as @e[x=4154,y=35,z=182,dy=3,type=cobblemon:npc] at @s run particle cloud ~ ~ ~ 1 1 1 1 75
+execute as @p[x=4154,y=35,z=182,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] run tp @e[x=4154,y=35,z=182,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @p[x=4154,y=35,z=182,distance=..20,scores={PokemonLeague=1..},tag=!MysticTicket] unless entity @e[x=4154,y=35,z=182,dy=3,type=cobblemon:npc] run npcspawnat 4154 35 182 mysteryticket_gift 1
+
+#Pewter
+execute as @p[x=4198,y=35,z=776,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] as @e[x=4198,y=35,z=776,dy=3,type=cobblemon:npc] at @s run particle cloud ~ ~ ~ 1 1 1 1 75
+execute as @p[x=4198,y=35,z=776,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] run tp @e[x=4198,y=35,z=776,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @p[x=4198,y=35,z=776,distance=..20,scores={PokemonLeague=1..},tag=!MysticTicket] unless entity @e[x=4198,y=35,z=776,dy=3,type=cobblemon:npc] run npcspawnat 4198 35 776 mysteryticket_gift 1
+
+#Route 3
+execute as @p[x=3692,y=35,z=923,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] as @e[x=3692,y=35,z=923,dy=3,type=cobblemon:npc] at @s run particle cloud ~ ~ ~ 1 1 1 1 75
+execute as @p[x=3692,y=35,z=923,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] run tp @e[x=3692,y=35,z=923,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @p[x=3692,y=35,z=923,distance=..20,scores={PokemonLeague=1..},tag=!MysticTicket] unless entity @e[x=3692,y=35,z=923,dy=3,type=cobblemon:npc] run npcspawnat 3692 35 923 mysteryticket_gift 1
+
+#Cerulean
+execute as @p[x=3114,y=35,z=900,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] as @e[x=3114,y=35,z=900,dy=3,type=cobblemon:npc] at @s run particle cloud ~ ~ ~ 1 1 1 1 75
+execute as @p[x=3114,y=35,z=900,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] run tp @e[x=3114,y=35,z=900,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @p[x=3114,y=35,z=900,distance=..20,scores={PokemonLeague=1..},tag=!MysticTicket] unless entity @e[x=3114,y=35,z=900,dy=3,type=cobblemon:npc] run npcspawnat 3114 35 900 mysteryticket_gift 1
+
+#Route 10
+execute as @p[x=2570,y=35,z=849,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] as @e[x=2570,y=35,z=849,dy=3,type=cobblemon:npc] at @s run particle cloud ~ ~ ~ 1 1 1 1 75
+execute as @p[x=2570,y=35,z=849,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] run tp @e[x=2570,y=35,z=849,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @p[x=2570,y=35,z=849,distance=..20,scores={PokemonLeague=1..},tag=!MysticTicket] unless entity @e[x=2570,y=35,z=849,dy=3,type=cobblemon:npc] run npcspawnat 2570 35 849 mysteryticket_gift 1
+
+#Celadon
+execute as @p[x=3395,y=35,z=550,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] as @e[x=3395,y=35,z=550,dy=3,type=cobblemon:npc] at @s run particle cloud ~ ~ ~ 1 1 1 1 75
+execute as @p[x=3395,y=35,z=550,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] run tp @e[x=3395,y=35,z=550,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @p[x=3395,y=35,z=550,distance=..20,scores={PokemonLeague=1..},tag=!MysticTicket] unless entity @e[x=3395,y=35,z=550,dy=3,type=cobblemon:npc] run npcspawnat 3395 35 550 mysteryticket_gift 1
+
+#Saffron
+execute as @p[x=3153,y=35,z=451,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] as @e[x=3153,y=35,z=451,dy=3,type=cobblemon:npc] at @s run particle cloud ~ ~ ~ 1 1 1 1 75
+execute as @p[x=3153,y=35,z=451,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] run tp @e[x=3153,y=35,z=451,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @p[x=3153,y=35,z=451,distance=..20,scores={PokemonLeague=1..},tag=!MysticTicket] unless entity @e[x=3153,y=35,z=451,dy=3,type=cobblemon:npc] run npcspawnat 3153 35 451 mysteryticket_gift 1
+
+#Lavender
+execute as @p[x=2605,y=35,z=530,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] as @e[x=2605,y=35,z=530,dy=3,type=cobblemon:npc] at @s run particle cloud ~ ~ ~ 1 1 1 1 75
+execute as @p[x=2605,y=35,z=530,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] run tp @e[x=2605,y=35,z=530,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @p[x=2605,y=35,z=530,distance=..20,scores={PokemonLeague=1..},tag=!MysticTicket] unless entity @e[x=2605,y=35,z=530,dy=3,type=cobblemon:npc] run npcspawnat 2605 35 530 mysteryticket_gift 1
+
+#Vermilion
+execute as @p[x=3144,y=35,z=179,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] as @e[x=3144,y=35,z=179,dy=3,type=cobblemon:npc] at @s run particle cloud ~ ~ ~ 1 1 1 1 75
+execute as @p[x=3144,y=35,z=179,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] run tp @e[x=3144,y=35,z=179,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @p[x=3144,y=35,z=179,distance=..20,scores={PokemonLeague=1..},tag=!MysticTicket] unless entity @e[x=3144,y=35,z=179,dy=3,type=cobblemon:npc] run npcspawnat 3144 35 179 mysteryticket_gift 1
+
+#Fuchsia
+execute as @p[x=3453,y=35,z=-433,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] as @e[x=3453,y=35,z=-433,dy=3,type=cobblemon:npc] at @s run particle cloud ~ ~ ~ 1 1 1 1 75
+execute as @p[x=3453,y=35,z=-433,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] run tp @e[x=3453,y=35,z=-433,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @p[x=3453,y=35,z=-433,distance=..20,scores={PokemonLeague=1..},tag=!MysticTicket] unless entity @e[x=3453,y=35,z=-433,dy=3,type=cobblemon:npc] run npcspawnat 3453 35 -433 mysteryticket_gift 1
+
+#Cinnabar
+execute as @p[x=4125,y=35,z=-728,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] as @e[x=4125,y=35,z=-728,dy=3,type=cobblemon:npc] at @s run particle cloud ~ ~ ~ 1 1 1 1 75
+execute as @p[x=4125,y=35,z=-728,distance=21..40,scores={PokemonLeague=1..},tag=MysticTicket] run tp @e[x=4125,y=35,z=-728,dy=3,type=cobblemon:npc] 10000000 -50000 -10000000
+execute as @p[x=4125,y=35,z=-728,distance=..20,scores={PokemonLeague=1..},tag=!MysticTicket] unless entity @e[x=4125,y=35,z=-728,dy=3,type=cobblemon:npc] run npcspawnat 4125 35 -728 mysteryticket_gift 1
+
 
 #------------------------------------------------------------------------
 #Legendary Encounters

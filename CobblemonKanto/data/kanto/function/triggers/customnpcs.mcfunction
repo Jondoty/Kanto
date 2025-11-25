@@ -64,8 +64,14 @@ execute as @s[x=2788,y=34,z=1160,dx=14,dy=5,dz=8,tag=Dialogue24,tag=!Dialogue25]
 execute as @s[x=3102,y=34,z=26,distance=..6,tag=!RainbowPass,tag=!TriPass] run opendialogue vermilion_seagallopferry_default @s
 execute as @s[x=3102,y=34,z=26,distance=..6,tag=TriPass] run opendialogue vermilion_seagallopferry_tripass @s
 execute as @s[x=3102,y=34,z=26,distance=..6,tag=RainbowPass] run opendialogue vermilion_seagallopferry_rainbowpass @s
-execute as @s[x=3102,y=34,z=26,distance=..6,tag=MysticTicket] run opendialogue vermilion_seagallopferry_mysticticket @s
-execute as @s[x=3102,y=34,z=26,distance=..6,tag=AuroraTicket] run opendialogue vermilion_seagallopferry_auroraticket @s
+
+#Lugia and Ho-Oh pass
+execute as @s[x=3102,y=34,z=26,distance=..6,tag=TriPass,tag=MysticTicket] unless entity @s[tag=HoohEncounter,tag=LugiaEncounter] run opendialogue islands_seagallopferry_mysticticket_tri @s
+execute as @s[x=3102,y=34,z=26,distance=..6,tag=RainbowPass,tag=MysticTicket] unless entity @s[tag=HoohEncounter,tag=LugiaEncounter] run opendialogue islands_seagallopferry_mysticticket_rainbow @s
+
+#Deoxys pass
+execute as @s[x=3102,y=34,z=26,distance=..6,tag=TriPass,tag=AuroraTicket] unless entity @s[tag=DeoxysEncounter] run opendialogue vermilion_seagallopferry_auroraticket @s
+execute as @s[x=3102,y=34,z=26,distance=..6,tag=RainbowPass,tag=AuroraTicket] unless entity @s[tag=DeoxysEncounter] run opendialogue vermilion_seagallopferry_auroraticket @s
 
 
 

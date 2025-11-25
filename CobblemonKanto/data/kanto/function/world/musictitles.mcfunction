@@ -532,16 +532,16 @@ execute as @s[x=2384,y=0,z=1398,dx=259,dy=256,dz=648] unless entity @s[scores={L
 
 
 #Navel Rock (Exterior)
-#execute as @s[] unless entity @s[scores={Location=64}] run title @s actionbar {"text":""}
-#execute as @s[] unless entity @s[scores={Location=64}] run function kanto:triggers/stopsound
-#execute as @s[] unless entity @s[scores={Location=64}] run scoreboard players set @s Location 64
+execute as @s[x=2650,y=1,z=-2560,dx=229,dy=256,dz=503] unless entity @s[scores={Location=64}] run title @s actionbar {"text":""}
+execute as @s[x=2650,y=1,z=-2560,dx=229,dy=256,dz=503] unless entity @s[scores={Location=64}] run function kanto:triggers/stopsound
+execute as @s[x=2650,y=1,z=-2560,dx=229,dy=256,dz=503] unless entity @s[scores={Location=64}] run scoreboard players set @s Location 64
 
 
 
 #Navel Rock (Interior)
-#execute as @s[] unless entity @s[scores={Location=65}] run title @s actionbar {"text":""}
-#execute as @s[] unless entity @s[scores={Location=65}] run function kanto:triggers/stopsound
-#execute as @s[] unless entity @s[scores={Location=65}] run scoreboard players set @s Location 65
+execute as @s[x=2650,y=-64,z=-2560,dx=64,dy=256,dz=503] unless entity @s[scores={Location=65}] run title @s actionbar {"text":""}
+execute as @s[x=2650,y=-64,z=-2560,dx=64,dy=256,dz=503] unless entity @s[scores={Location=65}] run function kanto:triggers/stopsound
+execute as @s[x=2650,y=-64,z=-2560,dx=64,dy=256,dz=503] unless entity @s[scores={Location=65}] run scoreboard players set @s Location 65
 
 
 

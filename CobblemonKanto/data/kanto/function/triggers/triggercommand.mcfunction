@@ -17,7 +17,7 @@ execute as @a[scores={TriggerCommand=90}] run tp @s 3105 34 26 0 6
 execute as @a[scores={TriggerCommand=91}] run tp @s 3734 34 -3668 0 6
 
 #Naval Island
-#execute as @a[scores={TriggerCommand=92}] run tp @s 
+execute as @a[scores={TriggerCommand=92}] run tp @s 2778 35 -2483 0 6
 
 #One Island
 execute as @a[scores={TriggerCommand=93}] run tp @s 4306 34 -2437 0 6
