@@ -75,6 +75,11 @@
                         "action": "q.dialogue.set_page('pickleafstone');"
                     },
                     {
+                        "text": "Moon Stone",
+                        "value": "moonstone",
+                        "action": "q.dialogue.set_page('pickmoonstone');"
+                    },
+                    {
                         "text": "Page 2 >>",
                         "value": "page2",
                         "action": "q.dialogue.set_page('buy2');"
@@ -92,11 +97,6 @@
                 "type": "option",
                 "vertical": true,
                 "options": [
-                    {
-                        "text": "Moon Stone",
-                        "value": "moonstone",
-                        "action": "q.dialogue.set_page('pickmoonstone');"
-                    },
                     {
                         "text": "Sun Stone",
                         "value": "sunstone",
@@ -116,6 +116,11 @@
                         "text": "Shiny Stone",
                         "value": "shinystone",
                         "action": "q.dialogue.set_page('pickshinystone');"
+                    },
+                    {
+                        "text": "Ice Stone",
+                        "value": "icestone",
+                        "action": "q.dialogue.set_page('pickicestone');"
                     },
                     {
                         "text": "<< Page 1",
@@ -825,6 +830,34 @@
                         "value": "buy1",
                         "action": [
                             "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 170');",
+                            "q.dialogue.set_page('buyend');"
+                        ]
+                    },
+                    {
+                        "text": "Go Back",
+                        "value": "goback",
+                        "action": [
+                            "q.dialogue.set_page('buy1');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pickicestone",
+            "speaker": "npc",
+            "lines": [
+                "You'd like to purchase a Ice Stone for $2100?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Buy 1",
+                        "value": "buy1",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 209');",
                             "q.dialogue.set_page('buyend');"
                         ]
                     },

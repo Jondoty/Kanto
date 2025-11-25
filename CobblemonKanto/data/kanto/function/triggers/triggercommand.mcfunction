@@ -821,6 +821,17 @@ execute as @a[scores={TriggerCommand=171,Money=1000..}] run scoreboard players r
 
 #-----------------------------
 
+#Ice Stone
+execute as @a[scores={TriggerCommand=209,Money=..2999}] run tellraw @s {"text":"You don't have enough money for that!","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=209,Money=..2999}] run scoreboard players set @s TriggerCommand 0
+
+execute as @a[scores={TriggerCommand=209,Money=2100..}] run tellraw @s {"text":"You put the items in your inventory.","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=209,Money=2100..}] run give @s cobblemon:ice_stone 1
+execute as @a[scores={TriggerCommand=209,Money=2100..}] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={TriggerCommand=209,Money=2100..}] run scoreboard players remove @s Money 2100
+
+#-----------------------------
+
 #Dubious Disc
 execute as @a[scores={TriggerCommand=172,Money=..2999}] run tellraw @s {"text":"You don't have enough money for that!","italic":true,"color":"gray"}
 execute as @a[scores={TriggerCommand=172,Money=..2999}] run scoreboard players set @s TriggerCommand 0
