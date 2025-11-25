@@ -8,6 +8,7 @@
 		{"predicate": {"custom_model_data":1}, "model": "hms/fly"},
 		{"predicate": {"custom_model_data":2}, "model": "playeritems/poke_flute"},
 		{"predicate": {"custom_model_data":3}, "model": "playeritems/vs_seeker"},
-		{"predicate": {"custom_model_data":4}, "model": "hms/flash"}
+		{"predicate": {"custom_model_data":4}, "model": "hms/flash"},
+		{"predicate": {"custom_model_data":5}, "model": "playeritems/bicycle"}
 	]
 }

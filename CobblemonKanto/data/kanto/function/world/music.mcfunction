@@ -46,6 +46,11 @@ scoreboard players set @s[tag=RivalBattleMusic,scores={MusicCooldown=0}] MusicCo
 #execute at @e[tag=LegendaryMusic,type=pixelmon:pixelmon] run scoreboard players set @a[distance=..25,scores={MusicCooldown=0,TalkTime=0}] MusicCooldown 80
 
 
+#Riding a Bicycle
+execute as @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_name":'{"extra":[{"color":"red","italic":false,"text":"Bicycle"}],"text":""}'}}]}] run playsound cycling record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute as @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_name":'{"extra":[{"color":"red","italic":false,"text":"Bicycle"}],"text":""}'}}]}] run tag @s add CyclingMusic
+execute as @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_name":'{"extra":[{"color":"red","italic":false,"text":"Bicycle"}],"text":""}'}}]}] run scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 102
+
 
 #---------------------------------------------------------------------------------------------
 #Secondary Priority (Dialogue-based event music)

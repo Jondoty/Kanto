@@ -33,10 +33,6 @@ execute as @a run function kanto:world/caveportals
 #Escape Ropes, when used minecraft.used:minecraft.ender_eye
 execute as @a[scores={EscapeRopeUse=1..}] run function kanto:triggers/escaperope
 
-#Running Shoes Effects
-execute as @a[nbt={Inventory:[{Slot:100b,id:"minecraft:golden_boots"}]}] run effect give @s minecraft:speed 30 2 true
-execute as @a unless entity @s[nbt={Inventory:[{Slot:100b,id:"minecraft:golden_boots"}]}] run effect clear @s minecraft:speed
-
 #Town Map function when selecting the item
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Town Map"}],"text":""}'}}}] run function kanto:world/townmap
 execute as @a[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Town Map"}],"text":""}'}}]}] run function kanto:world/townmap
@@ -58,8 +54,17 @@ execute as @a[x=3191,y=0,z=-294,dx=510,dy=256,dz=245] run function kanto:world/s
 #Runs TriggerCommands function, score activated by shops and dialogues to run several commands together
 execute as @a[scores={TriggerCommand=1..}] run function kanto:triggers/triggercommand
 
+
+#Running Shoe and Bike Speed Effects
+execute as @a unless entity @s[tag=Cycling] run attribute @s minecraft:generic.movement_speed base set 0.15
+execute as @a unless entity @s[nbt={Inventory:[{Slot:100b,id:"minecraft:golden_boots"}]}] run attribute @s minecraft:generic.movement_speed base set 0.15
+
+execute as @a[nbt={Inventory:[{Slot:100b,id:"minecraft:golden_boots"}]}] run attribute @s minecraft:generic.movement_speed base set 0.215
+execute as @a[tag=Cycling] run attribute @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_name":'{"extra":[{"color":"red","italic":false,"text":"Bicycle"}],"text":""}'}}]}] minecraft:generic.movement_speed base set 0.3
+
+
 #------------------------------------------------------------------------------
-#HMs
+#HMs & Important Items
 
 #Runs if player can fly
 execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"HM02: Fly"}],"text":""}'}}}] run scoreboard players set @s Fly 1
@@ -86,6 +91,32 @@ execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custo
 execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Poké Flute"}],"text":""}'}}}] run scoreboard players set @s[x=3716,y=34,z=475,distance=..30,tag=!Dialogue58] DialogueTrigger 58
 execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Poké Flute"}],"text":""}'}}}] run scoreboard players set @s[x=2560,y=35,z=96,distance=..30,tag=!Dialogue59] DialogueTrigger 59
 execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Poké Flute"}],"text":""}'}}}] run scoreboard players set @s Click 0
+
+
+
+#Bicycle
+
+#Equips and dequips bikes
+execute as @a[scores={Click=1..},nbt={SelectedItem:{components:{"minecraft:custom_name": '{"extra":[{"color":"red","italic":false,"text":"Bicycle"}],"text":""}'}}}] run tag @s add BikeEquip
+
+execute as @a[tag=BikeEquip] run clear @s minecraft:carrot_on_a_stick[custom_name='["",{"text":"Bicycle","italic":false,"color":"red"}]',lore=['["",{"text":"A folding bicycle that allows faster","italic":false}]','[{"text":"movement than the Running Shoes.","italic":false}]'],custom_model_data=5]
+execute as @a[tag=BikeEquip] run item replace entity @s armor.head with carrot_on_a_stick[custom_name='["",{"text":"Bicycle","italic":false,"color":"red"}]',lore=['["",{"text":"A folding bicycle that allows faster","italic":false}]','[{"text":"movement than the Running Shoes.","italic":false}]'],custom_model_data=5]
+execute as @a[tag=BikeEquip] run function kanto:triggers/stopsound
+execute as @a[tag=BikeEquip] run playsound minecraft:item.armor.equip_iron ambient @s
+
+execute as @a[tag=BikeEquip] run scoreboard players set @s Click 0
+tag @a[tag=BikeEquip] remove BikeEquip
+
+
+#Checks if the player has the cycles equiped for music & cycling features
+tag @a[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_name": '{"extra":[{"color":"red","italic":false,"text":"Bicycle"}],"text":""}'}}]}] add Cycling
+
+#Removes if cycling tag is found, but bike is not
+execute as @a[tag=Cycling] unless entity @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_name":'{"extra":[{"color":"red","italic":false,"text":"Bicycle"}],"text":""}'}}]}] run tag @s remove Cycling
+
+#Stops music if players dequips cycle
+execute as @a[tag=CyclingMusic] unless entity @s[tag=Cycling] run function kanto:triggers/stopsound
+execute as @a[tag=CyclingMusic] unless entity @s[tag=Cycling] run tag @s remove CyclingMusic
 
 #------------------------------------------------------------------------------
 #Music commands
