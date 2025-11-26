@@ -666,6 +666,17 @@ tag @s remove Dialogue149
 tag @s remove Dialogue150
 
 
+
+#Resets specifically my money and coins so they don't show in your shops
+scoreboard players reset Jond Money
+scoreboard players reset Jond Coins
+scoreboard players reset Jond BattlePoints
+
+scoreboard players reset JondGames Money
+scoreboard players reset JondGames Coins
+scoreboard players reset JondGames BattlePoints
+
+
 tag @s add InitialTags
 
 tellraw @s {"text":"Starting Adventure...","italic":true,"color":"gray"}
