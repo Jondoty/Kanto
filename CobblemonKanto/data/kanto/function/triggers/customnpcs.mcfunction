@@ -47,6 +47,13 @@ execute as @s[x=3280,y=35,z=-391,distance=..5,tag=!Dialogue66,scores={PokeDex=50
 execute as @s[x=3280,y=35,z=-391,distance=..5,tag=Dialogue66] run opendialogue route15_oakaide_interaction2 @s
 
 #----------------------------------------------
+#Cerulean Bike Shop
+execute as @s[x=3149,y=34,z=854,distance=..7,tag=!Dialogue37] run opendialogue cerulean_bikeshop_novoucher @s
+execute as @s[x=3149,y=34,z=854,distance=..7,tag=Dialogue37,tag=!Dialogue38] run opendialogue cerulean_bikeshop_voucher @s
+execute as @s[x=3149,y=34,z=854,distance=..7,tag=Dialogue38] run opendialogue cerulean_bikeshop_followup @s
+
+
+#----------------------------------------------
 #Bill's House
 #Before pressing button
 

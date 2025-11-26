@@ -44,4 +44,14 @@ execute as @a[x=3710,y=34,z=471,dx=6,dy=10,dz=8,tag=!Dialogue58] run tp @s 3704 
 execute as @a[x=3717,y=34,z=471,dx=6,dy=10,dz=8,tag=!Dialogue58] run opendialogue snorlax_sleeping @s
 execute as @a[x=3717,y=34,z=471,dx=6,dy=10,dz=8,tag=!Dialogue58] run tp @s 3730 34 475
 
+
+#Cycling Road Blocks
+#Celadon Side
+execute as @a[x=3756,y=34,z=469,dx=5,dy=7,dz=12,tag=!Cycling] run opendialogue cyclingroad_blocked @s
+execute as @a[x=3756,y=34,z=469,dx=5,dy=7,dz=12,tag=!Cycling] at @s run tp @s ~-5 ~ ~
+
+#Fuchsia Side
+execute as @a[x=3654,y=34,z=-391,dx=5,dy=7,dz=12,tag=!Cycling] run opendialogue cyclingroad_blocked @s
+execute as @a[x=3654,y=34,z=-391,dx=5,dy=7,dz=12,tag=!Cycling] at @s run tp @s ~-5 ~ ~
+
 #
