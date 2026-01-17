@@ -62,6 +62,10 @@ execute as @a unless entity @s[nbt={Inventory:[{Slot:100b,id:"minecraft:golden_b
 execute as @a[nbt={Inventory:[{Slot:100b,id:"minecraft:golden_boots"}]}] run attribute @s minecraft:generic.movement_speed base set 0.215
 execute as @a[tag=Cycling] run attribute @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_name":'{"extra":[{"color":"red","italic":false,"text":"Bicycle"}],"text":""}'}}]}] minecraft:generic.movement_speed base set 0.3
 
+#Integrates Cobblemon-Home compatibility
+execute if block 4285 28 -2354 air if entity @p[x=4285,y=28,z=-2354,distance=..30] run function kanto:spawn/pokemonhome
+execute if entity @p[x=4285,y=28,z=-2354,distance=..6,tag=!Dialogue110] unless entity @e[x=4285,y=28,z=-2354,distance=..1,type=interaction] run summon minecraft:interaction 4285 28 -2354 {width:1.25,height:1.25,response:1,Tags:[Box1]} 
+execute if entity @p[x=4285,y=28,z=-2354,distance=..6,tag=Dialogue110] run kill @e[x=4285,y=28,z=-2354,distance=..1,type=interaction]
 
 #------------------------------------------------------------------------------
 #HMs & Important Items
