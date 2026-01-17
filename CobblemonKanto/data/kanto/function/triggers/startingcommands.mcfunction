@@ -39,6 +39,7 @@ scoreboard players set @s PokeDex 0
 scoreboard players add @s Money 2000
 function kanto:spawn/runningshoes
 function kanto:spawn/radio
+function kanto:spawn/travelersbackpack
 
 #Removes Gym Leaders beaten
 tag @s remove Brock
