@@ -21,7 +21,7 @@
 
         {
             "id": "koffing-2",
-            "pokemon": "grimer",
+            "pokemon": "koffing",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
@@ -34,7 +34,7 @@
         },
         {
             "id": "koffing-3",
-            "pokemon": "grimer",
+            "pokemon": "koffing",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
