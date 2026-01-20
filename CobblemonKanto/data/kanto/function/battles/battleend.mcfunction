@@ -3,6 +3,11 @@
 
 scoreboard players set @s BattleStart 0
 
+
+#Tells player their money count after each trainer battle
+tellraw @s[scores={BattleEnd=1..3}] ["",{"text":"You now have $","italic":true,"color":"gray"},{"score":{"name":"*","objective":"Money"},"italic":true,"color":"gray"}]
+
+
 #1 - Generic battle ending, majority of trainers especially without a story beat. 
 execute as @s[tag=!RadioOff,scores={BattleEnd=1}] run stopsound @s record
 execute as @s[tag=!RadioOff,scores={BattleEnd=1}] run playsound victorybattle record @s ~ ~ ~ 1 1 1

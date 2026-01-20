@@ -67,6 +67,11 @@ execute if block 4285 28 -2354 air if entity @p[x=4285,y=28,z=-2354,distance=..3
 execute if entity @p[x=4285,y=28,z=-2354,distance=..6,tag=!Dialogue110] unless entity @e[x=4285,y=28,z=-2354,distance=..1,type=interaction] run summon minecraft:interaction 4285 28 -2354 {width:1.25,height:1.25,response:1,Tags:[Box1]} 
 execute if entity @p[x=4285,y=28,z=-2354,distance=..6,tag=Dialogue110] run kill @e[x=4285,y=28,z=-2354,distance=..1,type=interaction]
 
+#Displays the player's Battle Points or Money if in a shop that uses them
+title @a[team=shops] actionbar ["",{"text":"Your Money Balance: $"},{"score":{"name":"*","objective":"Money"}}]
+title @a[team=Coins] actionbar ["",{"text":"Your Coins: "},{"score":{"name":"*","objective":"Coins"}}]
+
+
 #------------------------------------------------------------------------------
 #HMs & Important Items
 
