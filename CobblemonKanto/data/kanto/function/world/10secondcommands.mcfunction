@@ -1,7 +1,8 @@
 #A good middle ground between running commands every minute or every .75 seconds
 #Can cover a wider range of area without being necessarily as laggy doing so
 
-
+#Runs updates between minor version changes
+function kanto:triggers/runupdates
 
 #------------------------------------------------------------------------
 #Ambient World Pokemon
