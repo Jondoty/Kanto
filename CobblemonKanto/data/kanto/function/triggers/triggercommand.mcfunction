@@ -1200,7 +1200,7 @@ execute as @a[scores={TriggerCommand=205,Coins=..2499}] run tellraw @s {"text":"
 execute as @a[scores={TriggerCommand=205,Coins=..2499}] run scoreboard players set @s TriggerCommand 0
 
 execute as @a[scores={TriggerCommand=205,Coins=2500..}] run tellraw @s {"text":"You received a Pinsir!","italic":true,"color":"gray"}
-execute as @a[scores={TriggerCommand=205,Coins=2500..}] run pokegive clefairy level=18
+execute as @a[scores={TriggerCommand=205,Coins=2500..}] run pokegive pinsir level=18
 execute as @a[scores={TriggerCommand=205,Coins=2500..}] run playsound minecraft:getpokemon ambient @s ~ ~ ~ 1 1 1
 execute as @a[scores={TriggerCommand=205,Coins=2500..}] run scoreboard players add @s PokeDex 1
 execute as @a[scores={TriggerCommand=205,Coins=2500..}] run scoreboard players remove @s Coins 2500
