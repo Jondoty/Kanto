@@ -11793,7 +11793,7 @@ Take this!
 from Lt. Surge.
 
 
-TM34 contains SHOCK WAVE!
+TM34 contains Shock Wave!
 
 Teach it to an Electric Pokémon!
 
@@ -12620,7 +12620,7 @@ Please also take this with you.
 from Erika.
 
 
-TM19 contains GIGA DRAIN.
+TM19 contains Giga Drain.
 
 Half the damage it inflicts is
 drained to heal your Pokémon.
@@ -13358,10 +13358,10 @@ Here, you can have this, too!
 from Blaine.
 
 
-TM38 contains Fire BLAST.
+TM38 contains Fire Blast.
 Teach it to Fire-type Pokémon.
 
-VULPIX or CHARMELEON would be
+Vulpix or Charmeleon would be
 ideal for that move.
 
 

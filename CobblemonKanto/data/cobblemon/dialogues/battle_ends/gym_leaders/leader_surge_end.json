@@ -1,28 +1,32 @@
-{   "initializationAction": [              
-    "c.npc.set_chatting();",
-    "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 2');",
-    "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
-    "q.run_command('execute as ' + q.player.username + ' run advancement grant @s only kanto:badges/badge3');",
-    "q.run_command('execute as ' + q.player.username + ' run tag ' + q.player.username + ' add Surge');",
-    "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $2,400 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
-    "q.run_command('scoreboard players add ' + q.player.username + ' Money 2400');"
-        ],
-  "speakers": {
-    "npc": {
-      "name": "Lt. Surge",
-      "face": {
-        "type": "artificial",
-        "modelType": "npc",
-        "identifier": "cobblemon:surge",
-        "isLeftSide": true
-      }
-    }
-  },
-  "pages": [
-    {
-      "id": "greeting",
-      "speaker": "npc",
-      "lines": ["The ThunderBadge cranks up your Pokémon's Speed!"],
+{
+    "initializationAction": [
+        "c.npc.set_chatting();",
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 2');",
+        "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
+        "q.run_command('execute as ' + q.player.username + ' run advancement grant @s only kanto:badges/badge3');",
+        "q.run_command('execute as ' + q.player.username + ' run givetm shockwave @s[tag=!Surge]');",
+        "q.run_command('execute as ' + q.player.username + ' run tag ' + q.player.username + ' add Surge');",
+        "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $2,400 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+        "q.run_command('scoreboard players add ' + q.player.username + ' Money 2400');"
+    ],
+    "speakers": {
+        "npc": {
+            "name": "Lt. Surge",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:surge",
+                "isLeftSide": true
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+                "Now that's a shocker!"
+            ],
             "input": {
                 "type": "option",
                 "vertical": false,
@@ -36,40 +40,101 @@
             }
         },
         {
-          "id": "page2",
-          "speaker": "npc",
-          "lines": ["It also lets your Pokémon Fly lightning-quick anytime, kid!"],
-                "input": {
-                    "type": "option",
-                    "vertical": false,
-                    "options": [
-                        {
-                            "text": "Next",
-                            "value": "next",
-                            "action": "q.dialogue.set_page('page3');"
-                        }
-                    ]
-                }
-            },
-        {
-          "id": "page3",
-          "speaker": "npc",
-          "lines": ["You're special, kid!"],
-                "input": {
-                    "type": "option",
-                    "vertical": false,
-                    "options": [
-                        {
-                            "text": "Close",
-                            "value": "close",
-                            "action": [              
-                                "q.dialogue.close();"]
-                        }
-                    ]
-                }
+            "id": "page2",
+            "speaker": "npc",
+            "lines": [
+                "You're the real deal, kid! Fine, then, take the ThunderBadge!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page3');"
+                    }
+                ]
             }
+        },
+        {
+            "id": "page3",
+            "speaker": "npc",
+            "lines": [
+                "Take this!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run playsound minecraft:getitem ambient @s');",
+                            "q.dialogue.set_page('page4');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page4",
+            "speaker": "npc",
+            "lines": [
+                "It contains Shock Wave!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page5');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page5",
+            "speaker": "npc",
+            "lines": [
+                "Teach it to an Electric Pokémon!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page6');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page6",
+            "speaker": "npc",
+            "lines": [
+                "You're special, kid! Take this!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
     ],
-    "escapeAction": [              
-      "q.dialogue.close();"
-      ]
+    "escapeAction": [
+    ]
 }

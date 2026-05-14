@@ -4,6 +4,7 @@
         "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 2');",
         "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
         "q.run_command('execute as ' + q.player.username + ' run advancement grant @s only kanto:badges/badge6');",
+        "q.run_command('execute as ' + q.player.username + ' run givetm calmmind @s[tag=!Sabrina]');",
         "q.run_command('execute as ' + q.player.username + ' run tag ' + q.player.username + ' add Sabrina');",
         "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $4,300 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
         "q.run_command('scoreboard players add ' + q.player.username + ' Money 4300');"
@@ -75,10 +76,67 @@
             }
         },
         {
-            "id": "page4",
+            "id": "page3",
             "speaker": "npc",
             "lines": [
                 "Everyone has psychic power. People just don't realize it."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page4');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "npc",
+            "lines": [
+                "Please take this TM with you."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run playsound minecraft:getitem ambient @s');",
+                            "q.dialogue.set_page('page4');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "npc",
+            "lines": [
+                "That TM is Calm Mind."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page4');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "npc",
+            "lines": [
+                "It makes the Pokémon concentrate to raise both Sp. Atk and Sp. Def."
             ],
             "input": {
                 "type": "option",
@@ -95,7 +153,5 @@
             }
         }
     ],
-    "escapeAction": [
-        "q.dialogue.close();"
-    ]
+    "escapeAction": []
 }

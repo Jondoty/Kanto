@@ -4,6 +4,7 @@
         "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 2');",
         "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
         "q.run_command('execute as ' + q.player.username + ' run advancement grant @s only kanto:badges/badge2');",
+        "q.run_command('execute as ' + q.player.username + ' run givetm waterpulse @s[tag=!Misty]');",
         "q.run_command('execute as ' + q.player.username + ' run tag ' + q.player.username + ' add Misty');",
         "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $2,100 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
         "q.run_command('scoreboard players add ' + q.player.username + ' Money 2100');"
@@ -60,7 +61,7 @@
             "id": "page3",
             "speaker": "npc",
             "lines": [
-                "The CascadeBadge means you can now use Cut anytime, even out of battle."
+                "The CascadeBadge means you can now use Cut anytime, even out of battle, if you have it."
             ],
             "input": {
                 "type": "option",
@@ -85,6 +86,63 @@
                 "vertical": false,
                 "options": [
                     {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page5');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page5",
+            "speaker": "npc",
+            "lines": [
+                "You can also have my favorite TM."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run playsound minecraft:getitem ambient @s');",
+                            "q.dialogue.set_page('page6');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page6",
+            "speaker": "npc",
+            "lines": [
+                "It teaches Water Pulse."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page7');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page7",
+            "speaker": "npc",
+            "lines": [
+                "Use it on an aquatic Pokémon!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
                         "text": "Close",
                         "value": "close",
                         "action": [
@@ -95,7 +153,5 @@
             }
         }
     ],
-    "escapeAction": [
-        "q.dialogue.close();"
-    ]
+    "escapeAction": []
 }

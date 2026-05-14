@@ -1,28 +1,32 @@
-{   "initializationAction": [              
-    "c.npc.set_chatting();",
-    "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 2');",
-    "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
-    "q.run_command('execute as ' + q.player.username + ' run advancement grant @s only kanto:badges/badge7');",
-    "q.run_command('execute as ' + q.player.username + ' run tag ' + q.player.username + ' add Blaine');",
-    "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $4,700 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
-    "q.run_command('scoreboard players add ' + q.player.username + ' Money 4700');"
-        ],
-  "speakers": {
-    "npc": {
-      "name": "Blaine",
-      "face": {
-        "type": "artificial",
-        "modelType": "npc",
-        "identifier": "cobblemon:blaine",
-        "isLeftSide": true
-      }
-    }
-  },
-  "pages": [
-    {
-      "id": "greeting",
-      "speaker": "npc",
-      "lines": ["You have earned the VolcanoBadge."],
+{
+    "initializationAction": [
+        "c.npc.set_chatting();",
+        "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 2');",
+        "q.run_command('execute as ' + q.player.username + ' run function kanto:triggers/stopsound');",
+        "q.run_command('execute as ' + q.player.username + ' run advancement grant @s only kanto:badges/badge7');",
+        "q.run_command('execute as ' + q.player.username + ' run givetm fireblast @s[tag=!Blaine]');",
+        "q.run_command('execute as ' + q.player.username + ' run tag ' + q.player.username + ' add Blaine');",
+        "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $4,700 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+        "q.run_command('scoreboard players add ' + q.player.username + ' Money 4700');"
+    ],
+    "speakers": {
+        "npc": {
+            "name": "Blaine",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:blaine",
+                "isLeftSide": true
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+                "You have earned the VolcanoBadge."
+            ],
             "input": {
                 "type": "option",
                 "vertical": false,
@@ -36,40 +40,118 @@
             }
         },
         {
-          "id": "page2",
-          "speaker": "npc",
-          "lines": ["Fire Blast is the ultimate fire technique."],
-                "input": {
-                    "type": "option",
-                    "vertical": false,
-                    "options": [
-                        {
-                            "text": "Next",
-                            "value": "next",
-                            "action": "q.dialogue.set_page('page3');"
-                        }
-                    ]
-                }
-            },
-        {
-          "id": "page3",
-          "speaker": "npc",
-          "lines": ["Don't waste it on Water Pokémon. Hah!"],
-                "input": {
-                    "type": "option",
-                    "vertical": false,
-                    "options": [
-                        {
-                            "text": "Close",
-                            "value": "close",
-                            "action": [              
-                                "q.dialogue.close();"]
-                        }
-                    ]
-                }
+            "id": "page2",
+            "speaker": "npc",
+            "lines": [
+                "Hah!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page3');"
+                    }
+                ]
             }
+        },
+        {
+            "id": "page3",
+            "speaker": "npc",
+            "lines": [
+                "Here, you can have this, too!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run playsound minecraft:getitem ambient @s');",
+                            "q.dialogue.set_page('page4');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page4",
+            "speaker": "npc",
+            "lines": [
+                "That TM contains Fire Blast. Teach it to Fire-type Pokémon."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page5');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page5",
+            "speaker": "npc",
+            "lines": [
+                "Vulpix or Charmeleon would be ideal for that move."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page6');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page6",
+            "speaker": "npc",
+            "lines": [
+                "Fire Blast is the ultimate fire technique."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page7');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page7",
+            "speaker": "npc",
+            "lines": [
+                "Don't waste it on Water Pokémon. Hah!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
     ],
-    "escapeAction": [              
-      "q.dialogue.close();"
-      ]
+    "escapeAction": []
 }
