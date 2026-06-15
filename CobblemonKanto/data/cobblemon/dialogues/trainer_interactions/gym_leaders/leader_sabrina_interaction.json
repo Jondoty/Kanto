@@ -81,42 +81,6 @@
                 "vertical": false,
                 "options": [
                     {
-                        "text": "Next",
-                        "value": "next",
-                        "action": "q.dialogue.set_page('page5');"
-                    }
-                ]
-            }
-        },
-        {
-            "id": "page5",
-            "speaker": "npc",
-            "lines": [
-                "Poison brings steady doom. Sleep renders foes helpless."
-            ],
-            "input": {
-                "type": "option",
-                "vertical": false,
-                "options": [
-                    {
-                        "text": "Next",
-                        "value": "next",
-                        "action": "q.dialogue.set_page('battle_prompt');"
-                    }
-                ]
-            }
-        },
-        {
-            "id": "battle_prompt",
-            "speaker": "npc",
-            "lines": [
-                "Despair to the creeping horror of Poison-type Pokémon!"
-            ],
-            "input": {
-                "type": "option",
-                "vertical": false,
-                "options": [
-                    {
                         "text": "§c⚔ Battle ⚔§r",
                         "value": "battle",
                         "action": [              
