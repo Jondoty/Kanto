@@ -25,7 +25,7 @@
             "id": "greeting",
             "speaker": "npc",
             "lines": [
-               "We exchange your Coins for Pokemon prizes."
+               "We exchange your Coins for TM prizes."
             ],
             "input": {
                 "type": "option",
@@ -55,19 +55,19 @@
                 "vertical": true,
                 "options": [
                     {
-                        "text": "Abra",
-                        "value": "abra",
-                        "action": "q.dialogue.set_page('pickabra');"
+                        "text": "Ice Beam TM",
+                        "value": "icebeam",
+                        "action": "q.dialogue.set_page('pickicebeam');"
                     },
                     {
-                        "text": "Clefairy",
-                        "value": "clefairy",
-                        "action": "q.dialogue.set_page('pickclefairy');"
+                        "text": "Iron Tail TM",
+                        "value": "irontail",
+                        "action": "q.dialogue.set_page('pickirontail');"
                     },
                     {
-                        "text": "Pinsir",
-                        "value": "pinsir",
-                        "action": "q.dialogue.set_page('pickpinsir');"
+                        "text": "Thunderbolt TM",
+                        "value": "thunderbolt",
+                        "action": "q.dialogue.set_page('pickthunderbolt');"
                     },
                     {
                         "text": "Page 2 >>",
@@ -88,19 +88,14 @@
                 "vertical": true,
                 "options": [
                     {
-                        "text": "Dratini",
-                        "value": "dratini",
-                        "action": "q.dialogue.set_page('pickdratini');"
+                        "text": "Shadow Ball TM",
+                        "value": "shadowball",
+                        "action": "q.dialogue.set_page('pickshadowball');"
                     },
                     {
-                        "text": "Scyther",
-                        "value": "scyther",
-                        "action": "q.dialogue.set_page('pickscyther');"
-                    },
-                    {
-                        "text": "Porygon",
-                        "value": "porygon",
-                        "action": "q.dialogue.set_page('pickporygon');"
+                        "text": "Flamethrower TM",
+                        "value": "flamethrower",
+                        "action": "q.dialogue.set_page('pickflamethrower');"
                     },
                     {
                         "text": "<< Page 1",
@@ -113,10 +108,10 @@
 
 
         {
-            "id": "pickabra",
+            "id": "pickicebeam",
             "speaker": "npc",
             "lines": [
-                "So, you want an Abra? It'll be 180 Coins."
+                "4000 Coins) The target is struck with an icy-cold beam of energy. This may also leave the target frozen."
             ],
             "input": {
                 "type": "option",
@@ -126,7 +121,7 @@
                         "text": "Buy",
                         "value": "buy",
                         "action": [
-                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 203');",
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 216');",
                             "q.dialogue.set_page('buyend');"
                         ]
                     },
@@ -141,10 +136,10 @@
             }
         },
         {
-            "id": "pickclefairy",
+            "id": "pickirontail",
             "speaker": "npc",
             "lines": [
-                "So, you want a Clefairy? It'll be 500 Coins."
+                "3500 Coins) The target is slammed with a steel-hard tail. This may also lower the target's Defense stat."
             ],
             "input": {
                 "type": "option",
@@ -154,7 +149,7 @@
                         "text": "Buy",
                         "value": "buy",
                         "action": [
-                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 204');",
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 217');",
                             "q.dialogue.set_page('buyend');"
                         ]
                     },
@@ -169,10 +164,10 @@
             }
         },
         {
-            "id": "pickpinsir",
+            "id": "pickthunderbolt",
             "speaker": "npc",
             "lines": [
-                "So, you want a Pinsir? It'll be 2500 Coins."
+                "4000 Coins) The user attacks the target with a strong electric blast. This may also leave the target with paralysis."
             ],
             "input": {
                 "type": "option",
@@ -182,7 +177,7 @@
                         "text": "Buy",
                         "value": "buy",
                         "action": [
-                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 205');",
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 218');",
                             "q.dialogue.set_page('buyend');"
                         ]
                     },
@@ -197,10 +192,10 @@
             }
         },
         {
-            "id": "pickdratini",
+            "id": "pickshadowball",
             "speaker": "npc",
             "lines": [
-                "So, you want a Dratini? It'll be 2800 Coins."
+                "4500 Coins) The user attacks by hurling a shadowy blob at the target. This may also lower the target's Sp. Def stat."
             ],
             "input": {
                 "type": "option",
@@ -210,7 +205,7 @@
                         "text": "Buy",
                         "value": "buy",
                         "action": [
-                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 206');",
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 219');",
                             "q.dialogue.set_page('buyend');"
                         ]
                     },
@@ -225,10 +220,10 @@
             }
         },
         {
-            "id": "pickscyther",
+            "id": "pickflamethrower",
             "speaker": "npc",
             "lines": [
-                "So, you want a Scyther? It'll be 5500 Coins."
+                "4000 Coins) The target is scorched with an intense blast of fire. This may also leave the target with a burn."
             ],
             "input": {
                 "type": "option",
@@ -238,35 +233,7 @@
                         "text": "Buy",
                         "value": "buy",
                         "action": [
-                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 207');",
-                            "q.dialogue.set_page('buyend');"
-                        ]
-                    },
-                    {
-                        "text": "Go Back",
-                        "value": "goback",
-                        "action": [
-                            "q.dialogue.set_page('buy1');"
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "id": "pickporygon",
-            "speaker": "npc",
-            "lines": [
-                "So, you want a Porygon? It'll be 6500 Coins."
-            ],
-            "input": {
-                "type": "option",
-                "vertical": false,
-                "options": [
-                    {
-                        "text": "Buy",
-                        "value": "buy",
-                        "action": [
-                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 208');",
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 220');",
                             "q.dialogue.set_page('buyend');"
                         ]
                     },

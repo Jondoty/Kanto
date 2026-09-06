@@ -1,17 +1,17 @@
 {
     "initializationAction": [
-        "q.run_command('team join Coins ' + q.player.username + '');"
+        "q.run_command('team join shops ' + q.player.username + '');"
     ],
     "escapeAction": [
         "q.run_command('team join default ' + q.player.username + '');",
         "q.dialogue.close();"
     ],
     "names": [
-        "Game Corner Clerk"
+        "Celadon Department Clerk"
     ],
     "speakers": {
         "npc": {
-            "name": "Game Corner Clerk",
+            "name": "Celadon Department Clerk",
             "face": {
                 "type": "artificial",
                 "modelType": "npc",
@@ -25,7 +25,7 @@
             "id": "greeting",
             "speaker": "npc",
             "lines": [
-               "We exchange your Coins for Pokemon prizes."
+               "Welcome to the Celadon Department Store! May I help you?"
             ],
             "input": {
                 "type": "option",
@@ -48,26 +48,26 @@
             "id": "buy1",
             "speaker": "npc",
             "lines": [
-                "Which prize would you like?"
+                "Which TM would you like to purchase?"
             ],
             "input": {
                 "type": "option",
                 "vertical": true,
                 "options": [
                     {
-                        "text": "Abra",
-                        "value": "abra",
-                        "action": "q.dialogue.set_page('pickabra');"
+                        "text": "TM Roar",
+                        "value": "roar",
+                        "action": "q.dialogue.set_page('pickroar');"
                     },
                     {
-                        "text": "Clefairy",
-                        "value": "clefairy",
-                        "action": "q.dialogue.set_page('pickclefairy');"
+                        "text": "TM Hyper Beam",
+                        "value": "hyperbeam",
+                        "action": "q.dialogue.set_page('pickhyperbeam');"
                     },
                     {
-                        "text": "Pinsir",
-                        "value": "pinsir",
-                        "action": "q.dialogue.set_page('pickpinsir');"
+                        "text": "TM Dig",
+                        "value": "dig",
+                        "action": "q.dialogue.set_page('pickdig');"
                     },
                     {
                         "text": "Page 2 >>",
@@ -81,26 +81,26 @@
             "id": "buy2",
             "speaker": "npc",
             "lines": [
-                "Which prize would you like?"
+                "Which TM would you like to purchase?"
             ],
             "input": {
                 "type": "option",
                 "vertical": true,
                 "options": [
                     {
-                        "text": "Dratini",
-                        "value": "dratini",
-                        "action": "q.dialogue.set_page('pickdratini');"
+                        "text": "TM Brick Break",
+                        "value": "brickbreak",
+                        "action": "q.dialogue.set_page('pickbrickbreak');"
                     },
                     {
-                        "text": "Scyther",
-                        "value": "scyther",
-                        "action": "q.dialogue.set_page('pickscyther');"
+                        "text": "TM Secret Power",
+                        "value": "secretpower",
+                        "action": "q.dialogue.set_page('picksecretpower');"
                     },
                     {
-                        "text": "Porygon",
-                        "value": "porygon",
-                        "action": "q.dialogue.set_page('pickporygon');"
+                        "text": "Tm Attract",
+                        "value": "attract",
+                        "action": "q.dialogue.set_page('pickattract');"
                     },
                     {
                         "text": "<< Page 1",
@@ -113,10 +113,10 @@
 
 
         {
-            "id": "pickabra",
+            "id": "pickroar",
             "speaker": "npc",
             "lines": [
-                "So, you want an Abra? It'll be 180 Coins."
+                "$1000) The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon."
             ],
             "input": {
                 "type": "option",
@@ -126,13 +126,13 @@
                         "text": "Buy",
                         "value": "buy",
                         "action": [
-                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 203');",
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 210');",
                             "q.dialogue.set_page('buyend');"
                         ]
                     },
                     {
-                        "text": "Go Back",
-                        "value": "goback",
+                        "text": "<< Back",
+                        "value": "back",
                         "action": [
                             "q.dialogue.set_page('buy1');"
                         ]
@@ -141,10 +141,10 @@
             }
         },
         {
-            "id": "pickclefairy",
+            "id": "pickhyperbeam",
             "speaker": "npc",
             "lines": [
-                "So, you want a Clefairy? It'll be 500 Coins."
+                "$7500) The target is attacked with a powerful beam. The user can't move on the next turn."
             ],
             "input": {
                 "type": "option",
@@ -154,13 +154,13 @@
                         "text": "Buy",
                         "value": "buy",
                         "action": [
-                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 204');",
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 211');",
                             "q.dialogue.set_page('buyend');"
                         ]
                     },
                     {
-                        "text": "Go Back",
-                        "value": "goback",
+                        "text": "<< Back",
+                        "value": "back",
                         "action": [
                             "q.dialogue.set_page('buy1');"
                         ]
@@ -169,10 +169,10 @@
             }
         },
         {
-            "id": "pickpinsir",
+            "id": "pickdig",
             "speaker": "npc",
             "lines": [
-                "So, you want a Pinsir? It'll be 2500 Coins."
+                "$2000) The user burrows into the ground on the first turn, then attacks on the next turn."
             ],
             "input": {
                 "type": "option",
@@ -182,13 +182,13 @@
                         "text": "Buy",
                         "value": "buy",
                         "action": [
-                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 205');",
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 212');",
                             "q.dialogue.set_page('buyend');"
                         ]
                     },
                     {
-                        "text": "Go Back",
-                        "value": "goback",
+                        "text": "<< Back",
+                        "value": "back",
                         "action": [
                             "q.dialogue.set_page('buy1');"
                         ]
@@ -197,10 +197,10 @@
             }
         },
         {
-            "id": "pickdratini",
+            "id": "pickbrickbreak",
             "speaker": "npc",
             "lines": [
-                "So, you want a Dratini? It'll be 2800 Coins."
+                "$3000) The user attacks with a swift chop. This move can also break barriers, such as Light Screen and Reflect."
             ],
             "input": {
                 "type": "option",
@@ -210,13 +210,13 @@
                         "text": "Buy",
                         "value": "buy",
                         "action": [
-                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 206');",
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 213');",
                             "q.dialogue.set_page('buyend');"
                         ]
                     },
                     {
-                        "text": "Go Back",
-                        "value": "goback",
+                        "text": "<< Back",
+                        "value": "back",
                         "action": [
                             "q.dialogue.set_page('buy1');"
                         ]
@@ -225,10 +225,10 @@
             }
         },
         {
-            "id": "pickscyther",
+            "id": "picksecretpower",
             "speaker": "npc",
             "lines": [
-                "So, you want a Scyther? It'll be 5500 Coins."
+                "$3000) The additional effects of this attack depend upon where it was used."
             ],
             "input": {
                 "type": "option",
@@ -238,13 +238,13 @@
                         "text": "Buy",
                         "value": "buy",
                         "action": [
-                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 207');",
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 214');",
                             "q.dialogue.set_page('buyend');"
                         ]
                     },
                     {
-                        "text": "Go Back",
-                        "value": "goback",
+                        "text": "<< Back",
+                        "value": "back",
                         "action": [
                             "q.dialogue.set_page('buy1');"
                         ]
@@ -253,10 +253,10 @@
             }
         },
         {
-            "id": "pickporygon",
+            "id": "pickattract",
             "speaker": "npc",
             "lines": [
-                "So, you want a Porygon? It'll be 6500 Coins."
+                "$3000) If the target is of the opposite gender to the user, it becomes infatuated with the user and will sometimes be unable to use its moves."
             ],
             "input": {
                 "type": "option",
@@ -266,13 +266,13 @@
                         "text": "Buy",
                         "value": "buy",
                         "action": [
-                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 208');",
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 215');",
                             "q.dialogue.set_page('buyend');"
                         ]
                     },
                     {
-                        "text": "Go Back",
-                        "value": "goback",
+                        "text": "<< Back",
+                        "value": "back",
                         "action": [
                             "q.dialogue.set_page('buy1');"
                         ]
@@ -280,8 +280,6 @@
                 ]
             }
         },
-
-
         {
             "id": "buyend",
             "speaker": "npc",

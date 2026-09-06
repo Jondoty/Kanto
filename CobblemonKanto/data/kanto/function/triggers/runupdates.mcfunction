@@ -51,9 +51,11 @@ execute if entity @a[x=2566,y=35,z=345,distance=..50] unless entity @e[x=2566,y=
 execute if entity @a[x=3408,y=35,z=-442,distance=..50] unless entity @e[x=3408,y=35,z=-442,dy=3,type=cobblemon:npc] run npcspawnat 3408 35 -442 celadon_oldman
 execute if entity @a[x=3408,y=35,z=-442,distance=..50] unless entity @e[x=3408,y=35,z=-442,dy=3,type=minecraft:interaction] positioned 3408 35 -442 run function kanto:spawn/npcboxes
 
+execute if entity @a[x=3582,y=40,z=547,distance=..50] unless entity @e[x=3582,y=40,z=547,dy=3,type=cobblemon:npc] run npcspawnat 3582 40 547 celadon_shop
+execute if entity @a[x=3467,y=34,z=499,distance=..50] unless entity @e[x=3467,y=34,z=499,dx=1,dy=3,type=cobblemon:npc] run npcspawnat 3467.0 34 499 gamecorner_shop4
 
 #Blocks
-execute if entity @a[x=4189,y=40,z=-120,distance=..75] unless block 4189 40 -120 cobblemon:disc_shelf fill 4189 40 -120 4188 42 -120 cobblemon:disc_shelf[facing=north]
+execute if entity @a[x=4189,y=40,z=-120,distance=..75] unless block 4189 40 -120 cobblemon:disc_shelf run fill 4189 40 -120 4188 42 -120 cobblemon:disc_shelf[facing=north]
 
 
 

@@ -25,7 +25,7 @@
             "id": "greeting",
             "speaker": "npc",
             "lines": [
-               "We exchange your Coins for prizes."
+               "We exchange your Coins for Item prizes."
             ],
             "input": {
                 "type": "option",
