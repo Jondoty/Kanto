@@ -23,8 +23,8 @@ execute if entity @a[x=2917,y=34,z=1163,distance=..75] if block 2917 34 1163 air
 execute if entity @a[x=2926,y=34,z=849,distance=..75] if block 2926 34 849 air positioned 2926 34 849 run function kanto:spawn/tmloot
 execute if entity @a[x=4399,y=75,z=1945,distance=..75] if block 4399 75 1802 air positioned 4399 75 1802 run function kanto:spawn/tmloot
 execute if entity @a[x=4399,y=75,z=1945,distance=..75] if block 4399 75 1945 air positioned 4399 75 1945 run function kanto:spawn/tmloot
-execute if entity @a[x=4483,y=88,z=1952,distance=..75] if block 4483 88 1809 air positioned 4483 88 1809 run function kanto:spawn/tmloot
-execute if entity @a[x=4483,y=88,z=1809,distance=..75] if block 4483 88 1952 air positioned 4483 88 1952 run function kanto:spawn/tmloot
+execute if entity @a[x=4483,y=88,z=1809,distance=..75] if block 4483 88 1809 air positioned 4483 88 1809 run function kanto:spawn/tmloot
+execute if entity @a[x=4483,y=88,z=1952,distance=..75] if block 4483 88 1952 air positioned 4483 88 1952 run function kanto:spawn/tmloot
 execute if entity @a[x=4392,y=114,z=1967,distance=..75] if block 4392 114 1967 air positioned 4392 114 1967 run function kanto:spawn/tmloot
 execute if entity @a[x=4392,y=114,z=1824,distance=..75] if block 4392 114 1824 air positioned 4392 114 1824 run function kanto:spawn/tmloot
 execute if entity @a[x=4654,y=70,z=1679,distance=..75] if block 4654 70 1679 air positioned 4654 70 1679 run function kanto:spawn/tmloot
@@ -43,6 +43,7 @@ execute if entity @a[x=4686,y=35,z=1827,distance=..75] if block 4686 35 1827 air
 execute if entity @a[x=4656,y=35,z=1880,distance=..75] if block 4656 35 1880 air positioned 4656 35 1880 run function kanto:spawn/tmloot
 execute if entity @a[x=3091,y=-7,z=-2991,distance=..75] if block 3091 -7 -2991 air positioned 3091 -7 -2991 run function kanto:spawn/tmloot
 
+execute if entity @a[x=3616,y=34,z=-209,distance=..75] if block 3616 34 -209 air positioned 3616 34 -209 run function kanto:spawn/itemloot
 
 
 
