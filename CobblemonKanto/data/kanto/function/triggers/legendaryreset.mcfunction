@@ -41,6 +41,11 @@ execute store result score @s Temp run teststore @s all lugia
 execute as @s[tag=LugiaEncounter] unless entity @s[scores={Temp=1..}] run tellraw @s {"text":"You can now rebattle Lugia!","italic":true,"color":"gray"}
 execute as @s[tag=LugiaEncounter] unless entity @s[scores={Temp=1..}] run tag @s remove LugiaEncounter
 
+scoreboard players set @s Temp 0
+execute store result score @s Temp run teststore @s all snorlax
+execute as @s[tag=Dialogue58,tag=Dialogue59] unless entity @s[scores={Temp=1..}] run tellraw @s {"text":"You can now rebattle Snorlax!","italic":true,"color":"gray"}
+execute as @s[tag=Dialogue59] unless entity @s[scores={Temp=1..}] run tag @s remove Dialogue59
+execute as @s[tag=Dialogue58] unless entity @s[scores={Temp=1..}] run tag @s remove Dialogue58
 
 
 
