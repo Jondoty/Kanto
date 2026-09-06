@@ -77,6 +77,15 @@ execute as @e[type=cobblemon:pokemon,tag=AmbientPokemon,nbt={PersistenceRequired
 execute as @e[type=cobblemon:pokemon,tag=AmbientPokemon,nbt={PersistenceRequired:0b}] run data modify entity @s Invulnerable set value 1b
 execute as @e[type=cobblemon:pokemon,tag=AmbientPokemon,nbt={PersistenceRequired:0b}] run data modify entity @s PersistenceRequired set value 1
 
+
+#Rocket HQ Fallback, if player is on the ground
+execute as @a[x=4542,y=0,z=1587,dx=154,dy=256,dz=145] at @s if block ~ ~-1 ~ minecraft:grass_block run tag @s remove MoveSouth
+execute as @a[x=4542,y=0,z=1587,dx=154,dy=256,dz=145] at @s if block ~ ~-1 ~ minecraft:grass_block run tag @s remove MoveEast
+execute as @a[x=4542,y=0,z=1587,dx=154,dy=256,dz=145] at @s if block ~ ~-1 ~ minecraft:grass_block run tag @s remove MoveWest
+execute as @a[x=4542,y=0,z=1587,dx=154,dy=256,dz=145] at @s if block ~ ~-1 ~ minecraft:grass_block run tag @s remove MoveNorth
+execute as @a[x=4542,y=0,z=1587,dx=154,dy=256,dz=145] at @s if block ~ ~-1 ~ minecraft:grass_block run effect clear @s minecraft:slowness
+execute as @a[x=4542,y=0,z=1587,dx=154,dy=256,dz=145] at @s if block ~ ~-1 ~ minecraft:grass_block run tp @s 4599 89 1685
+
 #------------------------------------------------------------------------
 
 
