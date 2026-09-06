@@ -76,7 +76,7 @@
             }
         },
         {
-            "id": "page3",
+            "id": "page4",
             "speaker": "npc",
             "lines": [
                 "Everyone has psychic power. People just don't realize it."
@@ -88,13 +88,13 @@
                     {
                         "text": "Next",
                         "value": "next",
-                        "action": "q.dialogue.set_page('page4');"
+                        "action": "q.dialogue.set_page('page5');"
                     }
                 ]
             }
         },
         {
-            "id": "page3",
+            "id": "page5",
             "speaker": "npc",
             "lines": [
                 "Please take this TM with you."
@@ -108,14 +108,14 @@
                         "value": "next",
                         "action": [
                             "q.run_command('execute as ' + q.player.username + ' run playsound minecraft:getitem ambient @s');",
-                            "q.dialogue.set_page('page4');"
+                            "q.dialogue.set_page('page6');"
                         ]
                     }
                 ]
             }
         },
         {
-            "id": "page3",
+            "id": "page6",
             "speaker": "npc",
             "lines": [
                 "That TM is Calm Mind."
@@ -127,13 +127,13 @@
                     {
                         "text": "Next",
                         "value": "next",
-                        "action": "q.dialogue.set_page('page4');"
+                        "action": "q.dialogue.set_page('page7');"
                     }
                 ]
             }
         },
         {
-            "id": "page3",
+            "id": "page7",
             "speaker": "npc",
             "lines": [
                 "It makes the Pokémon concentrate to raise both Sp. Atk and Sp. Def."

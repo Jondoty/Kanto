@@ -50,7 +50,10 @@
                     {
                         "text": "Next",
                         "value": "next",
-                        "action": "q.dialogue.set_page('page3');"
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run givetm dig');",
+                            "q.dialogue.set_page('page3');"
+                        ]
                     }
                 ]
             }
