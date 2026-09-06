@@ -77,7 +77,12 @@ execute as @s[x=4181,y=34,z=-725,distance=..8,tag=FossilHave] run opendialogue c
 execute as @s[x=4181,y=34,z=-725,distance=..8,tag=FossilHave] run tag @s remove FossilHave
 
 #----------------------------------------------
+#Fuchsia Warden
+execute as @s[x=3408,y=35,z=-442,distance=..5,tag=!ItemLoot183] unless entity @s[nbt={Inventory:[{id:"minecraft:music_disc_mall"}]}] run opendialogue fuchsia_warden_noteeth @s
+execute as @s[x=3408,y=35,z=-442,distance=..5,tag=!ItemLoot183] if entity @s[nbt={Inventory:[{id:"minecraft:music_disc_mall"}]}] run opendialogue fuchsia_warden_teeth @s
+execute as @s[x=3408,y=35,z=-442,distance=..5,tag=ItemLoot183] run opendialogue fuchsia_warden_done @s
 
+#----------------------------------------------
 #Vermilion Seagallop NPC
 execute as @s[x=3102,y=34,z=26,distance=..6,tag=!RainbowPass,tag=!TriPass] run opendialogue vermilion_seagallopferry_default @s
 execute as @s[x=3102,y=34,z=26,distance=..6,tag=TriPass] run opendialogue vermilion_seagallopferry_tripass @s

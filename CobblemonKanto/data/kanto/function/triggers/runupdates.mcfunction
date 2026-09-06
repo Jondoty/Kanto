@@ -45,12 +45,15 @@ execute if entity @a[x=3091,y=-7,z=-2991,distance=..75] if block 3091 -7 -2991 a
 
 execute if entity @a[x=3616,y=34,z=-209,distance=..75] if block 3616 34 -209 air positioned 3616 34 -209 run function kanto:spawn/itemloot
 
+#New NPCs
+execute if entity @a[x=2566,y=35,z=345,distance=..50] unless entity @e[x=2566,y=35,z=345,dy=3,type=cobblemon:npc] run npcspawnat 2566 35 345 route12_lass
+
+execute if entity @a[x=3408,y=35,z=-442,distance=..50] unless entity @e[x=3408,y=35,z=-442,dy=3,type=cobblemon:npc] run npcspawnat 3408 35 -442 celadon_oldman
+execute if entity @a[x=3408,y=35,z=-442,distance=..50] unless entity @e[x=3408,y=35,z=-442,dy=3,type=minecraft:interaction] positioned 3408 35 -442 run function kanto:spawn/npcboxes
 
 
-
-
-
-
+#Blocks
+execute if entity @a[x=4189,y=40,z=-120,distance=..75] unless block 4189 40 -120 cobblemon:disc_shelf fill 4189 40 -120 4188 42 -120 cobblemon:disc_shelf[facing=north]
 
 
 
