@@ -151,11 +151,11 @@ execute as @s[x=4454,y=61,z=1117,distance=..5,scores={PokemonLeague=1},tag=Dialo
 
 
 #One Island Celio
-execute as @s[x=4283,y=28,z=-2355,distance=..5] run opendialogue one_celio_interaction @s
-execute as @s[x=4283,y=28,z=-2355,distance=..5,scores={PokemonLeague=1..},tag=!Dialogue108] run opendialogue oneisland_celio_dialogue108 @s
-execute as @s[x=4283,y=28,z=-2355,distance=..5,scores={PokemonLeague=1..},tag=!Dialogue109,nbt={Inventory:[{id:"minecraft:music_disc_chirp"}]}] run opendialogue oneisland_celio_dialogue109 @s
-execute as @s[x=4283,y=28,z=-2355,distance=..5,scores={PokemonLeague=1..},tag=!Dialogue110,nbt={Inventory:[{id:"minecraft:music_disc_far"}]}] run opendialogue oneisland_celio_dialogue110 @s
-execute as @s[x=4283,y=28,z=-2355,distance=..5,tag=Dialogue110] run opendialogue oneisland_celio_done @s
+execute as @s[x=4283,y=28,z=-2355,distance=..5] run opendialogue one_celio_interaction @s[tag=!InDialogue]
+execute as @s[x=4283,y=28,z=-2355,distance=..5,scores={PokemonLeague=1..},tag=!Dialogue108] run opendialogue oneisland_celio_dialogue108 @s[tag=!InDialogue]
+execute as @s[x=4283,y=28,z=-2355,distance=..5,scores={PokemonLeague=1..},tag=!Dialogue109,nbt={Inventory:[{id:"minecraft:music_disc_chirp"}]}] run opendialogue oneisland_celio_dialogue109 @s[tag=!InDialogue]
+execute as @s[x=4283,y=28,z=-2355,distance=..5,scores={PokemonLeague=1..},tag=!Dialogue110,nbt={Inventory:[{id:"minecraft:music_disc_far"}]}] run opendialogue oneisland_celio_dialogue110 @s[tag=!InDialogue]
+execute as @s[x=4283,y=28,z=-2355,distance=..5,tag=Dialogue110] run opendialogue oneisland_celio_done @s[tag=!InDialogue]
 
 
 #----------------------------------------------

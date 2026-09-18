@@ -21,10 +21,17 @@
                     {
                         "text": "Close",
                         "value": "close",
-                        "action": "q.dialogue.close();"
+                        "action": [
+                          "q.run_command('execute as ' + q.player.username + ' run tag @s[x=4274,y=25,z=-2363,dx=45,dy=13,dz=27] remove InDialogue');",
+                          "q.dialogue.close();"
+                        ]
                     }
                 ]
             }
     }
-  ]
+  ],    
+  "escapeAction": [
+        "q.run_command('execute as ' + q.player.username + ' run tag @s[x=4274,y=25,z=-2363,dx=45,dy=13,dz=27] remove InDialogue');",
+        "q.dialogue.close();"
+    ]
 }
