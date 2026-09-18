@@ -385,7 +385,7 @@ execute positioned 3733 49 -3594 as @e[distance=..5,type=cobblemon:pokemon,nbt={
 execute positioned 3733 49 -3594 as @e[distance=..5,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:deoxys"}},nbt={PersistenceRequired:0b}] run data modify entity @s PersistenceRequired set value 1
 
 #Ho-Oh
-execute as @s[x=2780,y=95,z=-2128,distance=..10,tag=!HoohEncounter] unless entity @e[x=2780,y=105,z=-2106,distance=..5,type=cobblemon:pokemon] run summon minecraft:interaction 2780 105 -2106 {width:3,height:4,response:1,Tags:[NPCs]}
+execute as @s[x=2780,y=95,z=-2128,distance=..10,tag=!HoohEncounter] unless entity @e[x=2780,y=105,z=-2106,distance=..5,type=cobblemon:pokemon] run summon minecraft:interaction 2780 105 -2106 {width:4.5,height:5,response:1,Tags:[NPCs]}
 execute as @s[x=2780,y=95,z=-2128,distance=..10,tag=!HoohEncounter] unless entity @e[x=2780,y=105,z=-2106,distance=..5,type=cobblemon:pokemon] run pokespawnat 2780 105 -2106 hooh no_ai=true level=70 moves=recover,fireblast,sunnyday,swift
 execute positioned 2780 105 -2106 as @e[distance=..5,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:hooh"}},nbt={PersistenceRequired:0b}] run tp @s ~ ~ ~ 180 ~
 execute positioned 2780 105 -2106 as @e[distance=..5,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:hooh"}},nbt={PersistenceRequired:0b}] run data merge entity @s {Pokemon:{PokemonData:["uncatchable"]}}
