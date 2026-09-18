@@ -54,9 +54,20 @@ execute if entity @a[x=3408,y=35,z=-442,distance=..50] unless entity @e[x=3408,y
 execute if entity @a[x=3582,y=40,z=547,distance=..50] unless entity @e[x=3582,y=40,z=547,dy=3,type=cobblemon:npc] run npcspawnat 3582 40 547 celadon_shop
 execute if entity @a[x=3467,y=34,z=499,distance=..50] unless entity @e[x=3467,y=34,z=499,dx=1,dy=3,type=cobblemon:npc] run npcspawnat 3467.0 34 499 gamecorner_shop4
 
+execute if entity @a[x=4354,y=39,z=-3275,distance=..50] unless entity @e[x=4354,y=39,z=-3275,dy=3,type=cobblemon:npc] run npcspawnat 4354 39 -3275 four_daycarelady
+
 #Blocks
 execute if entity @a[x=4189,y=40,z=-120,distance=..75] unless block 4189 40 -120 cobblemon:disc_shelf run fill 4189 40 -120 4188 42 -120 cobblemon:disc_shelf[facing=north]
 
+execute if entity @a[x=4340,y=40,z=-3260,distance=..75] if block 4340 40 -3260 air run setblock 4340 40 -3260 cobblemon:pasture[part=top,waterlogged=false]
+execute if entity @a[x=4340,y=40,z=-3260,distance=..75] if block 4340 39 -3260 air run setblock 4340 39 -3260 cobblemon:pasture[part=bottom,waterlogged=false]
+
+execute if entity @a[x=4340,y=40,z=-3260,distance=..75] if block 4315 40 -3268 air run setblock 4315 40 -3268 cobblemon:pasture[part=top,waterlogged=false]
+execute if entity @a[x=4340,y=40,z=-3260,distance=..75] if block 4315 39 -3268 air run setblock 4315 39 -3268 cobblemon:pasture[part=bottom,waterlogged=false]
+
+execute if entity @a[x=4340,y=40,z=-3260,distance=..75] if block 4365 40 -3264 air run setblock 4365 40 -3264 cobblemon:pasture[part=top,waterlogged=false]
+execute if entity @a[x=4340,y=40,z=-3260,distance=..75] if block 4365 39 -3264 air run setblock 4365 39 -3264 cobblemon:pasture[part=bottom,waterlogged=false]
+fill 4356 40 -3276 4357 39 -3276 air replace
 
 
 
