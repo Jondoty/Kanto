@@ -36,7 +36,7 @@ tellraw @s[scores={DialogueTrigger=106,TalkTime=55}] {"text":"Custom builder: Ly
 tellraw @s[scores={DialogueTrigger=106,TalkTime=65}] {"text":"Playtest helper: H3rodude"}
 tellraw @s[scores={DialogueTrigger=106,TalkTime=75}] {"text":"Map is based off of: FireRed and LeafGreen"}
 tellraw @s[scores={DialogueTrigger=106,TalkTime=85}] {"text":"Check out my other projects if you enjoyed!"}
-tellraw @s[scores={DialogueTrigger=106,TalkTime=85}] ["",{"text":"["},{"text":"Pixelmon Hoenn","color":"aqua","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/pixelmon-hoenn"}},{"text":"] ["},{"text":"Pixelmon Kalos","color":"yellow","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/pixelmon-kalos"}},{"text":"] ["},{"text":"Cobblemon Johto","color":"red","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/cobblemon-johto"}},{"text":"]"}]
+tellraw @s[scores={DialogueTrigger=106,TalkTime=85}] ["",{"text":"["},{"text":"Cobblemon Hoenn","color":"aqua","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/cobblemon-hoenn"}},{"text":"] ["},{"text":"Cobblemon Kalos","color":"yellow","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/cobblemon-kalos"}},{"text":"] ["},{"text":"Cobblemon Johto","color":"red","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/cobblemon-johto"}},{"text":"]"}]
 tellraw @s[scores={DialogueTrigger=106,TalkTime=95}] {"text":"Special thanks to Dan and John who played this Kanto world with me all those years ago."}
 
 #runs legendary reset function
