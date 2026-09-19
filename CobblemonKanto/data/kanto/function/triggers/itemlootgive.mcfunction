@@ -2397,6 +2397,7 @@ execute as @s[x=3097,y=52,z=-21,distance=..4,tag=Cut] run tellraw @s {"text":"Yo
 execute as @s[x=3097,y=52,z=-21,distance=..4,tag=!Cut] run tellraw @s {"text":"You obtained HM01 from the Captain!","italic":true,"color":"gray"}
 execute as @s[x=3097,y=52,z=-21,distance=..4,tag=!Cut] run playsound getitem ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=3097,y=52,z=-21,distance=..4,tag=!Cut] run advancement grant @s only kanto:mainquests/cuthm
+execute as @s[x=3097,y=52,z=-21,distance=..4,tag=!Cut] run givetm cut @s
 execute as @s[x=3097,y=52,z=-21,distance=..4,tag=!Cut] run tag @s add Cut
 
 execute as @s[x=3059,y=-8,z=-3001,dx=15,dy=5,dz=15,tag=ItemLoot398] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
