@@ -120,6 +120,7 @@
                         "value": "next",
                         "action": [
                         "q.run_command('effect clear @e[x=4143,y=33,z=-156,dy=4] minecraft:invisibility');",
+                        "q.run_command('execute as ' + q.player.username + ' run pokerestart');",
                         "q.run_command('tag ' + q.player.username + ' add Dialogue2');",
                         "q.run_command('tp ' + q.player.username + ' 4143 34 -161 0 12');",
                         "q.dialogue.set_page('page6');"
