@@ -11,6 +11,16 @@
             "bucket": "common",
             "level": "32-34",
             "weight": 5,
+            "heldItems": [
+                {
+                    "item": "cobblemon:never_melt_ice",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:aspear_berry",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 3506, "maxX": 3712, "minY": 65, "maxY": 86, "minZ": 1641, "maxZ": 1774
@@ -24,6 +34,16 @@
             "bucket": "common",
             "level": "34-36",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:never_melt_ice",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:aspear_berry",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 3506, "maxX": 3712, "minY": 33, "maxY": 64, "minZ": 1641, "maxZ": 1774
@@ -41,6 +61,16 @@
             "bucket": "common",
             "level": "35-40",
             "weight": 5.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:never_melt_ice",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:aspear_berry",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 3506, "maxX": 3712, "minY": 33, "maxY": 86, "minZ": 1641, "maxZ": 1774
@@ -55,6 +85,16 @@
             "bucket": "common",
             "level": "49-53",
             "weight": 20,
+            "heldItems": [
+                {
+                    "item": "cobblemon:never_melt_ice",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:aspear_berry",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 3399, "maxX": 3540, "minY": 33, "maxY": 82, "minZ": 1874, "maxZ": 2026
@@ -71,6 +111,16 @@
             "bucket": "common",
             "level": "35-40",
             "weight": 15,
+            "heldItems": [
+                {
+                    "item": "cobblemon:never_melt_ice",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:aspear_berry",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 3399, "maxX": 3540, "minY": 33, "maxY": 82, "minZ": 1874, "maxZ": 2026
@@ -84,6 +134,16 @@
             "bucket": "common",
             "level": "49-53",
             "weight": 20,
+            "heldItems": [
+                {
+                    "item": "cobblemon:never_melt_ice",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:aspear_berry",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 3399, "maxX": 3540, "minY": 83, "maxY": 107, "minZ": 1874, "maxZ": 2026

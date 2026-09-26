@@ -11,6 +11,16 @@
             "bucket": "common",
             "level": "25-35",
             "weight": 1.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:dragon_fang",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "minX": 3194, "maxX": 3711, "minZ": -294, "maxZ": -45,
                 "minLureLevel": 3,

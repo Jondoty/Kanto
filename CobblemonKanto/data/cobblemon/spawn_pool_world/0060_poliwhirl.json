@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "20-30",
             "weight": 40.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:kings_rock",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 4186, "maxX": 4243, "minZ": 131, "maxZ": 185,
                 "minLureLevel": 3,
@@ -26,6 +32,12 @@
             "bucket": "common",
             "level": "20-30",
             "weight": 40.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:kings_rock",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 4265, "maxX": 4507, "minZ": 139, "maxZ": 250,
                 "minLureLevel": 3,
@@ -41,6 +53,12 @@
             "bucket": "common",
             "level": "20-30",
             "weight": 40.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:kings_rock",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 4379, "maxX": 4529, "minZ": 251, "maxZ": 898,
                 "minLureLevel": 3,
@@ -56,6 +74,12 @@
             "bucket": "common",
             "level": "20-30",
             "weight": 40.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:kings_rock",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 3006, "maxX": 3235, "minZ": 804, "maxZ": 973,
                 "minLureLevel": 3,
@@ -71,6 +95,12 @@
             "bucket": "common",
             "level": "20-30",
             "weight": 40.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:kings_rock",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 2725, "maxX": 3170, "minZ": 1099, "maxZ": 1190,
                 "minLureLevel": 3,
@@ -86,6 +116,12 @@
             "bucket": "common",
             "level": "20-30",
             "weight": 40.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:kings_rock",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 3042, "maxX": 3174, "minZ": 215, "maxZ": 386,
                 "minLureLevel": 3,
@@ -101,6 +137,12 @@
             "bucket": "common",
             "level": "20-30",
             "weight": 40.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:kings_rock",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 3224, "maxX": 3440, "minZ": -2169, "maxZ": -1982,
                 "minLureLevel": 3,
@@ -116,6 +158,12 @@
             "bucket": "common",
             "level": "20-30",
             "weight": 40.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:kings_rock",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 4155, "maxX": 4428, "minZ": -3426, "maxZ": -3154,
                 "minLureLevel": 3,
@@ -131,6 +179,12 @@
             "bucket": "common",
             "level": "20-30",
             "weight": 40.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:kings_rock",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 3399, "maxX": 3540, "minY": 33, "maxY": 82, "minZ": 1874, "maxZ": 2026,
                 "minLureLevel": 3,
@@ -146,6 +200,12 @@
             "bucket": "common",
             "level": "20-30",
             "weight": 40.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:kings_rock",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 2773, "maxX": 3034, "minZ": -4696, "maxZ": -4446,
                 "minLureLevel": 3,

@@ -11,6 +11,16 @@
             "bucket": "common",
             "level": "18-28",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:sitrus_berry",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:oran_berry",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 3129, "maxX": 3304, "minZ": 1912, "maxZ": 2041

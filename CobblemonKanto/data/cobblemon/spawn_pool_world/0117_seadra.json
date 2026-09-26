@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "25-35",
             "weight": 2.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 4101, "maxX": 4227, "minZ": -198, "maxZ": -99,
                 "minLureLevel": 3,
@@ -26,6 +32,12 @@
             "bucket": "common",
             "level": "25-35",
             "weight": 4.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 3373, "maxX": 3537, "minZ": -839, "maxZ": -490,
                 "minLureLevel": 3,
@@ -41,6 +53,12 @@
             "bucket": "common",
             "level": "25-35",
             "weight": 4.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 3538, "maxX": 4097, "minZ": -839, "maxZ": -490,
                 "minLureLevel": 3,
@@ -56,6 +74,12 @@
             "bucket": "common",
             "level": "25-35",
             "weight": 4.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 4098, "maxX": 4244, "minZ": -793, "maxZ": -654,
                 "minLureLevel": 3,
@@ -71,6 +95,12 @@
             "bucket": "common",
             "level": "25-35",
             "weight": 4.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 4098, "maxX": 4227, "minZ": -653, "maxZ": -199,
                 "minLureLevel": 3,
@@ -86,6 +116,12 @@
             "bucket": "common",
             "level": "25-35",
             "weight": 4.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 4243, "maxX": 4372, "minZ": -2471, "maxZ": -2288,
                 "minLureLevel": 3,
@@ -101,6 +137,12 @@
             "bucket": "common",
             "level": "25-35",
             "weight": 4.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 4225, "maxX": 4372, "minZ": -2698, "maxZ": -2472,
                 "minLureLevel": 3,
@@ -116,6 +158,12 @@
             "bucket": "common",
             "level": "25-35",
             "weight": 4.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 4083, "maxX": 4242, "minZ": -2471, "maxZ": -1714,
                 "minLureLevel": 3,
@@ -131,6 +179,12 @@
             "bucket": "common",
             "level": "25-35",
             "weight": 4.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 2896, "maxX": 3243, "minZ": -1551, "maxZ": -1433,
                 "minLureLevel": 3,
@@ -146,6 +200,12 @@
             "bucket": "common",
             "level": "25-35",
             "weight": 4.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 3399, "maxX": 3540, "minY": 83, "maxY": 107, "minZ": 1874, "maxZ": 2026,
                 "minLureLevel": 3,
@@ -161,6 +221,12 @@
             "bucket": "common",
             "level": "25-35",
             "weight": 4.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 3116, "maxX": 3244, "minZ": -3067, "maxZ": -2961,
                 "minLureLevel": 3,
@@ -176,6 +242,12 @@
             "bucket": "common",
             "level": "25-35",
             "weight": 4.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 2836, "maxX": 3453, "minZ": -2960, "maxZ": -2739,
                 "minLureLevel": 3,
@@ -191,6 +263,12 @@
             "bucket": "common",
             "level": "25-35",
             "weight": 4.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 3012, "maxX": 3115, "minZ": -3159, "maxZ": -2941,
                 "minLureLevel": 3,
@@ -206,6 +284,12 @@
             "bucket": "common",
             "level": "25-35",
             "weight": 4.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 2881, "maxX": 3011, "minZ": -3357, "maxZ": -3032,
                 "minLureLevel": 3,
@@ -220,6 +304,12 @@
             "bucket": "common",
             "level": "25-35",
             "weight": 4.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 3012, "maxX": 3066, "minZ": -3357, "maxZ": -3160,
                 "minLureLevel": 3,
@@ -235,6 +325,12 @@
             "bucket": "common",
             "level": "25-35",
             "weight": 4.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 2627, "maxX": 3165, "minZ": -4534, "maxZ": -3665,
                 "minLureLevel": 3,
@@ -250,6 +346,12 @@
             "bucket": "common",
             "level": "25-35",
             "weight": 4.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 3735, "maxX": 4415, "minZ": -4767, "maxZ": -3851,
                 "minLureLevel": 3,

@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "22",
             "weight": 5,
+            "heldItems": [
+                {
+                    "item": "cobblemon:spell_tag",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 4065, "maxX": 4325, "minZ": 1579, "maxZ": 1690

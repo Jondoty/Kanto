@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "8",
             "weight": 1,
+            "heldItems": [
+                {
+                    "item": "cobblemon:moon_stone",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 2384, "maxX": 2643, "minZ": 1823, "maxZ": 2045
@@ -24,6 +30,12 @@
             "bucket": "common",
             "level": "10-12",
             "weight": 6,
+            "heldItems": [
+                {
+                    "item": "cobblemon:moon_stone",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 2384, "maxX": 2643, "minZ": 1398, "maxZ": 1607

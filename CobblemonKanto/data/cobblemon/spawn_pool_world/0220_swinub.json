@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "23-31",
             "weight": 50.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:aspear_berry",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 3399, "maxX": 3540, "minY": 107, "minZ": 1874, "maxZ": 2026

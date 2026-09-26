@@ -11,6 +11,16 @@
             "bucket": "common",
             "level": "44",
             "weight": 4,
+            "heldItems": [
+                {
+                    "item": "cobblemon:quick_claw",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:soft_sand",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
@@ -27,6 +37,16 @@
             "bucket": "common",
             "level": "44",
             "weight": 5,
+            "heldItems": [
+                {
+                    "item": "cobblemon:quick_claw",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:soft_sand",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 3506, "maxX": 3831, "minZ": 1393, "maxZ": 1573

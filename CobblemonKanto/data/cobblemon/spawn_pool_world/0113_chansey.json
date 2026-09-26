@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "23",
             "weight": 1,
+            "heldItems": [
+                {
+                    "item": "cobblemon:lucky_egg",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
@@ -26,6 +32,12 @@
             "bucket": "common",
             "level": "26",
             "weight": 4,
+            "heldItems": [
+                {
+                    "item": "cobblemon:lucky_egg",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"

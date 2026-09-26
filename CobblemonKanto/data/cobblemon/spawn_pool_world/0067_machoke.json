@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "44-48",
             "weight": 5,
+            "heldItems": [
+                {
+                    "item": "cobblemon:focus_band",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 3506, "maxX": 3831, "minZ": 1393, "maxZ": 1573
@@ -25,6 +31,12 @@
             "bucket": "common",
             "level": "46",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:focus_band",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 2779, "maxX": 3015, "minY": 60, "maxY": 89, "minZ": 1845, "maxZ": 1994
@@ -38,6 +50,12 @@
             "bucket": "common",
             "level": "49",
             "weight": 20,
+            "heldItems": [
+                {
+                    "item": "cobblemon:focus_band",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 2779, "maxX": 3015, "minY": 90, "maxY": 99, "minZ": 1845, "maxZ": 1994
@@ -51,6 +69,12 @@
             "bucket": "common",
             "level": "52",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:focus_band",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 2779, "maxX": 3015, "minY": 33, "maxY": 59, "minZ": 1845, "maxZ": 1994
@@ -65,6 +89,12 @@
             "bucket": "common",
             "level": "38-40",
             "weight": 20,
+            "heldItems": [
+                {
+                    "item": "cobblemon:focus_band",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 3600, "maxX": 3922, "minY": 33, "maxY": 148, "minZ": 1811, "maxZ": 2100
@@ -79,6 +109,12 @@
             "bucket": "common",
             "level": "40-42",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:focus_band",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 3993, "maxX": 4317, "minY": 137, "maxY": 153, "minZ": 1812, "maxZ": 2106

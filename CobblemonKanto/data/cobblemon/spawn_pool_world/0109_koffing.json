@@ -14,6 +14,12 @@
             "bucket": "common",
             "level": "11-17",
             "weight": 2.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:smoke_ball",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 3335, "maxX": 3637, "minZ": 396, "maxZ": 599
             }
@@ -27,6 +33,12 @@
             "bucket": "common",
             "level": "28-30",
             "weight": 15,
+            "heldItems": [
+                {
+                    "item": "cobblemon:smoke_ball",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 3805, "maxX": 4058, "minY": 47, "maxY": 88, "minZ": 1636, "maxZ": 1791
@@ -40,6 +52,12 @@
             "bucket": "common",
             "level": "28-30",
             "weight": 15,
+            "heldItems": [
+                {
+                    "item": "cobblemon:smoke_ball",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 3805, "maxX": 4058, "minY": 30, "maxY": 43, "minZ": 1636, "maxZ": 1791

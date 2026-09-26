@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "20",
             "weight": 1,
+            "heldItems": [
+                {
+                    "item": "cobblemon:spell_tag",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "neededNearbyBlocks": [
@@ -28,6 +34,12 @@
             "bucket": "common",
             "level": "20",
             "weight": 5,
+            "heldItems": [
+                {
+                    "item": "cobblemon:spell_tag",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "neededNearbyBlocks": [
@@ -45,6 +57,12 @@
             "bucket": "common",
             "level": "21-23",
             "weight": 6,
+            "heldItems": [
+                {
+                    "item": "cobblemon:spell_tag",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "neededNearbyBlocks": [
@@ -62,6 +80,12 @@
             "bucket": "common",
             "level": "23-25",
             "weight": 15,
+            "heldItems": [
+                {
+                    "item": "cobblemon:spell_tag",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "neededNearbyBlocks": [
@@ -79,6 +103,12 @@
             "bucket": "common",
             "level": "44-52",
             "weight": 30,
+            "heldItems": [
+                {
+                    "item": "cobblemon:spell_tag",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 4065, "maxX": 4325, "minZ": 1579, "maxZ": 1690
