@@ -42,10 +42,10 @@
         "party": {
         "type": "simple",
         "pokemon": [
-            "Nidorino level=32 moves=hornattack,poisonsting,helpinghand,furyattack",
-            "Rhyhorn level=32 moves=furyattack,scaryface,stomp,rockblast",
-            "Kangaskhan level=32 moves=fakeout,rage,megapunch,tailwhip",
-            "Nidoqueen level=32 moves=doublekick,tailwhip,poisonsting,bodyslam"
+            "Nidorino level=37 moves=hornattack,poisonsting,helpinghand,furyattack",
+            "Rhyhorn level=37 moves=furyattack,scaryface,stomp,rockblast",
+            "Kangaskhan level=35 moves=fakeout,rage,megapunch,tailwhip",
+            "Nidoqueen level=41 moves=doublekick,tailwhip,poisonsting,bodyslam"
         ]
     },
     "config": [
