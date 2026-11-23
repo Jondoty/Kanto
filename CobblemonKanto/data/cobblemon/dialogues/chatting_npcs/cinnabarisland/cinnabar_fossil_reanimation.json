@@ -83,7 +83,7 @@
                             "q.run_command('execute as ' + q.player.username + ' run clear @s cobblemon:dome_fossil 1');",
                             "q.run_command('execute as ' + q.player.username + ' run pokegive kabuto level=30');",
                             "q.run_command('execute as ' + q.player.username + ' run playsound minecraft:getpokemon ambient @s ~ ~ ~ 1 1 1');",
-                            "q.dialogue.set_page('page4');"
+                            "q.dialogue.set_page('page5');"
                         ]
                     },
                     {
@@ -94,7 +94,7 @@
                             "q.run_command('execute as ' + q.player.username + ' run clear @s cobblemon:old_amber_fossil 1');",
                             "q.run_command('execute as ' + q.player.username + ' run pokegive aerodactyl level=30');",
                             "q.run_command('execute as ' + q.player.username + ' run playsound minecraft:getpokemon ambient @s ~ ~ ~ 1 1 1');",
-                            "q.dialogue.set_page('page4');"
+                            "q.dialogue.set_page('page6');"
                         ]
                     },
                     {
